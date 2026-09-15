@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sajt u izradi</title>
+    <style>
+        /* Osnovni reset i stilovi */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Kontejner koji prati širinu ekrana */
+        .container {
+            width: 100%;
+            max-width: 600px; /* Maksimalna širina za lektiranje na velikim ekranima */
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        p.subtitle {
+            font-size: 1.1rem;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+        }
+
+        /* Stilovi za formu */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            text-align: left;
+        }
+
+        label {
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+
+        textarea {
+            resize: vertical; /* Dozvoljava promenu visine samo vertikalno */
+            min-height: 120px;
+        }
+
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 15px;
+            font-size: 1.1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        /* Responsive prilagođavanje za manje ekrane */
+        @media (max-width: 480px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Sajt je u izradi</h1>
+        <p class="subtitle">Brzo se vraćamo! Ako želite da nas kontaktirate u međuvremenu, popunite formu ispod.</p>
+
+        <form class="contact-form" id="contactForm">
+            <div>
+                <label for="name">Ime i prezime</label>
+                <input type="text" id="name" name="name" required placeholder="Vaše ime">
+            </div>
+
+            <div>
+                <label for="phone">Telefon</label>
+                <input type="tel" id="phone" name="phone" placeholder="Vaš broj telefona">
+            </div>
+
+            <div>
+                <label for="email">Email adresa</label>
+                <input type="email" id="email" name="email" required placeholder="vas@email.com">
+            </div>
+
+            <div>
+                <label for="message">Opis poruke</label>
+                <textarea id="message" name="message" required placeholder="Ovde napišite poruku..."></textarea>
+            </div>
+
+            <button type="submit">Pošalji Email</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault(); // Sprečava osvežavanje stranice
+
+            // Prikupljanje podataka
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            // Kreiranje subject linije
+            const subject = encodeURIComponent(`Kontakt sa sajta: ${name}`);
+            
+            // Kreiranje tela poruke
+            const body = encodeURIComponent(
+                `Ime: ${name}\n` +
+                `Telefon: ${phone}\n` +
+                `Email: ${email}\n\n` +
+                `Poruka:\n${message}`
+            );
+
+            // Kreiranje mailto linka
+            // Napomena: Ovo će otvoriti korisnikov email klijent (Outlook, Mail, Gmail itd.)
+            const mailtoLink = `mailto:vasa@preduzeca.com?subject=${subject}&body=${body}`;
+
+            // Preusmeravanje na mailto link
+            window.location.href = mailtoLink;
+        });
+    </script>
+
+</body>
+</html>
