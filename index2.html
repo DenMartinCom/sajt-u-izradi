@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sajt u izradi</title>
+    <style>
+        /* Osnovni reset i stilovi */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Kontejner koji prati širinu ekrana */
+        .container {
+            width: 100%;
+            max-width: 600px;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 25px; /* Razmak između slajdera i forme */
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        p.subtitle {
+            font-size: 1.1rem;
+            color: #7f8c8d;
+            margin-bottom: 0; /* Resetujemo margin jer koristimo gap u containeru */
+        }
+
+        /* --- STILOVI ZA SLAJDER (NOVO) --- */
+        .slider-wrapper {
+            width: 100%;
+            max-width: 800px; /* Malo šire od kontejnera ako treba, ali ovde se prilagođava */
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px;
+            /* Održava aspect ratio 16:9 i boju pozadine dok se slika ne učitava */
+            aspect-ratio: 16 / 9;
+            background-color: #e0e0e0; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        .slider-wrapper img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+            pointer-events: none; /* Da ne smeta klikovima ako je potrebno */
+        }
+
+        .slider-wrapper img.active {
+            opacity: 1;
+            z-index: 1;
+        }
+
+        .dots-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: -30px; /* Malo podiže tačkice da budu preko donjeg dela slike */
+            margin-bottom: 10px;
+        }
+
+        .dot {
+            width: 12px;
+            height: 12px;
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 50%;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .dot.active {
+            background-color: #3498db; /* Boja aktivne tačkice (plava) */
+            transform: scale(1.2);
+        }
+
+        .dot:hover {
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        /* Stilovi za formu */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            text-align: left;
+        }
+
+        label {
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 15px;
+            font-size: 1.1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        /* Responsive prilagođavanje */
+        @media (max-width: 480px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            .slider-wrapper {
+                aspect-ratio: auto; /* Na mobilnom može biti manje visoko ako slika tako zahteva, ili ostavi 16/9 */
+                max-height: 300px;   /* Limit visine na mobilnom */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Sajt DenMartin.com je u izradi</h1>
+        <p class="subtitle">Brzo se vraćamo! Ako želite da nas kontaktirate u međuvremenu, popunite formu ispod.</p>
+
+        <!-- SLAJDER DEO -->
+        <div class="slider-wrapper" id="sliderWrapper">
+            <!-- Slike će se ubaciti ovde preko JavaScript-a -->
+        </div>
+        <div class="dots-container" id="dotsContainer">
+            <!-- Tačkice će se ubaciti ovde preko JavaScript-a -->
+        </div>
+
+        <form class="contact-form" id="contactForm">
+            <div>
+                <label for="name">Ime</label>
+                <input type="text" id="name" name="name" required placeholder="Vaše ime">
+            </div>
+
+            <div>
+                <label for="phone">Telefon</label>
+                <input type="tel" id="phone" name="phone" placeholder="Vaš broj telefona">
+            </div>
+
+            <div>
+                <label for="email">Email adresa</label>
+                <input type="email" id="email" name="email" required placeholder="vas@email.com">
+            </div>
+
+            <div>
+                <label for="message">Poruka</label>
+                <textarea id="message" name="message" required placeholder="Ovde napišite poruku..."></textarea>
+            </div>
+
+            <button type="submit">Pošalji Email</button>
+        </form>
+    </div>
+
+    <!-- Originalni Script za formu -->
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault(); 
+
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            const subject = encodeURIComponent(`Sa sajta: ${name}`);
+            const body = encodeURIComponent(
+                `Poruka:\n${message}` +
+                '\n\n' +
+                `Ime: ${name}\n` +
+                `Telefon: ${phone}\n` +
+                `Email: ${email}\n\n` 
+                
+            );
+
+            const mailtoLink = `mailto:com@denmartin.com?subject=${subject}&body=${body}`;
+            window.location.href = mailtoLink;
+        });
+    </script>
+
+    <!-- Script za Slajder -->
+    <script>
+        const FOLDER = './zaSlajd/';
+        const DELAY = 5000; // 5 sekundi
+        
+        let slides = [];
+        let dots = [];
+        let current = 0;
+        let interval = null;
+
+        // Učitavanje list.json
+        fetch(FOLDER + 'list.json')
+            .then(r => {
+                if (!r.ok) throw new Error('list.json nije nađen');
+                return r.json();
+            })
+            .then(files => init(files))
+            .catch(err => {
+                console.error('Greška pri učitavanju slajdera:', err);
+                // Ovde možeš dodati fallback ako nema slika (npr. sakriti slajder)
+                document.getElementById('sliderWrapper').style.display = 'none';
+                document.getElementById('dotsContainer').style.display = 'none';
+            });
+
+        function init(files) {
+            const wrapper = document.getElementById('sliderWrapper');
+            const dotsBox = document.getElementById('dotsContainer');
+
+            files.forEach((file, i) => {
+                // Kreiranje slike
+                const img = document.createElement('img');
+                img.src = FOLDER + file;
+                img.alt = "Slajd " + (i + 1);
+                if (i === 0) img.classList.add('active');
+                wrapper.appendChild(img);
+
+                // Kreiranje tačkice
+                const dot = document.createElement('div');
+                dot.classList.add('dot');
+                if (i === 0) dot.classList.add('active');
+                dot.onclick = () => showSlide(i);
+                dotsBox.appendChild(dot);
+            });
+
+            slides = wrapper.querySelectorAll('img');
+            dots = dotsBox.querySelectorAll('.dot');
+            resetTimer();
+        }
+
+        function showSlide(index) {
+            slides[current].classList.remove('active');
+            dots[current].classList.remove('active');
+            current = index;
+            slides[current].classList.add('active');
+            dots[current].classList.add('active');
+            resetTimer();
+        }
+
+        function nextSlide() {
+            showSlide((current + 1) % slides.length);
+        }
+
+        function resetTimer() {
+            clearInterval(interval);
+            interval = setInterval(nextSlide, DELAY);
+        }
+    </script>
+
+</body>
+                  </html>
