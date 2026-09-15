@@ -202,7 +202,7 @@
             </div>
 
             <div>
-                <label for="message">Opis poruke</label>
+                <label for="message">Poruka</label>
                 <textarea id="message" name="message" required placeholder="Ovde napišite poruku..."></textarea>
             </div>
 
@@ -222,10 +222,12 @@
 
             const subject = encodeURIComponent(`Sa sajta: ${name}`);
             const body = encodeURIComponent(
+                `Poruka:\n${message}` +
+                '\n\n' +
                 `Ime: ${name}\n` +
                 `Telefon: ${phone}\n` +
-                `Email: ${email}\n\n` +
-                `Poruka:\n${message}`
+                `Email: ${email}\n\n` 
+                
             );
 
             const mailtoLink = `mailto:com@denmartin.com?subject=${subject}&body=${body}`;
