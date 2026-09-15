@@ -31,8 +31,8 @@
         }
 
         h1 {
-            font-size: 2rem;
-            margin-bottom: 20px;
+            font-size: 1.3rem; /* MANJI FONT */
+            margin-bottom: 15px;
             color: #2c3e50;
         }
 
@@ -41,7 +41,7 @@
             position: relative;
             width: 100%;
             aspect-ratio: 16 / 9; 
-            background-color: #222; /* Tamna pozadina za kontrast */
+            background-color: #222;
             border-radius: 8px;
             overflow: hidden;
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -53,10 +53,10 @@
             left: 0;
             width: 100%;
             height: 100%;
-            object-fit: contain; /* CELO SLIKA, bez sečenja */
+            object-fit: fill; /* RAZVLAČI SLIKU DA POPUNI OKVIR */
             opacity: 0;
             transition: opacity 1s ease-in-out;
-            pointer-events: none;
+            cursor: pointer; /* Kursor pokazuje da je klikabilna */
         }
 
         .slider-wrapper img.active {
@@ -90,13 +90,56 @@
             background-color: #95a5a6;
         }
 
+        /* Kontakt dugme */
+        .btn-kontakt {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 30px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+        }
+
+        .btn-kontakt:hover {
+            background-color: #2980b9;
+        }
+
+        /* Lightbox (uvećana slika) */
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 100;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .lightbox img {
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: contain; /* Uvećana slika se NE razvlači, da se vidi tekst */
+            border-radius: 8px;
+        }
+
+        .lightbox.active {
+            display: flex;
+        }
+
         /* Responsive */
         @media (max-width: 600px) {
             .container {
                 padding: 15px;
             }
             h1 {
-                font-size: 1.5rem;
+                font-size: 1.1rem;
             }
         }
     </style>
@@ -104,22 +147,30 @@
 <body>
 
     <div class="container">
-        <h1>Galerija</h1>
+        <h1>Naša Galerija</h1>
         
         <!-- SLAJDER -->
         <div class="slider-wrapper" id="sliderWrapper">
             
             <!-- UBACI SLIKE OVDE -->
-            <img src="zaSlajd/slika0.webp" alt="Slika 0" class="active">
-            <img src="zaSlajd/slika1.webp" alt="Slika 1">
-            <img src="zaSlajd/slika2.webp" alt="Slika 2">
-            <img src="zaSlajd/slika3.webp" alt="Slika 3">
-            <img src="zaSlajd/slika4.webp" alt="Slika 4">
-            <img src="zaSlajd/slika5.webp" alt="Slika 5">
-            <img src="zaSlajd/slika6.webp" alt="Slika 6">
+            <img src="zaSlajd/0.webp" alt="Slika 0" class="active">
+            <img src="zaSlajd/1.webp" alt="Slika 1">
+            <img src="zaSlajd/2.webp" alt="Slika 2">
+            <img src="zaSlajd/3.webp" alt="Slika 3">
+            <img src="zaSlajd/4.webp" alt="Slika 4">
+            <img src="zaSlajd/5.webp" alt="Slika 5">
+            <img src="zaSlajd/6.webp" alt="Slika 6">
+
         </div>
 
         <div class="dots-container" id="dotsContainer"></div>
+
+        <a href="index2.html" class="btn-kontakt">Kontakt</a>
+    </div>
+
+    <!-- Lightbox za uvećanu sliku -->
+    <div class="lightbox" id="lightbox">
+        <img src="" alt="Uvećana slika" id="lightboxImg">
     </div>
 
     <script>
@@ -128,7 +179,12 @@
         const wrapper = document.getElementById('sliderWrapper');
         const dotsBox = document.getElementById('dotsContainer');
         const slides = wrapper.querySelectorAll('img');
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightboxImg');
         
+        let current = 0;
+        let interval = null;
+
         if (slides.length === 0) {
             console.error("Nije pronađena nijedna slika!");
             wrapper.style.display = 'none';
@@ -143,28 +199,44 @@
                 dots.push(dot);
             });
 
-            let current = 0;
-            let interval = null;
-
             function showSlide(index) {
                 slides[current].classList.remove('active');
                 dots[current].classList.remove('active');
                 current = index;
                 slides[current].classList.add('active');
                 dots[current].classList.add('active');
-                resetTimer();
             }
 
             function nextSlide() {
                 showSlide((current + 1) % slides.length);
             }
 
-            function resetTimer() {
-                clearInterval(interval);
+            function startTimer() {
                 interval = setInterval(nextSlide, DELAY);
             }
 
-            resetTimer();
+            function stopTimer() {
+                clearInterval(interval);
+            }
+
+            // Klik na sliku: otvori lightbox i zaustavi slajdovanje
+            slides.forEach((slide) => {
+                slide.addEventListener('click', () => {
+                    lightboxImg.src = slide.src;
+                    lightbox.classList.add('active');
+                    stopTimer(); // STOPIRAJ SLAJDOVANJE
+                });
+            });
+
+            // Klik bilo gde u lightbox-u: zatvori i nastavi slajdovanje
+            lightbox.addEventListener('click', () => {
+                lightbox.classList.remove('active');
+                lightboxImg.src = '';
+                startTimer(); // NASTAVI SLAJDOVANJE
+            });
+
+            // Pokreni slajdovanje
+            startTimer();
         }
     </script>
 
