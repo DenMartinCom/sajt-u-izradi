@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slajder Slika</title>
+    <title>Slajder Slika (Touch + Dugmići)</title>
     <style>
         /* Osnovni reset */
         * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -31,12 +31,12 @@
         }
 
         h1 {
-            font-size: 1.3rem; /* MANJI FONT */
+            font-size: 1.3rem;
             margin-bottom: 15px;
             color: #2c3e50;
         }
 
-        /* --- STILOVI SLAJDERA --- */
+        /* --- SLAJDER WRAPPER --- */
         .slider-wrapper {
             position: relative;
             width: 100%;
@@ -45,6 +45,7 @@
             border-radius: 8px;
             overflow: hidden;
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            user-select: none; /* Sprečava selektovanje slike tokom prevlačenja */
         }
 
         .slider-wrapper img {
@@ -53,16 +54,41 @@
             left: 0;
             width: 100%;
             height: 100%;
-            object-fit: fill; /* RAZVLAČI SLIKU DA POPUNI OKVIR */
+            object-fit: cover; /* Preporučujem 'cover' umesto 'fill' za bolje izgledanje */
             opacity: 0;
-            transition: opacity 1s ease-in-out;
-            cursor: pointer; /* Kursor pokazuje da je klikabilna */
+            transition: opacity 0.5s ease-in-out;
+            cursor: pointer;
         }
 
         .slider-wrapper img.active {
             opacity: 1;
             z-index: 1;
         }
+
+        /* Dugmići za navigaciju (Prethodna/Sledeća) */
+        .nav-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            font-size: 1.5rem;
+            cursor: pointer;
+            border-radius: 50%;
+            z-index: 10;
+            opacity: 0.7;
+            transition: opacity 0.3s;
+        }
+
+        .nav-btn:hover {
+            opacity: 1;
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        .prev-btn { left: 10px; }
+        .next-btn { right: 10px; }
 
         /* Tačkice */
         .dots-container {
@@ -107,7 +133,7 @@
             background-color: #2980b9;
         }
 
-        /* Lightbox (uvećana slika) */
+        /* Lightbox */
         .lightbox {
             display: none;
             position: fixed;
@@ -125,7 +151,7 @@
         .lightbox img {
             max-width: 90%;
             max-height: 90%;
-            object-fit: contain; /* Uvećana slika se NE razvlači, da se vidi tekst */
+            object-fit: contain;
             border-radius: 8px;
         }
 
@@ -133,14 +159,10 @@
             display: flex;
         }
 
-        /* Responsive */
         @media (max-width: 600px) {
-            .container {
-                padding: 15px;
-            }
-            h1 {
-                font-size: 1.1rem;
-            }
+            .container { padding: 15px; }
+            h1 { font-size: 1.1rem; }
+            .nav-btn { padding: 8px 12px; font-size: 1.2rem; }
         }
     </style>
 </head>
@@ -149,10 +171,12 @@
     <div class="container">
         <h1>Galerija</h1>
         
-        <!-- SLAJDER -->
         <div class="slider-wrapper" id="sliderWrapper">
-            
-            <!-- UBACI SLIKE OVDE -->
+            <!-- Navigacioni dugmići -->
+            <button class="nav-btn prev-btn" title="Prethodna">&lt;</button>
+            <button class="nav-btn next-btn" title="Sledeća">&gt;</button>
+
+            <!-- Slike -->
             <img src="zaSlajd/slika0.webp" alt="Slika 0" class="active">
             <img src="zaSlajd/slika1.webp" alt="Slika 1">
             <img src="zaSlajd/slika2.webp" alt="Slika 2">
@@ -160,7 +184,6 @@
             <img src="zaSlajd/slika4.webp" alt="Slika 4">
             <img src="zaSlajd/slika5.webp" alt="Slika 5">
             <img src="zaSlajd/slika6.webp" alt="Slika 6">
-
         </div>
 
         <div class="dots-container" id="dotsContainer"></div>
@@ -168,7 +191,7 @@
         <a href="kontakt.html" class="btn-kontakt">Kontakt</a>
     </div>
 
-    <!-- Lightbox za uvećanu sliku -->
+    <!-- Lightbox -->
     <div class="lightbox" id="lightbox">
         <img src="" alt="Uvećana slika" id="lightboxImg">
     </div>
@@ -181,9 +204,16 @@
         const slides = wrapper.querySelectorAll('img');
         const lightbox = document.getElementById('lightbox');
         const lightboxImg = document.getElementById('lightboxImg');
+        const prevBtn = wrapper.querySelector('.prev-btn');
+        const nextBtn = wrapper.querySelector('.next-btn');
         
         let current = 0;
         let interval = null;
+        
+        // Promenljive za Touch Swipe
+        let touchStartX = 0;
+        let touchEndX = 0;
+        const minSwipeDistance = 50; // Minimalna distanca za swipe
 
         if (slides.length === 0) {
             console.error("Nije pronađena nijedna slika!");
@@ -211,6 +241,10 @@
                 showSlide((current + 1) % slides.length);
             }
 
+            function prevSlide() {
+                showSlide((current - 1 + slides.length) % slides.length);
+            }
+
             function startTimer() {
                 interval = setInterval(nextSlide, DELAY);
             }
@@ -219,21 +253,62 @@
                 clearInterval(interval);
             }
 
-            // Klik na sliku: otvori lightbox i zaustavi slajdovanje
+            // --- KLIK NA SLIKU (Lightbox) ---
             slides.forEach((slide) => {
-                slide.addEventListener('click', () => {
-                    lightboxImg.src = slide.src;
-                    lightbox.classList.add('active');
-                    stopTimer(); // STOPIRAJ SLAJDOVANJE
+                slide.addEventListener('click', (e) => {
+                    // Sprečiti da se aktivira ako je klik nastao preko dugmića
+                    if(e.target === slide) {
+                        lightboxImg.src = slide.src;
+                        lightbox.classList.add('active');
+                        stopTimer();
+                    }
                 });
             });
 
-            // Klik bilo gde u lightbox-u: zatvori i nastavi slajdovanje
+            // Zatvaranje Lightbox-a
             lightbox.addEventListener('click', () => {
                 lightbox.classList.remove('active');
                 lightboxImg.src = '';
-                startTimer(); // NASTAVI SLAJDOVANJE
+                startTimer();
             });
+
+            // --- DUGMIĆI ZA NAVIGACIJU ---
+            prevBtn.addEventListener('click', () => {
+                prevSlide();
+                startTimer(); // Restartuj timer nakon interakcije
+            });
+
+            nextBtn.addEventListener('click', () => {
+                nextSlide();
+                startTimer();
+            });
+
+            // --- TOUCH SWIPE LOGIKA ---
+            wrapper.addEventListener('touchstart', (e) => {
+                touchStartX = e.changedTouches[0].screenX;
+                stopTimer(); // Zaustavi slajdovanje dok korisnik dodiruje ekran
+            }, { passive: true });
+
+            wrapper.addEventListener('touchend', (e) => {
+                touchEndX = e.changedTouches[0].screenX;
+                handleSwipe();
+                startTimer(); // Nastavi slajdovanje nakon dodira
+            }, { passive: true });
+
+            function handleSwipe() {
+                const diff = touchEndX - touchStartX;
+                
+                // Ako je swipe dovoljno dug
+                if (Math.abs(diff) > minSwipeDistance) {
+                    if (diff > 0) {
+                        // Swipe levo (slika se pomera u levo -> sledeća slika)
+                        nextSlide();
+                    } else {
+                        // Swipe desno (slika se pomera u desno -> prethodna slika)
+                        prevSlide();
+                    }
+                }
+            }
 
             // Pokreni slajdovanje
             startTimer();
