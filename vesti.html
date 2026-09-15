@@ -64,12 +64,17 @@
         .widget-ekonomija iframe {
             width: 100%;
             max-width: 100%;
-            height: 934px;
+            height: 1074px; /* povećano ~15% sa 934px */
             border-radius: 14px;
             background: #F5F5F5;
         }
 
-        /* KURSNA LISTA – uska, centrirana */
+        /* KURSNA LISTA – uska, centrirana, bez praznog dna */
+        .widget-kurs {
+            justify-content: center; /* vertikalno centriranje iframe-a */
+            padding: 12px;
+        }
+
         .widget-kurs iframe {
             width: 115px;
             height: 170px;
@@ -103,7 +108,7 @@
             }
 
             .widget-ekonomija iframe {
-                height: 800px;
+                height: 920px; /* povećano ~15% sa 800px */
                 border-radius: 12px;
             }
 
@@ -116,7 +121,7 @@
 
         @media (max-width: 360px) {
             .widget-ekonomija iframe {
-                height: 700px;
+                height: 805px; /* povećano ~15% sa 700px */
             }
         }
     </style>
