@@ -22,7 +22,7 @@
         /* Kontejner */
         .container {
             width: 100%;
-            max-width: 800px; /* Maksimalna širina slajdera */
+            max-width: 800px;
             background: #ffffff;
             padding: 20px;
             border-radius: 12px;
@@ -40,9 +40,8 @@
         .slider-wrapper {
             position: relative;
             width: 100%;
-            /* Aspect ratio 16:9, ali možeš promeniti na 4:3 ili 1:1 */
             aspect-ratio: 16 / 9; 
-            background-color: #e0e0e0; /* Boja dok se slika učitava */
+            background-color: #222; /* Tamna pozadina za kontrast */
             border-radius: 8px;
             overflow: hidden;
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -54,7 +53,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            object-fit: cover; /* Slika će pokriti ceo okvir */
+            object-fit: contain; /* CELO SLIKA, bez sečenja */
             opacity: 0;
             transition: opacity 1s ease-in-out;
             pointer-events: none;
@@ -99,56 +98,41 @@
             h1 {
                 font-size: 1.5rem;
             }
-            .slider-wrapper {
-                /* Na mobilnom možda želiš da slika bude manja */
-                max-height: 300px; 
-            }
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h1>Naša Galerija</h1>
+        <h1>Galerija</h1>
         
         <!-- SLAJDER -->
         <div class="slider-wrapper" id="sliderWrapper">
             
             <!-- UBACI SLIKE OVDE -->
-            <!-- Zameni 'slika1.webp', 'slika2.webp' sa tvojim tačnim imenima fajlova -->
-            <!-- Prva slika mora imati klasu 'active' -->
-            
-            <img src="zaSlajd/slika1.webp" alt="Slika 1" class="active">
+            <img src="zaSlajd/slika0.webp" alt="Slika 0" class="active">
+            <img src="zaSlajd/slika1.webp" alt="Slika 1">
             <img src="zaSlajd/slika2.webp" alt="Slika 2">
             <img src="zaSlajd/slika3.webp" alt="Slika 3">
-            
-            <!-- Ako imaš više slika, kopiraj linije iznad, npr:
             <img src="zaSlajd/slika4.webp" alt="Slika 4">
             <img src="zaSlajd/slika5.webp" alt="Slika 5">
-             -->
-
+            <img src="zaSlajd/slika6.webp" alt="Slika 6">
         </div>
 
-        <div class="dots-container" id="dotsContainer">
-            <!-- Tačkice se automatski generišu -->
-        </div>
+        <div class="dots-container" id="dotsContainer"></div>
     </div>
 
     <script>
-        // Konfiguracija
-        const DELAY = 5000; // 5 sekundi
+        const DELAY = 5000;
 
-        // Elementi
         const wrapper = document.getElementById('sliderWrapper');
         const dotsBox = document.getElementById('dotsContainer');
         const slides = wrapper.querySelectorAll('img');
         
-        // Ako nema slika, izlazimo
         if (slides.length === 0) {
             console.error("Nije pronađena nijedna slika!");
-            document.getElementById('sliderWrapper').style.display = 'none';
+            wrapper.style.display = 'none';
         } else {
-            // Generiši tačkice
             const dots = [];
             slides.forEach((_, i) => {
                 const dot = document.createElement('div');
@@ -163,22 +147,16 @@
             let interval = null;
 
             function showSlide(index) {
-                // Skini active sa trenutne
                 slides[current].classList.remove('active');
                 dots[current].classList.remove('active');
-
-                // Postavi novu
                 current = index;
                 slides[current].classList.add('active');
                 dots[current].classList.add('active');
-
-                // Resetuj tajmer
                 resetTimer();
             }
 
             function nextSlide() {
-                const nextIndex = (current + 1) % slides.length;
-                showSlide(nextIndex);
+                showSlide((current + 1) % slides.length);
             }
 
             function resetTimer() {
@@ -186,7 +164,6 @@
                 interval = setInterval(nextSlide, DELAY);
             }
 
-            // Pokreni
             resetTimer();
         }
     </script>
