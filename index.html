@@ -110,12 +110,12 @@
 <body>
 
     <div class="container">
-        <h1>Sajt je u izradi</h1>
+        <h1>Sajt DenMartin.com je u izradi</h1>
         <p class="subtitle">Brzo se vraćamo! Ako želite da nas kontaktirate u međuvremenu, popunite formu ispod.</p>
 
         <form class="contact-form" id="contactForm">
             <div>
-                <label for="name">Ime i prezime</label>
+                <label for="name">Ime</label>
                 <input type="text" id="name" name="name" required placeholder="Vaše ime">
             </div>
 
@@ -125,7 +125,7 @@
             </div>
 
             <div>
-                <label for="email">Email adresa</label>
+                <label for="email">Email adresa, ne mora</label>
                 <input type="email" id="email" name="email" required placeholder="vas@email.com">
             </div>
 
@@ -149,7 +149,7 @@
             const message = document.getElementById('message').value;
 
             // Kreiranje subject linije
-            const subject = encodeURIComponent(`Kontakt sa sajta: ${name}`);
+            const subject = encodeURIComponent(`Sa sajta: ${name}`);
             
             // Kreiranje tela poruke
             const body = encodeURIComponent(
@@ -161,7 +161,7 @@
 
             // Kreiranje mailto linka
             // Napomena: Ovo će otvoriti korisnikov email klijent (Outlook, Mail, Gmail itd.)
-            const mailtoLink = `mailto:vasa@preduzeca.com?subject=${subject}&body=${body}`;
+            const mailtoLink = `mailto:com@denmartin.com?subject=${subject}&body=${body}`;
 
             // Preusmeravanje na mailto link
             window.location.href = mailtoLink;
