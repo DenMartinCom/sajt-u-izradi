@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vreme, vesti i kursna lista</title>
+    <title>Vreme, vesti, kursna lista i kripto</title>
     <style>
         * {
             box-sizing: border-box;
@@ -54,12 +54,10 @@
             background: transparent;
         }
 
-        /* Vremenski widgeti */
         .widget-vreme iframe {
             height: 180px;
         }
 
-        /* Ekonomija */
         .widget-ekonomija {
             align-items: flex-start;
         }
@@ -68,10 +66,21 @@
             height: 934px;
         }
 
-        /* Kursna lista – sužena */
         .widget-kurs iframe {
             height: 170px;
             width: 115px;
+        }
+
+        /* KRIPTO WIDGET */
+        .widget-kripto {
+            flex-direction: column;
+            gap: 10px;
+            align-items: stretch;
+        }
+
+        .widget-kripto .coinmarketcap-currency-widget {
+            margin: 0 !important;
+            width: 100% !important;
         }
 
         /* RESPONSIVE – uski ekrani */
@@ -83,34 +92,16 @@
             .container {
                 flex-direction: column;
                 gap: 14px;
-                align-items: stretch;   /* sve na punu širinu */
+                align-items: center;
             }
 
             .kolona {
                 width: 100%;
-                max-width: 100%;
+                max-width: 328px;
                 gap: 14px;
             }
 
-            /* Ekonomija – puna širina ekrana, iframe se rasteže */
-            .widget-ekonomija {
-                padding: 0;             /* bez unutrašnjeg okvira da tekst bude što širi */
-                background: transparent;
-                box-shadow: none;
-                border-radius: 0;
-            }
-
-            .widget-ekonomija iframe {
-                width: 100%;
-                max-width: 100%;
-                height: 800px;
-                border-radius: 0;
-            }
-
-            /* Vreme i kurs – ostaju centrirani u svojoj prirodnoj širini */
-            .widget-vreme,
-            .widget-kurs {
-                align-self: center;
+            .widget {
                 padding: 10px;
                 border-radius: 14px;
             }
@@ -118,6 +109,15 @@
             .widget-vreme iframe {
                 width: 300px;
                 height: 180px;
+            }
+
+            .widget-ekonomija {
+                align-items: center;
+            }
+
+            .widget-ekonomija iframe {
+                width: 300px;
+                height: 800px;
             }
 
             .widget-kurs iframe {
@@ -158,7 +158,7 @@
                 </iframe>
             </div>
 
-            <!-- EKONOMIJA – na mobilnom puna širina ekrana -->
+            <!-- EKONOMIJA -->
             <div class="widget widget-ekonomija">
                 <iframe
                     src="https://naslovi.net/widget/?type=ekonomija&bgcolor=F5F5F5&textcolor=000000&separatorcolor=D0D0D0&count=10&"
@@ -180,6 +180,24 @@
                     loading="lazy">
                     <a href="https://naslovi.net/kursna_lista.php">Kursna lista</a>
                 </iframe>
+            </div>
+
+            <!-- KRIPTO VALUTE -->
+            <div class="widget widget-kripto">
+                <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+                <div class="coinmarketcap-currency-widget" data-currencyid="30618" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="false" data-statsticker="false" data-stats="USD"></div>
+
+                <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+                <div class="coinmarketcap-currency-widget" data-currencyid="5176" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="false" data-statsticker="false" data-stats="USD"></div>
+
+                <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+                <div class="coinmarketcap-currency-widget" data-currencyid="39332" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div>
+
+                <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+                <div class="coinmarketcap-currency-widget" data-currencyid="1027" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div>
+
+                <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+                <div class="coinmarketcap-currency-widget" data-currencyid="1" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div>
             </div>
 
         </div>
