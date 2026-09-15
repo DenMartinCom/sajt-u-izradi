@@ -26,12 +26,15 @@
         /* Kontejner koji prati širinu ekrana */
         .container {
             width: 100%;
-            max-width: 600px; /* Maksimalna širina za lektiranje na velikim ekranima */
+            max-width: 600px;
             background: #ffffff;
             padding: 40px;
             border-radius: 12px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 25px; /* Razmak između slajdera i forme */
         }
 
         h1 {
@@ -43,7 +46,64 @@
         p.subtitle {
             font-size: 1.1rem;
             color: #7f8c8d;
-            margin-bottom: 30px;
+            margin-bottom: 0; /* Resetujemo margin jer koristimo gap u containeru */
+        }
+
+        /* --- STILOVI ZA SLAJDER (NOVO) --- */
+        .slider-wrapper {
+            width: 100%;
+            max-width: 800px; /* Malo šire od kontejnera ako treba, ali ovde se prilagođava */
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px;
+            /* Održava aspect ratio 16:9 i boju pozadine dok se slika ne učitava */
+            aspect-ratio: 16 / 9;
+            background-color: #e0e0e0; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        .slider-wrapper img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+            pointer-events: none; /* Da ne smeta klikovima ako je potrebno */
+        }
+
+        .slider-wrapper img.active {
+            opacity: 1;
+            z-index: 1;
+        }
+
+        .dots-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: -30px; /* Malo podiže tačkice da budu preko donjeg dela slike */
+            margin-bottom: 10px;
+        }
+
+        .dot {
+            width: 12px;
+            height: 12px;
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 50%;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .dot.active {
+            background-color: #3498db; /* Boja aktivne tačkice (plava) */
+            transform: scale(1.2);
+        }
+
+        .dot:hover {
+            background-color: rgba(255, 255, 255, 0.8);
         }
 
         /* Stilovi za formu */
@@ -76,7 +136,7 @@
         }
 
         textarea {
-            resize: vertical; /* Dozvoljava promenu visine samo vertikalno */
+            resize: vertical;
             min-height: 120px;
         }
 
@@ -96,13 +156,17 @@
             background-color: #2980b9;
         }
 
-        /* Responsive prilagođavanje za manje ekrane */
+        /* Responsive prilagođavanje */
         @media (max-width: 480px) {
             .container {
                 padding: 20px;
             }
             h1 {
                 font-size: 1.8rem;
+            }
+            .slider-wrapper {
+                aspect-ratio: auto; /* Na mobilnom može biti manje visoko ako slika tako zahteva, ili ostavi 16/9 */
+                max-height: 300px;   /* Limit visine na mobilnom */
             }
         }
     </style>
@@ -112,6 +176,14 @@
     <div class="container">
         <h1>Sajt DenMartin.com je u izradi</h1>
         <p class="subtitle">Brzo se vraćamo! Ako želite da nas kontaktirate u međuvremenu, popunite formu ispod.</p>
+
+        <!-- SLAJDER DEO -->
+        <div class="slider-wrapper" id="sliderWrapper">
+            <!-- Slike će se ubaciti ovde preko JavaScript-a -->
+        </div>
+        <div class="dots-container" id="dotsContainer">
+            <!-- Tačkice će se ubaciti ovde preko JavaScript-a -->
+        </div>
 
         <form class="contact-form" id="contactForm">
             <div>
@@ -125,7 +197,7 @@
             </div>
 
             <div>
-                <label for="email">Email adresa, ne mora</label>
+                <label for="email">Email adresa</label>
                 <input type="email" id="email" name="email" required placeholder="vas@email.com">
             </div>
 
@@ -138,20 +210,17 @@
         </form>
     </div>
 
+    <!-- Originalni Script za formu -->
     <script>
         document.getElementById('contactForm').addEventListener('submit', function(e) {
-            e.preventDefault(); // Sprečava osvežavanje stranice
+            e.preventDefault(); 
 
-            // Prikupljanje podataka
             const name = document.getElementById('name').value;
             const phone = document.getElementById('phone').value;
             const email = document.getElementById('email').value;
             const message = document.getElementById('message').value;
 
-            // Kreiranje subject linije
             const subject = encodeURIComponent(`Sa sajta: ${name}`);
-            
-            // Kreiranje tela poruke
             const body = encodeURIComponent(
                 `Ime: ${name}\n` +
                 `Telefon: ${phone}\n` +
@@ -159,14 +228,78 @@
                 `Poruka:\n${message}`
             );
 
-            // Kreiranje mailto linka
-            // Napomena: Ovo će otvoriti korisnikov email klijent (Outlook, Mail, Gmail itd.)
             const mailtoLink = `mailto:com@denmartin.com?subject=${subject}&body=${body}`;
-
-            // Preusmeravanje na mailto link
             window.location.href = mailtoLink;
         });
     </script>
 
+    <!-- Script za Slajder -->
+    <script>
+        const FOLDER = 'zaSlajd/';
+        const DELAY = 5000; // 5 sekundi
+        
+        let slides = [];
+        let dots = [];
+        let current = 0;
+        let interval = null;
+
+        // Učitavanje list.json
+        fetch(FOLDER + 'list.json')
+            .then(r => {
+                if (!r.ok) throw new Error('list.json nije nađen');
+                return r.json();
+            })
+            .then(files => init(files))
+            .catch(err => {
+                console.error('Greška pri učitavanju slajdera:', err);
+                // Ovde možeš dodati fallback ako nema slika (npr. sakriti slajder)
+                document.getElementById('sliderWrapper').style.display = 'none';
+                document.getElementById('dotsContainer').style.display = 'none';
+            });
+
+        function init(files) {
+            const wrapper = document.getElementById('sliderWrapper');
+            const dotsBox = document.getElementById('dotsContainer');
+
+            files.forEach((file, i) => {
+                // Kreiranje slike
+                const img = document.createElement('img');
+                img.src = FOLDER + file;
+                img.alt = "Slajd " + (i + 1);
+                if (i === 0) img.classList.add('active');
+                wrapper.appendChild(img);
+
+                // Kreiranje tačkice
+                const dot = document.createElement('div');
+                dot.classList.add('dot');
+                if (i === 0) dot.classList.add('active');
+                dot.onclick = () => showSlide(i);
+                dotsBox.appendChild(dot);
+            });
+
+            slides = wrapper.querySelectorAll('img');
+            dots = dotsBox.querySelectorAll('.dot');
+            resetTimer();
+        }
+
+        function showSlide(index) {
+            slides[current].classList.remove('active');
+            dots[current].classList.remove('active');
+            current = index;
+            slides[current].classList.add('active');
+            dots[current].classList.add('active');
+            resetTimer();
+        }
+
+        function nextSlide() {
+            showSlide((current + 1) % slides.length);
+        }
+
+        function resetTimer() {
+            clearInterval(interval);
+            interval = setInterval(nextSlide, DELAY);
+        }
+    </script>
+
 </body>
-</html>
+    </html>
