@@ -28,10 +28,10 @@
             align-items: center;
         }
 
-        /* JEDNA KOLONA - proširena */
+        /* JEDNA KOLONA - šira */
         .kolona {
             width: 100%;
-            max-width: 520px;
+            max-width: 600px;
             display: flex;
             flex-direction: column;
             gap: 14px;
@@ -91,38 +91,38 @@
             height: 135px;
         }
 
-        /* KRIPTO - tamna pozadina, svetli tekst, ne štrči */
+        /* KRIPTO - tamna pozadina, svetli tekst, bez odsecanja */
         .widget-kripto {
-            gap: 10px;
+            gap: 8px;
             align-items: stretch;
             background: #1e1e1e;
             border-radius: 14px;
-            padding: 12px;
-            overflow: hidden;
+            padding: 10px;
             width: 100%;
             max-width: 100%;
         }
 
+        /* VAŽNO: bez overflow: hidden - da se sadržaj ne odseca */
         .widget-kripto > * {
             width: 100% !important;
             max-width: 100% !important;
             box-sizing: border-box !important;
-            overflow: hidden;
         }
 
         .widget-kripto .coinmarketcap-currency-widget {
             margin: 0 !important;
-            padding: 10px 12px !important;
+            padding: 8px 10px !important;
             width: 100% !important;
             max-width: 100% !important;
             box-sizing: border-box !important;
             background: #2a2a2a !important;
             border-radius: 8px !important;
-            overflow: hidden !important;
             border: 1px solid #383838 !important;
+            font-size: 0.85rem !important;
+            line-height: 1.4 !important;
         }
 
-        /* Svetli tekst unutar kripto widgeta radi čitljivosti na tamnoj pozadini */
+        /* Svetli tekst unutar kripto widgeta */
         .widget-kripto .coinmarketcap-currency-widget,
         .widget-kripto .coinmarketcap-currency-widget * {
             color: #f0f0f0 !important;
@@ -135,11 +135,11 @@
             font-weight: 700 !important;
         }
 
-        .widget-kripto iframe,
+        /* Slike/tabele unutar widgeta - ne prelaze širinu */
         .widget-kripto img,
         .widget-kripto table {
             max-width: 100% !important;
-            box-sizing: border-box !important;
+            height: auto !important;
         }
 
         /* LINK KA LOKALNIM VESTIMA */
@@ -189,7 +189,7 @@
         /* IZVORI */
         .izvori {
             width: 100%;
-            max-width: 520px;
+            max-width: 600px;
             margin: 20px auto 0 auto;
             text-align: center;
             font-size: 0.78rem;
@@ -212,7 +212,7 @@
         /* FUTER */
         footer {
             width: 100%;
-            max-width: 520px;
+            max-width: 600px;
             margin: 14px auto 0 auto;
             padding: 14px 20px;
             background: #1a1a1a;
@@ -281,10 +281,10 @@
             color: #fff;
         }
 
-        /* RESPONSIVE */
+        /* RESPONSIVE - kolona puna širina na mobilnom */
         @media (max-width: 730px) {
             body {
-                padding: 8px 4px;
+                padding: 8px 6px;
             }
 
             .kolona {
@@ -309,11 +309,12 @@
             }
 
             .widget-kripto {
-                padding: 8px;
+                padding: 6px;
             }
 
             .widget-kripto .coinmarketcap-currency-widget {
-                padding: 8px 10px !important;
+                padding: 8px !important;
+                font-size: 0.8rem !important;
             }
 
             .izvori,
@@ -330,6 +331,10 @@
         @media (max-width: 370px) {
             .widget-ekonomija iframe {
                 height: 860px;
+            }
+
+            .widget-kripto .coinmarketcap-currency-widget {
+                font-size: 0.75rem !important;
             }
         }
     </style>
