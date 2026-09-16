@@ -14,15 +14,15 @@
             min-height: 100%;
         }
 
-        /* VAŽNO: body više nije flex - elementa se slažu normalno, odozgo nadole */
+        /* Body: kolona, sadržaj gore, futer dole, sve horizontalno centrirano */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #121212;
             color: #e0e0e0;
             min-height: 100vh;
             display: flex;
-            flex-direction: column; /* kolona: sadržaj gore, futer dole */
-            align-items: center;    /* horizontalno centriranje dece */
+            flex-direction: column;
+            align-items: center;
             padding: 0;
         }
 
@@ -38,11 +38,13 @@
             margin: 0 auto;
         }
 
+        /* Naslov - zlatno žut, centriran uz kompenzaciju za meni sa desne strane */
         h1 {
             font-size: 1.2rem;
             margin-bottom: 10px;
             color: #FFD700;
             margin-top: 10px;
+            padding-right: 50px; /* da krajnje slovo ne beži ispod hamburgera */
         }
 
         /* --- PADAJUĆI MENI (fiksiran gore desno, preko svega) --- */
@@ -87,10 +89,11 @@
             display: block;
         }
 
+        /* Linkovi u meniju - zlatno žuti */
         .dropdown-menu a {
             display: block;
             padding: 10px 14px;
-            color:  #FFD700; /* zlatno žuta
+            color: #FFD700;
             text-decoration: none;
             font-size: 0.9rem;
             transition: background 0.2s, color 0.2s;
@@ -98,16 +101,16 @@
 
         .dropdown-menu a:hover {
             background: #3a3a3a;
-            color:  #fff; /* na hover blago pobeli
+            color: #fff;
         }
 
         /* --- SLAJDER WRAPPER --- */
         .slider-wrapper {
             position: relative;
             width: 100%;
-            aspect-ratio: 16 / 9; 
+            aspect-ratio: 16 / 9;
             background-color: #000;
-            border: 1px solid #333; 
+            border: 1px solid #333;
             border-radius: 6px;
             overflow: hidden;
             box-shadow: 0 0 0 1px rgba(255,255,255,0.05);
@@ -195,7 +198,7 @@
         footer {
             width: 100%;
             max-width: 800px;
-            margin: 20px auto 0 auto; /* auto levo/desno = centrirano */
+            margin: 20px auto 0 auto;
             padding: 14px 20px;
             background: #1a1a1a;
             border: 1px solid #2e2e2e;
@@ -237,7 +240,10 @@
                 border-radius: 0;
                 max-width: 100%;
             }
-            h1 { font-size: 1.1rem; }
+            h1 {
+                font-size: 1.1rem;
+                padding-right: 45px;
+            }
             .slider-wrapper { border-radius: 4px; }
             .controls-row { gap: 10px; }
             .nav-btn { padding: 6px 12px; font-size: 0.9rem; }
@@ -267,7 +273,7 @@
     <!-- Glavni sadržaj -->
     <div class="container">
         <h1>Klavus Nova Pazova   galerija</h1>
-        
+
         <div class="slider-wrapper" id="sliderWrapper">
             <img src="zaSlajd/slika3.webp" alt="Slika 3" class="active">
             <img src="zaSlajd/slika7.webp" alt="Slika 7">
@@ -308,10 +314,10 @@
         const lightboxImg = document.getElementById('lightboxImg');
         const prevBtn = document.getElementById('prevBtn');
         const nextBtn = document.getElementById('nextBtn');
-        
+
         let current = 0;
         let interval = null;
-        
+
         let touchStartX = 0;
         let touchEndX = 0;
         const minSwipeDistance = 50;
