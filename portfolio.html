@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klavus - portfolio </title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <style>
+        /* Osnovni reset */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        html, body {
+            min-height: 100%;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+        }
+
+        /* Kontejner */
+        .container {
+            width: 100%;
+            max-width: 800px;
+            background: #1e1e1e;
+            padding: 20px 30px 30px 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+            margin: 0 auto;
+        }
+
+        /* Naslov */
+        h1 {
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+            color: #FFD700;
+            margin-top: 10px;
+            text-align: center;
+            padding-right: 50px; /* kompenzacija za meni sa desne strane */
+        }
+
+        /* Podnaslovi u tekstu */
+        h2 {
+            font-size: 1.1rem;
+            color: #FFD700;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #2e2e2e;
+            padding-bottom: 6px;
+        }
+
+        /* Pasusi */
+        p {
+            font-size: 0.95rem;
+            line-height: 1.7;
+            color: #c8c8c8;
+            margin-bottom: 14px;
+            text-align: justify;
+        }
+
+        /* Liste */
+        ul {
+            margin: 10px 0 16px 20px;
+            color: #c8c8c8;
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        ul li {
+            margin-bottom: 6px;
+        }
+
+        ul li::marker {
+            color: #FFD700;
+        }
+
+        /* Istaknuti citat / info box */
+        .info-box {
+            background: #242424;
+            border-left: 3px solid #FFD700;
+            padding: 14px 18px;
+            border-radius: 4px;
+            margin: 20px 0;
+            font-style: italic;
+            color: #d0d0d0;
+            font-size: 0.9rem;
+        }
+
+        /* --- PADAJUĆI MENI (fiksiran gore desno) --- */
+        .dropdown {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            z-index: 200;
+        }
+
+        .dropdown-toggle {
+            background: #2a2a2a;
+            color: #FFD700;
+            border: 1px solid #444;
+            padding: 8px 12px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background 0.2s;
+            line-height: 1;
+        }
+
+        .dropdown-toggle:hover {
+            background: #3a3a3a;
+        }
+
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            margin-top: 4px;
+            background: #2a2a2a;
+            border: 1px solid #444;
+            border-radius: 4px;
+            min-width: 140px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+            overflow: hidden;
+        }
+
+        .dropdown-menu.open {
+            display: block;
+        }
+
+        .dropdown-menu a {
+            display: block;
+            padding: 10px 14px;
+            color: #FFD700;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .dropdown-menu a:hover {
+            background: #3a3a3a;
+            color: #fff;
+        }
+
+        /* --- FUTER --- */
+        footer {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto 0 auto;
+            padding: 14px 20px;
+            background: #1a1a1a;
+            border: 1px solid #2e2e2e;
+            border-radius: 6px;
+            text-align: center;
+            font-size: 0.75rem;
+            color: #666;
+            font-style: italic;
+            letter-spacing: 0.5px;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px 18px 25px 18px;
+                border-radius: 0;
+                max-width: 100%;
+            }
+            h1 {
+                font-size: 1.2rem;
+                padding-right: 45px;
+            }
+            h2 { font-size: 1rem; }
+            p, ul { font-size: 0.9rem; }
+            .dropdown { top: 6px; right: 6px; }
+            footer {
+                max-width: 100%;
+                border-radius: 0;
+                margin-top: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Padajući meni gore desno -->
+    <div class="dropdown">
+        <button class="dropdown-toggle" id="dropdownToggle" aria-label="Meni">&#9776;</button>
+        <div class="dropdown-menu" id="dropdownMenu">
+            <a href="o_nama.html">O nama</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="index.html">Galerija</a>
+            <a href="vesti.html">Vesti</a>
+        </div>
+    </div>
+
+    <!-- Glavni sadržaj -->
+    <div class="container">
+        <h1>O nama</h1>
+
+        <p>
+            Dobrodošli na stranicu <strong>Klavus Nova Pazova</strong>. 
+            Ovo je mesto gde možete saznati više o nama, našem radu i onome što nudimo. 
+            Tekst ispod je trenutno generički i biće zamenjen pravim informacijama.
+        </p>
+
+        <h2>Ko smo mi</h2>
+        <p>
+            Klavus Nova Pazova je firma posvećena kvalitetu i zadovoljstvu naših klijenata. 
+            Bavimo se pružanjem usluga i proizvoda koji zadovoljavaju najviše standarde. 
+            Naš tim čine iskusni profesionalci koji svakom projektu pristupaju sa pažnjom i posvećenošću.
+        </p>
+
+        <div class="info-box">
+            "Naša misija je da svakom klijentu pružimo pouzdanu uslugu, 
+            kvalitetan proizvod i iskustvo koje će želeti ponovo."
+        </div>
+
+        <h2>Šta nudimo</h2>
+        <ul>
+            <li>Profesionalan pristup svakom projektu</li>
+            <li>Kvalitetni materijali i provereni procesi</li>
+            <li>Individualni pristup i savetovanje</li>
+            <li>Podrška pre, tokom i nakon realizacije</li>
+            <li>Poštovanje dogovorenih rokova</li>
+        </ul>
+
+        <h2>Naša vrednost</h2>
+        <p>
+            Verujemo u dugoročne odnose sa klijentima, izgrađene na poverenju, 
+            transparentnosti i doslednom kvalitetu. Svaki zadatak, bez obzira na veličinu, 
+            tretiramo sa istom pažnjom i odgovornošću.
+        </p>
+
+        <h2>Kontaktirajte nas</h2>
+        <p>
+            Za sva pitanja, ponude ili saradnju, slobodno nas kontaktirajte putem stranice 
+            <a href="kontakt.html" style="color:#FFD700; text-decoration:none;">Kontakt</a>. 
+            Rado ćemo odgovoriti na vaš upit u najkraćem roku.
+        </p>
+    </div>
+
+    <!-- Futer -->
+    <footer>
+        <p>Sajt je još u izradi.</p>
+    </footer>
+
+    <script>
+        // Padajući meni
+        const dropdownToggle = document.getElementById('dropdownToggle');
+        const dropdownMenu = document.getElementById('dropdownMenu');
+
+        dropdownToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            dropdownMenu.classList.toggle('open');
+        });
+
+        document.addEventListener('click', () => {
+            dropdownMenu.classList.remove('open');
+        });
+    </script>
+
+</body>
+</html>
