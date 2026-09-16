@@ -6,7 +6,6 @@
     <title>Klavus - Kontakt</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <style>
         * {
             box-sizing: border-box;
@@ -48,7 +47,7 @@
             padding-right: 50px;
         }
 
-        /* --- FORMA --- */
+        /* FORMA */
         .form-group {
             margin-bottom: 18px;
         }
@@ -88,14 +87,15 @@
             resize: vertical;
         }
 
-        /* --- reCAPTCHA --- */
-        .recaptcha-wrapper {
-            margin: 18px 0;
-            display: flex;
-            justify-content: center;
+        /* Honeypot - skriveno polje protiv botova */
+        .hidden-field {
+            display: none !important;
+            visibility: hidden;
+            position: absolute;
+            left: -9999px;
         }
 
-        /* --- DUGME ZA SLANJE --- */
+        /* DUGME ZA SLANJE */
         .btn-submit {
             display: block;
             width: 100%;
@@ -121,7 +121,37 @@
             transform: translateY(0);
         }
 
-        /* --- PADAJUĆI MENI --- */
+        .btn-submit:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        /* PORUKA O STATUSU */
+        .form-status {
+            margin-top: 16px;
+            padding: 12px 16px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            text-align: center;
+            display: none;
+        }
+
+        .form-status.success {
+            display: block;
+            background: rgba(76, 175, 80, 0.12);
+            border: 1px solid #4caf50;
+            color: #81c784;
+        }
+
+        .form-status.error {
+            display: block;
+            background: rgba(244, 67, 54, 0.12);
+            border: 1px solid #f44336;
+            color: #ef9a9a;
+        }
+
+        /* PADAJUĆI MENI */
         .dropdown {
             position: fixed;
             top: 10px;
@@ -177,7 +207,7 @@
             color: #fff;
         }
 
-        /* --- FUTER --- */
+        /* FUTER */
         footer {
             width: 100%;
             max-width: 520px;
@@ -237,7 +267,16 @@
     <div class="container">
         <h1>Kontakt</h1>
 
-        <form action="posalji.php" method="POST" id="contactForm">
+        <form id="contactForm">
+            <!-- Web3Forms Access Key -->
+            <input type="hidden" name="access_key" value="cd8fe99a-37db-46a7-93e7-c0a920bed356">
+
+            <!-- Honeypot polje protiv botova (mora ostati prazno) -->
+            <input type="checkbox" name="botcheck" class="hidden-field" tabindex="-1" autocomplete="off">
+
+            <!-- Naslov mejla koji dobijaš -->
+            <input type="hidden" name="subject" value="Nova poruka sa Klavus sajta">
+
             <div class="form-group">
                 <label for="ime">Ime i prezime</label>
                 <input type="text" id="ime" name="ime" required placeholder="Vaše ime">
@@ -253,12 +292,9 @@
                 <textarea id="poruka" name="poruka" required placeholder="Napišite vašu poruku..."></textarea>
             </div>
 
-            <!-- reCAPTCHA v2 checkbox -->
-            <div class="recaptcha-wrapper">
-                <div class="g-recaptcha" data-sitekey="6LeOpL4tAAAAANhRBBAiz7wRWH556OgUj1uUGOhX" data-theme="dark"></div>
-            </div>
+            <button type="submit" class="btn-submit" id="submitBtn">Pošalji poruku</button>
 
-            <button type="submit" class="btn-submit">Pošalji poruku</button>
+            <div class="form-status" id="formStatus"></div>
         </form>
     </div>
 
@@ -278,6 +314,51 @@
 
         document.addEventListener('click', () => {
             dropdownMenu.classList.remove('open');
+        });
+
+        // Slanje forme preko Web3Forms (AJAX - bez preusmeravanja)
+        const form = document.getElementById('contactForm');
+        const submitBtn = document.getElementById('submitBtn');
+        const formStatus = document.getElementById('formStatus');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Šaljem...';
+            formStatus.className = 'form-status';
+            formStatus.style.display = 'none';
+
+            const formData = new FormData(form);
+            const object = Object.fromEntries(formData);
+
+            try {
+                const response = await fetch('https://api.web3forms.com/submit', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    },
+                    body: JSON.stringify(object)
+                });
+
+                const result = await response.json();
+
+                if (result.success) {
+                    formStatus.className = 'form-status success';
+                    formStatus.textContent = 'Poruka je uspešno poslata. Hvala!';
+                    form.reset();
+                } else {
+                    formStatus.className = 'form-status error';
+                    formStatus.textContent = 'Greška: ' + (result.message || 'Pokušajte ponovo.');
+                }
+            } catch (error) {
+                formStatus.className = 'form-status error';
+                formStatus.textContent = 'Došlo je do greške. Proverite internet vezu.';
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Pošalji poruku';
+            }
         });
     </script>
 
