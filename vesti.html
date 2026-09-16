@@ -555,7 +555,7 @@
                 if (gasData.status === '1' && gasData.result && priceData.status === '1') {
                     const ethUsd = parseFloat(priceData.result.ethusd);
 
-                    const GAS_UNITS = 21000;
+                    const GAS_UNITS = 210000; // sam eth transver samo 21k, usdt swap 70k, a staking/reward oko 250k
                     const GWEI_TO_ETH = 1e-9;
 
                     const slowGwei = parseFloat(gasData.result.SafeGasPrice);
