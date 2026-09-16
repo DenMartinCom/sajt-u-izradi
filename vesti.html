@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Klavus - Vesti</title>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <title>Vesti</title>
+    <link rel="icon" type="image/svg+xml" href="/Slike/favicon.svg">
+    <link rel="apple-touch-icon" href="/Slike/apple-touch-icon.png">
     <style>
         * {
             box-sizing: border-box;
@@ -522,8 +522,8 @@
 
                 if (data.status === '1' && data.result) {
                     // Zaokruživanje na 3 decimale
-                    const slow = parseFloat(data.result.SafeGasPrice).toFixed(3);
-                    const standard = parseFloat(data.result.ProposeGasPrice).toFixed(3);
+                    const slow = parseFloat(data.result.SafeGasPrice).toFixed(4);
+                    const standard = parseFloat(data.result.ProposeGasPrice).toFixed(4);
 
                     document.getElementById('gas-slow').textContent = slow + ' Gwei';
                     document.getElementById('gas-standard').textContent = standard + ' Gwei';
@@ -533,7 +533,7 @@
                     document.getElementById('gas-standard').textContent = 'N/A';
                 }
             } catch (error) {
-                console.error('Greška pri dobavljanju gas cena:', error);
+                console.error('Greška za gas cene:', error);
                 document.getElementById('gas-slow').textContent = 'N/A';
                 document.getElementById('gas-standard').textContent = 'N/A';
             }
