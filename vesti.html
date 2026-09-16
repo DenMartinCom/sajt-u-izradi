@@ -478,7 +478,7 @@
 
         <!-- ETHEREUM GAS CENE -->
         <div class="widget widget-gas">
-            <div class="gas-title">⛽ Ethereum Gas Gwei-$</div>
+            <div class="gas-title">⛽ Ethereum Gas Gwei i $x10</div>
             <div class="gas-row">
                 <div class="gas-item">
                     <div class="gas-label">Najsporija</div>
@@ -566,11 +566,11 @@
                     const standardUsd = standardGwei * GAS_UNITS * GWEI_TO_ETH * ethUsd;
 
                     // Prikaz: Gwei na 3 decimale + " G", USD na 2 decimale
-                    document.getElementById('gas-slow').textContent = slowGwei.toFixed(3) + ' G';
-                    document.getElementById('gas-standard').textContent = standardGwei.toFixed(3) + ' G';
+                    document.getElementById('gas-slow').textContent = slowGwei.toFixed(3) + 'G';
+                    document.getElementById('gas-standard').textContent = standardGwei.toFixed(3) + 'G';
 
-                    document.getElementById('gas-slow-usd').textContent = '$' + slowUsd.toFixed(2);
-                    document.getElementById('gas-standard-usd').textContent = '$' + standardUsd.toFixed(2);
+                    document.getElementById('gas-slow-usd').textContent = '$' + slowUsd.toFixed(3);
+                    document.getElementById('gas-standard-usd').textContent = '$' + standardUsd.toFixed(3);
                 } else {
                     console.error('Etherscan greška:', gasData.message, priceData.message);
                     resetGasDisplay();
