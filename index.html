@@ -12,33 +12,88 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #121212; /* Skoro crna pozadina */
+            background-color: #121212;
             color: #e0e0e0;
             display: flex;
             justify-content: center;
-            /* Poravnavanje na vrh (flex-start) */
-            align-items: flex-start; 
+            align-items: flex-start;
             min-height: 100vh;
-            padding: 2; /* Uklonjen padding da bi se slajder "pipnuo" vrhu */
+            padding: 0;
         }
 
         /* Kontejner */
         .container {
             width: 100%;
             max-width: 800px;
-            background: #1e1e1e; /* Tamno siva pozadina kontejnera */
-            padding: 10px 20px; /* Manji padding */
+            background: #1e1e1e;
+            padding: 10px 20px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
             text-align: center;
-            margin-top: 0; /* Nema razmaka od vrha */
+            margin-top: 0;
         }
 
         h1 {
             font-size: 1.2rem;
             margin-bottom: 10px;
-            color: #fff;
+            color: #FFD700; /* Zlatno žuta */
             margin-top: 10px;
+        }
+
+        /* --- PADAJUĆI MENI (gore desno) --- */
+        .dropdown {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            z-index: 200;
+        }
+
+        .dropdown-toggle {
+            background: #2a2a2a;
+            color: #FFD700;
+            border: 1px solid #444;
+            padding: 8px 12px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background 0.2s;
+            line-height: 1;
+        }
+
+        .dropdown-toggle:hover {
+            background: #3a3a3a;
+        }
+
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            margin-top: 4px;
+            background: #2a2a2a;
+            border: 1px solid #444;
+            border-radius: 4px;
+            min-width: 140px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+            overflow: hidden;
+        }
+
+        .dropdown-menu.open {
+            display: block;
+        }
+
+        .dropdown-menu a {
+            display: block;
+            padding: 10px 14px;
+            color: #e0e0e0;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .dropdown-menu a:hover {
+            background: #3a3a3a;
+            color: #FFD700;
         }
 
         /* --- SLAJDER WRAPPER --- */
@@ -47,12 +102,11 @@
             width: 100%;
             aspect-ratio: 16 / 9; 
             background-color: #000;
-            /* Tanja linija oko slika */
             border: 1px solid #333; 
             border-radius: 6px;
             overflow: hidden;
-            box-shadow: 0 0 0 1px rgba(255,255,255,0.05); /* Veoma tanja svetla ivica */
-            margin-bottom: 10px; /* Praznina ispod slike, pre nego što dođu dugmići */
+            box-shadow: 0 0 0 1px rgba(255,255,255,0.05);
+            margin-bottom: 10px;
         }
 
         .slider-wrapper img {
@@ -72,16 +126,15 @@
             z-index: 1;
         }
 
-        /* --- DUGMIĆI I TAČKICE (SADA IZNAD) --- */
+        /* --- DUGMIĆI I TAČKICE --- */
         .controls-row {
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 15px;
-            margin-top: 10px; /* Praznina između slike i kontrole */
+            margin-top: 10px;
         }
 
-        /* Dugmići */
         .nav-btn {
             background: #333;
             color: #fff;
@@ -101,7 +154,6 @@
             background: #555;
         }
 
-        /* Tačkice */
         .dots-container {
             display: flex;
             gap: 8px;
@@ -117,7 +169,7 @@
         }
 
         .dot.active {
-            background-color: #3498db;
+            background-color: #FFD700; /* Zlatno žuta */
             transform: scale(1.3);
         }
 
@@ -125,21 +177,23 @@
             background-color: #777;
         }
 
-        /* Kontakt dugme */
+        /* Kontakt dugme - tamna pozadina za čitljivost zlatnog teksta */
         .btn-kontakt {
             display: inline-block;
             margin-top: 15px;
             padding: 10px 25px;
-            background-color: #3498db;
-            color: white;
+            background-color: #2a2a2a;
+            color: #FFD700; /* Zlatno žuta */
             text-decoration: none;
+            border: 1px solid #FFD700;
             border-radius: 5px;
             font-size: 0.95rem;
-            transition: background-color 0.3s;
+            transition: background-color 0.3s, color 0.3s;
         }
 
         .btn-kontakt:hover {
-            background-color: #2980b9;
+            background-color: #FFD700;
+            color: #1e1e1e;
         }
 
         /* Lightbox */
@@ -150,7 +204,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.95); /* Još tamnija pozadina lightbox-a */
+            background: rgba(0, 0, 0, 0.95);
             z-index: 100;
             justify-content: center;
             align-items: center;
@@ -169,28 +223,49 @@
             display: flex;
         }
 
+        /* Footer */
+        footer {
+            margin-top: 20px;
+            padding: 12px 0;
+            font-size: 0.75rem;
+            color: #666;
+            font-style: italic;
+            letter-spacing: 0.5px;
+        }
+
         /* Responsive */
         @media (max-width: 600px) {
             .container {
                 padding: 5px 15px;
-                border-radius: 1; /* Na mobilnom bez ivica ako je preko celog ekrana */
+                border-radius: 0;
             }
             h1 { font-size: 1.1rem; }
             .slider-wrapper { border-radius: 4px; }
             .controls-row { gap: 10px; }
             .nav-btn { padding: 6px 12px; font-size: 0.9rem; }
+            .dropdown { top: 6px; right: 6px; }
         }
     </style>
 </head>
 <body>
+
+    <!-- Padajući meni gore desno -->
+    <div class="dropdown">
+        <button class="dropdown-toggle" id="dropdownToggle" aria-label="Meni">&#9776;</button>
+        <div class="dropdown-menu" id="dropdownMenu">
+            <a href="o_nama.html">O nama</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="index.html">Galerija</a>
+            <a href="vesti.html">Vesti</a>
+        </div>
+    </div>
 
     <div class="container">
         <h1>Klavus Nova Pazova   galerija</h1>
         
         <!-- SLAJDER -->
         <div class="slider-wrapper" id="sliderWrapper">
-            
-            <!-- Slike -->
             <img src="zaSlajd/slika3.webp" alt="Slika 3" class="active">
             <img src="zaSlajd/slika7.webp" alt="Slika 7">
             <img src="zaSlajd/slika2.webp" alt="Slika 2">
@@ -199,7 +274,6 @@
             <img src="zaSlajd/slika5.webp" alt="Slika 5">
             <img src="zaSlajd/slika6.webp" alt="Slika 6">
             <img src="zaSlajd/slika1.webp" alt="Slika 1">
-
         </div>
 
         <!-- Kontrola ispod slike -->
@@ -211,6 +285,11 @@
 
         <a href="kontakt.html" class="btn-kontakt">Kontakt</a>
     </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Sajt je još u izradi.</p>
+    </footer>
 
     <!-- Lightbox -->
     <div class="lightbox" id="lightbox">
@@ -236,6 +315,21 @@
         let touchEndX = 0;
         const minSwipeDistance = 50;
 
+        // --- Padajući meni ---
+        const dropdownToggle = document.getElementById('dropdownToggle');
+        const dropdownMenu = document.getElementById('dropdownMenu');
+
+        dropdownToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            dropdownMenu.classList.toggle('open');
+        });
+
+        // Zatvori meni klikom van njega
+        document.addEventListener('click', () => {
+            dropdownMenu.classList.remove('open');
+        });
+
+        // --- Slajder ---
         if (slides.length === 0) {
             console.error("Nije pronađena nijedna slika!");
             wrapper.style.display = 'none';
@@ -245,7 +339,10 @@
                 const dot = document.createElement('div');
                 dot.classList.add('dot');
                 if (i === 0) dot.classList.add('active');
-                dot.onclick = () => showSlide(i);
+                dot.onclick = () => {
+                    showSlide(i);
+                    restartTimer();
+                };
                 dotsBox.appendChild(dot);
                 dots.push(dot);
             });
@@ -266,18 +363,27 @@
                 showSlide((current - 1 + slides.length) % slides.length);
             }
 
+            // --- TIMER: sigurno zaustavljanje i ponovno pokretanje ---
             function startTimer() {
+                stopTimer(); // Uvek prvo očisti postojeći interval
                 interval = setInterval(nextSlide, DELAY);
             }
 
             function stopTimer() {
-                clearInterval(interval);
+                if (interval !== null) {
+                    clearInterval(interval);
+                    interval = null;
+                }
+            }
+
+            function restartTimer() {
+                stopTimer();
+                startTimer();
             }
 
             // Klik na sliku (Lightbox)
             slides.forEach((slide) => {
                 slide.addEventListener('click', (e) => {
-                    // Sprečiti aktivaciju ako je klik preko dugmića (što nije moguće ovde, ali sigurnost)
                     if(e.target === slide) {
                         lightboxImg.src = slide.src;
                         lightbox.classList.add('active');
@@ -293,15 +399,15 @@
                 startTimer();
             });
 
-            // Dugmići
+            // Dugmići - restart timer bez dupliranja
             prevBtn.addEventListener('click', () => {
                 prevSlide();
-                startTimer();
+                restartTimer();
             });
 
             nextBtn.addEventListener('click', () => {
                 nextSlide();
-                startTimer();
+                restartTimer();
             });
 
             // Touch Swipe
@@ -320,9 +426,9 @@
                 const diff = touchEndX - touchStartX;
                 if (Math.abs(diff) > minSwipeDistance) {
                     if (diff > 0) {
-                        nextSlide(); // Swipe levo
+                        prevSlide(); // Swipe desno -> prethodna
                     } else {
-                        prevSlide(); // Swipe desno
+                        nextSlide(); // Swipe levo -> sledeća
                     }
                 }
             }
