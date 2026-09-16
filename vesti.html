@@ -522,11 +522,11 @@
 
                 if (data.status === '1' && data.result) {
                     // Zaokruživanje na 3 decimale
-                    const slow = parseFloat(data.result.SafeGasPrice).toFixed(4);
-                    const standard = parseFloat(data.result.ProposeGasPrice).toFixed(4);
+                    const slow = parseFloat(data.result.SafeGasPrice).toFixed(5);
+                    const standard = parseFloat(data.result.ProposeGasPrice).toFixed(5);
 
-                    document.getElementById('gas-slow').textContent = slow + ' Gwei';
-                    document.getElementById('gas-standard').textContent = standard + ' Gwei';
+                    document.getElementById('gas-slow').textContent = slow + ' ';
+                    document.getElementById('gas-standard').textContent = standard + ' ';
                 } else {
                     console.error('Etherscan greška:', data.message || data.result);
                     document.getElementById('gas-slow').textContent = 'N/A';
