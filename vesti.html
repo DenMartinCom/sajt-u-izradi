@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vesti</title>
+    <title>Klavus - Vesti</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <style>
         * {
             box-sizing: border-box;
@@ -11,27 +13,35 @@
             padding: 0;
         }
 
-        body {
-            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-            background: #eef1f6;
-            padding: 16px 10px;
-            min-height: 100vh;
+        html, body {
+            min-height: 100%;
         }
 
-        /* JEDNA KOLONA – puna širina ekrana */
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: #121212;
+            color: #e0e0e0;
+            padding: 16px 10px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* JEDNA KOLONA */
         .kolona {
             width: 100%;
             max-width: 480px;
-            margin: 0 auto;
             display: flex;
             flex-direction: column;
             gap: 14px;
         }
 
         .widget {
-            background: #fff;
+            background: #1e1e1e;
             border-radius: 14px;
-            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+            border: 1px solid #2e2e2e;
             padding: 12px;
             display: flex;
             flex-direction: column;
@@ -47,31 +57,32 @@
             background: transparent;
         }
 
-        /* VREME – 300x180, centrirano */
+        /* VREME */
         .widget-vreme iframe {
             width: 300px;
             max-width: 100%;
             height: 180px;
         }
 
-        /* EKONOMIJA – rastegni na punu širinu widgeta */
+        /* EKONOMIJA */
         .widget-ekonomija {
             padding: 0;
             background: transparent;
+            border: none;
             box-shadow: none;
         }
 
         .widget-ekonomija iframe {
             width: 100%;
             max-width: 100%;
-            height: 1150px; /* povećano ~15% sa 934px */
+            height: 1150px;
             border-radius: 14px;
             background: #F5F5F5;
         }
 
-        /* KURSNA LISTA – uska, centrirana, bez praznog dna */
+        /* KURSNA LISTA */
         .widget-kurs {
-            justify-content: center; /* vertikalno centriranje iframe-a */
+            justify-content: center;
             padding: 12px;
         }
 
@@ -84,54 +95,156 @@
         .widget-kripto {
             gap: 10px;
             align-items: stretch;
+            background: #fff;
+            border-radius: 14px;
+            padding: 12px;
         }
 
         .widget-kripto .coinmarketcap-currency-widget {
             margin: 0 !important;
             width: 100% !important;
         }
-        /* Link ka lokalnim vestima */
+
+        /* --- LINK KA LOKALNIM VESTIMA --- */
         .news-link {
-         margin-top: 30px;
-         text-align: center;
-         }
+            margin-top: 10px;
+            text-align: center;
+            width: 100%;
+        }
 
-         .news-link a {
-          display: inline-block;
-          text-decoration: none;
-          color: #FFD700;
-          transition: transform 0.2s, opacity 0.2s;
-          }
+        .news-link a {
+            display: inline-block;
+            text-decoration: none;
+            color: #FFD700;
+            transition: transform 0.2s, opacity 0.2s;
+        }
 
-          .news-link a:hover {
-        transform: translateY(-3px);
-        opacity: 0.9;
+        .news-link a:hover {
+            transform: translateY(-3px);
+            opacity: 0.9;
         }
 
         .news-link img {
-        display: block;
-        width: 100%;
-        max-width: 400px;
-        height: auto;
-        border-radius: 12px;
-        border: 1px solid #333;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.5);
-        transition: box-shadow 0.3s, border-color 0.3s;
+            display: block;
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            margin: 0 auto;
+            border-radius: 12px;
+            border: 1px solid #333;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+            transition: box-shadow 0.3s, border-color 0.3s;
         }
 
         .news-link a:hover img {
-        box-shadow: 0 6px 18px rgba(255, 215, 0, 0.25);
-        border-color: #FFD700;
+            box-shadow: 0 6px 18px rgba(255, 215, 0, 0.25);
+            border-color: #FFD700;
         }
 
         .news-link span {
-         display: block;
-         margin-top: 10px;
-        font-size: 0.9rem;
-        color: #FFD700;
-        letter-spacing: 0.5px;
+            display: block;
+            margin-top: 10px;
+            font-size: 0.9rem;
+            color: #FFD700;
+            letter-spacing: 0.5px;
         }
-        /* RESPONSIVE – na uskim ekranima sve ostaje u jednoj koloni */
+
+        /* --- IZVORI (iznad futera) --- */
+        .izvori {
+            width: 100%;
+            max-width: 480px;
+            margin: 20px auto 0 auto;
+            text-align: center;
+            font-size: 0.78rem;
+            color: #777;
+            letter-spacing: 0.3px;
+            line-height: 1.6;
+        }
+
+        .izvori a {
+            color: #FFD700;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .izvori a:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        /* --- FUTER --- */
+        footer {
+            width: 100%;
+            max-width: 480px;
+            margin: 14px auto 0 auto;
+            padding: 14px 20px;
+            background: #1a1a1a;
+            border: 1px solid #2e2e2e;
+            border-radius: 6px;
+            text-align: center;
+            font-size: 0.75rem;
+            color: #666;
+            font-style: italic;
+            letter-spacing: 0.5px;
+        }
+
+        /* --- PADAJUĆI MENI (fiksiran gore desno) --- */
+        .dropdown {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            z-index: 200;
+        }
+
+        .dropdown-toggle {
+            background: #2a2a2a;
+            color: #FFD700;
+            border: 1px solid #444;
+            padding: 8px 12px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background 0.2s;
+            line-height: 1;
+        }
+
+        .dropdown-toggle:hover {
+            background: #3a3a3a;
+        }
+
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            margin-top: 4px;
+            background: #2a2a2a;
+            border: 1px solid #444;
+            border-radius: 4px;
+            min-width: 140px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+            overflow: hidden;
+        }
+
+        .dropdown-menu.open {
+            display: block;
+        }
+
+        .dropdown-menu a {
+            display: block;
+            padding: 10px 14px;
+            color: #FFD700;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .dropdown-menu a:hover {
+            background: #3a3a3a;
+            color: #fff;
+        }
+
+        /* RESPONSIVE */
         @media (max-width: 730px) {
             body {
                 padding: 10px 8px;
@@ -148,7 +261,7 @@
             }
 
             .widget-ekonomija iframe {
-                height: 980px; /* povećano ~15% sa 800px */
+                height: 980px;
                 border-radius: 12px;
             }
 
@@ -161,12 +274,24 @@
 
         @media (max-width: 370px) {
             .widget-ekonomija iframe {
-                height: 860px; /* povećano ~15% sa 700px */
+                height: 860px;
             }
         }
     </style>
 </head>
 <body>
+
+    <!-- Padajući meni gore desno -->
+    <div class="dropdown">
+        <button class="dropdown-toggle" id="dropdownToggle" aria-label="Meni">&#9776;</button>
+        <div class="dropdown-menu" id="dropdownMenu">
+            <a href="o_nama.html">O nama</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="index.html">Galerija</a>
+            <a href="vesti.html">Vesti</a>
+        </div>
+    </div>
 
     <div class="kolona">
 
@@ -190,7 +315,7 @@
             </iframe>
         </div>
 
-        <!-- EKONOMIJA – puna širina -->
+        <!-- EKONOMIJA -->
         <div class="widget widget-ekonomija">
             <iframe
                 src="https://naslovi.net/widget/?type=ekonomija&bgcolor=F5F5F5&textcolor=000000&separatorcolor=D0D0D0&count=10&"
@@ -231,18 +356,42 @@
             <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
             <div class="coinmarketcap-currency-widget" data-currencyid="1" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div>
         </div>
+
+        <!-- LINK KA LOKALNIM VESTIMA RTV STARA PAZOVA -->
+        <div class="news-link">
+            <a href="https://www.rtvstarapazova.rs/sr/vesti.php" target="_blank" rel="noopener noreferrer">
+                <img src="Slike/rtvSP.webp" alt="RTV Stara Pazova - lokalne vesti">
+                <span>Poseti lokalne vesti &rarr;</span>
+            </a>
+        </div>
+
     </div>
-    <a>Izvori:</a>
-    <a href="https://www.naslovi.net" target="_blank">Naslovi.net i </a>
-    <a href="https://coinmarketcap.com" target="_blank">CoinmarketCap</a>
+
+    <!-- IZVORI (iznad futera) -->
+    <div class="izvori">
+        Izvori: <a href="https://www.naslovi.net" target="_blank" rel="noopener noreferrer">Naslovi.net</a> i
+        <a href="https://coinmarketcap.com" target="_blank" rel="noopener noreferrer">CoinMarketCap</a>
+    </div>
+
+    <!-- FUTER -->
+    <footer>
+        <p>Sajt je još u izradi.</p>
+    </footer>
+
+    <script>
+        // Padajući meni
+        const dropdownToggle = document.getElementById('dropdownToggle');
+        const dropdownMenu = document.getElementById('dropdownMenu');
+
+        dropdownToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            dropdownMenu.classList.toggle('open');
+        });
+
+        document.addEventListener('click', () => {
+            dropdownMenu.classList.remove('open');
+        });
+    </script>
+
 </body>
-</html>
-
-
-
-
-
-
-
-
-
+                </html>
