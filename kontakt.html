@@ -3,174 +3,283 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontakt</title>
+    <title>Klavus - Kontakt</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <style>
-        /* Osnovni reset i stilovi */
         * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
         }
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            padding: 2px;
+        html, body {
+            min-height: 100%;
         }
 
-        /* Kontejner koji prati širinu ekrana */
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: #121212;
+            color: #e0e0e0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 16px 10px;
+        }
+
         .container {
             width: 100%;
-            max-width: 600px; /* Maksimalna širina za lektiranje na velikim ekranima */
-            background: #ffffff;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            text-align: center;
+            max-width: 520px;
+            background: #1e1e1e;
+            border-radius: 14px;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+            border: 1px solid #2e2e2e;
+            padding: 30px 26px;
+            margin: 0 auto;
         }
 
         h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-            color: #2c3e50;
+            font-size: 1.4rem;
+            color: #FFD700;
+            text-align: center;
+            margin-bottom: 24px;
+            padding-right: 50px;
         }
 
-        p.subtitle {
-            font-size: 1.1rem;
-            color: #7f8c8d;
-            margin-bottom: 30px;
-        }
-
-        /* Stilovi za formu */
-        .contact-form {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            text-align: left;
+        /* --- FORMA --- */
+        .form-group {
+            margin-bottom: 18px;
         }
 
         label {
-            font-weight: 600;
-            font-size: 0.9rem;
-            margin-bottom: 5px;
             display: block;
+            font-size: 0.85rem;
+            color: #b0b0b0;
+            margin-bottom: 6px;
+            letter-spacing: 0.3px;
         }
 
-        input, textarea {
+        input[type="text"],
+        input[type="email"],
+        textarea {
             width: 100%;
-            padding: 12px;
-            border: 1px solid #ddd;
-            border-radius: 6px;
-            font-size: 1rem;
-            transition: border-color 0.3s;
+            padding: 12px 14px;
+            background: #2a2a2a;
+            border: 1px solid #3a3a3a;
+            border-radius: 8px;
+            color: #f0f0f0;
+            font-size: 0.95rem;
+            font-family: inherit;
+            transition: border-color 0.2s, box-shadow 0.2s;
         }
 
-        input:focus, textarea:focus {
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        textarea:focus {
             outline: none;
-            border-color: #3498db;
+            border-color: #FFD700;
+            box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.15);
         }
 
         textarea {
-            resize: vertical; /* Dozvoljava promenu visine samo vertikalno */
-            min-height: 120px;
+            min-height: 140px;
+            resize: vertical;
         }
 
-        button {
-            background-color: #3498db;
-            color: white;
-            border: none;
-            padding: 15px;
-            font-size: 1.1rem;
-            border-radius: 6px;
+        /* --- reCAPTCHA --- */
+        .recaptcha-wrapper {
+            margin: 18px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* --- DUGME ZA SLANJE --- */
+        .btn-submit {
+            display: block;
+            width: 100%;
+            padding: 14px 20px;
+            background: #2a2a2a;
+            color: #FFD700;
+            border: 1px solid #FFD700;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
             cursor: pointer;
-            transition: background-color 0.3s;
-            margin-top: 10px;
+            letter-spacing: 0.5px;
+            transition: background 0.25s, color 0.25s, transform 0.15s;
         }
 
-        button:hover {
-            background-color: #2980b9;
+        .btn-submit:hover {
+            background: #FFD700;
+            color: #1e1e1e;
+            transform: translateY(-1px);
         }
 
-        /* Responsive prilagođavanje za manje ekrane */
-        @media (max-width: 480px) {
-            .container {
-                padding: 20px;
+        .btn-submit:active {
+            transform: translateY(0);
+        }
+
+        /* --- PADAJUĆI MENI --- */
+        .dropdown {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            z-index: 200;
+        }
+
+        .dropdown-toggle {
+            background: #2a2a2a;
+            color: #FFD700;
+            border: 1px solid #444;
+            padding: 8px 12px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background 0.2s;
+            line-height: 1;
+        }
+
+        .dropdown-toggle:hover {
+            background: #3a3a3a;
+        }
+
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            margin-top: 4px;
+            background: #2a2a2a;
+            border: 1px solid #444;
+            border-radius: 4px;
+            min-width: 140px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+            overflow: hidden;
+        }
+
+        .dropdown-menu.open {
+            display: block;
+        }
+
+        .dropdown-menu a {
+            display: block;
+            padding: 10px 14px;
+            color: #FFD700;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .dropdown-menu a:hover {
+            background: #3a3a3a;
+            color: #fff;
+        }
+
+        /* --- FUTER --- */
+        footer {
+            width: 100%;
+            max-width: 520px;
+            margin: 20px auto 0 auto;
+            padding: 14px 20px;
+            background: #1a1a1a;
+            border: 1px solid #2e2e2e;
+            border-radius: 6px;
+            text-align: center;
+            font-size: 0.75rem;
+            color: #666;
+            font-style: italic;
+            letter-spacing: 0.5px;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 600px) {
+            body {
+                padding: 8px 6px;
             }
+
+            .container {
+                padding: 22px 18px;
+                border-radius: 12px;
+                max-width: 100%;
+            }
+
             h1 {
-                font-size: 1.8rem;
+                font-size: 1.2rem;
+                padding-right: 45px;
+            }
+
+            .dropdown { top: 6px; right: 6px; }
+
+            footer {
+                max-width: 100%;
+                border-radius: 0;
+                margin-top: 14px;
             }
         }
     </style>
 </head>
 <body>
 
+    <!-- Padajući meni gore desno -->
+    <div class="dropdown">
+        <button class="dropdown-toggle" id="dropdownToggle" aria-label="Meni">&#9776;</button>
+        <div class="dropdown-menu" id="dropdownMenu">
+            <a href="o_nama.html">O nama</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="index.html">Galerija</a>
+            <a href="vesti.html">Vesti</a>
+        </div>
+    </div>
+
     <div class="container">
-        <h1>Sajt je u izradi</h1>
-        <p class="subtitle">Brzo se vraćamo! Ako želite da nas kontaktirate u međuvremenu, popunite formu ispod.</p>
+        <h1>Kontakt</h1>
 
-        <form class="contact-form" id="contactForm">
-            <div>
-                <label for="name">Ime</label>
-                <input type="text" id="name" name="name" required placeholder="Vaše ime">
+        <form action="posalji.php" method="POST" id="contactForm">
+            <div class="form-group">
+                <label for="ime">Ime i prezime</label>
+                <input type="text" id="ime" name="ime" required placeholder="Vaše ime">
             </div>
 
-            <div>
-                <label for="phone">Telefon</label>
-                <input type="tel" id="phone" name="phone" placeholder="Vaš broj telefona">
-            </div>
-
-            <div>
+            <div class="form-group">
                 <label for="email">Email adresa</label>
                 <input type="email" id="email" name="email" required placeholder="vas@email.com">
             </div>
 
-            <div>
-                <label for="message">Poruka</label>
-                <textarea id="message" name="message" required placeholder="Ovde napišite poruku..."></textarea>
+            <div class="form-group">
+                <label for="poruka">Poruka</label>
+                <textarea id="poruka" name="poruka" required placeholder="Napišite vašu poruku..."></textarea>
             </div>
 
-            <button type="submit">Pošalji Email</button>
+            <!-- reCAPTCHA v2 checkbox -->
+            <div class="recaptcha-wrapper">
+                <div class="g-recaptcha" data-sitekey="TVOJ_SITE_KEY_OVDE" data-theme="dark"></div>
+            </div>
+
+            <button type="submit" class="btn-submit">Pošalji poruku</button>
         </form>
     </div>
 
+    <footer>
+        <p>Sajt je još u izradi.</p>
+    </footer>
+
     <script>
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
-            e.preventDefault(); // Sprečava osvežavanje stranice
+        // Padajući meni
+        const dropdownToggle = document.getElementById('dropdownToggle');
+        const dropdownMenu = document.getElementById('dropdownMenu');
 
-            // Prikupljanje podataka
-            const name = document.getElementById('name').value;
-            const phone = document.getElementById('phone').value;
-            const email = document.getElementById('email').value;
-            const message = document.getElementById('message').value;
+        dropdownToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            dropdownMenu.classList.toggle('open');
+        });
 
-            // Kreiranje subject linije
-            const subject = encodeURIComponent(`Sa sajta: ${name}`);
-            
-            // Kreiranje tela poruke
-            const body = encodeURIComponent(
-                `Poruka:\n${message}` +
-                '\n\n' +
-                `Ime: ${name}\n` +
-                `Telefon: ${phone}\n` +
-                `Email: ${email}\n\n` 
-                
-            );
-
-            // Kreiranje mailto linka
-            // Napomena: Ovo će otvoriti korisnikov email klijent (Outlook, Mail, Gmail itd.)
-            const mailtoLink = `mailto:com@denmartin.com?subject=${subject}&body=${body}`;
-
-            // Preusmeravanje na mailto link
-            window.location.href = mailtoLink;
+        document.addEventListener('click', () => {
+            dropdownMenu.classList.remove('open');
         });
     </script>
 
 </body>
-    </html>
+</html>
