@@ -478,14 +478,16 @@
 
         <!-- ETHEREUM GAS CENE -->
         <div class="widget widget-gas">
-            <div class="gas-title">⛽ Ethereum Gas Gwei i $x5</div>
-            <div class="gas-row">
+            <div class="gas-title">⛽ Ethereum Gas Gwei tj. $usd (min x5)</div>
+              <span id="ukupno-usd" class="gas-usd">—</span>
+
+            
                 <div class="gas-item">
                     <div class="gas-label">Najsporija</div>
                     <div class="gas-value-line">
                         <span id="gas-slow" class="gas-value">—</span>
                         <span id="gas-slow-usd" class="gas-usd">—</span>
-                    </div>
+                    </div>  
                 </div>
                 <div class="gas-item">
                     <div class="gas-label">Standardna</div>
@@ -555,7 +557,7 @@
                 if (gasData.status === '1' && gasData.result && priceData.status === '1') {
                     const ethUsd = parseFloat(priceData.result.ethusd);
 
-                    const GAS_UNITS = 106000; // sam eth transver 21k, ali claim reward oko 110k, approve cap 55k, i stejl oko 210, usdt swap 70k, a staking/reward oko 250k
+                    const GAS_UNITS = 105500; // 21k x5 sam eth transver 21k, ali claim reward oko 110k, approve cap 55k, i stejl oko 210, usdt swap 70k, a staking/reward oko 250k
                     const GWEI_TO_ETH = 1e-9;
 
                     const slowGwei = parseFloat(gasData.result.SafeGasPrice);
@@ -565,12 +567,16 @@
                     const slowUsd = slowGwei * GAS_UNITS * GWEI_TO_ETH * ethUsd;
                     const standardUsd = standardGwei * GAS_UNITS * GWEI_TO_ETH * ethUsd;
 
-                    // Prikaz: Gwei na 3 decimale + " G", USD na 2 decimale
+                    const maxUkupno = slowUsd * 3.6 // 1x claim reward, 0.5x approve cap, 2x stake
+
+                    // Prikaz: Gwei na 3 decimale + "G", USD na 3 decimale
                     document.getElementById('gas-slow').textContent = slowGwei.toFixed(3) + 'G';
                     document.getElementById('gas-standard').textContent = standardGwei.toFixed(3) + 'G';
 
                     document.getElementById('gas-slow-usd').textContent = '$' + slowUsd.toFixed(3);
                     document.getElementById('gas-standard-usd').textContent = '$' + standardUsd.toFixed(3);
+                    
+                    document.getElementById('ukupno-usd').textContent = '$' + maxUkupno.toFixed(3);
                 } else {
                     console.error('Etherscan greška:', gasData.message, priceData.message);
                     resetGasDisplay();
