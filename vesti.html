@@ -75,7 +75,7 @@
         .widget-ekonomija iframe {
             width: 100%;
             max-width: 100%;
-            height: 1050px;
+            height: 1150px;
             border-radius: 14px;
             background: #F5F5F5;
         }
@@ -156,7 +156,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 60px;
+            gap: 40px;
             text-align: center;
             width: 100%;
         }
@@ -167,9 +167,23 @@
             margin-bottom: 4px;
         }
 
+        .gas-item .gas-value-line {
+            display: flex;
+            align-items: baseline;
+            justify-content: center;
+            gap: 6px;
+            flex-wrap: nowrap;
+        }
+
         .gas-item .gas-value {
             font-size: 1.3rem;
             font-weight: 700;
+        }
+
+        .gas-item .gas-usd {
+            font-size: 0.8rem;
+            color: #888;
+            font-weight: 500;
         }
 
         #gas-slow { color: #4caf50; }
@@ -370,12 +384,16 @@
                 font-size: 0.75rem !important;
             }
 
+            .gas-row {
+                gap: 25px;
+            }
+
             .gas-item .gas-value {
                 font-size: 1.1rem;
             }
 
-            .gas-row {
-                gap: 40px;
+            .gas-item .gas-usd {
+                font-size: 0.7rem;
             }
         }
     </style>
@@ -460,15 +478,21 @@
 
         <!-- ETHEREUM GAS CENE -->
         <div class="widget widget-gas">
-            <div class="gas-title">⛽ Ethereum Gas (Gwei)</div>
+            <div class="gas-title">⛽ Ethereum Gas Gwei-$</div>
             <div class="gas-row">
                 <div class="gas-item">
                     <div class="gas-label">Najsporija</div>
-                    <div id="gas-slow" class="gas-value">—</div>
+                    <div class="gas-value-line">
+                        <span id="gas-slow" class="gas-value">—</span>
+                        <span id="gas-slow-usd" class="gas-usd">—</span>
+                    </div>
                 </div>
                 <div class="gas-item">
                     <div class="gas-label">Standardna</div>
-                    <div id="gas-standard" class="gas-value">—</div>
+                    <div class="gas-value-line">
+                        <span id="gas-standard" class="gas-value">—</span>
+                        <span id="gas-standard-usd" class="gas-usd">—</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -509,41 +533,65 @@
             dropdownMenu.classList.remove('open');
         });
 
-        // Ethereum Gas cene preko Etherscan API + corsproxy
+        // Ethereum Gas cene + USD procena preko Etherscan API + corsproxy
         async function loadGasPrices() {
             const etherscanKey = 'CFJH33IAX4PUFHH7UPNIWY9PH6U775FMFD';
             const corsproxyKey = 'ee6820c0';
-            const etherscanUrl = `https://api.etherscan.io/v2/api?chainid=1&module=gastracker&action=gasoracle&apikey=${etherscanKey}`;
-            const proxyUrl = `https://corsproxy.io/?key=${corsproxyKey}&url=${encodeURIComponent(etherscanUrl)}`;
+
+            const gasUrl = `https://api.etherscan.io/v2/api?chainid=1&module=gastracker&action=gasoracle&apikey=${etherscanKey}`;
+            const priceUrl = `https://api.etherscan.io/v2/api?chainid=1&module=stats&action=ethprice&apikey=${etherscanKey}`;
+
+            const proxy = (url) => `https://corsproxy.io/?key=${corsproxyKey}&url=${encodeURIComponent(url)}`;
 
             try {
-                const response = await fetch(proxyUrl);
-                const data = await response.json();
+                const [gasRes, priceRes] = await Promise.all([
+                    fetch(proxy(gasUrl)),
+                    fetch(proxy(priceUrl))
+                ]);
 
-                if (data.status === '1' && data.result) {
-                    // Zaokruživanje na 3 decimale
-                    const slow = parseFloat(data.result.SafeGasPrice).toFixed(5);
-                    const standard = parseFloat(data.result.ProposeGasPrice).toFixed(5);
+                const gasData = await gasRes.json();
+                const priceData = await priceRes.json();
 
-                    document.getElementById('gas-slow').textContent = slow + ' ';
-                    document.getElementById('gas-standard').textContent = standard + ' ';
+                if (gasData.status === '1' && gasData.result && priceData.status === '1') {
+                    const ethUsd = parseFloat(priceData.result.ethusd);
+
+                    const GAS_UNITS = 21000;
+                    const GWEI_TO_ETH = 1e-9;
+
+                    const slowGwei = parseFloat(gasData.result.SafeGasPrice);
+                    const standardGwei = parseFloat(gasData.result.ProposeGasPrice);
+
+                    // Izračun USD sa PUNOM preciznošću (pre zaokruživanja Gwei-a)
+                    const slowUsd = slowGwei * GAS_UNITS * GWEI_TO_ETH * ethUsd;
+                    const standardUsd = standardGwei * GAS_UNITS * GWEI_TO_ETH * ethUsd;
+
+                    // Prikaz: Gwei na 3 decimale + " G", USD na 2 decimale
+                    document.getElementById('gas-slow').textContent = slowGwei.toFixed(3) + ' G';
+                    document.getElementById('gas-standard').textContent = standardGwei.toFixed(3) + ' G';
+
+                    document.getElementById('gas-slow-usd').textContent = '$' + slowUsd.toFixed(2);
+                    document.getElementById('gas-standard-usd').textContent = '$' + standardUsd.toFixed(2);
                 } else {
-                    console.error('Etherscan greška:', data.message || data.result);
-                    document.getElementById('gas-slow').textContent = 'N/A';
-                    document.getElementById('gas-standard').textContent = 'N/A';
+                    console.error('Etherscan greška:', gasData.message, priceData.message);
+                    resetGasDisplay();
                 }
             } catch (error) {
-                console.error('Greška za gas cene:', error);
-                document.getElementById('gas-slow').textContent = 'N/A';
-                document.getElementById('gas-standard').textContent = 'N/A';
+                console.error('Greška pri dobavljanju gas/ETH cena:', error);
+                resetGasDisplay();
             }
+        }
+
+        function resetGasDisplay() {
+            ['gas-slow', 'gas-standard', 'gas-slow-usd', 'gas-standard-usd'].forEach(id => {
+                document.getElementById(id).textContent = 'N/A';
+            });
         }
 
         // Pozovi odmah pri učitavanju stranice
         loadGasPrices();
 
-        // Osvežavaj svakih 60 sekundi
-        setInterval(loadGasPrices, 60000);
+        // Osvežavaj svakih 160 sekundi
+        setInterval(loadGasPrices, 160000);
     </script>
 
 </body>
