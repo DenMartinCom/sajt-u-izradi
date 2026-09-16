@@ -478,7 +478,7 @@
 
         <!-- ETHEREUM GAS CENE -->
         <div class="widget widget-gas">
-            <div class="gas-title">⛽ Ethereum Gas Gwei i $x5</div>
+            <div class="gas-title">⛽ ETH Gas (u Gwei i $min x5)</div>
             <div class="gas-row">
                 <div class="gas-item">
                     <div class="gas-label">Najsporija</div>
@@ -590,8 +590,8 @@
         // Pozovi odmah pri učitavanju stranice
         loadGasPrices();
 
-        // Osvežavaj svakih 30 sekundi
-        setInterval(loadGasPrices,30000);
+        // Osvežavaj svakih 50 sekundi
+        setInterval(loadGasPrices,50000);
     </script>
 
 </body>
