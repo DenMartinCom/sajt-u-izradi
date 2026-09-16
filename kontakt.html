@@ -303,7 +303,7 @@
 
             <div class="form-group">
                 <label for="poruka">Poruka</label>
-                <textarea id="poruka" name="poruka" required placeholder="Napišite vašu poruku..."></textarea>
+                <textarea id="poruka" name="poruka" required placeholder="Napišite poruku... Kontaktiraćemo Vas ubrzo, hvala na strpljenju."></textarea>
             </div>
 
             <button type="submit" class="btn-submit" id="submitBtn">Pošalji poruku</button>
@@ -368,7 +368,7 @@
                 }
             } catch (error) {
                 formStatus.className = 'form-status error';
-                formStatus.textContent = 'Došlo je do greške. Proverite internet vezu.';
+                formStatus.textContent = 'Došlo je do greške. Proverite Internet vezu ili probajte kasnije.';
             } finally {
                 submitBtn.disabled = false;
                 submitBtn.textContent = 'Pošalji poruku';
