@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vesti</title>
-    <link rel="icon" type="image/svg+xml" href="/Slike/favicon.svg">
-    <link rel="apple-touch-icon" href="/Slike/apple-touch-icon.png">
+    <title>Klavus - Vesti</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <style>
         * {
             box-sizing: border-box;
@@ -28,7 +28,7 @@
             align-items: center;
         }
 
-        /* JEDNA KOLONA - šira */
+        /* JEDNA KOLONA */
         .kolona {
             width: 100%;
             max-width: 600px;
@@ -102,7 +102,6 @@
             max-width: 100%;
         }
 
-        /* VAŽNO: bez overflow: hidden - da se sadržaj ne odseca */
         .widget-kripto > * {
             width: 100% !important;
             max-width: 100% !important;
@@ -122,7 +121,6 @@
             line-height: 1.4 !important;
         }
 
-        /* Svetli tekst unutar kripto widgeta */
         .widget-kripto .coinmarketcap-currency-widget,
         .widget-kripto .coinmarketcap-currency-widget * {
             color: #f0f0f0 !important;
@@ -135,12 +133,46 @@
             font-weight: 700 !important;
         }
 
-        /* Slike/tabele unutar widgeta - ne prelaze širinu */
         .widget-kripto img,
         .widget-kripto table {
             max-width: 100% !important;
             height: auto !important;
         }
+
+        /* GAS WIDGET */
+        .widget-gas {
+            padding: 16px;
+        }
+
+        .gas-title {
+            text-align: center;
+            color: #FFD700;
+            font-size: 0.9rem;
+            margin-bottom: 14px;
+            letter-spacing: 0.5px;
+        }
+
+        .gas-row {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            width: 100%;
+        }
+
+        .gas-item .gas-label {
+            font-size: 0.7rem;
+            color: #888;
+            margin-bottom: 4px;
+        }
+
+        .gas-item .gas-value {
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+
+        #gas-slow { color: #4caf50; }
+        #gas-standard { color: #fff; }
+        #gas-fast { color: #FFD700; }
 
         /* LINK KA LOKALNIM VESTIMA */
         .news-link {
@@ -281,7 +313,7 @@
             color: #fff;
         }
 
-        /* RESPONSIVE - kolona puna širina na mobilnom */
+        /* RESPONSIVE */
         @media (max-width: 730px) {
             body {
                 padding: 8px 6px;
@@ -335,6 +367,10 @@
 
             .widget-kripto .coinmarketcap-currency-widget {
                 font-size: 0.75rem !important;
+            }
+
+            .gas-item .gas-value {
+                font-size: 1.1rem;
             }
         }
     </style>
@@ -417,6 +453,25 @@
             <div class="coinmarketcap-currency-widget" data-currencyid="1" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div>
         </div>
 
+        <!-- ETHEREUM GAS CENE -->
+        <div class="widget widget-gas">
+            <div class="gas-title">⛽ Ethereum Gas (Gwei)</div>
+            <div class="gas-row">
+                <div class="gas-item">
+                    <div class="gas-label">Najsporija</div>
+                    <div id="gas-slow" class="gas-value">—</div>
+                </div>
+                <div class="gas-item">
+                    <div class="gas-label">Standardna</div>
+                    <div id="gas-standard" class="gas-value">—</div>
+                </div>
+                <div class="gas-item">
+                    <div class="gas-label">Najbrža</div>
+                    <div id="gas-fast" class="gas-value">—</div>
+                </div>
+            </div>
+        </div>
+
         <!-- LINK KA LOKALNIM VESTIMA RTV STARA PAZOVA -->
         <div class="news-link">
             <a href="https://www.rtvstarapazova.rs/sr/vesti.php" target="_blank" rel="noopener noreferrer">
@@ -429,8 +484,9 @@
 
     <!-- IZVORI -->
     <div class="izvori">
-        Izvori: <a href="https://www.naslovi.net" target="_blank" rel="noopener noreferrer">Naslovi.net</a> i
-        <a href="https://coinmarketcap.com" target="_blank" rel="noopener noreferrer">CoinMarketCap</a>
+        Izvori: <a href="https://www.naslovi.net" target="_blank" rel="noopener noreferrer">Naslovi.net</a>,
+        <a href="https://coinmarketcap.com" target="_blank" rel="noopener noreferrer">CoinMarketCap</a> i
+        <a href="https://etherscan.io" target="_blank" rel="noopener noreferrer">Etherscan</a>
     </div>
 
     <!-- FUTER -->
@@ -451,6 +507,41 @@
         document.addEventListener('click', () => {
             dropdownMenu.classList.remove('open');
         });
+
+        // Ethereum Gas cene preko Etherscan API + corsproxy
+        async function loadGasPrices() {
+            const etherscanKey = 'CFJH33IAX4PUFHH7UPNIWY9PH6U775FMFD';
+            const corsproxyKey = 'ee6820c0';
+            const etherscanUrl = `https://api.etherscan.io/v2/api?chainid=1&module=gastracker&action=gasoracle&apikey=${etherscanKey}`;
+            const proxyUrl = `https://corsproxy.io/?key=${corsproxyKey}&url=${encodeURIComponent(etherscanUrl)}`;
+
+            try {
+                const response = await fetch(proxyUrl);
+                const data = await response.json();
+
+                if (data.status === '1' && data.result) {
+                    document.getElementById('gas-slow').textContent = data.result.SafeGasPrice + ' Gwei';
+                    document.getElementById('gas-standard').textContent = data.result.ProposeGasPrice + ' Gwei';
+                    document.getElementById('gas-fast').textContent = data.result.FastGasPrice + ' Gwei';
+                } else {
+                    console.error('Etherscan greška:', data.message || data.result);
+                    document.getElementById('gas-slow').textContent = 'N/A';
+                    document.getElementById('gas-standard').textContent = 'N/A';
+                    document.getElementById('gas-fast').textContent = 'N/A';
+                }
+            } catch (error) {
+                console.error('Greška pri dobavljanju gas cena:', error);
+                document.getElementById('gas-slow').textContent = 'N/A';
+                document.getElementById('gas-standard').textContent = 'N/A';
+                document.getElementById('gas-fast').textContent = 'N/A';
+            }
+        }
+
+        // Pozovi odmah pri učitavanju stranice
+        loadGasPrices();
+
+        // Osvežavaj svakih 60 sekundi
+        setInterval(loadGasPrices, 60000);
     </script>
 
 </body>
