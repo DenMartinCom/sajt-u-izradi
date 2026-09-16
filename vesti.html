@@ -90,7 +90,47 @@
             margin: 0 !important;
             width: 100% !important;
         }
+        /* Link ka lokalnim vestima */
+        .news-link {
+         margin-top: 30px;
+         text-align: center;
+         }
 
+         .news-link a {
+          display: inline-block;
+          text-decoration: none;
+          color: #FFD700;
+          transition: transform 0.2s, opacity 0.2s;
+          }
+
+          .news-link a:hover {
+        transform: translateY(-3px);
+        opacity: 0.9;
+        }
+
+        .news-link img {
+        display: block;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        border-radius: 12px;
+        border: 1px solid #333;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+        transition: box-shadow 0.3s, border-color 0.3s;
+        }
+
+        .news-link a:hover img {
+        box-shadow: 0 6px 18px rgba(255, 215, 0, 0.25);
+        border-color: #FFD700;
+        }
+
+        .news-link span {
+         display: block;
+         margin-top: 10px;
+        font-size: 0.9rem;
+        color: #FFD700;
+        letter-spacing: 0.5px;
+        }
         /* RESPONSIVE – na uskim ekranima sve ostaje u jednoj koloni */
         @media (max-width: 730px) {
             body {
