@@ -478,10 +478,7 @@
 
         <!-- ETHEREUM GAS CENE -->
         <div class="widget widget-gas">
-            <div class="gas-title">⛽ Ethereum Gas Gwei tj. $usd (min x5)</div>
-              <span id="ukupno-usd" class="gas-usd">—</span>
-
-            
+            <div class="gas-title">⛽ ETH Gas Gwei tj. $USD (min x5)</div>
                 <div class="gas-item">
                     <div class="gas-label">Najsporija</div>
                     <div class="gas-value-line">
@@ -497,6 +494,7 @@
                     </div>
                 </div>
             </div>
+        <span> Max ukupno do </span> <span id="ukupno-usd" class="gas-usd">—</span>
         </div>
 
         <!-- LINK KA LOKALNIM VESTIMA RTV STARA PAZOVA -->
@@ -576,7 +574,7 @@
                     document.getElementById('gas-slow-usd').textContent = '$' + slowUsd.toFixed(3);
                     document.getElementById('gas-standard-usd').textContent = '$' + standardUsd.toFixed(3);
                     
-                    document.getElementById('ukupno-usd').textContent = '$' + maxUkupno.toFixed(3);
+                    document.getElementById('ukupno-usd').textContent = '$' + maxUkupno.toFixed(2);
                 } else {
                     console.error('Etherscan greška:', gasData.message, priceData.message);
                     resetGasDisplay();
