@@ -91,7 +91,7 @@
             height: 135px;
         }
 
-        /* KRIPTO - tamna pozadina, svetli tekst, bez odsecanja */
+        /* KRIPTO */
         .widget-kripto {
             gap: 8px;
             align-items: stretch;
@@ -154,7 +154,9 @@
 
         .gas-row {
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
+            align-items: center;
+            gap: 60px;
             text-align: center;
             width: 100%;
         }
@@ -172,7 +174,6 @@
 
         #gas-slow { color: #4caf50; }
         #gas-standard { color: #fff; }
-        #gas-fast { color: #FFD700; }
 
         /* LINK KA LOKALNIM VESTIMA */
         .news-link {
@@ -372,6 +373,10 @@
             .gas-item .gas-value {
                 font-size: 1.1rem;
             }
+
+            .gas-row {
+                gap: 40px;
+            }
         }
     </style>
 </head>
@@ -465,10 +470,6 @@
                     <div class="gas-label">Standardna</div>
                     <div id="gas-standard" class="gas-value">—</div>
                 </div>
-                <div class="gas-item">
-                    <div class="gas-label">Najbrža</div>
-                    <div id="gas-fast" class="gas-value">—</div>
-                </div>
             </div>
         </div>
 
@@ -520,20 +521,21 @@
                 const data = await response.json();
 
                 if (data.status === '1' && data.result) {
-                    document.getElementById('gas-slow').textContent = data.result.SafeGasPrice + ' Gwei';
-                    document.getElementById('gas-standard').textContent = data.result.ProposeGasPrice + ' Gwei';
-                    document.getElementById('gas-fast').textContent = data.result.FastGasPrice + ' Gwei';
+                    // Zaokruživanje na 3 decimale
+                    const slow = parseFloat(data.result.SafeGasPrice).toFixed(3);
+                    const standard = parseFloat(data.result.ProposeGasPrice).toFixed(3);
+
+                    document.getElementById('gas-slow').textContent = slow + ' Gwei';
+                    document.getElementById('gas-standard').textContent = standard + ' Gwei';
                 } else {
                     console.error('Etherscan greška:', data.message || data.result);
                     document.getElementById('gas-slow').textContent = 'N/A';
                     document.getElementById('gas-standard').textContent = 'N/A';
-                    document.getElementById('gas-fast').textContent = 'N/A';
                 }
             } catch (error) {
                 console.error('Greška pri dobavljanju gas cena:', error);
                 document.getElementById('gas-slow').textContent = 'N/A';
                 document.getElementById('gas-standard').textContent = 'N/A';
-                document.getElementById('gas-fast').textContent = 'N/A';
             }
         }
 
