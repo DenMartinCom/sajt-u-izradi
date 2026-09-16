@@ -28,10 +28,10 @@
             align-items: center;
         }
 
-        /* JEDNA KOLONA */
+        /* JEDNA KOLONA - proširena */
         .kolona {
             width: 100%;
-            max-width: 480px;
+            max-width: 520px;
             display: flex;
             flex-direction: column;
             gap: 14px;
@@ -91,21 +91,58 @@
             height: 135px;
         }
 
-        /* KRIPTO */
+        /* KRIPTO - tamna pozadina, svetli tekst, ne štrči */
         .widget-kripto {
             gap: 10px;
             align-items: stretch;
-            background: #fff;
+            background: #1e1e1e;
             border-radius: 14px;
             padding: 12px;
+            overflow: hidden;
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .widget-kripto > * {
+            width: 100% !important;
+            max-width: 100% !important;
+            box-sizing: border-box !important;
+            overflow: hidden;
         }
 
         .widget-kripto .coinmarketcap-currency-widget {
             margin: 0 !important;
+            padding: 10px 12px !important;
             width: 100% !important;
+            max-width: 100% !important;
+            box-sizing: border-box !important;
+            background: #2a2a2a !important;
+            border-radius: 8px !important;
+            overflow: hidden !important;
+            border: 1px solid #383838 !important;
         }
 
-        /* --- LINK KA LOKALNIM VESTIMA --- */
+        /* Svetli tekst unutar kripto widgeta radi čitljivosti na tamnoj pozadini */
+        .widget-kripto .coinmarketcap-currency-widget,
+        .widget-kripto .coinmarketcap-currency-widget * {
+            color: #f0f0f0 !important;
+        }
+
+        .widget-kripto .coinmarketcap-currency-widget .price,
+        .widget-kripto .coinmarketcap-currency-widget .symbol,
+        .widget-kripto .coinmarketcap-currency-widget .name {
+            color: #FFD700 !important;
+            font-weight: 700 !important;
+        }
+
+        .widget-kripto iframe,
+        .widget-kripto img,
+        .widget-kripto table {
+            max-width: 100% !important;
+            box-sizing: border-box !important;
+        }
+
+        /* LINK KA LOKALNIM VESTIMA */
         .news-link {
             margin-top: 10px;
             text-align: center;
@@ -149,10 +186,10 @@
             letter-spacing: 0.5px;
         }
 
-        /* --- IZVORI (iznad futera) --- */
+        /* IZVORI */
         .izvori {
             width: 100%;
-            max-width: 480px;
+            max-width: 520px;
             margin: 20px auto 0 auto;
             text-align: center;
             font-size: 0.78rem;
@@ -172,10 +209,10 @@
             text-decoration: underline;
         }
 
-        /* --- FUTER --- */
+        /* FUTER */
         footer {
             width: 100%;
-            max-width: 480px;
+            max-width: 520px;
             margin: 14px auto 0 auto;
             padding: 14px 20px;
             background: #1a1a1a;
@@ -188,7 +225,7 @@
             letter-spacing: 0.5px;
         }
 
-        /* --- PADAJUĆI MENI (fiksiran gore desno) --- */
+        /* PADAJUĆI MENI */
         .dropdown {
             position: fixed;
             top: 10px;
@@ -247,7 +284,7 @@
         /* RESPONSIVE */
         @media (max-width: 730px) {
             body {
-                padding: 10px 8px;
+                padding: 8px 4px;
             }
 
             .kolona {
@@ -269,6 +306,24 @@
                 width: 100%;
                 max-width: 340px;
                 height: 170px;
+            }
+
+            .widget-kripto {
+                padding: 8px;
+            }
+
+            .widget-kripto .coinmarketcap-currency-widget {
+                padding: 8px 10px !important;
+            }
+
+            .izvori,
+            footer {
+                max-width: 100%;
+            }
+
+            footer {
+                border-radius: 0;
+                margin-top: 12px;
             }
         }
 
@@ -367,7 +422,7 @@
 
     </div>
 
-    <!-- IZVORI (iznad futera) -->
+    <!-- IZVORI -->
     <div class="izvori">
         Izvori: <a href="https://www.naslovi.net" target="_blank" rel="noopener noreferrer">Naslovi.net</a> i
         <a href="https://coinmarketcap.com" target="_blank" rel="noopener noreferrer">CoinMarketCap</a>
@@ -394,4 +449,4 @@
     </script>
 
 </body>
-                </html>
+</html>
