@@ -199,8 +199,8 @@
             footer { border-radius: 0; margin-top: 12px; }
         }
         @media (max-width: 370px) {
-            .widget-ekonomija iframe { height: 840px; }
-            .widget-pretraga iframe { height: 840px; }
+            .widget-ekonomija iframe { height: 800px; }
+            .widget-pretraga iframe { height: 800px; }
             .widget-kripto .coinmarketcap-currency-widget { font-size: 0.75rem !important; }
             .gas-row { gap: 25px; }
             .gas-item .gas-value { font-size: 1.1rem; }
@@ -350,7 +350,7 @@
 
         // ===== KONFIGURACIJA =====
         const WORKER_URL = 'https://cmc-proxy.martin-denic.workers.dev';
-        const GAS_UNITS = 106000;
+        const GAS_UNITS = 95000; // trans 21k, claim 95k,approve cap 45k, stejk swap 180k, uk oko 333k 
         const GWEI_TO_ETH = 1e-9;
         const ZAMA_MULTIPLIER = 21800;
 
@@ -421,9 +421,9 @@
                     const slowUsd = gas.slow * GAS_UNITS * GWEI_TO_ETH * ethPrice;
                     const standardUsd = gas.standard * GAS_UNITS * GWEI_TO_ETH * ethPrice;
 
-                    document.getElementById('gas-slow').textContent = gas.slow.toFixed(2) + 'G';
-                    document.getElementById('gas-standard').textContent = gas.standard.toFixed(2) + 'G';
-                    document.getElementById('gas-slow-usd').textContent = '$' + slowUsd.toFixed(3) + ' - Uk. ' + (slowUsd * 3.6).toFixed(1);
+                    document.getElementById('gas-slow').textContent = gas.slow.toFixed(3) + 'g';
+                    document.getElementById('gas-standard').textContent = gas.standard.toFixed(3) + 'g';
+                    document.getElementById('gas-slow-usd').textContent = '$' + slowUsd.toFixed(3) + ' - Uk. ' + (slowUsd * 3.51).toFixed(2);
                     document.getElementById('gas-standard-usd').textContent = '$' + standardUsd.toFixed(3);
 
                     setStatus(`Ažurirano • ETH: $${ethPrice.toFixed(2)}`, 'ok');
@@ -445,7 +445,7 @@
                 if (prices.zama !== null) {
                     const result = prices.zama * ZAMA_MULTIPLIER;
                     zamaEl.textContent = result.toFixed(1);
-                    zamaSub.textContent = `$${prices.zama.toFixed(4)}`;
+                    zamaSub.textContent = `${prices.zama.toFixed(4)}`;
                 } else {
                     zamaEl.textContent = '—';
                     zamaSub.textContent = 'Zama cena nedostupna';
@@ -462,7 +462,7 @@
 
         // ===== INIT =====
         loadData();
-        setInterval(loadData, 20000);
+        setInterval(loadData, 16000);
     </script>
 
 </body>
