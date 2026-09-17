@@ -443,11 +443,12 @@
                 // --- ZAMA PRIKAZ ---
                 const zamaEl = document.getElementById('zama-result');
                 const zamaSub = document.getElementById('zama-sub');
-                const zamaBtc = (result/btc*1000).toFixed(1)
+                const btcPrice = prices.btc;
+                const zamaBtc = (result/btcPrice*1000).toFixed(1)
 
                 if (prices.zama !== null) {
                     const result = prices.zama * ZAMA_MULTIPLIER;
-                    zamaEl.textContent = btc; //+ result.toFixed(1)*10 + ' e' ;//;
+                    zamaEl.textContent = btcPrice; //+ result.toFixed(1)*10 + ' e' ;//;
                     zamaSub.textContent = `${prices.zama.toFixed(4)}`;
                 } else {
                     zamaEl.textContent = '—';
