@@ -1,11 +1,11 @@
-
 <!DOCTYPE html>
 <html lang="sr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ETH Gas i Zama kalkulacija</title>
+    <title>Vesti</title>
     <link rel="icon" type="image/svg+xml" href="/Slike/favicon.svg">
+    <link rel="apple-touch-icon" href="/Slike/apple-touch-icon.png">
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
         html, body { min-height: 100%; }
@@ -18,7 +18,6 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
         }
         .kolona {
             width: 100%;
@@ -39,35 +38,63 @@
             justify-content: center;
             width: 100%;
         }
+        .widget iframe {
+            display: block;
+            border: none;
+            border-radius: 10px;
+            background: transparent;
+        }
+        .widget-vreme iframe { width: 300px; max-width: 100%; height: 180px; }
+        .widget-ekonomija { padding: 0; background: transparent; border: none; box-shadow: none; }
+        .widget-ekonomija iframe {
+            width: 100%; max-width: 100%; height: 1150px;
+            border-radius: 14px; background: #F5F5F5;
+        }
+        .widget-pretraga { padding: 0; background: transparent; border: none; box-shadow: none; }
+        .widget-pretraga iframe {
+            width: 100%; max-width: 100%; height: 934px;
+            border-radius: 14px; background: #F5F5F5;
+        }
+        .widget-kurs { justify-content: center; padding: 12px; }
+        .widget-kurs iframe { width: 115px; height: 135px; }
+        .widget-kripto {
+            gap: 8px; align-items: stretch; background: #1e1e1e;
+            border-radius: 14px; padding: 10px; width: 100%; max-width: 100%;
+        }
+        .widget-kripto > * {
+            width: 100% !important; max-width: 100% !important;
+            box-sizing: border-box !important;
+        }
+        .widget-kripto .coinmarketcap-currency-widget {
+            margin: 0 !important; padding: 8px 10px !important;
+            width: 100% !important; max-width: 100% !important;
+            box-sizing: border-box !important; background: #2a2a2a !important;
+            border-radius: 8px !important; border: 1px solid #383838 !important;
+            font-size: 0.85rem !important; line-height: 1.4 !important;
+        }
+        .widget-kripto .coinmarketcap-currency-widget,
+        .widget-kripto .coinmarketcap-currency-widget * { color: #f0f0f0 !important; }
+        .widget-kripto .coinmarketcap-currency-widget .price,
+        .widget-kripto .coinmarketcap-currency-widget .symbol,
+        .widget-kripto .coinmarketcap-currency-widget .name {
+            color: #FFD700 !important; font-weight: 700 !important;
+        }
+        .widget-kripto img, .widget-kripto table { max-width: 100% !important; height: auto !important; }
 
         /* GAS WIDGET */
         .widget-gas { padding: 16px; }
         .gas-title {
-            text-align: center;
-            color: #FFD700;
-            font-size: 0.9rem;
-            margin-bottom: 14px;
-            letter-spacing: 0.5px;
+            text-align: center; color: #FFD700; font-size: 0.9rem;
+            margin-bottom: 14px; letter-spacing: 0.5px;
         }
         .gas-row {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 40px;
-            text-align: center;
-            width: 100%;
+            display: flex; justify-content: center; align-items: center;
+            gap: 40px; text-align: center; width: 100%;
         }
-        .gas-item .gas-label {
-            font-size: 0.7rem;
-            color: #888;
-            margin-bottom: 4px;
-        }
+        .gas-item .gas-label { font-size: 0.7rem; color: #888; margin-bottom: 4px; }
         .gas-item .gas-value-line {
-            display: flex;
-            align-items: baseline;
-            justify-content: center;
-            gap: 6px;
-            flex-wrap: nowrap;
+            display: flex; align-items: baseline; justify-content: center;
+            gap: 6px; flex-wrap: nowrap;
         }
         .gas-item .gas-value { font-size: 1.3rem; font-weight: 700; }
         .gas-item .gas-usd { font-size: 0.8rem; color: #888; font-weight: 500; }
@@ -75,62 +102,106 @@
         #gas-standard { color: #fff; }
 
         /* ZAMA WIDGET */
-        .widget-zama {
-            padding: 20px 16px;
-            text-align: center;
-        }
+        .widget-zama { padding: 20px 16px; text-align: center; }
         .zama-title {
-            color: #FFD700;
-            font-size: 0.9rem;
-            margin-bottom: 10px;
+            color: #FFD700; font-size: 0.9rem; margin-bottom: 10px;
             letter-spacing: 0.5px;
         }
         .zama-value {
-            font-size: 2.2rem;
-            font-weight: 700;
-            color: #fff;
-            letter-spacing: 1px;
-            line-height: 1.2;
+            font-size: 2.2rem; font-weight: 700; color: #fff;
+            letter-spacing: 1px; line-height: 1.2;
         }
         .zama-value .currency {
-            font-size: 1.2rem;
-            color: #FFD700;
-            font-weight: 500;
-            margin-right: 4px;
+            font-size: 1.2rem; color: #FFD700; font-weight: 500; margin-right: 4px;
         }
         .zama-sub {
-            font-size: 0.7rem;
-            color: #666;
-            margin-top: 6px;
-            letter-spacing: 0.3px;
+            font-size: 0.7rem; color: #666; margin-top: 6px; letter-spacing: 0.3px;
         }
 
         /* STATUS */
         .status {
-            margin-top: 12px;
-            font-size: 0.7rem;
-            color: #666;
-            text-align: center;
-            letter-spacing: 0.3px;
+            margin-top: 12px; font-size: 0.7rem; color: #666;
+            text-align: center; letter-spacing: 0.3px;
         }
         .status .dot {
-            display: inline-block;
-            width: 6px;
-            height: 6px;
-            border-radius: 50%;
-            background: #4caf50;
-            margin-right: 5px;
-            vertical-align: middle;
+            display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+            background: #4caf50; margin-right: 5px; vertical-align: middle;
         }
         .status.error .dot { background: #f44336; }
         .status.loading .dot { background: #FFD700; }
 
+        .news-link { margin-top: 10px; text-align: center; width: 100%; }
+        .news-link a {
+            display: inline-block; text-decoration: none; color: #FFD700;
+            transition: transform 0.2s, opacity 0.2s;
+        }
+        .news-link a:hover { transform: translateY(-3px); opacity: 0.9; }
+        .news-link img {
+            display: block; width: 100%; max-width: 400px; height: auto;
+            margin: 0 auto; border-radius: 12px; border: 1px solid #333;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+            transition: box-shadow 0.3s, border-color 0.3s;
+        }
+        .news-link a:hover img {
+            box-shadow: 0 6px 18px rgba(255, 215, 0, 0.25);
+            border-color: #FFD700;
+        }
+        .news-link span {
+            display: block; margin-top: 10px; font-size: 0.9rem;
+            color: #FFD700; letter-spacing: 0.5px;
+        }
+        .izvori {
+            width: 100%; max-width: 600px; margin: 20px auto 0 auto;
+            text-align: center; font-size: 0.78rem; color: #777;
+            letter-spacing: 0.3px; line-height: 1.6;
+        }
+        .izvori a { color: #FFD700; text-decoration: none; transition: color 0.2s; }
+        .izvori a:hover { color: #fff; text-decoration: underline; }
+        footer {
+            width: 100%; max-width: 600px; margin: 14px auto 0 auto;
+            padding: 14px 20px; background: #1a1a1a; border: 1px solid #2e2e2e;
+            border-radius: 6px; text-align: center; font-size: 0.75rem;
+            color: #666; font-style: italic; letter-spacing: 0.5px;
+        }
+        .dropdown { position: fixed; top: 10px; right: 10px; z-index: 200; }
+        .dropdown-toggle {
+            background: #2a2a2a; color: #FFD700; border: 1px solid #444;
+            padding: 8px 12px; font-size: 1.1rem; cursor: pointer;
+            border-radius: 4px; transition: background 0.2s; line-height: 1;
+        }
+        .dropdown-toggle:hover { background: #3a3a3a; }
+        .dropdown-menu {
+            display: none; position: absolute; top: 100%; right: 0;
+            margin-top: 4px; background: #2a2a2a; border: 1px solid #444;
+            border-radius: 4px; min-width: 140px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.6); overflow: hidden;
+        }
+        .dropdown-menu.open { display: block; }
+        .dropdown-menu a {
+            display: block; padding: 10px 14px; color: #FFD700;
+            text-decoration: none; font-size: 0.9rem;
+            transition: background 0.2s, color 0.2s;
+        }
+        .dropdown-menu a:hover { background: #3a3a3a; color: #fff; }
+
         @media (max-width: 730px) {
             body { padding: 8px 6px; }
-            .kolona { max-width: 100%; }
+            .kolona { max-width: 100%; gap: 12px; }
             .widget { padding: 10px; border-radius: 12px; }
+            .widget-ekonomija iframe { height: 980px; border-radius: 12px; }
+            .widget-pretraga iframe { height: 860px; border-radius: 12px; }
+            .widget-vreme iframe { width: 100%; max-width: 340px; height: 170px; }
+            .widget-kripto { padding: 6px; }
+            .widget-kripto .coinmarketcap-currency-widget {
+                padding: 8px !important; font-size: 0.8rem !important;
+            }
+            .izvori, footer { max-width: 100%; }
+            footer { border-radius: 0; margin-top: 12px; }
         }
         @media (max-width: 370px) {
+            .widget-ekonomija iframe { height: 860px; }
+            .widget-pretraga iframe { height: 800px; }
+            .widget-kripto .coinmarketcap-currency-widget { font-size: 0.75rem !important; }
             .gas-row { gap: 25px; }
             .gas-item .gas-value { font-size: 1.1rem; }
             .gas-item .gas-usd { font-size: 0.7rem; }
@@ -140,7 +211,75 @@
 </head>
 <body>
 
+    <div class="dropdown">
+        <button class="dropdown-toggle" id="dropdownToggle" aria-label="Meni">&#9776;</button>
+        <div class="dropdown-menu" id="dropdownMenu">
+            <a href="o_nama.html">O nama</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="index.html">Galerija</a>
+            <a href="vesti.html">Vesti</a>
+        </div>
+    </div>
+
     <div class="kolona">
+
+        <!-- VREME BEOGRAD -->
+        <div class="widget widget-vreme">
+            <iframe src="https://naslovi.net/vremenska-prognoza/widget/beograd?big=1"
+                frameborder="0" scrolling="no" loading="lazy"></iframe>
+        </div>
+
+        <!-- VREME INĐIJA -->
+        <div class="widget widget-vreme">
+            <iframe src="https://naslovi.net/vremenska-prognoza/widget/indjija?big=1&bgcolor=FFFFFF&textcolor=000000"
+                frameborder="0" scrolling="no" loading="lazy"></iframe>
+        </div>
+
+        <!-- EKONOMIJA -->
+        <div class="widget widget-ekonomija">
+            <iframe src="https://naslovi.net/widget/?type=ekonomija&bgcolor=F5F5F5&textcolor=000000&separatorcolor=D0D0D0&count=10&"
+                frameborder="0" scrolling="no" loading="lazy"></iframe>
+        </div>
+
+        <!-- PAZOVA -->
+        <div class="widget widget-pretraga">
+            <iframe src="https://naslovi.net/widget/?type=pretraga&q=pazova&bgcolor=F5F5F5&textcolor=000000&separatorcolor=D0D0D0&count=10&"
+                frameborder="0" scrolling="no" loading="lazy"></iframe>
+        </div>
+
+        <!-- KRIPTO (VESTI) -->
+        <div class="widget widget-pretraga">
+            <iframe src="https://naslovi.net/widget/?type=pretraga&q=kripto&bgcolor=F5F5F5&textcolor=000000&separatorcolor=D0D0D0&count=10&"
+                frameborder="0" scrolling="no" loading="lazy"></iframe>
+        </div>
+
+        <!-- KURSNA LISTA -->
+        <div class="widget widget-kurs">
+            <iframe id="iframe_vreme"
+                src="https://naslovi.net/plugin/kursna_lista2.php?bgcolor=ffffff&color=000000"
+                frameborder="0" height="175" scrolling="no" width="115" loading="lazy">
+                <a href="https://naslovi.net/kursna_lista.php">Kursna lista</a>
+            </iframe>
+        </div>
+
+        <!-- KRIPTO VALUTE -->
+        <div class="widget widget-kripto">
+            <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+            <div class="coinmarketcap-currency-widget" data-currencyid="30618" data-base="USD" data-secondary="" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="false" data-statsticker="false" data-stats="USD"></div>
+
+            <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+            <div class="coinmarketcap-currency-widget" data-currencyid="5176" data-base="USD" data-secondary="" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="false" data-statsticker="false" data-stats="USD"></div>
+
+            <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+            <div class="coinmarketcap-currency-widget" data-currencyid="39332" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div>
+
+            <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+            <div class="coinmarketcap-currency-widget" data-currencyid="1027" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div>
+
+            <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+            <div class="coinmarketcap-currency-widget" data-currencyid="1" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div>
+        </div>
 
         <!-- ETHEREUM GAS CENE -->
         <div class="widget widget-gas">
@@ -175,20 +314,45 @@
             <div class="zama-sub" id="zama-sub">Čeka podatke...</div>
         </div>
 
+        <!-- LINK KA LOKALNIM VESTIMA RTV STARA PAZOVA -->
+        <div class="news-link">
+            <a href="https://www.rtvstarapazova.rs/sr/vesti.php" target="_blank" rel="noopener noreferrer">
+                <img src="Slike/rtvSP.webp" alt="RTV Stara Pazova - lokalne vesti">
+                <span>Poseti lokalne vesti &rarr;</span>
+            </a>
+        </div>
+
     </div>
 
-    <script>
-        // ===== KONFIGURACIJA =====
-        const ETHERSCAN_KEY = 'CFJH33IAX4PUFHH7UPNIWY9PH6U775FMFD';
-        const CMC_API_KEY = 'c75f5759511e4fbd8611ee5fb4ca09a6'; // TODO: prebaciti na Worker
-        const CORSPROXY_KEY = 'ee6820c0';
+    <!-- IZVORI -->
+    <div class="izvori">
+        Izvori: <a href="https://www.naslovi.net" target="_blank" rel="noopener noreferrer">Naslovi.net</a>,
+        <a href="https://coinmarketcap.com" target="_blank" rel="noopener noreferrer">CoinMarketCap</a> i
+        <a href="https://etherscan.io" target="_blank" rel="noopener noreferrer">Etherscan</a>
+    </div>
 
+    <footer>
+        <p>Sajt je još u izradi.</p>
+    </footer>
+
+    <script>
+        // Padajući meni
+        const dropdownToggle = document.getElementById('dropdownToggle');
+        const dropdownMenu = document.getElementById('dropdownMenu');
+
+        dropdownToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            dropdownMenu.classList.toggle('open');
+        });
+        document.addEventListener('click', () => {
+            dropdownMenu.classList.remove('open');
+        });
+
+        // ===== KONFIGURACIJA =====
+        const WORKER_URL = 'https://cmc-proxy.martin-denic.workers.dev';
         const GAS_UNITS = 106000;
         const GWEI_TO_ETH = 1e-9;
         const ZAMA_MULTIPLIER = 21800;
-
-        // ===== POMOĆNE =====
-        const proxy = (url) => `https://corsproxy.io/?key=${CORSPROXY_KEY}&url=${encodeURIComponent(url)}`;
 
         function setStatus(text, type = 'loading') {
             const el = document.getElementById('status');
@@ -202,11 +366,10 @@
             });
         }
 
-        // ===== DOBAVLJANJE CENA (ETH + ZAMA) PREKO CMC =====
+        // ===== DOBAVLJANJE CMC CENA (ETH + ZAMA) =====
         async function getPricesFromCMC() {
             try {
-                const cmcUrl = `https://pro-api.coinmarketcap.com/public-api/v1/simple/price?ids=1027,39332&convert=USD&CMC_PRO_API_KEY=${CMC_API_KEY}`;
-                const res = await fetch(proxy(cmcUrl));
+                const res = await fetch(`${WORKER_URL}/cmc`);
                 const data = await res.json();
 
                 if (data && data.status && data.status.error_code === '0' && Array.isArray(data.data)) {
@@ -217,7 +380,7 @@
                         zama: zama ? parseFloat(zama.price) : null
                     };
                 }
-                console.warn('CMC nije vratio cene, prelazim na fallback za ETH.');
+                console.warn('CMC nije vratio cene:', data);
             } catch (e) {
                 console.warn('CMC greška:', e);
             }
@@ -226,14 +389,17 @@
 
         // ===== DOBAVLJANJE GAS CENE =====
         async function getGasPrices() {
-            const url = `https://api.etherscan.io/v2/api?chainid=1&module=gastracker&action=gasoracle&apikey=${ETHERSCAN_KEY}`;
-            const res = await fetch(proxy(url));
-            const data = await res.json();
-            if (data.status === '1' && data.result) {
-                return {
-                    slow: parseFloat(data.result.SafeGasPrice),
-                    standard: parseFloat(data.result.ProposeGasPrice)
-                };
+            try {
+                const res = await fetch(`${WORKER_URL}/gas`);
+                const data = await res.json();
+                if (data.gas && data.gas.status === '1' && data.gas.result) {
+                    return {
+                        slow: parseFloat(data.gas.result.SafeGasPrice),
+                        standard: parseFloat(data.gas.result.ProposeGasPrice)
+                    };
+                }
+            } catch (e) {
+                console.warn('Gas greška:', e);
             }
             return null;
         }
@@ -248,20 +414,7 @@
                     getPricesFromCMC()
                 ]);
 
-                // ETH cena: primarno CMC, fallback Etherscan
-                let ethPrice = prices.eth;
-                if (ethPrice === null) {
-                    try {
-                        const url = `https://api.etherscan.io/v2/api?chainid=1&module=stats&action=ethprice&apikey=${ETHERSCAN_KEY}`;
-                        const res = await fetch(proxy(url));
-                        const data = await res.json();
-                        if (data.status === '1' && data.result) {
-                            ethPrice = parseFloat(data.result.ethusd);
-                        }
-                    } catch (e) {
-                        console.error('Etherscan ETH fallback greška:', e);
-                    }
-                }
+                const ethPrice = prices.eth;
 
                 // --- GAS PRIKAZ ---
                 if (gas && ethPrice !== null) {
@@ -313,4 +466,4 @@
     </script>
 
 </body>
-  </html>
+</html>
