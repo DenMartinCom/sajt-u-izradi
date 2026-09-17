@@ -601,7 +601,7 @@
                 if (gasData.status === '1' && gasData.result && priceData.status === '1') {
                     const ethUsd = parseFloat(priceData.result.ethusd);
 
-                    const GAS_UNITS = 95000; // sam eth transver 21k, ali claim reward oko 95k, approve cap 45k, i stejk swap oko 180; usdt swap 70k, a staking/reward oko 250k
+                    const GAS_UNITS = 95000; // sam eth transver 21k, ali claim reward oko 95k, approve cap 45k, i stejk swap oko 180, uk oko 330k ; usdt swap 70k, a staking/reward oko 250k
                     const GWEI_TO_ETH = 1e-9;
 
                     const slowGwei = parseFloat(gasData.result.SafeGasPrice);
@@ -615,7 +615,7 @@
                     document.getElementById('gas-slow').textContent = slowGwei.toFixed(3) + 'G';
                     document.getElementById('gas-standard').textContent = standardGwei.toFixed(3) + 'G';
 
-                    document.getElementById('gas-slow-usd').textContent = '$' + slowUsd.toFixed(3) + ' Uk.' + (slowUsd*3.5).toFixed(2);
+                    document.getElementById('gas-slow-usd').textContent = '$' + slowUsd.toFixed(3) + ' - Uk.' + (slowUsd*3.51).toFixed(2);
                     document.getElementById('gas-standard-usd').textContent = '$' + standardUsd.toFixed(3);
                 } else {
                     console.error('Etherscan greška:', gasData.message, priceData.message);
@@ -636,8 +636,8 @@
         // Pozovi odmah pri učitavanju stranice
         loadGasPrices();
 
-        // Osvežavaj svakih 120 sekundi
-        setInterval(loadGasPrices, 120000);
+        // Osvežavaj svakih 220 sekundi
+        setInterval(loadGasPrices, 220000);
     </script>
 
 </body>
