@@ -199,7 +199,7 @@
             footer { border-radius: 0; margin-top: 12px; }
         }
         @media (max-width: 370px) {
-            .widget-ekonomija iframe { height: 820px; }
+            .widget-ekonomija iframe { height: 860px; }
             .widget-pretraga iframe { height: 860px; }
             .widget-kripto .coinmarketcap-currency-widget { font-size: 0.75rem !important; }
             .gas-row { gap: 25px; }
@@ -446,8 +446,8 @@
 
                 if (prices.zama !== null) {
                     const result = prices.zama * ZAMA_MULTIPLIER;
-                    zamaEl.textContent =  (result/btc*1000).toFixed(3) + result.toFixed(1)*10 + ' ...';
-                    zamaSub.textContent = `${prices.zama.toFixed(4)}`;
+                    zamaEl.textContent =  (result/btc*1000).toFixed(3) ;
+                    zamaSub.textContent = result.toFixed(1)*10 //`${prices.zama.toFixed(4)}`;
                 } else {
                     zamaEl.textContent = '—';
                     zamaSub.textContent = 'Zama cena nedostupna';
