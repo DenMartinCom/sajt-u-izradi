@@ -189,7 +189,7 @@
             .kolona { max-width: 100%; gap: 12px; }
             .widget { padding: 10px; border-radius: 12px; }
             .widget-ekonomija iframe { height: 980px; border-radius: 12px; }
-            .widget-pretraga iframe { height: 860px; border-radius: 12px; }
+            .widget-pretraga iframe { height: 980px; border-radius: 12px; }
             .widget-vreme iframe { width: 100%; max-width: 340px; height: 170px; }
             .widget-kripto { padding: 6px; }
             .widget-kripto .coinmarketcap-currency-widget {
@@ -199,8 +199,8 @@
             footer { border-radius: 0; margin-top: 12px; }
         }
         @media (max-width: 370px) {
-            .widget-ekonomija iframe { height: 860px; }
-            .widget-pretraga iframe { height: 800px; }
+            .widget-ekonomija iframe { height: 840px; }
+            .widget-pretraga iframe { height: 840px; }
             .widget-kripto .coinmarketcap-currency-widget { font-size: 0.75rem !important; }
             .gas-row { gap: 25px; }
             .gas-item .gas-value { font-size: 1.1rem; }
@@ -373,8 +373,8 @@
                 const data = await res.json();
 
                 if (data && data.status && data.status.error_code === '0' && Array.isArray(data.data)) {
-                    const eth = data.data.find(c => String(c.id) === '1027');
-                    const zama = data.data.find(c => String(c.id) === '39332');
+                    const eth = data.data.find(c => String(c.id) === '1027'); 
+                    const zama = data.data.find(c => String(c.id) === '39332'); 
                     return {
                         eth: eth ? parseFloat(eth.price) : null,
                         zama: zama ? parseFloat(zama.price) : null
@@ -421,9 +421,9 @@
                     const slowUsd = gas.slow * GAS_UNITS * GWEI_TO_ETH * ethPrice;
                     const standardUsd = gas.standard * GAS_UNITS * GWEI_TO_ETH * ethPrice;
 
-                    document.getElementById('gas-slow').textContent = gas.slow.toFixed(3) + 'G';
-                    document.getElementById('gas-standard').textContent = gas.standard.toFixed(3) + 'G';
-                    document.getElementById('gas-slow-usd').textContent = '$' + slowUsd.toFixed(3);
+                    document.getElementById('gas-slow').textContent = gas.slow.toFixed(2) + 'G';
+                    document.getElementById('gas-standard').textContent = gas.standard.toFixed(2) + 'G';
+                    document.getElementById('gas-slow-usd').textContent = '$' + slowUsd.toFixed(3) + ' - Uk. ' + (slowUsd * 3.6).toFixed(1);
                     document.getElementById('gas-standard-usd').textContent = '$' + standardUsd.toFixed(3);
 
                     setStatus(`Ažurirano • ETH: $${ethPrice.toFixed(2)}`, 'ok');
@@ -445,7 +445,7 @@
                 if (prices.zama !== null) {
                     const result = prices.zama * ZAMA_MULTIPLIER;
                     zamaEl.textContent = result.toFixed(1);
-                    zamaSub.textContent = `ZAMA: $${prices.zama.toFixed(6)}`;
+                    zamaSub.textContent = `$${prices.zama.toFixed(4)}`;
                 } else {
                     zamaEl.textContent = '—';
                     zamaSub.textContent = 'Zama cena nedostupna';
@@ -462,7 +462,7 @@
 
         // ===== INIT =====
         loadData();
-        setInterval(loadData, 50000);
+        setInterval(loadData, 20000);
     </script>
 
 </body>
