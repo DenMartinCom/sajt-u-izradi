@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="sr">
 <head>
@@ -198,9 +199,19 @@
             letter-spacing: 0.3px;
         }
 
-        .gas-timer #gas-timer-value {
+        #gas-timer-value {
             color: #FFD700;
             font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        /* Kada je prethodni apdejt pao ili je termin prošao */
+        #gas-timer-value.stale {
+            color: #ff4444;
+        }
+
+        .gas-timer.stale {
+            color: #ff8888;
         }
 
         /* LINK KA LOKALNIM VESTIMA */
@@ -509,8 +520,8 @@
                     </div>
                 </div>
             </div>
-            <div class="gas-timer">
-                Osveženo pre <span id="gas-timer-value">—</span> sek.
+            <div class="gas-timer" id="gas-timer">
+                Sledeći apdejt za: <span id="gas-timer-value">—</span>s
             </div>
         </div>
 
@@ -551,38 +562,55 @@
         });
 
         // ===== ETH GAS =====
-        let lastGasUpdate = null;       // timestamp poslednjeg uspešnog apdejta
-        let gasTimerInterval = null;    // interval za osvežavanje tajmera
+        const GAS_REFRESH_MS = 50000;                        // interval osvežavanja (50s)
+        const GAS_REFRESH_S  = GAS_REFRESH_MS / 1000;
 
-        // Ažurira prikaz tajmera (sekunde od poslednjeg uspešnog apdejta)
+        let gasTimerInterval = null;
+        let nextGasUpdateAt  = Date.now() + GAS_REFRESH_MS;  // kada sledeći apdejt treba da se desi
+        let lastGasUpdateOk  = false;                        // da li je prethodni apdejt bio uspešan
+
+        // Ažurira prikaz tajmera — broji unazad od GAS_REFRESH_S ka 0,
+        // zatim u minus ako apdejt nije stigao / nije uspeo.
         function updateGasTimer() {
-            const el = document.getElementById('gas-timer-value');
+            const el   = document.getElementById('gas-timer-value');
+            const wrap = document.getElementById('gas-timer');
             if (!el) return;
 
-            if (lastGasUpdate === null) {
-                el.textContent = '—';
-                return;
-            }
+            const remainingMs = nextGasUpdateAt - Date.now();
+            const remainingS  = Math.ceil(remainingMs / 1000);
 
-            const seconds = Math.floor((Date.now() - lastGasUpdate) / 1000);
-            el.textContent = seconds;
+            if (remainingS >= 0) {
+                el.textContent = remainingS;
+                el.classList.toggle('stale', !lastGasUpdateOk);
+                if (wrap) wrap.classList.toggle('stale', !lastGasUpdateOk);
+            } else {
+                // Prekoračeno — prikazujemo u minusu koliko kasni
+                el.textContent = remainingS;   // npr. -12
+                el.classList.add('stale');
+                if (wrap) wrap.classList.add('stale');
+            }
         }
 
-        // Pokreni interval za tajmer (osvežava se svake sekunde)
         function startGasTimer() {
             if (gasTimerInterval) return;
-            gasTimerInterval = setInterval(updateGasTimer, 1000);
+            gasTimerInterval = setInterval(updateGasTimer, 500);
         }
 
-        // Ethereum Gas cene + USD procena preko Etherscan API + corsproxy
+        // Postavi sledeći apdejt (poziva se pre svakog fetch-a)
+        function scheduleNextGasUpdate() {
+            nextGasUpdateAt = Date.now() + GAS_REFRESH_MS;
+        }
+
         async function loadGasPrices() {
             const etherscanKey = 'CFJH33IAX4PUFHH7UPNIWY9PH6U775FMFD';
-            const corsproxyKey = 'ee6820c0';
 
-            const gasUrl = `https://api.etherscan.io/v2/api?chainid=1&module=gastracker&action=gasoracle&apikey=${etherscanKey}`;
+            const gasUrl   = `https://api.etherscan.io/v2/api?chainid=1&module=gastracker&action=gasoracle&apikey=${etherscanKey}`;
             const priceUrl = `https://api.etherscan.io/v2/api?chainid=1&module=stats&action=ethprice&apikey=${etherscanKey}`;
 
-            const proxy = (url) => `https://corsproxy.io/?key=${corsproxyKey}&url=${encodeURIComponent(url)}`;
+            const proxy = (url) => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`;
+
+            // Uvek zakazujemo sledeći apdejt — bez obzira na ishod
+            scheduleNextGasUpdate();
 
             try {
                 const [gasRes, priceRes] = await Promise.all([
@@ -590,49 +618,37 @@
                     fetch(proxy(priceUrl))
                 ]);
 
-                const gasData = await gasRes.json();
+                const gasData   = await gasRes.json();
                 const priceData = await priceRes.json();
 
                 if (gasData.status === '1' && gasData.result && priceData.status === '1') {
-                    const ethUsd = parseFloat(priceData.result.ethusd);
-
-                    const GAS_UNITS = 106000; // sam eth transfer 21k, ali claim reward oko 110k, approve cap 55k, i stejl oko 210, usdt swap 70k, a staking/reward oko 250k
+                    const ethUsd      = parseFloat(priceData.result.ethusd);
+                    const GAS_UNITS   = 106000; // eth transfer 21k, claim reward ~110k, approve ~55k, steal ~210k, usdt swap ~70k
                     const GWEI_TO_ETH = 1e-9;
 
                     const slowGwei = parseFloat(gasData.result.SafeGasPrice);
                     const fastGwei = parseFloat(gasData.result.FastGasPrice);
 
-                    // Izračun USD sa PUNOM preciznošću (pre zaokruživanja Gwei-a)
+                    // Izračun USD sa punom preciznošću (pre zaokruživanja Gwei-a)
                     const slowUsd = slowGwei * GAS_UNITS * GWEI_TO_ETH * ethUsd;
                     const fastUsd = fastGwei * GAS_UNITS * GWEI_TO_ETH * ethUsd;
 
-                    // Prikaz: Gwei na 3 decimale + " G", USD na 3 decimale
-                    document.getElementById('gas-slow').textContent = slowGwei.toFixed(3) + 'G';
-                    document.getElementById('gas-fast').textContent = fastGwei.toFixed(3) + 'G';
-
+                    document.getElementById('gas-slow').textContent     = slowGwei.toFixed(3) + 'G';
+                    document.getElementById('gas-fast').textContent     = fastGwei.toFixed(3) + 'G';
                     document.getElementById('gas-slow-usd').textContent = '$' + slowUsd.toFixed(3);
                     document.getElementById('gas-fast-usd').textContent = '$' + fastUsd.toFixed(3);
 
-                    // Zabeleži vreme uspešnog apdejta
-                    lastGasUpdate = Date.now();
-                    updateGasTimer();
+                    lastGasUpdateOk = true;
                 } else {
                     console.error('Etherscan greška:', gasData.message, priceData.message);
-                    resetGasDisplay();
+                    lastGasUpdateOk = false;
                 }
             } catch (error) {
                 console.error('Greška pri dobavljanju gas/ETH cena:', error);
-                resetGasDisplay();
+                lastGasUpdateOk = false;
             }
-        }
 
-        function resetGasDisplay() {
-            ['gas-slow', 'gas-fast', 'gas-slow-usd', 'gas-fast-usd'].forEach(id => {
-                const el = document.getElementById(id);
-                if (el) el.textContent = 'N/A';
-            });
-            // Ne resetujemo lastGasUpdate — tajmer nastavlja da broji
-            // od poslednjeg uspešnog apdejta, što je i poenta.
+            updateGasTimer();
         }
 
         // Inicijalizacija
@@ -640,8 +656,8 @@
         updateGasTimer();
         loadGasPrices();
 
-        // Osvežavaj cene svakih 61 sekundi
-        setInterval(loadGasPrices, 61000);
+        // Osvežavaj cene svakih GAS_REFRESH_MS
+        setInterval(loadGasPrices, GAS_REFRESH_MS);
     </script>
 
 </body>
