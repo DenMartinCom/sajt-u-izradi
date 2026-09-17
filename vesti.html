@@ -187,7 +187,21 @@
         }
 
         #gas-slow { color: #4caf50; }
-        #gas-standard { color: #fff; }
+        #gas-fast { color: #ff6b6b; }
+
+        /* TAJMER ZA GAS */
+        .gas-timer {
+            margin-top: 12px;
+            text-align: center;
+            font-size: 0.7rem;
+            color: #666;
+            letter-spacing: 0.3px;
+        }
+
+        .gas-timer #gas-timer-value {
+            color: #FFD700;
+            font-weight: 600;
+        }
 
         /* LINK KA LOKALNIM VESTIMA */
         .news-link {
@@ -488,12 +502,15 @@
                     </div>
                 </div>
                 <div class="gas-item">
-                    <div class="gas-label">Standardna</div>
+                    <div class="gas-label">Najbrža</div>
                     <div class="gas-value-line">
-                        <span id="gas-standard" class="gas-value">—</span>
-                        <span id="gas-standard-usd" class="gas-usd">—</span>
+                        <span id="gas-fast" class="gas-value">—</span>
+                        <span id="gas-fast-usd" class="gas-usd">—</span>
                     </div>
                 </div>
+            </div>
+            <div class="gas-timer">
+                Osvrženo pre <span id="gas-timer-value">—</span> sek.
             </div>
         </div>
 
@@ -533,6 +550,30 @@
             dropdownMenu.classList.remove('open');
         });
 
+        // ===== ETH GAS =====
+        let lastGasUpdate = null;       // timestamp poslednjeg uspešnog apdejta
+        let gasTimerInterval = null;    // interval za osvežavanje tajmera
+
+        // Ažurira prikaz tajmera (sekunde od poslednjeg uspešnog apdejta)
+        function updateGasTimer() {
+            const el = document.getElementById('gas-timer-value');
+            if (!el) return;
+
+            if (lastGasUpdate === null) {
+                el.textContent = '—';
+                return;
+            }
+
+            const seconds = Math.floor((Date.now() - lastGasUpdate) / 1000);
+            el.textContent = seconds;
+        }
+
+        // Pokreni interval za tajmer (osvežava se svake sekunde)
+        function startGasTimer() {
+            if (gasTimerInterval) return;
+            gasTimerInterval = setInterval(updateGasTimer, 1000);
+        }
+
         // Ethereum Gas cene + USD procena preko Etherscan API + corsproxy
         async function loadGasPrices() {
             const etherscanKey = 'CFJH33IAX4PUFHH7UPNIWY9PH6U775FMFD';
@@ -555,22 +596,26 @@
                 if (gasData.status === '1' && gasData.result && priceData.status === '1') {
                     const ethUsd = parseFloat(priceData.result.ethusd);
 
-                    const GAS_UNITS = 106000; // sam eth transver 21k, ali claim reward oko 110k, approve cap 55k, i stejl oko 210, usdt swap 70k, a staking/reward oko 250k
+                    const GAS_UNITS = 106000; // sam eth transfer 21k, ali claim reward oko 110k, approve cap 55k, i stejl oko 210, usdt swap 70k, a staking/reward oko 250k
                     const GWEI_TO_ETH = 1e-9;
 
                     const slowGwei = parseFloat(gasData.result.SafeGasPrice);
-                    const standardGwei = parseFloat(gasData.result.ProposeGasPrice);
+                    const fastGwei = parseFloat(gasData.result.FastGasPrice);
 
                     // Izračun USD sa PUNOM preciznošću (pre zaokruživanja Gwei-a)
                     const slowUsd = slowGwei * GAS_UNITS * GWEI_TO_ETH * ethUsd;
-                    const standardUsd = standardGwei * GAS_UNITS * GWEI_TO_ETH * ethUsd;
+                    const fastUsd = fastGwei * GAS_UNITS * GWEI_TO_ETH * ethUsd;
 
-                    // Prikaz: Gwei na 3 decimale + " G", USD na 2 decimale
+                    // Prikaz: Gwei na 3 decimale + " G", USD na 3 decimale
                     document.getElementById('gas-slow').textContent = slowGwei.toFixed(3) + 'G';
-                    document.getElementById('gas-standard').textContent = standardGwei.toFixed(3) + 'G';
+                    document.getElementById('gas-fast').textContent = fastGwei.toFixed(3) + 'G';
 
                     document.getElementById('gas-slow-usd').textContent = '$' + slowUsd.toFixed(3);
-                    document.getElementById('gas-standard-usd').textContent = '$' + standardUsd.toFixed(3);
+                    document.getElementById('gas-fast-usd').textContent = '$' + fastUsd.toFixed(3);
+
+                    // Zabeleži vreme uspešnog apdejta
+                    lastGasUpdate = Date.now();
+                    updateGasTimer();
                 } else {
                     console.error('Etherscan greška:', gasData.message, priceData.message);
                     resetGasDisplay();
@@ -582,17 +627,4 @@
         }
 
         function resetGasDisplay() {
-            ['gas-slow', 'gas-standard', 'gas-slow-usd', 'gas-standard-usd'].forEach(id => {
-                document.getElementById(id).textContent = 'N/A';
-            });
-        }
-
-        // Pozovi odmah pri učitavanju stranice
-        loadGasPrices();
-
-        // Osvežavaj svakih 50 sekundi
-        setInterval(loadGasPrices,50000);
-    </script>
-
-</body>
-</html>
+            ['gas-slow', 'gas-fast', 'ga
