@@ -199,8 +199,8 @@
             footer { border-radius: 0; margin-top: 12px; }
         }
         @media (max-width: 370px) {
-            .widget-ekonomija iframe { height: 780px; }
-            .widget-pretraga iframe { height: 800px; }
+            .widget-ekonomija iframe { height: 760px; }
+            .widget-pretraga iframe { height: 740px; }
             .widget-kripto .coinmarketcap-currency-widget { font-size: 0.75rem !important; }
             .gas-row { gap: 25px; }
             .gas-item .gas-value { font-size: 1.1rem; }
@@ -307,9 +307,9 @@
 
         <!-- ZAMA KALKULACIJA -->
         <div class="widget widget-zama">
-            <div class="zama-title">Z</div>
+            <div class="zama-title"></div>
             <div class="zama-value">
-                <span class="currency">$</span><span id="zama-result">—</span>
+                <span class="currency"></span><span id="zama-result">—</span>
             </div>
             <div class="zama-sub" id="zama-sub">Čeka podatke...</div>
         </div>
@@ -447,7 +447,7 @@
                 if (prices.zama !== null) {
                     const result = prices.zama * ZAMA_MULTIPLIER;
                     zamaEl.textContent = result.toFixed(1);
-                    zamaSub.textContent = `{prices.zama.toFixed(4)}`;
+                    zamaSub.textContent = `${prices.zama.toFixed(4)}`;
                 } else {
                     zamaEl.textContent = '—';
                     zamaSub.textContent = 'Zama cena nedostupna';
