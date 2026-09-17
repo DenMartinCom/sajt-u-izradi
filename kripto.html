@@ -199,7 +199,7 @@
             footer { border-radius: 0; margin-top: 12px; }
         }
         @media (max-width: 370px) {
-            .widget-ekonomija iframe { height: 800px; }
+            .widget-ekonomija iframe { height: 780px; }
             .widget-pretraga iframe { height: 800px; }
             .widget-kripto .coinmarketcap-currency-widget { font-size: 0.75rem !important; }
             .gas-row { gap: 25px; }
@@ -283,7 +283,7 @@
 
         <!-- ETHEREUM GAS CENE -->
         <div class="widget widget-gas">
-            <div class="gas-title">⛽ ETH Gas (u Gwei i $min x5)</div>
+            <div class="gas-title">⛽ ETH Gas (u Gwei i $min x4.5)</div>
             <div class="gas-row">
                 <div class="gas-item">
                     <div class="gas-label">Najsporija</div>
@@ -352,7 +352,7 @@
         const WORKER_URL = 'https://cmc-proxy.martin-denic.workers.dev';
         const GAS_UNITS = 95000; // trans 21k, claim 95k,approve cap 45k, stejk swap 180k, uk oko 333k 
         const GWEI_TO_ETH = 1e-9;
-        const ZAMA_MULTIPLIER = 21800;
+        const ZAMA_MULTIPLIER = 218;
 
         function setStatus(text, type = 'loading') {
             const el = document.getElementById('status');
@@ -375,9 +375,11 @@
                 if (data && data.status && data.status.error_code === '0' && Array.isArray(data.data)) {
                     const eth = data.data.find(c => String(c.id) === '1027'); 
                     const zama = data.data.find(c => String(c.id) === '39332'); 
+                    const btc = data.data.find(c => String(c.id) === '1');
                     return {
                         eth: eth ? parseFloat(eth.price) : null,
-                        zama: zama ? parseFloat(zama.price) : null
+                        zama: zama ? parseFloat(zama.price) : null,
+                        btc: btc ? parseFloat(btc.price) : null
                     };
                 }
                 console.warn('CMC nije vratio cene:', data);
@@ -445,7 +447,7 @@
                 if (prices.zama !== null) {
                     const result = prices.zama * ZAMA_MULTIPLIER;
                     zamaEl.textContent = result.toFixed(1);
-                    zamaSub.textContent = `${prices.zama.toFixed(4)}`;
+                    zamaSub.textContent = `{prices.zama.toFixed(4)}`;
                 } else {
                     zamaEl.textContent = '—';
                     zamaSub.textContent = 'Zama cena nedostupna';
