@@ -386,7 +386,7 @@
             } catch (e) {
                 console.warn('CMC greška:', e);
             }
-            return { eth: null, zama: null };
+            return { eth: null, zama: null, btc: null };
         }
 
         // ===== DOBAVLJANJE GAS CENE =====
@@ -443,12 +443,12 @@
                 // --- ZAMA PRIKAZ ---
                 const zamaEl = document.getElementById('zama-result');
                 const zamaSub = document.getElementById('zama-sub');
-                const btcPrice = prices.btc;
-                const zamaBtc = (result/btcPrice*1000).toFixed(1)
+                
 
                 if (prices.zama !== null) {
                     const result = prices.zama * ZAMA_MULTIPLIER;
-                    zamaEl.textContent = btcPrice; //+ result.toFixed(1)*10 + ' e' ;//;
+                    const zamaBtc = ((result/prices.btc)*1000).toFixed(1);
+                    zamaEl.textContent = prices.btc; //+ result.toFixed(1)*10 + ' e' ;//;
                     zamaSub.textContent = `${prices.zama.toFixed(4)}`;
                 } else {
                     zamaEl.textContent = '—';
