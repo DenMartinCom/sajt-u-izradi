@@ -447,12 +447,12 @@
 
                 if (prices.zama !== null) {
                     const result = prices.zama * ZAMA_MULTIPLIER;
-                    const zamaBtc = ((result/prices.btc)*1000).toFixed(4);
-                    zamaEl.textContent = zamaBtc + '/' + result.toFixed(1); //+ result.toFixed(1)*10 + ' e' ;//;
-                    zamaSub.textContent = `${prices.zama.toFixed(4)}`;
+                    const zamaBtc = ((result/prices.btc)*1000).toFixed(2);
+                    zamaEl.textContent = zamaBtc + ' 😶‍🌫️ ' + result.toFixed(1); //+ result.toFixed(1)*10 + ' e' ;//;
+                    zamaSub.textContent = `${prices.zama.toFixed(3)}`;
                 } else {
                     zamaEl.textContent = '—';
-                    zamaSub.textContent = 'Zama cena nedostupna';
+                    zamaSub.textContent = 'Z cena nedostupna';
                 }
 
             } catch (error) {
