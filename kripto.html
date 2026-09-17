@@ -423,15 +423,15 @@
                     const slowUsd = gas.slow * GAS_UNITS * GWEI_TO_ETH * ethPrice;
                     const standardUsd = gas.standard * GAS_UNITS * GWEI_TO_ETH * ethPrice;
 
-                    document.getElementById('gas-slow').textContent = gas.slow.toFixed(3) + 'g';
-                    document.getElementById('gas-standard').textContent = gas.standard.toFixed(3) + 'g';
+                    document.getElementById('gas-slow').textContent = gas.slow.toFixed(3) + '';
+                    document.getElementById('gas-standard').textContent = gas.standard.toFixed(3) + '';
                     document.getElementById('gas-slow-usd').textContent = '$' + slowUsd.toFixed(3) + ' - Uk. ' + (slowUsd * 3.51).toFixed(2);
                     document.getElementById('gas-standard-usd').textContent = '$' + standardUsd.toFixed(3);
 
                     setStatus(`Ažurirano • ETH: $${ethPrice.toFixed(2)}`, 'ok');
                 } else if (gas) {
-                    document.getElementById('gas-slow').textContent = gas.slow.toFixed(3) + 'G';
-                    document.getElementById('gas-standard').textContent = gas.standard.toFixed(3) + 'G';
+                    document.getElementById('gas-slow').textContent = gas.slow.toFixed(3) + '';
+                    document.getElementById('gas-standard').textContent = gas.standard.toFixed(3) + '';
                     document.getElementById('gas-slow-usd').textContent = '—';
                     document.getElementById('gas-standard-usd').textContent = '—';
                     setStatus('ETH cena nedostupna', 'error');
@@ -446,7 +446,7 @@
 
                 if (prices.zama !== null) {
                     const result = prices.zama * ZAMA_MULTIPLIER;
-                    zamaEl.textContent = result.toFixed(1) ;//*10 (result/btc*1000).toFixed(3) ;
+                    zamaEl.textContent = result.toFixed(1)*10 + ' e' ;//(result/btc*1000).toFixed(3) ;
                     zamaSub.textContent = `${prices.zama.toFixed(4)}`;
                 } else {
                     zamaEl.textContent = '—';
@@ -464,7 +464,7 @@
 
         // ===== INIT =====
         loadData();
-        setInterval(loadData, 16000);
+        setInterval(loadData, 36000);
     </script>
 
 </body>
