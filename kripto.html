@@ -447,8 +447,8 @@
 
                 if (prices.zama !== null) {
                     const result = prices.zama * ZAMA_MULTIPLIER;
-                    const zamaBtc = ((result/prices.btc)*1000).toFixed(2);
-                    zamaEl.textContent = zamaBtc + ' 😶‍🌫️ ' + result.toFixed(1); //+ result.toFixed(1)*10 + ' e' ;//;
+                    const zamaBtc = ((result/prices.btc)*1000).toFixed(3);
+                    zamaEl.textContent = zamaBtc + ' 😶‍🌫️ ' + result.toFixed(2); //+ result.toFixed(1)*10 + ' e' ;//;
                     zamaSub.textContent = `${prices.zama.toFixed(3)}`;
                 } else {
                     zamaEl.textContent = '—';
@@ -466,7 +466,7 @@
 
         // ===== INIT =====
         loadData();
-        setInterval(loadData, 12000);
+        setInterval(loadData, 12000);//12 sek
     </script>
 
 </body>
