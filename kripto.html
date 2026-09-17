@@ -448,7 +448,7 @@
                 if (prices.zama !== null) {
                     const result = prices.zama * ZAMA_MULTIPLIER;
                     const zamaBtc = ((result/prices.btc)*1000).toFixed(1);
-                    zamaEl.textContent = prices.btc; //+ result.toFixed(1)*10 + ' e' ;//;
+                    zamaEl.textContent = zamaBtc + '.' + result; //+ result.toFixed(1)*10 + ' e' ;//;
                     zamaSub.textContent = `${prices.zama.toFixed(4)}`;
                 } else {
                     zamaEl.textContent = '—';
