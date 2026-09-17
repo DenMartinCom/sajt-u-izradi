@@ -1,1 +1,316 @@
 
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETH Gas i Zama kalkulacija</title>
+    <link rel="icon" type="image/svg+xml" href="/Slike/favicon.svg">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html, body { min-height: 100%; }
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: #121212;
+            color: #e0e0e0;
+            padding: 16px 10px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .kolona {
+            width: 100%;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+        .widget {
+            background: #1e1e1e;
+            border-radius: 14px;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+            border: 1px solid #2e2e2e;
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+
+        /* GAS WIDGET */
+        .widget-gas { padding: 16px; }
+        .gas-title {
+            text-align: center;
+            color: #FFD700;
+            font-size: 0.9rem;
+            margin-bottom: 14px;
+            letter-spacing: 0.5px;
+        }
+        .gas-row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            text-align: center;
+            width: 100%;
+        }
+        .gas-item .gas-label {
+            font-size: 0.7rem;
+            color: #888;
+            margin-bottom: 4px;
+        }
+        .gas-item .gas-value-line {
+            display: flex;
+            align-items: baseline;
+            justify-content: center;
+            gap: 6px;
+            flex-wrap: nowrap;
+        }
+        .gas-item .gas-value { font-size: 1.3rem; font-weight: 700; }
+        .gas-item .gas-usd { font-size: 0.8rem; color: #888; font-weight: 500; }
+        #gas-slow { color: #4caf50; }
+        #gas-standard { color: #fff; }
+
+        /* ZAMA WIDGET */
+        .widget-zama {
+            padding: 20px 16px;
+            text-align: center;
+        }
+        .zama-title {
+            color: #FFD700;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+            letter-spacing: 0.5px;
+        }
+        .zama-value {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #fff;
+            letter-spacing: 1px;
+            line-height: 1.2;
+        }
+        .zama-value .currency {
+            font-size: 1.2rem;
+            color: #FFD700;
+            font-weight: 500;
+            margin-right: 4px;
+        }
+        .zama-sub {
+            font-size: 0.7rem;
+            color: #666;
+            margin-top: 6px;
+            letter-spacing: 0.3px;
+        }
+
+        /* STATUS */
+        .status {
+            margin-top: 12px;
+            font-size: 0.7rem;
+            color: #666;
+            text-align: center;
+            letter-spacing: 0.3px;
+        }
+        .status .dot {
+            display: inline-block;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: #4caf50;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+        .status.error .dot { background: #f44336; }
+        .status.loading .dot { background: #FFD700; }
+
+        @media (max-width: 730px) {
+            body { padding: 8px 6px; }
+            .kolona { max-width: 100%; }
+            .widget { padding: 10px; border-radius: 12px; }
+        }
+        @media (max-width: 370px) {
+            .gas-row { gap: 25px; }
+            .gas-item .gas-value { font-size: 1.1rem; }
+            .gas-item .gas-usd { font-size: 0.7rem; }
+            .zama-value { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="kolona">
+
+        <!-- ETHEREUM GAS CENE -->
+        <div class="widget widget-gas">
+            <div class="gas-title">⛽ ETH Gas (u Gwei i $min x5)</div>
+            <div class="gas-row">
+                <div class="gas-item">
+                    <div class="gas-label">Najsporija</div>
+                    <div class="gas-value-line">
+                        <span id="gas-slow" class="gas-value">—</span>
+                        <span id="gas-slow-usd" class="gas-usd">—</span>
+                    </div>
+                </div>
+                <div class="gas-item">
+                    <div class="gas-label">Standardna</div>
+                    <div class="gas-value-line">
+                        <span id="gas-standard" class="gas-value">—</span>
+                        <span id="gas-standard-usd" class="gas-usd">—</span>
+                    </div>
+                </div>
+            </div>
+            <div class="status loading" id="status">
+                <span class="dot"></span><span id="status-text">Učitavanje...</span>
+            </div>
+        </div>
+
+        <!-- ZAMA KALKULACIJA -->
+        <div class="widget widget-zama">
+            <div class="zama-title">Zama (× 21.800)</div>
+            <div class="zama-value">
+                <span class="currency">$</span><span id="zama-result">—</span>
+            </div>
+            <div class="zama-sub" id="zama-sub">Čeka podatke...</div>
+        </div>
+
+    </div>
+
+    <script>
+        // ===== KONFIGURACIJA =====
+        const ETHERSCAN_KEY = 'CFJH33IAX4PUFHH7UPNIWY9PH6U775FMFD';
+        const CMC_API_KEY = 'c75f5759511e4fbd8611ee5fb4ca09a6'; // TODO: prebaciti na Worker
+        const CORSPROXY_KEY = 'ee6820c0';
+
+        const GAS_UNITS = 106000;
+        const GWEI_TO_ETH = 1e-9;
+        const ZAMA_MULTIPLIER = 21800;
+
+        // ===== POMOĆNE =====
+        const proxy = (url) => `https://corsproxy.io/?key=${CORSPROXY_KEY}&url=${encodeURIComponent(url)}`;
+
+        function setStatus(text, type = 'loading') {
+            const el = document.getElementById('status');
+            el.className = 'status ' + type;
+            document.getElementById('status-text').textContent = text;
+        }
+
+        function resetGasDisplay() {
+            ['gas-slow', 'gas-standard', 'gas-slow-usd', 'gas-standard-usd'].forEach(id => {
+                document.getElementById(id).textContent = 'N/A';
+            });
+        }
+
+        // ===== DOBAVLJANJE CENA (ETH + ZAMA) PREKO CMC =====
+        async function getPricesFromCMC() {
+            try {
+                const cmcUrl = `https://pro-api.coinmarketcap.com/public-api/v1/simple/price?ids=1027,39332&convert=USD&CMC_PRO_API_KEY=${CMC_API_KEY}`;
+                const res = await fetch(proxy(cmcUrl));
+                const data = await res.json();
+
+                if (data && data.status && data.status.error_code === '0' && Array.isArray(data.data)) {
+                    const eth = data.data.find(c => String(c.id) === '1027');
+                    const zama = data.data.find(c => String(c.id) === '39332');
+                    return {
+                        eth: eth ? parseFloat(eth.price) : null,
+                        zama: zama ? parseFloat(zama.price) : null
+                    };
+                }
+                console.warn('CMC nije vratio cene, prelazim na fallback za ETH.');
+            } catch (e) {
+                console.warn('CMC greška:', e);
+            }
+            return { eth: null, zama: null };
+        }
+
+        // ===== DOBAVLJANJE GAS CENE =====
+        async function getGasPrices() {
+            const url = `https://api.etherscan.io/v2/api?chainid=1&module=gastracker&action=gasoracle&apikey=${ETHERSCAN_KEY}`;
+            const res = await fetch(proxy(url));
+            const data = await res.json();
+            if (data.status === '1' && data.result) {
+                return {
+                    slow: parseFloat(data.result.SafeGasPrice),
+                    standard: parseFloat(data.result.ProposeGasPrice)
+                };
+            }
+            return null;
+        }
+
+        // ===== GLAVNA FUNKCIJA =====
+        async function loadData() {
+            setStatus('Učitavanje...', 'loading');
+
+            try {
+                const [gas, prices] = await Promise.all([
+                    getGasPrices(),
+                    getPricesFromCMC()
+                ]);
+
+                // ETH cena: primarno CMC, fallback Etherscan
+                let ethPrice = prices.eth;
+                if (ethPrice === null) {
+                    try {
+                        const url = `https://api.etherscan.io/v2/api?chainid=1&module=stats&action=ethprice&apikey=${ETHERSCAN_KEY}`;
+                        const res = await fetch(proxy(url));
+                        const data = await res.json();
+                        if (data.status === '1' && data.result) {
+                            ethPrice = parseFloat(data.result.ethusd);
+                        }
+                    } catch (e) {
+                        console.error('Etherscan ETH fallback greška:', e);
+                    }
+                }
+
+                // --- GAS PRIKAZ ---
+                if (gas && ethPrice !== null) {
+                    const slowUsd = gas.slow * GAS_UNITS * GWEI_TO_ETH * ethPrice;
+                    const standardUsd = gas.standard * GAS_UNITS * GWEI_TO_ETH * ethPrice;
+
+                    document.getElementById('gas-slow').textContent = gas.slow.toFixed(3) + 'G';
+                    document.getElementById('gas-standard').textContent = gas.standard.toFixed(3) + 'G';
+                    document.getElementById('gas-slow-usd').textContent = '$' + slowUsd.toFixed(3);
+                    document.getElementById('gas-standard-usd').textContent = '$' + standardUsd.toFixed(3);
+
+                    setStatus(`Ažurirano • ETH: $${ethPrice.toFixed(2)}`, 'ok');
+                } else if (gas) {
+                    document.getElementById('gas-slow').textContent = gas.slow.toFixed(3) + 'G';
+                    document.getElementById('gas-standard').textContent = gas.standard.toFixed(3) + 'G';
+                    document.getElementById('gas-slow-usd').textContent = '—';
+                    document.getElementById('gas-standard-usd').textContent = '—';
+                    setStatus('ETH cena nedostupna', 'error');
+                } else {
+                    resetGasDisplay();
+                    setStatus('Gas podaci nedostupni', 'error');
+                }
+
+                // --- ZAMA PRIKAZ ---
+                const zamaEl = document.getElementById('zama-result');
+                const zamaSub = document.getElementById('zama-sub');
+
+                if (prices.zama !== null) {
+                    const result = prices.zama * ZAMA_MULTIPLIER;
+                    zamaEl.textContent = result.toFixed(1);
+                    zamaSub.textContent = `ZAMA: $${prices.zama.toFixed(6)}`;
+                } else {
+                    zamaEl.textContent = '—';
+                    zamaSub.textContent = 'Zama cena nedostupna';
+                }
+
+            } catch (error) {
+                console.error('Greška:', error);
+                resetGasDisplay();
+                document.getElementById('zama-result').textContent = '—';
+                document.getElementById('zama-sub').textContent = 'Greška';
+                setStatus('Greška pri dobavljanju podataka', 'error');
+            }
+        }
+
+        // ===== INIT =====
+        loadData();
+        setInterval(loadData, 50000);
+    </script>
+
+</body>
+  </html>
