@@ -510,7 +510,7 @@
                 </div>
             </div>
             <div class="gas-timer">
-                Osvrženo pre <span id="gas-timer-value">—</span> sek.
+                Osveženo pre <span id="gas-timer-value">—</span> sek.
             </div>
         </div>
 
@@ -627,4 +627,22 @@
         }
 
         function resetGasDisplay() {
-            ['gas-slow', 'gas-fast', 'ga
+            ['gas-slow', 'gas-fast', 'gas-slow-usd', 'gas-fast-usd'].forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.textContent = 'N/A';
+            });
+            // Ne resetujemo lastGasUpdate — tajmer nastavlja da broji
+            // od poslednjeg uspešnog apdejta, što je i poenta.
+        }
+
+        // Inicijalizacija
+        startGasTimer();
+        updateGasTimer();
+        loadGasPrices();
+
+        // Osvežavaj cene svakih 20 sekundi
+        setInterval(loadGasPrices, 20000);
+    </script>
+
+</body>
+</html>
