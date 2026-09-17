@@ -446,8 +446,8 @@
 
                 if (prices.zama !== null) {
                     const result = prices.zama * ZAMA_MULTIPLIER;
-                    zamaEl.textContent =  (result/btc*1000).toFixed(3) ;
-                    zamaSub.textContent = result.toFixed(1)*10 //`${prices.zama.toFixed(4)}`;
+                    zamaEl.textContent = result.toFixed(1) ;//*10 (result/btc*1000).toFixed(3) ;
+                    zamaSub.textContent = `${prices.zama.toFixed(4)}`;
                 } else {
                     zamaEl.textContent = '—';
                     zamaSub.textContent = 'Zama cena nedostupna';
