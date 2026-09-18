@@ -6,6 +6,7 @@
     const STORAGE_KEY = 'uk_history_v1';
     const MAX_POINTS = 200;
     const SMA_PERIOD = 10;
+    const Y_STEP = 0.05;         // fiksni korak za Y skalu
 
     let chart = null;
     let history = [];
@@ -73,50 +74,34 @@
         return { min, max };
     }
 
-    // ===== "LEPO" ZAOKRUŽIVANJE =====
-    // Na osnovu veličine broja bira se korak (step) i zaokružuje se
-    // na tu vrednost: nadole za min, nagore za max.
-    function izaberiKorak(vrednost) {
-        const aps = Math.abs(vrednost);
-        if (aps === 0) return 0.01;
-        // red veličine: 10^k gde je k floor(log10(aps))
-        const k = Math.floor(Math.log10(aps));
-        // korak = 10^k (npr. 0.01, 0.1, 1, 10...)
-        return Math.pow(10, k);
+    // ===== ZAOKRUŽIVANJE NA KORAK 0.05 =====
+    function zaokruziDole(v) {
+        return Math.floor(v / Y_STEP) * Y_STEP;
+    }
+    function zaokruziGore(v) {
+        return Math.ceil(v / Y_STEP) * Y_STEP;
     }
 
-    function zaokruziDole(v, korak) {
-        return Math.floor(v / korak) * korak;
-    }
-    function zaokruziGore(v, korak) {
-        return Math.ceil(v / korak) * korak;
-    }
-
-    // Koliko decimala prikazati za dati korak
-    // Uvek 2 decimale za Y labele (želimo "viši" graf)
-function decimaleZaKorak(korak) {
-    return 2;
-}
-
-    // Vraća 3 Y tick vrednosti: [donja, srednja (prosek), gornja]
+    // Vraća [donja, srednja (prosek), gornja] — sve na mreži 0.05
     function yTickValues(minV, maxV) {
         if (minV === null || maxV === null) return [];
-        if (minV === maxV) return [minV];
+        if (minV === maxV) {
+            const d = zaokruziDole(minV);
+            return [d, d + Y_STEP, d + 2 * Y_STEP];
+        }
 
-        // Korak na osnovu najveće apsolutne vrednosti opsega
-        const refVrednost = Math.max(Math.abs(minV), Math.abs(maxV));
-        const korak = izaberiKorak(refVrednost);
+        let donja = zaokruziDole(minV);
+        let gornja = zaokruziGore(maxV);
 
-        const donja = zaokruziDole(minV, korak);
-        const gornja = zaokruziGore(maxV, korak);
+        // Ako su min i max unutar istog koraka, proširi opseg
+        if (gornja <= donja) gornja = donja + Y_STEP;
+
         const srednja = (donja + gornja) / 2;
-
         return [donja, srednja, gornja];
     }
 
-    function formatYLabel(v, korak) {
-        const dec = decimaleZaKorak(korak);
-        return Number(v).toFixed(dec);
+    function formatYLabel(v) {
+        return Number(v).toFixed(2);
     }
 
     // --- Plugin: min/max anotacije ---
@@ -169,22 +154,6 @@ function decimaleZaKorak(korak) {
         }
     };
 
-    // --- Da li osvežiti Y tick-ove? ---
-    // Osvežavamo samo kad se min ili max pomeri van trenutnog opsega
-    // (tj. kad nova tačka probije donju/gornju zaokruženu granicu).
-    function trebaRefreshY(nowMin, nowMax) {
-        if (poslednjiYOpseg === null) {
-            poslednjiYOpseg = { min: nowMin, max: nowMax };
-            return true;
-        }
-        // Ako je nova vrednost van već prikazanog opsega — osveži
-        if (nowMin < poslednjiYOpseg.min || nowMax > poslednjiYOpseg.max) {
-            poslednjiYOpseg = { min: nowMin, max: nowMax };
-            return true;
-        }
-        return false;
-    }
-
     // --- Init ---
     function initChart() {
         const canvas = document.getElementById('uk-chart');
@@ -198,11 +167,6 @@ function decimaleZaKorak(korak) {
 
         const mm = nadjiMinMax();
         const yTicks = yTickValues(mm.min ? mm.min.v : null, mm.max ? mm.max.v : null);
-        const refV = Math.max(Math.abs(mm.min ? mm.min.v : 0), Math.abs(mm.max ? mm.max.v : 0));
-        const korak = izaberiKorak(refV);
-        const dec = decimaleZaKorak(korak);
-
-        // Postavi min/max skale na zaokružene vrednosti (donja/gornja iz yTicks)
         const yMin = yTicks.length ? yTicks[0] : undefined;
         const yMax = yTicks.length ? yTicks[yTicks.length - 1] : undefined;
 
@@ -300,7 +264,7 @@ function decimaleZaKorak(korak) {
                             callback: function (value) {
                                 for (const t of yTicks) {
                                     if (Math.abs(value - t) < 1e-9) {
-                                        return formatYLabel(value, korak);
+                                        return formatYLabel(value);
                                     }
                                 }
                                 return '';
@@ -352,9 +316,6 @@ function decimaleZaKorak(korak) {
 
             if (probija) {
                 const yTicks = yTickValues(mm.min.v, mm.max.v);
-                const refV = Math.max(Math.abs(mm.min.v), Math.abs(mm.max.v));
-                const korak = izaberiKorak(refV);
-
                 chart.options.scales.y.min = yTicks[0];
                 chart.options.scales.y.max = yTicks[yTicks.length - 1];
                 chart.options.scales.y.afterBuildTicks = (axis) => {
@@ -363,7 +324,7 @@ function decimaleZaKorak(korak) {
                 chart.options.scales.y.ticks.callback = function (value) {
                     for (const t of yTicks) {
                         if (Math.abs(value - t) < 1e-9) {
-                            return formatYLabel(value, korak);
+                            return formatYLabel(value);
                         }
                     }
                     return '';
