@@ -4,14 +4,14 @@
 
 (function () {
     const STORAGE_KEY = 'uk_history_v1';
-    const MAX_POINTS = 200;      // koliko poslednjih tačaka čuvamo
-    const SMA_PERIOD = 10;       // period za SMA
+    const MAX_POINTS = 200;
+    const SMA_PERIOD = 10;
 
     let chart = null;
     let history = [];
     let poslednjiYOpseg = null;
 
-    // --- Učitaj istoriju iz localStorage ---
+    // --- Učitaj istoriju ---
     function ucitajIstoriju() {
         try {
             const raw = localStorage.getItem(STORAGE_KEY);
@@ -24,7 +24,6 @@
         return [];
     }
 
-    // --- Sačuvaj istoriju u localStorage ---
     function sacuvajIstoriju() {
         try {
             localStorage.setItem(STORAGE_KEY, JSON.stringify(history));
@@ -33,7 +32,6 @@
         }
     }
 
-    // --- Formatiraj vreme: HH:MM ---
     function formatVreme(ts) {
         const d = new Date(ts);
         const hh = String(d.getHours()).padStart(2, '0');
@@ -41,7 +39,6 @@
         return `${hh}:${mm}`;
     }
 
-    // --- Puno vreme za tooltip / min-max ---
     function formatPunoVreme(ts) {
         const d = new Date(ts);
         const hh = String(d.getHours()).padStart(2, '0');
@@ -52,7 +49,6 @@
         return `${hh}:${mm}:${ss} ${dd}.${mo}.`;
     }
 
-    // --- SMA ---
     function izracunajSMA(vrednosti, period) {
         const rezultat = [];
         for (let i = 0; i < vrednosti.length; i++) {
@@ -61,24 +57,67 @@
                 continue;
             }
             let suma = 0;
-            for (let j = 0; j < period; j++) {
-                suma += vrednosti[i - j];
-            }
+            for (let j = 0; j < period; j++) suma += vrednosti[i - j];
             rezultat.push(suma / period);
         }
         return rezultat;
     }
 
-    // --- Min/Max tačke ---
     function nadjiMinMax() {
         if (!history.length) return { min: null, max: null };
-        let min = history[0];
-        let max = history[0];
+        let min = history[0], max = history[0];
         for (const p of history) {
             if (p.v < min.v) min = p;
             if (p.v > max.v) max = p;
         }
         return { min, max };
+    }
+
+    // ===== "LEPO" ZAOKRUŽIVANJE =====
+    // Na osnovu veličine broja bira se korak (step) i zaokružuje se
+    // na tu vrednost: nadole za min, nagore za max.
+    function izaberiKorak(vrednost) {
+        const aps = Math.abs(vrednost);
+        if (aps === 0) return 0.01;
+        // red veličine: 10^k gde je k floor(log10(aps))
+        const k = Math.floor(Math.log10(aps));
+        // korak = 10^k (npr. 0.01, 0.1, 1, 10...)
+        return Math.pow(10, k);
+    }
+
+    function zaokruziDole(v, korak) {
+        return Math.floor(v / korak) * korak;
+    }
+    function zaokruziGore(v, korak) {
+        return Math.ceil(v / korak) * korak;
+    }
+
+    // Koliko decimala prikazati za dati korak
+    function decimaleZaKorak(korak) {
+        if (korak <= 0) return 2;
+        const d = -Math.floor(Math.log10(korak));
+        return Math.max(0, Math.min(6, d));
+    }
+
+    // Vraća 3 Y tick vrednosti: [donja, srednja (prosek), gornja]
+    function yTickValues(minV, maxV) {
+        if (minV === null || maxV === null) return [];
+        if (minV === maxV) return [minV];
+
+        // Korak na osnovu najveće apsolutne vrednosti opsega
+        const refVrednost = Math.max(Math.abs(minV), Math.abs(maxV));
+        const korak = izaberiKorak(refVrednost);
+
+        const donja = zaokruziDole(minV, korak);
+        const gornja = zaokruziGore(maxV, korak);
+        const srednja = (donja + gornja) / 2;
+
+        return [donja, srednja, gornja];
+    }
+
+    function formatYLabel(v, korak) {
+        const dec = decimaleZaKorak(korak);
+        return Number(v).toFixed(dec);
     }
 
     // --- Plugin: min/max anotacije ---
@@ -87,18 +126,16 @@
         afterDatasetsDraw(chart) {
             const { ctx, chartArea, scales } = chart;
             const mm = nadjiMinMax();
-            if (!mm.min || !mm.max) return;
-            if (!chartArea) return;
+            if (!mm.min || !mm.max || !chartArea) return;
 
             const yScale = scales.y;
             const xScale = scales.x;
 
-            function nacrtajAnotaciju(tacka, tip) {
+            function nacrtaj(tacka, tip) {
                 let idx = -1;
                 for (let i = history.length - 1; i >= 0; i--) {
                     if (history[i].t === tacka.t && history[i].v === tacka.v) {
-                        idx = i;
-                        break;
+                        idx = i; break;
                     }
                 }
                 if (idx < 0) return;
@@ -119,56 +156,37 @@
                 ctx.fillStyle = boja;
                 ctx.fill();
 
-                const textWidth = ctx.measureText(labela).width;
-                let tx = x + 8;
-                let align = 'left';
-                if (tx + textWidth > chartArea.right) {
-                    tx = x - 8;
-                    align = 'right';
-                }
+                const tw = ctx.measureText(labela).width;
+                let tx = x + 8, align = 'left';
+                if (tx + tw > chartArea.right) { tx = x - 8; align = 'right'; }
                 ctx.textAlign = align;
                 ctx.fillStyle = boja;
                 ctx.fillText(labela, tx, y);
                 ctx.restore();
             }
 
-            nacrtajAnotaciju(mm.max, 'max');
-            nacrtajAnotaciju(mm.min, 'min');
+            nacrtaj(mm.max, 'max');
+            nacrtaj(mm.min, 'min');
         }
     };
 
-    // --- Y tick-ovi: min, sredina, max ---
-    function yTickValues(min, max) {
-        if (min === null || max === null) return [];
-        if (min === max) return [min];
-        const mid = (min + max) / 2;
-        return [min, mid, max];
-    }
-
-    // --- Da li osvežiti Y tick-ove? (samo ako se opseg značajno menja) ---
+    // --- Da li osvežiti Y tick-ove? ---
+    // Osvežavamo samo kad se min ili max pomeri van trenutnog opsega
+    // (tj. kad nova tačka probije donju/gornju zaokruženu granicu).
     function trebaRefreshY(nowMin, nowMax) {
         if (poslednjiYOpseg === null) {
             poslednjiYOpseg = { min: nowMin, max: nowMax };
             return true;
         }
-        const stariOpseg = poslednjiYOpseg.max - poslednjiYOpseg.min;
-        if (stariOpseg === 0) {
-            if (nowMin !== poslednjiYOpseg.min || nowMax !== poslednjiYOpseg.max) {
-                poslednjiYOpseg = { min: nowMin, max: nowMax };
-                return true;
-            }
-            return false;
-        }
-        const promenaMin = Math.abs(nowMin - poslednjiYOpseg.min) / stariOpseg;
-        const promenaMax = Math.abs(nowMax - poslednjiYOpseg.max) / stariOpseg;
-        if (promenaMin > 0.01 || promenaMax > 0.01) {
+        // Ako je nova vrednost van već prikazanog opsega — osveži
+        if (nowMin < poslednjiYOpseg.min || nowMax > poslednjiYOpseg.max) {
             poslednjiYOpseg = { min: nowMin, max: nowMax };
             return true;
         }
         return false;
     }
 
-    // --- Inicijalizacija ---
+    // --- Init ---
     function initChart() {
         const canvas = document.getElementById('uk-chart');
         if (!canvas || typeof Chart === 'undefined') return;
@@ -181,6 +199,13 @@
 
         const mm = nadjiMinMax();
         const yTicks = yTickValues(mm.min ? mm.min.v : null, mm.max ? mm.max.v : null);
+        const refV = Math.max(Math.abs(mm.min ? mm.min.v : 0), Math.abs(mm.max ? mm.max.v : 0));
+        const korak = izaberiKorak(refV);
+        const dec = decimaleZaKorak(korak);
+
+        // Postavi min/max skale na zaokružene vrednosti (donja/gornja iz yTicks)
+        const yMin = yTicks.length ? yTicks[0] : undefined;
+        const yMax = yTicks.length ? yTicks[yTicks.length - 1] : undefined;
 
         chart = new Chart(canvas.getContext('2d'), {
             type: 'line',
@@ -240,11 +265,7 @@
                 },
                 scales: {
                     x: {
-                        grid: {
-                            display: false,
-                            drawBorder: true,
-                            color: 'rgba(255,255,255,0.15)'
-                        },
+                        grid: { display: false, drawBorder: true, color: 'rgba(255,255,255,0.15)' },
                         border: { color: 'rgba(255,255,255,0.15)' },
                         ticks: {
                             color: '#888',
@@ -256,12 +277,10 @@
                                 if (total === 0) return '';
                                 if (total === 1) return this.chart.data.labels[0];
                                 if (total === 2) {
-                                    // samo prva i poslednja
                                     if (index === 0) return this.chart.data.labels[0];
                                     if (index === 1) return this.chart.data.labels[1];
                                     return '';
                                 }
-                                // 3 labele: prva, srednja, poslednja
                                 const mid = Math.floor((total - 1) / 2);
                                 if (index === 0) return this.chart.data.labels[0];
                                 if (index === mid) return this.chart.data.labels[mid];
@@ -271,31 +290,24 @@
                         }
                     },
                     y: {
-                        grid: {
-                            display: false,
-                            drawBorder: true,
-                            color: 'rgba(255,255,255,0.15)'
-                        },
+                        grid: { display: false, drawBorder: true, color: 'rgba(255,255,255,0.15)' },
                         border: { color: 'rgba(255,255,255,0.15)' },
-                        min: mm.min ? mm.min.v : undefined,
-                        max: mm.max ? mm.max.v : undefined,
+                        min: yMin,
+                        max: yMax,
                         ticks: {
                             color: '#888',
                             font: { size: 10 },
                             autoSkip: false,
                             callback: function (value) {
-                                // Prikazujemo samo vrednosti koje su u našem nizu
-                                // (min, sredina, max) — ostale sklanjamo.
                                 for (const t of yTicks) {
                                     if (Math.abs(value - t) < 1e-9) {
-                                        return Number(value).toFixed(2);
+                                        return formatYLabel(value, korak);
                                     }
                                 }
                                 return '';
                             }
                         },
                         afterBuildTicks: (axis) => {
-                            // Nateraj Chart.js da generiše tačno 3 tick-a.
                             axis.ticks = yTicks.map(v => ({ value: v }));
                         }
                     }
@@ -307,7 +319,7 @@
         if (history.length) chart.update('none');
     }
 
-    // --- Dodavanje tačke ---
+    // --- Dodaj tačku ---
     function dodajTacku(vrednost) {
         if (typeof vrednost !== 'number' || !isFinite(vrednost)) return;
 
@@ -330,15 +342,35 @@
 
         chart.data.datasets[1].data = izracunajSMA(chart.data.datasets[0].data, SMA_PERIOD);
 
-        // Y osa: osveži samo ako se opseg značajno menja
+        // Y osa: osveži samo kad nova vrednost probije trenutni opseg
         const mm = nadjiMinMax();
-        if (mm.min && mm.max && trebaRefreshY(mm.min.v, mm.max.v)) {
-            const yTicks = yTickValues(mm.min.v, mm.max.v);
-            chart.options.scales.y.min = mm.min.v;
-            chart.options.scales.y.max = mm.max.v;
-            chart.options.scales.y.afterBuildTicks = (axis) => {
-                axis.ticks = yTicks.map(v => ({ value: v }));
-            };
+        if (mm.min && mm.max) {
+            const trenutniMin = chart.options.scales.y.min;
+            const trenutniMax = chart.options.scales.y.max;
+            const probija = (trenutniMin === undefined || trenutniMax === undefined)
+                || (mm.min.v < trenutniMin)
+                || (mm.max.v > trenutniMax);
+
+            if (probija) {
+                const yTicks = yTickValues(mm.min.v, mm.max.v);
+                const refV = Math.max(Math.abs(mm.min.v), Math.abs(mm.max.v));
+                const korak = izaberiKorak(refV);
+
+                chart.options.scales.y.min = yTicks[0];
+                chart.options.scales.y.max = yTicks[yTicks.length - 1];
+                chart.options.scales.y.afterBuildTicks = (axis) => {
+                    axis.ticks = yTicks.map(v => ({ value: v }));
+                };
+                chart.options.scales.y.ticks.callback = function (value) {
+                    for (const t of yTicks) {
+                        if (Math.abs(value - t) < 1e-9) {
+                            return formatYLabel(value, korak);
+                        }
+                    }
+                    return '';
+                };
+                poslednjiYOpseg = { min: mm.min.v, max: mm.max.v };
+            }
         }
 
         chart.update();
@@ -371,7 +403,6 @@
         wrap.appendChild(btn);
     }
 
-    // --- Start ---
     function start() {
         initChart();
         dodajResetDugme();
