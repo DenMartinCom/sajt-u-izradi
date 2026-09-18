@@ -217,7 +217,52 @@ footer {
     border-radius: 6px; text-align: center; font-size: 0.75rem;
     color: #666; font-style: italic; letter-spacing: 0.5px;
 }
+/* WIDGET ZA PRAĆENJE ADRESE */
+.widget-adresa { padding: 14px 12px; gap: 10px; }
+.adresa-title {
+    color: #FFD700; font-size: 0.85rem;
+    letter-spacing: 0.5px; text-align: center;
+}
+.adresa-input-row {
+    display: flex; gap: 8px; width: 100%;
+}
+.adresa-input-row input {
+    flex: 1;
+    background: #2a2a2a;
+    border: 1px solid #383838;
+    color: #e0e0e0;
+    padding: 8px 10px;
+    border-radius: 6px;
+    font-family: monospace;
+    font-size: 0.8rem;
+    outline: none;
+}
+.adresa-input-row input:focus { border-color: #FFD700; }
+.adresa-input-row button {
+    background: #2a2a2a;
+    color: #FFD700;
+    border: 1px solid #444;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s;
+}
+.adresa-input-row button:hover {
+    background: #3a3a3a;
+    border-color: #FFD700;
+}
+.adresa-status {
+    font-size: 0.72rem;
+    color: #888;
+    text-align: center;
+    min-height: 1em;
+    letter-spacing: 0.3px;
+}
+.adresa-status.ok { color: #4caf50; }
+.adresa-status.error { color: #f44336; }
 
+        
 /* DROPDOWN MENI */
 .dropdown { position: fixed; top: 10px; right: 10px; z-index: 200; }
 .dropdown-toggle {
