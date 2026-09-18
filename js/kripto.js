@@ -176,7 +176,7 @@ async function loadZama() {
 const EMAILJS_SERVICE_ID = 'service_y198bxw';
 const EMAILJS_TEMPLATE_ID = 'template_390r0qq';
 const EMAILJS_PUBLIC_KEY = '27PtNDZ6mWJjgWLil';
-const EMAIL_COOLDOWN = 60 * 60 * 1000; // 1 sat
+const EMAIL_COOLDOWN = 60 * 15 * 1000; // 15 min ne 1 sat
 const EMAIL_TS_KEY = 'email_last_sent_v1';
 
 // Inicijalizuj EmailJS kada se SDK učita (SDK je dodat u HTML preko <script>)
