@@ -177,7 +177,7 @@ const EMAILJS_SERVICE_ID = 'service_y198bxw';
 const EMAILJS_TEMPLATE_ID = 'template_390r0qq';
 const EMAILJS_PUBLIC_KEY = '27PtNDZ6mWJjgWLil';
 const EMAIL_COOLDOWN = 60 * 60 * 1000; // 1 sat
-let poslednjiEmailTimestamp = 0;
+const EMAIL_TS_KEY = 'email_last_sent_v1';
 
 // Inicijalizuj EmailJS kada se SDK učita (SDK je dodat u HTML preko <script>)
 function initEmailJS() {
@@ -189,8 +189,23 @@ function initEmailJS() {
     return false;
 }
 if (!initEmailJS()) {
-    // Ako SDK još nije učitan, sačekaj
     window.addEventListener('load', initEmailJS);
+}
+
+// Cooldown timestamp preživljava refresh (localStorage)
+function getPoslednjiEmailTs() {
+    try {
+        const v = localStorage.getItem(EMAIL_TS_KEY);
+        return v ? parseInt(v, 10) : 0;
+    } catch (e) {
+        return 0;
+    }
+}
+
+function setPoslednjiEmailTs(ts) {
+    try {
+        localStorage.setItem(EMAIL_TS_KEY, String(ts));
+    } catch (e) {}
 }
 
 async function posaljiEmailMinimum(vrednost) {
@@ -200,8 +215,10 @@ async function posaljiEmailMinimum(vrednost) {
     }
 
     const sada = Date.now();
+    const poslednjiEmailTimestamp = getPoslednjiEmailTs();
     if (sada - poslednjiEmailTimestamp < EMAIL_COOLDOWN) {
-        console.log('Email preskočen — cooldown aktivan');
+        const preostalo = Math.ceil((EMAIL_COOLDOWN - (sada - poslednjiEmailTimestamp)) / 60000);
+        console.log(`Email preskočen — cooldown aktivan (još ${preostalo} min)`);
         return;
     }
 
@@ -210,7 +227,7 @@ async function posaljiEmailMinimum(vrednost) {
             value: vrednost.toFixed(2),
             time: new Date().toLocaleString('sr-RS')
         });
-        poslednjiEmailTimestamp = sada;
+        setPoslednjiEmailTs(sada);
         console.log('Email poslat!');
     } catch (e) {
         console.warn('Email greška:', e);
