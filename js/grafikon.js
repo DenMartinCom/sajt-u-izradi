@@ -1,18 +1,15 @@
 // ===== GRAFIKON "Uk." vrednosti kroz vreme =====
-// Vrednost dolazi iz gas widgeta (desno od "Uk.")
-// Istorija se čuva u localStorage (samo kod ovog posetioca)
 
 (function () {
     const STORAGE_KEY = 'uk_history_v1';
     const MAX_POINTS = 200;
     const SMA_PERIOD = 10;
-    const Y_STEP = 0.05;         // fiksni korak za Y skalu
+    const Y_STEP = 0.05;
 
     let chart = null;
     let history = [];
     let poslednjiYOpseg = null;
 
-    // --- Učitaj istoriju ---
     function ucitajIstoriju() {
         try {
             const raw = localStorage.getItem(STORAGE_KEY);
@@ -74,7 +71,6 @@
         return { min, max };
     }
 
-    // ===== ZAOKRUŽIVANJE NA KORAK 0.05 =====
     function zaokruziDole(v) {
         return Math.floor(v / Y_STEP) * Y_STEP;
     }
@@ -82,20 +78,15 @@
         return Math.ceil(v / Y_STEP) * Y_STEP;
     }
 
-    // Vraća [donja, srednja (prosek), gornja] — sve na mreži 0.05
     function yTickValues(minV, maxV) {
         if (minV === null || maxV === null) return [];
         if (minV === maxV) {
             const d = zaokruziDole(minV);
             return [d, d + Y_STEP, d + 2 * Y_STEP];
         }
-
         let donja = zaokruziDole(minV);
         let gornja = zaokruziGore(maxV);
-
-        // Ako su min i max unutar istog koraka, proširi opseg
         if (gornja <= donja) gornja = donja + Y_STEP;
-
         const srednja = (donja + gornja) / 2;
         return [donja, srednja, gornja];
     }
@@ -104,7 +95,6 @@
         return Number(v).toFixed(2);
     }
 
-    // --- Plugin: min/max anotacije ---
     const minMaxPlugin = {
         id: 'minMaxPlugin',
         afterDatasetsDraw(chart) {
@@ -154,7 +144,6 @@
         }
     };
 
-    // --- Init ---
     function initChart() {
         const canvas = document.getElementById('uk-chart');
         if (!canvas || typeof Chart === 'undefined') return;
@@ -282,9 +271,13 @@
         if (history.length) chart.update('none');
     }
 
-    // --- Dodaj tačku ---
+    // --- Dodaj tačku (SA ZVUKOM ZA NOVI MINIMUM preko window.playMinimumSound) ---
     function dodajTacku(vrednost) {
         if (typeof vrednost !== 'number' || !isFinite(vrednost)) return;
+
+        // Provera PRE dodavanja: da li je novi minimum?
+        const mmPre = nadjiMinMax();
+        const jeNoviMinimum = mmPre.min !== null && vrednost < mmPre.min.v;
 
         const tacka = { t: Date.now(), v: vrednost };
         history.push(tacka);
@@ -305,7 +298,6 @@
 
         chart.data.datasets[1].data = izracunajSMA(chart.data.datasets[0].data, SMA_PERIOD);
 
-        // Y osa: osveži samo kad nova vrednost probije trenutni opseg
         const mm = nadjiMinMax();
         if (mm.min && mm.max) {
             const trenutniMin = chart.options.scales.y.min;
@@ -333,10 +325,14 @@
             }
         }
 
+        // Ako je novi minimum — pusti zvuk (funkcija dolazi iz js/zvuk.js)
+        if (jeNoviMinimum && window.playMinimumSound) {
+            window.playMinimumSound();
+        }
+
         chart.update();
     }
 
-    // --- Reset ---
     function resetIstorije() {
         if (!confirm('Obrisati celu istoriju grafikona?')) return;
         history = [];
@@ -350,7 +346,6 @@
         }
     }
 
-    // --- R dugme ---
     function dodajResetDugme() {
         const wrap = document.querySelector('.grafikon-wrap');
         if (!wrap || document.getElementById('grafikon-reset')) return;
