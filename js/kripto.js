@@ -7,7 +7,7 @@ const ZAMA_MULTIPLIER = 218;
 const GAS_INTERVAL = 12000;              // 12 sek
 const ZAMA_INTERVAL = GAS_INTERVAL * 5;  // 5x ređe = 60 sek
 
-// Fear index se NE ažurira automatski — samo jednom pri učitavanju.
+// Zvuk je u js/zvuk.js — tamo je window.playMinimumSound
 
 function setStatus(text, type = 'loading') {
     const el = document.getElementById('status');
@@ -63,7 +63,7 @@ async function getGasPrices() {
     return null;
 }
 
-// ===== FEAR & GREED (preko tvog workera) =====
+// ===== FEAR & GREED =====
 async function getFearGreed() {
     try {
         const res = await fetch(`${WORKER_URL}/fear`);
@@ -81,11 +81,11 @@ async function getFearGreed() {
 }
 
 function fearColor(v) {
-    if (v <= 25) return '#f44336';   // extreme fear
-    if (v <= 45) return '#ff9800';   // fear
-    if (v <= 55) return '#FFD700';   // neutral
-    if (v <= 75) return '#8bc34a';   // greed
-    return '#4caf50';                 // extreme greed
+    if (v <= 25) return '#f44336';
+    if (v <= 45) return '#ff9800';
+    if (v <= 55) return '#FFD700';
+    if (v <= 75) return '#8bc34a';
+    return '#4caf50';
 }
 
 async function loadFearGreed() {
@@ -135,7 +135,6 @@ async function loadGas() {
             document.getElementById('gas-slow-usd').textContent = '$' + slowUsd.toFixed(3) + ' - Uk. ' + ukupno.toFixed(3);
             document.getElementById('gas-standard-usd').textContent = '$' + standardUsd.toFixed(3);
 
-            // Pošalji vrednost grafikonu (desno od "Uk.")
             if (window.UkChart && typeof window.UkChart.dodajTacku === 'function') {
                 window.UkChart.dodajTacku(ukupno);
             }
@@ -158,7 +157,7 @@ async function loadGas() {
     }
 }
 
-// ===== ZAMA (bez natpisa o ažuriranju) =====
+// ===== ZAMA =====
 async function loadZama() {
     const prices = await getPricesFromCMC();
     const zamaEl = document.getElementById('zama-result');
@@ -176,8 +175,7 @@ async function loadZama() {
 // ===== INIT =====
 loadGas();
 loadZama();
-loadFearGreed(); // samo jednom
+loadFearGreed();
 
 setInterval(loadGas, GAS_INTERVAL);
 setInterval(loadZama, ZAMA_INTERVAL);
-// Fear index se NE osvežava automatski
