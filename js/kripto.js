@@ -208,7 +208,7 @@ function setPoslednjiEmailTs(ts) {
     } catch (e) {}
 }
 
-async function posaljiEmailMinimum(vrednost) {
+async function posaljiEmailMinimum(podaci) {
     if (!window.emailjs) {
         console.warn('EmailJS još nije učitan');
         return;
@@ -222,11 +222,28 @@ async function posaljiEmailMinimum(vrednost) {
         return;
     }
 
-    try {
-        await window.emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
-            value: vrednost.toFixed(2),
+    // Podrška za dva formata:
+    // 1. Broj (staro — za gas minimum)
+    // 2. Objekat (novo — za adresu)
+    let params;
+    if (typeof podaci === 'number') {
+        params = {
+            value: podaci.toFixed(2),
             time: new Date().toLocaleString('sr-RS')
-        });
+        };
+    } else {
+        params = {
+            sada_tokena: podaci.sada_tokena,
+            sada_usd: podaci.sada_usd,
+            bilo_tokena: podaci.bilo_tokena,
+            bilo_usd: podaci.bilo_usd,
+            razlika_usd: podaci.razlika_usd,
+            time: new Date().toLocaleString('sr-RS')
+        };
+    }
+
+    try {
+        await window.emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, params);
         setPoslednjiEmailTs(sada);
         console.log('Email poslat!');
     } catch (e) {
