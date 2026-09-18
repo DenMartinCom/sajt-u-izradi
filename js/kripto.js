@@ -174,7 +174,7 @@ async function loadZama() {
 
 // ===== EMAILJS SLANJE =====
 const EMAILJS_SERVICE_ID = 'service_y198bxw';
-const EMAILJS_TEMPLATE_ID = 'template_hjuugwx';
+const EMAILJS_TEMPLATE_ID = 'template_390r0qq';
 const EMAILJS_PUBLIC_KEY = '27PtNDZ6mWJjgWLil';
 const EMAIL_COOLDOWN = 60 * 60 * 1000; // 1 sat
 let poslednjiEmailTimestamp = 0;
