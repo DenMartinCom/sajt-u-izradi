@@ -243,13 +243,17 @@ async function posaljiEmailMinimum(podaci) {
         };
     }
 
-    try {
-        await window.emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, params);
-        setPoslednjiEmailTs(sada);
-        console.log('Email poslat!');
-    } catch (e) {
-        console.warn('Email greška:', e);
-    }
+    // Izaberi template u zavisnosti od tipa podataka
+const templateId = (typeof podaci === 'number')
+    ? EMAILJS_TEMPLATE_ID_GAS
+    : EMAILJS_TEMPLATE_ID_ETH;
+
+try {
+    await window.emailjs.send(EMAILJS_SERVICE_ID, templateId, params);
+    setPoslednjiEmailTs(sada);
+    console.log('Email poslat! (' + (typeof podaci === 'number' ? 'gas' : 'ETH adresa') + ')');
+} catch (e) {
+    console.warn('Email greška:', e);
 }
 
 // Izloži globalno (grafikon.js poziva)
