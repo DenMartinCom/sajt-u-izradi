@@ -93,11 +93,10 @@
     }
 
     // Koliko decimala prikazati za dati korak
-    function decimaleZaKorak(korak) {
-        if (korak <= 0) return 2;
-        const d = -Math.floor(Math.log10(korak));
-        return Math.max(0, Math.min(6, d));
-    }
+    // Uvek 2 decimale za Y labele (želimo "viši" graf)
+function decimaleZaKorak(korak) {
+    return 2;
+}
 
     // Vraća 3 Y tick vrednosti: [donja, srednja (prosek), gornja]
     function yTickValues(minV, maxV) {
