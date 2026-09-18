@@ -1,1 +1,183 @@
+// ===== KONFIGURACIJA =====
+const WORKER_URL = 'https://cmc-proxy.martin-denic.workers.dev';
+const GAS_UNITS = 95000;
+const GWEI_TO_ETH = 1e-9;
+const ZAMA_MULTIPLIER = 218;
 
+const GAS_INTERVAL = 12000;              // 12 sek
+const ZAMA_INTERVAL = GAS_INTERVAL * 5;  // 5x ređe = 60 sek
+
+// Fear index se NE ažurira automatski — samo jednom pri učitavanju.
+
+function setStatus(text, type = 'loading') {
+    const el = document.getElementById('status');
+    if (!el) return;
+    el.className = 'status ' + type;
+    document.getElementById('status-text').textContent = text;
+}
+
+function resetGasDisplay() {
+    ['gas-slow', 'gas-standard', 'gas-slow-usd', 'gas-standard-usd'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.textContent = 'N/A';
+    });
+}
+
+// ===== DOBAVLJANJE CMC CENA =====
+async function getPricesFromCMC() {
+    try {
+        const res = await fetch(`${WORKER_URL}/cmc`);
+        const data = await res.json();
+
+        if (data && data.status && data.status.error_code === '0' && Array.isArray(data.data)) {
+            const eth = data.data.find(c => String(c.id) === '1027');
+            const zama = data.data.find(c => String(c.id) === '39332');
+            const btc = data.data.find(c => String(c.id) === '1');
+            return {
+                eth: eth ? parseFloat(eth.price) : null,
+                zama: zama ? parseFloat(zama.price) : null,
+                btc: btc ? parseFloat(btc.price) : null
+            };
+        }
+        console.warn('CMC nije vratio cene:', data);
+    } catch (e) {
+        console.warn('CMC greška:', e);
+    }
+    return { eth: null, zama: null, btc: null };
+}
+
+// ===== DOBAVLJANJE GAS CENE =====
+async function getGasPrices() {
+    try {
+        const res = await fetch(`${WORKER_URL}/gas`);
+        const data = await res.json();
+        if (data.gas && data.gas.status === '1' && data.gas.result) {
+            return {
+                slow: parseFloat(data.gas.result.SafeGasPrice),
+                standard: parseFloat(data.gas.result.ProposeGasPrice)
+            };
+        }
+    } catch (e) {
+        console.warn('Gas greška:', e);
+    }
+    return null;
+}
+
+// ===== FEAR & GREED (preko tvog workera) =====
+async function getFearGreed() {
+    try {
+        const res = await fetch(`${WORKER_URL}/fear`);
+        const data = await res.json();
+        if (data && data.data && typeof data.data.value !== 'undefined') {
+            return {
+                value: parseInt(data.data.value, 10),
+                label: data.data.value_classification
+            };
+        }
+    } catch (e) {
+        console.warn('Fear&Greed greška:', e);
+    }
+    return null;
+}
+
+function fearColor(v) {
+    if (v <= 25) return '#f44336';   // extreme fear
+    if (v <= 45) return '#ff9800';   // fear
+    if (v <= 55) return '#FFD700';   // neutral
+    if (v <= 75) return '#8bc34a';   // greed
+    return '#4caf50';                 // extreme greed
+}
+
+async function loadFearGreed() {
+    const fg = await getFearGreed();
+    const valEl = document.getElementById('fear-value');
+    const arcEl = document.getElementById('fear-arc');
+    const labEl = document.getElementById('fear-label');
+    if (!valEl || !arcEl || !labEl) return;
+
+    if (!fg) {
+        valEl.textContent = '—';
+        labEl.textContent = 'Fear & Greed';
+        arcEl.style.strokeDashoffset = 264;
+        return;
+    }
+
+    const v = Math.max(0, Math.min(100, fg.value));
+    const circumference = 264;
+    const offset = circumference - (circumference * v / 100);
+
+    valEl.textContent = v;
+    valEl.style.color = fearColor(v);
+    arcEl.style.stroke = fearColor(v);
+    arcEl.style.strokeDashoffset = offset;
+    labEl.textContent = fg.label || 'Fear & Greed';
+}
+
+// ===== GAS + ETH CENA =====
+async function loadGas() {
+    setStatus('Učitavanje...', 'loading');
+
+    try {
+        const [gas, prices] = await Promise.all([
+            getGasPrices(),
+            getPricesFromCMC()
+        ]);
+
+        const ethPrice = prices.eth;
+
+        if (gas && ethPrice !== null) {
+            const slowUsd = gas.slow * GAS_UNITS * GWEI_TO_ETH * ethPrice;
+            const standardUsd = gas.standard * GAS_UNITS * GWEI_TO_ETH * ethPrice;
+            const ukupno = slowUsd * 3.51;
+
+            document.getElementById('gas-slow').textContent = gas.slow.toFixed(3) + '';
+            document.getElementById('gas-standard').textContent = gas.standard.toFixed(3) + '';
+            document.getElementById('gas-slow-usd').textContent = '$' + slowUsd.toFixed(3) + ' - Uk. ' + ukupno.toFixed(3);
+            document.getElementById('gas-standard-usd').textContent = '$' + standardUsd.toFixed(3);
+
+            // Pošalji vrednost grafikonu (desno od "Uk.")
+            if (window.UkChart && typeof window.UkChart.dodajTacku === 'function') {
+                window.UkChart.dodajTacku(ukupno);
+            }
+
+            setStatus(`Ažurirano • ETH: $${ethPrice.toFixed(2)}`, 'ok');
+        } else if (gas) {
+            document.getElementById('gas-slow').textContent = gas.slow.toFixed(3) + '';
+            document.getElementById('gas-standard').textContent = gas.standard.toFixed(3) + '';
+            document.getElementById('gas-slow-usd').textContent = '—';
+            document.getElementById('gas-standard-usd').textContent = '—';
+            setStatus('ETH cena nedostupna', 'error');
+        } else {
+            resetGasDisplay();
+            setStatus('Gas podaci nedostupni', 'error');
+        }
+    } catch (error) {
+        console.error('Greška:', error);
+        resetGasDisplay();
+        setStatus('Greška pri dobavljanju podataka', 'error');
+    }
+}
+
+// ===== ZAMA (bez natpisa o ažuriranju) =====
+async function loadZama() {
+    const prices = await getPricesFromCMC();
+    const zamaEl = document.getElementById('zama-result');
+    if (!zamaEl) return;
+
+    if (prices.zama !== null && prices.btc !== null) {
+        const result = prices.zama * ZAMA_MULTIPLIER;
+        const zamaBtc = ((result / prices.btc) * 1000).toFixed(3);
+        zamaEl.textContent = zamaBtc + ' 😶‍🌫️ ' + result.toFixed(2);
+    } else {
+        zamaEl.textContent = '—';
+    }
+}
+
+// ===== INIT =====
+loadGas();
+loadZama();
+loadFearGreed(); // samo jednom
+
+setInterval(loadGas, GAS_INTERVAL);
+setInterval(loadZama, ZAMA_INTERVAL);
+// Fear index se NE osvežava automatski
