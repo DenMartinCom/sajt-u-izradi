@@ -44,19 +44,67 @@
             border-radius: 10px;
             background: transparent;
         }
-        .widget-vreme iframe { width: 300px; max-width: 100%; height: 180px; }
-        .widget-ekonomija { padding: 0; background: transparent; border: none; box-shadow: none; }
-        .widget-ekonomija iframe {
-            width: 100%; max-width: 100%; height: 1150px;
-            border-radius: 14px; background: #F5F5F5;
-        }
+
+        /* PRETRAGA VESTI KRIPTO */
         .widget-pretraga { padding: 0; background: transparent; border: none; box-shadow: none; }
         .widget-pretraga iframe {
             width: 100%; max-width: 100%; height: 934px;
             border-radius: 14px; background: #F5F5F5;
         }
-        .widget-kurs { justify-content: center; padding: 12px; }
-        .widget-kurs iframe { width: 115px; height: 135px; }
+
+        /* KURSNA LISTA + FEAR INDEX (dele širinu) */
+        .widget-kurs-fear {
+            flex-direction: row;
+            align-items: stretch;
+            padding: 12px;
+            gap: 12px;
+        }
+        .kurs-box {
+            flex: 1 1 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 0;
+        }
+        .kurs-box iframe {
+            width: 115px;
+            height: 175px;
+        }
+
+        /* FEAR INDEX */
+        .fear-box {
+            flex: 1 1 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-width: 0;
+            gap: 8px;
+        }
+        .fear-gauge {
+            position: relative;
+            width: 130px;
+            height: 130px;
+        }
+        .fear-gauge svg { width: 100%; height: 100%; display: block; }
+        .fear-value {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 2rem;
+            font-weight: 700;
+            line-height: 1;
+            transition: color 0.4s;
+        }
+        .fear-label {
+            font-size: 0.72rem;
+            color: #888;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        /* KRIPTO VALUTE */
         .widget-kripto {
             gap: 8px; align-items: stretch; background: #1e1e1e;
             border-radius: 14px; padding: 10px; width: 100%; max-width: 100%;
@@ -103,10 +151,6 @@
 
         /* ZAMA WIDGET */
         .widget-zama { padding: 20px 16px; text-align: center; }
-        .zama-title {
-            color: #FFD700; font-size: 0.9rem; margin-bottom: 10px;
-            letter-spacing: 0.5px;
-        }
         .zama-value {
             font-size: 2.2rem; font-weight: 700; color: #fff;
             letter-spacing: 1px; line-height: 1.2;
@@ -114,11 +158,8 @@
         .zama-value .currency {
             font-size: 1.2rem; color: #FFD700; font-weight: 500; margin-right: 4px;
         }
-        .zama-sub {
-            font-size: 0.7rem; color: #666; margin-top: 6px; letter-spacing: 0.3px;
-        }
 
-        /* STATUS */
+        /* STATUS (samo za gas) */
         .status {
             margin-top: 12px; font-size: 0.7rem; color: #666;
             text-align: center; letter-spacing: 0.3px;
@@ -130,26 +171,6 @@
         .status.error .dot { background: #f44336; }
         .status.loading .dot { background: #FFD700; }
 
-        .news-link { margin-top: 10px; text-align: center; width: 100%; }
-        .news-link a {
-            display: inline-block; text-decoration: none; color: #FFD700;
-            transition: transform 0.2s, opacity 0.2s;
-        }
-        .news-link a:hover { transform: translateY(-3px); opacity: 0.9; }
-        .news-link img {
-            display: block; width: 100%; max-width: 400px; height: auto;
-            margin: 0 auto; border-radius: 12px; border: 1px solid #333;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
-            transition: box-shadow 0.3s, border-color 0.3s;
-        }
-        .news-link a:hover img {
-            box-shadow: 0 6px 18px rgba(255, 215, 0, 0.25);
-            border-color: #FFD700;
-        }
-        .news-link span {
-            display: block; margin-top: 10px; font-size: 0.9rem;
-            color: #FFD700; letter-spacing: 0.5px;
-        }
         .izvori {
             width: 100%; max-width: 600px; margin: 20px auto 0 auto;
             text-align: center; font-size: 0.78rem; color: #777;
@@ -188,9 +209,7 @@
             body { padding: 8px 6px; }
             .kolona { max-width: 100%; gap: 12px; }
             .widget { padding: 10px; border-radius: 12px; }
-            .widget-ekonomija iframe { height: 980px; border-radius: 12px; }
             .widget-pretraga iframe { height: 980px; border-radius: 12px; }
-            .widget-vreme iframe { width: 100%; max-width: 340px; height: 170px; }
             .widget-kripto { padding: 6px; }
             .widget-kripto .coinmarketcap-currency-widget {
                 padding: 8px !important; font-size: 0.8rem !important;
@@ -199,13 +218,14 @@
             footer { border-radius: 0; margin-top: 12px; }
         }
         @media (max-width: 370px) {
-            .widget-ekonomija iframe { height: 860px; }
             .widget-pretraga iframe { height: 860px; }
             .widget-kripto .coinmarketcap-currency-widget { font-size: 0.75rem !important; }
             .gas-row { gap: 25px; }
             .gas-item .gas-value { font-size: 1.1rem; }
             .gas-item .gas-usd { font-size: 0.7rem; }
             .zama-value { font-size: 1.8rem; }
+            .fear-gauge { width: 110px; height: 110px; }
+            .fear-value { font-size: 1.7rem; }
         }
     </style>
 </head>
@@ -224,43 +244,38 @@
 
     <div class="kolona">
 
-        <!-- VREME BEOGRAD -->
-        <div class="widget widget-vreme">
-            <iframe src="https://naslovi.net/vremenska-prognoza/widget/beograd?big=1"
-                frameborder="0" scrolling="no" loading="lazy"></iframe>
-        </div>
-
-        <!-- VREME INĐIJA -->
-        <div class="widget widget-vreme">
-            <iframe src="https://naslovi.net/vremenska-prognoza/widget/indjija?big=1&bgcolor=FFFFFF&textcolor=000000"
-                frameborder="0" scrolling="no" loading="lazy"></iframe>
-        </div>
-
-        <!-- EKONOMIJA -->
-        <div class="widget widget-ekonomija">
-            <iframe src="https://naslovi.net/widget/?type=ekonomija&bgcolor=F5F5F5&textcolor=000000&separatorcolor=D0D0D0&count=10&"
-                frameborder="0" scrolling="no" loading="lazy"></iframe>
-        </div>
-
-        <!-- PAZOVA -->
-        <div class="widget widget-pretraga">
-            <iframe src="https://naslovi.net/widget/?type=pretraga&q=pazova&bgcolor=F5F5F5&textcolor=000000&separatorcolor=D0D0D0&count=10&"
-                frameborder="0" scrolling="no" loading="lazy"></iframe>
-        </div>
-
-        <!-- KRIPTO (VESTI) -->
+        <!-- VESTI KRIPTO -->
         <div class="widget widget-pretraga">
             <iframe src="https://naslovi.net/widget/?type=pretraga&q=kripto&bgcolor=F5F5F5&textcolor=000000&separatorcolor=D0D0D0&count=10&"
                 frameborder="0" scrolling="no" loading="lazy"></iframe>
         </div>
 
-        <!-- KURSNA LISTA -->
-        <div class="widget widget-kurs">
-            <iframe id="iframe_vreme"
-                src="https://naslovi.net/plugin/kursna_lista2.php?bgcolor=ffffff&color=000000"
-                frameborder="0" height="175" scrolling="no" width="115" loading="lazy">
-                <a href="https://naslovi.net/kursna_lista.php">Kursna lista</a>
-            </iframe>
+        <!-- KURSNA LISTA + FEAR INDEX -->
+        <div class="widget widget-kurs-fear">
+            <div class="kurs-box">
+                <iframe id="iframe_kurs"
+                    src="https://naslovi.net/plugin/kursna_lista2.php?bgcolor=ffffff&color=000000"
+                    frameborder="0" height="175" scrolling="no" width="115" loading="lazy">
+                    <a href="https://naslovi.net/kursna_lista.php">Kursna lista</a>
+                </iframe>
+            </div>
+
+            <div class="fear-box">
+                <div class="fear-gauge">
+                    <svg viewBox="0 0 100 100">
+                        <circle cx="50" cy="50" r="42" fill="none" stroke="#2a2a2a" stroke-width="8"/>
+                        <circle id="fear-arc" cx="50" cy="50" r="42"
+                            fill="none" stroke="#FFD700" stroke-width="8"
+                            stroke-linecap="round"
+                            stroke-dasharray="264"
+                            stroke-dashoffset="264"
+                            transform="rotate(-90 50 50)"
+                            style="transition: stroke-dashoffset 0.8s ease, stroke 0.4s;"/>
+                    </svg>
+                    <div class="fear-value" id="fear-value">—</div>
+                </div>
+                <div class="fear-label" id="fear-label">Fear &amp; Greed</div>
+            </div>
         </div>
 
         <!-- KRIPTO VALUTE -->
@@ -283,7 +298,7 @@
 
         <!-- ETHEREUM GAS CENE -->
         <div class="widget widget-gas">
-            <div class="gas-title">⛽ ETH Gas (u Gwei i $min x4.5)</div>
+            <div class="gas-title">&#9925; ETH Gas (u Gwei i $min x4.5)</div>
             <div class="gas-row">
                 <div class="gas-item">
                     <div class="gas-label">Najsporija</div>
@@ -307,19 +322,9 @@
 
         <!-- ZAMA KALKULACIJA -->
         <div class="widget widget-zama">
-            <div class="zama-title"></div>
             <div class="zama-value">
                 <span class="currency"></span><span id="zama-result">—</span>
             </div>
-            <div class="zama-sub" id="zama-sub">Čeka podatke...</div>
-        </div>
-
-        <!-- LINK KA LOKALNIM VESTIMA RTV STARA PAZOVA -->
-        <div class="news-link">
-            <a href="https://www.rtvstarapazova.rs/sr/vesti.php" target="_blank" rel="noopener noreferrer">
-                <img src="Slike/rtvSP.webp" alt="RTV Stara Pazova - lokalne vesti">
-                <span>Poseti lokalne vesti &rarr;</span>
-            </a>
         </div>
 
     </div>
@@ -350,9 +355,12 @@
 
         // ===== KONFIGURACIJA =====
         const WORKER_URL = 'https://cmc-proxy.martin-denic.workers.dev';
-        const GAS_UNITS = 95000; // trans 21k, claim 95k,approve cap 45k, stejk swap 180k, uk oko 333k 
+        const GAS_UNITS = 95000;
         const GWEI_TO_ETH = 1e-9;
         const ZAMA_MULTIPLIER = 218;
+
+        const GAS_INTERVAL = 12000;              // 12 sek
+        const ZAMA_INTERVAL = GAS_INTERVAL * 5;  // 5x ređe = 60 sek
 
         function setStatus(text, type = 'loading') {
             const el = document.getElementById('status');
@@ -366,15 +374,15 @@
             });
         }
 
-        // ===== DOBAVLJANJE CMC CENA (ETH + ZAMA) =====
+        // ===== DOBAVLJANJE CMC CENA =====
         async function getPricesFromCMC() {
             try {
                 const res = await fetch(`${WORKER_URL}/cmc`);
                 const data = await res.json();
 
                 if (data && data.status && data.status.error_code === '0' && Array.isArray(data.data)) {
-                    const eth = data.data.find(c => String(c.id) === '1027'); 
-                    const zama = data.data.find(c => String(c.id) === '39332'); 
+                    const eth = data.data.find(c => String(c.id) === '1027');
+                    const zama = data.data.find(c => String(c.id) === '39332');
                     const btc = data.data.find(c => String(c.id) === '1');
                     return {
                         eth: eth ? parseFloat(eth.price) : null,
@@ -406,8 +414,57 @@
             return null;
         }
 
-        // ===== GLAVNA FUNKCIJA =====
-        async function loadData() {
+        // ===== FEAR & GREED (preko tvog workera) =====
+        async function getFearGreed() {
+            try {
+                const res = await fetch(`${WORKER_URL}/fear`);
+                const data = await res.json();
+                if (data && data.data && typeof data.data.value !== 'undefined') {
+                    return {
+                        value: parseInt(data.data.value, 10),
+                        label: data.data.value_classification
+                    };
+                }
+            } catch (e) {
+                console.warn('Fear&Greed greška:', e);
+            }
+            return null;
+        }
+
+        function fearColor(v) {
+            if (v <= 25) return '#f44336';   // extreme fear
+            if (v <= 45) return '#ff9800';   // fear
+            if (v <= 55) return '#FFD700';   // neutral
+            if (v <= 75) return '#8bc34a';   // greed
+            return '#4caf50';                 // extreme greed
+        }
+
+        async function loadFearGreed() {
+            const fg = await getFearGreed();
+            const valEl = document.getElementById('fear-value');
+            const arcEl = document.getElementById('fear-arc');
+            const labEl = document.getElementById('fear-label');
+
+            if (!fg) {
+                valEl.textContent = '—';
+                labEl.textContent = 'Fear & Greed';
+                arcEl.style.strokeDashoffset = 264;
+                return;
+            }
+
+            const v = Math.max(0, Math.min(100, fg.value));
+            const circumference = 264;
+            const offset = circumference - (circumference * v / 100);
+
+            valEl.textContent = v;
+            valEl.style.color = fearColor(v);
+            arcEl.style.stroke = fearColor(v);
+            arcEl.style.strokeDashoffset = offset;
+            labEl.textContent = fg.label || 'Fear & Greed';
+        }
+
+        // ===== GAS + ETH CENA =====
+        async function loadGas() {
             setStatus('Učitavanje...', 'loading');
 
             try {
@@ -418,7 +475,6 @@
 
                 const ethPrice = prices.eth;
 
-                // --- GAS PRIKAZ ---
                 if (gas && ethPrice !== null) {
                     const slowUsd = gas.slow * GAS_UNITS * GWEI_TO_ETH * ethPrice;
                     const standardUsd = gas.standard * GAS_UNITS * GWEI_TO_ETH * ethPrice;
@@ -439,34 +495,36 @@
                     resetGasDisplay();
                     setStatus('Gas podaci nedostupni', 'error');
                 }
-
-                // --- ZAMA PRIKAZ ---
-                const zamaEl = document.getElementById('zama-result');
-                const zamaSub = document.getElementById('zama-sub');
-                
-
-                if (prices.zama !== null) {
-                    const result = prices.zama * ZAMA_MULTIPLIER;
-                    const zamaBtc = ((result/prices.btc)*1000).toFixed(3);
-                    zamaEl.textContent = zamaBtc + ' 😶‍🌫️ ' + result.toFixed(2); //+ result.toFixed(1)*10 + ' e' ;//;
-                    zamaSub.textContent = `${prices.zama.toFixed(3)}`;
-                } else {
-                    zamaEl.textContent = '—';
-                    zamaSub.textContent = 'Z cena nedostupna';
-                }
-
             } catch (error) {
                 console.error('Greška:', error);
                 resetGasDisplay();
-                document.getElementById('zama-result').textContent = '—';
-                document.getElementById('zama-sub').textContent = 'Greška';
                 setStatus('Greška pri dobavljanju podataka', 'error');
             }
         }
 
+        // ===== ZAMA (bez natpisa o ažuriranju) =====
+        async function loadZama() {
+            const prices = await getPricesFromCMC();
+            const zamaEl = document.getElementById('zama-result');
+
+            if (prices.zama !== null && prices.btc !== null) {
+                const result = prices.zama * ZAMA_MULTIPLIER;
+                const zamaBtc = ((result / prices.btc) * 1000).toFixed(3);
+                zamaEl.textContent = zamaBtc + ' 😶‍🌫️ ' + result.toFixed(2);
+            } else {
+                zamaEl.textContent = '—';
+            }
+        }
+
         // ===== INIT =====
-        loadData();
-        setInterval(loadData, 12000);//12 sek
+        loadGas();
+        loadZama();
+        loadFearGreed();
+
+        setInterval(loadGas, GAS_INTERVAL);
+        setInterval(loadZama, ZAMA_INTERVAL);
+        setInterval(loadFearGreed, GAS_INTERVAL);
+
     </script>
 
 </body>
