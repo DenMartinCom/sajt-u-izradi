@@ -43,9 +43,9 @@ function playMinimumSound() {
     try {
         const t = audioCtx.currentTime;
         // Prvi bip — viši ton
-        bip(1200, t,          0.18, 0.35);
+        bip(1200, t,          0.18, 0.45);
         // Drugi bip — niži ton, kratka pauza između
-        bip(900,  t + 0.22,   0.22, 0.35);
+        bip(900,  t + 0.22,   0.22, 0.55);
     } catch (e) {
         console.warn('Zvuk greška:', e);
     }
