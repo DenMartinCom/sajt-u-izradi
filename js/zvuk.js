@@ -1,9 +1,10 @@
-
 // ===== ZVUK ZA NOVI MINIMUM =====
+// Prodorni dvostruki "bip" — Web Audio API, bez fajlova
+
 let audioCtx = null;
 let audioUnlocked = false;
 
-// "Otključaj" audio pri prvom kliku korisnika (Chrome policy)
+// "Otključaj" audio pri prvom kliku korisnika (browser policy)
 function unlockAudio() {
     if (audioUnlocked) return;
     try {
@@ -19,21 +20,36 @@ function unlockAudio() {
 document.addEventListener('click', unlockAudio, { once: true });
 document.addEventListener('touchstart', unlockAudio, { once: true });
 
-// Kratki "ping" zvuk (bez fajlova — Web Audio API)
+// Jedan "bip" na zadatoj frekvenciji i vremenu
+function bip(freq, startTime, duration, volume) {
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+
+    osc.type = 'square';                     // square = prodorniji od sine
+    osc.frequency.setValueAtTime(freq, startTime);
+
+    gain.gain.setValueAtTime(0, startTime);
+    gain.gain.linearRampToValueAtTime(volume, startTime + 0.01);          // brzi attack
+    gain.gain.exponentialRampToValueAtTime(0.001, startTime + duration);  // fade out
+
+    osc.connect(gain).connect(audioCtx.destination);
+    osc.start(startTime);
+    osc.stop(startTime + duration + 0.02);
+}
+
+// Prodorni dvostruki bip (novi minimum)
 function playMinimumSound() {
     if (!audioCtx || audioCtx.state !== 'running') return;
     try {
-        const osc = audioCtx.createOscillator();
-        const gain = audioCtx.createGain();
-        osc.type = 'sine';
-        osc.frequency.setValueAtTime(880, audioCtx.currentTime);       // A5
-        osc.frequency.exponentialRampToValueAtTime(440, audioCtx.currentTime + 0.15); // pad na A4
-        gain.gain.setValueAtTime(0.3, audioCtx.currentTime);
-        gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.2);
-        osc.connect(gain).connect(audioCtx.destination);
-        osc.start();
-        osc.stop(audioCtx.currentTime + 0.2);
+        const t = audioCtx.currentTime;
+        // Prvi bip — viši ton
+        bip(1200, t,          0.18, 0.35);
+        // Drugi bip — niži ton, kratka pauza između
+        bip(900,  t + 0.22,   0.22, 0.35);
     } catch (e) {
         console.warn('Zvuk greška:', e);
     }
 }
+
+// Izloži globalno (grafikon.js poziva)
+window.playMinimumSound = playMinimumSound;
