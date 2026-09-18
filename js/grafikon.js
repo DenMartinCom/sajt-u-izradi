@@ -271,7 +271,7 @@
         if (history.length) chart.update('none');
     }
 
-    // --- Dodaj tačku (SA ZVUKOM ZA NOVI MINIMUM preko window.playMinimumSound) ---
+    // --- Dodaj tačku (SA ZVUKOM + MEJLOM ZA NOVI MINIMUM) ---
     function dodajTacku(vrednost) {
         if (typeof vrednost !== 'number' || !isFinite(vrednost)) return;
 
@@ -325,9 +325,10 @@
             }
         }
 
-        // Ako je novi minimum — pusti zvuk (funkcija dolazi iz js/zvuk.js)
-        if (jeNoviMinimum && window.playMinimumSound) {
-            window.playMinimumSound();
+        // Ako je novi minimum — pusti zvuk i pošalji mejl
+        if (jeNoviMinimum) {
+            if (window.playMinimumSound) window.playMinimumSound();
+            if (window.posaljiEmailMinimum) window.posaljiEmailMinimum(vrednost);
         }
 
         chart.update();
