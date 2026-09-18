@@ -174,7 +174,8 @@ async function loadZama() {
 
 // ===== EMAILJS SLANJE =====
 const EMAILJS_SERVICE_ID = 'service_y198bxw';
-const EMAILJS_TEMPLATE_ID = 'template_390r0qq';
+const EMAILJS_TEMPLATE_ID_GAS = 'template_390r0qq';   // gas minimum
+const EMAILJS_TEMPLATE_ID_ETH = 'template_z75d21a';   // ETH adresa
 const EMAILJS_PUBLIC_KEY = '27PtNDZ6mWJjgWLil';
 const EMAIL_COOLDOWN = 60 * 15 * 1000; // 15 min ne 1 sat
 const EMAIL_TS_KEY = 'email_last_sent_v1';
