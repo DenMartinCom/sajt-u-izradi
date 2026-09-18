@@ -172,6 +172,54 @@ async function loadZama() {
     }
 }
 
+// ===== EMAILJS SLANJE =====
+const EMAILJS_SERVICE_ID = 'service_y198bxw';
+const EMAILJS_TEMPLATE_ID = 'template_hjuugwx';
+const EMAILJS_PUBLIC_KEY = '27PtNDZ6mWJjgWLil';
+const EMAIL_COOLDOWN = 60 * 60 * 1000; // 1 sat
+let poslednjiEmailTimestamp = 0;
+
+// Inicijalizuj EmailJS kada se SDK učita (SDK je dodat u HTML preko <script>)
+function initEmailJS() {
+    if (window.emailjs) {
+        window.emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
+        console.log('EmailJS spreman');
+        return true;
+    }
+    return false;
+}
+if (!initEmailJS()) {
+    // Ako SDK još nije učitan, sačekaj
+    window.addEventListener('load', initEmailJS);
+}
+
+async function posaljiEmailMinimum(vrednost) {
+    if (!window.emailjs) {
+        console.warn('EmailJS još nije učitan');
+        return;
+    }
+
+    const sada = Date.now();
+    if (sada - poslednjiEmailTimestamp < EMAIL_COOLDOWN) {
+        console.log('Email preskočen — cooldown aktivan');
+        return;
+    }
+
+    try {
+        await window.emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
+            value: vrednost.toFixed(2),
+            time: new Date().toLocaleString('sr-RS')
+        });
+        poslednjiEmailTimestamp = sada;
+        console.log('Email poslat!');
+    } catch (e) {
+        console.warn('Email greška:', e);
+    }
+}
+
+// Izloži globalno (grafikon.js poziva)
+window.posaljiEmailMinimum = posaljiEmailMinimum;
+
 // ===== INIT =====
 loadGas();
 loadZama();
