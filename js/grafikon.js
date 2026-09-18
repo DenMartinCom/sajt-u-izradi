@@ -5,7 +5,7 @@
 (function () {
     const STORAGE_KEY = 'uk_history_v1';
     const MAX_POINTS = 200;      // koliko poslednjih tačaka čuvamo
-    const MAX_X_TICKS = 8;       // početno vreme + još max 7
+    const MAX_X_TICKS = 8;       // ukupno labela: početno + krajnje + max 6 između
     const SMA_PERIOD = 10;       // period za SMA
 
     let chart = null;
@@ -106,7 +106,8 @@
                 const x = xScale.getPixelForValue(idx);
                 const y = yScale.getPixelForValue(tacka.v);
 
-                const boja = tip === 'max' ? '#4caf50' : '#f44336';
+                // OBRNUTE BOJE: MAX crveno, MIN zeleno
+                const boja = tip === 'max' ? '#f44336' : '#4caf50';
                 const labela = (tip === 'max' ? 'MAX ' : 'MIN ') +
                     '$' + tacka.v.toFixed(2) + '  ' + formatPunoVreme(tacka.t);
 
@@ -211,6 +212,13 @@
                 },
                 scales: {
                     x: {
+                        // Nema mreže — samo spoljna ivica
+                        grid: {
+                            display: false,
+                            drawBorder: true,
+                            color: 'rgba(255,255,255,0.15)'
+                        },
+                        border: { color: 'rgba(255,255,255,0.15)' },
                         ticks: {
                             color: '#888',
                             maxRotation: 0,
@@ -219,27 +227,47 @@
                             callback: function (value, index) {
                                 const total = this.chart.data.labels.length;
                                 if (total === 0) return '';
+                                if (total === 1) return this.chart.data.labels[0];
+
+                                // Uvek prva
                                 if (index === 0) return this.chart.data.labels[0];
-                                if (total <= MAX_X_TICKS) {
+                                // Uvek poslednja
+                                if (index === total - 1) return this.chart.data.labels[total - 1];
+
+                                // Između: MAX_X_TICKS - 2 ravnomerno raspoređenih
+                                const izmedju = MAX_X_TICKS - 2;
+                                if (izmedju <= 0) return '';
+                                if (total - 2 <= izmedju) {
+                                    // malo tačaka — prikaži sve između
                                     return this.chart.data.labels[index];
                                 }
-                                const korak = Math.floor((total - 1) / (MAX_X_TICKS - 1));
-                                if (korak <= 0) return '';
-                                if (index % korak === 0 && index < total - 1) {
+                                // korak kroz unutrašnje tačke (1 .. total-2)
+                                const korak = (total - 1) / (izmedju + 1);
+                                const pozicija = Math.round(index / korak);
+                                if (
+                                    pozicija >= 1 &&
+                                    pozicija <= izmedju &&
+                                    Math.abs(index - pozicija * korak) < 0.5
+                                ) {
                                     return this.chart.data.labels[index];
                                 }
                                 return '';
                             }
-                        },
-                        grid: { color: 'rgba(255,255,255,0.05)' }
+                        }
                     },
                     y: {
+                        // Nema mreže — samo spoljna ivica
+                        grid: {
+                            display: false,
+                            drawBorder: true,
+                            color: 'rgba(255,255,255,0.15)'
+                        },
+                        border: { color: 'rgba(255,255,255,0.15)' },
                         ticks: {
                             color: '#888',
                             font: { size: 10 },
                             callback: (v) => Number(v).toFixed(2)
-                        },
-                        grid: { color: 'rgba(255,255,255,0.05)' }
+                        }
                     }
                 }
             },
