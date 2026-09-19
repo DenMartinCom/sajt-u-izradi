@@ -177,8 +177,7 @@ const EMAILJS_SERVICE_ID = 'service_y198bxw';
 const EMAILJS_TEMPLATE_ID_GAS = 'template_390r0qq';   // gas minimum
 const EMAILJS_TEMPLATE_ID_ETH = 'template_z75d21a';   // ETH adresa
 const EMAILJS_PUBLIC_KEY = '27PtNDZ6mWJjgWLil';
-const EMAIL_COOLDOWN = 60 * 60 * 1000; // 1 sat (samo za gas)
-const EMAIL_TS_KEY = 'email_last_sent_v1';
+const EMAIL_COOLDOWN_MIN = 20; // 20 minuta
 
 function initEmailJS() {
     if (window.emailjs) {
@@ -192,19 +191,25 @@ if (!initEmailJS()) {
     window.addEventListener('load', initEmailJS);
 }
 
-function getPoslednjiEmailTs() {
+// Provera da li treba poslati (preko D1)
+async function emailTreba(tip) {
     try {
-        const v = localStorage.getItem(EMAIL_TS_KEY);
-        return v ? parseInt(v, 10) : 0;
+        const res = await fetch(`${WORKER_URL}/email-treba?tip=${tip}&cooldown=${EMAIL_COOLDOWN_MIN}`);
+        const data = await res.json();
+        return data;
     } catch (e) {
-        return 0;
+        console.warn('email-treba greška:', e);
+        return { treba: false };
     }
 }
 
-function setPoslednjiEmailTs(ts) {
+// Zabeleži da je mejl poslat (u D1)
+async function emailZabelezi(tip) {
     try {
-        localStorage.setItem(EMAIL_TS_KEY, String(ts));
-    } catch (e) {}
+        await fetch(`${WORKER_URL}/email-zabelezi?tip=${tip}`);
+    } catch (e) {
+        console.warn('email-zabelezi greška:', e);
+    }
 }
 
 async function posaljiEmailMinimum(podaci) {
@@ -215,13 +220,11 @@ async function posaljiEmailMinimum(podaci) {
 
     const jeGas = (typeof podaci === 'number');
 
-    // Cooldown samo za gas
+    // Cooldown preko D1 — samo za gas
     if (jeGas) {
-        const sada = Date.now();
-        const poslednjiEmailTimestamp = getPoslednjiEmailTs();
-        if (sada - poslednjiEmailTimestamp < EMAIL_COOLDOWN) {
-            const preostalo = Math.ceil((EMAIL_COOLDOWN - (sada - poslednjiEmailTimestamp)) / 60000);
-            console.log(`Email preskočen — cooldown aktivan (još ${preostalo} min)`);
+        const provera = await emailTreba('gas');
+        if (!provera.treba) {
+            console.log(`Email preskočen — cooldown aktivan (još ${provera.preostalo_min} min)`);
             return;
         }
     }
@@ -237,7 +240,6 @@ async function posaljiEmailMinimum(podaci) {
         };
         templateId = EMAILJS_TEMPLATE_ID_GAS;
     } else {
-        // Za adresu — samo poruka i time
         params = {
             poruka: podaci.poruka,
             time: podaci.time || new Date().toLocaleString('sr-RS')
@@ -247,8 +249,12 @@ async function posaljiEmailMinimum(podaci) {
 
     try {
         await window.emailjs.send(EMAILJS_SERVICE_ID, templateId, params);
-        if (jeGas) setPoslednjiEmailTs(Date.now());
         console.log('Email poslat! (' + (jeGas ? 'gas' : 'adresa') + ')');
+
+        // Zabeleži u bazu samo za gas
+        if (jeGas) {
+            await emailZabelezi('gas');
+        }
     } catch (e) {
         console.warn('Email greška:', e);
     }
