@@ -39,7 +39,7 @@
         return /^0x[a-fA-F0-9]{40}$/.test(a);
     }
 
-    // ===== NIVO 2: fetch sa retry (3 pokušaja, 1s pauza, hvata i JSON parse greške) =====
+    // ===== NIVO 2: fetch sa retry (3 pokušaja, 1s pauza) =====
     async function fetchSaRetry(url, pokusaja = 3, pauzaMs = 1000) {
         for (let i = 0; i < pokusaja; i++) {
             try {
@@ -53,7 +53,6 @@
                     return null;
                 }
 
-                // Probaj da parsiraš JSON — može biti "Throttled" ili HTML
                 const tekst = await res.text();
                 try {
                     return JSON.parse(tekst);
@@ -113,8 +112,10 @@
     // --- Sačuvaj balans u D1 ---
     async function sacuvajBalans(adresa, token, balans, balansUsd) {
         try {
-            const url = `${WORKER_URL}/save-balans?adresa=${adresa}&token=${token}&balans=${encodeURIComponent(balans)}` +
-                (balansUsd !== null ? `&balans_usd=${balansUsd}` : '');
+            let url = `${WORKER_URL}/save-balans?adresa=${adresa}&token=${token}&balans=${encodeURIComponent(balans)}`;
+            if (balansUsd !== null && balansUsd !== undefined) {
+                url += `&balans_usd=${balansUsd}`;
+            }
             await fetch(url);
         } catch (e) {
             console.warn('save-balans greška:', e);
@@ -197,11 +198,21 @@
             const { sirovi, balans } = await dohvatiBalans(trenutnaAdresa, trenutniToken);
             const prethodni = await dohvatiPrethodni(trenutnaAdresa, trenutniToken);
 
-            // Prvi put — nema prethodnog u bazi
+            // ===== Prvi put — nema prethodnog u bazi =====
             if (!prethodni) {
+                // Ako je balans 0, sačekaj uplatu — ne treba cena
+                if (balans === 0) {
+                    await sacuvajBalans(trenutnaAdresa, trenutniToken, sirovi, '0');
+                    setStatus(`Čekam uplatu ${trenutniToken.toUpperCase()}...`, 'ok');
+                    return;
+                }
+
+                // Ako ima balansa, pokušaj da dobiješ cenu
                 const cena = await dohvatiCenu(trenutniToken, trenutnaAdresa);
                 if (cena === null) {
-                    setStatus('Probajte kasnije', 'error');
+                    // Nema cene — prikaži bar količinu
+                    await sacuvajBalans(trenutnaAdresa, trenutniToken, sirovi, null);
+                    setStatus(`Pratim • ${formatBroj(balans)} ${trenutniToken.toUpperCase()} (cena nedostupna)`, 'ok');
                     return;
                 }
                 const usd = balans * cena;
@@ -210,25 +221,31 @@
                 return;
             }
 
-            // Uporedi balanse
+            // ===== Uporedi balanse =====
             const prethodniSirovi = prethodni.balans;
             if (sirovi === prethodniSirovi) {
                 return; // nema promene
             }
 
-            // Ima promene — dohvati cenu
-            const cena = await dohvatiCenu(trenutniToken, trenutnaAdresa);
-            if (cena === null) {
-                setStatus('Probajte kasnije', 'error');
-                return;
-            }
-
+            // ===== Ima promene — izračunaj razliku =====
             const prethodniBalans = parseFloat(prethodniSirovi) / KRIPTO[trenutniToken].delilac;
             const razlika = balans - prethodniBalans;
-            const razlikaUsd = Math.abs(razlika) * cena;
-
             const smer = razlika > 0 ? 'Stiglo' : 'Otišlo';
-            const poruka = `${smer} ${formatBroj(Math.abs(razlika))} ${trenutniToken.toUpperCase()}, oko $${razlikaUsd.toFixed(2)}`;
+
+            // Dohvati cenu za USD (može biti null)
+            const cena = await dohvatiCenu(trenutniToken, trenutnaAdresa);
+
+            let poruka;
+            let balansUsdZaUpis = null;
+
+            if (cena === null) {
+                // Nema cene — prikaži bar količinu
+                poruka = `${smer} ${formatBroj(Math.abs(razlika))} ${trenutniToken.toUpperCase()}`;
+            } else {
+                const razlikaUsd = Math.abs(razlika) * cena;
+                poruka = `${smer} ${formatBroj(Math.abs(razlika))} ${trenutniToken.toUpperCase()}, oko $${razlikaUsd.toFixed(2)}`;
+                balansUsdZaUpis = (balans * cena).toFixed(2);
+            }
 
             setStatus(poruka, 'ok');
 
@@ -244,7 +261,7 @@
             }
 
             // Sačuvaj novi balans u D1
-            await sacuvajBalans(trenutnaAdresa, trenutniToken, sirovi, (balans * cena).toFixed(2));
+            await sacuvajBalans(trenutnaAdresa, trenutniToken, sirovi, balansUsdZaUpis);
 
             // Zaustavi praćenje posle prve promene
             if (intervalId) {
