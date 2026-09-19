@@ -39,43 +39,41 @@
         return /^0x[a-fA-F0-9]{40}$/.test(a);
     }
 
-    // ===== NIVO 2: fetch sa retry (3 pokušaja, 1s pauza) =====
-async function fetchSaRetry(url, pokusaja = 3, pauzaMs = 1000) {
-    for (let i = 0; i < pokusaja; i++) {
-        try {
-            const res = await fetch(url);
-            if (!res.ok) {
-                console.warn(`Pokušaj ${i + 1} nije OK (HTTP ${res.status}):`, url);
-                if (i < pokusaja - 1) {
-                    await new Promise(r => setTimeout(r, pauzaMs));
-                    continue;
-                }
-                return null;
-            }
-
-            // Probaj da parsiraš JSON — može biti "Throttled" ili HTML
-            const tekst = await res.text();
+    // ===== NIVO 2: fetch sa retry (3 pokušaja, 1s pauza, hvata i JSON parse greške) =====
+    async function fetchSaRetry(url, pokusaja = 3, pauzaMs = 1000) {
+        for (let i = 0; i < pokusaja; i++) {
             try {
-                return JSON.parse(tekst);
-            } catch (jsonErr) {
-                console.warn(`Pokušaj ${i + 1} — nevalidan JSON (${tekst.slice(0, 50)}...):`, url);
+                const res = await fetch(url);
+                if (!res.ok) {
+                    console.warn(`Pokušaj ${i + 1} nije OK (HTTP ${res.status}):`, url);
+                    if (i < pokusaja - 1) {
+                        await new Promise(r => setTimeout(r, pauzaMs));
+                        continue;
+                    }
+                    return null;
+                }
+
+                // Probaj da parsiraš JSON — može biti "Throttled" ili HTML
+                const tekst = await res.text();
+                try {
+                    return JSON.parse(tekst);
+                } catch (jsonErr) {
+                    console.warn(`Pokušaj ${i + 1} — nevalidan JSON (${tekst.slice(0, 50)}...):`, url);
+                    if (i < pokusaja - 1) {
+                        await new Promise(r => setTimeout(r, pauzaMs));
+                        continue;
+                    }
+                    return null;
+                }
+            } catch (e) {
+                console.warn(`Pokušaj ${i + 1} greška (mreža):`, e.message);
                 if (i < pokusaja - 1) {
                     await new Promise(r => setTimeout(r, pauzaMs));
                     continue;
                 }
                 return null;
             }
-        } catch (e) {
-            console.warn(`Pokušaj ${i + 1} greška (mreža):`, e.message);
-            if (i < pokusaja - 1) {
-                await new Promise(r => setTimeout(r, pauzaMs));
-                continue;
-            }
-            return null;
         }
-    }
-    return null;
-}
         return null;
     }
 
