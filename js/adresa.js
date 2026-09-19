@@ -39,41 +39,40 @@
         return /^0x[a-fA-F0-9]{40}$/.test(a);
     }
 
-    async function fetchRL(url) {
+    async function fetchRL(url, opts) {
         const f = window.fetchRateLimited || fetch;
-        return f(url);
+        return f(url, opts);
     }
 
-    async function fetchSaRetry(url, pokusaja = 2, pauzaMs = 500) {
+    // ===== Retry + timeout (8s) =====
+    async function fetchSaRetry(url, pokusaja = 2, pauzaMs = 500, timeoutMs = 8000) {
         for (let i = 0; i < pokusaja; i++) {
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
             try {
-                const res = await fetchRL(url);
+                const res = await fetchRL(url, { signal: controller.signal });
+                clearTimeout(timeoutId);
                 if (!res.ok) {
                     console.warn(`Pokušaj ${i + 1} nije OK (HTTP ${res.status}):`, url);
-                    if (i < pokusaja - 1) {
-                        await new Promise(r => setTimeout(r, pauzaMs));
-                        continue;
-                    }
+                    if (i < pokusaja - 1) { await new Promise(r => setTimeout(r, pauzaMs)); continue; }
                     return null;
                 }
-
                 const tekst = await res.text();
                 try {
                     return JSON.parse(tekst);
                 } catch (jsonErr) {
-                    console.warn(`Pokušaj ${i + 1} — nevalidan JSON (${tekst.slice(0, 50)}...):`, url);
-                    if (i < pokusaja - 1) {
-                        await new Promise(r => setTimeout(r, pauzaMs));
-                        continue;
-                    }
+                    console.warn(`Pokušaj ${i + 1} — nevalidan JSON:`, url);
+                    if (i < pokusaja - 1) { await new Promise(r => setTimeout(r, pauzaMs)); continue; }
                     return null;
                 }
             } catch (e) {
-                console.warn(`Pokušaj ${i + 1} greška (mreža):`, e.message);
-                if (i < pokusaja - 1) {
-                    await new Promise(r => setTimeout(r, pauzaMs));
-                    continue;
+                clearTimeout(timeoutId);
+                if (e.name === 'AbortError') {
+                    console.warn(`Pokušaj ${i + 1} — timeout (${timeoutMs}ms):`, url);
+                } else {
+                    console.warn(`Pokušaj ${i + 1} greška (mreža):`, e.message);
                 }
+                if (i < pokusaja - 1) { await new Promise(r => setTimeout(r, pauzaMs)); continue; }
                 return null;
             }
         }
@@ -89,7 +88,7 @@
         if (config.contract) url += `&contract=${config.contract}`;
 
         const data = await fetchSaRetry(url);
-        if (!data) throw new Error('Blockscout nedostupan');
+        if (!data) throw new Error('timeout');
 
         if (data.status !== '1') {
             throw new Error(data.message || 'Blockscout greška');
@@ -166,7 +165,6 @@
         return null;
     }
 
-    // Fallback cena (ako /balance nije vratio cenu)
     async function dohvatiCenu(token, adresa) {
         if (kešCena[token] && (Date.now() - kešCena[token].vreme) < CENA_KEŠ_MS) {
             console.log('✅ Cena iz keša (u memoriji):', kešCena[token].vrednost);
@@ -238,7 +236,6 @@
                     return;
                 }
 
-                // Koristi cenu iz /balance odgovora, ili fallback
                 let cena = cenaUsd;
                 if (cena === null) {
                     cena = await dohvatiCenu(trenutniToken, trenutnaAdresa);
@@ -284,7 +281,8 @@
 
             setStatus(poruka, 'ok');
 
-            if (window.playMinimumSound) window.playMinimumSound();
+            // Novi zvuk za adresu
+            if (window.playAdresaSound) window.playAdresaSound();
 
             if (window.posaljiEmailMinimum) {
                 window.posaljiEmailMinimum({
@@ -302,7 +300,11 @@
 
         } catch (e) {
             console.warn('Greška pri proveri:', e);
-            setStatus('Probajte kasnije', 'error');
+            if (e.message && e.message.includes('timeout')) {
+                setStatus('Transakcija u toku...', 'ok');
+            } else {
+                setStatus('Probajte kasnije', 'error');
+            }
         } finally {
             proveraUToku = false;
         }
