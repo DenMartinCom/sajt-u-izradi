@@ -234,14 +234,13 @@
         if (e.key === 'Enter') btnEl.click();
     });
 
-    // --- Init — učitaj sačuvano ---
+        // --- Init — popuni polja iz localStorage, ali NE pokreći praćenje ---
     try {
         const a = localStorage.getItem(STORAGE_ADRESA);
         const t = localStorage.getItem(STORAGE_TOKEN) || 'eth';
         if (a && validnaAdresa(a)) {
             inputEl.value = a;
             selectEl.value = t;
-            pokreniPracenje(a, t);
         }
     } catch (e) {}
 
