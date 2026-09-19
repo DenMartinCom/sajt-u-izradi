@@ -4,8 +4,8 @@ const GAS_UNITS = 95000;
 const GWEI_TO_ETH = 1e-9;
 const ZAMA_MULTIPLIER = 218;
 
-const GAS_INTERVAL = 12000;              // 12 sek
-const ZAMA_INTERVAL = GAS_INTERVAL * 5;  // 5x ređe = 60 sek
+const GAS_INTERVAL = 12000;
+const ZAMA_INTERVAL = GAS_INTERVAL * 5;
 
 // ===== RATE LIMITER (min 1s između poziva istom izvoru) =====
 const IZVOR_MIN_RAZMAK = 1000;
@@ -40,7 +40,6 @@ async function fetchRateLimited(url) {
     return fetch(url);
 }
 
-// Izloži globalno (adresa.js i grafikon.js mogu da koriste)
 window.fetchRateLimited = fetchRateLimited;
 
 // ===== STATUS =====
@@ -58,21 +57,32 @@ function resetGasDisplay() {
     });
 }
 
-// ===== DOBAVLJANJE CMC CENA =====
+// ===== DOBAVLJANJE CMC CENA (podržava i niz i objekat) =====
 async function getPricesFromCMC() {
     try {
         const res = await fetchRateLimited(`${WORKER_URL}/cmc`);
         const data = await res.json();
 
-        if (data && data.status && data.status.error_code === '0' && Array.isArray(data.data)) {
-            const eth = data.data.find(c => String(c.id) === '1027');
-            const zama = data.data.find(c => String(c.id) === '39332');
-            const btc = data.data.find(c => String(c.id) === '1');
-            return {
-                eth: eth ? parseFloat(eth.price) : null,
-                zama: zama ? parseFloat(zama.price) : null,
-                btc: btc ? parseFloat(btc.price) : null
-            };
+        if (data && data.status && data.status.error_code === '0' && data.data) {
+            let eth = null, zama = null, btc = null;
+
+            // Novi format: data je objekat { "1027": {id, price}, ... }
+            if (!Array.isArray(data.data) && typeof data.data === 'object') {
+                eth  = data.data['1027']  ? parseFloat(data.data['1027'].price)  : null;
+                zama = data.data['39332'] ? parseFloat(data.data['39332'].price) : null;
+                btc  = data.data['1']     ? parseFloat(data.data['1'].price)     : null;
+            }
+            // Stari format: data je niz [{id, price}, ...]
+            else if (Array.isArray(data.data)) {
+                const ethObj  = data.data.find(c => String(c.id) === '1027');
+                const zamaObj = data.data.find(c => String(c.id) === '39332');
+                const btcObj  = data.data.find(c => String(c.id) === '1');
+                eth  = ethObj  ? parseFloat(ethObj.price)  : null;
+                zama = zamaObj ? parseFloat(zamaObj.price) : null;
+                btc  = btcObj  ? parseFloat(btcObj.price)  : null;
+            }
+
+            return { eth, zama, btc };
         }
         console.warn('CMC nije vratio cene:', data);
     } catch (e) {
@@ -226,7 +236,6 @@ if (!initEmailJS()) {
     window.addEventListener('load', initEmailJS);
 }
 
-// Provera da li treba poslati (preko D1)
 async function emailTreba(tip) {
     try {
         const res = await fetchRateLimited(`${WORKER_URL}/email-treba?tip=${tip}&cooldown=${EMAIL_COOLDOWN_MIN}`);
@@ -238,7 +247,6 @@ async function emailTreba(tip) {
     }
 }
 
-// Zabeleži da je mejl poslat (u D1)
 async function emailZabelezi(tip) {
     try {
         await fetchRateLimited(`${WORKER_URL}/email-zabelezi?tip=${tip}`);
