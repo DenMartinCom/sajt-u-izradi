@@ -114,35 +114,45 @@
             </div>
         </div>
 
+        <!-- PRATI ADRESU -->
+        <div class="widget widget-adresa">
+            <div class="adresa-title">Prati adresu</div>
+            <div class="adresa-input-row">
+                <input type="text" id="eth-adresa" placeholder="0x... (unesi adresu)" autocomplete="off" spellcheck="false">
+                <select id="token-izbor">
+                    <option value="eth">ETH</option>
+                    <option value="usdt">USDT</option>
+                    <option value="zama">ZAMA</option>
+                </select>
+                <button id="eth-prati-btn" type="button">Prati</button>
+            </div>
+            <div class="adresa-status" id="adresa-status"></div>
+        </div>
+
     </div>
-    <!-- PRATI ETH ADRESU -->
-<div class="widget widget-adresa">
-    <div class="adresa-title">Prati ETH adresu</div>
-    <div class="adresa-input-row">
-        <input type="text" id="eth-adresa" placeholder="0x... (unesi adresu)" autocomplete="off" spellcheck="false">
-        <button id="eth-prati-btn" type="button">Prati</button>
-    </div>
-    <div class="adresa-status" id="adresa-status"></div>
-</div>
+
     <!-- IZVORI -->
     <div class="izvori">
         Izvori: <a href="https://www.naslovi.net" target="_blank" rel="noopener noreferrer">Naslovi.net</a>,
-        <a href="https://coinmarketcap.com" target="_blank" rel="noopener noreferrer">CoinMarketCap</a> i
-        <a href="https://etherscan.io" target="_blank" rel="noopener noreferrer">Etherscan</a>
+        <a href="https://coinmarketcap.com" target="_blank" rel="noopener noreferrer">CoinMarketCap</a>,
+        <a href="https://etherscan.io" target="_blank" rel="noopener noreferrer">Etherscan</a> i
+        <a href="https://www.coingecko.com" target="_blank" rel="noopener noreferrer">CoinGecko</a>
     </div>
 
     <footer>
         <p>Sajt je još u izradi.</p>
     </footer>
 
-    <!-- Chart.js sa CDN-a -->
+    <!-- Biblioteke -->
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 
+    <!-- Naše skripte -->
     <script src="js/meni.js" defer></script>
     <script src="js/zvuk.js" defer></script>
     <script src="js/kripto.js" defer></script>
     <script src="js/grafikon.js" defer></script>
     <script src="js/adresa.js" defer></script>
+
 </body>
-</html>
+    </html>
