@@ -7,8 +7,43 @@ const ZAMA_MULTIPLIER = 218;
 const GAS_INTERVAL = 12000;              // 12 sek
 const ZAMA_INTERVAL = GAS_INTERVAL * 5;  // 5x ređe = 60 sek
 
-// Zvuk je u js/zvuk.js — tamo je window.playMinimumSound
+// ===== RATE LIMITER (min 1s između poziva istom izvoru) =====
+const IZVOR_MIN_RAZMAK = 1000;
+const poslednjiPoziv = {
+    cmc: 0,
+    gas: 0,
+    fear: 0,
+    coingecko: 0,
+    balance: 0,
+    'get-balans': 0,
+    'save-balans': 0
+};
 
+async function fetchRateLimited(url) {
+    let izvor = 'ostalo';
+    if (url.includes('/cmc')) izvor = 'cmc';
+    else if (url.includes('/gas')) izvor = 'gas';
+    else if (url.includes('/fear')) izvor = 'fear';
+    else if (url.includes('/coingecko')) izvor = 'coingecko';
+    else if (url.includes('/balance')) izvor = 'balance';
+    else if (url.includes('/get-balans')) izvor = 'get-balans';
+    else if (url.includes('/save-balans')) izvor = 'save-balans';
+
+    const sada = Date.now();
+    const proteklo = sada - (poslednjiPoziv[izvor] || 0);
+    if (proteklo < IZVOR_MIN_RAZMAK) {
+        const čekanje = IZVOR_MIN_RAZMAK - proteklo;
+        await new Promise(r => setTimeout(r, čekanje));
+    }
+    poslednjiPoziv[izvor] = Date.now();
+
+    return fetch(url);
+}
+
+// Izloži globalno (adresa.js i grafikon.js mogu da koriste)
+window.fetchRateLimited = fetchRateLimited;
+
+// ===== STATUS =====
 function setStatus(text, type = 'loading') {
     const el = document.getElementById('status');
     if (!el) return;
@@ -26,7 +61,7 @@ function resetGasDisplay() {
 // ===== DOBAVLJANJE CMC CENA =====
 async function getPricesFromCMC() {
     try {
-        const res = await fetch(`${WORKER_URL}/cmc`);
+        const res = await fetchRateLimited(`${WORKER_URL}/cmc`);
         const data = await res.json();
 
         if (data && data.status && data.status.error_code === '0' && Array.isArray(data.data)) {
@@ -49,7 +84,7 @@ async function getPricesFromCMC() {
 // ===== DOBAVLJANJE GAS CENE =====
 async function getGasPrices() {
     try {
-        const res = await fetch(`${WORKER_URL}/gas`);
+        const res = await fetchRateLimited(`${WORKER_URL}/gas`);
         const data = await res.json();
         if (data.gas && data.gas.status === '1' && data.gas.result) {
             return {
@@ -66,7 +101,7 @@ async function getGasPrices() {
 // ===== FEAR & GREED =====
 async function getFearGreed() {
     try {
-        const res = await fetch(`${WORKER_URL}/fear`);
+        const res = await fetchRateLimited(`${WORKER_URL}/fear`);
         const data = await res.json();
         if (data && data.data && typeof data.data.value !== 'undefined') {
             return {
@@ -174,10 +209,10 @@ async function loadZama() {
 
 // ===== EMAILJS SLANJE =====
 const EMAILJS_SERVICE_ID = 'service_y198bxw';
-const EMAILJS_TEMPLATE_ID_GAS = 'template_390r0qq';   // gas minimum
-const EMAILJS_TEMPLATE_ID_ETH = 'template_z75d21a';   // ETH adresa
+const EMAILJS_TEMPLATE_ID_GAS = 'template_390r0qq';
+const EMAILJS_TEMPLATE_ID_ETH = 'template_z75d21a';
 const EMAILJS_PUBLIC_KEY = '27PtNDZ6mWJjgWLil';
-const EMAIL_COOLDOWN_MIN = 20; // 20 minuta
+const EMAIL_COOLDOWN_MIN = 20;
 
 function initEmailJS() {
     if (window.emailjs) {
@@ -194,7 +229,7 @@ if (!initEmailJS()) {
 // Provera da li treba poslati (preko D1)
 async function emailTreba(tip) {
     try {
-        const res = await fetch(`${WORKER_URL}/email-treba?tip=${tip}&cooldown=${EMAIL_COOLDOWN_MIN}`);
+        const res = await fetchRateLimited(`${WORKER_URL}/email-treba?tip=${tip}&cooldown=${EMAIL_COOLDOWN_MIN}`);
         const data = await res.json();
         return data;
     } catch (e) {
@@ -206,7 +241,7 @@ async function emailTreba(tip) {
 // Zabeleži da je mejl poslat (u D1)
 async function emailZabelezi(tip) {
     try {
-        await fetch(`${WORKER_URL}/email-zabelezi?tip=${tip}`);
+        await fetchRateLimited(`${WORKER_URL}/email-zabelezi?tip=${tip}`);
     } catch (e) {
         console.warn('email-zabelezi greška:', e);
     }
@@ -220,7 +255,6 @@ async function posaljiEmailMinimum(podaci) {
 
     const jeGas = (typeof podaci === 'number');
 
-    // Cooldown preko D1 — samo za gas
     if (jeGas) {
         const provera = await emailTreba('gas');
         if (!provera.treba) {
@@ -229,7 +263,6 @@ async function posaljiEmailMinimum(podaci) {
         }
     }
 
-    // Parametri za template
     let params;
     let templateId;
 
@@ -251,7 +284,6 @@ async function posaljiEmailMinimum(podaci) {
         await window.emailjs.send(EMAILJS_SERVICE_ID, templateId, params);
         console.log('Email poslat! (' + (jeGas ? 'gas' : 'adresa') + ')');
 
-        // Zabeleži u bazu samo za gas
         if (jeGas) {
             await emailZabelezi('gas');
         }
@@ -260,7 +292,6 @@ async function posaljiEmailMinimum(podaci) {
     }
 }
 
-// Izloži globalno (grafikon.js i adresa.js pozivaju)
 window.posaljiEmailMinimum = posaljiEmailMinimum;
 
 // ===== INIT =====
