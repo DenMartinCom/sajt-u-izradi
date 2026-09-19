@@ -2,7 +2,7 @@
 // 1. Korisnik unese adresu i izabere token
 // 2. Sajt uzme prethodni balans iz D1 (get-balans)
 // 3. Svakih 15s proverava balans (Etherscan preko Workera)
-// 4. Ako se promeni → cena (CoinGecko, CMC rezerva) → poruka + zvuk + mejl
+// 4. Ako se promeni → cena (CoinGecko → CMC → cache) → poruka + zvuk + mejl
 // 5. Zaustavi praćenje posle prve promene
 
 (function () {
@@ -39,6 +39,24 @@
         return /^0x[a-fA-F0-9]{40}$/.test(a);
     }
 
+    // ===== NIVO 2: fetch sa retry (2 pokušaja) =====
+    async function fetchSaRetry(url, pokusaja = 2, pauzaMs = 500) {
+        for (let i = 0; i < pokusaja; i++) {
+            try {
+                const res = await fetch(url);
+                if (res.ok) return await res.json();
+                console.warn(`Pokušaj ${i + 1} nije OK (HTTP ${res.status}):`, url);
+            } catch (e) {
+                console.warn(`Pokušaj ${i + 1} greška (mreža):`, e.message);
+                if (i === pokusaja - 1) throw e;
+            }
+            if (i < pokusaja - 1) {
+                await new Promise(r => setTimeout(r, pauzaMs));
+            }
+        }
+        return null;
+    }
+
     // --- Dohvati balans sa Workera (Etherscan proxy) ---
     async function dohvatiBalans(adresa, token) {
         const config = KRIPTO[token];
@@ -47,15 +65,13 @@
         let url = `${WORKER_URL}/balance?address=${adresa}`;
         if (config.contract) url += `&contract=${config.contract}`;
 
-        const res = await fetch(url);
-        if (!res.ok) throw new Error('HTTP ' + res.status);
-        const data = await res.json();
+        const data = await fetchSaRetry(url);
+        if (!data) throw new Error('Etherscan nedostupan');
 
         if (data.status !== '1') {
             throw new Error(data.message || 'Etherscan greška');
         }
 
-        // Sirovi balans / delilac
         const sirovi = data.result;
         const balans = parseFloat(sirovi) / config.delilac;
         return { sirovi, balans };
@@ -85,38 +101,68 @@
         }
     }
 
-    // --- Dohvati cenu (CoinGecko, CMC rezerva) ---
-    async function dohvatiCenu(token) {
-        const config = KRIPTO[token];
-        if (!config) return null;
-
-        // 1. CoinGecko
+    // --- Dohvati poslednju poznatu cenu iz D1 (nivo 3) ---
+    async function dohvatiCacheCenu(adresa, token) {
         try {
-            const res = await fetch(`${WORKER_URL}/coingecko?ids=${config.coingecko}`);
+            const res = await fetch(`${WORKER_URL}/get-balans?adresa=${adresa}&token=${token}`);
+            if (!res.ok) return null;
             const data = await res.json();
-            if (data && data[config.coingecko] && typeof data[config.coingecko].usd === 'number') {
-                return data[config.coingecko].usd;
+            if (data.ok && data.podaci && data.podaci.balans_usd && data.podaci.balans) {
+                const balans = parseFloat(data.podaci.balans) / KRIPTO[token].delilac;
+                if (balans > 0) {
+                    return parseFloat(data.podaci.balans_usd) / balans;
+                }
             }
         } catch (e) {
-            console.warn('CoinGecko greška:', e);
+            console.warn('cache cena greška:', e);
         }
-
-        // 2. CMC rezerva
-        try {
-            const res = await fetch(`${WORKER_URL}/cmc`);
-            const data = await res.json();
-            const id = String(config.cmc);
-            if (data && data.data && data.data[id] && data.data[id].quote && data.data[id].quote.USD) {
-                return data.data[id].quote.USD.price;
-            }
-        } catch (e) {
-            console.warn('CMC greška:', e);
-        }
-
         return null;
     }
 
-    // --- Formatiraj broj lepo (npr. 100, 0.5, 1.234) ---
+    // ===== NIVO 1 + 2 + 3: cena sa fallback-om =====
+    async function dohvatiCenu(token, adresa) {
+        const config = KRIPTO[token];
+        if (!config) return null;
+
+        // === NIVO 1: CoinGecko (sa retry) ===
+        try {
+            const data = await fetchSaRetry(`${WORKER_URL}/coingecko?ids=${config.coingecko}`);
+            if (data && data[config.coingecko] && typeof data[config.coingecko].usd === 'number') {
+                console.log('✅ Cena sa CoinGecko:', data[config.coingecko].usd);
+                return data[config.coingecko].usd;
+            }
+            console.warn('⚠️ CoinGecko nije vratio cenu, probavam CMC...', data);
+        } catch (e) {
+            console.warn('⚠️ CoinGecko pao (mreža):', e.message);
+        }
+
+        // === NIVO 1: CMC rezerva (sa retry) ===
+        try {
+            const data = await fetchSaRetry(`${WORKER_URL}/cmc`);
+            const id = String(config.cmc);
+            if (data && data.data && data.data[id] && data.data[id].quote && data.data[id].quote.USD) {
+                console.log('✅ Cena sa CMC:', data.data[id].quote.USD.price);
+                return data.data[id].quote.USD.price;
+            }
+            console.warn('⚠️ CMC nije vratio cenu:', data);
+        } catch (e) {
+            console.warn('⚠️ CMC pao (mreža):', e.message);
+        }
+
+        // === NIVO 3: cache iz D1 ===
+        if (adresa) {
+            const cacheCena = await dohvatiCacheCenu(adresa, token);
+            if (cacheCena !== null) {
+                console.log('✅ Cena iz cache-a (D1):', cacheCena);
+                return cacheCena;
+            }
+        }
+
+        console.error('❌ Nijedan izvor nije vratio cenu za', token);
+        return null;
+    }
+
+    // --- Formatiraj broj lepo ---
     function formatBroj(n) {
         if (Math.abs(n) >= 1) return n.toFixed(2);
         if (Math.abs(n) >= 0.01) return n.toFixed(4);
@@ -128,15 +174,12 @@
         if (!trenutnaAdresa || !trenutniToken) return;
 
         try {
-            // 1. Trenutni balans sa Etherscan-a
             const { sirovi, balans } = await dohvatiBalans(trenutnaAdresa, trenutniToken);
-
-            // 2. Prethodni balans iz D1
             const prethodni = await dohvatiPrethodni(trenutnaAdresa, trenutniToken);
 
             // Prvi put — nema prethodnog u bazi
             if (!prethodni) {
-                const cena = await dohvatiCenu(trenutniToken);
+                const cena = await dohvatiCenu(trenutniToken, trenutnaAdresa);
                 if (cena === null) {
                     setStatus('Probajte kasnije', 'error');
                     return;
@@ -147,15 +190,14 @@
                 return;
             }
 
-            // 3. Uporedi balanse
+            // Uporedi balanse
             const prethodniSirovi = prethodni.balans;
             if (sirovi === prethodniSirovi) {
-                // Nema promene — samo osveži status (opciono)
-                return;
+                return; // nema promene
             }
 
-            // 4. Ima promene — dohvati cenu
-            const cena = await dohvatiCenu(trenutniToken);
+            // Ima promene — dohvati cenu
+            const cena = await dohvatiCenu(trenutniToken, trenutnaAdresa);
             if (cena === null) {
                 setStatus('Probajte kasnije', 'error');
                 return;
@@ -168,7 +210,6 @@
             const smer = razlika > 0 ? 'Stiglo' : 'Otišlo';
             const poruka = `${smer} ${formatBroj(Math.abs(razlika))} ${trenutniToken.toUpperCase()}, oko $${razlikaUsd.toFixed(2)}`;
 
-            // Prikaz
             setStatus(poruka, 'ok');
 
             // Zvuk
@@ -234,7 +275,7 @@
         if (e.key === 'Enter') btnEl.click();
     });
 
-        // --- Init — popuni polja iz localStorage, ali NE pokreći praćenje ---
+    // --- Init — popuni polja iz localStorage, ali NE pokreći praćenje ---
     try {
         const a = localStorage.getItem(STORAGE_ADRESA);
         const t = localStorage.getItem(STORAGE_TOKEN) || 'eth';
