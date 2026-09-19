@@ -177,10 +177,9 @@ const EMAILJS_SERVICE_ID = 'service_y198bxw';
 const EMAILJS_TEMPLATE_ID_GAS = 'template_390r0qq';   // gas minimum
 const EMAILJS_TEMPLATE_ID_ETH = 'template_z75d21a';   // ETH adresa
 const EMAILJS_PUBLIC_KEY = '27PtNDZ6mWJjgWLil';
-const EMAIL_COOLDOWN = 60 * 15 * 1000; // 15 min ne 1 sat
+const EMAIL_COOLDOWN = 60 * 60 * 1000; // 1 sat (samo za gas)
 const EMAIL_TS_KEY = 'email_last_sent_v1';
 
-// Inicijalizuj EmailJS kada se SDK učita (SDK je dodat u HTML preko <script>)
 function initEmailJS() {
     if (window.emailjs) {
         window.emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
@@ -193,7 +192,6 @@ if (!initEmailJS()) {
     window.addEventListener('load', initEmailJS);
 }
 
-// Cooldown timestamp preživljava refresh (localStorage)
 function getPoslednjiEmailTs() {
     try {
         const v = localStorage.getItem(EMAIL_TS_KEY);
@@ -215,48 +213,48 @@ async function posaljiEmailMinimum(podaci) {
         return;
     }
 
-    const sada = Date.now();
-    const poslednjiEmailTimestamp = getPoslednjiEmailTs();
-    if (sada - poslednjiEmailTimestamp < EMAIL_COOLDOWN) {
-        const preostalo = Math.ceil((EMAIL_COOLDOWN - (sada - poslednjiEmailTimestamp)) / 60000);
-        console.log(`Email preskočen — cooldown aktivan (još ${preostalo} min)`);
-        return;
+    const jeGas = (typeof podaci === 'number');
+
+    // Cooldown samo za gas
+    if (jeGas) {
+        const sada = Date.now();
+        const poslednjiEmailTimestamp = getPoslednjiEmailTs();
+        if (sada - poslednjiEmailTimestamp < EMAIL_COOLDOWN) {
+            const preostalo = Math.ceil((EMAIL_COOLDOWN - (sada - poslednjiEmailTimestamp)) / 60000);
+            console.log(`Email preskočen — cooldown aktivan (još ${preostalo} min)`);
+            return;
+        }
     }
 
-    // Podrška za dva formata:
-    // 1. Broj (staro — za gas minimum)
-    // 2. Objekat (novo — za adresu)
+    // Parametri za template
     let params;
-    if (typeof podaci === 'number') {
+    let templateId;
+
+    if (jeGas) {
         params = {
             value: podaci.toFixed(2),
             time: new Date().toLocaleString('sr-RS')
         };
+        templateId = EMAILJS_TEMPLATE_ID_GAS;
     } else {
+        // Za adresu — samo poruka i time
         params = {
-            sada_tokena: podaci.sada_tokena,
-            sada_usd: podaci.sada_usd,
-            bilo_tokena: podaci.bilo_tokena,
-            bilo_usd: podaci.bilo_usd,
-            razlika_usd: podaci.razlika_usd,
-            time: new Date().toLocaleString('sr-RS')
+            poruka: podaci.poruka,
+            time: podaci.time || new Date().toLocaleString('sr-RS')
         };
+        templateId = EMAILJS_TEMPLATE_ID_ETH;
     }
 
-    // Izaberi template u zavisnosti od tipa podataka
-const templateId = (typeof podaci === 'number')
-    ? EMAILJS_TEMPLATE_ID_GAS
-    : EMAILJS_TEMPLATE_ID_ETH;
-
-try {
-    await window.emailjs.send(EMAILJS_SERVICE_ID, templateId, params);
-    setPoslednjiEmailTs(sada);
-    console.log('Email poslat! (' + (typeof podaci === 'number' ? 'gas' : 'ETH adresa') + ')');
-} catch (e) {
-    console.warn('Email greška:', e);
+    try {
+        await window.emailjs.send(EMAILJS_SERVICE_ID, templateId, params);
+        if (jeGas) setPoslednjiEmailTs(Date.now());
+        console.log('Email poslat! (' + (jeGas ? 'gas' : 'adresa') + ')');
+    } catch (e) {
+        console.warn('Email greška:', e);
+    }
 }
 
-// Izloži globalno (grafikon.js poziva)
+// Izloži globalno (grafikon.js i adresa.js pozivaju)
 window.posaljiEmailMinimum = posaljiEmailMinimum;
 
 // ===== INIT =====
