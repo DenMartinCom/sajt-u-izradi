@@ -1,8 +1,4 @@
 // ===== PRAĆENJE ADRESE (ETH / USDT / ZAMA) =====
-// 1. Korisnik unese adresu i izabere token
-// 2. Sajt pozove /balance (dobiće balans + cenu iz D1)
-// 3. Svakih 15s proverava balans, upoređuje sa prethodnim (D1)
-// 4. Ako se promeni → poruka + zvuk + mejl → zaustavi praćenje
 
 (function () {
     const WORKER_URL = 'https://cmc-proxy.martin-denic.workers.dev';
@@ -29,6 +25,10 @@
     const statusEl = document.getElementById('adresa-status');
 
     if (!inputEl || !selectEl || !btnEl || !statusEl) return;
+
+    // Formatiranje
+    const fUsd = (n) => (typeof window.formatUsd === 'function') ? window.formatUsd(n) : n.toFixed(2);
+    const fBroj = (n) => (typeof window.formatBroj === 'function') ? window.formatBroj(n) : n.toFixed(2);
 
     function setStatus(text, type = '') {
         statusEl.textContent = text;
@@ -209,12 +209,6 @@
         return null;
     }
 
-    function formatBroj(n) {
-        if (Math.abs(n) >= 1) return n.toFixed(2);
-        if (Math.abs(n) >= 0.01) return n.toFixed(4);
-        return n.toFixed(6);
-    }
-
     async function proveri() {
         if (!trenutnaAdresa || !trenutniToken) return;
 
@@ -243,12 +237,12 @@
 
                 if (cena === null) {
                     await sacuvajBalans(trenutnaAdresa, trenutniToken, sirovi, null);
-                    setStatus(`Pratim • ${formatBroj(balans)} ${trenutniToken.toUpperCase()} (cena nedostupna)`, 'ok');
+                    setStatus(`Pratim • ${fBroj(balans)} ${trenutniToken.toUpperCase()} (cena nedostupna)`, 'ok');
                     return;
                 }
                 const usd = balans * cena;
                 await sacuvajBalans(trenutnaAdresa, trenutniToken, sirovi, usd.toFixed(2));
-                setStatus(`Pratim • ${formatBroj(balans)} ${trenutniToken.toUpperCase()} ($${usd.toFixed(2)})`, 'ok');
+                setStatus(`Pratim • ${fBroj(balans)} ${trenutniToken.toUpperCase()} ($${fUsd(usd)})`, 'ok');
                 return;
             }
 
@@ -272,16 +266,15 @@
             let balansUsdZaUpis = null;
 
             if (cena === null) {
-                poruka = `${smer} ${formatBroj(Math.abs(razlika))} ${trenutniToken.toUpperCase()}`;
+                poruka = `${smer} ${fBroj(Math.abs(razlika))} ${trenutniToken.toUpperCase()}`;
             } else {
                 const razlikaUsd = Math.abs(razlika) * cena;
-                poruka = `${smer} ${formatBroj(Math.abs(razlika))} ${trenutniToken.toUpperCase()}, oko $${razlikaUsd.toFixed(2)}`;
+                poruka = `${smer} ${fBroj(Math.abs(razlika))} ${trenutniToken.toUpperCase()}, oko $${fUsd(razlikaUsd)}`;
                 balansUsdZaUpis = (balans * cena).toFixed(2);
             }
 
             setStatus(poruka, 'ok');
 
-            // Novi zvuk za adresu
             if (window.playAdresaSound) window.playAdresaSound();
 
             if (window.posaljiEmailMinimum) {
@@ -345,6 +338,24 @@
         if (e.key === 'Enter') btnEl.click();
     });
 
+    // ===== Auto-paste iz klipborda pri kliku =====
+    // Ako je u klipbordu validna Ethereum adresa, ubači je u polje
+    inputEl.addEventListener('click', async () => {
+        try {
+            if (!navigator.clipboard || !navigator.clipboard.readText) return;
+            const tekst = await navigator.clipboard.readText();
+            const ocisceno = (tekst || '').trim();
+            if (!validnaAdresa(ocisceno)) return;
+
+            if (inputEl.value.trim() !== ocisceno) {
+                inputEl.value = ocisceno;
+            }
+        } catch (e) {
+            // Dozvola odbijena ili API nedostupan — tiho ignoriši
+        }
+    });
+
+    // --- Init — popuni polja, ali NE pokreći praćenje ---
     try {
         const a = localStorage.getItem(STORAGE_ADRESA);
         const t = localStorage.getItem(STORAGE_TOKEN) || 'eth';
