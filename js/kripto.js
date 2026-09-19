@@ -7,7 +7,27 @@ const ZAMA_MULTIPLIER = 218;
 const GAS_INTERVAL = 12000;
 const ZAMA_INTERVAL = GAS_INTERVAL * 5;
 
-// ===== RATE LIMITER (min 1s između poziva istom izvoru) =====
+// ===== FORMATIRANJE BROJEVA =====
+// USD sa 2 decimale i zapetama za hiljade (npr. 2,670.56)
+function formatUsd(n) {
+    if (typeof n !== 'number' || !isFinite(n)) return '—';
+    return n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+// Broj sa promenljivim decimalama + zapete za hiljade
+function formatBroj(n) {
+    if (typeof n !== 'number' || !isFinite(n)) return '—';
+    const abs = Math.abs(n);
+    let dec;
+    if (abs >= 1) dec = 2;
+    else if (abs >= 0.01) dec = 4;
+    else dec = 6;
+    return n.toLocaleString('en-US', { minimumFractionDigits: dec, maximumFractionDigits: dec });
+}
+
+window.formatUsd = formatUsd;
+window.formatBroj = formatBroj;
+
+// ===== RATE LIMITER =====
 const IZVOR_MIN_RAZMAK = 1000;
 const poslednjiPoziv = {
     cmc: 0,
@@ -66,14 +86,11 @@ async function getPricesFromCMC() {
         if (data && data.status && data.status.error_code === '0' && data.data) {
             let eth = null, zama = null, btc = null;
 
-            // Novi format: data je objekat { "1027": {id, price}, ... }
             if (!Array.isArray(data.data) && typeof data.data === 'object') {
                 eth  = data.data['1027']  ? parseFloat(data.data['1027'].price)  : null;
                 zama = data.data['39332'] ? parseFloat(data.data['39332'].price) : null;
                 btc  = data.data['1']     ? parseFloat(data.data['1'].price)     : null;
-            }
-            // Stari format: data je niz [{id, price}, ...]
-            else if (Array.isArray(data.data)) {
+            } else if (Array.isArray(data.data)) {
                 const ethObj  = data.data.find(c => String(c.id) === '1027');
                 const zamaObj = data.data.find(c => String(c.id) === '39332');
                 const btcObj  = data.data.find(c => String(c.id) === '1');
@@ -184,7 +201,7 @@ async function loadGas() {
                 window.UkChart.dodajTacku(ukupno);
             }
 
-            setStatus(`Ažurirano • ETH: $${ethPrice.toFixed(2)}`, 'ok');
+            setStatus(`Ažurirano • ETH: $${formatUsd(ethPrice)}`, 'ok');
         } else if (gas) {
             document.getElementById('gas-slow').textContent = gas.slow.toFixed(3) + '';
             document.getElementById('gas-standard').textContent = gas.standard.toFixed(3) + '';
