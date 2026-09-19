@@ -26,7 +26,6 @@
 
     if (!inputEl || !selectEl || !btnEl || !statusEl) return;
 
-    // Formatiranje
     const fUsd = (n) => (typeof window.formatUsd === 'function') ? window.formatUsd(n) : n.toFixed(2);
     const fBroj = (n) => (typeof window.formatBroj === 'function') ? window.formatBroj(n) : n.toFixed(2);
 
@@ -44,7 +43,6 @@
         return f(url, opts);
     }
 
-    // ===== Retry + timeout (8s) =====
     async function fetchSaRetry(url, pokusaja = 2, pauzaMs = 500, timeoutMs = 8000) {
         for (let i = 0; i < pokusaja; i++) {
             const controller = new AbortController();
@@ -79,7 +77,6 @@
         return null;
     }
 
-    // --- Dohvati balans + cenu iz /balance ---
     async function dohvatiBalans(adresa, token) {
         const config = KRIPTO[token];
         if (!config) throw new Error('Nepoznat token');
@@ -248,7 +245,21 @@
 
             // ===== Uporedi balanse =====
             const prethodniSirovi = prethodni.balans;
+
             if (sirovi === prethodniSirovi) {
+                // NEMA promene — ipak osveži status (POPRAVLJENO)
+                let cena = cenaUsd;
+                if (cena === null) {
+                    cena = await dohvatiCenu(trenutniToken, trenutnaAdresa);
+                }
+                if (cena !== null && balans > 0) {
+                    const usd = balans * cena;
+                    setStatus(`Pratim • ${fBroj(balans)} ${trenutniToken.toUpperCase()} ($${fUsd(usd)})`, 'ok');
+                } else if (balans === 0) {
+                    setStatus(`Čekam uplatu ${trenutniToken.toUpperCase()}...`, 'ok');
+                } else {
+                    setStatus(`Pratim • ${fBroj(balans)} ${trenutniToken.toUpperCase()}`, 'ok');
+                }
                 return;
             }
 
@@ -338,22 +349,31 @@
         if (e.key === 'Enter') btnEl.click();
     });
 
-    // ===== Auto-paste iz klipborda pri kliku =====
-    // Ako je u klipbordu validna Ethereum adresa, ubači je u polje
-    inputEl.addEventListener('click', async () => {
+    // ===== Auto-paste iz klipborda =====
+    async function probajAutoPaste() {
         try {
-            if (!navigator.clipboard || !navigator.clipboard.readText) return;
+            if (!navigator.clipboard || !navigator.clipboard.readText) {
+                console.log('Clipboard API nije dostupan');
+                return;
+            }
             const tekst = await navigator.clipboard.readText();
             const ocisceno = (tekst || '').trim();
-            if (!validnaAdresa(ocisceno)) return;
-
+            if (!validnaAdresa(ocisceno)) {
+                console.log('Klipbord ne sadrži validnu adresu');
+                return;
+            }
             if (inputEl.value.trim() !== ocisceno) {
                 inputEl.value = ocisceno;
+                console.log('✅ Adresa ubačena iz klipborda');
             }
         } catch (e) {
-            // Dozvola odbijena ili API nedostupan — tiho ignoriši
+            console.warn('Clipboard greška:', e.name, '-', e.message);
         }
-    });
+    }
+
+    // Probaj na focus (tap na polje) i na click (fallback)
+    inputEl.addEventListener('focus', probajAutoPaste);
+    inputEl.addEventListener('click', probajAutoPaste);
 
     // --- Init — popuni polja, ali NE pokreći praćenje ---
     try {
