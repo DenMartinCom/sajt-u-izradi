@@ -5,7 +5,7 @@ const GWEI_TO_ETH = 1e-9;
 const ZAMA_MULTIPLIER = 218;
 
 const GAS_INTERVAL = 12000;
-const ZAMA_INTERVAL = GAS_INTERVAL * 5;
+const ZAMA_INTERVAL = GAS_INTERVAL * 10;
 
 // ===== FORMATIRANJE =====
 function formatUsd(n) {
