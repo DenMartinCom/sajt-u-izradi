@@ -28,21 +28,23 @@ window.formatBroj = formatBroj;
 // ===== RATE LIMITER =====
 const IZVOR_MIN_RAZMAK = 1000;
 const poslednjiPoziv = {
-    cmc: 0, gas: 0, fear: 0, coingecko: 0, coinstats: 0,
-    balance: 0, 'get-balans': 0, 'save-balans': 0, cena: 0, kurs: 0
+    odrzivost: 0,
+    gas: 0,
+    fear: 0,
+    balance: 0,
+    'get-balans': 0,
+    'save-balans': 0,
+    kurs: 0
 };
 
 async function fetchRateLimited(url) {
     let izvor = 'ostalo';
-    if (url.includes('/cmc')) izvor = 'cmc';
+    if (url.includes('/odrzivost')) izvor = 'odrzivost';
     else if (url.includes('/gas')) izvor = 'gas';
     else if (url.includes('/fear')) izvor = 'fear';
-    else if (url.includes('/coingecko')) izvor = 'coingecko';
-    else if (url.includes('/coinstats')) izvor = 'coinstats';
     else if (url.includes('/balance')) izvor = 'balance';
     else if (url.includes('/get-balans')) izvor = 'get-balans';
     else if (url.includes('/save-balans')) izvor = 'save-balans';
-    else if (url.includes('/cena')) izvor = 'cena';
     else if (url.includes('/kurs')) izvor = 'kurs';
 
     const sada = Date.now();
@@ -73,34 +75,17 @@ function resetGasDisplay() {
     });
 }
 
-// ===== CMC CENE (podržava i niz i objekat) =====
-async function getPricesFromCMC() {
+// ===== CENE PREKO /odrzivost =====
+async function getPricesPrekoOdrzivost(cgIds) {
     try {
-        const res = await fetchRateLimited(`${WORKER_URL}/cmc`);
+        const res = await fetchRateLimited(`${WORKER_URL}/odrzivost?ids=${cgIds.join(',')}`);
         const data = await res.json();
-
-        if (data && data.status && data.status.error_code === '0' && data.data) {
-            let eth = null, zama = null, btc = null;
-
-            if (!Array.isArray(data.data) && typeof data.data === 'object') {
-                eth  = data.data['1027']  ? parseFloat(data.data['1027'].price)  : null;
-                zama = data.data['39332'] ? parseFloat(data.data['39332'].price) : null;
-                btc  = data.data['1']     ? parseFloat(data.data['1'].price)     : null;
-            } else if (Array.isArray(data.data)) {
-                const ethObj  = data.data.find(c => String(c.id) === '1027');
-                const zamaObj = data.data.find(c => String(c.id) === '39332');
-                const btcObj  = data.data.find(c => String(c.id) === '1');
-                eth  = ethObj  ? parseFloat(ethObj.price)  : null;
-                zama = zamaObj ? parseFloat(zamaObj.price) : null;
-                btc  = btcObj  ? parseFloat(btcObj.price)  : null;
-            }
-
-            return { eth, zama, btc };
-        }
+        console.log('✅ Cene preko', data.izvor || '?', ':', data);
+        return data;
     } catch (e) {
-        console.warn('CMC greška:', e);
+        console.warn('Održivost greška:', e);
+        return {};
     }
-    return { eth: null, zama: null, btc: null };
 }
 
 // ===== GAS CENA =====
@@ -177,10 +162,10 @@ async function loadGas() {
     try {
         const [gas, prices] = await Promise.all([
             getGasPrices(),
-            getPricesFromCMC()
+            getPricesPrekoOdrzivost(['ethereum'])
         ]);
 
-        const ethPrice = prices.eth;
+        const ethPrice = prices.ethereum ? prices.ethereum.usd : null;
 
         if (gas && ethPrice !== null) {
             const slowUsd = gas.slow * GAS_UNITS * GWEI_TO_ETH * ethPrice;
@@ -214,15 +199,18 @@ async function loadGas() {
     }
 }
 
-// ===== ZAMA =====
+// ===== ZAMA WIDGET =====
 async function loadZama() {
-    const prices = await getPricesFromCMC();
+    const prices = await getPricesPrekoOdrzivost(['zama', 'bitcoin']);
     const zamaEl = document.getElementById('zama-result');
     if (!zamaEl) return;
 
-    if (prices.zama !== null && prices.btc !== null) {
-        const result = prices.zama * ZAMA_MULTIPLIER;
-        const zamaBtc = ((result / prices.btc) * 1000).toFixed(3);
+    const zamaCena = prices.zama ? prices.zama.usd : null;
+    const btcCena = prices.bitcoin ? prices.bitcoin.usd : null;
+
+    if (zamaCena !== null && btcCena !== null) {
+        const result = zamaCena * ZAMA_MULTIPLIER;
+        const zamaBtc = ((result / btcCena) * 1000).toFixed(3);
         zamaEl.textContent = zamaBtc + ' 😶‍🌫️ ' + result.toFixed(2);
     } else {
         zamaEl.textContent = '—';
@@ -300,7 +288,6 @@ async function posaljiEmailMinimum(podaci) {
         templateId = EMAILJS_TEMPLATE_ID_ETH;
     }
 
-    // Očisti HTML entitete (npr. &#x2F; → /)
     if (params.poruka) {
         params.poruka = params.poruka.replace(/&#x2F;/g, '/').replace(/&#x2f;/g, '/');
     }
