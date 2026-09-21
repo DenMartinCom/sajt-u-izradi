@@ -4,19 +4,136 @@ body {
     font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
     background: #121212;
     color: #e0e0e0;
-    padding: 16px 10px;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: block;
 }
+
+/* HEADER */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #1a1a1a;
+    border-bottom: 1px solid #2e2e2e;
+    width: 100%;
+}
+.header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 12px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #FFD700;
+    font-weight: 700;
+    letter-spacing: 1px;
+    flex-shrink: 0;
+}
+.header-logo img {
+    height: 40px;
+    width: auto;
+    display: block;
+}
+.header-logo-text {
+    font-size: 1.1rem;
+}
+.header-banner {
+    flex: 1;
+    height: 40px;
+    /* prazno mesto za baner */
+}
+
+/* DROPDOWN */
+.dropdown { position: relative; z-index: 200; }
+.dropdown-toggle {
+    background: #2a2a2a; color: #FFD700; border: 1px solid #444;
+    padding: 8px 12px; font-size: 1.1rem; cursor: pointer;
+    border-radius: 4px; transition: background 0.2s; line-height: 1;
+}
+.dropdown-toggle:hover { background: #3a3a3a; }
+.dropdown-menu {
+    display: none; position: absolute; top: 100%; right: 0;
+    margin-top: 4px; background: #2a2a2a; border: 1px solid #444;
+    border-radius: 4px; min-width: 140px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.6); overflow: hidden;
+}
+.dropdown-menu.open { display: block; }
+.dropdown-menu a {
+    display: block; padding: 10px 14px; color: #FFD700;
+    text-decoration: none; font-size: 0.9rem;
+    transition: background 0.2s, color 0.2s;
+}
+.dropdown-menu a:hover { background: #3a3a3a; color: #fff; }
+
+/* TABOVI */
+.tabs {
+    position: sticky;
+    top: 60px;
+    z-index: 99;
+    background: #121212;
+    border-bottom: 1px solid #2e2e2e;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tabs-inner {
+    display: flex;
+    gap: 6px;
+    padding: 8px 12px;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-width: min-content;
+}
+.tab {
+    background: #2a2a2a;
+    color: #aaa;
+    border: 1px solid #383838;
+    padding: 7px 16px;
+    border-radius: 20px;
+    font-size: 0.82rem;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.2s;
+    font-family: inherit;
+    flex-shrink: 0;
+}
+.tab:hover { background: #3a3a3a; color: #fff; }
+.tab.active {
+    background: #FFD700;
+    color: #121212;
+    border-color: #FFD700;
+    font-weight: 600;
+}
+
+/* SADRŽAJ */
 .kolona {
     width: 100%;
     max-width: 600px;
+    margin: 0 auto;
+    padding: 16px 10px 30px;
     display: flex;
     flex-direction: column;
     gap: 14px;
 }
+.tab-content {
+    display: none;
+}
+.tab-content.active {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+/* WIDGET */
 .widget {
     background: #1e1e1e;
     border-radius: 14px;
@@ -36,14 +153,76 @@ body {
     background: transparent;
 }
 
-/* PRETRAGA VESTI KRIPTO */
+/* PLACEHOLDER */
+.widget.placeholder {
+    padding: 30px 20px;
+    text-align: center;
+    color: #888;
+}
+.widget.placeholder p:first-child {
+    color: #FFD700;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+.placeholder-sub {
+    font-size: 0.8rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* UVOD */
+.widget-uvod {
+    align-items: stretch;
+    padding: 20px;
+    text-align: left;
+    line-height: 1.6;
+}
+.widget-uvod h2 {
+    color: #FFD700;
+    font-size: 1.2rem;
+    margin-bottom: 14px;
+}
+.widget-uvod h3 {
+    color: #FFD700;
+    font-size: 1rem;
+    margin: 18px 0 8px;
+}
+.widget-uvod p {
+    color: #c0c0c0;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+.widget-uvod ul {
+    margin: 8px 0 14px 20px;
+}
+.widget-uvod li {
+    color: #c0c0c0;
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+}
+.widget-uvod a {
+    color: #FFD700;
+    text-decoration: none;
+}
+.widget-uvod a:hover {
+    text-decoration: underline;
+}
+.uvod-napomena {
+    color: #666 !important;
+    font-style: italic;
+    font-size: 0.8rem !important;
+    margin-top: 16px;
+}
+
+/* PRETRAGA VESTI */
 .widget-pretraga { padding: 0; background: transparent; border: none; box-shadow: none; }
 .widget-pretraga iframe {
     width: 100%; max-width: 100%; height: 934px;
     border-radius: 14px; background: #F5F5F5;
 }
 
-/* KURSNA LISTA + FEAR INDEX */
+/* KURSNA LISTA + FEAR */
 .widget-kurs-fear {
     flex-direction: row;
     align-items: stretch;
@@ -61,8 +240,6 @@ body {
     width: 115px;
     height: 175px;
 }
-
-/* FEAR INDEX */
 .fear-box {
     flex: 1 1 0;
     display: flex;
@@ -162,8 +339,6 @@ body {
     height: 220px;
 }
 .grafikon-wrap canvas { width: 100% !important; height: 100% !important; }
-
-/* Reset dugme "R" u donjem levom uglu grafa */
 #grafikon-reset {
     position: absolute;
     left: -9px;
@@ -192,7 +367,7 @@ body {
     border-color: #FFD700;
 }
 
-/* WIDGET ZA PRAĆENJE ADRESE */
+/* ADRESA */
 .widget-adresa { padding: 14px 12px; gap: 10px; }
 .adresa-title {
     color: #FFD700; font-size: 0.85rem;
@@ -214,8 +389,6 @@ body {
     outline: none;
 }
 .adresa-input-row input:focus { border-color: #FFD700; }
-
-/* Dropdown za izbor tokena */
 .adresa-input-row select {
     background: #2a2a2a;
     color: #FFD700;
@@ -226,16 +399,12 @@ body {
     font-family: inherit;
     cursor: pointer;
     outline: none;
-    transition: border-color 0.2s;
 }
-.adresa-input-row select:focus {
-    border-color: #FFD700;
-}
+.adresa-input-row select:focus { border-color: #FFD700; }
 .adresa-input-row select option {
     background: #2a2a2a;
     color: #e0e0e0;
 }
-
 .adresa-input-row button {
     background: #2a2a2a;
     color: #FFD700;
@@ -260,7 +429,7 @@ body {
 .adresa-status.ok { color: #4caf50; }
 .adresa-status.error { color: #f44336; }
 
-/* STATUS (samo za gas) */
+/* STATUS (gas) */
 .status {
     margin-top: 12px; font-size: 0.7rem; color: #666;
     text-align: center; letter-spacing: 0.3px;
@@ -272,54 +441,94 @@ body {
 .status.error .dot { background: #f44336; }
 .status.loading .dot { background: #FFD700; }
 
-.izvori {
-    width: 100%; max-width: 600px; margin: 20px auto 0 auto;
-    text-align: center; font-size: 0.78rem; color: #777;
-    letter-spacing: 0.3px; line-height: 1.6;
+/* MARQUEE (placeholder) */
+.widget-marquee {
+    padding: 20px;
+    min-height: 80px;
 }
-.izvori a { color: #FFD700; text-decoration: none; transition: color 0.2s; }
-.izvori a:hover { color: #fff; text-decoration: underline; }
-footer {
-    width: 100%; max-width: 600px; margin: 14px auto 0 auto;
-    padding: 14px 20px; background: #1a1a1a; border: 1px solid #2e2e2e;
-    border-radius: 6px; text-align: center; font-size: 0.75rem;
-    color: #666; font-style: italic; letter-spacing: 0.5px;
+.marquee-placeholder,
+.marquee-loading {
+    color: #666;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.liste-loading {
+    color: #666;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.widget-liste {
+    padding: 20px;
+    min-height: 80px;
 }
 
-/* DROPDOWN MENI */
-.dropdown { position: fixed; top: 10px; right: 10px; z-index: 200; }
-.dropdown-toggle {
-    background: #2a2a2a; color: #FFD700; border: 1px solid #444;
-    padding: 8px 12px; font-size: 1.1rem; cursor: pointer;
-    border-radius: 4px; transition: background 0.2s; line-height: 1;
+/* FOOTER */
+.footer {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto 0;
+    padding: 20px 12px;
+    border-top: 1px solid #2e2e2e;
+    text-align: center;
 }
-.dropdown-toggle:hover { background: #3a3a3a; }
-.dropdown-menu {
-    display: none; position: absolute; top: 100%; right: 0;
-    margin-top: 4px; background: #2a2a2a; border: 1px solid #444;
-    border-radius: 4px; min-width: 140px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.6); overflow: hidden;
+.izvori-ikonice {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 12px;
 }
-.dropdown-menu.open { display: block; }
-.dropdown-menu a {
-    display: block; padding: 10px 14px; color: #FFD700;
-    text-decoration: none; font-size: 0.9rem;
-    transition: background 0.2s, color 0.2s;
+.izvori-ikonice a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: #2a2a2a;
+    border: 1px solid #383838;
+    text-decoration: none;
+    transition: transform 0.2s, border-color 0.2s;
+    overflow: hidden;
 }
-.dropdown-menu a:hover { background: #3a3a3a; color: #fff; }
+.izvori-ikonice a:hover {
+    transform: translateY(-2px);
+    border-color: #FFD700;
+}
+.izvori-ikonice img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 4px;
+}
+.ikona-fallback {
+    display: none;
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: #FFD700;
+    letter-spacing: 0.5px;
+}
+.izvori-ikonice a.fallback .ikona-fallback {
+    display: block;
+}
+.footer-text {
+    font-size: 0.72rem;
+    color: #666;
+    font-style: italic;
+    letter-spacing: 0.5px;
+}
 
 /* RESPONZIVNOST */
 @media (max-width: 730px) {
-    body { padding: 8px 6px; }
-    .kolona { max-width: 100%; gap: 12px; }
+    .kolona { max-width: 100%; padding: 12px 8px 24px; }
     .widget { padding: 10px; border-radius: 12px; }
     .widget-pretraga iframe { height: 980px; border-radius: 12px; }
     .widget-kripto { padding: 6px; }
     .widget-kripto .coinmarketcap-currency-widget {
         padding: 8px !important; font-size: 0.8rem !important;
     }
-    .izvori, footer { max-width: 100%; }
-    footer { border-radius: 0; margin-top: 12px; }
+    .footer { max-width: 100%; }
 }
 @media (max-width: 370px) {
     .widget-pretraga iframe { height: 860px; }
