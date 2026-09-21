@@ -2,15 +2,15 @@ Izveštaj 2026-09-21
 ========================================
 
 NOVI (auto, >=85%):
-  - gas (Gas) CMC:1785 CG:gas 100%
+  - prom (Prom) CMC:4120 CG:prometeus 100%
 
 NISU UPISANI (<70%):
   - leo (UNUS SED LEO) CMC:3957 kandidata:4 ⚠️ RUČNO
   - usd1 (World Liberty Financial USD) CMC:36148 kandidata:1 ⚠️ RUČNO
-  - gt (GateToken) CMC:4269 kandidata:1 ⚠️ RUČNO
   - pol (Polygon (prev. MATIC)) CMC:28321 kandidata:4 ⚠️ RUČNO
-  - pi (Pi) CMC:35697 kandidata:3 ⚠️ RUČNO
+  - gt (GateToken) CMC:4269 kandidata:1 ⚠️ RUČNO
   - kcs (KuCoin Token) CMC:2087 kandidata:1 ⚠️ RUČNO
+  - pi (Pi) CMC:35697 kandidata:3 ⚠️ RUČNO
   - atom (Cosmos) CMC:3794 kandidata:1 ⚠️ RUČNO
   - crv (Curve DAO Token) CMC:6538 kandidata:2 ⚠️ RUČNO
   -  (币安人生) CMC:38590 kandidata:0 ⚠️ RUČNO
@@ -25,7 +25,6 @@ NISU UPISANI (<70%):
   - deep (DeepBook Protocol) CMC:33391 kandidata:3 ⚠️ RUČNO
   - cheems (Cheems (cheems.pet)) CMC:33280 kandidata:4 ⚠️ RUČNO
   - melania (Official Melania Meme) CMC:35347 kandidata:1 ⚠️ RUČNO
-  - ftt (FTX Token) CMC:4195 kandidata:1 ⚠️ RUČNO
   - del (Decimal) CMC:12400 kandidata:1 ⚠️ RUČNO
   - htx (HTX) CMC:29160 kandidata:1 ⚠️ RUČNO
   - jlp (Jupiter Perps LP) CMC:28853 kandidata:1 ⚠️ RUČNO
@@ -40,4 +39,4 @@ NISU UPISANI (<70%):
 
 STATISTIKA:
   Novih: 1
-  Za proveru: 32
+  Za proveru: 31
