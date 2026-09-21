@@ -3,7 +3,7 @@ Izveštaj 2026-09-21
 
 NOVI (auto, >=85%):
 
-  - sn51 (lium) — CMC ID: 36902 — CoinGecko: celium (100%)
+  - peaq (peaq) — CMC ID: 14588 — CoinGecko: peaq-2 (100%)
 
 
 NISU UPISANI (unesi ručno):
@@ -20,14 +20,6 @@ NISU UPISANI (unesi ručno):
     Kandidati na CoinGecko:
       - https://www.coingecko.com/en/coins/usd1-wlfi (8% — USD1)
     Proveri ručno: https://coinmarketcap.com/currencies/usd1/
-
-  - pol (Polygon (prev. MATIC)) — CMC ID: 28321
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/polygon-ecosystem-token (56% — POL (ex-MATIC))
-      - https://www.coingecko.com/en/coins/anubis-bridged-pol-anubis (14% — Anubis Bridged POL (Anubis))
-      - https://www.coingecko.com/en/coins/katana-bridged-pol-katana (14% — Katana Bridged POL (Katana))
-      - https://www.coingecko.com/en/coins/proof-of-liquidity (13% — Proof Of Liquidity)
-    Proveri ručno: https://coinmarketcap.com/currencies/polygon-ecosystem-token/
 
   - gt (GateToken) — CMC ID: 4269
     Kandidati na CoinGecko:
@@ -180,4 +172,4 @@ NISU UPISANI (unesi ručno):
 
 STATISTIKA:
   Novih: 1
-  Za proveru: 31
+  Za proveru: 30
