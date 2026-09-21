@@ -10,147 +10,278 @@
 </head>
 <body>
 
-    <div class="dropdown">
-        <button class="dropdown-toggle" id="dropdownToggle" aria-label="Meni">&#9776;</button>
-        <div class="dropdown-menu" id="dropdownMenu">
-            <a href="o_nama.html">O nama</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="kontakt.html">Kontakt</a>
-            <a href="index.html">Galerija</a>
-            <a href="vesti.html">Vesti</a>
-        </div>
-    </div>
-
-    <div class="kolona">
-
-        <!-- VESTI KRIPTO -->
-        <div class="widget widget-pretraga">
-            <iframe src="https://naslovi.net/widget/?type=pretraga&q=kripto&bgcolor=F5F5F5&textcolor=000000&separatorcolor=D0D0D0&count=10&"
-                frameborder="0" scrolling="no" loading="lazy"></iframe>
-        </div>
-
-        <!-- KURSNA LISTA + FEAR INDEX -->
-        <div class="widget widget-kurs-fear">
-            <div class="kurs-box">
-                <iframe id="iframe_kurs"
-                    src="https://naslovi.net/plugin/kursna_lista2.php?bgcolor=ffffff&color=000000"
-                    frameborder="0" height="175" scrolling="no" width="115" loading="lazy">
-                    <a href="https://naslovi.net/kursna_lista.php">Kursna lista</a>
-                </iframe>
-            </div>
-
-            <div class="fear-box">
-                <div class="fear-gauge">
-                    <svg viewBox="0 0 100 100">
-                        <circle cx="50" cy="50" r="42" fill="none" stroke="#2a2a2a" stroke-width="8"/>
-                        <circle id="fear-arc" cx="50" cy="50" r="42"
-                            fill="none" stroke="#FFD700" stroke-width="8"
-                            stroke-linecap="round"
-                            stroke-dasharray="264"
-                            stroke-dashoffset="264"
-                            transform="rotate(-90 50 50)"
-                            style="transition: stroke-dashoffset 0.8s ease, stroke 0.4s;"/>
-                    </svg>
-                    <div class="fear-value" id="fear-value">—</div>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-inner">
+            <a href="kripto.html" class="header-logo">
+                <img src="Slike/logo.png" alt="Logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                <span class="header-logo-text" style="display:none">KRIPTO</span>
+            </a>
+            <div class="header-banner"></div>
+            <div class="dropdown">
+                <button class="dropdown-toggle" id="dropdownToggle" aria-label="Meni">&#9776;</button>
+                <div class="dropdown-menu" id="dropdownMenu">
+                    <a href="o_nama.html">O nama</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="kontakt.html">Kontakt</a>
+                    <a href="index.html">Galerija</a>
+                    <a href="vesti.html">Vesti</a>
                 </div>
-                <div class="fear-label" id="fear-label">Fear &amp; Greed</div>
             </div>
         </div>
+    </header>
 
-        <!-- KRIPTO VALUTE -->
-        <div class="widget widget-kripto">
-            <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
-            <div class="coinmarketcap-currency-widget" data-currencyid="30618" data-base="USD" data-secondary="" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="false" data-statsticker="false" data-stats="USD"></div>
-
-            <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
-            <div class="coinmarketcap-currency-widget" data-currencyid="5176" data-base="USD" data-secondary="" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="false" data-statsticker="false" data-stats="USD"></div>
-
-            <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
-            <div class="coinmarketcap-currency-widget" data-currencyid="39332" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div>
-
-            <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
-            <div class="coinmarketcap-currency-widget" data-currencyid="1027" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div>
-
-            <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
-            <div class="coinmarketcap-currency-widget" data-currencyid="1" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div>
+    <!-- TABOVI -->
+    <nav class="tabs" id="tabs">
+        <div class="tabs-inner">
+            <button class="tab active" data-tab="t1">Tržište</button>
+            <button class="tab" data-tab="t2">Portfolio</button>
+            <button class="tab" data-tab="t3">Alarmi</button>
+            <button class="tab" data-tab="t4">On-chain</button>
+            <button class="tab" data-tab="t5">Vesti</button>
+            <button class="tab" data-tab="t6">Uvod</button>
         </div>
+    </nav>
 
-        <!-- ETHEREUM GAS CENE -->
-        <div class="widget widget-gas">
-            <div class="gas-title">&#9981; ETH Gas (u Gwei i $min x4.5)</div>
-            <div class="gas-row">
-                <div class="gas-item">
-                    <div class="gas-label">Najsporija</div>
-                    <div class="gas-value-line">
-                        <span id="gas-slow" class="gas-value">—</span>
-                        <span id="gas-slow-usd" class="gas-usd">—</span>
+    <!-- SADRŽAJ -->
+    <main class="kolona">
+
+        <!-- TAB 1 — TRŽIŠTE -->
+        <section class="tab-content active" id="t1">
+
+            <!-- MARQUEE (placeholder — Faza B) -->
+            <div class="widget widget-marquee" id="marquee-widget">
+                <div class="marquee-loading">Učitavanje marquee-a...</div>
+            </div>
+
+            <!-- KURS + FEAR -->
+            <div class="widget widget-kurs-fear">
+                <div class="kurs-box">
+                    <iframe id="iframe_kurs"
+                        src="https://naslovi.net/plugin/kursna_lista2.php?bgcolor=ffffff&color=000000"
+                        frameborder="0" height="175" scrolling="no" width="115" loading="lazy">
+                        <a href="https://naslovi.net/kursna_lista.php">Kursna lista</a>
+                    </iframe>
+                </div>
+                <div class="fear-box">
+                    <div class="fear-gauge">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="42" fill="none" stroke="#2a2a2a" stroke-width="8"/>
+                            <circle id="fear-arc" cx="50" cy="50" r="42"
+                                fill="none" stroke="#FFD700" stroke-width="8"
+                                stroke-linecap="round"
+                                stroke-dasharray="264"
+                                stroke-dashoffset="264"
+                                transform="rotate(-90 50 50)"
+                                style="transition: stroke-dashoffset 0.8s ease, stroke 0.4s;"/>
+                        </svg>
+                        <div class="fear-value" id="fear-value">—</div>
+                    </div>
+                    <div class="fear-label" id="fear-label">Fear &amp; Greed</div>
+                </div>
+            </div>
+
+            <!-- GAINERS/LOSERS (placeholder — Faza B) -->
+            <div class="widget widget-liste" id="liste-widget">
+                <div class="liste-loading">Učitavanje lista...</div>
+            </div>
+
+            <!-- KRIPTO VALUTE (CMC widget) -->
+            <div class="widget widget-kripto">
+                <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+                <div class="coinmarketcap-currency-widget" data-currencyid="30618" data-base="USD" data-secondary="" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="false" data-statsticker="false" data-stats="USD"></div>
+
+                <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+                <div class="coinmarketcap-currency-widget" data-currencyid="5176" data-base="USD" data-secondary="" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="false" data-statsticker="false" data-stats="USD"></div>
+
+                <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+                <div class="coinmarketcap-currency-widget" data-currencyid="39332" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div>
+
+                <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+                <div class="coinmarketcap-currency-widget" data-currencyid="1027" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div>
+
+                <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+                <div class="coinmarketcap-currency-widget" data-currencyid="1" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div>
+            </div>
+
+        </section>
+
+        <!-- TAB 2 — PORTFOLIO -->
+        <section class="tab-content" id="t2">
+
+            <div class="widget widget-zama">
+                <div class="zama-value">
+                    <span class="currency"></span><span id="zama-result">—</span>
+                </div>
+            </div>
+
+            <div class="widget placeholder">
+                <p>Portfolio — u izradi</p>
+                <p class="placeholder-sub">Ručni unos holdings-a, vrednost, P/L i grafovi dolaze uskoro.</p>
+            </div>
+
+        </section>
+
+        <!-- TAB 3 — ALARMI -->
+        <section class="tab-content" id="t3">
+            <div class="widget placeholder">
+                <p>Alarmi — u izradi</p>
+                <p class="placeholder-sub">Alarmi za cene, volumen, parove, adrese i portfolio dolaze uskoro.</p>
+            </div>
+        </section>
+
+        <!-- TAB 4 — ON-CHAIN -->
+        <section class="tab-content" id="t4">
+
+            <!-- ETH GAS -->
+            <div class="widget widget-gas">
+                <div class="gas-title">&#9981; ETH Gas</div>
+                <div class="gas-row">
+                    <div class="gas-item">
+                        <div class="gas-label">Najsporija</div>
+                        <div class="gas-value-line">
+                            <span id="gas-slow" class="gas-value">—</span>
+                            <span id="gas-slow-usd" class="gas-usd">—</span>
+                        </div>
+                    </div>
+                    <div class="gas-item">
+                        <div class="gas-label">Standardna</div>
+                        <div class="gas-value-line">
+                            <span id="gas-standard" class="gas-value">—</span>
+                            <span id="gas-standard-usd" class="gas-usd">—</span>
+                        </div>
                     </div>
                 </div>
-                <div class="gas-item">
-                    <div class="gas-label">Standardna</div>
-                    <div class="gas-value-line">
-                        <span id="gas-standard" class="gas-value">—</span>
-                        <span id="gas-standard-usd" class="gas-usd">—</span>
-                    </div>
+                <div class="status loading" id="status">
+                    <span class="dot"></span><span id="status-text">Učitavanje...</span>
                 </div>
             </div>
-            <div class="status loading" id="status">
-                <span class="dot"></span><span id="status-text">Učitavanje...</span>
+
+            <!-- GRAFIK -->
+            <div class="widget widget-grafikon">
+                <div class="grafikon-title">Uk. vrednost kroz vreme</div>
+                <div class="grafikon-wrap">
+                    <canvas id="uk-chart"></canvas>
+                </div>
             </div>
-        </div>
 
-        <!-- ZAMA KALKULACIJA -->
-        <div class="widget widget-zama">
-            <div class="zama-value">
-                <span class="currency"></span><span id="zama-result">—</span>
+            <!-- ADRESA -->
+            <div class="widget widget-adresa">
+                <div class="adresa-title">Izvesti o promeni na Ethereum (L1) adresi za token</div>
+                <div class="adresa-input-row">
+                    <input type="text" id="eth-adresa" placeholder="0x... (unesi adresu)" autocomplete="off" spellcheck="false">
+                    <select id="token-izbor">
+                        <option value="eth">ETH</option>
+                        <option value="usdt">USDT</option>
+                        <option value="zama">ZAMA</option>
+                    </select>
+                    <button id="eth-prati-btn" type="button">Prati</button>
+                </div>
+                <div class="adresa-status" id="adresa-status"></div>
             </div>
-        </div>
 
-        <!-- GRAFIKON -->
-        <div class="widget widget-grafikon">
-            <div class="grafikon-title">Uk. vrednost kroz vreme</div>
-            <div class="grafikon-wrap">
-                <canvas id="uk-chart"></canvas>
+        </section>
+
+        <!-- TAB 5 — VESTI -->
+        <section class="tab-content" id="t5">
+            <div class="widget widget-pretraga">
+                <iframe src="https://naslovi.net/widget/?type=pretraga&q=kripto&bgcolor=F5F5F5&textcolor=000000&separatorcolor=D0D0D0&count=10&"
+                    frameborder="0" scrolling="no" loading="lazy"></iframe>
             </div>
-        </div>
+        </section>
 
-        <!-- PRATI ADRESU -->
-        <div class="widget widget-adresa">
-            <div class="adresa-title">Izvesti o promeni na Ethereum (L1) adresi za token</div>
-            <div class="adresa-input-row">
-                <input type="text" id="eth-adresa" placeholder="0x... (unesi adresu)" autocomplete="off" spellcheck="false">
-                <select id="token-izbor">
-                    <option value="eth">ETH</option>
-                    <option value="usdt">USDT</option>
-                    <option value="zama">ZAMA</option>
-                </select>
-                <button id="eth-prati-btn" type="button">Prati</button>
+        <!-- TAB 6 — UVOD -->
+        <section class="tab-content" id="t6">
+            <div class="widget widget-uvod">
+                <h2>Uvod u kripto</h2>
+                <p>Dobrodošli u svet kriptovaluta. Ovde ćete naći osnovne informacije o blockchain tehnologiji, novčanicima, berzama i sigurnom čuvanju digitalne imovine.</p>
+
+                <h3>Šta je kriptovaluta?</h3>
+                <p>Kriptovaluta je digitalna imovina koja koristi kriptografiju za sigurnost i funkcioniše na decentralizovanoj mreži (blockchain). Najpoznatije su Bitcoin (BTC) i Ethereum (ETH).</p>
+
+                <h3>Gde kupiti kripto?</h3>
+                <p>Popularne centralizovane berze (CEX):</p>
+                <ul>
+                    <li><a href="https://www.binance.com" target="_blank" rel="noopener">Binance</a></li>
+                    <li><a href="https://www.coinbase.com" target="_blank" rel="noopener">Coinbase</a></li>
+                    <li><a href="https://www.kraken.com" target="_blank" rel="noopener">Kraken</a></li>
+                    <li><a href="https://www.okx.com" target="_blank" rel="noopener">OKX</a></li>
+                    <li><a href="https://www.bybit.com" target="_blank" rel="noopener">Bybit</a></li>
+                </ul>
+
+                <p>Decentralizovane berze (DEX):</p>
+                <ul>
+                    <li><a href="https://app.uniswap.org" target="_blank" rel="noopener">Uniswap</a></li>
+                    <li><a href="https://pancakeswap.finance" target="_blank" rel="noopener">PancakeSwap</a></li>
+                    <li><a href="https://jup.ag" target="_blank" rel="noopener">Jupiter (Solana)</a></li>
+                </ul>
+
+                <h3>Novčanici (wallets)</h3>
+                <p>Preporučeni softverski novčanici:</p>
+                <ul>
+                    <li><a href="https://metamask.io" target="_blank" rel="noopener">MetaMask</a> — Android / iOS</li>
+                    <li><a href="https://trustwallet.com" target="_blank" rel="noopener">Trust Wallet</a> — Android / iOS</li>
+                    <li><a href="https://www.ledger.com/ledger-live" target="_blank" rel="noopener">Ledger Live</a> — za hardverske novčanike</li>
+                    <li><a href="https://phantom.app" target="_blank" rel="noopener">Phantom</a> — Solana</li>
+                </ul>
+
+                <p class="uvod-napomena">Detaljniji vodič dolazi uskoro.</p>
             </div>
-            <div class="adresa-status" id="adresa-status"></div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="izvori-ikonice">
+            <a href="https://www.naslovi.net" target="_blank" rel="noopener" title="Naslovi.net">
+                <img src="Slike/izvori/naslovi.png" alt="Naslovi" onerror="this.parentNode.classList.add('fallback'); this.style.display='none'">
+                <span class="ikona-fallback">N</span>
+            </a>
+            <a href="https://coinmarketcap.com" target="_blank" rel="noopener" title="CoinMarketCap">
+                <img src="Slike/izvori/cmc.png" alt="CMC" onerror="this.parentNode.classList.add('fallback'); this.style.display='none'">
+                <span class="ikona-fallback">CMC</span>
+            </a>
+            <a href="https://www.coingecko.com" target="_blank" rel="noopener" title="CoinGecko">
+                <img src="Slike/izvori/coingecko.png" alt="CoinGecko" onerror="this.parentNode.classList.add('fallback'); this.style.display='none'">
+                <span class="ikona-fallback">CG</span>
+            </a>
+            <a href="https://etherscan.io" target="_blank" rel="noopener" title="Etherscan">
+                <img src="Slike/izvori/etherscan.png" alt="Etherscan" onerror="this.parentNode.classList.add('fallback'); this.style.display='none'">
+                <span class="ikona-fallback">ES</span>
+            </a>
+            <a href="https://www.blockscout.com" target="_blank" rel="noopener" title="Blockscout">
+                <img src="Slike/izvori/blockscout.png" alt="Blockscout" onerror="this.parentNode.classList.add('fallback'); this.style.display='none'">
+                <span class="ikona-fallback">BS</span>
+            </a>
+            <a href="https://coinstats.app" target="_blank" rel="noopener" title="CoinStats">
+                <img src="Slike/izvori/coinstats.png" alt="CoinStats" onerror="this.parentNode.classList.add('fallback'); this.style.display='none'">
+                <span class="ikona-fallback">CS</span>
+            </a>
+            <a href="https://www.alchemy.com" target="_blank" rel="noopener" title="Alchemy">
+                <img src="Slike/izvori/alchemy.png" alt="Alchemy" onerror="this.parentNode.classList.add('fallback'); this.style.display='none'">
+                <span class="ikona-fallback">A</span>
+            </a>
+            <a href="https://allratestoday.com/central-bank-rates-api/nbs/" target="_blank" rel="noopener" title="NBS preko AllRatesToday">
+                <img src="Slike/izvori/allrates.png" alt="AllRates" onerror="this.parentNode.classList.add('fallback'); this.style.display='none'">
+                <span class="ikona-fallback">NBS</span>
+            </a>
         </div>
-
-    </div>
-
-    <!-- IZVORI -->
-    <div class="izvori">
-        Izvori: <a href="https://www.naslovi.net" target="_blank" rel="noopener noreferrer">Naslovi.net</a>,
-        <a href="https://coinmarketcap.com" target="_blank" rel="noopener noreferrer">CoinMarketCap</a>,
-        <a href="https://etherscan.io" target="_blank" rel="noopener noreferrer">Etherscan</a>,
-        <a href="https://www.coingecko.com" target="_blank" rel="noopener noreferrer">CoinGecko</a> i
-        <a href="https://allratestoday.com" target="_blank" rel="noopener noreferrer">AllRatesToday</a>
-    </div>
-
-    <footer>
-        <p>Sajt je još u izradi.</p>
+        <p class="footer-text">Sajt je još u izradi.</p>
     </footer>
 
+    <!-- Biblioteke -->
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 
+    <!-- Naše skripte -->
     <script src="js/meni.js" defer></script>
+    <script src="js/tabs.js" defer></script>
     <script src="js/zvuk.js" defer></script>
     <script src="js/kripto.js" defer></script>
     <script src="js/grafikon.js" defer></script>
     <script src="js/adresa.js" defer></script>
+    <script src="js/marquee.js" defer></script>
+
 </body>
-                        </html>
+</html>
