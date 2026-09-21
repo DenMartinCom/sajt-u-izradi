@@ -1,9 +1,6 @@
 Izveštaj 2026-09-21
 ========================================
 
-NOVI (auto, >=85%):
-  - prom (Prom) CMC:4120 CG:prometeus 100%
-
 NISU UPISANI (<70%):
   - leo (UNUS SED LEO) CMC:3957 kandidata:4 ⚠️ RUČNO
   - usd1 (World Liberty Financial USD) CMC:36148 kandidata:1 ⚠️ RUČNO
@@ -18,13 +15,13 @@ NISU UPISANI (<70%):
   - twt (Trust Wallet Token) CMC:5964 kandidata:1 ⚠️ RUČNO
   - eigen (EigenCloud) CMC:30494 kandidata:1 ⚠️ RUČNO
   - mx (MX Token) CMC:4041 kandidata:1 ⚠️ RUČNO
-  - gomining (GoМining) CMC:10180 kandidata:1 ⚠️ RUČNO
   - mina (Mina) CMC:8646 kandidata:1 ⚠️ RUČNO
+  - gomining (GoМining) CMC:10180 kandidata:1 ⚠️ RUČNO
   - awe (AWE) CMC:4006 kandidata:1 ⚠️ RUČNO
   - genius (Genius Terminal) CMC:39841 kandidata:2 ⚠️ RUČNO
   - deep (DeepBook Protocol) CMC:33391 kandidata:3 ⚠️ RUČNO
-  - cheems (Cheems (cheems.pet)) CMC:33280 kandidata:4 ⚠️ RUČNO
   - melania (Official Melania Meme) CMC:35347 kandidata:1 ⚠️ RUČNO
+  - cheems (Cheems (cheems.pet)) CMC:33280 kandidata:4 ⚠️ RUČNO
   - del (Decimal) CMC:12400 kandidata:1 ⚠️ RUČNO
   - htx (HTX) CMC:29160 kandidata:1 ⚠️ RUČNO
   - jlp (Jupiter Perps LP) CMC:28853 kandidata:1 ⚠️ RUČNO
@@ -38,5 +35,5 @@ NISU UPISANI (<70%):
   - mstrx (MicroStrategy tokenized stock (xStock)) CMC:37003 kandidata:1 ⚠️ RUČNO
 
 STATISTIKA:
-  Novih: 1
+  Novih: 0
   Za proveru: 31
