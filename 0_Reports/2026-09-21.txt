@@ -1,39 +1,183 @@
 Izveštaj 2026-09-21
 ========================================
 
-NISU UPISANI (<70%):
-  - leo (UNUS SED LEO) CMC:3957 kandidata:4 ⚠️ RUČNO
-  - usd1 (World Liberty Financial USD) CMC:36148 kandidata:1 ⚠️ RUČNO
-  - pol (Polygon (prev. MATIC)) CMC:28321 kandidata:4 ⚠️ RUČNO
-  - gt (GateToken) CMC:4269 kandidata:1 ⚠️ RUČNO
-  - kcs (KuCoin Token) CMC:2087 kandidata:1 ⚠️ RUČNO
-  - pi (Pi) CMC:35697 kandidata:3 ⚠️ RUČNO
-  - atom (Cosmos) CMC:3794 kandidata:1 ⚠️ RUČNO
-  - crv (Curve DAO Token) CMC:6538 kandidata:2 ⚠️ RUČNO
-  -  (币安人生) CMC:38590 kandidata:0 ⚠️ RUČNO
-  - sun (Sun [New]) CMC:10529 kandidata:1 ⚠️ RUČNO
-  - twt (Trust Wallet Token) CMC:5964 kandidata:1 ⚠️ RUČNO
-  - eigen (EigenCloud) CMC:30494 kandidata:1 ⚠️ RUČNO
-  - mx (MX Token) CMC:4041 kandidata:1 ⚠️ RUČNO
-  - mina (Mina) CMC:8646 kandidata:1 ⚠️ RUČNO
-  - gomining (GoМining) CMC:10180 kandidata:1 ⚠️ RUČNO
-  - awe (AWE) CMC:4006 kandidata:1 ⚠️ RUČNO
-  - genius (Genius Terminal) CMC:39841 kandidata:2 ⚠️ RUČNO
-  - deep (DeepBook Protocol) CMC:33391 kandidata:3 ⚠️ RUČNO
-  - melania (Official Melania Meme) CMC:35347 kandidata:1 ⚠️ RUČNO
-  - cheems (Cheems (cheems.pet)) CMC:33280 kandidata:4 ⚠️ RUČNO
-  - del (Decimal) CMC:12400 kandidata:1 ⚠️ RUČNO
-  - htx (HTX) CMC:29160 kandidata:1 ⚠️ RUČNO
-  - jlp (Jupiter Perps LP) CMC:28853 kandidata:1 ⚠️ RUČNO
-  - stonk (STONK (stonkfun.xyz)) CMC:42022 kandidata:2 ⚠️ RUČNO
-  -  (龙虾 (Lobster)) CMC:39671 kandidata:0 ⚠️ RUČNO
-  - koge (48 Club Token) CMC:7184 kandidata:1 ⚠️ RUČNO
-  - usx (Solstice USX) CMC:38948 kandidata:2 ⚠️ RUČNO
-  - strcx (Strategy PP Variable tokenized stock (xStock)) CMC:39711 kandidata:1 ⚠️ RUČNO
-  - ale (Ailey) CMC:30605 kandidata:1 ⚠️ RUČNO
-  -  (牛来 (Niu Lai)) CMC:41861 kandidata:0 ⚠️ RUČNO
-  - mstrx (MicroStrategy tokenized stock (xStock)) CMC:37003 kandidata:1 ⚠️ RUČNO
+NOVI (auto, >=85%):
+
+  - grass (Grass) — CMC ID: 32956 — CoinGecko: grass (100%)
+
+
+NISU UPISANI (unesi ručno):
+
+  - leo (UNUS SED LEO) — CMC ID: 3957
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/leo-2 (30% — Leo)
+      - https://www.coingecko.com/en/coins/leopold (30% — LEO)
+      - https://www.coingecko.com/en/coins/leo-token (10% — LEO Token)
+      - https://www.coingecko.com/en/coins/leoono (6% — LEOONO by Virtuals)
+    Proveri ručno: https://coinmarketcap.com/currencies/unus-sed-leo/
+
+  - usd1 (World Liberty Financial USD) — CMC ID: 36148
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/usd1-wlfi (8% — USD1)
+    Proveri ručno: https://coinmarketcap.com/currencies/usd1/
+
+  - gt (GateToken) — CMC ID: 4269
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/gatechain-token (44% — Gate)
+    Proveri ručno: https://coinmarketcap.com/currencies/gatetoken/
+
+  - pol (Polygon (prev. MATIC)) — CMC ID: 28321
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/polygon-ecosystem-token (56% — POL (ex-MATIC))
+      - https://www.coingecko.com/en/coins/anubis-bridged-pol-anubis (14% — Anubis Bridged POL (Anubis))
+      - https://www.coingecko.com/en/coins/katana-bridged-pol-katana (14% — Katana Bridged POL (Katana))
+      - https://www.coingecko.com/en/coins/proof-of-liquidity (13% — Proof Of Liquidity)
+    Proveri ručno: https://coinmarketcap.com/currencies/polygon-ecosystem-token/
+
+  - kcs (KuCoin Token) — CMC ID: 2087
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/kucoin-shares (55% — KuCoin)
+    Proveri ručno: https://coinmarketcap.com/currencies/kucoin-token/
+
+  - pi (Pi) — CMC ID: 35697
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/pchain (40% — Plian)
+      - https://www.coingecko.com/en/coins/pi-network (22% — Pi Network)
+      - https://www.coingecko.com/en/coins/pi-network-iou (17% — Pi Network [IOU])
+    Proveri ručno: https://coinmarketcap.com/currencies/pi/
+
+  - atom (Cosmos) — CMC ID: 3794
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/cosmos (67% — Cosmos Hub)
+    Proveri ručno: https://coinmarketcap.com/currencies/cosmos/
+
+  - crv (Curve DAO Token) — CMC ID: 6538
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/curve-dao-token (62% — Curve DAO)
+      - https://www.coingecko.com/en/coins/bridged-curve-dao-token-stargate (46% — Bridged Curve DAO Token (Stargate))
+    Proveri ručno: https://coinmarketcap.com/currencies/curve-dao-token/
+
+  -  (币安人生) — CMC ID: 38590
+    Nema kandidata na CoinGecko.
+    Proveri ručno: https://coinmarketcap.com/currencies/bianrensheng/
+
+  - sun (Sun [New]) — CMC ID: 10529
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/sun-token (50% — Sun Token)
+    Proveri ručno: https://coinmarketcap.com/currencies/sun-token/
+
+  - twt (Trust Wallet Token) — CMC ID: 5964
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/trust-wallet-token (69% — Trust Wallet)
+    Proveri ručno: https://coinmarketcap.com/currencies/trust-wallet-token/
+
+  - eigen (EigenCloud) — CMC ID: 30494
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/eigenlayer (42% — EigenCloud (prev. EigenLayer))
+    Proveri ručno: https://coinmarketcap.com/currencies/eigencloud/
+
+  - mx (MX Token) — CMC ID: 4041
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/mx-token (29% — MX)
+    Proveri ručno: https://coinmarketcap.com/currencies/mx-token/
+
+  - mina (Mina) — CMC ID: 8646
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/mina-protocol (33% — Mina Protocol)
+    Proveri ručno: https://coinmarketcap.com/currencies/mina/
+
+  - gomining (GoМining) — CMC ID: 10180
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/gmt-token (54% — GoMining Token)
+    Proveri ručno: https://coinmarketcap.com/currencies/gomining-token/
+
+  - awe (AWE) — CMC ID: 4006
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/stp-network (30% — AWE Network)
+    Proveri ručno: https://coinmarketcap.com/currencies/awe-network/
+
+  - genius (Genius Terminal) — CMC ID: 39841
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/genius-2 (43% — Genius)
+      - https://www.coingecko.com/en/coins/genius-3 (43% — Genius)
+    Proveri ručno: https://coinmarketcap.com/currencies/genius-terminal/
+
+  - deep (DeepBook Protocol) — CMC ID: 33391
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/deep (50% — DeepBook)
+      - https://www.coingecko.com/en/coins/deeployer (38% — Deeployer)
+      - https://www.coingecko.com/en/coins/deepstate (31% — Deepstate)
+    Proveri ručno: https://coinmarketcap.com/currencies/deepbook-protocol/
+
+  - melania (Official Melania Meme) — CMC ID: 35347
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/melania-meme (58% — Melania Meme)
+    Proveri ručno: https://coinmarketcap.com/currencies/melania-meme/
+
+  - cheems (Cheems (cheems.pet)) — CMC ID: 33280
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/cheems-cto (47% — Cheems CTO)
+      - https://www.coingecko.com/en/coins/cheems-token (47% — Cheems Token)
+      - https://www.coingecko.com/en/coins/cheems (40% — Cheems)
+      - https://www.coingecko.com/en/coins/og-cheems (40% — OG CHEEMS)
+    Proveri ručno: https://coinmarketcap.com/currencies/cheems-pet/
+
+  - del (Decimal) — CMC ID: 12400
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/delegate-fun (27% — delegate.fun)
+    Proveri ručno: https://coinmarketcap.com/currencies/decimal/
+
+  - htx (HTX) — CMC ID: 29160
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/htx-dao (50% — HTX DAO)
+    Proveri ručno: https://coinmarketcap.com/currencies/htx/
+
+  - jlp (Jupiter Perps LP) — CMC ID: 28853
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/jupiter-perpetuals-liquidity-provider-token (36% — Jupiter Perpetuals Liquidity Provider Token)
+    Proveri ručno: https://coinmarketcap.com/currencies/jupiter-perps-lp/
+
+  - stonk (STONK (stonkfun.xyz)) — CMC ID: 42022
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/stonk-3 (31% — STONK)
+      - https://www.coingecko.com/en/coins/stonk-4 (31% — STONK)
+    Proveri ručno: https://coinmarketcap.com/currencies/stonk-fun/
+
+  -  (龙虾 (Lobster)) — CMC ID: 39671
+    Nema kandidata na CoinGecko.
+    Proveri ručno: https://coinmarketcap.com/currencies/lobster-2/
+
+  - koge (48 Club Token) — CMC ID: 7184
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/bnb48-club-token (18% — KOGE)
+    Proveri ručno: https://coinmarketcap.com/currencies/bnb48-club-token/
+
+  - usx (Solstice USX) — CMC ID: 38948
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/usx (27% — USX)
+      - https://www.coingecko.com/en/coins/usx-2 (27% — USX)
+    Proveri ručno: https://coinmarketcap.com/currencies/solstice-usx/
+
+  - strcx (Strategy PP Variable tokenized stock (xStock)) — CMC ID: 39711
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/strategy-pp-variable-xstock (63% — Strategy PP Variable xStock)
+    Proveri ručno: https://coinmarketcap.com/currencies/strategy-pp-variable-tokenized-stock-xstock/
+
+  - ale (Ailey) — CMC ID: 30605
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/project-ailey (42% — Project Ailey)
+    Proveri ručno: https://coinmarketcap.com/currencies/project-ailey/
+
+  -  (牛来 (Niu Lai)) — CMC ID: 41861
+    Nema kandidata na CoinGecko.
+    Proveri ručno: https://coinmarketcap.com/currencies/niu-lai/
+
+  - mstrx (MicroStrategy tokenized stock (xStock)) — CMC ID: 37003
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/microstrategy-xstock (58% — MicroStrategy xStock)
+    Proveri ručno: https://coinmarketcap.com/currencies/microstrategy-tokenized-stock-xstock/
+
 
 STATISTIKA:
-  Novih: 0
+  Novih: 1
   Za proveru: 31
