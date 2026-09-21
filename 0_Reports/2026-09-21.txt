@@ -1,11 +1,14 @@
 Izveštaj 2026-09-21
 ========================================
 
+NOVI (auto, >=85%):
+  - gas (Gas) CMC:1785 CG:gas 100%
+
 NISU UPISANI (<70%):
   - leo (UNUS SED LEO) CMC:3957 kandidata:4 ⚠️ RUČNO
   - usd1 (World Liberty Financial USD) CMC:36148 kandidata:1 ⚠️ RUČNO
-  - pol (Polygon (prev. MATIC)) CMC:28321 kandidata:4 ⚠️ RUČNO
   - gt (GateToken) CMC:4269 kandidata:1 ⚠️ RUČNO
+  - pol (Polygon (prev. MATIC)) CMC:28321 kandidata:4 ⚠️ RUČNO
   - pi (Pi) CMC:35697 kandidata:3 ⚠️ RUČNO
   - kcs (KuCoin Token) CMC:2087 kandidata:1 ⚠️ RUČNO
   - atom (Cosmos) CMC:3794 kandidata:1 ⚠️ RUČNO
@@ -33,7 +36,8 @@ NISU UPISANI (<70%):
   - strcx (Strategy PP Variable tokenized stock (xStock)) CMC:39711 kandidata:1 ⚠️ RUČNO
   - ale (Ailey) CMC:30605 kandidata:1 ⚠️ RUČNO
   -  (牛来 (Niu Lai)) CMC:41861 kandidata:0 ⚠️ RUČNO
+  - mstrx (MicroStrategy tokenized stock (xStock)) CMC:37003 kandidata:1 ⚠️ RUČNO
 
 STATISTIKA:
-  Novih: 0
-  Za proveru: 31
+  Novih: 1
+  Za proveru: 32
