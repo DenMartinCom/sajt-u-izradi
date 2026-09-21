@@ -3,7 +3,7 @@ Izveštaj 2026-09-21
 
 NOVI (auto, >=85%):
 
-  - grass (Grass) — CMC ID: 32956 — CoinGecko: grass (100%)
+  - sn51 (lium) — CMC ID: 36902 — CoinGecko: celium (100%)
 
 
 NISU UPISANI (unesi ručno):
@@ -21,11 +21,6 @@ NISU UPISANI (unesi ručno):
       - https://www.coingecko.com/en/coins/usd1-wlfi (8% — USD1)
     Proveri ručno: https://coinmarketcap.com/currencies/usd1/
 
-  - gt (GateToken) — CMC ID: 4269
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/gatechain-token (44% — Gate)
-    Proveri ručno: https://coinmarketcap.com/currencies/gatetoken/
-
   - pol (Polygon (prev. MATIC)) — CMC ID: 28321
     Kandidati na CoinGecko:
       - https://www.coingecko.com/en/coins/polygon-ecosystem-token (56% — POL (ex-MATIC))
@@ -34,10 +29,10 @@ NISU UPISANI (unesi ručno):
       - https://www.coingecko.com/en/coins/proof-of-liquidity (13% — Proof Of Liquidity)
     Proveri ručno: https://coinmarketcap.com/currencies/polygon-ecosystem-token/
 
-  - kcs (KuCoin Token) — CMC ID: 2087
+  - gt (GateToken) — CMC ID: 4269
     Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/kucoin-shares (55% — KuCoin)
-    Proveri ručno: https://coinmarketcap.com/currencies/kucoin-token/
+      - https://www.coingecko.com/en/coins/gatechain-token (44% — Gate)
+    Proveri ručno: https://coinmarketcap.com/currencies/gatetoken/
 
   - pi (Pi) — CMC ID: 35697
     Kandidati na CoinGecko:
@@ -45,6 +40,11 @@ NISU UPISANI (unesi ručno):
       - https://www.coingecko.com/en/coins/pi-network (22% — Pi Network)
       - https://www.coingecko.com/en/coins/pi-network-iou (17% — Pi Network [IOU])
     Proveri ručno: https://coinmarketcap.com/currencies/pi/
+
+  - kcs (KuCoin Token) — CMC ID: 2087
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/kucoin-shares (55% — KuCoin)
+    Proveri ručno: https://coinmarketcap.com/currencies/kucoin-token/
 
   - atom (Cosmos) — CMC ID: 3794
     Kandidati na CoinGecko:
