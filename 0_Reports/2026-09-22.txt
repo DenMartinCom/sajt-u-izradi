@@ -1,147 +1,108 @@
 Izveštaj 2026-09-22
 ========================================
 
+NOVI (auto, skor >=85%):
+
+  - crv (Curve DAO Token) — CMC ID: 6538 — CoinGecko: curve-dao-token (skor 90%)
+  - sun (Sun [New]) — CMC ID: 10529 — CoinGecko: sun-token (skor 85%)
+  - twt (Trust Wallet Token) — CMC ID: 5964 — CoinGecko: trust-wallet-token (skor 93%)
+  - melania (Official Melania Meme) — CMC ID: 35347 — CoinGecko: melania-meme (skor 88%)
+
+
+PROVERI (skor 70-85%):
+
+  - mx (MX Token) — CMC ID: 4041
+    CoinGecko kandidat: https://www.coingecko.com/en/coins/mx-token (skor 76%)
+    Proveri ručno: https://coinmarketcap.com/currencies/mxtoken/
+
+  - gomining (GoМining) — CMC ID: 10180
+    CoinGecko kandidat: https://www.coingecko.com/en/coins/gmt-token (skor 72%)
+    Proveri ručno: https://coinmarketcap.com/currencies/goining/
+
+  - htx (HTX) — CMC ID: 29160
+    CoinGecko kandidat: https://www.coingecko.com/en/coins/htx-dao (skor 70%)
+    Proveri ručno: https://coinmarketcap.com/currencies/htx/
+
+  - koge (48 Club Token) — CMC ID: 7184
+    CoinGecko kandidat: https://www.coingecko.com/en/coins/bnb48-club-token (skor 72%)
+    Proveri ručno: https://coinmarketcap.com/currencies/48clubtoken/
+
+  - mstrx (MicroStrategy tokenized stock (xStock)) — CMC ID: 37003
+    CoinGecko kandidat: https://www.coingecko.com/en/coins/microstrategy-xstock (skor 73%)
+    Proveri ručno: https://coinmarketcap.com/currencies/microstrategytokenizedstockxstock/
+
+
 NISU UPISANI (unesi ručno):
 
-  - pi (Pi) — CMC ID: 35697
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/pchain (40% — Plian)
-      - https://www.coingecko.com/en/coins/pi-network (22% — Pi Network)
-      - https://www.coingecko.com/en/coins/pi-network-iou (17% — Pi Network [IOU])
-    Proveri ručno: https://coinmarketcap.com/currencies/pi/
-
-  - atom (Cosmos) — CMC ID: 3794
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/cosmos (67% — Cosmos Hub)
-    Proveri ručno: https://coinmarketcap.com/currencies/cosmos/
-
-  - crv (Curve DAO Token) — CMC ID: 6538
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/curve-dao-token (62% — Curve DAO)
-      - https://www.coingecko.com/en/coins/bridged-curve-dao-token-stargate (46% — Bridged Curve DAO Token (Stargate))
-    Proveri ručno: https://coinmarketcap.com/currencies/curve-dao-token/
-
-  -  (币安人生) — CMC ID: 38590
+  -  (币安人生) — CMC ID: 38590 — CMC cena: $0.5144198115899362
     Nema kandidata na CoinGecko.
     Proveri ručno: https://coinmarketcap.com/currencies/bianrensheng/
 
-  - sun (Sun [New]) — CMC ID: 10529
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/sun-token (50% — Sun Token)
-    Proveri ručno: https://coinmarketcap.com/currencies/sun-token/
-
-  - twt (Trust Wallet Token) — CMC ID: 5964
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/trust-wallet-token (69% — Trust Wallet)
-    Proveri ručno: https://coinmarketcap.com/currencies/trust-wallet-token/
-
-  - eigen (EigenCloud) — CMC ID: 30494
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/eigenlayer (42% — EigenCloud (prev. EigenLayer))
+  - eigen (EigenCloud) — CMC ID: 30494 — CMC cena: $0.2391820026529376
+    Kandidati na CoinGecko (sortirano po skoru):
+      - https://www.coingecko.com/en/coins/eigenlayer (skor 67% — EigenCloud (prev. EigenLayer) — $0.23865)
     Proveri ručno: https://coinmarketcap.com/currencies/eigencloud/
 
-  - mina (Mina) — CMC ID: 8646
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/mina-protocol (33% — Mina Protocol)
+  - mina (Mina) — CMC ID: 8646 — CMC cena: $0.156135502671053
+    Kandidati na CoinGecko (sortirano po skoru):
+      - https://www.coingecko.com/en/coins/mina-protocol (skor 63% — Mina Protocol — $0.154801)
     Proveri ručno: https://coinmarketcap.com/currencies/mina/
 
-  - mx (MX Token) — CMC ID: 4041
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/mx-token (29% — MX)
-    Proveri ručno: https://coinmarketcap.com/currencies/mx-token/
-
-  - gomining (GoМining) — CMC ID: 10180
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/gmt-token (54% — GoMining Token)
-    Proveri ručno: https://coinmarketcap.com/currencies/gomining-token/
-
-  - awe (AWE) — CMC ID: 4006
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/stp-network (30% — AWE Network)
+  - awe (AWE) — CMC ID: 4006 — CMC cena: $0.0637878257243499
+    Kandidati na CoinGecko (sortirano po skoru):
+      - https://www.coingecko.com/en/coins/stp-network (skor 62% — AWE Network — $0.063936)
     Proveri ručno: https://coinmarketcap.com/currencies/awe-network/
 
-  - genius (Genius Terminal) — CMC ID: 39841
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/genius-2 (43% — Genius)
-      - https://www.coingecko.com/en/coins/genius-3 (43% — Genius)
+  - genius (Genius Terminal) — CMC ID: 39841 — CMC cena: $0.34031164098946065
+    Kandidati na CoinGecko (sortirano po skoru):
+      - https://www.coingecko.com/en/coins/genius-3 (skor 67% — Genius — $0.337061)
     Proveri ručno: https://coinmarketcap.com/currencies/genius-terminal/
 
-  - deep (DeepBook Protocol) — CMC ID: 33391
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/deep (50% — DeepBook)
-      - https://www.coingecko.com/en/coins/deeployer (38% — Deeployer)
-      - https://www.coingecko.com/en/coins/deepstate (31% — Deepstate)
+  - deep (DeepBook Protocol) — CMC ID: 33391 — CMC cena: $0.019625703420307266
+    Nema kandidata na CoinGecko.
     Proveri ručno: https://coinmarketcap.com/currencies/deepbook-protocol/
 
-  - melania (Official Melania Meme) — CMC ID: 35347
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/melania-meme (58% — Melania Meme)
-    Proveri ručno: https://coinmarketcap.com/currencies/melania-meme/
-
-  - cheems (Cheems (cheems.pet)) — CMC ID: 33280
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/cheems-cto (47% — Cheems CTO)
-      - https://www.coingecko.com/en/coins/cheems-token (47% — Cheems Token)
-      - https://www.coingecko.com/en/coins/cheems (40% — Cheems)
-      - https://www.coingecko.com/en/coins/og-cheems (40% — OG CHEEMS)
+  - cheems (Cheems (cheems.pet)) — CMC ID: 33280 — CMC cena: $5.674464011546259e-7
+    Kandidati na CoinGecko (sortirano po skoru):
+      - https://www.coingecko.com/en/coins/cheems-token (skor 69% — Cheems Token — $5.66146e-7)
     Proveri ručno: https://coinmarketcap.com/currencies/cheems-pet/
 
-  - del (Decimal) — CMC ID: 12400
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/delegate-fun (27% — delegate.fun)
+  - del (Decimal) — CMC ID: 12400 — CMC cena: $0.47722465421272914
+    Nema kandidata na CoinGecko.
     Proveri ručno: https://coinmarketcap.com/currencies/decimal/
 
-  - htx (HTX) — CMC ID: 29160
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/htx-dao (50% — HTX DAO)
-    Proveri ručno: https://coinmarketcap.com/currencies/htx/
-
-  - jlp (Jupiter Perps LP) — CMC ID: 28853
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/jupiter-perpetuals-liquidity-provider-token (36% — Jupiter Perpetuals Liquidity Provider Token)
+  - jlp (Jupiter Perps LP) — CMC ID: 28853 — CMC cena: $4.850046016037232
+    Nema kandidata na CoinGecko.
     Proveri ručno: https://coinmarketcap.com/currencies/jupiter-perps-lp/
 
-  - stonk (STONK (stonkfun.xyz)) — CMC ID: 42022
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/stonk-3 (31% — STONK)
-      - https://www.coingecko.com/en/coins/stonk-4 (31% — STONK)
+  - stonk (STONK (stonkfun.xyz)) — CMC ID: 42022 — CMC cena: $0.32900565705389095
+    Kandidati na CoinGecko (sortirano po skoru):
+      - https://www.coingecko.com/en/coins/stonk-3 (skor 63% — STONK — $0.331485)
     Proveri ručno: https://coinmarketcap.com/currencies/stonk-fun/
 
-  - koge (48 Club Token) — CMC ID: 7184
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/bnb48-club-token (18% — KOGE)
-    Proveri ručno: https://coinmarketcap.com/currencies/bnb48-club-token/
-
-  - usx (Solstice USX) — CMC ID: 38948
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/usx (27% — USX)
-      - https://www.coingecko.com/en/coins/usx-2 (27% — USX)
+  - usx (Solstice USX) — CMC ID: 38948 — CMC cena: $1.0002210219371714
+    Kandidati na CoinGecko (sortirano po skoru):
+      - https://www.coingecko.com/en/coins/usx (skor 61% — USX — $0.999682)
     Proveri ručno: https://coinmarketcap.com/currencies/solstice-usx/
 
-  -  (龙虾 (Lobster)) — CMC ID: 39671
+  - strcx (Strategy PP Variable tokenized stock (xStock)) — CMC ID: 39711 — CMC cena: $98.7763145664029
+    Kandidati na CoinGecko (sortirano po skoru):
+      - https://www.coingecko.com/en/coins/strategy-pp-variable-xstock (skor 50% — Strategy PP Variable xStock — $105.12)
+    Proveri ručno: https://coinmarketcap.com/currencies/strategy-pp-variable-tokenized-stock-xstock/
+
+  -  (龙虾 (Lobster)) — CMC ID: 39671 — CMC cena: $0.141854193878611
     Nema kandidata na CoinGecko.
     Proveri ručno: https://coinmarketcap.com/currencies/lobster-2/
 
-  - strcx (Strategy PP Variable tokenized stock (xStock)) — CMC ID: 39711
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/strategy-pp-variable-xstock (63% — Strategy PP Variable xStock)
-    Proveri ručno: https://coinmarketcap.com/currencies/strategy-pp-variable-tokenized-stock-xstock/
-
-  - ale (Ailey) — CMC ID: 30605
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/project-ailey (42% — Project Ailey)
+  - ale (Ailey) — CMC ID: 30605 — CMC cena: $0.2698538500561967
+    Nema kandidata na CoinGecko.
     Proveri ručno: https://coinmarketcap.com/currencies/project-ailey/
 
-  -  (牛来 (Niu Lai)) — CMC ID: 41861
+  -  (牛来 (Niu Lai)) — CMC ID: 41861 — CMC cena: $0.10469194287661615
     Nema kandidata na CoinGecko.
     Proveri ručno: https://coinmarketcap.com/currencies/niu-lai/
 
-  - mstrx (MicroStrategy tokenized stock (xStock)) — CMC ID: 37003
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/microstrategy-xstock (58% — MicroStrategy xStock)
-    Proveri ručno: https://coinmarketcap.com/currencies/microstrategy-tokenized-stock-xstock/
-
 
 STATISTIKA:
-  Novih: 0
-  Za proveru: 26
+  Novih: 9
+  Za proveru: 20
