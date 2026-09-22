@@ -2,7 +2,6 @@
 (function () {
     const WORKER_URL = 'https://cmc-proxy.martin-denic.workers.dev';
 
-    // Kod valute → kod države za zastavicu (flagcdn.com)
     const ZASTAVE = {
         EUR: 'eu', USD: 'us', CHF: 'ch', GBP: 'gb', RUB: 'ru', BAM: 'ba', RSD: 'rs',
         JPY: 'jp', CNY: 'cn', CAD: 'ca', AUD: 'au', SEK: 'se', NOK: 'no',
@@ -32,10 +31,15 @@
         return n.toLocaleString('sr-RS', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
     }
 
-    function formatRezultat(n, tip) {
+    function formatValuta(n) {
         if (typeof n !== 'number' || !isFinite(n)) return '—';
-        if (tip === 'rsd') return n.toLocaleString('sr-RS', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' RSD';
-        return n.toLocaleString('sr-RS', { minimumFractionDigits: 2, maximumFractionDigits: 6 });
+        // Prikaz na 2 decimale
+        return n.toLocaleString('sr-RS', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    }
+
+    function formatRsd(n) {
+        if (typeof n !== 'number' || !isFinite(n)) return '—';
+        return n.toLocaleString('sr-RS', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' RSD';
     }
 
     function napraviValutu(kod) {
@@ -51,12 +55,25 @@
     }
 
     function iscrtajGrid() {
-        if (!kurs) return;
-        if (prikazSve && kurs.valute) {
+        if (!kurs || !kurs.valute) {
+            console.warn('Kurs nema valute:', kurs);
+            return;
+        }
+        if (prikazSve) {
             const svi = Object.keys(kurs.valute).sort();
             gridEl.innerHTML = svi.map(napraviValutu).join('');
         } else {
             gridEl.innerHTML = PRIKAZ.map(napraviValutu).join('');
+        }
+    }
+
+    function azurirajPlaceholder() {
+        if (!inputEl || !valutaEl) return;
+        const kod = valutaEl.value;
+        if (smer === 'valuta_u_rsd') {
+            inputEl.placeholder = 'Količina u ' + kod;
+        } else {
+            inputEl.placeholder = 'Količina u RSD';
         }
     }
 
@@ -65,7 +82,12 @@
             if (rezultatEl) rezultatEl.textContent = '—';
             return;
         }
-        const iznos = parseFloat(inputEl.value);
+        const tekst = (inputEl.value || '').trim();
+        if (!tekst) {
+            rezultatEl.textContent = '—';
+            return;
+        }
+        const iznos = parseFloat(tekst);
         if (!isFinite(iznos)) {
             rezultatEl.textContent = '—';
             return;
@@ -73,18 +95,18 @@
         const kod = valutaEl.value;
         const k = kurs.valute[kod];
         if (!k) {
-            rezultatEl.textContent = 'nema kursa';
+            rezultatEl.textContent = 'nema kursa za ' + kod;
             return;
         }
 
         if (smer === 'valuta_u_rsd') {
-            // imam X valute, koliko je to RSD
+            // Pun obračun, prikaz na 2 decimale
             const rsd = iznos * k;
-            rezultatEl.textContent = formatRezultat(rsd, 'rsd');
+            rezultatEl.textContent = formatRsd(rsd);
         } else {
-            // imam X RSD, koliko je to valute
+            // Pun obračun, prikaz na 2 decimale
             const valuta = iznos / k;
-            rezultatEl.textContent = formatRezultat(valuta, 'valuta') + ' ' + kod;
+            rezultatEl.textContent = formatValuta(valuta) + ' ' + kod;
         }
     }
 
@@ -92,8 +114,20 @@
         try {
             const r = await fetch(`${WORKER_URL}/kurs`);
             const d = await r.json();
+            console.log('Kurs odgovor:', d);
             if (d && !d.error && d.valute) {
                 kurs = d;
+                iscrtajGrid();
+                izracunaj();
+            } else if (d && !d.error) {
+                // Ako nema valute, ali ima eur_rsd i usd_rsd
+                console.warn('Kurs bez valute objekta, gradim iz eur_rsd/usd_rsd');
+                kurs = {
+                    datum: d.datum,
+                    valute: {}
+                };
+                if (d.eur_rsd) kurs.valute.EUR = d.eur_rsd;
+                if (d.usd_rsd) kurs.valute.USD = d.usd_rsd;
                 iscrtajGrid();
                 izracunaj();
             }
@@ -113,7 +147,10 @@
 
     // Promena valute u kalkulatoru
     if (valutaEl) {
-        valutaEl.addEventListener('change', izracunaj);
+        valutaEl.addEventListener('change', () => {
+            azurirajPlaceholder();
+            izracunaj();
+        });
     }
 
     // Promena iznosa
@@ -125,11 +162,13 @@
     if (smerEl) {
         smerEl.addEventListener('click', () => {
             smer = smer === 'valuta_u_rsd' ? 'rsd_u_valuta' : 'valuta_u_rsd';
-            inputEl.value = smer === 'valuta_u_rsd' ? '1000' : '10000';
+            inputEl.value = '';
+            azurirajPlaceholder();
             izracunaj();
         });
     }
 
+    azurirajPlaceholder();
     ucitaj();
-    setInterval(ucitaj, 5 * 60 * 1000); // osvežavanje 5 min
+    setInterval(ucitaj, 5 * 60 * 1000);
 })();
