@@ -3,16 +3,6 @@ Izveštaj 2026-09-22
 
 NISU UPISANI (unesi ručno):
 
-  - gt (GateToken) — CMC ID: 4269
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/gatechain-token (44% — Gate)
-    Proveri ručno: https://coinmarketcap.com/currencies/gatetoken/
-
-  - kcs (KuCoin Token) — CMC ID: 2087
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/kucoin-shares (55% — KuCoin)
-    Proveri ručno: https://coinmarketcap.com/currencies/kucoin-token/
-
   - pi (Pi) — CMC ID: 35697
     Kandidati na CoinGecko:
       - https://www.coingecko.com/en/coins/pchain (40% — Plian)
@@ -50,15 +40,15 @@ NISU UPISANI (unesi ručno):
       - https://www.coingecko.com/en/coins/eigenlayer (42% — EigenCloud (prev. EigenLayer))
     Proveri ručno: https://coinmarketcap.com/currencies/eigencloud/
 
-  - mina (Mina) — CMC ID: 8646
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/mina-protocol (33% — Mina Protocol)
-    Proveri ručno: https://coinmarketcap.com/currencies/mina/
-
   - mx (MX Token) — CMC ID: 4041
     Kandidati na CoinGecko:
       - https://www.coingecko.com/en/coins/mx-token (29% — MX)
     Proveri ručno: https://coinmarketcap.com/currencies/mx-token/
+
+  - mina (Mina) — CMC ID: 8646
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/mina-protocol (33% — Mina Protocol)
+    Proveri ručno: https://coinmarketcap.com/currencies/mina/
 
   - gomining (GoМining) — CMC ID: 10180
     Kandidati na CoinGecko:
@@ -149,4 +139,4 @@ NISU UPISANI (unesi ručno):
 
 STATISTIKA:
   Novih: 0
-  Za proveru: 27
+  Za proveru: 25
