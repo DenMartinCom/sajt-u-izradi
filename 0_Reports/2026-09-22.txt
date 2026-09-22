@@ -21,17 +21,17 @@ NISU UPISANI (unesi ručno):
       - https://www.coingecko.com/en/coins/gatechain-token (44% — Gate)
     Proveri ručno: https://coinmarketcap.com/currencies/gatetoken/
 
-  - kcs (KuCoin Token) — CMC ID: 2087
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/kucoin-shares (55% — KuCoin)
-    Proveri ručno: https://coinmarketcap.com/currencies/kucoin-token/
-
   - pi (Pi) — CMC ID: 35697
     Kandidati na CoinGecko:
       - https://www.coingecko.com/en/coins/pchain (40% — Plian)
       - https://www.coingecko.com/en/coins/pi-network (22% — Pi Network)
       - https://www.coingecko.com/en/coins/pi-network-iou (17% — Pi Network [IOU])
     Proveri ručno: https://coinmarketcap.com/currencies/pi/
+
+  - kcs (KuCoin Token) — CMC ID: 2087
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/kucoin-shares (55% — KuCoin)
+    Proveri ručno: https://coinmarketcap.com/currencies/kucoin-token/
 
   - atom (Cosmos) — CMC ID: 3794
     Kandidati na CoinGecko:
