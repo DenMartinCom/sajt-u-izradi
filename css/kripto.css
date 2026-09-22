@@ -440,28 +440,28 @@ body {
 .status.error .dot { background: #f44336; }
 .status.loading .dot { background: #FFD700; }
 
-/* ===== MARQUEE ===== */
+/* ===== MARQUEE sa animacijom ===== */
 .widget-marquee {
     padding: 8px 0;
     overflow: hidden;
     min-height: 90px;
 }
-.marquee-row {
+.marquee-track {
     display: flex;
-    align-items: center;
-    gap: 16px;
-    padding: 6px 12px;
-    overflow-x: auto;
-    overflow-y: hidden;
-    white-space: nowrap;
-    scrollbar-width: none;
-    -webkit-overflow-scrolling: touch;
+    width: max-content;
+    animation: marquee-scroll 60s linear infinite;
+    padding: 6px 0;
 }
-.marquee-row::-webkit-scrollbar { display: none; }
-.marquee-row.fiksni {
+.marquee-track.fiksni {
+    animation-duration: 45s;
     border-top: 1px solid #2e2e2e;
     margin-top: 4px;
     padding-top: 8px;
+}
+.marquee-track:hover { animation-play-state: paused; }
+@keyframes marquee-scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
 }
 .marquee-item {
     display: inline-flex;
@@ -471,6 +471,7 @@ body {
     color: #e0e0e0;
     font-size: 0.78rem;
     flex-shrink: 0;
+    padding: 0 14px;
     transition: opacity 0.2s;
 }
 .marquee-item:hover { opacity: 0.75; }
@@ -493,6 +494,8 @@ body {
 .marquee-item .m-promena {
     font-weight: 600;
     font-variant-numeric: tabular-nums;
+    min-width: 50px;
+    text-align: right;
 }
 .marquee-item .m-promena.up { color: #4caf50; }
 .marquee-item .m-promena.down { color: #f44336; }
@@ -563,6 +566,7 @@ body {
     border-radius: 50%;
     object-fit: cover;
     flex-shrink: 0;
+    background: #1a1a1a;
 }
 .liste-red .lr-simbol {
     font-weight: 700;
@@ -579,7 +583,7 @@ body {
     font-size: 0.75rem;
 }
 .liste-red .lr-promena {
-    min-width: 58px;
+    min-width: 72px;
     text-align: right;
     font-weight: 600;
     font-variant-numeric: tabular-nums;
@@ -610,6 +614,111 @@ body {
     color: #666;
     font-size: 0.78rem;
     text-align: center;
+}
+
+/* ===== KURS SA ZASTAVICAMA ===== */
+.widget-kurs-full {
+    padding: 14px 12px;
+    gap: 12px;
+    align-items: stretch;
+}
+.kurs-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    width: 100%;
+}
+.kurs-valuta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 10px;
+    background: #2a2a2a;
+    border: 1px solid #383838;
+    border-radius: 8px;
+    font-size: 0.82rem;
+}
+.kurs-valuta img {
+    width: 22px;
+    height: 15px;
+    object-fit: cover;
+    border-radius: 3px;
+    flex-shrink: 0;
+}
+.kurs-valuta .kv-kod {
+    font-weight: 700;
+    color: #FFD700;
+    min-width: 36px;
+}
+.kurs-valuta .kv-vrednost {
+    flex: 1;
+    text-align: right;
+    color: #e0e0e0;
+    font-variant-numeric: tabular-nums;
+}
+.kurs-vise {
+    text-align: center;
+    color: #888;
+    font-size: 0.75rem;
+    margin-top: 6px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.kurs-vise:hover { color: #FFD700; }
+
+/* KALKULATOR */
+.kalkulator {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    background: #2a2a2a;
+    border: 1px solid #383838;
+    border-radius: 10px;
+    margin-top: 6px;
+    width: 100%;
+}
+.kalkulator input {
+    flex: 1;
+    min-width: 0;
+    background: #1a1a1a;
+    border: 1px solid #383838;
+    color: #e0e0e0;
+    padding: 8px 10px;
+    border-radius: 6px;
+    font-family: monospace;
+    font-size: 0.85rem;
+    outline: none;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+.kalkulator input:focus { border-color: #FFD700; }
+.kalkulator select {
+    background: #1a1a1a;
+    color: #FFD700;
+    border: 1px solid #444;
+    padding: 8px 6px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-family: inherit;
+    cursor: pointer;
+    outline: none;
+}
+.kalkulator .kalk-rezultat {
+    flex: 1;
+    min-width: 0;
+    text-align: right;
+    color: #FFD700;
+    font-weight: 700;
+    font-size: 0.95rem;
+    font-variant-numeric: tabular-nums;
+    padding: 8px 10px;
+    background: #1a1a1a;
+    border: 1px solid #383838;
+    border-radius: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 /* FOOTER */
@@ -692,4 +801,15 @@ body {
     .grafikon-wrap { height: 180px; }
     .adresa-input-row { flex-wrap: wrap; }
     .adresa-input-row input { min-width: 100%; }
+    .kurs-grid { grid-template-columns: 1fr; }
+    .marquee-item .m-promena { min-width: 45px; }
+}
+
+/* Popravka blikanja slika */
+img[src*="_default.png"],
+.liste-red img,
+.marquee-item img,
+.kurs-valuta img {
+    background: #1a1a1a;
+    image-rendering: -webkit-optimize-contrast;
 }
