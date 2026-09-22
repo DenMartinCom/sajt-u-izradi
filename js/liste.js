@@ -21,12 +21,6 @@
         return znak + n.toFixed(dec) + '%';
     }
 
-    function skratiNaziv(naziv) {
-        if (!naziv) return '';
-        if (naziv.length > 8) return naziv.slice(0, 8) + '..';
-        return naziv;
-    }
-
     function cmcUrl(c) {
         const slug = c.cmc_slug || c.simbol;
         return 'https://coinmarketcap.com/currencies/' + encodeURIComponent(slug) + '/';
@@ -37,7 +31,6 @@
         return `<a class="liste-red" href="${cmcUrl(c)}" target="_blank" rel="noopener">
             <img src="${c.logo}" alt="${c.simbol}" loading="lazy" onerror="if(!this.dataset.err){this.dataset.err=1; this.src='Slike/coins/_default.png';}">
             <span class="lr-simbol">${c.simbol}</span>
-            <span class="lr-naziv">${skratiNaziv(c.naziv)}</span>
             <span class="lr-cena">${formatCena(c.cena)}</span>
             <span class="lr-promena ${kl}">${formatPromena(c.promena, period)}</span>
         </a>`;
@@ -109,5 +102,5 @@
     }
 
     ucitaj();
-    setInterval(ucitaj, 60000); // 1x/min
+    setInterval(ucitaj, 60000);
 })();
