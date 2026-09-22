@@ -34,46 +34,31 @@
         </a>`;
     }
 
-    let podaci = null;
-    let trenutniSet2 = 'gainers';
-
-    function prikazi() {
-        if (!podaci) return;
-
-        const gornji = [...(podaci.set1 || []), ...(podaci.fiksni || [])];
-        const donji = trenutniSet2 === 'gainers' ? (podaci.set2 || []) : (podaci.set3 || []);
-
-        // Dupliraj listu za beskonačnu animaciju (2x isti sadržaj)
-        const gornjiHtml = gornji.map(napraviItem).join('') + gornji.map(napraviItem).join('');
-        const donjiHtml = donji.map(napraviItem).join('') + donji.map(napraviItem).join('');
-
-        el.innerHTML = `
-            <div class="marquee-track">${gornjiHtml}</div>
-            <div class="marquee-track fiksni">${donjiHtml}</div>
-        `;
-    }
-
     async function ucitaj() {
         try {
             const r = await fetch(`${WORKER_URL}/marquee`);
             const d = await r.json();
-            if (d && !d.error) {
-                podaci = d;
-                prikazi();
-            } else {
+            if (!d || d.error) {
                 el.innerHTML = '<div class="marquee-loading">Greška pri učitavanju</div>';
+                return;
             }
+
+            const gornji = [...(d.set1 || []), ...(d.fiksni || [])];
+            const donji = [...(d.set2 || []), ...(d.set3 || [])];
+
+            // Dupliraj listu za beskonačnu animaciju (2x isti sadržaj)
+            const gornjiHtml = gornji.map(napraviItem).join('') + gornji.map(napraviItem).join('');
+            const donjiHtml = donji.map(napraviItem).join('') + donji.map(napraviItem).join('');
+
+            el.innerHTML = `
+                <div class="marquee-track">${gornjiHtml}</div>
+                <div class="marquee-track fiksni">${donjiHtml}</div>
+            `;
         } catch (e) {
             console.warn('Marquee greška:', e);
         }
     }
 
+    // Učitaj SAMO JEDNOM — bez refreša (da ne resetuje animaciju)
     ucitaj();
-    setInterval(ucitaj, 60000); // osvežavanje podataka 1x/min
-
-    // Rotacija donjeg reda gainers ↔ losers svakih 45s
-    setInterval(() => {
-        trenutniSet2 = trenutniSet2 === 'gainers' ? 'losers' : 'gainers';
-        prikazi();
-    }, 45000);
 })();
