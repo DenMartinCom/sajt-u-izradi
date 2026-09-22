@@ -221,31 +221,19 @@ body {
     border-radius: 14px; background: #F5F5F5;
 }
 
-/* KURSNA LISTA + FEAR */
-.widget-kurs-fear {
-    flex-direction: row;
-    align-items: stretch;
-    padding: 12px;
-    gap: 12px;
+/* FEAR INDEX */
+.widget-fear-full {
+    padding: 20px 16px;
 }
-.kurs-box {
-    flex: 1 1 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 0;
-}
-.kurs-box iframe {
-    width: 115px;
-    height: 175px;
+.widget-fear-full .fear-box {
+    flex: none;
+    width: 100%;
 }
 .fear-box {
-    flex: 1 1 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-width: 0;
     gap: 8px;
 }
 .fear-gauge {
@@ -440,7 +428,7 @@ body {
 .status.error .dot { background: #f44336; }
 .status.loading .dot { background: #FFD700; }
 
-/* ===== MARQUEE sa animacijom ===== */
+/* ===== MARQUEE ===== */
 .widget-marquee {
     padding: 8px 0;
     overflow: hidden;
@@ -481,6 +469,7 @@ body {
     border-radius: 50%;
     object-fit: cover;
     flex-shrink: 0;
+    background: #1a1a1a;
 }
 .marquee-item .m-simbol {
     font-weight: 700;
@@ -679,7 +668,7 @@ body {
     width: 100%;
 }
 .kalkulator input {
-    flex: 1;
+    flex: 0 0 33%;
     min-width: 0;
     background: #1a1a1a;
     border: 1px solid #383838;
@@ -719,6 +708,21 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+#kalk-smer {
+    background: #1a1a1a;
+    color: #FFD700;
+    border: 1px solid #444;
+    padding: 8px 10px;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s;
+    line-height: 1;
+}
+#kalk-smer:hover {
+    background: #3a3a3a;
+    border-color: #FFD700;
 }
 
 /* FOOTER */
@@ -803,6 +807,7 @@ body {
     .adresa-input-row input { min-width: 100%; }
     .kurs-grid { grid-template-columns: 1fr; }
     .marquee-item .m-promena { min-width: 45px; }
+    .liste-red .lr-promena { min-width: 62px; }
 }
 
 /* Popravka blikanja slika */
