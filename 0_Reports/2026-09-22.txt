@@ -1,11 +1,6 @@
 Izveštaj 2026-09-22
 ========================================
 
-NOVI (auto, >=85%):
-
-  - pm (PumpMeme) — CMC ID: 37614 — CoinGecko: pumpmeme (100%)
-
-
 NISU UPISANI (unesi ručno):
 
   - leo (UNUS SED LEO) — CMC ID: 3957
@@ -166,5 +161,5 @@ NISU UPISANI (unesi ručno):
 
 
 STATISTIKA:
-  Novih: 1
+  Novih: 0
   Za proveru: 29
