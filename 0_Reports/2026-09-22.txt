@@ -130,14 +130,14 @@ NISU UPISANI (unesi ručno):
       - https://www.coingecko.com/en/coins/stonk-4 (31% — STONK)
     Proveri ručno: https://coinmarketcap.com/currencies/stonk-fun/
 
-  -  (龙虾 (Lobster)) — CMC ID: 39671
-    Nema kandidata na CoinGecko.
-    Proveri ručno: https://coinmarketcap.com/currencies/lobster-2/
-
   - koge (48 Club Token) — CMC ID: 7184
     Kandidati na CoinGecko:
       - https://www.coingecko.com/en/coins/bnb48-club-token (18% — KOGE)
     Proveri ručno: https://coinmarketcap.com/currencies/bnb48-club-token/
+
+  -  (龙虾 (Lobster)) — CMC ID: 39671
+    Nema kandidata na CoinGecko.
+    Proveri ručno: https://coinmarketcap.com/currencies/lobster-2/
 
   - usx (Solstice USX) — CMC ID: 38948
     Kandidati na CoinGecko:
