@@ -3,19 +3,6 @@ Izveštaj 2026-09-22
 
 NISU UPISANI (unesi ručno):
 
-  - leo (UNUS SED LEO) — CMC ID: 3957
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/leo-2 (30% — Leo)
-      - https://www.coingecko.com/en/coins/leopold (30% — LEO)
-      - https://www.coingecko.com/en/coins/leo-token (10% — LEO Token)
-      - https://www.coingecko.com/en/coins/leoono (6% — LEOONO by Virtuals)
-    Proveri ručno: https://coinmarketcap.com/currencies/unus-sed-leo/
-
-  - usd1 (World Liberty Financial USD) — CMC ID: 36148
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/usd1-wlfi (8% — USD1)
-    Proveri ručno: https://coinmarketcap.com/currencies/usd1/
-
   - gt (GateToken) — CMC ID: 4269
     Kandidati na CoinGecko:
       - https://www.coingecko.com/en/coins/gatechain-token (44% — Gate)
@@ -162,4 +149,4 @@ NISU UPISANI (unesi ručno):
 
 STATISTIKA:
   Novih: 0
-  Za proveru: 29
+  Za proveru: 27
