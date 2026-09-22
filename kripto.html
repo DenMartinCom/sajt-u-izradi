@@ -54,15 +54,19 @@
                 <div class="marquee-loading">Učitavanje...</div>
             </div>
 
-            <!-- KURS + FEAR -->
-            <div class="widget widget-kurs-fear">
-                <div class="kurs-box">
-                    <iframe id="iframe_kurs"
-                        src="https://naslovi.net/plugin/kursna_lista2.php?bgcolor=ffffff&color=000000"
-                        frameborder="0" height="175" scrolling="no" width="115" loading="lazy">
-                        <a href="https://naslovi.net/kursna_lista.php">Kursna lista</a>
-                    </iframe>
-                </div>
+            <!-- GAINERS/LOSERS -->
+            <div class="widget widget-liste" id="liste-widget">
+                <div class="liste-loading">Učitavanje...</div>
+            </div>
+
+            <!-- VOLUMEN (placeholder) -->
+            <div class="widget widget-volumen" id="volumen-widget">
+                <div class="volumen-title">Volumen 24h</div>
+                <div class="volumen-placeholder">Dolazi kad skupimo istoriju</div>
+            </div>
+
+            <!-- FEAR & GREED -->
+            <div class="widget widget-fear-full">
                 <div class="fear-box">
                     <div class="fear-gauge">
                         <svg viewBox="0 0 100 100">
@@ -79,17 +83,6 @@
                     </div>
                     <div class="fear-label" id="fear-label">Fear &amp; Greed</div>
                 </div>
-            </div>
-
-            <!-- GAINERS/LOSERS -->
-            <div class="widget widget-liste" id="liste-widget">
-                <div class="liste-loading">Učitavanje...</div>
-            </div>
-
-            <!-- VOLUMEN (placeholder) -->
-            <div class="widget widget-volumen" id="volumen-widget">
-                <div class="volumen-title">Volumen 24h</div>
-                <div class="volumen-placeholder">Dolazi kad skupimo istoriju</div>
             </div>
 
             <!-- KRIPTO VALUTE (CMC widget) -->
@@ -110,22 +103,71 @@
                 <div class="coinmarketcap-currency-widget" data-currencyid="1" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div>
             </div>
 
+            <!-- KURSNA LISTA -->
+            <div class="widget widget-kurs-full">
+                <div class="kurs-grid" id="kurs-grid">
+                    <div class="kurs-valuta" data-valuta="EUR">
+                        <img src="https://flagcdn.com/w40/eu.png" alt="EUR" loading="lazy">
+                        <span class="kv-kod">EUR</span>
+                        <span class="kv-vrednost">—</span>
+                    </div>
+                    <div class="kurs-valuta" data-valuta="USD">
+                        <img src="https://flagcdn.com/w40/us.png" alt="USD" loading="lazy">
+                        <span class="kv-kod">USD</span>
+                        <span class="kv-vrednost">—</span>
+                    </div>
+                    <div class="kurs-valuta" data-valuta="CHF">
+                        <img src="https://flagcdn.com/w40/ch.png" alt="CHF" loading="lazy">
+                        <span class="kv-kod">CHF</span>
+                        <span class="kv-vrednost">—</span>
+                    </div>
+                    <div class="kurs-valuta" data-valuta="GBP">
+                        <img src="https://flagcdn.com/w40/gb.png" alt="GBP" loading="lazy">
+                        <span class="kv-kod">GBP</span>
+                        <span class="kv-vrednost">—</span>
+                    </div>
+                    <div class="kurs-valuta" data-valuta="RUB">
+                        <img src="https://flagcdn.com/w40/ru.png" alt="RUB" loading="lazy">
+                        <span class="kv-kod">RUB</span>
+                        <span class="kv-vrednost">—</span>
+                    </div>
+                    <div class="kurs-valuta" data-valuta="BAM">
+                        <img src="https://flagcdn.com/w40/ba.png" alt="BAM" loading="lazy">
+                        <span class="kv-kod">BAM</span>
+                        <span class="kv-vrednost">—</span>
+                    </div>
+                </div>
+                <div class="kurs-vise" id="kurs-vise">Prikaži sve valute ↓</div>
+
+                <!-- KALKULATOR -->
+                <div class="kalkulator">
+                    <input type="number" id="kalk-iznos" placeholder="1000" value="1000" step="any">
+                    <select id="kalk-valuta">
+                        <option value="EUR">EUR</option>
+                        <option value="USD">USD</option>
+                        <option value="CHF">CHF</option>
+                        <option value="GBP">GBP</option>
+                        <option value="RUB">RUB</option>
+                        <option value="BAM">BAM</option>
+                    </select>
+                    <button id="kalk-smer" type="button" title="Promeni smer">⇄</button>
+                    <div class="kalk-rezultat" id="kalk-rezultat">—</div>
+                </div>
+            </div>
+
         </section>
 
         <!-- TAB 2 — PORTFOLIO -->
         <section class="tab-content" id="t2">
-
             <div class="widget widget-zama">
                 <div class="zama-value">
                     <span class="currency"></span><span id="zama-result">—</span>
                 </div>
             </div>
-
             <div class="widget placeholder">
                 <p>Portfolio — u izradi</p>
                 <p class="placeholder-sub">Ručni unos holdings-a, vrednost, P/L i grafovi dolaze uskoro.</p>
             </div>
-
         </section>
 
         <!-- TAB 3 — ALARMI -->
@@ -138,8 +180,6 @@
 
         <!-- TAB 4 — ON-CHAIN -->
         <section class="tab-content" id="t4">
-
-            <!-- ETH GAS -->
             <div class="widget widget-gas">
                 <div class="gas-title">&#9981; ETH Gas</div>
                 <div class="gas-row">
@@ -163,7 +203,6 @@
                 </div>
             </div>
 
-            <!-- GRAFIK -->
             <div class="widget widget-grafikon">
                 <div class="grafikon-title">Uk. vrednost kroz vreme</div>
                 <div class="grafikon-wrap">
@@ -171,7 +210,6 @@
                 </div>
             </div>
 
-            <!-- ADRESA -->
             <div class="widget widget-adresa">
                 <div class="adresa-title">Izvesti o promeni na Ethereum (L1) adresi za token</div>
                 <div class="adresa-input-row">
@@ -185,7 +223,6 @@
                 </div>
                 <div class="adresa-status" id="adresa-status"></div>
             </div>
-
         </section>
 
         <!-- TAB 5 — VESTI -->
@@ -289,6 +326,7 @@
     <script src="js/adresa.js" defer></script>
     <script src="js/marquee.js" defer></script>
     <script src="js/liste.js" defer></script>
+    <script src="js/kurs.js" defer></script>
 
 </body>
 </html>
