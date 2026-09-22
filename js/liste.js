@@ -14,23 +14,32 @@
         return '$' + n.toLocaleString('en-US', { minimumFractionDigits: 6, maximumFractionDigits: 6 });
     }
 
-    function formatPromena(n) {
+    function formatPromena(n, p) {
         if (typeof n !== 'number' || !isFinite(n)) return '';
         const znak = n >= 0 ? '+' : '';
-        return znak + n.toFixed(2) + '%';
+        const dec = p === '1h' ? 2 : 0;
+        return znak + n.toFixed(dec) + '%';
     }
 
-    function cmcUrl(simbol) {
-        return 'https://coinmarketcap.com/currencies/' + encodeURIComponent(simbol) + '/';
+    function skratiNaziv(naziv) {
+        if (!naziv) return '';
+        if (naziv.length > 8) return naziv.slice(0, 8) + '..';
+        return naziv;
+    }
+
+    function cmcUrl(c) {
+        const slug = c.cmc_slug || c.simbol;
+        return 'https://coinmarketcap.com/currencies/' + encodeURIComponent(slug) + '/';
     }
 
     function red(c) {
         const kl = c.promena >= 0 ? 'up' : 'down';
-        return `<a class="liste-red" href="${cmcUrl(c.simbol)}" target="_blank" rel="noopener">
-            <img src="${c.logo}" alt="${c.simbol}" onerror="this.src='Slike/coins/_default.png'">
+        return `<a class="liste-red" href="${cmcUrl(c)}" target="_blank" rel="noopener">
+            <img src="${c.logo}" alt="${c.simbol}" loading="lazy" onerror="if(!this.dataset.err){this.dataset.err=1; this.src='Slike/coins/_default.png';}">
             <span class="lr-simbol">${c.simbol}</span>
+            <span class="lr-naziv">${skratiNaziv(c.naziv)}</span>
             <span class="lr-cena">${formatCena(c.cena)}</span>
-            <span class="lr-promena ${kl}">${formatPromena(c.promena)}</span>
+            <span class="lr-promena ${kl}">${formatPromena(c.promena, period)}</span>
         </a>`;
     }
 
