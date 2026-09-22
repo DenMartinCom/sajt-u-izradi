@@ -15,18 +15,19 @@
     function formatPromena(n) {
         if (typeof n !== 'number' || !isFinite(n)) return '';
         const znak = n >= 0 ? '+' : '';
-        return znak + n.toFixed(2) + '%';
+        return znak + Math.round(n) + '%';
     }
 
-    function cmcUrl(simbol) {
-        return 'https://coinmarketcap.com/currencies/' + encodeURIComponent(simbol) + '/';
+    function cmcUrl(c) {
+        const slug = c.cmc_slug || c.simbol;
+        return 'https://coinmarketcap.com/currencies/' + encodeURIComponent(slug) + '/';
     }
 
     function napraviItem(c) {
         const prom = c.promena_24h != null ? c.promena_24h : c.promena;
         const kl = prom != null ? (prom >= 0 ? 'up' : 'down') : '';
-        return `<a class="marquee-item" href="${cmcUrl(c.simbol)}" target="_blank" rel="noopener">
-            <img src="${c.logo}" alt="${c.simbol}" onerror="this.src='Slike/coins/_default.png'">
+        return `<a class="marquee-item" href="${cmcUrl(c)}" target="_blank" rel="noopener">
+            <img src="${c.logo}" alt="${c.simbol}" loading="lazy" onerror="if(!this.dataset.err){this.dataset.err=1; this.src='Slike/coins/_default.png';}">
             <span class="m-simbol">${c.simbol}</span>
             <span class="m-cena">${formatCena(c.cena)}</span>
             ${prom != null ? `<span class="m-promena ${kl}">${formatPromena(prom)}</span>` : ''}
@@ -34,22 +35,21 @@
     }
 
     let podaci = null;
-    let rotacija = 0;
+    let trenutniSet2 = 'gainers';
 
     function prikazi() {
         if (!podaci) return;
 
-        const setevi = [podaci.set1, podaci.set2, podaci.set3];
-        const gornji = setevi[rotacija % setevi.length] || [];
-        const donji = podaci.fiksni || [];
+        const gornji = [...(podaci.set1 || []), ...(podaci.fiksni || [])];
+        const donji = trenutniSet2 === 'gainers' ? (podaci.set2 || []) : (podaci.set3 || []);
 
-        // Izbaci fiksne iz gornjeg ako se ponavljaju
-        const fiksniSimboli = donji.map(x => x.simbol);
-        const gornjiFiltrirano = gornji.filter(x => !fiksniSimboli.includes(x.simbol));
+        // Dupliraj listu za beskonačnu animaciju (2x isti sadržaj)
+        const gornjiHtml = gornji.map(napraviItem).join('') + gornji.map(napraviItem).join('');
+        const donjiHtml = donji.map(napraviItem).join('') + donji.map(napraviItem).join('');
 
         el.innerHTML = `
-            <div class="marquee-row">${gornjiFiltrirano.map(napraviItem).join('')}</div>
-            <div class="marquee-row fiksni">${donji.map(napraviItem).join('')}</div>
+            <div class="marquee-track">${gornjiHtml}</div>
+            <div class="marquee-track fiksni">${donjiHtml}</div>
         `;
     }
 
@@ -71,8 +71,9 @@
     ucitaj();
     setInterval(ucitaj, 60000); // osvežavanje podataka 1x/min
 
+    // Rotacija donjeg reda gainers ↔ losers svakih 45s
     setInterval(() => {
-        rotacija++;
+        trenutniSet2 = trenutniSet2 === 'gainers' ? 'losers' : 'gainers';
         prikazi();
-    }, 30000); // rotacija setova 30s
+    }, 45000);
 })();
