@@ -1,6 +1,12 @@
 Izveštaj 2026-09-22
 ========================================
 
+NOVI (auto, >=85%):
+
+  - cow (CoW Protocol) — CMC ID: 19269 — CoinGecko: cow-protocol (100%)
+  - rif (Rootstock Infrastructure Framework) — CMC ID: 3701 — CoinGecko: rif-token (100%)
+
+
 NISU UPISANI (unesi ručno):
 
   - pi (Pi) — CMC ID: 35697
@@ -136,7 +142,12 @@ NISU UPISANI (unesi ručno):
     Nema kandidata na CoinGecko.
     Proveri ručno: https://coinmarketcap.com/currencies/niu-lai/
 
+  - mstrx (MicroStrategy tokenized stock (xStock)) — CMC ID: 37003
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/microstrategy-xstock (58% — MicroStrategy xStock)
+    Proveri ručno: https://coinmarketcap.com/currencies/microstrategy-tokenized-stock-xstock/
+
 
 STATISTIKA:
-  Novih: 0
-  Za proveru: 25
+  Novih: 2
+  Za proveru: 26
