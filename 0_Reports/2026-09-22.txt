@@ -40,15 +40,15 @@ NISU UPISANI (unesi ručno):
       - https://www.coingecko.com/en/coins/eigenlayer (42% — EigenCloud (prev. EigenLayer))
     Proveri ručno: https://coinmarketcap.com/currencies/eigencloud/
 
-  - mx (MX Token) — CMC ID: 4041
-    Kandidati na CoinGecko:
-      - https://www.coingecko.com/en/coins/mx-token (29% — MX)
-    Proveri ručno: https://coinmarketcap.com/currencies/mx-token/
-
   - mina (Mina) — CMC ID: 8646
     Kandidati na CoinGecko:
       - https://www.coingecko.com/en/coins/mina-protocol (33% — Mina Protocol)
     Proveri ručno: https://coinmarketcap.com/currencies/mina/
+
+  - mx (MX Token) — CMC ID: 4041
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/mx-token (29% — MX)
+    Proveri ručno: https://coinmarketcap.com/currencies/mx-token/
 
   - gomining (GoМining) — CMC ID: 10180
     Kandidati na CoinGecko:
@@ -136,7 +136,12 @@ NISU UPISANI (unesi ručno):
     Nema kandidata na CoinGecko.
     Proveri ručno: https://coinmarketcap.com/currencies/niu-lai/
 
+  - mstrx (MicroStrategy tokenized stock (xStock)) — CMC ID: 37003
+    Kandidati na CoinGecko:
+      - https://www.coingecko.com/en/coins/microstrategy-xstock (58% — MicroStrategy xStock)
+    Proveri ručno: https://coinmarketcap.com/currencies/microstrategy-tokenized-stock-xstock/
+
 
 STATISTIKA:
   Novih: 0
-  Za proveru: 25
+  Za proveru: 26
