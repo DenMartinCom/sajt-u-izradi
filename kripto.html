@@ -102,58 +102,74 @@
                 <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
                 <div class="coinmarketcap-currency-widget" data-currencyid="1" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div>
             </div>
-
             <!-- KURSNA LISTA -->
-            <div class="widget widget-kurs-full">
-                <div class="kurs-grid" id="kurs-grid">
-                    <div class="kurs-valuta" data-valuta="EUR">
-                        <img src="https://flagcdn.com/w40/eu.png" alt="EUR" loading="lazy">
-                        <span class="kv-kod">EUR</span>
-                        <span class="kv-vrednost">—</span>
-                    </div>
-                    <div class="kurs-valuta" data-valuta="USD">
-                        <img src="https://flagcdn.com/w40/us.png" alt="USD" loading="lazy">
-                        <span class="kv-kod">USD</span>
-                        <span class="kv-vrednost">—</span>
-                    </div>
-                    <div class="kurs-valuta" data-valuta="CHF">
-                        <img src="https://flagcdn.com/w40/ch.png" alt="CHF" loading="lazy">
-                        <span class="kv-kod">CHF</span>
-                        <span class="kv-vrednost">—</span>
-                    </div>
-                    <div class="kurs-valuta" data-valuta="GBP">
-                        <img src="https://flagcdn.com/w40/gb.png" alt="GBP" loading="lazy">
-                        <span class="kv-kod">GBP</span>
-                        <span class="kv-vrednost">—</span>
-                    </div>
-                    <div class="kurs-valuta" data-valuta="RUB">
-                        <img src="https://flagcdn.com/w40/ru.png" alt="RUB" loading="lazy">
-                        <span class="kv-kod">RUB</span>
-                        <span class="kv-vrednost">—</span>
-                    </div>
-                    <div class="kurs-valuta" data-valuta="BAM">
-                        <img src="https://flagcdn.com/w40/ba.png" alt="BAM" loading="lazy">
-                        <span class="kv-kod">BAM</span>
-                        <span class="kv-vrednost">—</span>
-                    </div>
-                </div>
-                <div class="kurs-vise" id="kurs-vise">Prikaži sve valute ↓</div>
+<div class="widget widget-kurs-full">
+    <div class="kurs-grid" id="kurs-grid">
+        <div class="kurs-valuta" data-valuta="EUR">
+            <img src="https://flagcdn.com/w40/eu.png" alt="EUR" loading="lazy">
+            <span class="kv-kod">EUR</span>
+            <span class="kv-naziv">evro</span>
+            <span class="kv-vrednost">—</span>
+        </div>
+        <div class="kurs-valuta" data-valuta="USD">
+            <img src="https://flagcdn.com/w40/us.png" alt="USD" loading="lazy">
+            <span class="kv-kod">USD</span>
+            <span class="kv-naziv">dolar</span>
+            <span class="kv-vrednost">—</span>
+        </div>
+        <div class="kurs-valuta" data-valuta="CHF">
+            <img src="https://flagcdn.com/w40/ch.png" alt="CHF" loading="lazy">
+            <span class="kv-kod">CHF</span>
+            <span class="kv-naziv">franak</span>
+            <span class="kv-vrednost">—</span>
+        </div>
+        <div class="kurs-valuta" data-valuta="GBP">
+            <img src="https://flagcdn.com/w40/gb.png" alt="GBP" loading="lazy">
+            <span class="kv-kod">GBP</span>
+            <span class="kv-naziv">funta</span>
+            <span class="kv-vrednost">—</span>
+        </div>
+        <div class="kurs-valuta" data-valuta="RUB">
+            <img src="https://flagcdn.com/w40/ru.png" alt="RUB" loading="lazy">
+            <span class="kv-kod">RUB</span>
+            <span class="kv-naziv">rublja</span>
+            <span class="kv-vrednost">—</span>
+        </div>
+        <div class="kurs-valuta" data-valuta="BAM">
+            <img src="https://flagcdn.com/w40/ba.png" alt="BAM" loading="lazy">
+            <span class="kv-kod">BAM</span>
+            <span class="kv-naziv">marka</span>
+            <span class="kv-vrednost">—</span>
+        </div>
+    </div>
+    <div class="kurs-vise" id="kurs-vise">Prikaži sve valute srednjeg kursa dinara (RSD)</div>
 
-                <!-- KALKULATOR -->
-                <div class="kalkulator">
-                    <input type="number" id="kalk-iznos" placeholder="Količina za razmenu" step="any">
-                    <select id="kalk-valuta">
-                        <option value="EUR">EUR</option>
-                        <option value="USD">USD</option>
-                        <option value="CHF">CHF</option>
-                        <option value="GBP">GBP</option>
-                        <option value="RUB">RUB</option>
-                        <option value="BAM">BAM</option>
-                    </select>
-                    <button id="kalk-smer" type="button" title="Promeni smer">⇄</button>
-                    <div class="kalk-rezultat" id="kalk-rezultat">—</div>
-                </div>
-            </div>
+    <!-- KALKULATOR -->
+    <div class="kalkulator">
+        <div class="kalk-polje">
+            <img id="kalk-flag-levo" class="kalk-zastava" src="https://flagcdn.com/w40/eu.png" alt="EUR">
+            <input type="number" id="kalk-iznos" placeholder="Količina" step="any">
+        </div>
+        <select id="kalk-valuta">
+            <option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+            <option value="CHF">CHF</option>
+            <option value="GBP">GBP</option>
+            <option value="RUB">RUB</option>
+            <option value="BAM">BAM</option>
+        </select>
+        <button id="kalk-smer" type="button" title="Promeni smer">⇄</button>
+        <div class="kalk-polje kalk-polje-desno">
+            <img id="kalk-flag-desno" class="kalk-zastava" src="https://flagcdn.com/w40/rs.png" alt="RSD">
+            <div class="kalk-rezultat" id="kalk-rezultat">—</div>
+        </div>
+    </div>
+</div>
+
+
+            
+            
+            
 
         </section>
 
