@@ -5,7 +5,7 @@ const GWEI_TO_ETH = 1e-9;
 const ZAMA_MULTIPLIER = 218;
 
 const GAS_INTERVAL = 12000;
-const ZAMA_INTERVAL = GAS_INTERVAL * 10;
+const ZAMA_INTERVAL = GAS_INTERVAL * 5;
 
 // ===== FORMATIRANJE =====
 function formatUsd(n) {
@@ -75,12 +75,36 @@ function resetGasDisplay() {
     });
 }
 
+// ===== GAS EMAIL CHECKBOX =====
+const GAS_EMAIL_KEY = 'gas_email_aktivan';
+
+function getEmailAktivan() {
+    try {
+        return localStorage.getItem(GAS_EMAIL_KEY) === '1';
+    } catch (e) { return false; }
+}
+
+function setEmailAktivan(aktivan) {
+    try {
+        localStorage.setItem(GAS_EMAIL_KEY, aktivan ? '1' : '0');
+    } catch (e) {}
+}
+
+function initEmailCheckbox() {
+    const cb = document.getElementById('gas-email-cb');
+    if (!cb) return;
+    cb.checked = getEmailAktivan();
+    cb.addEventListener('change', () => {
+        setEmailAktivan(cb.checked);
+        console.log('Gas email:', cb.checked ? 'UKLJUČEN' : 'ISKLJUČEN');
+    });
+}
+
 // ===== CENE PREKO /odrzivost =====
 async function getPricesPrekoOdrzivost(cgIds) {
     try {
         const res = await fetchRateLimited(`${WORKER_URL}/odrzivost?ids=${cgIds.join(',')}`);
         const data = await res.json();
-        console.log('✅ Cene preko', data.izvor || '?', ':', data);
         return data;
     } catch (e) {
         console.warn('Održivost greška:', e);
@@ -263,6 +287,13 @@ async function posaljiEmailMinimum(podaci) {
 
     const jeGas = (typeof podaci === 'number');
 
+    // Ako je gas — proveri checkbox; ako nije štiklirano, ne šalji
+    if (jeGas && !getEmailAktivan()) {
+        console.log('Gas email preskočen — checkbox nije štikliran');
+        return;
+    }
+
+    // Cooldown samo za gas
     if (jeGas) {
         const provera = await emailTreba('gas');
         if (!provera.treba) {
@@ -310,6 +341,7 @@ async function posaljiEmailMinimum(podaci) {
 window.posaljiEmailMinimum = posaljiEmailMinimum;
 
 // ===== INIT =====
+initEmailCheckbox();
 loadGas();
 loadZama();
 loadFearGreed();
