@@ -481,7 +481,7 @@ body {
 .marquee-item {
     display: inline-flex;
     align-items: center;
-    gap: 5px;
+    gap: 3px;
     text-decoration: none;
     color: #e0e0e0;
     font-size: 0.78rem;
@@ -510,8 +510,7 @@ body {
 .marquee-item .m-promena {
     font-weight: 600;
     font-variant-numeric: tabular-nums;
-    min-width: 42px;
-    text-align: right;
+    text-align: left;
 }
 .marquee-item .m-promena.up { color: #4caf50; }
 .marquee-item .m-promena.down { color: #f44336; }
@@ -597,6 +596,7 @@ body {
     font-variant-numeric: tabular-nums;
     color: #c0c0c0;
     font-size: 0.75rem;
+    padding-right: 22px;
 }
 .liste-red .lr-promena {
     min-width: 72px;
@@ -865,8 +865,8 @@ body {
     .adresa-input-row { flex-wrap: wrap; }
     .adresa-input-row input { min-width: 100%; }
     .kurs-grid { grid-template-columns: 1fr; }
-    .marquee-item .m-promena { min-width: 38px; }
     .liste-red .lr-promena { min-width: 62px; }
+    .liste-red .lr-cena { padding-right: 16px; }
     .kalk-polje:first-child { flex: 0 0 25%; }
 }
 
