@@ -17,8 +17,21 @@
     function formatPromena(n, p) {
         if (typeof n !== 'number' || !isFinite(n)) return '';
         const znak = n >= 0 ? '+' : '';
-        const dec = p === '1h' ? 2 : 0;
-        return znak + n.toFixed(dec) + '%';
+        const abs = Math.abs(n);
+
+        if (p === '1h') {
+            // 1h — 2 decimale, sa zarezima ako je preko 1000
+            if (abs >= 1000) {
+                return znak + abs.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + '%';
+            }
+            return znak + abs.toFixed(2) + '%';
+        } else {
+            // ostali periodi — bez decimala, sa zarezima ako je preko 1000
+            if (abs >= 1000) {
+                return znak + Math.round(abs).toLocaleString('en-US') + '%';
+            }
+            return znak + Math.round(abs) + '%';
+        }
     }
 
     function cmcUrl(c) {
