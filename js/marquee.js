@@ -15,7 +15,14 @@
     function formatPromena(n) {
         if (typeof n !== 'number' || !isFinite(n)) return '';
         const znak = n >= 0 ? '+' : '';
-        return znak + Math.round(n) + '%';
+        const abs = Math.abs(n);
+        let tekst;
+        if (abs >= 1000) {
+            tekst = Math.round(abs).toLocaleString('en-US');
+        } else {
+            tekst = Math.round(abs);
+        }
+        return znak + tekst + '%';
     }
 
     function cmcUrl(c) {
@@ -46,7 +53,6 @@
             const gornji = [...(d.set1 || []), ...(d.fiksni || [])];
             const donji = [...(d.set2 || []), ...(d.set3 || [])];
 
-            // Dupliraj listu za beskonačnu animaciju (2x isti sadržaj)
             const gornjiHtml = gornji.map(napraviItem).join('') + gornji.map(napraviItem).join('');
             const donjiHtml = donji.map(napraviItem).join('') + donji.map(napraviItem).join('');
 
