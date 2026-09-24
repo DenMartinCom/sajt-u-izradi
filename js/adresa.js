@@ -1,4 +1,3 @@
-
 // ===== PRAĆENJE ADRESE (ETH / USDT / ZAMA) =====
 
 (function () {
@@ -158,14 +157,14 @@
         return null;
     }
 
-    // ===== CENA PREKO /cena (Worker bira najzdraviji servis) =====
+    // ===== CENA PREKO /odrzivost (Worker bira najzdraviji servis) =====
     async function dohvatiCenu(token, adresa) {
         if (kešCena[token] && (Date.now() - kešCena[token].vreme) < CENA_KEŠ_MS) {
             return kešCena[token].vrednost;
         }
 
         const config = KRIPTO[token];
-        const data = await fetchSaRetry(`${WORKER_URL}/cena?ids=${config.coingecko}`);
+        const data = await fetchSaRetry(`${WORKER_URL}/odrzivost?ids=${config.coingecko}`);
 
         if (data && typeof data[config.coingecko] === 'object' && typeof data[config.coingecko].usd === 'number') {
             console.log('✅ Cena preko', data.izvor || 'nepoznat', ':', data[config.coingecko].usd);
