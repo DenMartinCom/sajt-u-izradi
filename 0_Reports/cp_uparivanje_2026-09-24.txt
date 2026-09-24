@@ -1,0 +1,748 @@
+CP uparivanje — 2026-09-24
+==================================================
+
+AUTO (1):
+
+  fet → fetch-ai
+    CP: https://coinpaprika.com/coin/fetch-ai/
+
+
+==================================================
+SUMNJIVI (0):
+
+
+==================================================
+NIJE NAĐENO (244):
+
+  eth — Ethereum (cena $2688.108267448519)
+    CMC: https://coinmarketcap.com/currencies/eth/
+
+  usdt — Tether (cena $0.999815294811975)
+    CMC: https://coinmarketcap.com/currencies/usdt/
+
+  zama — Zama (cena $0.09261290014421575)
+    CMC: https://coinmarketcap.com/currencies/zama/
+
+  btc — Bitcoin (cena $84149.85653870775)
+    CMC: https://coinmarketcap.com/currencies/btc/
+
+  bnb — BNB (cena $772.9581341337239)
+    CMC: https://coinmarketcap.com/currencies/bnb/
+
+  xrp — XRP (cena $1.5046213465785423)
+    CMC: https://coinmarketcap.com/currencies/xrp/
+
+  usdc — USDC (cena $0.9999150478389305)
+    CMC: https://coinmarketcap.com/currencies/usdc/
+
+  sol — Solana (cena $115.09082300318532)
+    CMC: https://coinmarketcap.com/currencies/sol/
+
+  trx — TRON (cena $0.3433700309089813)
+    CMC: https://coinmarketcap.com/currencies/trx/
+
+  zec — Zcash (cena $1522.7072711611788)
+    CMC: https://coinmarketcap.com/currencies/zec/
+
+  hype — Hyperliquid (cena $92.81462391917147)
+    CMC: https://coinmarketcap.com/currencies/hype/
+
+  doge — Dogecoin (cena $0.09430463906995003)
+    CMC: https://coinmarketcap.com/currencies/doge/
+
+  xmr — Monero (cena $556.2751048565198)
+    CMC: https://coinmarketcap.com/currencies/xmr/
+
+  link — Chainlink (cena $12.390960743941983)
+    CMC: https://coinmarketcap.com/currencies/link/
+
+  ada — Cardano (cena $0.24075400276666498)
+    CMC: https://coinmarketcap.com/currencies/ada/
+
+  xlm — Stellar (cena $0.2029373480702582)
+    CMC: https://coinmarketcap.com/currencies/xlm/
+
+  uni — Uniswap (cena $9.299509214049827)
+    CMC: https://coinmarketcap.com/currencies/uni/
+
+  near — NEAR Protocol (cena $4.27743797221653)
+    CMC: https://coinmarketcap.com/currencies/near/
+
+  bch — Bitcoin Cash (cena $338.62454462910256)
+    CMC: https://coinmarketcap.com/currencies/bch/
+
+  avax — Avalanche (cena $10.2456634275691)
+    CMC: https://coinmarketcap.com/currencies/avax/
+
+  usde — Ethena USDe (cena $0.9996131125639205)
+    CMC: https://coinmarketcap.com/currencies/usde/
+
+  ltc — Litecoin (cena $67.49872988854729)
+    CMC: https://coinmarketcap.com/currencies/ltc/
+
+  cc — Canton (cena $0.1086829712880061)
+    CMC: https://coinmarketcap.com/currencies/cc/
+
+  dai — Dai (cena $0.9997924252674171)
+    CMC: https://coinmarketcap.com/currencies/dai/
+
+  sui — Sui (cena $0.9610401682395332)
+    CMC: https://coinmarketcap.com/currencies/sui/
+
+  hbar — Hedera (cena $0.0916474662562152)
+    CMC: https://coinmarketcap.com/currencies/hbar/
+
+  gram — Gram (prev. Toncoin) (cena $1.427400582558666)
+    CMC: https://coinmarketcap.com/currencies/gram/
+
+  shib — Shiba Inu (cena $0.000005719645114647457)
+    CMC: https://coinmarketcap.com/currencies/shib/
+
+  m — MemeCore (cena $1.2546533598660496)
+    CMC: https://coinmarketcap.com/currencies/m/
+
+  tao — Bittensor (cena $289.050076072863)
+    CMC: https://coinmarketcap.com/currencies/tao/
+
+  usdg — Global Dollar (cena $0.9999101367232994)
+    CMC: https://coinmarketcap.com/currencies/usdg/
+
+  cro — Cronos (cena $0.06226816086932032)
+    CMC: https://coinmarketcap.com/currencies/cro/
+
+  pyusd — PayPal USD (cena $0.9997042333744015)
+    CMC: https://coinmarketcap.com/currencies/pyusd/
+
+  xaut — Tether Gold (cena $4281.460611541786)
+    CMC: https://coinmarketcap.com/currencies/xaut/
+
+  okb — OKB (cena $119.85215697719377)
+    CMC: https://coinmarketcap.com/currencies/okb/
+
+  rlusd — Ripple USD (cena $0.9999664242428516)
+    CMC: https://coinmarketcap.com/currencies/rlusd/
+
+  aave — Aave (cena $139.50792680022053)
+    CMC: https://coinmarketcap.com/currencies/aave/
+
+  ondo — Ondo (cena $0.43164520100724485)
+    CMC: https://coinmarketcap.com/currencies/ondo/
+
+  ena — Ethena (cena $0.20986873551421073)
+    CMC: https://coinmarketcap.com/currencies/ena/
+
+  mnt — Mantle (cena $0.6619968663449485)
+    CMC: https://coinmarketcap.com/currencies/mnt/
+
+  dot — Polkadot (cena $1.1246891065337468)
+    CMC: https://coinmarketcap.com/currencies/dot/
+
+  pump — Pump.fun (cena $0.003974528989888596)
+    CMC: https://coinmarketcap.com/currencies/pump/
+
+  pepe — Pepe (cena $0.0000044093330606425)
+    CMC: https://coinmarketcap.com/currencies/pepe/
+
+  aster — Aster (cena $0.7074290117569308)
+    CMC: https://coinmarketcap.com/currencies/aster/
+
+  paxg — PAX Gold (cena $4279.223055119924)
+    CMC: https://coinmarketcap.com/currencies/paxg/
+
+  wlfi — World Liberty Financial (cena $0.05486079572387503)
+    CMC: https://coinmarketcap.com/currencies/wlfi/
+
+  sky — Sky (cena $0.07097959034436528)
+    CMC: https://coinmarketcap.com/currencies/sky/
+
+  icp — Internet Computer (cena $2.9566671304790377)
+    CMC: https://coinmarketcap.com/currencies/icp/
+
+  wld — Worldcoin (cena $0.41586725124239105)
+    CMC: https://coinmarketcap.com/currencies/wld/
+
+  arb — Arbitrum (cena $0.21703784209246568)
+    CMC: https://coinmarketcap.com/currencies/arb/
+
+  usdd — USDD (cena $0.9994729580494538)
+    CMC: https://coinmarketcap.com/currencies/usdd/
+
+  vvv — Venice Token (cena $30.377526413495744)
+    CMC: https://coinmarketcap.com/currencies/vvv/
+
+  bgb — Bitget Token (cena $2.0290816071617486)
+    CMC: https://coinmarketcap.com/currencies/bgb/
+
+  morpho — Morpho (cena $2.697227375848978)
+    CMC: https://coinmarketcap.com/currencies/morpho/
+
+  u — United Stables (cena $0.9993594699560939)
+    CMC: https://coinmarketcap.com/currencies/u/
+
+  etc — Ethereum Classic (cena $9.243247337322567)
+    CMC: https://coinmarketcap.com/currencies/etc/
+
+  lit — Lighter (cena $5.255167552257075)
+    CMC: https://coinmarketcap.com/currencies/lit/
+
+  kas — Kaspa (cena $0.03953131241356437)
+    CMC: https://coinmarketcap.com/currencies/kas/
+
+  algo — Algorand (cena $0.10542897215091032)
+    CMC: https://coinmarketcap.com/currencies/algo/
+
+  jup — Jupiter (cena $0.28773237840792426)
+    CMC: https://coinmarketcap.com/currencies/jup/
+
+  render — Render (cena $1.7644477396056322)
+    CMC: https://coinmarketcap.com/currencies/render/
+
+  jst — JUST (cena $0.11051353475544856)
+    CMC: https://coinmarketcap.com/currencies/jst/
+
+  cake — PancakeSwap (cena $2.6314395243712303)
+    CMC: https://coinmarketcap.com/currencies/cake/
+
+  qnt — Quant (cena $71.78581417874871)
+    CMC: https://coinmarketcap.com/currencies/qnt/
+
+  fil — Filecoin (cena $0.9821550736628365)
+    CMC: https://coinmarketcap.com/currencies/fil/
+
+  inj — Injective (cena $7.863066939022933)
+    CMC: https://coinmarketcap.com/currencies/inj/
+
+  dash — Dash (cena $60.15419316078576)
+    CMC: https://coinmarketcap.com/currencies/dash/
+
+  vet — VeChain (cena $0.00916817776079169)
+    CMC: https://coinmarketcap.com/currencies/vet/
+
+  ethfi — ether.fi (cena $0.6765713009038842)
+    CMC: https://coinmarketcap.com/currencies/ethfi/
+
+  aero — Aerodrome Finance (cena $0.6789328075211217)
+    CMC: https://coinmarketcap.com/currencies/aero/
+
+  apt — Aptos (cena $0.7693240019694573)
+    CMC: https://coinmarketcap.com/currencies/apt/
+
+  stable — Stable (cena $0.026024715363869334)
+    CMC: https://coinmarketcap.com/currencies/stable/
+
+  xdc — XDC Network (cena $0.029575556433583415)
+    CMC: https://coinmarketcap.com/currencies/xdc/
+
+  trump — OFFICIAL TRUMP (cena $2.001813869748875)
+    CMC: https://coinmarketcap.com/currencies/trump/
+
+  stx — Stacks (cena $0.3115061664319108)
+    CMC: https://coinmarketcap.com/currencies/stx/
+
+  flr — Flare (cena $0.007142363054009959)
+    CMC: https://coinmarketcap.com/currencies/flr/
+
+  nexo — Nexo (cena $0.8681173746345052)
+    CMC: https://coinmarketcap.com/currencies/nexo/
+
+  pengu — Pudgy Penguins (cena $0.010067702932886538)
+    CMC: https://coinmarketcap.com/currencies/pengu/
+
+  pieverse — Pieverse (cena $1.6719158192042078)
+    CMC: https://coinmarketcap.com/currencies/pieverse/
+
+  pyth — Pyth Network (cena $0.06479772327802287)
+    CMC: https://coinmarketcap.com/currencies/pyth/
+
+  tusd — TrueUSD (cena $0.9995447394578918)
+    CMC: https://coinmarketcap.com/currencies/tusd/
+
+  ray — Raydium (cena $2.0905456794158486)
+    CMC: https://coinmarketcap.com/currencies/ray/
+
+  spx — SPX6900 (cena $0.4347965544043853)
+    CMC: https://coinmarketcap.com/currencies/spx/
+
+  virtual — Virtuals Protocol (cena $0.7198536076568588)
+    CMC: https://coinmarketcap.com/currencies/virtual/
+
+  eurc — EURC (cena $1.1379771696999978)
+    CMC: https://coinmarketcap.com/currencies/eurc/
+
+  sei — Sei (cena $0.059544994340055)
+    CMC: https://coinmarketcap.com/currencies/sei/
+
+  zro — LayerZero (cena $1.529350184236007)
+    CMC: https://coinmarketcap.com/currencies/zro/
+
+  pendle — Pendle (cena $2.404798956968476)
+    CMC: https://coinmarketcap.com/currencies/pendle/
+
+  pons — Pons (cena $0.6214428042222305)
+    CMC: https://coinmarketcap.com/currencies/pons/
+
+  tia — Celestia (cena $0.4749730338693043)
+    CMC: https://coinmarketcap.com/currencies/tia/
+
+  night — Midnight (cena $0.02360099891670979)
+    CMC: https://coinmarketcap.com/currencies/night/
+
+  ff — Falcon Finance (cena $0.13727762198935106)
+    CMC: https://coinmarketcap.com/currencies/ff/
+
+  xtz — Tezos (cena $0.3276505299771939)
+    CMC: https://coinmarketcap.com/currencies/xtz/
+
+  ldo — Lido DAO (cena $0.3955662475308731)
+    CMC: https://coinmarketcap.com/currencies/ldo/
+
+  bsv — Bitcoin SV (cena $21.53595449449385)
+    CMC: https://coinmarketcap.com/currencies/bsv/
+
+  btt — BitTorrent [New] (cena $3.6556963842120235e-7)
+    CMC: https://coinmarketcap.com/currencies/btt/
+
+  fdusd — First Digital USD (cena $0.9986119014814699)
+    CMC: https://coinmarketcap.com/currencies/fdusd/
+
+  strk — Starknet (cena $0.03934334983817762)
+    CMC: https://coinmarketcap.com/currencies/strk/
+
+  dcr — Decred (cena $18.446073170402613)
+    CMC: https://coinmarketcap.com/currencies/dcr/
+
+  gno — Gnosis (cena $114.26017981603422)
+    CMC: https://coinmarketcap.com/currencies/gno/
+
+  mon — Monad (cena $0.024317097571158675)
+    CMC: https://coinmarketcap.com/currencies/mon/
+
+  lunc — Terra Classic (cena $0.000054143283883158646)
+    CMC: https://coinmarketcap.com/currencies/lunc/
+
+  imx — Immutable (cena $0.1481393941920334)
+    CMC: https://coinmarketcap.com/currencies/imx/
+
+  kite — Kite (cena $0.13015545583921104)
+    CMC: https://coinmarketcap.com/currencies/kite/
+
+  ar — Arweave (cena $4.332467317760013)
+    CMC: https://coinmarketcap.com/currencies/ar/
+
+  op — Optimism (cena $0.12543075982744833)
+    CMC: https://coinmarketcap.com/currencies/op/
+
+  bonk — Bonk (cena $0.0000035601771933669647)
+    CMC: https://coinmarketcap.com/currencies/bonk/
+
+  ens — Ethereum Name Service (cena $6.803696038971263)
+    CMC: https://coinmarketcap.com/currencies/ens/
+
+  useless — Useless Coin (cena $0.29734281738443114)
+    CMC: https://coinmarketcap.com/currencies/useless/
+
+  cfx — Conflux (cena $0.05233154796382106)
+    CMC: https://coinmarketcap.com/currencies/cfx/
+
+  xpl — Plasma (cena $0.09006808497204583)
+    CMC: https://coinmarketcap.com/currencies/xpl/
+
+  syrup — Maple Finance (cena $0.20274228469490158)
+    CMC: https://coinmarketcap.com/currencies/syrup/
+
+  floki — FLOKI (cena $0.000027779620867288387)
+    CMC: https://coinmarketcap.com/currencies/floki/
+
+  jto — Jito (cena $0.46584832221334266)
+    CMC: https://coinmarketcap.com/currencies/jto/
+
+  grt — The Graph (cena $0.02558578699609167)
+    CMC: https://coinmarketcap.com/currencies/grt/
+
+  nft — AINFT (cena $2.390869493820662e-7)
+    CMC: https://coinmarketcap.com/currencies/nft/
+
+  wif — dogwifhat (cena $0.24243838496140926)
+    CMC: https://coinmarketcap.com/currencies/wif/
+
+  iota — IOTA (cena $0.04706080397769978)
+    CMC: https://coinmarketcap.com/currencies/iota/
+
+  theta — Theta Network (cena $0.21901052960050588)
+    CMC: https://coinmarketcap.com/currencies/theta/
+
+  comp — Compound (cena $22.723235133002014)
+    CMC: https://coinmarketcap.com/currencies/comp/
+
+  jasmy — JasmyCoin (cena $0.004335559416346288)
+    CMC: https://coinmarketcap.com/currencies/jasmy/
+
+  edge — edgeX (cena $0.5700723215704995)
+    CMC: https://coinmarketcap.com/currencies/edge/
+
+  b — BUILDon (cena $0.21390524156622334)
+    CMC: https://coinmarketcap.com/currencies/b/
+
+  kaia — Kaia (cena $0.03324426603216602)
+    CMC: https://coinmarketcap.com/currencies/kaia/
+
+  cvx — Convex Finance (cena $1.9559661917919182)
+    CMC: https://coinmarketcap.com/currencies/cvx/
+
+  zbcn — Zebec Network (cena $0.0020293149699319546)
+    CMC: https://coinmarketcap.com/currencies/zbcn/
+
+  rune — THORChain (cena $0.6270645637669144)
+    CMC: https://coinmarketcap.com/currencies/rune/
+
+  kmno — Kamino (cena $0.03671479419919177)
+    CMC: https://coinmarketcap.com/currencies/kmno/
+
+  fartcoin — Fartcoin (cena $0.18714120791700317)
+    CMC: https://coinmarketcap.com/currencies/fartcoin/
+
+  cashcat — Cash Cat (cena $0.16018891477504302)
+    CMC: https://coinmarketcap.com/currencies/cashcat/
+
+  akt — Akash Network (cena $0.7123037835074355)
+    CMC: https://coinmarketcap.com/currencies/akt/
+
+  axs — Axie Infinity (cena $1.0513888888648955)
+    CMC: https://coinmarketcap.com/currencies/axs/
+
+  2z — DoubleZero (cena $0.052856791000601776)
+    CMC: https://coinmarketcap.com/currencies/2z/
+
+  neo — Neo (cena $2.556014809410673)
+    CMC: https://coinmarketcap.com/currencies/neo/
+
+  trac — OriginTrail (cena $0.35717572848860085)
+    CMC: https://coinmarketcap.com/currencies/trac/
+
+  xcn — Onyxcoin (cena $0.005091303785994394)
+    CMC: https://coinmarketcap.com/currencies/xcn/
+
+  chz — Chiliz (cena $0.015938211278799307)
+    CMC: https://coinmarketcap.com/currencies/chz/
+
+  mana — Decentraland (cena $0.08433040861632726)
+    CMC: https://coinmarketcap.com/currencies/mana/
+
+  xec — eCash (cena $0.000008779532973459703)
+    CMC: https://coinmarketcap.com/currencies/xec/
+
+  dexe — DeXe (cena $1.929614190493557)
+    CMC: https://coinmarketcap.com/currencies/dexe/
+
+  vsn — Vision (cena $0.044559701979667354)
+    CMC: https://coinmarketcap.com/currencies/vsn/
+
+  tel — Telcoin (cena $0.0017071312669540294)
+    CMC: https://coinmarketcap.com/currencies/tel/
+
+  a — Vaulta (cena $0.09473124722899345)
+    CMC: https://coinmarketcap.com/currencies/a/
+
+  sfp — SafePal (cena $0.2986370964233408)
+    CMC: https://coinmarketcap.com/currencies/sfp/
+
+  met — Meteora (cena $0.34711393667731955)
+    CMC: https://coinmarketcap.com/currencies/met/
+
+  ape — ApeCoin (cena $0.14982057308815544)
+    CMC: https://coinmarketcap.com/currencies/ape/
+
+  1inch — 1inch (cena $0.09914681132247001)
+    CMC: https://coinmarketcap.com/currencies/1inch/
+
+  aioz — AIOZ Network (cena $0.12067442329612885)
+    CMC: https://coinmarketcap.com/currencies/aioz/
+
+  zen — Horizen (cena $7.317254815060212)
+    CMC: https://coinmarketcap.com/currencies/zen/
+
+  sent — Sentient (cena $0.021567869604249515)
+    CMC: https://coinmarketcap.com/currencies/sent/
+
+  form — Four (cena $0.2993877683643314)
+    CMC: https://coinmarketcap.com/currencies/form/
+
+  h — Humanity (cena $0.057804219789691164)
+    CMC: https://coinmarketcap.com/currencies/h/
+
+  egld — MultiversX (cena $4.279588165509113)
+    CMC: https://coinmarketcap.com/currencies/egld/
+
+  bat — Basic Attention Token (cena $0.08975904037647765)
+    CMC: https://coinmarketcap.com/currencies/bat/
+
+  zk — ZKsync (cena $0.011612253713045273)
+    CMC: https://coinmarketcap.com/currencies/zk/
+
+  glm — Golem (cena $0.12404017781137981)
+    CMC: https://coinmarketcap.com/currencies/glm/
+
+  sand — The Sandbox (cena $0.040768621635622906)
+    CMC: https://coinmarketcap.com/currencies/sand/
+
+  dog — Dog (Bitcoin) (cena $0.0010855875958443934)
+    CMC: https://coinmarketcap.com/currencies/dog/
+
+  dydx — dYdX (cena $0.1298928387732108)
+    CMC: https://coinmarketcap.com/currencies/dydx/
+
+  geod — GEODNET (cena $0.25219572813106567)
+    CMC: https://coinmarketcap.com/currencies/geod/
+
+  soon — SOON (cena $0.19812405693955587)
+    CMC: https://coinmarketcap.com/currencies/soon/
+
+  fluid — Fluid (cena $1.368478265667105)
+    CMC: https://coinmarketcap.com/currencies/fluid/
+
+  s — Sonic (cena $0.04077918822991239)
+    CMC: https://coinmarketcap.com/currencies/s/
+
+  skr — Seeker (cena $0.020777035626751896)
+    CMC: https://coinmarketcap.com/currencies/skr/
+
+  ath — Aethir (cena $0.005911871483916095)
+    CMC: https://coinmarketcap.com/currencies/ath/
+
+  lsk — Lisk (cena $0.311327)
+    CMC: https://coinmarketcap.com/currencies/lsk/
+
+  gala — Gala (cena $0.0019909653208576)
+    CMC: https://coinmarketcap.com/currencies/gala/
+
+  ordi — ORDI (cena $4.555155604107749)
+    CMC: https://coinmarketcap.com/currencies/ordi/
+
+  qtum — Qtum (cena $0.9742055977353634)
+    CMC: https://coinmarketcap.com/currencies/qtum/
+
+  marscoin — MarsCoin (cena $0.12267809820091917)
+    CMC: https://coinmarketcap.com/currencies/marscoin/
+
+  rsr — Reserve Rights (cena $0.001678321961358576)
+    CMC: https://coinmarketcap.com/currencies/rsr/
+
+  zrx — 0x Protocol (cena $0.11907563464650812)
+    CMC: https://coinmarketcap.com/currencies/zrx/
+
+  super — SuperVerse (cena $0.1743881834392999)
+    CMC: https://coinmarketcap.com/currencies/super/
+
+  beam — Beam (cena $0.0019343890761715971)
+    CMC: https://coinmarketcap.com/currencies/beam/
+
+  plume — Plume (cena $0.01631520848201733)
+    CMC: https://coinmarketcap.com/currencies/plume/
+
+  wemix — WEMIX (cena $0.19758244535766362)
+    CMC: https://coinmarketcap.com/currencies/wemix/
+
+  zeta — ZetaChain (cena $0.050394)
+    CMC: https://coinmarketcap.com/currencies/zeta/
+
+  chip — USD.AI (cena $0.04395084)
+    CMC: https://coinmarketcap.com/currencies/chip/
+
+  orca — Orca (cena $1.569568696025831)
+    CMC: https://coinmarketcap.com/currencies/orca/
+
+  rain — Rain (cena $0.012195907540329275)
+    CMC: https://coinmarketcap.com/currencies/rain/
+
+  btw — Bitway (cena $1.080755199811237)
+    CMC: https://coinmarketcap.com/currencies/btw/
+
+  usdy — Ondo US Dollar Yield (cena $1.1465669362512243)
+    CMC: https://coinmarketcap.com/currencies/usdy/
+
+  usdgo — USDGO (cena $0.9999789337266776)
+    CMC: https://coinmarketcap.com/currencies/usdgo/
+
+  ake — AKEDO (cena $0.040698971711829415)
+    CMC: https://coinmarketcap.com/currencies/ake/
+
+  usdf — Falcon USD (cena $0.9961118497458678)
+    CMC: https://coinmarketcap.com/currencies/usdf/
+
+  ctm — c8ntinuum (cena $0.2447729614846932)
+    CMC: https://coinmarketcap.com/currencies/ctm/
+
+  gho — GHO (cena $0.9990992594426715)
+    CMC: https://coinmarketcap.com/currencies/gho/
+
+  bdx — Beldex (cena $0.07589452246681633)
+    CMC: https://coinmarketcap.com/currencies/bdx/
+
+  usd0 — Usual USD (cena $0.9990953616381189)
+    CMC: https://coinmarketcap.com/currencies/usd0/
+
+  usdai — USDai (cena $1.0000754288328642)
+    CMC: https://coinmarketcap.com/currencies/usdai/
+
+  br — Bedrock (cena $1.0638638833189924)
+    CMC: https://coinmarketcap.com/currencies/br/
+
+  ub — Unibase (cena $0.14383974139323552)
+    CMC: https://coinmarketcap.com/currencies/ub/
+
+  drv — Derive (cena $0.4536639504944018)
+    CMC: https://coinmarketcap.com/currencies/drv/
+
+  ai — Artificial Inu (cena $0.23505383487029113)
+    CMC: https://coinmarketcap.com/currencies/ai/
+
+  apepe — Ape and Pepe (cena $0.0000012407492204505202)
+    CMC: https://coinmarketcap.com/currencies/apepe/
+
+  tibbir — Ribbita by Virtuals (cena $0.2487766089990891)
+    CMC: https://coinmarketcap.com/currencies/tibbir/
+
+  ausd — AUSD (cena $0.999626308387066)
+    CMC: https://coinmarketcap.com/currencies/ausd/
+
+  frax — Legacy Frax Dollar (cena $0.991603911565746)
+    CMC: https://coinmarketcap.com/currencies/frax/
+
+  bp — Backpack (cena $0.840044646440794)
+    CMC: https://coinmarketcap.com/currencies/bp/
+
+  eurcv — EUR CoinVertible (cena $1.1378781521915864)
+    CMC: https://coinmarketcap.com/currencies/eurcv/
+
+  npc — Non-Playable Coin (cena $0.023447975328012825)
+    CMC: https://coinmarketcap.com/currencies/npc/
+
+  usat — USAT (cena $0.9992942464749996)
+    CMC: https://coinmarketcap.com/currencies/usat/
+
+  wfi — WeFi (cena $2.02240003664262)
+    CMC: https://coinmarketcap.com/currencies/wfi/
+
+  borg — SwissBorg (cena $0.18171664042785776)
+    CMC: https://coinmarketcap.com/currencies/borg/
+
+  shfl — Shuffle (cena $0.3427477769724048)
+    CMC: https://coinmarketcap.com/currencies/shfl/
+
+  dgai — DGrid AI (cena $1.0285109885562127)
+    CMC: https://coinmarketcap.com/currencies/dgai/
+
+  gusd — GUSD (cena $0.9981665398010408)
+    CMC: https://coinmarketcap.com/currencies/gusd/
+
+  jsm — Joseon Mun (cena $0.0004535943625735056)
+    CMC: https://coinmarketcap.com/currencies/jsm/
+
+  zano — Zano (cena $7.501357286344776)
+    CMC: https://coinmarketcap.com/currencies/zano/
+
+  uai — UnifAI Network (cena $0.394739)
+    CMC: https://coinmarketcap.com/currencies/uai/
+
+  rlb — Rollbit Coin (cena $0.08321105739614447)
+    CMC: https://coinmarketcap.com/currencies/rlb/
+
+  crclb — Circle Internet Group Tokenized bStocks (cena $91.934768366567)
+    CMC: https://coinmarketcap.com/currencies/crclb/
+
+  vcnt — ViciCoin (cena $19.59614121673408)
+    CMC: https://coinmarketcap.com/currencies/vcnt/
+
+  q — Quack AI (cena $0.026615028482277422)
+    CMC: https://coinmarketcap.com/currencies/q/
+
+  crclon — Circle Internet Group Tokenized Stock (Ondo) (cena $91.79805200474465)
+    CMC: https://coinmarketcap.com/currencies/crclon/
+
+  zcat — Anonymous Cat (cena $0.07848)
+    CMC: https://coinmarketcap.com/currencies/zcat/
+
+  bulla — Bulla (cena $0.09364)
+    CMC: https://coinmarketcap.com/currencies/bulla/
+
+  frxusd — Frax USD (cena $0.9998091135170077)
+    CMC: https://coinmarketcap.com/currencies/frxusd/
+
+  soso — SoSoValue (cena $0.3312646078734121)
+    CMC: https://coinmarketcap.com/currencies/soso/
+
+  gas — Gas (cena $1.41)
+    CMC: https://coinmarketcap.com/currencies/gas/
+
+  prom — Prom (cena $5.185750479887988)
+    CMC: https://coinmarketcap.com/currencies/prom/
+
+  brent — Crude Oil Brent (Zedcex) (cena $96.5284395218328)
+    CMC: https://coinmarketcap.com/currencies/brent/
+
+  grass — Grass (cena $0.4457640894474985)
+    CMC: https://coinmarketcap.com/currencies/grass/
+
+  sn51 — lium (cena $26.062846435510046)
+    CMC: https://coinmarketcap.com/currencies/sn51/
+
+  matic — Polygon (prev. MATIC) (cena $0.10269068173916068)
+    CMC: https://coinmarketcap.com/currencies/matic/
+
+  peaq — peaq (cena $0.03454744)
+    CMC: https://coinmarketcap.com/currencies/peaq/
+
+  pm — PumpMeme (cena $3.3597729966142826)
+    CMC: https://coinmarketcap.com/currencies/pm/
+
+  leo — UNUS SED LEO (cena $8.9509450272058)
+    CMC: https://coinmarketcap.com/currencies/leo/
+
+  usd1 — World Liberty Financial USD (cena $0.9993654545192422)
+    CMC: https://coinmarketcap.com/currencies/usd1/
+
+  gt — GateToken (cena $10.626320526906834)
+    CMC: https://coinmarketcap.com/currencies/gt/
+
+  kcs — KuCoin Token (cena $7.257220812756798)
+    CMC: https://coinmarketcap.com/currencies/kcs/
+
+  cow — CoW Protocol (cena $0.145878)
+    CMC: https://coinmarketcap.com/currencies/cow/
+
+  rif — Rootstock Infrastructure Framework (cena $0.095202)
+    CMC: https://coinmarketcap.com/currencies/rif/
+
+  pi — Pi (cena $0.08791542142069612)
+    CMC: https://coinmarketcap.com/currencies/pi/
+
+  atom — Cosmos (cena $1.7075134238172096)
+    CMC: https://coinmarketcap.com/currencies/atom/
+
+  crv — Curve DAO Token (cena $0.33812144454905585)
+    CMC: https://coinmarketcap.com/currencies/crv/
+
+  sun — Sun [New] (cena $0.017234551178208903)
+    CMC: https://coinmarketcap.com/currencies/sun/
+
+  twt — Trust Wallet Token (cena $0.5489740438152616)
+    CMC: https://coinmarketcap.com/currencies/twt/
+
+  mx — MX Token (cena $1.8820527326659335)
+    CMC: https://coinmarketcap.com/currencies/mx/
+
+  gomining — GoМining (cena $0.3732652333964548)
+    CMC: https://coinmarketcap.com/currencies/gomining/
+
+  melania — Official Melania Meme (cena $0.10454682436808459)
+    CMC: https://coinmarketcap.com/currencies/melania/
+
+  htx — HTX (cena $0.0000017203217841837127)
+    CMC: https://coinmarketcap.com/currencies/htx/
+
+  koge — 48 Club Token (cena $69.29421696167829)
+    CMC: https://coinmarketcap.com/currencies/koge/
+
+  mstrx — MicroStrategy tokenized stock (xStock) (cena $160.9498447326152)
+    CMC: https://coinmarketcap.com/currencies/mstrx/
+
