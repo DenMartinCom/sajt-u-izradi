@@ -19,14 +19,20 @@
         const znak = n >= 0 ? '+' : '';
         const abs = Math.abs(n);
 
-        if (p === '1h') {
-            // 1h — 2 decimale, sa zarezima ako je preko 1000
+        if (p === '1h' || p === '12h') {
+            // kratki periodi — 2 decimale
             if (abs >= 1000) {
                 return znak + abs.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + '%';
             }
             return znak + abs.toFixed(2) + '%';
+        } else if (p === 'volumen_skok' || p === 'volumen_pad') {
+            // volumen promene — 0 decimala
+            if (abs >= 1000) {
+                return znak + Math.round(abs).toLocaleString('en-US') + '%';
+            }
+            return znak + Math.round(abs) + '%';
         } else {
-            // ostali periodi — bez decimala, sa zarezima ako je preko 1000
+            // ostali periodi — bez decimala
             if (abs >= 1000) {
                 return znak + Math.round(abs).toLocaleString('en-US') + '%';
             }
@@ -55,11 +61,15 @@
                 <div class="liste-title">Top 5 promena</div>
                 <select class="liste-period" id="liste-period">
                     <option value="1h">1h</option>
+                    <option value="12h">12h</option>
                     <option value="24h" selected>24h</option>
                     <option value="7d">7d</option>
+                    <option value="14d">14d</option>
                     <option value="30d">30d</option>
                     <option value="60d">60d</option>
                     <option value="90d">90d</option>
+                    <option value="volumen_skok">Volumen ↑</option>
+                    <option value="volumen_pad">Volumen ↓</option>
                 </select>
             </div>
             <div class="liste-kolone">
