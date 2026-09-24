@@ -1,0 +1,31 @@
+Izveštaj CS uparivanja — 2026-09-24
+==================================================
+
+Auto uparivanje (4):
+  - night → midnight-3 (skor 0.82)
+  - marscoin → 0xfe189e97832da1573e4e4ff034f4ffc3a15c7777_binance_smart (skor 0.75)
+  - beam → beam-2 (skor 0.82)
+  - ai → 0x2e8c31162b855a2ffa90f6f8634643ad6f111e18_robinhood (skor 0.75)
+
+
+SUMNJIVI (3):
+  - kite → kite-2 (skor 0.75, CS naziv: Kite)
+    Proveri: https://coinstats.app/coins/kite-2/
+  - gt → gatechain-token (skor 0.58, CS naziv: Gate)
+    Proveri: https://coinstats.app/coins/gatechain-token/
+  - atom → cosmos (skor 0.72, CS naziv: Cosmos Hub)
+    Proveri: https://coinstats.app/coins/cosmos/
+
+
+NIJE NAĐENO (11):
+  - dexe
+  - soon
+  - lsk
+  - ctm
+  - wfi
+  - jsm
+  - vcnt
+  - brent
+  - matic
+  - pm
+  - leo
