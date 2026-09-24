@@ -1,31 +1,59 @@
-Izveštaj CS uparivanja — 2026-09-24
+CS uparivanje — 2026-09-24
 ==================================================
 
-Auto uparivanje (4):
-  - night → midnight-3 (skor 0.82)
-  - marscoin → 0xfe189e97832da1573e4e4ff034f4ffc3a15c7777_binance_smart (skor 0.75)
-  - beam → beam-2 (skor 0.82)
-  - ai → 0x2e8c31162b855a2ffa90f6f8634643ad6f111e18_robinhood (skor 0.75)
+AUTO (1):
+
+  atom → cosmos
+    CS: https://coinstats.app/coins/cosmos/
 
 
-SUMNJIVI (3):
-  - kite → kite-2 (skor 0.75, CS naziv: Kite)
-    Proveri: https://coinstats.app/coins/kite-2/
-  - gt → gatechain-token (skor 0.58, CS naziv: Gate)
-    Proveri: https://coinstats.app/coins/gatechain-token/
-  - atom → cosmos (skor 0.72, CS naziv: Cosmos Hub)
-    Proveri: https://coinstats.app/coins/cosmos/
+==================================================
+SUMNJIVI (1):
+
+  lsk — Lisk
+    Naša cena: $0.311327
+    CS cena: $0.3989843741670567
+    Razlog: slug ✓ ali cena se razlikuje (0.311327 vs 0.3989843741670567)
+    Naša CMC: https://coinmarketcap.com/currencies/lsk/
+    CS: https://coinstats.app/coins/lisk/
 
 
-NIJE NAĐENO (11):
-  - dexe
-  - soon
-  - lsk
-  - ctm
-  - wfi
-  - jsm
-  - vcnt
-  - brent
-  - matic
-  - pm
-  - leo
+==================================================
+NIJE NAĐENO (12):
+
+  kite — Kite (cena $0.13015545583921104)
+    CMC: https://coinmarketcap.com/currencies/kite/
+
+  dexe — DeXe (cena $1.929614190493557)
+    CMC: https://coinmarketcap.com/currencies/dexe/
+
+  soon — SOON (cena $0.19812405693955587)
+    CMC: https://coinmarketcap.com/currencies/soon/
+
+  ctm — c8ntinuum (cena $0.2447729614846932)
+    CMC: https://coinmarketcap.com/currencies/ctm/
+
+  wfi — WeFi (cena $2.02240003664262)
+    CMC: https://coinmarketcap.com/currencies/wfi/
+
+  jsm — Joseon Mun (cena $0.0004535943625735056)
+    CMC: https://coinmarketcap.com/currencies/jsm/
+
+  vcnt — ViciCoin (cena $19.59614121673408)
+    CMC: https://coinmarketcap.com/currencies/vcnt/
+
+  brent — Crude Oil Brent (Zedcex) (cena $96.5284395218328)
+    CMC: https://coinmarketcap.com/currencies/brent/
+
+  matic — Polygon (prev. MATIC) (cena $0.10269068173916068)
+    CMC: https://coinmarketcap.com/currencies/matic/
+
+  pm — PumpMeme (cena $3.3597729966142826)
+    CMC: https://coinmarketcap.com/currencies/pm/
+
+  leo — UNUS SED LEO (cena $8.9509450272058)
+    CMC: https://coinmarketcap.com/currencies/leo/
+
+  gt — GateToken (cena $10.626320526906834)
+    CMC: https://coinmarketcap.com/currencies/gt/
+
