@@ -1,0 +1,627 @@
+Izvestaj — 2026-09-24 12:26 UTC
+============================================================
+
+Uparivanje: novih 28, sumnjivih 81, neuparenih 43
+Logoi: preuzeto 0, nedovuceno 0
+
+
+============================================================
+=== CoinGecko ===
+Auto: 6 | Sumnjivi: 0 | Nenadjeni: 9
+
+NOVI (auto):
+  CMC #: 131 | CMC ID: 30494 | eigen — EigenCloud → eigenlayer (krug 4)
+    CoinGecko: https://www.coingecko.com/en/coins/eigenlayer
+  CMC #: 143 | CMC ID: 8646 | mina — Mina → mina-protocol (krug 3)
+    CoinGecko: https://www.coingecko.com/en/coins/mina-protocol
+  CMC #: 171 | CMC ID: 4006 | awe — AWE → stp-network (krug 4)
+    CoinGecko: https://www.coingecko.com/en/coins/stp-network
+  CMC #: 218 | CMC ID: 42022 | stonk — STONK (stonkfun.xyz) → stonk-3 (krug 4)
+    CoinGecko: https://www.coingecko.com/en/coins/stonk-3
+  CMC #: 225 | CMC ID: 38948 | usx — Solstice USX → usx (krug 4)
+    CoinGecko: https://www.coingecko.com/en/coins/usx
+  CMC #: 235 | CMC ID: 39711 | strcx — Strategy PP Variable tokenized stock (xStock) → strategy-pp-variable-xstock (krug 4)
+    CoinGecko: https://www.coingecko.com/en/coins/strategy-pp-variable-xstock
+
+NIJE NAĐENO:
+  CMC #: 88 | CMC ID: 38590 |  — 币安人生 (cena $0.5017372022947008)
+    CMC: https://coinmarketcap.com/currencies//
+    DDG: https://duckduckgo.com/?q=site:coingecko.com/en/coins/+
+  CMC #: 175 | CMC ID: 39841 | genius — Genius Terminal (cena $0.3510515586951551)
+    CMC: https://coinmarketcap.com/currencies/genius/
+    DDG: https://duckduckgo.com/?q=site:coingecko.com/en/coins/+genius
+  CMC #: 185 | CMC ID: 33391 | deep — DeepBook Protocol (cena $0.01881202198354711)
+    CMC: https://coinmarketcap.com/currencies/deep/
+    DDG: https://duckduckgo.com/?q=site:coingecko.com/en/coins/+deep
+  CMC #: 192 | CMC ID: 33280 | cheems — Cheems (cheems.pet) (cena $5.435843535292817e-7)
+    CMC: https://coinmarketcap.com/currencies/cheems/
+    DDG: https://duckduckgo.com/?q=site:coingecko.com/en/coins/+cheems
+  CMC #: 202 | CMC ID: 12400 | del — Decimal (cena $0.4741840628219173)
+    CMC: https://coinmarketcap.com/currencies/del/
+    DDG: https://duckduckgo.com/?q=site:coingecko.com/en/coins/+del
+  CMC #: 210 | CMC ID: 28853 | jlp — Jupiter Perps LP (cena $4.734259567940508)
+    CMC: https://coinmarketcap.com/currencies/jlp/
+    DDG: https://duckduckgo.com/?q=site:coingecko.com/en/coins/+jlp
+  CMC #: 237 | CMC ID: 39671 |  — 龙虾 (Lobster) (cena $0.1407882766569141)
+    CMC: https://coinmarketcap.com/currencies//
+    DDG: https://duckduckgo.com/?q=site:coingecko.com/en/coins/+
+  CMC #: 238 | CMC ID: 30605 | ale — Ailey (cena $0.26895216213513284)
+    CMC: https://coinmarketcap.com/currencies/ale/
+    DDG: https://duckduckgo.com/?q=site:coingecko.com/en/coins/+ale
+  CMC #: 247 | CMC ID: 41861 |  — 牛来 (Niu Lai) (cena $0.1001273799423455)
+    CMC: https://coinmarketcap.com/currencies//
+    DDG: https://duckduckgo.com/?q=site:coingecko.com/en/coins/+
+
+
+============================================================
+=== CoinStats ===
+Auto: 11 | Sumnjivi: 1 | Nenadjeni: 13
+
+NOVI (auto):
+  CMC #: 60 | CMC ID: 28321 | pol — Polygon (prev. MATIC) → polygon-ecosystem-token (krug 2)
+    CoinStats: https://coinstats.app/coins/polygon-ecosystem-token/
+  CMC #: 105 | CMC ID: 38828 | kite — Kite → kite-2 (krug 3)
+    CoinStats: https://coinstats.app/coins/kite-2/
+  CMC #: 131 | CMC ID: 30494 | eigen — EigenCloud → eigenlayer (krug 4)
+    CoinStats: https://coinstats.app/coins/eigenlayer/
+  CMC #: 143 | CMC ID: 8646 | mina — Mina → mina-protocol (krug 3)
+    CoinStats: https://coinstats.app/coins/mina-protocol/
+  CMC #: 171 | CMC ID: 4006 | awe — AWE → stp-network (krug 4)
+    CoinStats: https://coinstats.app/coins/stp-network/
+  CMC #: 175 | CMC ID: 39841 | genius — Genius Terminal → genius-3 (krug 4)
+    CoinStats: https://coinstats.app/coins/genius-3/
+  CMC #: 192 | CMC ID: 33280 | cheems — Cheems (cheems.pet) → cheems-token (krug 4)
+    CoinStats: https://coinstats.app/coins/cheems-token/
+  CMC #: 210 | CMC ID: 28853 | jlp — Jupiter Perps LP → jupiter-perpetuals-liquidity-provider-token (krug 4)
+    CoinStats: https://coinstats.app/coins/jupiter-perpetuals-liquidity-provider-token/
+  CMC #: 218 | CMC ID: 42022 | stonk — STONK (stonkfun.xyz) → 6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx_solana (krug 4)
+    CoinStats: https://coinstats.app/coins/6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx_solana/
+  CMC #: 225 | CMC ID: 38948 | usx — Solstice USX → usx (krug 4)
+    CoinStats: https://coinstats.app/coins/usx/
+  CMC #: 235 | CMC ID: 39711 | strcx — Strategy PP Variable tokenized stock (xStock) → strategy-pp-variable-xstock (krug 4)
+    CoinStats: https://coinstats.app/coins/strategy-pp-variable-xstock/
+
+SUMNJIVI:
+  CMC #: 59 | CMC ID: 4269 | gt — GateToken
+    Razlog: cena se razlikuje (0.35%)
+    Naša CMC: https://coinmarketcap.com/currencies/gt/
+    CoinStats: https://coinstats.app/coins/gatechain-token/
+    Za brisanje: UPDATE kripto_meta SET coinstats_id = NULL WHERE simbol = 'gt';
+
+NIJE NAĐENO:
+  CMC #: 15 | CMC ID: 3957 | leo — UNUS SED LEO (cena $8.911715528876318)
+    CMC: https://coinmarketcap.com/currencies/leo/
+    DDG: https://duckduckgo.com/?q=site:coinstats.app/coins/+leo
+  CMC #: 88 | CMC ID: 38590 |  — 币安人生 (cena $0.5017372022947008)
+    CMC: https://coinmarketcap.com/currencies//
+    DDG: https://duckduckgo.com/?q=site:coinstats.app/coins/+
+  CMC #: 157 | CMC ID: 7326 | dexe — DeXe (cena $1.914066532110863)
+    CMC: https://coinmarketcap.com/currencies/dexe/
+    DDG: https://duckduckgo.com/?q=site:coinstats.app/coins/+dexe
+  CMC #: 176 | CMC ID: 36542 | soon — SOON (cena $0.1931126408963577)
+    CMC: https://coinmarketcap.com/currencies/soon/
+    DDG: https://duckduckgo.com/?q=site:coinstats.app/coins/+soon
+  CMC #: 185 | CMC ID: 33391 | deep — DeepBook Protocol (cena $0.01881202198354711)
+    CMC: https://coinmarketcap.com/currencies/deep/
+    DDG: https://duckduckgo.com/?q=site:coinstats.app/coins/+deep
+  CMC #: 202 | CMC ID: 12400 | del — Decimal (cena $0.4741840628219173)
+    CMC: https://coinmarketcap.com/currencies/del/
+    DDG: https://duckduckgo.com/?q=site:coinstats.app/coins/+del
+  CMC #: 208 | CMC ID: 37745 | ctm — c8ntinuum (cena $0.24308198871458275)
+    CMC: https://coinmarketcap.com/currencies/ctm/
+    DDG: https://duckduckgo.com/?q=site:coinstats.app/coins/+ctm
+  CMC #: 231 | CMC ID: 34261 | wfi — WeFi (cena $1.990689845376653)
+    CMC: https://coinmarketcap.com/currencies/wfi/
+    DDG: https://duckduckgo.com/?q=site:coinstats.app/coins/+wfi
+  CMC #: 236 | CMC ID: 25194 | jsm — Joseon Mun (cena $0.00045216442310842006)
+    CMC: https://coinmarketcap.com/currencies/jsm/
+    DDG: https://duckduckgo.com/?q=site:coinstats.app/coins/+jsm
+  CMC #: 237 | CMC ID: 39671 |  — 龙虾 (Lobster) (cena $0.1407882766569141)
+    CMC: https://coinmarketcap.com/currencies//
+    DDG: https://duckduckgo.com/?q=site:coinstats.app/coins/+
+  CMC #: 238 | CMC ID: 30605 | ale — Ailey (cena $0.26895216213513284)
+    CMC: https://coinmarketcap.com/currencies/ale/
+    DDG: https://duckduckgo.com/?q=site:coinstats.app/coins/+ale
+  CMC #: 241 | CMC ID: 28656 | vcnt — ViciCoin (cena $19.588505824211317)
+    CMC: https://coinmarketcap.com/currencies/vcnt/
+    DDG: https://duckduckgo.com/?q=site:coinstats.app/coins/+vcnt
+  CMC #: 247 | CMC ID: 41861 |  — 牛来 (Niu Lai) (cena $0.1001273799423455)
+    CMC: https://coinmarketcap.com/currencies//
+    DDG: https://duckduckgo.com/?q=site:coinstats.app/coins/+
+
+
+============================================================
+=== CoinPaprika ===
+Auto: 11 | Sumnjivi: 80 | Nenadjeni: 21
+
+NOVI (auto):
+  CMC #: 85 | CMC ID: 26997 | zro — LayerZero → zro-layerzero (krug 3)
+    CoinPaprika: https://coinpaprika.com/coin/zro-layerzero/
+  CMC #: 126 | CMC ID: 9816 | nft — AINFT → nft-apenft (krug 3)
+    CoinPaprika: https://coinpaprika.com/coin/nft-apenft/
+  CMC #: 131 | CMC ID: 30494 | eigen — EigenCloud → eigen-eigenlayer (krug 4)
+    CoinPaprika: https://coinpaprika.com/coin/eigen-eigenlayer/
+  CMC #: 143 | CMC ID: 8646 | mina — Mina → mina-mina-protocol (krug 3)
+    CoinPaprika: https://coinpaprika.com/coin/mina-mina-protocol/
+  CMC #: 171 | CMC ID: 4006 | awe — AWE → awe-awe-network (krug 4)
+    CoinPaprika: https://coinpaprika.com/coin/awe-awe-network/
+  CMC #: 179 | CMC ID: 35364 | plume — Plume → plume-plume (krug 3)
+    CoinPaprika: https://coinpaprika.com/coin/plume-plume/
+  CMC #: 185 | CMC ID: 33391 | deep — DeepBook Protocol → deep-deepbook-protocol (krug 4)
+    CoinPaprika: https://coinpaprika.com/coin/deep-deepbook-protocol/
+  CMC #: 192 | CMC ID: 33280 | cheems — Cheems (cheems.pet) → cheems-cheems-cheemspet (krug 3)
+    CoinPaprika: https://coinpaprika.com/coin/cheems-cheems-cheemspet/
+  CMC #: 198 | CMC ID: 14588 | peaq — peaq → peaq-peaq-network (krug 3)
+    CoinPaprika: https://coinpaprika.com/coin/peaq-peaq-network/
+  CMC #: 203 | CMC ID: 39158 | btw — Bitway → btw-bitway (krug 3)
+    CoinPaprika: https://coinpaprika.com/coin/btw-bitway/
+  CMC #: 210 | CMC ID: 28853 | jlp — Jupiter Perps LP → jlp-jupiter-perpetuals-liquidity-provider-token (krug 4)
+    CoinPaprika: https://coinpaprika.com/coin/jlp-jupiter-perpetuals-liquidity-provider-token/
+
+SUMNJIVI:
+  CMC #: 6 | CMC ID: 3408 | usdc — USDC
+    Razlog: cena se razlikuje (0.01%)
+    Naša CMC: https://coinmarketcap.com/currencies/usdc/
+    CoinPaprika: https://coinpaprika.com/coin/usdc-usd-coin/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'usdc';
+  CMC #: 15 | CMC ID: 3957 | leo — UNUS SED LEO
+    Razlog: cena se razlikuje (0.00%)
+    Naša CMC: https://coinmarketcap.com/currencies/leo/
+    CoinPaprika: https://coinpaprika.com/coin/leo-leo-token/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'leo';
+  CMC #: 17 | CMC ID: 1831 | bch — Bitcoin Cash
+    Razlog: cena se razlikuje (0.03%)
+    Naša CMC: https://coinmarketcap.com/currencies/bch/
+    CoinPaprika: https://coinpaprika.com/coin/bch-bitcoin-cash/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'bch';
+  CMC #: 21 | CMC ID: 29470 | usde — Ethena USDe
+    Razlog: cena se razlikuje (0.04%)
+    Naša CMC: https://coinmarketcap.com/currencies/usde/
+    CoinPaprika: https://coinpaprika.com/coin/usde-ethena-usde/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'usde';
+  CMC #: 25 | CMC ID: 37263 | cc — Canton
+    Razlog: cena se razlikuje (0.10%)
+    Naša CMC: https://coinmarketcap.com/currencies/cc/
+    CoinPaprika: https://coinpaprika.com/coin/cc-canton-network/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'cc';
+  CMC #: 27 | CMC ID: 11419 | gram — Gram (prev. Toncoin)
+    Razlog: cena se razlikuje (0.07%)
+    Naša CMC: https://coinmarketcap.com/currencies/gram/
+    CoinPaprika: https://coinpaprika.com/coin/toncoin-the-open-network/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'gram';
+  CMC #: 29 | CMC ID: 5994 | shib — Shiba Inu
+    Razlog: cena se razlikuje (0.08%)
+    Naša CMC: https://coinmarketcap.com/currencies/shib/
+    CoinPaprika: https://coinpaprika.com/coin/shib-shiba-inu/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'shib';
+  CMC #: 31 | CMC ID: 33793 | usdg — Global Dollar
+    Razlog: cena se razlikuje (0.06%)
+    Naša CMC: https://coinmarketcap.com/currencies/usdg/
+    CoinPaprika: https://coinpaprika.com/coin/usdg-global-dollar/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'usdg';
+  CMC #: 32 | CMC ID: 3635 | cro — Cronos
+    Razlog: cena se razlikuje (0.12%)
+    Naša CMC: https://coinmarketcap.com/currencies/cro/
+    CoinPaprika: https://coinpaprika.com/coin/cro-cryptocom-chain/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'cro';
+  CMC #: 34 | CMC ID: 27772 | pyusd — PayPal USD
+    Razlog: cena se razlikuje (0.02%)
+    Naša CMC: https://coinmarketcap.com/currencies/pyusd/
+    CoinPaprika: https://coinpaprika.com/coin/pyusd-paypal-usd/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'pyusd';
+  CMC #: 35 | CMC ID: 5176 | xaut — Tether Gold
+    Razlog: cena se razlikuje (0.01%)
+    Naša CMC: https://coinmarketcap.com/currencies/xaut/
+    CoinPaprika: https://coinpaprika.com/coin/xaut-tether-gold/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'xaut';
+  CMC #: 37 | CMC ID: 34387 | rlusd — Ripple USD
+    Razlog: cena se razlikuje (0.02%)
+    Naša CMC: https://coinmarketcap.com/currencies/rlusd/
+    CoinPaprika: https://coinpaprika.com/coin/rlusd-ripple-usd/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'rlusd';
+  CMC #: 39 | CMC ID: 21159 | ondo — Ondo
+    Razlog: cena se razlikuje (0.04%)
+    Naša CMC: https://coinmarketcap.com/currencies/ondo/
+    CoinPaprika: https://coinpaprika.com/coin/ondo-ondo/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'ondo';
+  CMC #: 44 | CMC ID: 4705 | paxg — PAX Gold
+    Razlog: cena se razlikuje (0.00%)
+    Naša CMC: https://coinmarketcap.com/currencies/paxg/
+    CoinPaprika: https://coinpaprika.com/coin/paxg-pax-gold/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'paxg';
+  CMC #: 47 | CMC ID: 33251 | wlfi — World Liberty Financial
+    Razlog: cena se razlikuje (0.10%)
+    Naša CMC: https://coinmarketcap.com/currencies/wlfi/
+    CoinPaprika: https://coinpaprika.com/coin/wlfi-official-world-liberty-financial/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'wlfi';
+  CMC #: 48 | CMC ID: 8916 | icp — Internet Computer
+    Razlog: cena se razlikuje (0.02%)
+    Naša CMC: https://coinmarketcap.com/currencies/icp/
+    CoinPaprika: https://coinpaprika.com/coin/icp-internet-computer/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'icp';
+  CMC #: 51 | CMC ID: 13502 | wld — Worldcoin
+    Razlog: cena se razlikuje (0.03%)
+    Naša CMC: https://coinmarketcap.com/currencies/wld/
+    CoinPaprika: https://coinpaprika.com/coin/wld-worldcoin/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'wld';
+  CMC #: 52 | CMC ID: 1321 | etc — Ethereum Classic
+    Razlog: cena se razlikuje (0.11%)
+    Naša CMC: https://coinmarketcap.com/currencies/etc/
+    CoinPaprika: https://coinpaprika.com/coin/etc-ethereum-classic/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'etc';
+  CMC #: 53 | CMC ID: 39120 | u — United Stables
+    Razlog: cena se razlikuje (0.00%)
+    Naša CMC: https://coinmarketcap.com/currencies/u/
+    CoinPaprika: https://coinpaprika.com/coin/u-united-stables/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'u';
+  CMC #: 56 | CMC ID: 11092 | bgb — Bitget Token
+    Razlog: cena se razlikuje (0.00%)
+    Naša CMC: https://coinmarketcap.com/currencies/bgb/
+    CoinPaprika: https://coinpaprika.com/coin/bgb-bitget-token/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'bgb';
+  CMC #: 57 | CMC ID: 35509 | vvv — Venice Token
+    Razlog: cena se razlikuje (0.23%)
+    Naša CMC: https://coinmarketcap.com/currencies/vvv/
+    CoinPaprika: https://coinpaprika.com/coin/vvv-venice-token/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'vvv';
+  CMC #: 59 | CMC ID: 4269 | gt — GateToken
+    Razlog: cena se razlikuje (0.30%)
+    Naša CMC: https://coinmarketcap.com/currencies/gt/
+    CoinPaprika: https://coinpaprika.com/coin/gt-gatechain-token/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'gt';
+  CMC #: 62 | CMC ID: 2087 | kcs — KuCoin Token
+    Razlog: cena se razlikuje (0.03%)
+    Naša CMC: https://coinmarketcap.com/currencies/kcs/
+    CoinPaprika: https://coinpaprika.com/coin/kcs-kucoin-token/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'kcs';
+  CMC #: 65 | CMC ID: 29210 | jup — Jupiter
+    Razlog: cena se razlikuje (0.09%)
+    Naša CMC: https://coinmarketcap.com/currencies/jup/
+    CoinPaprika: https://coinpaprika.com/coin/jup-jupiter-exchange-token/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'jup';
+  CMC #: 76 | CMC ID: 29270 | aero — Aerodrome Finance
+    Razlog: cena se razlikuje (0.12%)
+    Naša CMC: https://coinmarketcap.com/currencies/aero/
+    CoinPaprika: https://coinpaprika.com/coin/aero-aerodrome-finance/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'aero';
+  CMC #: 79 | CMC ID: 2634 | xdc — XDC Network
+    Razlog: cena se razlikuje (0.05%)
+    Naša CMC: https://coinmarketcap.com/currencies/xdc/
+    CoinPaprika: https://coinpaprika.com/coin/xdc-xdc-network/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'xdc';
+  CMC #: 80 | CMC ID: 34466 | pengu — Pudgy Penguins
+    Razlog: cena se razlikuje (0.03%)
+    Naša CMC: https://coinmarketcap.com/currencies/pengu/
+    CoinPaprika: https://coinpaprika.com/coin/pengu-pudgy-penguins/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'pengu';
+  CMC #: 82 | CMC ID: 35336 | trump — OFFICIAL TRUMP
+    Razlog: cena se razlikuje (0.06%)
+    Naša CMC: https://coinmarketcap.com/currencies/trump/
+    CoinPaprika: https://coinpaprika.com/coin/trump-official-trump/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'trump';
+  CMC #: 87 | CMC ID: 6538 | crv — Curve DAO Token
+    Razlog: cena se razlikuje (0.02%)
+    Naša CMC: https://coinmarketcap.com/currencies/crv/
+    CoinPaprika: https://coinpaprika.com/coin/crv-curve-dao-token/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'crv';
+  CMC #: 89 | CMC ID: 28177 | pyth — Pyth Network
+    Razlog: cena se razlikuje (0.04%)
+    Naša CMC: https://coinmarketcap.com/currencies/pyth/
+    CoinPaprika: https://coinpaprika.com/coin/pyth-pyth-network/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'pyth';
+  CMC #: 92 | CMC ID: 29420 | virtual — Virtuals Protocol
+    Razlog: cena se razlikuje (0.42%)
+    Naša CMC: https://coinmarketcap.com/currencies/virtual/
+    CoinPaprika: https://coinpaprika.com/coin/virtual-virtual-protocol/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'virtual';
+  CMC #: 93 | CMC ID: 20641 | eurc — EURC
+    Razlog: cena se razlikuje (0.02%)
+    Naša CMC: https://coinmarketcap.com/currencies/eurc/
+    CoinPaprika: https://coinpaprika.com/coin/euroc-euro-coin/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'eurc';
+  CMC #: 96 | CMC ID: 3602 | bsv — Bitcoin SV
+    Razlog: cena se razlikuje (0.05%)
+    Naša CMC: https://coinmarketcap.com/currencies/bsv/
+    CoinPaprika: https://coinpaprika.com/coin/bsv-bitcoin-sv/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'bsv';
+  CMC #: 100 | CMC ID: 38482 | ff — Falcon Finance
+    Razlog: cena se razlikuje (0.05%)
+    Naša CMC: https://coinmarketcap.com/currencies/ff/
+    CoinPaprika: https://coinpaprika.com/coin/ff-falcon-finance/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'ff';
+  CMC #: 102 | CMC ID: 39064 | night — Midnight
+    Razlog: cena se razlikuje (0.03%)
+    Naša CMC: https://coinmarketcap.com/currencies/night/
+    CoinPaprika: https://coinpaprika.com/coin/night-midnight2/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'night';
+  CMC #: 106 | CMC ID: 8000 | ldo — Lido DAO
+    Razlog: cena se razlikuje (0.06%)
+    Naša CMC: https://coinmarketcap.com/currencies/ldo/
+    CoinPaprika: https://coinpaprika.com/coin/ldo-lido-dao/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'ldo';
+  CMC #: 107 | CMC ID: 10529 | sun — Sun [New]
+    Razlog: cena se razlikuje (0.06%)
+    Naša CMC: https://coinmarketcap.com/currencies/sun/
+    CoinPaprika: https://coinpaprika.com/coin/sun-sun/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'sun';
+  CMC #: 108 | CMC ID: 26081 | fdusd — First Digital USD
+    Razlog: cena se razlikuje (0.00%)
+    Naša CMC: https://coinmarketcap.com/currencies/fdusd/
+    CoinPaprika: https://coinpaprika.com/coin/fdusd-first-digital-usd/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'fdusd';
+  CMC #: 112 | CMC ID: 10603 | imx — Immutable
+    Razlog: cena se razlikuje (0.05%)
+    Naša CMC: https://coinmarketcap.com/currencies/imx/
+    CoinPaprika: https://coinpaprika.com/coin/imx-immutable-x/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'imx';
+  CMC #: 113 | CMC ID: 4172 | lunc — Terra Classic
+    Razlog: cena se razlikuje (0.08%)
+    Naša CMC: https://coinmarketcap.com/currencies/lunc/
+    CoinPaprika: https://coinpaprika.com/coin/luna-terra/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'lunc';
+  CMC #: 114 | CMC ID: 13855 | ens — Ethereum Name Service
+    Razlog: cena se razlikuje (0.25%)
+    Naša CMC: https://coinmarketcap.com/currencies/ens/
+    CoinPaprika: https://coinpaprika.com/coin/ens-ethereum-name-service/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'ens';
+  CMC #: 119 | CMC ID: 36828 | useless — Useless Coin
+    Razlog: cena se razlikuje (0.15%)
+    Naša CMC: https://coinmarketcap.com/currencies/useless/
+    CoinPaprika: https://coinpaprika.com/coin/useless-useless-coin/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'useless';
+  CMC #: 120 | CMC ID: 6719 | grt — The Graph
+    Razlog: cena se razlikuje (0.08%)
+    Naša CMC: https://coinmarketcap.com/currencies/grt/
+    CoinPaprika: https://coinpaprika.com/coin/grt-the-graph/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'grt';
+  CMC #: 121 | CMC ID: 7334 | cfx — Conflux
+    Razlog: cena se razlikuje (0.05%)
+    Naša CMC: https://coinmarketcap.com/currencies/cfx/
+    CoinPaprika: https://coinpaprika.com/coin/cfx-conflux-network/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'cfx';
+  CMC #: 127 | CMC ID: 5964 | twt — Trust Wallet Token
+    Razlog: cena se razlikuje (0.15%)
+    Naša CMC: https://coinmarketcap.com/currencies/twt/
+    CoinPaprika: https://coinpaprika.com/coin/twt-trust-wallet-token/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'twt';
+  CMC #: 129 | CMC ID: 5692 | comp — Compound
+    Razlog: cena se razlikuje (0.01%)
+    Naša CMC: https://coinmarketcap.com/currencies/comp/
+    CoinPaprika: https://coinpaprika.com/coin/comp-compoundd/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'comp';
+  CMC #: 134 | CMC ID: 2416 | theta — Theta Network
+    Razlog: cena se razlikuje (0.06%)
+    Naša CMC: https://coinmarketcap.com/currencies/theta/
+    CoinPaprika: https://coinpaprika.com/coin/theta-theta-token/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'theta';
+  CMC #: 138 | CMC ID: 7431 | akt — Akash Network
+    Razlog: cena se razlikuje (0.03%)
+    Naša CMC: https://coinmarketcap.com/currencies/akt/
+    CoinPaprika: https://coinpaprika.com/coin/akt-akash-network/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'akt';
+  CMC #: 140 | CMC ID: 30636 | zbcn — Zebec Network
+    Razlog: cena se razlikuje (0.14%)
+    Naša CMC: https://coinmarketcap.com/currencies/zbcn/
+    CoinPaprika: https://coinpaprika.com/coin/zbcn-zebec-network/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'zbcn';
+  CMC #: 142 | CMC ID: 9903 | cvx — Convex Finance
+    Razlog: cena se razlikuje (0.04%)
+    Naša CMC: https://coinmarketcap.com/currencies/cvx/
+    CoinPaprika: https://coinpaprika.com/coin/cvx-convex-finance/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'cvx';
+  CMC #: 144 | CMC ID: 18679 | xcn — Onyxcoin
+    Razlog: cena se razlikuje (0.15%)
+    Naša CMC: https://coinmarketcap.com/currencies/xcn/
+    CoinPaprika: https://coinpaprika.com/coin/xcn-chain/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'xcn';
+  CMC #: 149 | CMC ID: 6783 | axs — Axie Infinity
+    Razlog: cena se razlikuje (0.07%)
+    Naša CMC: https://coinmarketcap.com/currencies/axs/
+    CoinPaprika: https://coinpaprika.com/coin/axs-axie-infinity/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'axs';
+  CMC #: 152 | CMC ID: 4041 | mx — MX Token
+    Razlog: cena se razlikuje (0.05%)
+    Naša CMC: https://coinmarketcap.com/currencies/mx/
+    CoinPaprika: https://coinpaprika.com/coin/mx-mx-token/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'mx';
+  CMC #: 156 | CMC ID: 37322 | vsn — Vision
+    Razlog: cena se razlikuje (0.11%)
+    Naša CMC: https://coinmarketcap.com/currencies/vsn/
+    CoinPaprika: https://coinpaprika.com/coin/vsn-vision/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'vsn';
+  CMC #: 160 | CMC ID: 9104 | aioz — AIOZ Network
+    Razlog: cena se razlikuje (0.04%)
+    Naša CMC: https://coinmarketcap.com/currencies/aioz/
+    CoinPaprika: https://coinpaprika.com/coin/aioz-aioz-network/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'aioz';
+  CMC #: 161 | CMC ID: 10180 | gomining — GoМining
+    Razlog: cena se razlikuje (0.00%)
+    Naša CMC: https://coinmarketcap.com/currencies/gomining/
+    CoinPaprika: https://coinpaprika.com/coin/gmt-gomining-token/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'gomining';
+  CMC #: 166 | CMC ID: 1697 | bat — Basic Attention Token
+    Razlog: cena se razlikuje (0.02%)
+    Naša CMC: https://coinmarketcap.com/currencies/bat/
+    CoinPaprika: https://coinpaprika.com/coin/bat-basic-attention-token/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'bat';
+  CMC #: 168 | CMC ID: 6892 | egld — MultiversX
+    Razlog: cena se razlikuje (0.08%)
+    Naša CMC: https://coinmarketcap.com/currencies/egld/
+    CoinPaprika: https://coinpaprika.com/coin/egld-elrond/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'egld';
+  CMC #: 173 | CMC ID: 6210 | sand — The Sandbox
+    Razlog: cena se razlikuje (0.06%)
+    Naša CMC: https://coinmarketcap.com/currencies/sand/
+    CoinPaprika: https://coinpaprika.com/coin/sand-the-sandbox/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'sand';
+  CMC #: 183 | CMC ID: 28324 | dydx — dYdX
+    Razlog: cena se razlikuje (0.38%)
+    Naša CMC: https://coinmarketcap.com/currencies/dydx/
+    CoinPaprika: https://coinpaprika.com/coin/dydx-dydx-chain/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'dydx';
+  CMC #: 186 | CMC ID: 30933 | dog — Dog (Bitcoin)
+    Razlog: cena se razlikuje (0.05%)
+    Naša CMC: https://coinmarketcap.com/currencies/dog/
+    CoinPaprika: https://coinpaprika.com/coin/-doggotothemoon/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'dog';
+  CMC #: 188 | CMC ID: 3964 | rsr — Reserve Rights
+    Razlog: cena se razlikuje (0.08%)
+    Naša CMC: https://coinmarketcap.com/currencies/rsr/
+    CoinPaprika: https://coinpaprika.com/coin/rsr-reserve-rights/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'rsr';
+  CMC #: 190 | CMC ID: 35347 | melania — Official Melania Meme
+    Razlog: cena se razlikuje (0.11%)
+    Naša CMC: https://coinmarketcap.com/currencies/melania/
+    CoinPaprika: https://coinpaprika.com/coin/melania-melania-meme/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'melania';
+  CMC #: 199 | CMC ID: 3701 | rif — Rootstock Infrastructure Framework
+    Razlog: cena se razlikuje (0.27%)
+    Naša CMC: https://coinmarketcap.com/currencies/rif/
+    CoinPaprika: https://coinpaprika.com/coin/rif-rif-token/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'rif';
+  CMC #: 202 | CMC ID: 12400 | del — Decimal
+    Razlog: cena se razlikuje (5.97%)
+    Naša CMC: https://coinmarketcap.com/currencies/del/
+    CoinPaprika: https://coinpaprika.com/coin/del-decimal/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'del';
+  CMC #: 207 | CMC ID: 35721 | usdf — Falcon USD
+    Razlog: cena se razlikuje (0.15%)
+    Naša CMC: https://coinmarketcap.com/currencies/usdf/
+    CoinPaprika: https://coinpaprika.com/coin/usdf-falcon-finance/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'usdf';
+  CMC #: 213 | CMC ID: 32307 | usd0 — Usual USD
+    Razlog: cena se razlikuje (0.02%)
+    Naša CMC: https://coinmarketcap.com/currencies/usd0/
+    CoinPaprika: https://coinpaprika.com/coin/usd0-usual-usd/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'usd0';
+  CMC #: 216 | CMC ID: 36063 | br — Bedrock
+    Razlog: cena se razlikuje (0.16%)
+    Naša CMC: https://coinmarketcap.com/currencies/br/
+    CoinPaprika: https://coinpaprika.com/coin/br-bedrock-dao/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'br';
+  CMC #: 220 | CMC ID: 36743 | tibbir — Ribbita by Virtuals
+    Razlog: cena se razlikuje (0.47%)
+    Naša CMC: https://coinmarketcap.com/currencies/tibbir/
+    CoinPaprika: https://coinpaprika.com/coin/tibbir-ribbita-by-virtuals/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'tibbir';
+  CMC #: 222 | CMC ID: 40925 | ai — Artificial Inu
+    Razlog: cena se razlikuje (91.35%)
+    Naša CMC: https://coinmarketcap.com/currencies/ai/
+    CoinPaprika: https://coinpaprika.com/coin/ai-gensyn/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'ai';
+  CMC #: 224 | CMC ID: 32864 | ausd — AUSD
+    Razlog: cena se razlikuje (0.00%)
+    Naša CMC: https://coinmarketcap.com/currencies/ausd/
+    CoinPaprika: https://coinpaprika.com/coin/ausd-agora-dollar/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'ausd';
+  CMC #: 227 | CMC ID: 32796 | eurcv — EUR CoinVertible
+    Razlog: cena se razlikuje (0.02%)
+    Naša CMC: https://coinmarketcap.com/currencies/eurcv/
+    CoinPaprika: https://coinpaprika.com/coin/eurcv-eur-coinvertible/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'eurcv';
+  CMC #: 228 | CMC ID: 38386 | usat — USAT
+    Razlog: cena se razlikuje (0.01%)
+    Naša CMC: https://coinmarketcap.com/currencies/usat/
+    CoinPaprika: https://coinpaprika.com/coin/usat/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'usat';
+  CMC #: 230 | CMC ID: 27960 | npc — Non-Playable Coin
+    Razlog: cena se razlikuje (0.06%)
+    Naša CMC: https://coinmarketcap.com/currencies/npc/
+    CoinPaprika: https://coinpaprika.com/coin/npc-non-playable-coin/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'npc';
+  CMC #: 233 | CMC ID: 41912 | dgai — DGrid AI
+    Razlog: cena se razlikuje (0.00%)
+    Naša CMC: https://coinmarketcap.com/currencies/dgai/
+    CoinPaprika: https://coinpaprika.com/coin/dgai-dgrid-ai/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'dgai';
+  CMC #: 239 | CMC ID: 15271 | rlb — Rollbit Coin
+    Razlog: cena se razlikuje (0.23%)
+    Naša CMC: https://coinmarketcap.com/currencies/rlb/
+    CoinPaprika: https://coinpaprika.com/coin/rlb-rollbit-coin/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'rlb';
+  CMC #: 240 | CMC ID: 38236 | q — Quack AI
+    Razlog: cena se razlikuje (0.03%)
+    Naša CMC: https://coinmarketcap.com/currencies/q/
+    CoinPaprika: https://coinpaprika.com/coin/q-quack-ai/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'q';
+  CMC #: 245 | CMC ID: 38056 | crclon — Circle Internet Group Tokenized Stock (Ondo)
+    Razlog: cena se razlikuje (0.05%)
+    Naša CMC: https://coinmarketcap.com/currencies/crclon/
+    CoinPaprika: https://coinpaprika.com/coin/crclon-circle-internet-group-tokenized-stock-ondo/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'crclon';
+  CMC #: 246 | CMC ID: 36039 | frxusd — Frax USD
+    Razlog: cena se razlikuje (0.00%)
+    Naša CMC: https://coinmarketcap.com/currencies/frxusd/
+    CoinPaprika: https://coinpaprika.com/coin/frxusd-frax-usd/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'frxusd';
+  CMC #: 249 | CMC ID: 37003 | mstrx — MicroStrategy tokenized stock (xStock)
+    Razlog: cena se razlikuje (0.02%)
+    Naša CMC: https://coinmarketcap.com/currencies/mstrx/
+    CoinPaprika: https://coinpaprika.com/coin/mstrx-microstrategy-tokenized-stock-xstock/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'mstrx';
+
+NIJE NAĐENO:
+  CMC #: 88 | CMC ID: 38590 |  — 币安人生 (cena $0.5017372022947008)
+    CMC: https://coinmarketcap.com/currencies//
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+
+  CMC #: 99 | CMC ID: 40938 | pons — Pons (cena $0.6104469783217754)
+    CMC: https://coinmarketcap.com/currencies/pons/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+pons
+  CMC #: 130 | CMC ID: 39332 | zama — Zama (cena $0.09083614232815419)
+    CMC: https://coinmarketcap.com/currencies/zama/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+zama
+  CMC #: 175 | CMC ID: 39841 | genius — Genius Terminal (cena $0.3510515586951551)
+    CMC: https://coinmarketcap.com/currencies/genius/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+genius
+  CMC #: 176 | CMC ID: 36542 | soon — SOON (cena $0.1931126408963577)
+    CMC: https://coinmarketcap.com/currencies/soon/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+soon
+  CMC #: 182 | CMC ID: 40944 | marscoin — MarsCoin (cena $0.11227886214270737)
+    CMC: https://coinmarketcap.com/currencies/marscoin/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+marscoin
+  CMC #: 204 | CMC ID: 29256 | usdy — Ondo US Dollar Yield (cena $1.1464612010632533)
+    CMC: https://coinmarketcap.com/currencies/usdy/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+usdy
+  CMC #: 206 | CMC ID: 39683 | usdgo — USDGO (cena $1.000003473718071)
+    CMC: https://coinmarketcap.com/currencies/usdgo/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+usdgo
+  CMC #: 208 | CMC ID: 37745 | ctm — c8ntinuum (cena $0.24308198871458275)
+    CMC: https://coinmarketcap.com/currencies/ctm/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+ctm
+  CMC #: 218 | CMC ID: 42022 | stonk — STONK (stonkfun.xyz) (cena $0.3543326027086626)
+    CMC: https://coinmarketcap.com/currencies/stonk/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+stonk
+  CMC #: 219 | CMC ID: 27048 | apepe — Ape and Pepe (cena $0.0000012229681209624644)
+    CMC: https://coinmarketcap.com/currencies/apepe/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+apepe
+  CMC #: 221 | CMC ID: 7184 | koge — 48 Club Token (cena $69.22350923390111)
+    CMC: https://coinmarketcap.com/currencies/koge/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+koge
+  CMC #: 223 | CMC ID: 39686 | bp — Backpack (cena $0.9101259595532143)
+    CMC: https://coinmarketcap.com/currencies/bp/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+bp
+  CMC #: 225 | CMC ID: 38948 | usx — Solstice USX (cena $1.0012010351156526)
+    CMC: https://coinmarketcap.com/currencies/usx/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+usx
+  CMC #: 235 | CMC ID: 39711 | strcx — Strategy PP Variable tokenized stock (xStock) (cena $99.0394479811906)
+    CMC: https://coinmarketcap.com/currencies/strcx/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+strcx
+  CMC #: 236 | CMC ID: 25194 | jsm — Joseon Mun (cena $0.00045216442310842006)
+    CMC: https://coinmarketcap.com/currencies/jsm/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+jsm
+  CMC #: 237 | CMC ID: 39671 |  — 龙虾 (Lobster) (cena $0.1407882766569141)
+    CMC: https://coinmarketcap.com/currencies//
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+
+  CMC #: 238 | CMC ID: 30605 | ale — Ailey (cena $0.26895216213513284)
+    CMC: https://coinmarketcap.com/currencies/ale/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+ale
+  CMC #: 243 | CMC ID: 40213 | crclb — Circle Internet Group Tokenized bStocks (cena $91.30700580501043)
+    CMC: https://coinmarketcap.com/currencies/crclb/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+crclb
+  CMC #: 247 | CMC ID: 41861 |  — 牛来 (Niu Lai) (cena $0.1001273799423455)
+    CMC: https://coinmarketcap.com/currencies//
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+
+  CMC #: 248 | CMC ID: 36902 | sn51 — lium (cena $25.42389549420928)
+    CMC: https://coinmarketcap.com/currencies/sn51/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+sn51
+
