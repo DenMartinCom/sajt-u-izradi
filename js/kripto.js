@@ -34,7 +34,8 @@ const poslednjiPoziv = {
     balance: 0,
     'get-balans': 0,
     'save-balans': 0,
-    kurs: 0
+    kurs: 0,
+    watchdog: 0
 };
 
 async function fetchRateLimited(url) {
@@ -46,6 +47,7 @@ async function fetchRateLimited(url) {
     else if (url.includes('/get-balans')) izvor = 'get-balans';
     else if (url.includes('/save-balans')) izvor = 'save-balans';
     else if (url.includes('/kurs')) izvor = 'kurs';
+    else if (url.includes('/watchdog')) izvor = 'watchdog';
 
     const sada = Date.now();
     const proteklo = sada - (poslednjiPoziv[izvor] || 0);
