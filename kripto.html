@@ -58,8 +58,21 @@
             </div>
 
             <div class="widget widget-volumen" id="volumen-widget">
-                <div class="volumen-title">Volumen 24h</div>
-                <div class="volumen-placeholder">Dolazi kad skupimo istoriju</div>
+                <div class="liste-loading">Učitavanje...</div>
+            </div>
+
+            <!-- GRAFIKON TOKENA -->
+            <div class="widget widget-grafikon-coin">
+                <div class="grafikon-coin-header">
+                    <div class="grafikon-coin-title">Grafikon tokena</div>
+                    <select class="grafikon-coin-select" id="grafikon-coin-select">
+                        <option value="">Učitavanje...</option>
+                    </select>
+                </div>
+                <div class="grafikon-coin-wrap">
+                    <canvas id="coin-chart"></canvas>
+                </div>
+                <div class="grafikon-coin-status" id="grafikon-coin-status"></div>
             </div>
 
             <!-- FEAR & GREED -->
@@ -339,6 +352,8 @@
     <script src="js/adresa.js" defer></script>
     <script src="js/marquee.js" defer></script>
     <script src="js/liste.js" defer></script>
+    <script src="js/volumen.js" defer></script>
+    <script src="js/grafikon_coin.js" defer></script>
     <script src="js/kurs.js" defer></script>
 
 </body>
