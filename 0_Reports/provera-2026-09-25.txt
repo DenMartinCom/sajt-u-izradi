@@ -1,0 +1,1744 @@
+Provera mapiranosti — 2026-09-25
+============================================================
+
+Ukupno simbola u bazi: 248
+Preskoceno (vec u fajlovima): 22
+Obradjeno u ovom ciklusu: 226
+
+POTVRDJENO: 0
+SUMNJIVO: 226
+
+============================================================
+=== BEZ CENE PO SERVISU (od 226 obradjenih) ===
+
+CMC: 10 tokena bez cene
+  lsk, zeta, chip, zano, uai, zcat, gas, brent, cow, rif
+
+CG: 51 tokena bez cene
+  night, kite, dexe, tel, form, dog, dydx, geod, soon, fluid, ath, lsk, gala, ordi, qtum, marscoin, rsr, zrx, super, beam, plume, wemix, zeta, chip, orca, ctm, ai, wfi, jsm, zano, uai, crclb, vcnt, q, crclon, zcat, bulla, frxusd, soso, gas, prom, brent, matic, peaq, pm, gt, cow, rif, atom, melania, mstrx
+
+CS: 12 tokena bez cene
+  dexe, tel, soon, ctm, wfi, jsm, vcnt, zcat, brent, pm, leo, gt
+
+CP: 100 tokena bez cene
+  zama, usdc, bch, usde, cc, gram, shib, usdg, cro, pyusd, xaut, rlusd, ondo, paxg, wlfi, icp, wld, vvv, bgb, u, etc, jup, aero, xdc, trump, pengu, pyth, virtual, eurc, pons, night, ff, ldo, bsv, fdusd, lunc, imx, ens, useless, cfx, grt, theta, comp, cvx, zbcn, akt, axs, xcn, vsn, aioz, egld, bat, sand, dog, dydx, soon, lsk, marscoin, rsr, chip ... (+40 jos)
+
+CR: 216 tokena bez cene
+  zama, usdc, sol, hype, uni, near, avax, usde, cc, dai, sui, hbar, gram, shib, m, tao, usdg, cro, pyusd, xaut, okb, rlusd, aave, ondo, ena, mnt, dot, pump, pepe, aster, paxg, wlfi, sky, icp, wld, arb, usdd, vvv, bgb, morpho, u, lit, kas, algo, jup, render, jst, cake, qnt, fil, inj, vet, ethfi, aero, apt, stable, xdc, trump, stx, flr ... (+156 jos)
+
+============================================================
+=== SUMNJIVI (prvo sa 4/5 cena, pa 3/5, ...) ===
+
+
+────────────────────────────────────────────────────────────
+--- 4/5 cena ---
+
+1INCH — nedovoljno cena (4/5), fali: cr
+  Naziv: 1inch
+  CMC: https://coinmarketcap.com/currencies/1inch/
+  CG:  https://www.coingecko.com/en/coins/1inch
+  CS:  https://coinstats.app/coins/1inch/
+  CP:  https://coinpaprika.com/coin/1inch-1inch/
+  Cene: {"cmc":0.10302591996486946,"cg":0.102767,"cs":0.10317152453075763,"cp":0.10284032519850614}
+
+2Z — nedovoljno cena (4/5), fali: cr
+  Naziv: DoubleZero
+  CMC: https://coinmarketcap.com/currencies/doublezero/
+  CG:  https://www.coingecko.com/en/coins/doublezero
+  CS:  https://coinstats.app/coins/doublezero/
+  CP:  https://coinpaprika.com/coin/2z-doublezero/
+  Cene: {"cmc":0.05560669349661547,"cg":0.055574,"cs":0.05565454059218597,"cp":0.055538771631959936}
+
+AAVE — nedovoljno cena (4/5), fali: cr
+  Naziv: Aave
+  CMC: https://coinmarketcap.com/currencies/aave/
+  CG:  https://www.coingecko.com/en/coins/aave
+  CS:  https://coinstats.app/coins/aave/
+  CP:  https://coinpaprika.com/coin/aave-new/
+  Cene: {"cmc":149.42315405315242,"cg":149.26,"cs":149.29278803734977,"cp":149.3613834606744}
+
+AKE — nedovoljno cena (4/5), fali: cr
+  Naziv: AKEDO
+  CMC: https://coinmarketcap.com/currencies/akedo/
+  CG:  https://www.coingecko.com/en/coins/akedo
+  CS:  https://coinstats.app/coins/akedo/
+  CP:  https://coinpaprika.com/coin/ake-akedo/
+  Cene: {"cmc":0.0354559064359824,"cg":0.03539531,"cs":0.0354476820641867,"cp":0.03551269464692139}
+
+ALGO — nedovoljno cena (4/5), fali: cr
+  Naziv: Algorand
+  CMC: https://coinmarketcap.com/currencies/algorand/
+  CG:  https://www.coingecko.com/en/coins/algorand
+  CS:  https://coinstats.app/coins/algorand/
+  CP:  https://coinpaprika.com/coin/algo-algorand/
+  Cene: {"cmc":0.11697853880949667,"cg":0.116925,"cs":0.11706209857881719,"cp":0.11702294612832487}
+
+APE — nedovoljno cena (4/5), fali: cr
+  Naziv: ApeCoin
+  CMC: https://coinmarketcap.com/currencies/apecoin-ape/
+  CG:  https://www.coingecko.com/en/coins/apecoin
+  CS:  https://coinstats.app/coins/apecoin/
+  CP:  https://coinpaprika.com/coin/ape-apecoin/
+  Cene: {"cmc":0.15565002972468905,"cg":0.155369,"cs":0.15565835637930553,"cp":0.15544181038227356}
+
+APT — nedovoljno cena (4/5), fali: cr
+  Naziv: Aptos
+  CMC: https://coinmarketcap.com/currencies/aptos/
+  CG:  https://www.coingecko.com/en/coins/aptos
+  CS:  https://coinstats.app/coins/aptos/
+  CP:  https://coinpaprika.com/coin/apt-aptos/
+  Cene: {"cmc":0.8455431717667401,"cg":0.846996,"cs":0.8457554700416606,"cp":0.8458290030855126}
+
+AR — nedovoljno cena (4/5), fali: cr
+  Naziv: Arweave
+  CMC: https://coinmarketcap.com/currencies/arweave/
+  CG:  https://www.coingecko.com/en/coins/arweave
+  CS:  https://coinstats.app/coins/arweave/
+  CP:  https://coinpaprika.com/coin/ar-arweave/
+  Cene: {"cmc":4.740156268706176,"cg":4.73,"cs":4.736363733004795,"cp":4.720831386571302}
+
+ARB — nedovoljno cena (4/5), fali: cr
+  Naziv: Arbitrum
+  CMC: https://coinmarketcap.com/currencies/arbitrum/
+  CG:  https://www.coingecko.com/en/coins/arbitrum
+  CS:  https://coinstats.app/coins/arbitrum/
+  CP:  https://coinpaprika.com/coin/arb-arbitrum/
+  Cene: {"cmc":0.22581495517504263,"cg":0.226059,"cs":0.22537509357396857,"cp":0.22611403928902724}
+
+ASTER — nedovoljno cena (4/5), fali: cr
+  Naziv: Aster
+  CMC: https://coinmarketcap.com/currencies/aster/
+  CG:  https://www.coingecko.com/en/coins/aster-2
+  CS:  https://coinstats.app/coins/aster-2/
+  CP:  https://coinpaprika.com/coin/aster-aster/
+  Cene: {"cmc":0.7341966750091112,"cg":0.734129,"cs":0.7329223069712336,"cp":0.7343274446276119}
+
+AVAX — nedovoljno cena (4/5), fali: cr
+  Naziv: Avalanche
+  CMC: https://coinmarketcap.com/currencies/avalanche/
+  CG:  https://www.coingecko.com/en/coins/avalanche-2
+  CS:  https://coinstats.app/coins/avalanche-2/
+  CP:  https://coinpaprika.com/coin/avax-avalanche/
+  Cene: {"cmc":10.624647365949276,"cg":10.63,"cs":10.63236711786111,"cp":10.642279456534485}
+
+AWE — nedovoljno cena (4/5), fali: cr
+  Naziv: AWE
+  CMC: https://coinmarketcap.com/currencies/awe-network/
+  CG:  https://www.coingecko.com/en/coins/stp-network
+  CS:  https://coinstats.app/coins/stp-network/
+  CP:  https://coinpaprika.com/coin/awe-awe-network/
+  Cene: {"cmc":0.06565228724312713,"cg":0.065567,"cs":0.06564163775101697,"cp":0.065531017988439}
+
+B — nedovoljno cena (4/5), fali: cr
+  Naziv: BUILDon
+  CMC: https://coinmarketcap.com/currencies/buildon/
+  CG:  https://www.coingecko.com/en/coins/build-on
+  CS:  https://coinstats.app/coins/0x6bdcce4a559076e37755a78ce0c06214e59e4444_binance_smart/
+  CP:  https://coinpaprika.com/coin/b-buildon/
+  Cene: {"cmc":0.20677127884114718,"cg":0.20711,"cs":0.20672873000036848,"cp":0.20663430612048814}
+
+BAT — nedovoljno cena (4/5), fali: cp
+  Naziv: Basic Attention Token
+  CMC: https://coinmarketcap.com/currencies/basic-attention-token/
+  CG:  https://www.coingecko.com/en/coins/basic-attention-token
+  CS:  https://coinstats.app/coins/basic-attention-token/
+  Cene: {"cmc":0.09182300695860239,"cg":0.091594,"cs":0.09176183515840784,"cr":0.091871430363}
+
+BCH — nedovoljno cena (4/5), fali: cp
+  Naziv: Bitcoin Cash
+  CMC: https://coinmarketcap.com/currencies/bitcoin-cash/
+  CG:  https://www.coingecko.com/en/coins/bitcoin-cash
+  CS:  https://coinstats.app/coins/bitcoin-cash/
+  Cene: {"cmc":337.8970565471842,"cg":337.66,"cs":338.24346199216467,"cr":338.137184463915}
+
+BDX — nedovoljno cena (4/5), fali: cr
+  Naziv: Beldex
+  CMC: https://coinmarketcap.com/currencies/beldex/
+  CG:  https://www.coingecko.com/en/coins/beldex
+  CS:  https://coinstats.app/coins/beldex/
+  CP:  https://coinpaprika.com/coin/bdx-beldex/
+  Cene: {"cmc":0.07804193301608715,"cg":0.078059,"cs":0.07803600134361273,"cp":0.07799427054206051}
+
+BONK — nedovoljno cena (4/5), fali: cr
+  Naziv: Bonk
+  CMC: https://coinmarketcap.com/currencies/bonk1/
+  CG:  https://www.coingecko.com/en/coins/bonk
+  CS:  https://coinstats.app/coins/bonk/
+  CP:  https://coinpaprika.com/coin/bonk-bonk/
+  Cene: {"cmc":0.0000037745829318770834,"cg":0.00000376,"cs":0.000003766597256174239,"cp":0.0000037709048908952862}
+
+BORG — nedovoljno cena (4/5), fali: cr
+  Naziv: SwissBorg
+  CMC: https://coinmarketcap.com/currencies/swissborg/
+  CG:  https://www.coingecko.com/en/coins/swissborg
+  CS:  https://coinstats.app/coins/swissborg/
+  CP:  https://coinpaprika.com/coin/chsb-swissborg/
+  Cene: {"cmc":0.18218487074688405,"cg":0.182449,"cs":0.18096047296863188,"cp":0.18231012396964588}
+
+BTT — nedovoljno cena (4/5), fali: cr
+  Naziv: BitTorrent [New]
+  CMC: https://coinmarketcap.com/currencies/bittorrent-new/
+  CG:  https://www.coingecko.com/en/coins/bittorrent
+  CS:  https://coinstats.app/coins/bittorrent-2/
+  CP:  https://coinpaprika.com/coin/bttc-bittorrent-chain/
+  Cene: {"cmc":3.7384240744309237e-7,"cg":3.73441e-7,"cs":3.735604539013534e-7,"cp":3.7349937609941807e-7}
+
+BTW — nedovoljno cena (4/5), fali: cr
+  Naziv: Bitway
+  CMC: https://coinmarketcap.com/currencies/bitway-btw/
+  CG:  https://www.coingecko.com/en/coins/bitway
+  CS:  https://coinstats.app/coins/0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa_binance_smart/
+  CP:  https://coinpaprika.com/coin/btw-bitway/
+  Cene: {"cmc":1.0699689344462977,"cg":1.091,"cs":1.1082035654339175,"cp":1.0745022881486734}
+
+CAKE — nedovoljno cena (4/5), fali: cr
+  Naziv: PancakeSwap
+  CMC: https://coinmarketcap.com/currencies/pancakeswap/
+  CG:  https://www.coingecko.com/en/coins/pancakeswap-token
+  CS:  https://coinstats.app/coins/pancakeswap-token/
+  CP:  https://coinpaprika.com/coin/cake-pancakeswap/
+  Cene: {"cmc":2.7667658567138202,"cg":2.77,"cs":2.733221945326013,"cp":2.7692719163121158}
+
+CASHCAT — nedovoljno cena (4/5), fali: cr
+  Naziv: Cash Cat
+  CMC: https://coinmarketcap.com/currencies/cash-cat/
+  CG:  https://www.coingecko.com/en/coins/cash-cat
+  CS:  https://coinstats.app/coins/CashcatZMRn4Jv8sPQZUSsbTLi2PcPe1ssqbHcnaJqSS_solana/
+  CP:  https://coinpaprika.com/coin/cashcat-cash-cat/
+  Cene: {"cmc":0.1813624973695294,"cg":0.181912,"cs":0.17800227892031875,"cp":0.18214069077473857}
+
+CHZ — nedovoljno cena (4/5), fali: cr
+  Naziv: Chiliz
+  CMC: https://coinmarketcap.com/currencies/chiliz/
+  CG:  https://www.coingecko.com/en/coins/chiliz
+  CS:  https://coinstats.app/coins/chiliz/
+  CP:  https://coinpaprika.com/coin/chz-chiliz/
+  Cene: {"cmc":0.016529755231312736,"cg":0.01650706,"cs":0.016530844331263596,"cp":0.016521599472849563}
+
+DAI — nedovoljno cena (4/5), fali: cr
+  Naziv: Dai
+  CMC: https://coinmarketcap.com/currencies/multi-collateral-dai/
+  CG:  https://www.coingecko.com/en/coins/dai
+  CS:  https://coinstats.app/coins/dai/
+  CP:  https://coinpaprika.com/coin/dai-dai/
+  Cene: {"cmc":1.000161448229855,"cg":0.999797,"cs":0.9998313503194491,"cp":0.9995420486947547}
+
+DOT — nedovoljno cena (4/5), fali: cr
+  Naziv: Polkadot
+  CMC: https://coinmarketcap.com/currencies/polkadot-new/
+  CG:  https://www.coingecko.com/en/coins/polkadot
+  CS:  https://coinstats.app/coins/polkadot/
+  CP:  https://coinpaprika.com/coin/dot-polkadot-token/
+  Cene: {"cmc":1.192101496171549,"cg":1.19,"cs":1.1936164459252583,"cp":1.1926400381681201}
+
+DRV — nedovoljno cena (4/5), fali: cr
+  Naziv: Derive
+  CMC: https://coinmarketcap.com/currencies/derive/
+  CG:  https://www.coingecko.com/en/coins/derive
+  CS:  https://coinstats.app/coins/derive/
+  CP:  https://coinpaprika.com/coin/drv7-derive/
+  Cene: {"cmc":0.43493307845003376,"cg":0.435199,"cs":0.4368047479879324,"cp":0.4351889276887814}
+
+EDGE — nedovoljno cena (4/5), fali: cr
+  Naziv: edgeX
+  CMC: https://coinmarketcap.com/currencies/edgex/
+  CG:  https://www.coingecko.com/en/coins/edgex
+  CS:  https://coinstats.app/coins/edgex/
+  CP:  https://coinpaprika.com/coin/edge-edgex/
+  Cene: {"cmc":0.5667898190438957,"cg":0.566813,"cs":0.5644898377267535,"cp":0.5667077675155251}
+
+EIGEN — nedovoljno cena (4/5), fali: cr
+  Naziv: EigenCloud
+  CMC: https://coinmarketcap.com/currencies/eigencloud/
+  CG:  https://www.coingecko.com/en/coins/eigenlayer
+  CS:  https://coinstats.app/coins/eigenlayer/
+  CP:  https://coinpaprika.com/coin/eigen-eigenlayer/
+  Cene: {"cmc":0.24716846862968325,"cg":0.246926,"cs":0.24728719244522876,"cp":0.2470980084886951}
+
+ENA — nedovoljno cena (4/5), fali: cr
+  Naziv: Ethena
+  CMC: https://coinmarketcap.com/currencies/ethena/
+  CG:  https://www.coingecko.com/en/coins/ethena
+  CS:  https://coinstats.app/coins/ethena/
+  CP:  https://coinpaprika.com/coin/ena-ethena/
+  Cene: {"cmc":0.2431168493021821,"cg":0.242612,"cs":0.24309053109826623,"cp":0.24285209386468287}
+
+ETC — nedovoljno cena (4/5), fali: cp
+  Naziv: Ethereum Classic
+  CMC: https://coinmarketcap.com/currencies/ethereum-classic/
+  CG:  https://www.coingecko.com/en/coins/ethereum-classic
+  CS:  https://coinstats.app/coins/ethereum-classic/
+  Cene: {"cmc":9.657173369022912,"cg":9.64,"cs":9.650181340926457,"cr":9.653085074046}
+
+ETHFI — nedovoljno cena (4/5), fali: cr
+  Naziv: ether.fi
+  CMC: https://coinmarketcap.com/currencies/ether-fi-ethfi/
+  CG:  https://www.coingecko.com/en/coins/ether-fi
+  CS:  https://coinstats.app/coins/0x7189fb5b6504bbff6a852b13b7b82a3c118fdc27_arbitrum-one/
+  CP:  https://coinpaprika.com/coin/ethfi-etherfi/
+  Cene: {"cmc":0.7128149555722887,"cg":0.712405,"cs":0.714771881296108,"cp":0.7124591878515}
+
+FARTCOIN — nedovoljno cena (4/5), fali: cr
+  Naziv: Fartcoin
+  CMC: https://coinmarketcap.com/currencies/fartcoin/
+  CG:  https://www.coingecko.com/en/coins/fartcoin
+  CS:  https://coinstats.app/coins/9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump_solana/
+  CP:  https://coinpaprika.com/coin/fartcoin-fartcoin/
+  Cene: {"cmc":0.19678755569144812,"cg":0.196485,"cs":0.1988924674454067,"cp":0.1973227571100096}
+
+FET — nedovoljno cena (4/5), fali: cr
+  Naziv: Artificial Superintelligence Alliance
+  CMC: https://coinmarketcap.com/currencies/artificial-superintelligence-alliance/
+  CG:  https://www.coingecko.com/en/coins/fetch-ai
+  CS:  https://coinstats.app/coins/fetch-ai/
+  CP:  https://coinpaprika.com/coin/fetch-ai/
+  Cene: {"cmc":0.24282230999012464,"cg":0.24417,"cs":0.24317891490475546,"cp":0.24385549301456255}
+
+FIL — nedovoljno cena (4/5), fali: cr
+  Naziv: Filecoin
+  CMC: https://coinmarketcap.com/currencies/filecoin/
+  CG:  https://www.coingecko.com/en/coins/filecoin
+  CS:  https://coinstats.app/coins/filecoin/
+  CP:  https://coinpaprika.com/coin/fil-filecoin/
+  Cene: {"cmc":1.0352789803100746,"cg":1.034,"cs":1.0346983064978017,"cp":1.0351231739864322}
+
+FLOKI — nedovoljno cena (4/5), fali: cr
+  Naziv: FLOKI
+  CMC: https://coinmarketcap.com/currencies/floki-inu/
+  CG:  https://www.coingecko.com/en/coins/floki
+  CS:  https://coinstats.app/coins/floki-inu/
+  CP:  https://coinpaprika.com/coin/floki-floki-inu/
+  Cene: {"cmc":0.000028893846706159568,"cg":0.00002887,"cs":0.00002893816424487292,"cp":0.00002889097307593454}
+
+FLR — nedovoljno cena (4/5), fali: cr
+  Naziv: Flare
+  CMC: https://coinmarketcap.com/currencies/flare/
+  CG:  https://www.coingecko.com/en/coins/flare-networks
+  CS:  https://coinstats.app/coins/flare-networks/
+  CP:  https://coinpaprika.com/coin/flr-flare-network/
+  Cene: {"cmc":0.007237380172018922,"cg":0.00723751,"cs":0.007239468894309107,"cp":0.007236429414179745}
+
+FRAX — nedovoljno cena (4/5), fali: cr
+  Naziv: Legacy Frax Dollar
+  CMC: https://coinmarketcap.com/currencies/frax/
+  CG:  https://www.coingecko.com/en/coins/frax
+  CS:  https://coinstats.app/coins/frax/
+  CP:  https://coinpaprika.com/coin/frax-frax/
+  Cene: {"cmc":0.9924907876872411,"cg":0.992839,"cs":0.9928430680984903,"cp":0.9914099328936307}
+
+GHO — nedovoljno cena (4/5), fali: cr
+  Naziv: GHO
+  CMC: https://coinmarketcap.com/currencies/gho/
+  CG:  https://www.coingecko.com/en/coins/gho
+  CS:  https://coinstats.app/coins/gho/
+  CP:  https://coinpaprika.com/coin/gho-gho/
+  Cene: {"cmc":0.9989883273213965,"cg":0.99897,"cs":0.998964147026799,"cp":0.998641900353675}
+
+GLM — nedovoljno cena (4/5), fali: cr
+  Naziv: Golem
+  CMC: https://coinmarketcap.com/currencies/golem-network-tokens/
+  CG:  https://www.coingecko.com/en/coins/golem
+  CS:  https://coinstats.app/coins/golem-network-tokens/
+  CP:  https://coinpaprika.com/coin/glm-golem/
+  Cene: {"cmc":0.1279948169833082,"cg":0.127936,"cs":0.1282094087222866,"cp":0.12801054746807403}
+
+GRASS — nedovoljno cena (4/5), fali: cr
+  Naziv: Grass
+  CMC: https://coinmarketcap.com/currencies/grass/
+  CG:  https://www.coingecko.com/en/coins/grass
+  CS:  https://coinstats.app/coins/grass/
+  CP:  https://coinpaprika.com/coin/grass-grass/
+  Cene: {"cmc":0.4867978862061552,"cg":0.484737,"cs":0.4890254145998432,"cp":0.4859993683820719}
+
+GUSD — nedovoljno cena (4/5), fali: cr
+  Naziv: GUSD
+  CMC: https://coinmarketcap.com/currencies/gusd/
+  CG:  https://www.coingecko.com/en/coins/gusd
+  CS:  https://coinstats.app/coins/gusd/
+  CP:  https://coinpaprika.com/coin/gusd-gemini-dollar/
+  Cene: {"cmc":0.9981802915008351,"cg":0.998204,"cs":0.998316088016846,"cp":1.0000666333076718}
+
+H — nedovoljno cena (4/5), fali: cr
+  Naziv: Humanity
+  CMC: https://coinmarketcap.com/currencies/humanity-protocol/
+  CG:  https://www.coingecko.com/en/coins/humanity
+  CS:  https://coinstats.app/coins/0x44f161ae29361e332dea039dfa2f404e0bc5b5cc_binance_smart/
+  CP:  https://coinpaprika.com/coin/h-humanity/
+  Cene: {"cmc":0.0663714299193399,"cg":0.066458,"cs":0.06615339607549982,"cp":0.06644934249785597}
+
+HBAR — nedovoljno cena (4/5), fali: cr
+  Naziv: Hedera
+  CMC: https://coinmarketcap.com/currencies/hedera/
+  CG:  https://www.coingecko.com/en/coins/hedera-hashgraph
+  CS:  https://coinstats.app/coins/hedera-hashgraph/
+  CP:  https://coinpaprika.com/coin/hbar-hedera-hashgraph/
+  Cene: {"cmc":0.09522212721270597,"cg":0.095224,"cs":0.09537590664681675,"cp":0.09530034896848999}
+
+HTX — nedovoljno cena (4/5), fali: cr
+  Naziv: HTX
+  CMC: https://coinmarketcap.com/currencies/htx/
+  CG:  https://www.coingecko.com/en/coins/htx-dao
+  CS:  https://coinstats.app/coins/htx-dao/
+  CP:  https://coinpaprika.com/coin/htx-htx/
+  Cene: {"cmc":0.0000017209607755609516,"cg":0.00000172,"cs":0.0000017176921888364416,"cp":0.0000017207806463611384}
+
+HYPE — nedovoljno cena (4/5), fali: cr
+  Naziv: Hyperliquid
+  CMC: https://coinmarketcap.com/currencies/hyperliquid/
+  CG:  https://www.coingecko.com/en/coins/hyperliquid
+  CS:  https://coinstats.app/coins/hyperliquid/
+  CP:  https://coinpaprika.com/coin/hype-hyperliquid/
+  Cene: {"cmc":93.6739409235481,"cg":93.57,"cs":93.64613267939241,"cp":93.6226289446662}
+
+INJ — nedovoljno cena (4/5), fali: cr
+  Naziv: Injective
+  CMC: https://coinmarketcap.com/currencies/injective/
+  CG:  https://www.coingecko.com/en/coins/injective-protocol
+  CS:  https://coinstats.app/coins/injective-protocol/
+  CP:  https://coinpaprika.com/coin/inj-injective-protocol/
+  Cene: {"cmc":8.232278868018314,"cg":8.24,"cs":8.237334247686956,"cp":8.233852076075332}
+
+JASMY — nedovoljno cena (4/5), fali: cr
+  Naziv: JasmyCoin
+  CMC: https://coinmarketcap.com/currencies/jasmy/
+  CG:  https://www.coingecko.com/en/coins/jasmycoin
+  CS:  https://coinstats.app/coins/jasmycoin/
+  CP:  https://coinpaprika.com/coin/jasmy-jasmycoin/
+  Cene: {"cmc":0.004673712779251401,"cg":0.00466384,"cs":0.004691803324683703,"cp":0.004665841461340552}
+
+JST — nedovoljno cena (4/5), fali: cr
+  Naziv: JUST
+  CMC: https://coinmarketcap.com/currencies/just/
+  CG:  https://www.coingecko.com/en/coins/just
+  CS:  https://coinstats.app/coins/just/
+  CP:  https://coinpaprika.com/coin/jst-just/
+  Cene: {"cmc":0.11747873143573495,"cg":0.117453,"cs":0.11739140759473823,"cp":0.11738115991664809}
+
+JTO — nedovoljno cena (4/5), fali: cr
+  Naziv: Jito
+  CMC: https://coinmarketcap.com/currencies/jito/
+  CG:  https://www.coingecko.com/en/coins/jito-governance-token
+  CS:  https://coinstats.app/coins/jito-governance-token/
+  CP:  https://coinpaprika.com/coin/jto-jito/
+  Cene: {"cmc":0.5416385693171292,"cg":0.542831,"cs":0.5360721325781412,"cp":0.542960957760409}
+
+KAIA — nedovoljno cena (4/5), fali: cr
+  Naziv: Kaia
+  CMC: https://coinmarketcap.com/currencies/kaia/
+  CG:  https://www.coingecko.com/en/coins/kaia
+  CS:  https://coinstats.app/coins/kaia/
+  CP:  https://coinpaprika.com/coin/kaia-kaia/
+  Cene: {"cmc":0.03524893125780712,"cg":0.03524808,"cs":0.03526335642891376,"cp":0.03523795378030842}
+
+KAS — nedovoljno cena (4/5), fali: cr
+  Naziv: Kaspa
+  CMC: https://coinmarketcap.com/currencies/kaspa/
+  CG:  https://www.coingecko.com/en/coins/kaspa
+  CS:  https://coinstats.app/coins/kaspa/
+  CP:  https://coinpaprika.com/coin/kas-kaspa/
+  Cene: {"cmc":0.042171650373325924,"cg":0.04214005,"cs":0.04224689729775334,"cp":0.042167145773837116}
+
+KCS — nedovoljno cena (4/5), fali: cp
+  Naziv: KuCoin Token
+  CMC: https://coinmarketcap.com/currencies/kucoin-token/
+  CG:  https://www.coingecko.com/en/coins/kucoin-shares
+  CS:  https://coinstats.app/coins/kucoin-shares/
+  Cene: {"cmc":7.352636738853029,"cg":7.36,"cs":7.350905889469046,"cr":7.350503182562}
+
+KMNO — nedovoljno cena (4/5), fali: cr
+  Naziv: Kamino
+  CMC: https://coinmarketcap.com/currencies/kamino-finance/
+  CG:  https://www.coingecko.com/en/coins/kamino
+  CS:  https://coinstats.app/coins/KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS_solana/
+  CP:  https://coinpaprika.com/coin/kmno-kamino-finance/
+  Cene: {"cmc":0.040280736519144246,"cg":0.04035334,"cs":0.04025153801683252,"cp":0.040352780251766925}
+
+LIT — nedovoljno cena (4/5), fali: cr
+  Naziv: Lighter
+  CMC: https://coinmarketcap.com/currencies/lighter/
+  CG:  https://www.coingecko.com/en/coins/lighter
+  CS:  https://coinstats.app/coins/lighter/
+  CP:  https://coinpaprika.com/coin/lit-lighter/
+  Cene: {"cmc":5.017713855013094,"cg":5.01,"cs":5.019905275348271,"cp":5.01964574243973}
+
+M — nedovoljno cena (4/5), fali: cr
+  Naziv: MemeCore
+  CMC: https://coinmarketcap.com/currencies/memecore/
+  CG:  https://www.coingecko.com/en/coins/memecore
+  CS:  https://coinstats.app/coins/0x22b1458e780f8fa71e2f84502cee8b5a3cc731fa_binance_smart/
+  CP:  https://coinpaprika.com/coin/m-memecore/
+  Cene: {"cmc":1.19756754498302,"cg":1.2,"cs":1.1970847492053014,"cp":1.1963166191474408}
+
+MET — nedovoljno cena (4/5), fali: cr
+  Naziv: Meteora
+  CMC: https://coinmarketcap.com/currencies/meteora/
+  CG:  https://www.coingecko.com/en/coins/meteora
+  CS:  https://coinstats.app/coins/meteora/
+  CP:  https://coinpaprika.com/coin/met-meteora/
+  Cene: {"cmc":0.34442616053961383,"cg":0.344495,"cs":0.3412360730110052,"cp":0.3447793988449715}
+
+MINA — nedovoljno cena (4/5), fali: cr
+  Naziv: Mina
+  CMC: https://coinmarketcap.com/currencies/mina/
+  CG:  https://www.coingecko.com/en/coins/mina-protocol
+  CS:  https://coinstats.app/coins/mina-protocol/
+  CP:  https://coinpaprika.com/coin/mina-mina-protocol/
+  Cene: {"cmc":0.14300901090136997,"cg":0.143236,"cs":0.14317416903898175,"cp":0.14308917212909414}
+
+MNT — nedovoljno cena (4/5), fali: cr
+  Naziv: Mantle
+  CMC: https://coinmarketcap.com/currencies/mantle/
+  CG:  https://www.coingecko.com/en/coins/mantle
+  CS:  https://coinstats.app/coins/mantle/
+  CP:  https://coinpaprika.com/coin/mnt-mantle/
+  Cene: {"cmc":0.6813896649879738,"cg":0.679808,"cs":0.6810813484885663,"cp":0.6795311804791114}
+
+MON — nedovoljno cena (4/5), fali: cr
+  Naziv: Monad
+  CMC: https://coinmarketcap.com/currencies/monad/
+  CG:  https://www.coingecko.com/en/coins/monad
+  CS:  https://coinstats.app/coins/CrAr4RRJMBVwRsZtT62pEhfA9H5utymC2mVx8e7FreP2_solana/
+  CP:  https://coinpaprika.com/coin/mon-monad/
+  Cene: {"cmc":0.02628721759276523,"cg":0.02627034,"cs":0.026277631719346346,"cp":0.02624839341267916}
+
+MORPHO — nedovoljno cena (4/5), fali: cr
+  Naziv: Morpho
+  CMC: https://coinmarketcap.com/currencies/morpho/
+  CG:  https://www.coingecko.com/en/coins/morpho
+  CS:  https://coinstats.app/coins/morpho/
+  CP:  https://coinpaprika.com/coin/morpho-morpho/
+  Cene: {"cmc":2.8560153968106086,"cg":2.86,"cs":2.9074995290714427,"cp":2.86453746636648}
+
+NEAR — nedovoljno cena (4/5), fali: cr
+  Naziv: NEAR Protocol
+  CMC: https://coinmarketcap.com/currencies/near-protocol/
+  CG:  https://www.coingecko.com/en/coins/near
+  CS:  https://coinstats.app/coins/near/
+  CP:  https://coinpaprika.com/coin/near-near-protocol/
+  Cene: {"cmc":5.0041340055648345,"cg":5,"cs":5.0102315584420785,"cp":5.003879742945495}
+
+NEXO — nedovoljno cena (4/5), fali: cr
+  Naziv: Nexo
+  CMC: https://coinmarketcap.com/currencies/nexo/
+  CG:  https://www.coingecko.com/en/coins/nexo
+  CS:  https://coinstats.app/coins/nexo/
+  CP:  https://coinpaprika.com/coin/nexo-nexo/
+  Cene: {"cmc":0.8773995034548493,"cg":0.875205,"cs":0.8749666845018734,"cp":0.8770670356229557}
+
+NFT — nedovoljno cena (4/5), fali: cr
+  Naziv: AINFT
+  CMC: https://coinmarketcap.com/currencies/apenft/
+  CG:  https://www.coingecko.com/en/coins/apenft
+  CS:  https://coinstats.app/coins/apenft/
+  CP:  https://coinpaprika.com/coin/nft-apenft/
+  Cene: {"cmc":2.400478542036898e-7,"cg":2.39605e-7,"cs":2.39573855119929e-7,"cp":2.3965852862983313e-7}
+
+OKB — nedovoljno cena (4/5), fali: cr
+  Naziv: OKB
+  CMC: https://coinmarketcap.com/currencies/okb/
+  CG:  https://www.coingecko.com/en/coins/okb
+  CS:  https://coinstats.app/coins/okb/
+  CP:  https://coinpaprika.com/coin/okb-okb/
+  Cene: {"cmc":120.91570339696653,"cg":120.83,"cs":120.89277649529343,"cp":120.82363046766721}
+
+OP — nedovoljno cena (4/5), fali: cr
+  Naziv: Optimism
+  CMC: https://coinmarketcap.com/currencies/optimism-ethereum/
+  CG:  https://www.coingecko.com/en/coins/optimism
+  CS:  https://coinstats.app/coins/optimism/
+  CP:  https://coinpaprika.com/coin/op-optimism/
+  Cene: {"cmc":0.13821858430978073,"cg":0.138274,"cs":0.13810408864655224,"cp":0.13820350893809577}
+
+PENDLE — nedovoljno cena (4/5), fali: cr
+  Naziv: Pendle
+  CMC: https://coinmarketcap.com/currencies/pendle/
+  CG:  https://www.coingecko.com/en/coins/pendle
+  CS:  https://coinstats.app/coins/pendle/
+  CP:  https://coinpaprika.com/coin/pendle-pendle/
+  Cene: {"cmc":2.6279612012903417,"cg":2.63,"cs":2.6231297569537357,"cp":2.6289237009141435}
+
+PEPE — nedovoljno cena (4/5), fali: cr
+  Naziv: Pepe
+  CMC: https://coinmarketcap.com/currencies/pepe/
+  CG:  https://www.coingecko.com/en/coins/pepe
+  CS:  https://coinstats.app/coins/pepe/
+  CP:  https://coinpaprika.com/coin/pepe-pepe/
+  Cene: {"cmc":0.0000045832888815312316,"cg":0.00000458,"cs":0.000004598163981880657,"cp":0.0000045817909866611685}
+
+PI — nedovoljno cena (4/5), fali: cr
+  Naziv: Pi
+  CMC: https://coinmarketcap.com/currencies/pi/
+  CG:  https://www.coingecko.com/en/coins/pi-network
+  CS:  https://coinstats.app/coins/pi-network/
+  CP:  https://coinpaprika.com/coin/pi2-pi-network/
+  Cene: {"cmc":0.08861729746432351,"cg":0.088639,"cs":0.08871394559275275,"cp":0.08860797551090199}
+
+PIEVERSE — nedovoljno cena (4/5), fali: cr
+  Naziv: Pieverse
+  CMC: https://coinmarketcap.com/currencies/pieverse/
+  CG:  https://www.coingecko.com/en/coins/pieverse
+  CS:  https://coinstats.app/coins/pieverse/
+  CP:  https://coinpaprika.com/coin/pieverse-pieverse/
+  Cene: {"cmc":1.6050803785275365,"cg":1.6,"cs":1.6069897273248737,"cp":1.6061976283680492}
+
+PUMP — nedovoljno cena (4/5), fali: cr
+  Naziv: Pump.fun
+  CMC: https://coinmarketcap.com/currencies/pump-fun/
+  CG:  https://www.coingecko.com/en/coins/pump-fun
+  CS:  https://coinstats.app/coins/pump-fun/
+  CP:  https://coinpaprika.com/coin/pump-pumpfun/
+  Cene: {"cmc":0.00419104836817043,"cg":0.0041907,"cs":0.004173130221189034,"cp":0.004192346475148556}
+
+QNT — nedovoljno cena (4/5), fali: cr
+  Naziv: Quant
+  CMC: https://coinmarketcap.com/currencies/quant/
+  CG:  https://www.coingecko.com/en/coins/quant-network
+  CS:  https://coinstats.app/coins/quant/
+  CP:  https://coinpaprika.com/coin/qnt-quant/
+  Cene: {"cmc":98.41656576518771,"cg":98.32,"cs":99.24212762677293,"cp":98.33037229054466}
+
+QTUM — nedovoljno cena (4/5), fali: cg
+  Naziv: Qtum
+  CMC: https://coinmarketcap.com/currencies/qtum/
+  CG:  https://www.coingecko.com/en/coins/qtum
+  CS:  https://coinstats.app/coins/qtum/
+  CP:  https://coinpaprika.com/coin/qtum-qtum/
+  Cene: {"cmc":1.0400173186768478,"cs":1.0396600879512032,"cp":1.0392256520261307,"cr":1.04124075873}
+
+RAIN — nedovoljno cena (4/5), fali: cr
+  Naziv: Rain
+  CMC: https://coinmarketcap.com/currencies/rain/
+  CG:  https://www.coingecko.com/en/coins/rain
+  CS:  https://coinstats.app/coins/rain/
+  CP:  https://coinpaprika.com/coin/rain-rain-protocol/
+  Cene: {"cmc":0.011934541398300011,"cg":0.01192998,"cs":0.01192953351105702,"cp":0.011930503582718043}
+
+RAY — nedovoljno cena (4/5), fali: cr
+  Naziv: Raydium
+  CMC: https://coinmarketcap.com/currencies/raydium/
+  CG:  https://www.coingecko.com/en/coins/raydium
+  CS:  https://coinstats.app/coins/raydium/
+  CP:  https://coinpaprika.com/coin/ray-raydium/
+  Cene: {"cmc":2.159043141135465,"cg":2.16,"cs":2.155628947219357,"cp":2.1589073058577837}
+
+RENDER — nedovoljno cena (4/5), fali: cr
+  Naziv: Render
+  CMC: https://coinmarketcap.com/currencies/render/
+  CG:  https://www.coingecko.com/en/coins/render-token
+  CS:  https://coinstats.app/coins/render-token/
+  CP:  https://coinpaprika.com/coin/rndr-render-token/
+  Cene: {"cmc":1.9572104720959231,"cg":1.96,"cs":1.9550341668017883,"cp":1.9586043969379032}
+
+RUNE — nedovoljno cena (4/5), fali: cr
+  Naziv: THORChain
+  CMC: https://coinmarketcap.com/currencies/thorchain/
+  CG:  https://www.coingecko.com/en/coins/thorchain
+  CS:  https://coinstats.app/coins/thorchain/
+  CP:  https://coinpaprika.com/coin/rune-thorchain/
+  Cene: {"cmc":0.6492294144646948,"cg":0.647936,"cs":0.6495620851523561,"cp":0.6495728026019721}
+
+S — nedovoljno cena (4/5), fali: cr
+  Naziv: Sonic
+  CMC: https://coinmarketcap.com/currencies/sonic/
+  CG:  https://www.coingecko.com/en/coins/sonic-3
+  CS:  https://coinstats.app/coins/sonic-3/
+  CP:  https://coinpaprika.com/coin/s-sonic/
+  Cene: {"cmc":0.04166680035955392,"cg":0.0416725,"cs":0.041672964327036155,"cp":0.041586464093532886}
+
+SEI — nedovoljno cena (4/5), fali: cr
+  Naziv: Sei
+  CMC: https://coinmarketcap.com/currencies/sei/
+  CG:  https://www.coingecko.com/en/coins/sei-network
+  CS:  https://coinstats.app/coins/sei-network/
+  CP:  https://coinpaprika.com/coin/sei-sei/
+  Cene: {"cmc":0.06778414681177299,"cg":0.067792,"cs":0.06764387444022169,"cp":0.06786949683390618}
+
+SENT — nedovoljno cena (4/5), fali: cr
+  Naziv: Sentient
+  CMC: https://coinmarketcap.com/currencies/sentient/
+  CG:  https://www.coingecko.com/en/coins/sentient
+  CS:  https://coinstats.app/coins/sentient/
+  CP:  https://coinpaprika.com/coin/sent-sentient/
+  Cene: {"cmc":0.022331854806380207,"cg":0.02235091,"cs":0.022261028197287758,"cp":0.022357278534047016}
+
+SFP — nedovoljno cena (4/5), fali: cr
+  Naziv: SafePal
+  CMC: https://coinmarketcap.com/currencies/safepal/
+  CG:  https://www.coingecko.com/en/coins/safepal
+  CS:  https://coinstats.app/coins/safepal/
+  CP:  https://coinpaprika.com/coin/sfp-safepal-token/
+  Cene: {"cmc":0.3089265242479709,"cg":0.308797,"cs":0.30871015773818783,"cp":0.30872504621883123}
+
+SHFL — nedovoljno cena (4/5), fali: cr
+  Naziv: Shuffle
+  CMC: https://coinmarketcap.com/currencies/shuffle/
+  CG:  https://www.coingecko.com/en/coins/shuffle-2
+  CS:  https://coinstats.app/coins/shuffle-2/
+  CP:  https://coinpaprika.com/coin/shfl-shuffle/
+  Cene: {"cmc":0.3652213651122253,"cg":0.365608,"cs":0.36541454234475956,"cp":0.36596013700087293}
+
+SKR — nedovoljno cena (4/5), fali: cr
+  Naziv: Seeker
+  CMC: https://coinmarketcap.com/currencies/solana-mobile-seeker/
+  CG:  https://www.coingecko.com/en/coins/seeker
+  CS:  https://coinstats.app/coins/seeker/
+  CP:  https://coinpaprika.com/coin/skr-seeker/
+  Cene: {"cmc":0.02047518655577739,"cg":0.02045196,"cs":0.020507471543469744,"cp":0.020455261416166822}
+
+SKY — nedovoljno cena (4/5), fali: cr
+  Naziv: Sky
+  CMC: https://coinmarketcap.com/currencies/sky/
+  CG:  https://www.coingecko.com/en/coins/sky
+  CS:  https://coinstats.app/coins/sky/
+  CP:  https://coinpaprika.com/coin/sky-sky/
+  Cene: {"cmc":0.07498892400213636,"cg":0.074906,"cs":0.07491542765517521,"cp":0.07486134923388277}
+
+SOL — nedovoljno cena (4/5), fali: cr
+  Naziv: Solana
+  CMC: https://coinmarketcap.com/currencies/solana/
+  CG:  https://www.coingecko.com/en/coins/solana
+  CS:  https://coinstats.app/coins/solana/
+  CP:  https://coinpaprika.com/coin/sol-solana/
+  Cene: {"cmc":120.99589025070263,"cg":120.96,"cs":121.2294282424927,"cp":121.07841625046483}
+
+SPX — nedovoljno cena (4/5), fali: cr
+  Naziv: SPX6900
+  CMC: https://coinmarketcap.com/currencies/spx6900/
+  CG:  https://www.coingecko.com/en/coins/spx6900
+  CS:  https://coinstats.app/coins/spx6900/
+  CP:  https://coinpaprika.com/coin/spx-spx6900/
+  Cene: {"cmc":0.46043618336527337,"cg":0.459996,"cs":0.45938775471224835,"cp":0.46033670097388146}
+
+STABLE — nedovoljno cena (4/5), fali: cr
+  Naziv: Stable
+  CMC: https://coinmarketcap.com/currencies/stable/
+  CG:  https://www.coingecko.com/en/coins/stable-2
+  CS:  https://coinstats.app/coins/0x011ebe7d75e2c9d1e0bd0be0bef5c36f0a90075f_binance_smart/
+  CP:  https://coinpaprika.com/coin/stable-stable/
+  Cene: {"cmc":0.026258438398977093,"cg":0.02623851,"cs":0.02624317912691262,"cp":0.026236245014389776}
+
+STRK — nedovoljno cena (4/5), fali: cr
+  Naziv: Starknet
+  CMC: https://coinmarketcap.com/currencies/starknet-token/
+  CG:  https://www.coingecko.com/en/coins/starknet
+  CS:  https://coinstats.app/coins/starknet/
+  CP:  https://coinpaprika.com/coin/strk-starknet/
+  Cene: {"cmc":0.04139539768180771,"cg":0.04142026,"cs":0.041393567922557564,"cp":0.04142119873987519}
+
+STX — nedovoljno cena (4/5), fali: cr
+  Naziv: Stacks
+  CMC: https://coinmarketcap.com/currencies/stacks/
+  CG:  https://www.coingecko.com/en/coins/blockstack
+  CS:  https://coinstats.app/coins/blockstack/
+  CP:  https://coinpaprika.com/coin/stx-stacks/
+  Cene: {"cmc":0.3220259739712336,"cg":0.321921,"cs":0.32212565771883744,"cp":0.32186444665108044}
+
+SUI — nedovoljno cena (4/5), fali: cr
+  Naziv: Sui
+  CMC: https://coinmarketcap.com/currencies/sui/
+  CG:  https://www.coingecko.com/en/coins/sui
+  CS:  https://coinstats.app/coins/sui/
+  CP:  https://coinpaprika.com/coin/sui-sui/
+  Cene: {"cmc":1.1340286732558629,"cg":1.13,"cs":1.133326661697926,"cp":1.1319244781510995}
+
+SYRUP — nedovoljno cena (4/5), fali: cr
+  Naziv: Maple Finance
+  CMC: https://coinmarketcap.com/currencies/maple-finance/
+  CG:  https://www.coingecko.com/en/coins/syrup
+  CS:  https://coinstats.app/coins/syrup/
+  CP:  https://coinpaprika.com/coin/syrup-syrup-token/
+  Cene: {"cmc":0.2194713515034989,"cg":0.219157,"cs":0.2196868287725243,"cp":0.21947355617297445}
+
+TAO — nedovoljno cena (4/5), fali: cr
+  Naziv: Bittensor
+  CMC: https://coinmarketcap.com/currencies/bittensor/
+  CG:  https://www.coingecko.com/en/coins/bittensor
+  CS:  https://coinstats.app/coins/bittensor/
+  CP:  https://coinpaprika.com/coin/tao-bittensor/
+  Cene: {"cmc":307.47657625109366,"cg":306.81,"cs":308.0798101338795,"cp":307.1095682222282}
+
+THETA — nedovoljno cena (4/5), fali: cp
+  Naziv: Theta Network
+  CMC: https://coinmarketcap.com/currencies/theta-network/
+  CG:  https://www.coingecko.com/en/coins/theta-token
+  CS:  https://coinstats.app/coins/theta-token/
+  Cene: {"cmc":0.22729837473893516,"cg":0.226788,"cs":0.22725642485305328,"cr":0.226987240472}
+
+TIA — nedovoljno cena (4/5), fali: cr
+  Naziv: Celestia
+  CMC: https://coinmarketcap.com/currencies/celestia/
+  CG:  https://www.coingecko.com/en/coins/celestia
+  CS:  https://coinstats.app/coins/celestia/
+  CP:  https://coinpaprika.com/coin/tia-celestia/
+  Cene: {"cmc":0.5034976323867596,"cg":0.503033,"cs":0.5031928708593641,"cp":0.5033919727078082}
+
+TUSD — nedovoljno cena (4/5), fali: cr
+  Naziv: TrueUSD
+  CMC: https://coinmarketcap.com/currencies/trueusd/
+  CG:  https://www.coingecko.com/en/coins/true-usd
+  CS:  https://coinstats.app/coins/trueusd/
+  CP:  https://coinpaprika.com/coin/tusd-trueusd/
+  Cene: {"cmc":0.999840382622819,"cg":0.999774,"cs":0.9994137542006419,"cp":0.9992788888878954}
+
+UB — nedovoljno cena (4/5), fali: cr
+  Naziv: Unibase
+  CMC: https://coinmarketcap.com/currencies/unibase/
+  CG:  https://www.coingecko.com/en/coins/unibase
+  CS:  https://coinstats.app/coins/unibase/
+  CP:  https://coinpaprika.com/coin/ub-unibase/
+  Cene: {"cmc":0.14617792104888883,"cg":0.146496,"cs":0.14586867337874618,"cp":0.14634310747997192}
+
+UNI — nedovoljno cena (4/5), fali: cr
+  Naziv: Uniswap
+  CMC: https://coinmarketcap.com/currencies/uniswap/
+  CG:  https://www.coingecko.com/en/coins/uniswap
+  CS:  https://coinstats.app/coins/uniswap/
+  CP:  https://coinpaprika.com/coin/uni-uniswap/
+  Cene: {"cmc":9.811065997649802,"cg":9.82,"cs":9.853536567401349,"cp":9.838662721267958}
+
+USD1 — nedovoljno cena (4/5), fali: cr
+  Naziv: World Liberty Financial USD
+  CMC: https://coinmarketcap.com/currencies/usd1/
+  CG:  https://www.coingecko.com/en/coins/usd1-wlfi
+  CS:  https://coinstats.app/coins/TPFqcBAaaUMCSVRCqPaQ9QnzKhmuoLR6Rc_tron/
+  CP:  https://coinpaprika.com/coin/usd1-usd1/
+  Cene: {"cmc":0.9993468533483952,"cg":0.999386,"cs":0.9994151977778984,"cp":0.9991312358091309}
+
+USDAI — nedovoljno cena (4/5), fali: cr
+  Naziv: USDai
+  CMC: https://coinmarketcap.com/currencies/usdai/
+  CG:  https://www.coingecko.com/en/coins/usdai
+  CS:  https://coinstats.app/coins/usdai/
+  CP:  https://coinpaprika.com/coin/usdai-usdai/
+  Cene: {"cmc":1.0002707642171742,"cg":0.999954,"cs":0.9999659438079309,"cp":0.9997655364476353}
+
+USDD — nedovoljno cena (4/5), fali: cr
+  Naziv: USDD
+  CMC: https://coinmarketcap.com/currencies/usdd/
+  CG:  https://www.coingecko.com/en/coins/usdd
+  CS:  https://coinstats.app/coins/usdd/
+  CP:  https://coinpaprika.com/coin/usdd-usdd/
+  Cene: {"cmc":0.9990817299594794,"cg":0.999005,"cs":0.9990025126084964,"cp":0.9993731758647171}
+
+VET — nedovoljno cena (4/5), fali: cr
+  Naziv: VeChain
+  CMC: https://coinmarketcap.com/currencies/vechain/
+  CG:  https://www.coingecko.com/en/coins/vechain
+  CS:  https://coinstats.app/coins/vechain/
+  CP:  https://coinpaprika.com/coin/vet-vechain/
+  Cene: {"cmc":0.009547312807711811,"cg":0.00953608,"cs":0.009524425306433515,"cp":0.009531629054398342}
+
+WIF — nedovoljno cena (4/5), fali: cr
+  Naziv: dogwifhat
+  CMC: https://coinmarketcap.com/currencies/dogwifhat/
+  CG:  https://www.coingecko.com/en/coins/dogwifcoin
+  CS:  https://coinstats.app/coins/dogwifcoin/
+  CP:  https://coinpaprika.com/coin/wif-dogwifcoin/
+  Cene: {"cmc":0.24480196180177463,"cg":0.244368,"cs":0.24472762043042443,"cp":0.2445855235446564}
+
+XEC — nedovoljno cena (4/5), fali: cr
+  Naziv: eCash
+  CMC: https://coinmarketcap.com/currencies/ecash/
+  CG:  https://www.coingecko.com/en/coins/ecash
+  CS:  https://coinstats.app/coins/ecash/
+  CP:  https://coinpaprika.com/coin/xec-ecash/
+  Cene: {"cmc":0.000009144164235918697,"cg":0.00000916,"cs":0.000009162068375863612,"cp":0.000009137157639613325}
+
+XPL — nedovoljno cena (4/5), fali: cr
+  Naziv: Plasma
+  CMC: https://coinmarketcap.com/currencies/plasma-xpl/
+  CG:  https://www.coingecko.com/en/coins/plasma
+  CS:  https://coinstats.app/coins/plasma/
+  CP:  https://coinpaprika.com/coin/xpl-plasma/
+  Cene: {"cmc":0.1122294819736888,"cg":0.112202,"cs":0.11386268060816584,"cp":0.11228995718574565}
+
+XTZ — nedovoljno cena (4/5), fali: cr
+  Naziv: Tezos
+  CMC: https://coinmarketcap.com/currencies/tezos/
+  CG:  https://www.coingecko.com/en/coins/tezos
+  CS:  https://coinstats.app/coins/tezos/
+  CP:  https://coinpaprika.com/coin/xtz-tezos/
+  Cene: {"cmc":0.33670314895095343,"cg":0.336679,"cs":0.33674355609034057,"cp":0.3368338359137471}
+
+ZK — nedovoljno cena (4/5), fali: cr
+  Naziv: ZKsync
+  CMC: https://coinmarketcap.com/currencies/zksync/
+  CG:  https://www.coingecko.com/en/coins/zksync
+  CS:  https://coinstats.app/coins/zksync/
+  CP:  https://coinpaprika.com/coin/zk-zksync/
+  Cene: {"cmc":0.012415625762228596,"cg":0.01241003,"cs":0.012422832597595765,"cp":0.012414761848009364}
+
+ZRO — nedovoljno cena (4/5), fali: cr
+  Naziv: LayerZero
+  CMC: https://coinmarketcap.com/currencies/layerzero/
+  CG:  https://www.coingecko.com/en/coins/layerzero
+  CS:  https://coinstats.app/coins/0x6985884c4392d348587b19cb9eaaf157f13271cd_arbitrum-one/
+  CP:  https://coinpaprika.com/coin/zro-layerzero/
+  Cene: {"cmc":1.5387853901447242,"cg":1.53,"cs":1.530067167577877,"cp":1.5293104559981063}
+
+ZRX — nedovoljno cena (4/5), fali: cg
+  Naziv: 0x Protocol
+  CMC: https://coinmarketcap.com/currencies/0x/
+  CG:  https://www.coingecko.com/en/coins/0x
+  CS:  https://coinstats.app/coins/0x/
+  CP:  https://coinpaprika.com/coin/zrx-0x/
+  Cene: {"cmc":0.12502008770790868,"cs":0.12447381250696427,"cp":0.12473100921555012,"cr":0.124878614341}
+
+
+────────────────────────────────────────────────────────────
+--- 3/5 cena ---
+
+AERO — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Aerodrome Finance
+  CMC: https://coinmarketcap.com/currencies/aerodrome-finance/
+  CG:  https://www.coingecko.com/en/coins/aerodrome-finance
+  CS:  https://coinstats.app/coins/aerodrome-finance/
+  Cene: {"cmc":0.7892511042926993,"cg":0.788882,"cs":0.7901961836109039}
+
+AIOZ — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: AIOZ Network
+  CMC: https://coinmarketcap.com/currencies/aioz-network/
+  CG:  https://www.coingecko.com/en/coins/aioz-network
+  CS:  https://coinstats.app/coins/aioz-network/
+  Cene: {"cmc":0.12427280460312569,"cg":0.123823,"cs":0.1225885066130237}
+
+AKT — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Akash Network
+  CMC: https://coinmarketcap.com/currencies/akash-network/
+  CG:  https://www.coingecko.com/en/coins/akash-network
+  CS:  https://coinstats.app/coins/akash-network/
+  Cene: {"cmc":0.6907845708169675,"cg":0.689957,"cs":0.6929588097042018}
+
+APEPE — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Ape and Pepe
+  CMC: https://coinmarketcap.com/currencies/ape-and-pepe/
+  CG:  https://www.coingecko.com/en/coins/ape-and-pepe
+  CS:  https://coinstats.app/coins/0xa3f751662e282e83ec3cbc387d225ca56dd63d3a_polygon-pos/
+  Cene: {"cmc":0.0000012438151204990378,"cg":0.00000124,"cs":0.0000012441377249989916}
+
+ATH — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: Aethir
+  CMC: https://coinmarketcap.com/currencies/aethir/
+  CG:  https://www.coingecko.com/en/coins/aethir
+  CS:  https://coinstats.app/coins/aethir/
+  CP:  https://coinpaprika.com/coin/ath14-aethir/
+  Cene: {"cmc":0.006020602708084436,"cs":0.006026471559152483,"cp":0.006005620906141699}
+
+ATOM — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: Cosmos
+  CMC: https://coinmarketcap.com/currencies/cosmos/
+  CG:  https://www.coingecko.com/en/coins/cosmos-hub
+  CS:  https://coinstats.app/coins/cosmos/
+  CP:  https://coinpaprika.com/coin/atom-cosmos/
+  Cene: {"cmc":1.8039612503061757,"cs":1.8030534467373676,"cp":1.8020117202428876}
+
+AUSD — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: AUSD
+  CMC: https://coinmarketcap.com/currencies/agora-finance/
+  CG:  https://www.coingecko.com/en/coins/agora-dollar
+  CS:  https://coinstats.app/coins/0x00000000efe302beaa2b3e6e1b18d08d69a9012a_avalanche/
+  Cene: {"cmc":0.9999037817563589,"cg":0.999783,"cs":0.9997934651459178}
+
+AXS — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Axie Infinity
+  CMC: https://coinmarketcap.com/currencies/axie-infinity/
+  CG:  https://www.coingecko.com/en/coins/axie-infinity
+  CS:  https://coinstats.app/coins/axie-infinity/
+  Cene: {"cmc":1.1845870338472664,"cg":1.18,"cs":1.183133045349849}
+
+BEAM — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: Beam
+  CMC: https://coinmarketcap.com/currencies/onbeam/
+  CG:  https://www.coingecko.com/en/coins/beam
+  CS:  https://coinstats.app/coins/beam-2/
+  CP:  https://coinpaprika.com/coin/beam-beam-eth/
+  Cene: {"cmc":0.0021576661975404943,"cs":0.002160842995866467,"cp":0.002164791119806324}
+
+BGB — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Bitget Token
+  CMC: https://coinmarketcap.com/currencies/bitget-token-new/
+  CG:  https://www.coingecko.com/en/coins/bitget-token
+  CS:  https://coinstats.app/coins/bitget-token/
+  Cene: {"cmc":2.0181060640651833,"cg":2.02,"cs":2.0175334360397046}
+
+BP — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Backpack
+  CMC: https://coinmarketcap.com/currencies/backpack-exchange/
+  CG:  https://www.coingecko.com/en/coins/backpack
+  CS:  https://coinstats.app/coins/backpack/
+  Cene: {"cmc":1.325336841080079,"cg":1.32,"cs":1.3220607294594908}
+
+BR — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Bedrock
+  CMC: https://coinmarketcap.com/currencies/bedrock-dao/
+  CG:  https://www.coingecko.com/en/coins/bedrock-token
+  CS:  https://coinstats.app/coins/0xd352dc6e5f0c45e2f2b38eb5565eb286a1ea4087_berachain/
+  Cene: {"cmc":0.8711346082973394,"cg":0.863519,"cs":0.890831013705667}
+
+BSV — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Bitcoin SV
+  CMC: https://coinmarketcap.com/currencies/bitcoin-sv/
+  CG:  https://www.coingecko.com/en/coins/bitcoin-cash-sv
+  CS:  https://coinstats.app/coins/bitcoin-sv/
+  Cene: {"cmc":21.596947504875104,"cg":21.59,"cs":21.233700000000002}
+
+CC — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Canton
+  CMC: https://coinmarketcap.com/currencies/canton-network/
+  CG:  https://www.coingecko.com/en/coins/canton-network
+  CS:  https://coinstats.app/coins/canton-network/
+  Cene: {"cmc":0.12310341195746832,"cg":0.12299,"cs":0.1218645075682918}
+
+CFX — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Conflux
+  CMC: https://coinmarketcap.com/currencies/conflux-network/
+  CG:  https://www.coingecko.com/en/coins/conflux-token
+  CS:  https://coinstats.app/coins/conflux-token/
+  Cene: {"cmc":0.05494267124636255,"cg":0.054897,"cs":0.05497190387076213}
+
+COMP — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Compound
+  CMC: https://coinmarketcap.com/currencies/compound/
+  CG:  https://www.coingecko.com/en/coins/compound-governance-token
+  CS:  https://coinstats.app/coins/compound-governance-token/
+  Cene: {"cmc":24.06085611166795,"cg":24.01,"cs":24.061285026389417}
+
+CRO — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Cronos
+  CMC: https://coinmarketcap.com/currencies/cronos/
+  CG:  https://www.coingecko.com/en/coins/crypto-com-chain
+  CS:  https://coinstats.app/coins/crypto-com-chain/
+  Cene: {"cmc":0.06597070764585895,"cg":0.065929,"cs":0.06602782152489126}
+
+CRV — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Curve DAO Token
+  CMC: https://coinmarketcap.com/currencies/curve-dao-token/
+  CG:  https://www.coingecko.com/en/coins/curve-dao-token
+  CS:  https://coinstats.app/coins/curve-dao-token/
+  Cene: {"cmc":0.3499757012331684,"cg":0.349523,"cs":0.3502578098627372}
+
+CVX — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Convex Finance
+  CMC: https://coinmarketcap.com/currencies/convex-finance/
+  CG:  https://www.coingecko.com/en/coins/convex-finance
+  CS:  https://coinstats.app/coins/convex-finance/
+  Cene: {"cmc":2.1132691723945136,"cg":2.11,"cs":2.1169404915951917}
+
+DGAI — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: DGrid AI
+  CMC: https://coinmarketcap.com/currencies/dgrid-ai/
+  CG:  https://www.coingecko.com/en/coins/dgrid-ai
+  CS:  https://coinstats.app/coins/0x12c2de43878fb1a06c1ead481f11e0c693a719c7_arbitrum-one/
+  Cene: {"cmc":1.0304313608831173,"cg":1.031,"cs":1.0315307641843394}
+
+EGLD — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: MultiversX
+  CMC: https://coinmarketcap.com/currencies/multiversx-egld/
+  CG:  https://www.coingecko.com/en/coins/elrond-erd-2
+  CS:  https://coinstats.app/coins/elrond-erd-2/
+  Cene: {"cmc":4.635985331418972,"cg":4.61,"cs":4.6230768474693775}
+
+ENS — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Ethereum Name Service
+  CMC: https://coinmarketcap.com/currencies/ethereum-name-service/
+  CG:  https://www.coingecko.com/en/coins/ethereum-name-service
+  CS:  https://coinstats.app/coins/ethereum-name-service/
+  Cene: {"cmc":7.273920197320493,"cg":7.28,"cs":7.255328928155499}
+
+EURC — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: EURC
+  CMC: https://coinmarketcap.com/currencies/euro-coin/
+  CG:  https://www.coingecko.com/en/coins/euro-coin
+  CS:  https://coinstats.app/coins/euro-coin/
+  Cene: {"cmc":1.140118100223168,"cg":1.14,"cs":1.1403695166167498}
+
+EURCV — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: EUR CoinVertible
+  CMC: https://coinmarketcap.com/currencies/eur-coinvertible/
+  CG:  https://www.coingecko.com/en/coins/societe-generale-forge-eurcv
+  CS:  https://coinstats.app/coins/societe-generale-forge-eurcv/
+  Cene: {"cmc":1.139818868283303,"cg":1.14,"cs":1.1402318268601124}
+
+FDUSD — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: First Digital USD
+  CMC: https://coinmarketcap.com/currencies/first-digital-usd/
+  CG:  https://www.coingecko.com/en/coins/first-digital-usd
+  CS:  https://coinstats.app/coins/first-digital-usd/
+  Cene: {"cmc":0.999140725190891,"cg":0.999205,"cs":0.9992858293319793}
+
+FF — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Falcon Finance
+  CMC: https://coinmarketcap.com/currencies/falcon-finance-ff/
+  CG:  https://www.coingecko.com/en/coins/falcon-finance-ff
+  CS:  https://coinstats.app/coins/0xac23b90a79504865d52b49b327328411a23d4db2_binance_smart/
+  Cene: {"cmc":0.13543101487621984,"cg":0.135386,"cs":0.13553147741957827}
+
+FLUID — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: Fluid
+  CMC: https://coinmarketcap.com/currencies/instadapp/
+  CG:  https://www.coingecko.com/en/coins/instadapp
+  CS:  https://coinstats.app/coins/instadapp/
+  CP:  https://coinpaprika.com/coin/inst-instadapp/
+  Cene: {"cmc":1.4501243286484675,"cs":1.4519191738988315,"cp":1.4501120465992492}
+
+FORM — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: Four
+  CMC: https://coinmarketcap.com/currencies/binaryx-new/
+  CG:  https://www.coingecko.com/en/coins/four
+  CS:  https://coinstats.app/coins/four/
+  CP:  https://coinpaprika.com/coin/form-four/
+  Cene: {"cmc":0.30518582173663966,"cs":0.3052565902923699,"cp":0.30516556853495663}
+
+GALA — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: Gala
+  CMC: https://coinmarketcap.com/currencies/gala/
+  CG:  https://www.coingecko.com/en/coins/gala
+  CS:  https://coinstats.app/coins/gala/
+  CP:  https://coinpaprika.com/coin/gala-gala/
+  Cene: {"cmc":0.002114365658506167,"cs":0.0021224602249594274,"cp":0.002114308690798945}
+
+GAS — nedovoljno cena (3/5), fali: cmc, cg
+  Naziv: Gas
+  CMC: https://coinmarketcap.com/currencies/gas/
+  CG:  https://www.coingecko.com/en/coins/gas
+  CS:  https://coinstats.app/coins/gas/
+  CP:  https://coinpaprika.com/coin/gas-gas/
+  Cene: {"cs":1.4805191987667727,"cp":1.4779899427793883,"cr":1.479020796684}
+
+GEOD — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: GEODNET
+  CMC: https://coinmarketcap.com/currencies/geodnet/
+  CG:  https://www.coingecko.com/en/coins/geodnet
+  CS:  https://coinstats.app/coins/geodnet/
+  CP:  https://coinpaprika.com/coin/geod-geodnet-token/
+  Cene: {"cmc":0.25509726475140154,"cs":0.25597616894436925,"cp":0.2548674034461597}
+
+GOMINING — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: GoМining
+  CMC: https://coinmarketcap.com/currencies/gomining-token/
+  CG:  https://www.coingecko.com/en/coins/gmt-token
+  CS:  https://coinstats.app/coins/gmt-token/
+  Cene: {"cmc":0.3711190488254078,"cg":0.371184,"cs":0.3709370153896927}
+
+GRAM — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Gram (prev. Toncoin)
+  CMC: https://coinmarketcap.com/currencies/gram/
+  CG:  https://www.coingecko.com/en/coins/the-open-network
+  CS:  https://coinstats.app/coins/the-open-network/
+  Cene: {"cmc":1.4298859786230502,"cg":1.43,"cs":1.4302982097631864}
+
+GRT — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: The Graph
+  CMC: https://coinmarketcap.com/currencies/the-graph/
+  CG:  https://www.coingecko.com/en/coins/the-graph
+  CS:  https://coinstats.app/coins/the-graph/
+  Cene: {"cmc":0.026987315132121197,"cg":0.02700249,"cs":0.02701338932898817}
+
+ICP — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Internet Computer
+  CMC: https://coinmarketcap.com/currencies/internet-computer/
+  CG:  https://www.coingecko.com/en/coins/internet-computer
+  CS:  https://coinstats.app/coins/internet-computer/
+  Cene: {"cmc":3.2500512095208656,"cg":3.25,"cs":3.267938207655349}
+
+IMX — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Immutable
+  CMC: https://coinmarketcap.com/currencies/immutable-x/
+  CG:  https://www.coingecko.com/en/coins/immutable-x
+  CS:  https://coinstats.app/coins/immutable-x/
+  Cene: {"cmc":0.160499567038908,"cg":0.160569,"cs":0.1605729980613364}
+
+JUP — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Jupiter
+  CMC: https://coinmarketcap.com/currencies/jupiter-ag/
+  CG:  https://www.coingecko.com/en/coins/jupiter-exchange-solana
+  CS:  https://coinstats.app/coins/jupiter-exchange-solana/
+  Cene: {"cmc":0.3295325867580061,"cg":0.328998,"cs":0.3298715651220818}
+
+KITE — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: Kite
+  CMC: https://coinmarketcap.com/currencies/kite/
+  CG:  https://www.coingecko.com/en/coins/kite
+  CS:  https://coinstats.app/coins/kite-2/
+  CP:  https://coinpaprika.com/coin/kite-kite-ai/
+  Cene: {"cmc":0.1313145557086433,"cs":0.1317370945562659,"cp":0.1315328876796931}
+
+KOGE — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: 48 Club Token
+  CMC: https://coinmarketcap.com/currencies/bnb48-club-token/
+  CG:  https://www.coingecko.com/en/coins/bnb48-club-token
+  CS:  https://coinstats.app/coins/bnb48-club-token/
+  Cene: {"cmc":68.89496839033139,"cg":69.23,"cs":69.24207441845196}
+
+LDO — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Lido DAO
+  CMC: https://coinmarketcap.com/currencies/lido-dao/
+  CG:  https://www.coingecko.com/en/coins/lido-dao
+  CS:  https://coinstats.app/coins/lido-dao/
+  Cene: {"cmc":0.45393806008596027,"cg":0.454016,"cs":0.45456457704173336}
+
+LUNC — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Terra Classic
+  CMC: https://coinmarketcap.com/currencies/terra-luna/
+  CG:  https://www.coingecko.com/en/coins/terra-luna
+  CS:  https://coinstats.app/coins/terra-luna/
+  Cene: {"cmc":0.00005571466153361682,"cg":0.00005566,"cs":0.000055686890624029816}
+
+MATIC — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: Polygon (prev. MATIC)
+  CMC: https://coinmarketcap.com/currencies/polygon-ecosystem-token/
+  CG:  https://www.coingecko.com/en/coins/polygon
+  CS:  https://coinstats.app/coins/polygon-ecosystem-token/
+  CP:  https://coinpaprika.com/coin/matic-polygon/
+  Cene: {"cmc":0.11172767588774053,"cs":0.11162766726091783,"cp":0.1115979251156358}
+
+MX — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: MX Token
+  CMC: https://coinmarketcap.com/currencies/mx-token/
+  CG:  https://www.coingecko.com/en/coins/mx-token
+  CS:  https://coinstats.app/coins/mx-token/
+  Cene: {"cmc":1.8863807075098975,"cg":1.89,"cs":1.885562980577285}
+
+NPC — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Non-Playable Coin
+  CMC: https://coinmarketcap.com/currencies/non-playable-coin/
+  CG:  https://www.coingecko.com/en/coins/non-playable-coin
+  CS:  https://coinstats.app/coins/non-playable-coin/
+  Cene: {"cmc":0.02283655931876113,"cg":0.02284996,"cs":0.02280710207186787}
+
+ONDO — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Ondo
+  CMC: https://coinmarketcap.com/currencies/ondo-finance/
+  CG:  https://www.coingecko.com/en/coins/ondo-finance
+  CS:  https://coinstats.app/coins/ondo-finance/
+  Cene: {"cmc":0.5485913789055868,"cg":0.548282,"cs":0.5509603881468628}
+
+ORCA — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: Orca
+  CMC: https://coinmarketcap.com/currencies/orca/
+  CG:  https://www.coingecko.com/en/coins/orca
+  CS:  https://coinstats.app/coins/orca/
+  CP:  https://coinpaprika.com/coin/orca-orca/
+  Cene: {"cmc":1.6436520164284933,"cs":1.6438724569852434,"cp":1.6445817872242101}
+
+ORDI — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: ORDI
+  CMC: https://coinmarketcap.com/currencies/ordi/
+  CG:  https://www.coingecko.com/en/coins/ordinals
+  CS:  https://coinstats.app/coins/ordinals/
+  CP:  https://coinpaprika.com/coin/ordi-ordinals/
+  Cene: {"cmc":4.683742370318212,"cs":4.677166416590296,"cp":4.6761649077298495}
+
+PAXG — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: PAX Gold
+  CMC: https://coinmarketcap.com/currencies/pax-gold/
+  CG:  https://www.coingecko.com/en/coins/pax-gold
+  CS:  https://coinstats.app/coins/pax-gold/
+  Cene: {"cmc":4295.665196911922,"cg":4294.47,"cs":4295.018043432907}
+
+PEAQ — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: peaq
+  CMC: https://coinmarketcap.com/currencies/peaq/
+  CG:  https://www.coingecko.com/en/coins/peaq-2
+  CS:  https://coinstats.app/coins/peaq-2/
+  CP:  https://coinpaprika.com/coin/peaq-peaq-network/
+  Cene: {"cmc":0.04366077190088407,"cs":0.04401725805921675,"cp":0.043834591276543405}
+
+PENGU — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Pudgy Penguins
+  CMC: https://coinmarketcap.com/currencies/pudgy-penguins/
+  CG:  https://www.coingecko.com/en/coins/pudgy-penguins
+  CS:  https://coinstats.app/coins/pudgy-penguins/
+  Cene: {"cmc":0.010050362613842158,"cg":0.01002429,"cs":0.010046154430806298}
+
+PLUME — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: Plume
+  CMC: https://coinmarketcap.com/currencies/plume/
+  CG:  https://www.coingecko.com/en/coins/plume
+  CS:  https://coinstats.app/coins/plume/
+  CP:  https://coinpaprika.com/coin/plume-plume/
+  Cene: {"cmc":0.01876208741927316,"cs":0.018881839286743533,"cp":0.018748559705729327}
+
+PONS — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Pons
+  CMC: https://coinmarketcap.com/currencies/pons/
+  CG:  https://www.coingecko.com/en/coins/pons
+  CS:  https://coinstats.app/coins/0x39dbed3a2bd333467115de45665cc57f813c4571_robinhood/
+  Cene: {"cmc":0.6464601018800851,"cg":0.647623,"cs":0.6476430889769355}
+
+PROM — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: Prom
+  CMC: https://coinmarketcap.com/currencies/prom/
+  CG:  https://www.coingecko.com/en/coins/prometeus
+  CS:  https://coinstats.app/coins/prometeus/
+  CP:  https://coinpaprika.com/coin/prom-prometeus/
+  Cene: {"cmc":5.493412791986718,"cs":5.498980747708063,"cp":5.490560571992226}
+
+PYTH — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Pyth Network
+  CMC: https://coinmarketcap.com/currencies/pyth-network/
+  CG:  https://www.coingecko.com/en/coins/pyth-network
+  CS:  https://coinstats.app/coins/pyth-network/
+  Cene: {"cmc":0.07206269725479444,"cg":0.072016,"cs":0.07166782199478897}
+
+PYUSD — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: PayPal USD
+  CMC: https://coinmarketcap.com/currencies/paypal-usd/
+  CG:  https://www.coingecko.com/en/coins/paypal-usd
+  CS:  https://coinstats.app/coins/paypal-usd/
+  Cene: {"cmc":0.9997508263491678,"cg":0.99994,"cs":0.9999220359669153}
+
+RLB — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Rollbit Coin
+  CMC: https://coinmarketcap.com/currencies/rollbit-coin/
+  CG:  https://www.coingecko.com/en/coins/rollbit-coin
+  CS:  https://coinstats.app/coins/rollbit-coin/
+  Cene: {"cmc":0.08409027725684062,"cg":0.084109,"cs":0.0835782457879609}
+
+RLUSD — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Ripple USD
+  CMC: https://coinmarketcap.com/currencies/ripple-usd/
+  CG:  https://www.coingecko.com/en/coins/ripple-usd
+  CS:  https://coinstats.app/coins/524C555344000000000000000000000000000000.rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De_xrp/
+  Cene: {"cmc":1.0000207131731282,"cg":1,"cs":1.0000844605764125}
+
+SAND — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: The Sandbox
+  CMC: https://coinmarketcap.com/currencies/the-sandbox/
+  CG:  https://www.coingecko.com/en/coins/the-sandbox
+  CS:  https://coinstats.app/coins/the-sandbox/
+  Cene: {"cmc":0.04511810499754647,"cg":0.04510795,"cs":0.04525506946949384}
+
+SHIB — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Shiba Inu
+  CMC: https://coinmarketcap.com/currencies/shiba-inu/
+  CG:  https://www.coingecko.com/en/coins/shiba-inu
+  CS:  https://coinstats.app/coins/shiba-inu/
+  Cene: {"cmc":0.000005940651336324598,"cg":0.00000594,"cs":0.000005969516547780544}
+
+SN51 — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: lium
+  CMC: https://coinmarketcap.com/currencies/celium/
+  CG:  https://www.coingecko.com/en/coins/celium
+  CS:  https://coinstats.app/coins/51_bittensor/
+  Cene: {"cmc":26.841745772006107,"cg":27.09,"cs":27.08355309142231}
+
+SOSO — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: SoSoValue
+  CMC: https://coinmarketcap.com/currencies/sosovalue/
+  CG:  https://www.coingecko.com/en/coins/sosovalue
+  CS:  https://coinstats.app/coins/sosovalue/
+  CP:  https://coinpaprika.com/coin/soso-sosovalue/
+  Cene: {"cmc":0.31371714180824695,"cs":0.31557334432937545,"cp":0.3152797353406245}
+
+SUN — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Sun [New]
+  CMC: https://coinmarketcap.com/currencies/sun-token/
+  CG:  https://www.coingecko.com/en/coins/sun-token
+  CS:  https://coinstats.app/coins/sun-token/
+  Cene: {"cmc":0.017210241218521563,"cg":0.01721967,"cs":0.017217468182470788}
+
+SUPER — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: SuperVerse
+  CMC: https://coinmarketcap.com/currencies/superverse/
+  CG:  https://www.coingecko.com/en/coins/superfarm
+  CS:  https://coinstats.app/coins/superfarm/
+  CP:  https://coinpaprika.com/coin/super-superfarm/
+  Cene: {"cmc":0.17740030240351518,"cs":0.17721605510329275,"cp":0.1778428546165931}
+
+TEL — nedovoljno cena (3/5), fali: cg, cs
+  Naziv: Telcoin
+  CMC: https://coinmarketcap.com/currencies/telcoin/
+  CG:  https://www.coingecko.com/en/coins/telcoin
+  CS:  https://coinstats.app/coins/telcoin/
+  CP:  https://coinpaprika.com/coin/tel-telcoin/
+  Cene: {"cmc":0.001674181118595873,"cp":0.0016710890538133702,"cr":0.001673036009}
+
+TIBBIR — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Ribbita by Virtuals
+  CMC: https://coinmarketcap.com/currencies/ribbita-by-virtuals/
+  CG:  https://www.coingecko.com/en/coins/ribbita-by-virtuals
+  CS:  https://coinstats.app/coins/0xa4a2e2ca3fbfe21aed83471d28b6f65a233c6e00_base/
+  Cene: {"cmc":0.27591761270096843,"cg":0.277015,"cs":0.2764327303932858}
+
+TRUMP — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: OFFICIAL TRUMP
+  CMC: https://coinmarketcap.com/currencies/official-trump/
+  CG:  https://www.coingecko.com/en/coins/official-trump
+  CS:  https://coinstats.app/coins/6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN_solana/
+  Cene: {"cmc":2.1073927250893556,"cg":2.11,"cs":2.1122625799702184}
+
+TWT — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Trust Wallet Token
+  CMC: https://coinmarketcap.com/currencies/trust-wallet-token/
+  CG:  https://www.coingecko.com/en/coins/trust-wallet-token
+  CS:  https://coinstats.app/coins/trust-wallet-token/
+  Cene: {"cmc":0.5838039819760169,"cg":0.582786,"cs":0.5830043900816865}
+
+U — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: United Stables
+  CMC: https://coinmarketcap.com/currencies/united-stables/
+  CG:  https://www.coingecko.com/en/coins/united-stables
+  CS:  https://coinstats.app/coins/0xce24439f2d9c6a2289f741120fe202248b666666_binance_smart/
+  Cene: {"cmc":0.9994021616119952,"cg":0.999504,"cs":0.999423380862332}
+
+USAT — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: USAT
+  CMC: https://coinmarketcap.com/currencies/tether-usat/
+  CG:  https://www.coingecko.com/en/coins/usa
+  CS:  https://coinstats.app/coins/usa/
+  Cene: {"cmc":0.9991942548666343,"cg":0.999469,"cs":0.9994812637327646}
+
+USD0 — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Usual USD
+  CMC: https://coinmarketcap.com/currencies/usual-usd/
+  CG:  https://www.coingecko.com/en/coins/usual-usd
+  CS:  https://coinstats.app/coins/usual-usd/
+  Cene: {"cmc":0.9991218779812874,"cg":0.9991,"cs":0.9990810933744104}
+
+USDC — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: USDC
+  CMC: https://coinmarketcap.com/currencies/usd-coin/
+  CG:  https://www.coingecko.com/en/coins/usd-coin
+  CS:  https://coinstats.app/coins/usd-coin/
+  Cene: {"cmc":0.9998181110203921,"cg":0.99987,"cs":0.9999083003878273}
+
+USDE — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Ethena USDe
+  CMC: https://coinmarketcap.com/currencies/ethena-usde/
+  CG:  https://www.coingecko.com/en/coins/ethena-usde
+  CS:  https://coinstats.app/coins/ethena-usde/
+  Cene: {"cmc":0.9997866963555049,"cg":0.999776,"cs":0.9998368780810117}
+
+USDF — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Falcon USD
+  CMC: https://coinmarketcap.com/currencies/falcon-finance/
+  CG:  https://www.coingecko.com/en/coins/falcon-finance
+  CS:  https://coinstats.app/coins/falcon-finance/
+  Cene: {"cmc":0.9953706725739031,"cg":0.99562,"cs":0.9956379753543138}
+
+USDG — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Global Dollar
+  CMC: https://coinmarketcap.com/currencies/global-dollar-usdg/
+  CG:  https://www.coingecko.com/en/coins/global-dollar
+  CS:  https://coinstats.app/coins/global-dollar/
+  Cene: {"cmc":1.0002471628207654,"cg":0.999962,"cs":0.9999269523534757}
+
+USDGO — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: USDGO
+  CMC: https://coinmarketcap.com/currencies/usdgo/
+  CG:  https://www.coingecko.com/en/coins/usdgo
+  CS:  https://coinstats.app/coins/usdgo/
+  Cene: {"cmc":0.9996875871740096,"cg":0.99977,"cs":0.9997762771872521}
+
+USDY — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Ondo US Dollar Yield
+  CMC: https://coinmarketcap.com/currencies/ondo-us-dollar-yield/
+  CG:  https://www.coingecko.com/en/coins/ondo-us-dollar-yield
+  CS:  https://coinstats.app/coins/ondo-us-dollar-yield/
+  Cene: {"cmc":1.1469106698133495,"cg":1.15,"cs":1.1446402140092808}
+
+USELESS — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Useless Coin
+  CMC: https://coinmarketcap.com/currencies/theuselesscoin/
+  CG:  https://www.coingecko.com/en/coins/useless-3
+  CS:  https://coinstats.app/coins/Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk_solana/
+  Cene: {"cmc":0.3010475176205956,"cg":0.301035,"cs":0.3000047405843653}
+
+VIRTUAL — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Virtuals Protocol
+  CMC: https://coinmarketcap.com/currencies/virtual-protocol/
+  CG:  https://www.coingecko.com/en/coins/virtual-protocol
+  CS:  https://coinstats.app/coins/virtual-protocol/
+  Cene: {"cmc":0.7975925913581102,"cg":0.797272,"cs":0.794881832025818}
+
+VSN — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Vision
+  CMC: https://coinmarketcap.com/currencies/vision-token/
+  CG:  https://www.coingecko.com/en/coins/vision-3
+  CS:  https://coinstats.app/coins/vision-3/
+  Cene: {"cmc":0.045430403993050615,"cg":0.04546847,"cs":0.04544504856614543}
+
+VVV — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Venice Token
+  CMC: https://coinmarketcap.com/currencies/venice-token/
+  CG:  https://www.coingecko.com/en/coins/venice-token
+  CS:  https://coinstats.app/coins/0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf_base/
+  Cene: {"cmc":31.562346736904487,"cg":31.59,"cs":31.702625666367624}
+
+WEMIX — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: WEMIX
+  CMC: https://coinmarketcap.com/currencies/wemix/
+  CG:  https://www.coingecko.com/en/coins/wemix-token
+  CS:  https://coinstats.app/coins/wemix-token/
+  CP:  https://coinpaprika.com/coin/wemix-wemix-token/
+  Cene: {"cmc":0.19774006483086934,"cs":0.19753314257828836,"cp":0.19772491936746645}
+
+WLD — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Worldcoin
+  CMC: https://coinmarketcap.com/currencies/worldcoin-org/
+  CG:  https://www.coingecko.com/en/coins/worldcoin-wld
+  CS:  https://coinstats.app/coins/worldcoin-wld/
+  Cene: {"cmc":0.4553778664650924,"cg":0.455226,"cs":0.4556484443912331}
+
+WLFI — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: World Liberty Financial
+  CMC: https://coinmarketcap.com/currencies/world-liberty-financial-wlfi/
+  CG:  https://www.coingecko.com/en/coins/world-liberty-financial
+  CS:  https://coinstats.app/coins/0x47474747477b199288bf72a1d702f7fe0fb1deea_binance_smart/
+  Cene: {"cmc":0.05679683424122935,"cg":0.056816,"cs":0.05682127752409708}
+
+XAUT — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Tether Gold
+  CMC: https://coinmarketcap.com/currencies/tether-gold/
+  CG:  https://www.coingecko.com/en/coins/tether-gold
+  CS:  https://coinstats.app/coins/tether-gold/
+  Cene: {"cmc":4298.616730366834,"cg":4297.04,"cs":4296.846722241856}
+
+XCN — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Onyxcoin
+  CMC: https://coinmarketcap.com/currencies/onyxcoin/
+  CG:  https://www.coingecko.com/en/coins/chain-2
+  CS:  https://coinstats.app/coins/chain-2/
+  Cene: {"cmc":0.005004047975937212,"cg":0.0049995,"cs":0.0050036612723995235}
+
+XDC — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: XDC Network
+  CMC: https://coinmarketcap.com/currencies/xdc-network/
+  CG:  https://www.coingecko.com/en/coins/xdce-crowd-sale
+  CS:  https://coinstats.app/coins/xinfin-network/
+  Cene: {"cmc":0.030755270921620514,"cg":0.03076436,"cs":0.030623639074313314}
+
+ZAMA — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Zama
+  CMC: https://coinmarketcap.com/currencies/zama/
+  CG:  https://www.coingecko.com/en/coins/zama
+  CS:  https://coinstats.app/coins/zama/
+  Cene: {"cmc":0.09251354011535064,"cg":0.092556,"cs":0.09247226479709302}
+
+ZBCN — nedovoljno cena (3/5), fali: cp, cr
+  Naziv: Zebec Network
+  CMC: https://coinmarketcap.com/currencies/zebec-network/
+  CG:  https://www.coingecko.com/en/coins/zebec-network
+  CS:  https://coinstats.app/coins/zebec-network/
+  Cene: {"cmc":0.002173171029124618,"cg":0.00217429,"cs":0.0021781636880754754}
+
+
+────────────────────────────────────────────────────────────
+--- 2/5 cena ---
+
+AI — nedovoljno cena (2/5), fali: cg, cp, cr
+  Naziv: Artificial Inu
+  CMC: https://coinmarketcap.com/currencies/artificial-inu-ai/
+  CG:  https://www.coingecko.com/en/coins/artificial-inu
+  CS:  https://coinstats.app/coins/0x2e8c31162b855a2ffa90f6f8634643ad6f111e18_robinhood/
+  Cene: {"cmc":0.2394138063866554,"cs":0.2385815282477016}
+
+BULLA — nedovoljno cena (2/5), fali: cg, cp, cr
+  Naziv: Bulla
+  CMC: https://coinmarketcap.com/currencies/bulla-mascot/
+  CG:  https://www.coingecko.com/en/coins/bulla-3
+  CS:  https://coinstats.app/coins/bulla-3/
+  Cene: {"cmc":0.10365817860678633,"cs":0.10402286062763924}
+
+CRCLB — nedovoljno cena (2/5), fali: cg, cp, cr
+  Naziv: Circle Internet Group Tokenized bStocks
+  CMC: https://coinmarketcap.com/currencies/circle-internet-group-tokenized-bstocks/
+  CG:  https://www.coingecko.com/en/coins/circle-internet-group-bstock
+  CS:  https://coinstats.app/coins/circle-internet-group-bstock/
+  Cene: {"cmc":93.42664696199496,"cs":93.53114915087266}
+
+CRCLON — nedovoljno cena (2/5), fali: cg, cp, cr
+  Naziv: Circle Internet Group Tokenized Stock (Ondo)
+  CMC: https://coinmarketcap.com/currencies/circle-internet-group-tokenized-stock-ondo/
+  CG:  https://www.coingecko.com/en/coins/circle-internet-group-ondo-tokenized-stock
+  CS:  https://coinstats.app/coins/circle-internet-group-ondo-tokenized-stock/
+  Cene: {"cmc":93.3481701358896,"cs":93.44333453013425}
+
+DEXE — nedovoljno cena (2/5), fali: cg, cs, cr
+  Naziv: DeXe
+  CMC: https://coinmarketcap.com/currencies/dexe/
+  CG:  https://www.coingecko.com/en/coins/dexe
+  CP:  https://coinpaprika.com/coin/dexe-dexe/
+  Cene: {"cmc":1.9642045075797065,"cp":1.9613906810929216}
+
+DOG — nedovoljno cena (2/5), fali: cg, cp, cr
+  Naziv: Dog (Bitcoin)
+  CMC: https://coinmarketcap.com/currencies/dog-go-to-the-moon-rune/
+  CG:  https://www.coingecko.com/en/coins/dog-go-to-the-moon-rune
+  CS:  https://coinstats.app/coins/dog-go-to-the-moon-rune/
+  Cene: {"cmc":0.0010769517763175034,"cs":0.0011287559737361468}
+
+DYDX — nedovoljno cena (2/5), fali: cg, cp, cr
+  Naziv: dYdX
+  CMC: https://coinmarketcap.com/currencies/dydx-chain/
+  CG:  https://www.coingecko.com/en/coins/dydx-chain
+  CS:  https://coinstats.app/coins/dydx-chain/
+  Cene: {"cmc":0.13503702185441918,"cs":0.13527611275246143}
+
+FRXUSD — nedovoljno cena (2/5), fali: cg, cp, cr
+  Naziv: Frax USD
+  CMC: https://coinmarketcap.com/currencies/frax-usd/
+  CG:  https://www.coingecko.com/en/coins/frax-usd
+  CS:  https://coinstats.app/coins/frax-usd/
+  Cene: {"cmc":0.9991212452868004,"cs":0.9998726484556326}
+
+LEO — nedovoljno cena (2/5), fali: cs, cp, cr
+  Naziv: UNUS SED LEO
+  CMC: https://coinmarketcap.com/currencies/unus-sed-leo/
+  CG:  https://www.coingecko.com/en/coins/leo-token
+  Cene: {"cmc":8.834875007181695,"cg":8.83}
+
+LSK — nedovoljno cena (2/5), fali: cmc, cg, cp
+  Naziv: Lisk
+  CMC: https://coinmarketcap.com/currencies/lisk/
+  CG:  https://www.coingecko.com/en/coins/lisk
+  Cene: {"cs":0.3471936585741558,"cr":0.348271093024}
+
+MARSCOIN — nedovoljno cena (2/5), fali: cg, cp, cr
+  Naziv: MarsCoin
+  CMC: https://coinmarketcap.com/currencies/marscoin-meme-bsc/
+  CG:  https://www.coingecko.com/en/coins/marscoin-3
+  CS:  https://coinstats.app/coins/0xfe189e97832da1573e4e4ff034f4ffc3a15c7777_binance_smart/
+  Cene: {"cmc":0.11756792053362473,"cs":0.11327403346176348}
+
+MELANIA — nedovoljno cena (2/5), fali: cg, cp, cr
+  Naziv: Official Melania Meme
+  CMC: https://coinmarketcap.com/currencies/melania-meme/
+  CG:  https://www.coingecko.com/en/coins/melania-meme
+  CS:  https://coinstats.app/coins/melania-meme/
+  Cene: {"cmc":0.10900570696454999,"cs":0.1090611711157662}
+
+MSTRX — nedovoljno cena (2/5), fali: cg, cp, cr
+  Naziv: MicroStrategy tokenized stock (xStock)
+  CMC: https://coinmarketcap.com/currencies/microstrategy-tokenized-stock-xstock/
+  CG:  https://www.coingecko.com/en/coins/microstrategy-xstock
+  CS:  https://coinstats.app/coins/microstrategy-xstock/
+  Cene: {"cmc":164.61069163914127,"cs":164.6763449903723}
+
+NIGHT — nedovoljno cena (2/5), fali: cg, cp, cr
+  Naziv: Midnight
+  CMC: https://coinmarketcap.com/currencies/midnight-network/
+  CG:  https://www.coingecko.com/en/coins/midnight
+  CS:  https://coinstats.app/coins/midnight-3/
+  Cene: {"cmc":0.024534889237047598,"cs":0.024577829663016516}
+
+Q — nedovoljno cena (2/5), fali: cg, cp, cr
+  Naziv: Quack AI
+  CMC: https://coinmarketcap.com/currencies/quack-ai/
+  CG:  https://www.coingecko.com/en/coins/quack-ai
+  CS:  https://coinstats.app/coins/quack-ai/
+  Cene: {"cmc":0.02599461294254045,"cs":0.02598442167426831}
+
+RSR — nedovoljno cena (2/5), fali: cg, cp, cr
+  Naziv: Reserve Rights
+  CMC: https://coinmarketcap.com/currencies/reserve-rights/
+  CG:  https://www.coingecko.com/en/coins/reserve-rights-token
+  CS:  https://coinstats.app/coins/reserve-rights-token/
+  Cene: {"cmc":0.0017542525797309637,"cs":0.001750753282813405}
+
+VCNT — nedovoljno cena (2/5), fali: cg, cs, cr
+  Naziv: ViciCoin
+  CMC: https://coinmarketcap.com/currencies/vicicoin/
+  CG:  https://www.coingecko.com/en/coins/vicicoin
+  CP:  https://coinpaprika.com/coin/vcnt-vicicoin/
+  Cene: {"cmc":19.549518562954987,"cp":19.55244427088777}
+
+WFI — nedovoljno cena (2/5), fali: cg, cs, cr
+  Naziv: WeFi
+  CMC: https://coinmarketcap.com/currencies/wfi/
+  CG:  https://www.coingecko.com/en/coins/wefi
+  CP:  https://coinpaprika.com/coin/wfi-wefi/
+  Cene: {"cmc":1.9939436814953981,"cp":2.0043966210252986}
+
+ZANO — nedovoljno cena (2/5), fali: cmc, cg, cr
+  Naziv: Zano
+  CMC: https://coinmarketcap.com/currencies/zano/
+  CG:  https://www.coingecko.com/en/coins/zano
+  CS:  https://coinstats.app/coins/zano/
+  CP:  https://coinpaprika.com/coin/zano-zano/
+  Cene: {"cs":6.550077764396615,"cp":6.5537266049944}
+
+ZETA — nedovoljno cena (2/5), fali: cmc, cg, cr
+  Naziv: ZetaChain
+  CG:  https://www.coingecko.com/en/coins/zetachain
+  CS:  https://coinstats.app/coins/zetachain/
+  CP:  https://coinpaprika.com/coin/zeta-zetachain/
+  Cene: {"cs":0.05315911792064768,"cp":0.05285732834638469}
+
+
+────────────────────────────────────────────────────────────
+--- 1/5 cena ---
+
+CHIP — nedovoljno cena (1/5), fali: cmc, cg, cp, cr
+  Naziv: USD.AI
+  CMC: https://coinmarketcap.com/currencies/usd-ai/
+  CG:  https://www.coingecko.com/en/coins/chip-2
+  CS:  https://coinstats.app/coins/chipCAT7vi5CZtbZsn9z7iMPXvFwyAnKz3QFu8XVuHm_solana/
+  Cene: {"cs":0.04889042032600709}
+
+COW — nedovoljno cena (1/5), fali: cmc, cg, cp, cr
+  Naziv: CoW Protocol
+  CMC: https://coinmarketcap.com/currencies/cow-protocol/
+  CG:  https://www.coingecko.com/en/coins/cow-protocol
+  CS:  https://coinstats.app/coins/cow-protocol/
+  Cene: {"cs":0.15004628174986956}
+
+CTM — nedovoljno cena (1/5), fali: cg, cs, cp, cr
+  Naziv: c8ntinuum
+  CMC: https://coinmarketcap.com/currencies/c8ntinuum/
+  CG:  https://www.coingecko.com/en/coins/c8ntinuum
+  Cene: {"cmc":0.24254165863171842}
+
+GT — nedovoljno cena (1/5), fali: cg, cs, cp, cr
+  Naziv: GateToken
+  CMC: https://coinmarketcap.com/currencies/gatetoken/
+  CG:  https://www.coingecko.com/en/coins/gatetoken
+  Cene: {"cmc":10.92943397685954}
+
+JSM — nedovoljno cena (1/5), fali: cg, cs, cp, cr
+  Naziv: Joseon Mun
+  CMC: https://coinmarketcap.com/currencies/joseon-mun/
+  CG:  https://www.coingecko.com/en/coins/jaseonmun
+  Cene: {"cmc":0.0004552612451865554}
+
+PM — nedovoljno cena (1/5), fali: cg, cs, cp, cr
+  Naziv: PumpMeme
+  CMC: https://coinmarketcap.com/currencies/pumpmeme/
+  CG:  https://www.coingecko.com/en/coins/pumpmeme
+  Cene: {"cmc":3.424138752696498}
+
+RIF — nedovoljno cena (1/5), fali: cmc, cg, cp, cr
+  Naziv: Rootstock Infrastructure Framework
+  CMC: https://coinmarketcap.com/currencies/rsk-infrastructure-framework/
+  CG:  https://www.coingecko.com/en/coins/rif-token
+  CS:  https://coinstats.app/coins/rif-token/
+  Cene: {"cs":0.09162101783095176}
+
+SOON — nedovoljno cena (1/5), fali: cg, cs, cp, cr
+  Naziv: SOON
+  CMC: https://coinmarketcap.com/currencies/soon/
+  CG:  https://www.coingecko.com/en/coins/soon-2
+  Cene: {"cmc":0.20143287705367405}
+
+UAI — nedovoljno cena (1/5), fali: cmc, cg, cp, cr
+  Naziv: UnifAI Network
+  CG:  https://www.coingecko.com/en/coins/unifai-network
+  CS:  https://coinstats.app/coins/unifai-network/
+  Cene: {"cs":0.3407056364711345}
+
+
+────────────────────────────────────────────────────────────
+--- 0/5 cena ---
+
+BRENT — nedovoljno cena (0/5), fali: cmc, cg, cs, cp, cr
+  Naziv: Crude Oil Brent (Zedcex)
+  CMC: https://coinmarketcap.com/currencies/crude-oil-brent-zedcex/
+  Cene: {}
+
+ZCAT — nedovoljno cena (0/5), fali: cmc, cg, cs, cp, cr
+  Naziv: Anonymous Cat
+  CG:  https://www.coingecko.com/en/coins/anonymous-cat
+  CS:  https://coinstats.app/coins/HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR_solana/
+  Cene: {}
+
