@@ -1,0 +1,174 @@
+Provera mapiranosti — 2026-09-25
+============================================================
+
+Ukupno simbola u bazi: 248
+Preskoceno (vec u fajlovima): 228
+Obradjeno u ovom ciklusu: 6
+Nepotpuni (fali ID, preskoceni): 14
+
+POTVRDJENO: 1
+SUMNJIVO: 5
+
+Greske servisa:
+  - coinstats strana2: HTTP 429
+
+============================================================
+=== NEPOTPUNI — FALI ID (preskoceni, ne trose kredite) ===
+
+DEXE — DeXe — fali: cs
+  CMC: https://coinmarketcap.com/currencies/dexe/
+  CG:  https://www.coingecko.com/en/coins/dexe
+  CP:  https://coinpaprika.com/coin/dexe-dexe/
+
+SOON — SOON — fali: cs
+  CMC: https://coinmarketcap.com/currencies/soon/
+  CG:  https://www.coingecko.com/en/coins/soon-2
+  CP:  https://coinpaprika.com/coin/soon-ton-station/
+
+LSK — Lisk — fali: cs
+  CMC: https://coinmarketcap.com/currencies/lisk/
+  CG:  https://www.coingecko.com/en/coins/lisk
+  CP:  https://coinpaprika.com/coin/lsk-lisk/
+
+ZETA — ZetaChain — fali: cmc
+  CG:  https://www.coingecko.com/en/coins/zetachain
+  CS:  https://coinstats.app/coins/zetachain/
+  CP:  https://coinpaprika.com/coin/zeta-zetachain/
+
+CTM — c8ntinuum — fali: cs
+  CMC: https://coinmarketcap.com/currencies/c8ntinuum/
+  CG:  https://www.coingecko.com/en/coins/c8ntinuum
+  CP:  https://coinpaprika.com/coin/ctm-catemoon/
+
+WFI — WeFi — fali: cs
+  CMC: https://coinmarketcap.com/currencies/wfi/
+  CG:  https://www.coingecko.com/en/coins/wefi
+  CP:  https://coinpaprika.com/coin/wfi-wefi/
+
+JSM — Joseon Mun — fali: cs
+  CMC: https://coinmarketcap.com/currencies/joseon-mun/
+  CG:  https://www.coingecko.com/en/coins/jaseonmun
+  CP:  https://coinpaprika.com/coin/jsm-joseon-mun/
+
+UAI — UnifAI Network — fali: cmc
+  CG:  https://www.coingecko.com/en/coins/aimerica
+  CS:  https://coinstats.app/coins/unifai-network/
+  CP:  https://coinpaprika.com/coin/uai-unifai-network/
+
+VCNT — ViciCoin — fali: cs
+  CMC: https://coinmarketcap.com/currencies/vicicoin/
+  CG:  https://www.coingecko.com/en/coins/vicicoin
+  CP:  https://coinpaprika.com/coin/vcnt-vicicoin/
+
+ZCAT — Anonymous Cat — fali: cmc
+  CG:  https://www.coingecko.com/en/coins/anonymous-cat
+  CS:  https://coinstats.app/coins/HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR_solana/
+  CP:  https://coinpaprika.com/coin/zcat-anonymous-cat/
+
+BRENT — Crude Oil Brent (Zedcex) — fali: cs
+  CMC: https://coinmarketcap.com/currencies/crude-oil-brent-zedcex/
+  CG:  https://www.coingecko.com/en/coins/brent-on-sol
+  CP:  https://coinpaprika.com/coin/brent-brent-crude/
+
+PM — PumpMeme — fali: cs
+  CMC: https://coinmarketcap.com/currencies/pumpmeme/
+  CG:  https://www.coingecko.com/en/coins/polymtrade
+  CP:  https://coinpaprika.com/coin/pm-polymtrade/
+
+LEO — UNUS SED LEO — fali: cs
+  CMC: https://coinmarketcap.com/currencies/unus-sed-leo/
+  CG:  https://www.coingecko.com/en/coins/leo-2
+  CP:  https://coinpaprika.com/coin/leo-leo-token/
+
+GT — GateToken — fali: cs
+  CMC: https://coinmarketcap.com/currencies/gatetoken/
+  CG:  https://www.coingecko.com/en/coins/gatechain-token
+  CP:  https://coinpaprika.com/coin/gt-gatechain-token/
+
+============================================================
+=== BEZ CENE PO SERVISU (od 6 obradjenih) ===
+
+CMC: 0 tokena bez cene
+
+CG: 5 tokena bez cene
+  pi, ai, btw, marscoin, dog
+
+CS: 6 tokena bez cene
+  pi, ai, usdf, btw, marscoin, dog
+
+CP: 1 tokena bez cene
+  marscoin
+
+CR: 5 tokena bez cene
+  ai, usdf, btw, marscoin, dog
+
+============================================================
+=== SUMNJIVI (prvo sa 4/5 cena, pa 3/5, ...) ===
+
+
+────────────────────────────────────────────────────────────
+--- 3/5 cena ---
+
+PI — nedovoljno cena (3/5), fali: cg, cs
+  Naziv: Pi
+  >>> FALI CG: https://www.coingecko.com/en/coins/pchain
+  >>> FALI CS: https://coinstats.app/coins/pi-network/
+  CMC: https://coinmarketcap.com/currencies/pi/
+  CG:  https://www.coingecko.com/en/coins/pchain
+  CS:  https://coinstats.app/coins/pi-network/
+  CP:  https://coinpaprika.com/coin/pi2-pi-network/
+  Cene: {"cmc":0.09121689744147904,"cp":0.09127796998330735,"cr":0.000320926411}
+
+
+────────────────────────────────────────────────────────────
+--- 2/5 cena ---
+
+AI — nedovoljno cena (2/5), fali: cg, cs, cr
+  Naziv: Artificial Inu
+  >>> FALI CG: https://www.coingecko.com/en/coins/ai-community
+  >>> FALI CS: https://coinstats.app/coins/0x2e8c31162b855a2ffa90f6f8634643ad6f111e18_robinhood/
+  >>> FALI CR: https://cryptorank.io/price/artificial-inu-ai
+  CMC: https://coinmarketcap.com/currencies/artificial-inu-ai/
+  CG:  https://www.coingecko.com/en/coins/ai-community
+  CS:  https://coinstats.app/coins/0x2e8c31162b855a2ffa90f6f8634643ad6f111e18_robinhood/
+  CP:  https://coinpaprika.com/coin/ai-gensyn/
+  Cene: {"cmc":0.25136523562020474,"cp":0.021241964443139683}
+
+BTW — nedovoljno cena (2/5), fali: cg, cs, cr
+  Naziv: Bitway
+  >>> FALI CG: https://www.coingecko.com/en/coins/banana-tape-wall
+  >>> FALI CS: https://coinstats.app/coins/0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa_binance_smart/
+  >>> FALI CR: https://cryptorank.io/price/bitway-btw
+  CMC: https://coinmarketcap.com/currencies/bitway-btw/
+  CG:  https://www.coingecko.com/en/coins/banana-tape-wall
+  CS:  https://coinstats.app/coins/0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa_binance_smart/
+  CP:  https://coinpaprika.com/coin/btw-bitway/
+  Cene: {"cmc":1.2380764445905512,"cp":1.193222884712161}
+
+DOG — nedovoljno cena (2/5), fali: cg, cs, cr
+  Naziv: Dog (Bitcoin)
+  >>> FALI CG: https://www.coingecko.com/en/coins/base-dog
+  >>> FALI CS: https://coinstats.app/coins/dog-go-to-the-moon-rune/
+  >>> FALI CR: https://cryptorank.io/price/dog-go-to-the-moon-rune
+  CMC: https://coinmarketcap.com/currencies/dog-go-to-the-moon-rune/
+  CG:  https://www.coingecko.com/en/coins/base-dog
+  CS:  https://coinstats.app/coins/dog-go-to-the-moon-rune/
+  CP:  https://coinpaprika.com/coin/-doggotothemoon/
+  Cene: {"cmc":0.001069177147034025,"cp":0.0010688542252696076}
+
+
+────────────────────────────────────────────────────────────
+--- 1/5 cena ---
+
+MARSCOIN — nedovoljno cena (1/5), fali: cg, cs, cp, cr
+  Naziv: MarsCoin
+  >>> FALI CG: https://www.coingecko.com/en/coins/marscoin-3
+  >>> FALI CS: https://coinstats.app/coins/0xfe189e97832da1573e4e4ff034f4ffc3a15c7777_binance_smart/
+  >>> FALI CP: https://coinpaprika.com/coin/marscoin-marscoin-2/
+  >>> FALI CR: https://cryptorank.io/price/marscoin-meme-bsc
+  CMC: https://coinmarketcap.com/currencies/marscoin-meme-bsc/
+  CG:  https://www.coingecko.com/en/coins/marscoin-3
+  CS:  https://coinstats.app/coins/0xfe189e97832da1573e4e4ff034f4ffc3a15c7777_binance_smart/
+  CP:  https://coinpaprika.com/coin/marscoin-marscoin-2/
+  Cene: {"cmc":0.11512474327814445}
+
