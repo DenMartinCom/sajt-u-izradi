@@ -1,0 +1,640 @@
+{
+  "vreme": 1790339630637,
+  "stavke": [
+    {
+      "simbol": "aero",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "ai",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "aioz",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "akt",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "apepe",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "ausd",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "axs",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "bat",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "bch",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "bgb",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "bp",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "br",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "brent",
+      "fali": [
+        "cg",
+        "cs",
+        "cp"
+      ]
+    },
+    {
+      "simbol": "bsv",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "bulla",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "cc",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "cfx",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "chip",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "comp",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "cow",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "crclb",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "crclon",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "cro",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "crv",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "ctm",
+      "fali": [
+        "cs",
+        "cp"
+      ]
+    },
+    {
+      "simbol": "cvx",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "dexe",
+      "fali": [
+        "cs"
+      ]
+    },
+    {
+      "simbol": "dgai",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "dog",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "dydx",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "egld",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "ens",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "etc",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "eurc",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "eurcv",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "fdusd",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "ff",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "frxusd",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "gomining",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "gram",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "grt",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "gt",
+      "fali": [
+        "cs",
+        "cp"
+      ]
+    },
+    {
+      "simbol": "icp",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "imx",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "jsm",
+      "fali": [
+        "cs",
+        "cp"
+      ]
+    },
+    {
+      "simbol": "jup",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "kcs",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "koge",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "ldo",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "leo",
+      "fali": [
+        "cs",
+        "cp"
+      ]
+    },
+    {
+      "simbol": "lsk",
+      "fali": [
+        "cs",
+        "cp"
+      ]
+    },
+    {
+      "simbol": "lunc",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "marscoin",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "melania",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "mstrx",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "mx",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "night",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "npc",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "ondo",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "paxg",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "pengu",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "pm",
+      "fali": [
+        "cs",
+        "cp"
+      ]
+    },
+    {
+      "simbol": "pons",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "pyth",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "pyusd",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "q",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "rif",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "rlb",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "rlusd",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "rsr",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "sand",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "shib",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "sn51",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "soon",
+      "fali": [
+        "cs",
+        "cp"
+      ]
+    },
+    {
+      "simbol": "sun",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "theta",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "tibbir",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "trump",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "twt",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "u",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "uai",
+      "fali": [
+        "cmc",
+        "cp"
+      ]
+    },
+    {
+      "simbol": "usat",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "usd0",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "usdc",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "usde",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "usdf",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "usdg",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "usdgo",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "usdy",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "useless",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "vcnt",
+      "fali": [
+        "cs"
+      ]
+    },
+    {
+      "simbol": "virtual",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "vsn",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "vvv",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "wfi",
+      "fali": [
+        "cs"
+      ]
+    },
+    {
+      "simbol": "wld",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "wlfi",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "xaut",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "xcn",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "xdc",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "zama",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "zbcn",
+      "fali": [
+        "cp"
+      ]
+    },
+    {
+      "simbol": "zcat",
+      "fali": [
+        "cmc",
+        "cp"
+      ]
+    },
+    {
+      "simbol": "zeta",
+      "fali": [
+        "cmc"
+      ]
+    }
+  ]
+}
