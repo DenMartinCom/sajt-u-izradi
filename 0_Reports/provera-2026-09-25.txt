@@ -1,0 +1,1674 @@
+Provera mapiranosti — 2026-09-25
+============================================================
+
+Ukupno simbola u bazi: 248
+Preskoceno (vec u fajlovima): 22
+Obradjeno u ovom ciklusu: 122
+Nepotpuni (fali ID, preskoceni): 104
+
+POTVRDJENO: 0
+SUMNJIVO: 122
+
+============================================================
+=== NEPOTPUNI — FALI ID (preskoceni, ne trose kredite) ===
+
+ZAMA — Zama — fali: cp
+  CMC: https://coinmarketcap.com/currencies/zama/
+  CG:  https://www.coingecko.com/en/coins/zama
+  CS:  https://coinstats.app/coins/zama/
+
+USDC — USDC — fali: cp
+  CMC: https://coinmarketcap.com/currencies/usd-coin/
+  CG:  https://www.coingecko.com/en/coins/usd-coin
+  CS:  https://coinstats.app/coins/usd-coin/
+
+BCH — Bitcoin Cash — fali: cp
+  CMC: https://coinmarketcap.com/currencies/bitcoin-cash/
+  CG:  https://www.coingecko.com/en/coins/bitcoin-cash
+  CS:  https://coinstats.app/coins/bitcoin-cash/
+
+USDE — Ethena USDe — fali: cp
+  CMC: https://coinmarketcap.com/currencies/ethena-usde/
+  CG:  https://www.coingecko.com/en/coins/ethena-usde
+  CS:  https://coinstats.app/coins/ethena-usde/
+
+CC — Canton — fali: cp
+  CMC: https://coinmarketcap.com/currencies/canton-network/
+  CG:  https://www.coingecko.com/en/coins/canton-network
+  CS:  https://coinstats.app/coins/canton-network/
+
+GRAM — Gram (prev. Toncoin) — fali: cp
+  CMC: https://coinmarketcap.com/currencies/gram/
+  CG:  https://www.coingecko.com/en/coins/the-open-network
+  CS:  https://coinstats.app/coins/the-open-network/
+
+SHIB — Shiba Inu — fali: cp
+  CMC: https://coinmarketcap.com/currencies/shiba-inu/
+  CG:  https://www.coingecko.com/en/coins/shiba-inu
+  CS:  https://coinstats.app/coins/shiba-inu/
+
+USDG — Global Dollar — fali: cp
+  CMC: https://coinmarketcap.com/currencies/global-dollar-usdg/
+  CG:  https://www.coingecko.com/en/coins/global-dollar
+  CS:  https://coinstats.app/coins/global-dollar/
+
+CRO — Cronos — fali: cp
+  CMC: https://coinmarketcap.com/currencies/cronos/
+  CG:  https://www.coingecko.com/en/coins/crypto-com-chain
+  CS:  https://coinstats.app/coins/crypto-com-chain/
+
+PYUSD — PayPal USD — fali: cp
+  CMC: https://coinmarketcap.com/currencies/paypal-usd/
+  CG:  https://www.coingecko.com/en/coins/paypal-usd
+  CS:  https://coinstats.app/coins/paypal-usd/
+
+XAUT — Tether Gold — fali: cp
+  CMC: https://coinmarketcap.com/currencies/tether-gold/
+  CG:  https://www.coingecko.com/en/coins/tether-gold
+  CS:  https://coinstats.app/coins/tether-gold/
+
+RLUSD — Ripple USD — fali: cp
+  CMC: https://coinmarketcap.com/currencies/ripple-usd/
+  CG:  https://www.coingecko.com/en/coins/ripple-usd
+  CS:  https://coinstats.app/coins/524C555344000000000000000000000000000000.rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De_xrp/
+
+ONDO — Ondo — fali: cp
+  CMC: https://coinmarketcap.com/currencies/ondo-finance/
+  CG:  https://www.coingecko.com/en/coins/ondo-finance
+  CS:  https://coinstats.app/coins/ondo-finance/
+
+PAXG — PAX Gold — fali: cp
+  CMC: https://coinmarketcap.com/currencies/pax-gold/
+  CG:  https://www.coingecko.com/en/coins/pax-gold
+  CS:  https://coinstats.app/coins/pax-gold/
+
+WLFI — World Liberty Financial — fali: cp
+  CMC: https://coinmarketcap.com/currencies/world-liberty-financial-wlfi/
+  CG:  https://www.coingecko.com/en/coins/world-liberty-financial
+  CS:  https://coinstats.app/coins/0x47474747477b199288bf72a1d702f7fe0fb1deea_binance_smart/
+
+ICP — Internet Computer — fali: cp
+  CMC: https://coinmarketcap.com/currencies/internet-computer/
+  CG:  https://www.coingecko.com/en/coins/internet-computer
+  CS:  https://coinstats.app/coins/internet-computer/
+
+WLD — Worldcoin — fali: cp
+  CMC: https://coinmarketcap.com/currencies/worldcoin-org/
+  CG:  https://www.coingecko.com/en/coins/worldcoin-wld
+  CS:  https://coinstats.app/coins/worldcoin-wld/
+
+VVV — Venice Token — fali: cp
+  CMC: https://coinmarketcap.com/currencies/venice-token/
+  CG:  https://www.coingecko.com/en/coins/venice-token
+  CS:  https://coinstats.app/coins/0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf_base/
+
+BGB — Bitget Token — fali: cp
+  CMC: https://coinmarketcap.com/currencies/bitget-token-new/
+  CG:  https://www.coingecko.com/en/coins/bitget-token
+  CS:  https://coinstats.app/coins/bitget-token/
+
+U — United Stables — fali: cp
+  CMC: https://coinmarketcap.com/currencies/united-stables/
+  CG:  https://www.coingecko.com/en/coins/united-stables
+  CS:  https://coinstats.app/coins/0xce24439f2d9c6a2289f741120fe202248b666666_binance_smart/
+
+ETC — Ethereum Classic — fali: cp
+  CMC: https://coinmarketcap.com/currencies/ethereum-classic/
+  CG:  https://www.coingecko.com/en/coins/ethereum-classic
+  CS:  https://coinstats.app/coins/ethereum-classic/
+
+JUP — Jupiter — fali: cp
+  CMC: https://coinmarketcap.com/currencies/jupiter-ag/
+  CG:  https://www.coingecko.com/en/coins/jupiter-exchange-solana
+  CS:  https://coinstats.app/coins/jupiter-exchange-solana/
+
+AERO — Aerodrome Finance — fali: cp
+  CMC: https://coinmarketcap.com/currencies/aerodrome-finance/
+  CG:  https://www.coingecko.com/en/coins/aerodrome-finance
+  CS:  https://coinstats.app/coins/aerodrome-finance/
+
+XDC — XDC Network — fali: cp
+  CMC: https://coinmarketcap.com/currencies/xdc-network/
+  CG:  https://www.coingecko.com/en/coins/xdce-crowd-sale
+  CS:  https://coinstats.app/coins/xinfin-network/
+
+TRUMP — OFFICIAL TRUMP — fali: cp
+  CMC: https://coinmarketcap.com/currencies/official-trump/
+  CG:  https://www.coingecko.com/en/coins/official-trump
+  CS:  https://coinstats.app/coins/6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN_solana/
+
+PENGU — Pudgy Penguins — fali: cp
+  CMC: https://coinmarketcap.com/currencies/pudgy-penguins/
+  CG:  https://www.coingecko.com/en/coins/pudgy-penguins
+  CS:  https://coinstats.app/coins/pudgy-penguins/
+
+PYTH — Pyth Network — fali: cp
+  CMC: https://coinmarketcap.com/currencies/pyth-network/
+  CG:  https://www.coingecko.com/en/coins/pyth-network
+  CS:  https://coinstats.app/coins/pyth-network/
+
+VIRTUAL — Virtuals Protocol — fali: cp
+  CMC: https://coinmarketcap.com/currencies/virtual-protocol/
+  CG:  https://www.coingecko.com/en/coins/virtual-protocol
+  CS:  https://coinstats.app/coins/virtual-protocol/
+
+EURC — EURC — fali: cp
+  CMC: https://coinmarketcap.com/currencies/euro-coin/
+  CG:  https://www.coingecko.com/en/coins/euro-coin
+  CS:  https://coinstats.app/coins/euro-coin/
+
+PONS — Pons — fali: cp
+  CMC: https://coinmarketcap.com/currencies/pons/
+  CG:  https://www.coingecko.com/en/coins/pons
+  CS:  https://coinstats.app/coins/0x39dbed3a2bd333467115de45665cc57f813c4571_robinhood/
+
+NIGHT — Midnight — fali: cp
+  CMC: https://coinmarketcap.com/currencies/midnight-network/
+  CG:  https://www.coingecko.com/en/coins/midnight
+  CS:  https://coinstats.app/coins/midnight-3/
+
+FF — Falcon Finance — fali: cp
+  CMC: https://coinmarketcap.com/currencies/falcon-finance-ff/
+  CG:  https://www.coingecko.com/en/coins/falcon-finance-ff
+  CS:  https://coinstats.app/coins/0xac23b90a79504865d52b49b327328411a23d4db2_binance_smart/
+
+LDO — Lido DAO — fali: cp
+  CMC: https://coinmarketcap.com/currencies/lido-dao/
+  CG:  https://www.coingecko.com/en/coins/lido-dao
+  CS:  https://coinstats.app/coins/lido-dao/
+
+BSV — Bitcoin SV — fali: cp
+  CMC: https://coinmarketcap.com/currencies/bitcoin-sv/
+  CG:  https://www.coingecko.com/en/coins/bitcoin-cash-sv
+  CS:  https://coinstats.app/coins/bitcoin-sv/
+
+FDUSD — First Digital USD — fali: cp
+  CMC: https://coinmarketcap.com/currencies/first-digital-usd/
+  CG:  https://www.coingecko.com/en/coins/first-digital-usd
+  CS:  https://coinstats.app/coins/first-digital-usd/
+
+LUNC — Terra Classic — fali: cp
+  CMC: https://coinmarketcap.com/currencies/terra-luna/
+  CG:  https://www.coingecko.com/en/coins/terra-luna
+  CS:  https://coinstats.app/coins/terra-luna/
+
+IMX — Immutable — fali: cp
+  CMC: https://coinmarketcap.com/currencies/immutable-x/
+  CG:  https://www.coingecko.com/en/coins/immutable-x
+  CS:  https://coinstats.app/coins/immutable-x/
+
+ENS — Ethereum Name Service — fali: cp
+  CMC: https://coinmarketcap.com/currencies/ethereum-name-service/
+  CG:  https://www.coingecko.com/en/coins/ethereum-name-service
+  CS:  https://coinstats.app/coins/ethereum-name-service/
+
+USELESS — Useless Coin — fali: cp
+  CMC: https://coinmarketcap.com/currencies/theuselesscoin/
+  CG:  https://www.coingecko.com/en/coins/useless-3
+  CS:  https://coinstats.app/coins/Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk_solana/
+
+CFX — Conflux — fali: cp
+  CMC: https://coinmarketcap.com/currencies/conflux-network/
+  CG:  https://www.coingecko.com/en/coins/conflux-token
+  CS:  https://coinstats.app/coins/conflux-token/
+
+GRT — The Graph — fali: cp
+  CMC: https://coinmarketcap.com/currencies/the-graph/
+  CG:  https://www.coingecko.com/en/coins/the-graph
+  CS:  https://coinstats.app/coins/the-graph/
+
+THETA — Theta Network — fali: cp
+  CMC: https://coinmarketcap.com/currencies/theta-network/
+  CG:  https://www.coingecko.com/en/coins/theta-token
+  CS:  https://coinstats.app/coins/theta-token/
+
+COMP — Compound — fali: cp
+  CMC: https://coinmarketcap.com/currencies/compound/
+  CG:  https://www.coingecko.com/en/coins/compound-governance-token
+  CS:  https://coinstats.app/coins/compound-governance-token/
+
+CVX — Convex Finance — fali: cp
+  CMC: https://coinmarketcap.com/currencies/convex-finance/
+  CG:  https://www.coingecko.com/en/coins/convex-finance
+  CS:  https://coinstats.app/coins/convex-finance/
+
+ZBCN — Zebec Network — fali: cp
+  CMC: https://coinmarketcap.com/currencies/zebec-network/
+  CG:  https://www.coingecko.com/en/coins/zebec-network
+  CS:  https://coinstats.app/coins/zebec-network/
+
+AKT — Akash Network — fali: cp
+  CMC: https://coinmarketcap.com/currencies/akash-network/
+  CG:  https://www.coingecko.com/en/coins/akash-network
+  CS:  https://coinstats.app/coins/akash-network/
+
+AXS — Axie Infinity — fali: cp
+  CMC: https://coinmarketcap.com/currencies/axie-infinity/
+  CG:  https://www.coingecko.com/en/coins/axie-infinity
+  CS:  https://coinstats.app/coins/axie-infinity/
+
+XCN — Onyxcoin — fali: cp
+  CMC: https://coinmarketcap.com/currencies/onyxcoin/
+  CG:  https://www.coingecko.com/en/coins/chain-2
+  CS:  https://coinstats.app/coins/chain-2/
+
+DEXE — DeXe — fali: cs
+  CMC: https://coinmarketcap.com/currencies/dexe/
+  CG:  https://www.coingecko.com/en/coins/dexe
+  CP:  https://coinpaprika.com/coin/dexe-dexe/
+
+VSN — Vision — fali: cp
+  CMC: https://coinmarketcap.com/currencies/vision-token/
+  CG:  https://www.coingecko.com/en/coins/vision-3
+  CS:  https://coinstats.app/coins/vision-3/
+
+AIOZ — AIOZ Network — fali: cp
+  CMC: https://coinmarketcap.com/currencies/aioz-network/
+  CG:  https://www.coingecko.com/en/coins/aioz-network
+  CS:  https://coinstats.app/coins/aioz-network/
+
+EGLD — MultiversX — fali: cp
+  CMC: https://coinmarketcap.com/currencies/multiversx-egld/
+  CG:  https://www.coingecko.com/en/coins/elrond-erd-2
+  CS:  https://coinstats.app/coins/elrond-erd-2/
+
+BAT — Basic Attention Token — fali: cp
+  CMC: https://coinmarketcap.com/currencies/basic-attention-token/
+  CG:  https://www.coingecko.com/en/coins/basic-attention-token
+  CS:  https://coinstats.app/coins/basic-attention-token/
+
+SAND — The Sandbox — fali: cp
+  CMC: https://coinmarketcap.com/currencies/the-sandbox/
+  CG:  https://www.coingecko.com/en/coins/the-sandbox
+  CS:  https://coinstats.app/coins/the-sandbox/
+
+DOG — Dog (Bitcoin) — fali: cp
+  CMC: https://coinmarketcap.com/currencies/dog-go-to-the-moon-rune/
+  CG:  https://www.coingecko.com/en/coins/dog-go-to-the-moon-rune
+  CS:  https://coinstats.app/coins/dog-go-to-the-moon-rune/
+
+DYDX — dYdX — fali: cp
+  CMC: https://coinmarketcap.com/currencies/dydx-chain/
+  CG:  https://www.coingecko.com/en/coins/dydx-chain
+  CS:  https://coinstats.app/coins/dydx-chain/
+
+SOON — SOON — fali: cs, cp
+  CMC: https://coinmarketcap.com/currencies/soon/
+  CG:  https://www.coingecko.com/en/coins/soon-2
+
+LSK — Lisk — fali: cs, cp
+  CMC: https://coinmarketcap.com/currencies/lisk/
+  CG:  https://www.coingecko.com/en/coins/lisk
+
+MARSCOIN — MarsCoin — fali: cp
+  CMC: https://coinmarketcap.com/currencies/marscoin-meme-bsc/
+  CG:  https://www.coingecko.com/en/coins/marscoin-3
+  CS:  https://coinstats.app/coins/0xfe189e97832da1573e4e4ff034f4ffc3a15c7777_binance_smart/
+
+RSR — Reserve Rights — fali: cp
+  CMC: https://coinmarketcap.com/currencies/reserve-rights/
+  CG:  https://www.coingecko.com/en/coins/reserve-rights-token
+  CS:  https://coinstats.app/coins/reserve-rights-token/
+
+ZETA — ZetaChain — fali: cmc
+  CG:  https://www.coingecko.com/en/coins/zetachain
+  CS:  https://coinstats.app/coins/zetachain/
+  CP:  https://coinpaprika.com/coin/zeta-zetachain/
+
+CHIP — USD.AI — fali: cp
+  CMC: https://coinmarketcap.com/currencies/usd-ai/
+  CG:  https://www.coingecko.com/en/coins/chip-2
+  CS:  https://coinstats.app/coins/chipCAT7vi5CZtbZsn9z7iMPXvFwyAnKz3QFu8XVuHm_solana/
+
+USDY — Ondo US Dollar Yield — fali: cp
+  CMC: https://coinmarketcap.com/currencies/ondo-us-dollar-yield/
+  CG:  https://www.coingecko.com/en/coins/ondo-us-dollar-yield
+  CS:  https://coinstats.app/coins/ondo-us-dollar-yield/
+
+USDGO — USDGO — fali: cp
+  CMC: https://coinmarketcap.com/currencies/usdgo/
+  CG:  https://www.coingecko.com/en/coins/usdgo
+  CS:  https://coinstats.app/coins/usdgo/
+
+USDF — Falcon USD — fali: cp
+  CMC: https://coinmarketcap.com/currencies/falcon-finance/
+  CG:  https://www.coingecko.com/en/coins/falcon-finance
+  CS:  https://coinstats.app/coins/falcon-finance/
+
+CTM — c8ntinuum — fali: cs, cp
+  CMC: https://coinmarketcap.com/currencies/c8ntinuum/
+  CG:  https://www.coingecko.com/en/coins/c8ntinuum
+
+USD0 — Usual USD — fali: cp
+  CMC: https://coinmarketcap.com/currencies/usual-usd/
+  CG:  https://www.coingecko.com/en/coins/usual-usd
+  CS:  https://coinstats.app/coins/usual-usd/
+
+BR — Bedrock — fali: cp
+  CMC: https://coinmarketcap.com/currencies/bedrock-dao/
+  CG:  https://www.coingecko.com/en/coins/bedrock-token
+  CS:  https://coinstats.app/coins/0xd352dc6e5f0c45e2f2b38eb5565eb286a1ea4087_berachain/
+
+AI — Artificial Inu — fali: cp
+  CMC: https://coinmarketcap.com/currencies/artificial-inu-ai/
+  CG:  https://www.coingecko.com/en/coins/artificial-inu
+  CS:  https://coinstats.app/coins/0x2e8c31162b855a2ffa90f6f8634643ad6f111e18_robinhood/
+
+APEPE — Ape and Pepe — fali: cp
+  CMC: https://coinmarketcap.com/currencies/ape-and-pepe/
+  CG:  https://www.coingecko.com/en/coins/ape-and-pepe
+  CS:  https://coinstats.app/coins/0xa3f751662e282e83ec3cbc387d225ca56dd63d3a_polygon-pos/
+
+TIBBIR — Ribbita by Virtuals — fali: cp
+  CMC: https://coinmarketcap.com/currencies/ribbita-by-virtuals/
+  CG:  https://www.coingecko.com/en/coins/ribbita-by-virtuals
+  CS:  https://coinstats.app/coins/0xa4a2e2ca3fbfe21aed83471d28b6f65a233c6e00_base/
+
+AUSD — AUSD — fali: cp
+  CMC: https://coinmarketcap.com/currencies/agora-finance/
+  CG:  https://www.coingecko.com/en/coins/agora-dollar
+  CS:  https://coinstats.app/coins/0x00000000efe302beaa2b3e6e1b18d08d69a9012a_avalanche/
+
+BP — Backpack — fali: cp
+  CMC: https://coinmarketcap.com/currencies/backpack-exchange/
+  CG:  https://www.coingecko.com/en/coins/backpack
+  CS:  https://coinstats.app/coins/backpack/
+
+EURCV — EUR CoinVertible — fali: cp
+  CMC: https://coinmarketcap.com/currencies/eur-coinvertible/
+  CG:  https://www.coingecko.com/en/coins/societe-generale-forge-eurcv
+  CS:  https://coinstats.app/coins/societe-generale-forge-eurcv/
+
+NPC — Non-Playable Coin — fali: cp
+  CMC: https://coinmarketcap.com/currencies/non-playable-coin/
+  CG:  https://www.coingecko.com/en/coins/non-playable-coin
+  CS:  https://coinstats.app/coins/non-playable-coin/
+
+USAT — USAT — fali: cp
+  CMC: https://coinmarketcap.com/currencies/tether-usat/
+  CG:  https://www.coingecko.com/en/coins/usa
+  CS:  https://coinstats.app/coins/usa/
+
+WFI — WeFi — fali: cs
+  CMC: https://coinmarketcap.com/currencies/wfi/
+  CG:  https://www.coingecko.com/en/coins/wefi
+  CP:  https://coinpaprika.com/coin/wfi-wefi/
+
+DGAI — DGrid AI — fali: cp
+  CMC: https://coinmarketcap.com/currencies/dgrid-ai/
+  CG:  https://www.coingecko.com/en/coins/dgrid-ai
+  CS:  https://coinstats.app/coins/0x12c2de43878fb1a06c1ead481f11e0c693a719c7_arbitrum-one/
+
+JSM — Joseon Mun — fali: cs, cp
+  CMC: https://coinmarketcap.com/currencies/joseon-mun/
+  CG:  https://www.coingecko.com/en/coins/jaseonmun
+
+UAI — UnifAI Network — fali: cmc, cp
+  CG:  https://www.coingecko.com/en/coins/unifai-network
+  CS:  https://coinstats.app/coins/unifai-network/
+
+RLB — Rollbit Coin — fali: cp
+  CMC: https://coinmarketcap.com/currencies/rollbit-coin/
+  CG:  https://www.coingecko.com/en/coins/rollbit-coin
+  CS:  https://coinstats.app/coins/rollbit-coin/
+
+CRCLB — Circle Internet Group Tokenized bStocks — fali: cp
+  CMC: https://coinmarketcap.com/currencies/circle-internet-group-tokenized-bstocks/
+  CG:  https://www.coingecko.com/en/coins/circle-internet-group-bstock
+  CS:  https://coinstats.app/coins/circle-internet-group-bstock/
+
+VCNT — ViciCoin — fali: cs
+  CMC: https://coinmarketcap.com/currencies/vicicoin/
+  CG:  https://www.coingecko.com/en/coins/vicicoin
+  CP:  https://coinpaprika.com/coin/vcnt-vicicoin/
+
+Q — Quack AI — fali: cp
+  CMC: https://coinmarketcap.com/currencies/quack-ai/
+  CG:  https://www.coingecko.com/en/coins/quack-ai
+  CS:  https://coinstats.app/coins/quack-ai/
+
+CRCLON — Circle Internet Group Tokenized Stock (Ondo) — fali: cp
+  CMC: https://coinmarketcap.com/currencies/circle-internet-group-tokenized-stock-ondo/
+  CG:  https://www.coingecko.com/en/coins/circle-internet-group-ondo-tokenized-stock
+  CS:  https://coinstats.app/coins/circle-internet-group-ondo-tokenized-stock/
+
+ZCAT — Anonymous Cat — fali: cmc, cp
+  CG:  https://www.coingecko.com/en/coins/anonymous-cat
+  CS:  https://coinstats.app/coins/HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR_solana/
+
+BULLA — Bulla — fali: cp
+  CMC: https://coinmarketcap.com/currencies/bulla-mascot/
+  CG:  https://www.coingecko.com/en/coins/bulla-3
+  CS:  https://coinstats.app/coins/bulla-3/
+
+FRXUSD — Frax USD — fali: cp
+  CMC: https://coinmarketcap.com/currencies/frax-usd/
+  CG:  https://www.coingecko.com/en/coins/frax-usd
+  CS:  https://coinstats.app/coins/frax-usd/
+
+BRENT — Crude Oil Brent (Zedcex) — fali: cg, cs, cp
+  CMC: https://coinmarketcap.com/currencies/crude-oil-brent-zedcex/
+
+SN51 — lium — fali: cp
+  CMC: https://coinmarketcap.com/currencies/celium/
+  CG:  https://www.coingecko.com/en/coins/celium
+  CS:  https://coinstats.app/coins/51_bittensor/
+
+PM — PumpMeme — fali: cs, cp
+  CMC: https://coinmarketcap.com/currencies/pumpmeme/
+  CG:  https://www.coingecko.com/en/coins/pumpmeme
+
+LEO — UNUS SED LEO — fali: cs, cp
+  CMC: https://coinmarketcap.com/currencies/unus-sed-leo/
+  CG:  https://www.coingecko.com/en/coins/leo-token
+
+GT — GateToken — fali: cs, cp
+  CMC: https://coinmarketcap.com/currencies/gatetoken/
+  CG:  https://www.coingecko.com/en/coins/gatetoken
+
+KCS — KuCoin Token — fali: cp
+  CMC: https://coinmarketcap.com/currencies/kucoin-token/
+  CG:  https://www.coingecko.com/en/coins/kucoin-shares
+  CS:  https://coinstats.app/coins/kucoin-shares/
+
+COW — CoW Protocol — fali: cp
+  CMC: https://coinmarketcap.com/currencies/cow-protocol/
+  CG:  https://www.coingecko.com/en/coins/cow-protocol
+  CS:  https://coinstats.app/coins/cow-protocol/
+
+RIF — Rootstock Infrastructure Framework — fali: cp
+  CMC: https://coinmarketcap.com/currencies/rsk-infrastructure-framework/
+  CG:  https://www.coingecko.com/en/coins/rif-token
+  CS:  https://coinstats.app/coins/rif-token/
+
+CRV — Curve DAO Token — fali: cp
+  CMC: https://coinmarketcap.com/currencies/curve-dao-token/
+  CG:  https://www.coingecko.com/en/coins/curve-dao-token
+  CS:  https://coinstats.app/coins/curve-dao-token/
+
+SUN — Sun [New] — fali: cp
+  CMC: https://coinmarketcap.com/currencies/sun-token/
+  CG:  https://www.coingecko.com/en/coins/sun-token
+  CS:  https://coinstats.app/coins/sun-token/
+
+TWT — Trust Wallet Token — fali: cp
+  CMC: https://coinmarketcap.com/currencies/trust-wallet-token/
+  CG:  https://www.coingecko.com/en/coins/trust-wallet-token
+  CS:  https://coinstats.app/coins/trust-wallet-token/
+
+MX — MX Token — fali: cp
+  CMC: https://coinmarketcap.com/currencies/mx-token/
+  CG:  https://www.coingecko.com/en/coins/mx-token
+  CS:  https://coinstats.app/coins/mx-token/
+
+GOMINING — GoМining — fali: cp
+  CMC: https://coinmarketcap.com/currencies/gomining-token/
+  CG:  https://www.coingecko.com/en/coins/gmt-token
+  CS:  https://coinstats.app/coins/gmt-token/
+
+MELANIA — Official Melania Meme — fali: cp
+  CMC: https://coinmarketcap.com/currencies/melania-meme/
+  CG:  https://www.coingecko.com/en/coins/melania-meme
+  CS:  https://coinstats.app/coins/melania-meme/
+
+KOGE — 48 Club Token — fali: cp
+  CMC: https://coinmarketcap.com/currencies/bnb48-club-token/
+  CG:  https://www.coingecko.com/en/coins/bnb48-club-token
+  CS:  https://coinstats.app/coins/bnb48-club-token/
+
+MSTRX — MicroStrategy tokenized stock (xStock) — fali: cp
+  CMC: https://coinmarketcap.com/currencies/microstrategy-tokenized-stock-xstock/
+  CG:  https://www.coingecko.com/en/coins/microstrategy-xstock
+  CS:  https://coinstats.app/coins/microstrategy-xstock/
+
+============================================================
+=== BEZ CENE PO SERVISU (od 122 obradjenih) ===
+
+CMC: 2 tokena bez cene
+  gas, zano
+
+CG: 22 tokena bez cene
+  atom, peaq, matic, prom, gas, soso, zano, orca, wemix, plume, beam, super, zrx, qtum, ordi, gala, ath, fluid, geod, form, tel, kite
+
+CS: 1 tokena bez cene
+  tel
+
+CP: 0 tokena bez cene
+
+CR: 118 tokena bez cene
+  awe, mina, eigen, htx, atom, pi, usd1, peaq, matic, grass, prom, soso, zano, gusd, shfl, borg, frax, drv, ub, usdai, bdx, gho, ake, btw, rain, orca, wemix, plume, beam, super, ordi, gala, ath, skr, s, fluid, geod, glm, zk, h, form, sent, 1inch, ape, met, sfp, xec, chz, 2z, cashcat, fartcoin, kmno, rune, kaia, b, edge, jasmy, wif, nft, jto ... (+58 jos)
+
+============================================================
+=== SUMNJIVI (prvo sa 4/5 cena, pa 3/5, ...) ===
+
+
+────────────────────────────────────────────────────────────
+--- 4/5 cena ---
+
+1INCH — nedovoljno cena (4/5), fali: cr
+  Naziv: 1inch
+  >>> FALI CR: https://cryptorank.io/price/1inch
+  CMC: https://coinmarketcap.com/currencies/1inch/
+  CG:  https://www.coingecko.com/en/coins/1inch
+  CS:  https://coinstats.app/coins/1inch/
+  CP:  https://coinpaprika.com/coin/1inch-1inch/
+  Cene: {"cmc":0.1024947773657683,"cg":0.102607,"cs":0.1023734154435285,"cp":0.10265679209408944}
+
+2Z — nedovoljno cena (4/5), fali: cr
+  Naziv: DoubleZero
+  >>> FALI CR: https://cryptorank.io/price/doublezero
+  CMC: https://coinmarketcap.com/currencies/doublezero/
+  CG:  https://www.coingecko.com/en/coins/doublezero
+  CS:  https://coinstats.app/coins/doublezero/
+  CP:  https://coinpaprika.com/coin/2z-doublezero/
+  Cene: {"cmc":0.05566592479320564,"cg":0.055644,"cs":0.05555616554580471,"cp":0.0556517729065359}
+
+AAVE — nedovoljno cena (4/5), fali: cr
+  Naziv: Aave
+  >>> FALI CR: https://cryptorank.io/price/aave
+  CMC: https://coinmarketcap.com/currencies/aave/
+  CG:  https://www.coingecko.com/en/coins/aave
+  CS:  https://coinstats.app/coins/aave/
+  CP:  https://coinpaprika.com/coin/aave-new/
+  Cene: {"cmc":147.9924584800799,"cg":148.26,"cs":147.98504798324805,"cp":148.26289997883543}
+
+AKE — nedovoljno cena (4/5), fali: cr
+  Naziv: AKEDO
+  >>> FALI CR: https://cryptorank.io/price/akedo
+  CMC: https://coinmarketcap.com/currencies/akedo/
+  CG:  https://www.coingecko.com/en/coins/akedo
+  CS:  https://coinstats.app/coins/akedo/
+  CP:  https://coinpaprika.com/coin/ake-akedo/
+  Cene: {"cmc":0.03539007381612267,"cg":0.03532108,"cs":0.03504412955998098,"cp":0.03539065494769968}
+
+ALGO — nedovoljno cena (4/5), fali: cr
+  Naziv: Algorand
+  >>> FALI CR: https://cryptorank.io/price/algorand
+  CMC: https://coinmarketcap.com/currencies/algorand/
+  CG:  https://www.coingecko.com/en/coins/algorand
+  CS:  https://coinstats.app/coins/algorand/
+  CP:  https://coinpaprika.com/coin/algo-algorand/
+  Cene: {"cmc":0.11662714904400594,"cg":0.116805,"cs":0.11650453401302795,"cp":0.11684632065225388}
+
+APE — nedovoljno cena (4/5), fali: cr
+  Naziv: ApeCoin
+  >>> FALI CR: https://cryptorank.io/price/apecoin-ape
+  CMC: https://coinmarketcap.com/currencies/apecoin-ape/
+  CG:  https://www.coingecko.com/en/coins/apecoin
+  CS:  https://coinstats.app/coins/apecoin/
+  CP:  https://coinpaprika.com/coin/ape-apecoin/
+  Cene: {"cmc":0.15446846370664324,"cg":0.154597,"cs":0.1542751356750067,"cp":0.1545604303801939}
+
+APT — nedovoljno cena (4/5), fali: cr
+  Naziv: Aptos
+  >>> FALI CR: https://cryptorank.io/price/aptos
+  CMC: https://coinmarketcap.com/currencies/aptos/
+  CG:  https://www.coingecko.com/en/coins/aptos
+  CS:  https://coinstats.app/coins/aptos/
+  CP:  https://coinpaprika.com/coin/apt-aptos/
+  Cene: {"cmc":0.8457795683251537,"cg":0.847512,"cs":0.8448331086969212,"cp":0.8486697403959721}
+
+AR — nedovoljno cena (4/5), fali: cr
+  Naziv: Arweave
+  >>> FALI CR: https://cryptorank.io/price/arweave
+  CMC: https://coinmarketcap.com/currencies/arweave/
+  CG:  https://www.coingecko.com/en/coins/arweave
+  CS:  https://coinstats.app/coins/arweave/
+  CP:  https://coinpaprika.com/coin/ar-arweave/
+  Cene: {"cmc":4.67736971780757,"cg":4.68,"cs":4.660906038658131,"cp":4.68981707712182}
+
+ARB — nedovoljno cena (4/5), fali: cr
+  Naziv: Arbitrum
+  >>> FALI CR: https://cryptorank.io/price/arbitrum
+  CMC: https://coinmarketcap.com/currencies/arbitrum/
+  CG:  https://www.coingecko.com/en/coins/arbitrum
+  CS:  https://coinstats.app/coins/arbitrum/
+  CP:  https://coinpaprika.com/coin/arb-arbitrum/
+  Cene: {"cmc":0.22334671138236742,"cg":0.223466,"cs":0.22330752294965317,"cp":0.22356317164212067}
+
+ASTER — nedovoljno cena (4/5), fali: cr
+  Naziv: Aster
+  >>> FALI CR: https://cryptorank.io/price/aster
+  CMC: https://coinmarketcap.com/currencies/aster/
+  CG:  https://www.coingecko.com/en/coins/aster-2
+  CS:  https://coinstats.app/coins/aster-2/
+  CP:  https://coinpaprika.com/coin/aster-aster/
+  Cene: {"cmc":0.7328516476853898,"cg":0.733548,"cs":0.7319308134220918,"cp":0.7338792266555348}
+
+AVAX — nedovoljno cena (4/5), fali: cr
+  Naziv: Avalanche
+  >>> FALI CR: https://cryptorank.io/price/avalanche
+  CMC: https://coinmarketcap.com/currencies/avalanche/
+  CG:  https://www.coingecko.com/en/coins/avalanche-2
+  CS:  https://coinstats.app/coins/avalanche-2/
+  CP:  https://coinpaprika.com/coin/avax-avalanche/
+  Cene: {"cmc":10.59837238426693,"cg":10.6,"cs":10.588223741317565,"cp":10.606474838648026}
+
+AWE — nedovoljno cena (4/5), fali: cr
+  Naziv: AWE
+  >>> FALI CR: https://cryptorank.io/price/awe-network
+  CMC: https://coinmarketcap.com/currencies/awe-network/
+  CG:  https://www.coingecko.com/en/coins/stp-network
+  CS:  https://coinstats.app/coins/stp-network/
+  CP:  https://coinpaprika.com/coin/awe-awe-network/
+  Cene: {"cmc":0.0652876956104492,"cg":0.065299,"cs":0.06521957434397611,"cp":0.06529571817820322}
+
+B — nedovoljno cena (4/5), fali: cr
+  Naziv: BUILDon
+  >>> FALI CR: https://cryptorank.io/price/buildon
+  CMC: https://coinmarketcap.com/currencies/buildon/
+  CG:  https://www.coingecko.com/en/coins/build-on
+  CS:  https://coinstats.app/coins/0x6bdcce4a559076e37755a78ce0c06214e59e4444_binance_smart/
+  CP:  https://coinpaprika.com/coin/b-buildon/
+  Cene: {"cmc":0.20182996711684084,"cg":0.20199,"cs":0.2019596576686929,"cp":0.20207386004616015}
+
+BDX — nedovoljno cena (4/5), fali: cr
+  Naziv: Beldex
+  >>> FALI CR: https://cryptorank.io/price/beldex
+  CMC: https://coinmarketcap.com/currencies/beldex/
+  CG:  https://www.coingecko.com/en/coins/beldex
+  CS:  https://coinstats.app/coins/beldex/
+  CP:  https://coinpaprika.com/coin/bdx-beldex/
+  Cene: {"cmc":0.07784733876580403,"cg":0.077875,"cs":0.07785853902188876,"cp":0.07798819780244495}
+
+BONK — nedovoljno cena (4/5), fali: cr
+  Naziv: Bonk
+  >>> FALI CR: https://cryptorank.io/price/bonk1
+  CMC: https://coinmarketcap.com/currencies/bonk1/
+  CG:  https://www.coingecko.com/en/coins/bonk
+  CS:  https://coinstats.app/coins/bonk/
+  CP:  https://coinpaprika.com/coin/bonk-bonk/
+  Cene: {"cmc":0.000003719338288311393,"cg":0.00000373,"cs":0.000003699810185558024,"cp":0.0000037347463201901647}
+
+BORG — nedovoljno cena (4/5), fali: cr
+  Naziv: SwissBorg
+  >>> FALI CR: https://cryptorank.io/price/swissborg
+  CMC: https://coinmarketcap.com/currencies/swissborg/
+  CG:  https://www.coingecko.com/en/coins/swissborg
+  CS:  https://coinstats.app/coins/swissborg/
+  CP:  https://coinpaprika.com/coin/chsb-swissborg/
+  Cene: {"cmc":0.18093673550156997,"cg":0.181294,"cs":0.1807055888845442,"cp":0.1815631857490345}
+
+BTT — nedovoljno cena (4/5), fali: cr
+  Naziv: BitTorrent [New]
+  >>> FALI CR: https://cryptorank.io/price/bittorrent-new
+  CMC: https://coinmarketcap.com/currencies/bittorrent-new/
+  CG:  https://www.coingecko.com/en/coins/bittorrent
+  CS:  https://coinstats.app/coins/bittorrent-2/
+  CP:  https://coinpaprika.com/coin/bttc-bittorrent-chain/
+  Cene: {"cmc":3.723522108694423e-7,"cg":3.73089e-7,"cs":3.7232177081692733e-7,"cp":3.730855650037058e-7}
+
+BTW — nedovoljno cena (4/5), fali: cr
+  Naziv: Bitway
+  >>> FALI CR: https://cryptorank.io/price/bitway-btw
+  CMC: https://coinmarketcap.com/currencies/bitway-btw/
+  CG:  https://www.coingecko.com/en/coins/bitway
+  CS:  https://coinstats.app/coins/0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa_binance_smart/
+  CP:  https://coinpaprika.com/coin/btw-bitway/
+  Cene: {"cmc":1.1328408846729983,"cg":1.15,"cs":1.13383059804502,"cp":1.1138677990510868}
+
+CAKE — nedovoljno cena (4/5), fali: cr
+  Naziv: PancakeSwap
+  >>> FALI CR: https://cryptorank.io/price/pancakeswap
+  CMC: https://coinmarketcap.com/currencies/pancakeswap/
+  CG:  https://www.coingecko.com/en/coins/pancakeswap-token
+  CS:  https://coinstats.app/coins/pancakeswap-token/
+  CP:  https://coinpaprika.com/coin/cake-pancakeswap/
+  Cene: {"cmc":2.803063753567606,"cg":2.8,"cs":2.7954617874728376,"cp":2.8040371518385623}
+
+CASHCAT — nedovoljno cena (4/5), fali: cr
+  Naziv: Cash Cat
+  >>> FALI CR: https://cryptorank.io/price/cash-cat
+  CMC: https://coinmarketcap.com/currencies/cash-cat/
+  CG:  https://www.coingecko.com/en/coins/cash-cat
+  CS:  https://coinstats.app/coins/CashcatZMRn4Jv8sPQZUSsbTLi2PcPe1ssqbHcnaJqSS_solana/
+  CP:  https://coinpaprika.com/coin/cashcat-cash-cat/
+  Cene: {"cmc":0.17966775658489637,"cg":0.18008,"cs":0.1783090343622204,"cp":0.17999264144741983}
+
+CHZ — nedovoljno cena (4/5), fali: cr
+  Naziv: Chiliz
+  >>> FALI CR: https://cryptorank.io/price/chiliz
+  CMC: https://coinmarketcap.com/currencies/chiliz/
+  CG:  https://www.coingecko.com/en/coins/chiliz
+  CS:  https://coinstats.app/coins/chiliz/
+  CP:  https://coinpaprika.com/coin/chz-chiliz/
+  Cene: {"cmc":0.01657822411748369,"cg":0.01660859,"cs":0.01659906930261293,"cp":0.016607433562762158}
+
+DAI — nedovoljno cena (4/5), fali: cr
+  Naziv: Dai
+  >>> FALI CR: https://cryptorank.io/price/multi-collateral-dai
+  CMC: https://coinmarketcap.com/currencies/multi-collateral-dai/
+  CG:  https://www.coingecko.com/en/coins/dai
+  CS:  https://coinstats.app/coins/dai/
+  CP:  https://coinpaprika.com/coin/dai-dai/
+  Cene: {"cmc":0.9999757637812294,"cg":0.999884,"cs":0.9998358975905393,"cp":0.9999494263914261}
+
+DOT — nedovoljno cena (4/5), fali: cr
+  Naziv: Polkadot
+  >>> FALI CR: https://cryptorank.io/price/polkadot-new
+  CMC: https://coinmarketcap.com/currencies/polkadot-new/
+  CG:  https://www.coingecko.com/en/coins/polkadot
+  CS:  https://coinstats.app/coins/polkadot/
+  CP:  https://coinpaprika.com/coin/dot-polkadot-token/
+  Cene: {"cmc":1.1862289840439317,"cg":1.19,"cs":1.1859009648650907,"cp":1.1846482237045102}
+
+DRV — nedovoljno cena (4/5), fali: cr
+  Naziv: Derive
+  >>> FALI CR: https://cryptorank.io/price/derive
+  CMC: https://coinmarketcap.com/currencies/derive/
+  CG:  https://www.coingecko.com/en/coins/derive
+  CS:  https://coinstats.app/coins/derive/
+  CP:  https://coinpaprika.com/coin/drv7-derive/
+  Cene: {"cmc":0.43503503098219926,"cg":0.435409,"cs":0.435163045741758,"cp":0.4354109070699661}
+
+EDGE — nedovoljno cena (4/5), fali: cr
+  Naziv: edgeX
+  >>> FALI CR: https://cryptorank.io/price/edgex
+  CMC: https://coinmarketcap.com/currencies/edgex/
+  CG:  https://www.coingecko.com/en/coins/edgex
+  CS:  https://coinstats.app/coins/edgex/
+  CP:  https://coinpaprika.com/coin/edge-edgex/
+  Cene: {"cmc":0.5575587128936877,"cg":0.558714,"cs":0.5563550996794853,"cp":0.5586670692584369}
+
+EIGEN — nedovoljno cena (4/5), fali: cr
+  Naziv: EigenCloud
+  >>> FALI CR: https://cryptorank.io/price/eigencloud
+  CMC: https://coinmarketcap.com/currencies/eigencloud/
+  CG:  https://www.coingecko.com/en/coins/eigenlayer
+  CS:  https://coinstats.app/coins/eigenlayer/
+  CP:  https://coinpaprika.com/coin/eigen-eigenlayer/
+  Cene: {"cmc":0.24536164545476505,"cg":0.24551,"cs":0.2449155149343336,"cp":0.24558306127385549}
+
+ENA — nedovoljno cena (4/5), fali: cr
+  Naziv: Ethena
+  >>> FALI CR: https://cryptorank.io/price/ethena
+  CMC: https://coinmarketcap.com/currencies/ethena/
+  CG:  https://www.coingecko.com/en/coins/ethena
+  CS:  https://coinstats.app/coins/ethena/
+  CP:  https://coinpaprika.com/coin/ena-ethena/
+  Cene: {"cmc":0.23881772450241257,"cg":0.238321,"cs":0.23894663936036453,"cp":0.23825760364287785}
+
+ETHFI — nedovoljno cena (4/5), fali: cr
+  Naziv: ether.fi
+  >>> FALI CR: https://cryptorank.io/price/ether-fi-ethfi
+  CMC: https://coinmarketcap.com/currencies/ether-fi-ethfi/
+  CG:  https://www.coingecko.com/en/coins/ether-fi
+  CS:  https://coinstats.app/coins/0x7189fb5b6504bbff6a852b13b7b82a3c118fdc27_arbitrum-one/
+  CP:  https://coinpaprika.com/coin/ethfi-etherfi/
+  Cene: {"cmc":0.7119070738949826,"cg":0.712243,"cs":0.7100712888902566,"cp":0.7122694352610711}
+
+FARTCOIN — nedovoljno cena (4/5), fali: cr
+  Naziv: Fartcoin
+  >>> FALI CR: https://cryptorank.io/price/fartcoin
+  CMC: https://coinmarketcap.com/currencies/fartcoin/
+  CG:  https://www.coingecko.com/en/coins/fartcoin
+  CS:  https://coinstats.app/coins/9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump_solana/
+  CP:  https://coinpaprika.com/coin/fartcoin-fartcoin/
+  Cene: {"cmc":0.1931424721703225,"cg":0.193898,"cs":0.19256124514519582,"cp":0.1936877794748032}
+
+FET — nedovoljno cena (4/5), fali: cr
+  Naziv: Artificial Superintelligence Alliance
+  >>> FALI CR: https://cryptorank.io/price/artificial-superintelligence-alliance
+  CMC: https://coinmarketcap.com/currencies/artificial-superintelligence-alliance/
+  CG:  https://www.coingecko.com/en/coins/fetch-ai
+  CS:  https://coinstats.app/coins/fetch-ai/
+  CP:  https://coinpaprika.com/coin/fetch-ai/
+  Cene: {"cmc":0.24150053023336798,"cg":0.241462,"cs":0.24169357457906646,"cp":0.24168046290274536}
+
+FIL — nedovoljno cena (4/5), fali: cr
+  Naziv: Filecoin
+  >>> FALI CR: https://cryptorank.io/price/filecoin
+  CMC: https://coinmarketcap.com/currencies/filecoin/
+  CG:  https://www.coingecko.com/en/coins/filecoin
+  CS:  https://coinstats.app/coins/filecoin/
+  CP:  https://coinpaprika.com/coin/fil-filecoin/
+  Cene: {"cmc":1.0204120012023032,"cg":1.021,"cs":1.01985075081957,"cp":1.0210571764233498}
+
+FLOKI — nedovoljno cena (4/5), fali: cr
+  Naziv: FLOKI
+  >>> FALI CR: https://cryptorank.io/price/floki-inu
+  CMC: https://coinmarketcap.com/currencies/floki-inu/
+  CG:  https://www.coingecko.com/en/coins/floki
+  CS:  https://coinstats.app/coins/floki-inu/
+  CP:  https://coinpaprika.com/coin/floki-floki-inu/
+  Cene: {"cmc":0.00002866142825798643,"cg":0.0000287,"cs":0.00002859532866733976,"cp":0.000028707375493021877}
+
+FLR — nedovoljno cena (4/5), fali: cr
+  Naziv: Flare
+  >>> FALI CR: https://cryptorank.io/price/flare
+  CMC: https://coinmarketcap.com/currencies/flare/
+  CG:  https://www.coingecko.com/en/coins/flare-networks
+  CS:  https://coinstats.app/coins/flare-networks/
+  CP:  https://coinpaprika.com/coin/flr-flare-network/
+  Cene: {"cmc":0.007318839025363311,"cg":0.00732209,"cs":0.007303550684170566,"cp":0.007325649045109473}
+
+FRAX — nedovoljno cena (4/5), fali: cr
+  Naziv: Legacy Frax Dollar
+  >>> FALI CR: https://cryptorank.io/price/frax
+  CMC: https://coinmarketcap.com/currencies/frax/
+  CG:  https://www.coingecko.com/en/coins/frax
+  CS:  https://coinstats.app/coins/frax/
+  CP:  https://coinpaprika.com/coin/frax-frax/
+  Cene: {"cmc":0.9928131863502423,"cg":0.992673,"cs":0.9926083531442637,"cp":0.9916570976494558}
+
+GHO — nedovoljno cena (4/5), fali: cr
+  Naziv: GHO
+  >>> FALI CR: https://cryptorank.io/price/gho
+  CMC: https://coinmarketcap.com/currencies/gho/
+  CG:  https://www.coingecko.com/en/coins/gho
+  CS:  https://coinstats.app/coins/gho/
+  CP:  https://coinpaprika.com/coin/gho-gho/
+  Cene: {"cmc":0.9990597271069301,"cg":0.998969,"cs":0.9989240479051346,"cp":0.9989423507463947}
+
+GLM — nedovoljno cena (4/5), fali: cr
+  Naziv: Golem
+  >>> FALI CR: https://cryptorank.io/price/golem-network-tokens
+  CMC: https://coinmarketcap.com/currencies/golem-network-tokens/
+  CG:  https://www.coingecko.com/en/coins/golem
+  CS:  https://coinstats.app/coins/golem-network-tokens/
+  CP:  https://coinpaprika.com/coin/glm-golem/
+  Cene: {"cmc":0.12734053997307038,"cg":0.127456,"cs":0.1271560751037863,"cp":0.12750688054146345}
+
+GRASS — nedovoljno cena (4/5), fali: cr
+  Naziv: Grass
+  >>> FALI CR: https://cryptorank.io/price/grass
+  CMC: https://coinmarketcap.com/currencies/grass/
+  CG:  https://www.coingecko.com/en/coins/grass
+  CS:  https://coinstats.app/coins/grass/
+  CP:  https://coinpaprika.com/coin/grass-grass/
+  Cene: {"cmc":0.48566997388791255,"cg":0.485609,"cs":0.4842569048548647,"cp":0.48551790451248394}
+
+GUSD — nedovoljno cena (4/5), fali: cr
+  Naziv: GUSD
+  >>> FALI CR: https://cryptorank.io/price/gusd
+  CMC: https://coinmarketcap.com/currencies/gusd/
+  CG:  https://www.coingecko.com/en/coins/gusd
+  CS:  https://coinstats.app/coins/gusd/
+  CP:  https://coinpaprika.com/coin/gusd-gemini-dollar/
+  Cene: {"cmc":0.998272367321346,"cg":0.998259,"cs":0.9983019350931933,"cp":1.0052759040211519}
+
+H — nedovoljno cena (4/5), fali: cr
+  Naziv: Humanity
+  >>> FALI CR: https://cryptorank.io/price/humanity-protocol
+  CMC: https://coinmarketcap.com/currencies/humanity-protocol/
+  CG:  https://www.coingecko.com/en/coins/humanity
+  CS:  https://coinstats.app/coins/0x44f161ae29361e332dea039dfa2f404e0bc5b5cc_binance_smart/
+  CP:  https://coinpaprika.com/coin/h-humanity/
+  Cene: {"cmc":0.06658277564897798,"cg":0.066508,"cs":0.06653345529744283,"cp":0.06652053402855512}
+
+HBAR — nedovoljno cena (4/5), fali: cr
+  Naziv: Hedera
+  >>> FALI CR: https://cryptorank.io/price/hedera
+  CMC: https://coinmarketcap.com/currencies/hedera/
+  CG:  https://www.coingecko.com/en/coins/hedera-hashgraph
+  CS:  https://coinstats.app/coins/hedera-hashgraph/
+  CP:  https://coinpaprika.com/coin/hbar-hedera-hashgraph/
+  Cene: {"cmc":0.09553899266397964,"cg":0.095757,"cs":0.09530231876074555,"cp":0.09590747269211088}
+
+HTX — nedovoljno cena (4/5), fali: cr
+  Naziv: HTX
+  >>> FALI CR: https://cryptorank.io/price/htx
+  CMC: https://coinmarketcap.com/currencies/htx/
+  CG:  https://www.coingecko.com/en/coins/htx-dao
+  CS:  https://coinstats.app/coins/htx-dao/
+  CP:  https://coinpaprika.com/coin/htx-htx/
+  Cene: {"cmc":0.0000017186815885585548,"cg":0.00000172,"cs":0.000001717339962999062,"cp":0.0000017177878607547626}
+
+HYPE — nedovoljno cena (4/5), fali: cr
+  Naziv: Hyperliquid
+  >>> FALI CR: https://cryptorank.io/price/hyperliquid
+  CMC: https://coinmarketcap.com/currencies/hyperliquid/
+  CG:  https://www.coingecko.com/en/coins/hyperliquid
+  CS:  https://coinstats.app/coins/hyperliquid/
+  CP:  https://coinpaprika.com/coin/hype-hyperliquid/
+  Cene: {"cmc":92.94597790672235,"cg":93.03,"cs":92.80931041953282,"cp":93.04718977843262}
+
+INJ — nedovoljno cena (4/5), fali: cr
+  Naziv: Injective
+  >>> FALI CR: https://cryptorank.io/price/injective
+  CMC: https://coinmarketcap.com/currencies/injective/
+  CG:  https://www.coingecko.com/en/coins/injective-protocol
+  CS:  https://coinstats.app/coins/injective-protocol/
+  CP:  https://coinpaprika.com/coin/inj-injective-protocol/
+  Cene: {"cmc":8.257458656468344,"cg":8.26,"cs":8.247837299731426,"cp":8.257760197684892}
+
+JASMY — nedovoljno cena (4/5), fali: cr
+  Naziv: JasmyCoin
+  >>> FALI CR: https://cryptorank.io/price/jasmy
+  CMC: https://coinmarketcap.com/currencies/jasmy/
+  CG:  https://www.coingecko.com/en/coins/jasmycoin
+  CS:  https://coinstats.app/coins/jasmycoin/
+  CP:  https://coinpaprika.com/coin/jasmy-jasmycoin/
+  Cene: {"cmc":0.004684270515326416,"cg":0.00469402,"cs":0.004671976591313526,"cp":0.004694182952105214}
+
+JST — nedovoljno cena (4/5), fali: cr
+  Naziv: JUST
+  >>> FALI CR: https://cryptorank.io/price/just
+  CMC: https://coinmarketcap.com/currencies/just/
+  CG:  https://www.coingecko.com/en/coins/just
+  CS:  https://coinstats.app/coins/just/
+  CP:  https://coinpaprika.com/coin/jst-just/
+  Cene: {"cmc":0.11814175324042547,"cg":0.118088,"cs":0.11807887679422502,"cp":0.11806100100575179}
+
+JTO — nedovoljno cena (4/5), fali: cr
+  Naziv: Jito
+  >>> FALI CR: https://cryptorank.io/price/jito
+  CMC: https://coinmarketcap.com/currencies/jito/
+  CG:  https://www.coingecko.com/en/coins/jito-governance-token
+  CS:  https://coinstats.app/coins/jito-governance-token/
+  CP:  https://coinpaprika.com/coin/jto-jito/
+  Cene: {"cmc":0.5425611954327584,"cg":0.542625,"cs":0.5416101156962713,"cp":0.5429285022582319}
+
+KAIA — nedovoljno cena (4/5), fali: cr
+  Naziv: Kaia
+  >>> FALI CR: https://cryptorank.io/price/kaia
+  CMC: https://coinmarketcap.com/currencies/kaia/
+  CG:  https://www.coingecko.com/en/coins/kaia
+  CS:  https://coinstats.app/coins/kaia/
+  CP:  https://coinpaprika.com/coin/kaia-kaia/
+  Cene: {"cmc":0.03485654424080358,"cg":0.03493589,"cs":0.03484260589095928,"cp":0.03494735830227849}
+
+KAS — nedovoljno cena (4/5), fali: cr
+  Naziv: Kaspa
+  >>> FALI CR: https://cryptorank.io/price/kaspa
+  CMC: https://coinmarketcap.com/currencies/kaspa/
+  CG:  https://www.coingecko.com/en/coins/kaspa
+  CS:  https://coinstats.app/coins/kaspa/
+  CP:  https://coinpaprika.com/coin/kas-kaspa/
+  Cene: {"cmc":0.04162526991394294,"cg":0.04183175,"cs":0.04158883241989206,"cp":0.041887806533411794}
+
+KMNO — nedovoljno cena (4/5), fali: cr
+  Naziv: Kamino
+  >>> FALI CR: https://cryptorank.io/price/kamino-finance
+  CMC: https://coinmarketcap.com/currencies/kamino-finance/
+  CG:  https://www.coingecko.com/en/coins/kamino
+  CS:  https://coinstats.app/coins/KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS_solana/
+  CP:  https://coinpaprika.com/coin/kmno-kamino-finance/
+  Cene: {"cmc":0.04204581088794289,"cg":0.04210737,"cs":0.04209139688049953,"cp":0.04215097799517929}
+
+LIT — nedovoljno cena (4/5), fali: cr
+  Naziv: Lighter
+  >>> FALI CR: https://cryptorank.io/price/lighter
+  CMC: https://coinmarketcap.com/currencies/lighter/
+  CG:  https://www.coingecko.com/en/coins/lighter
+  CS:  https://coinstats.app/coins/lighter/
+  CP:  https://coinpaprika.com/coin/lit-lighter/
+  Cene: {"cmc":4.837126158292557,"cg":4.83,"cs":4.876979005226633,"cp":4.824547467878823}
+
+M — nedovoljno cena (4/5), fali: cr
+  Naziv: MemeCore
+  >>> FALI CR: https://cryptorank.io/price/memecore
+  CMC: https://coinmarketcap.com/currencies/memecore/
+  CG:  https://www.coingecko.com/en/coins/memecore
+  CS:  https://coinstats.app/coins/0x22b1458e780f8fa71e2f84502cee8b5a3cc731fa_binance_smart/
+  CP:  https://coinpaprika.com/coin/m-memecore/
+  Cene: {"cmc":1.1953090515665847,"cg":1.19,"cs":1.1936120388721576,"cp":1.1947869145761663}
+
+MET — nedovoljno cena (4/5), fali: cr
+  Naziv: Meteora
+  >>> FALI CR: https://cryptorank.io/price/meteora
+  CMC: https://coinmarketcap.com/currencies/meteora/
+  CG:  https://www.coingecko.com/en/coins/meteora
+  CS:  https://coinstats.app/coins/meteora/
+  CP:  https://coinpaprika.com/coin/met-meteora/
+  Cene: {"cmc":0.3387143351293351,"cg":0.339272,"cs":0.3377928430688333,"cp":0.3394559319045881}
+
+MINA — nedovoljno cena (4/5), fali: cr
+  Naziv: Mina
+  >>> FALI CR: https://cryptorank.io/price/mina
+  CMC: https://coinmarketcap.com/currencies/mina/
+  CG:  https://www.coingecko.com/en/coins/mina-protocol
+  CS:  https://coinstats.app/coins/mina-protocol/
+  CP:  https://coinpaprika.com/coin/mina-mina-protocol/
+  Cene: {"cmc":0.14258855010869173,"cg":0.142661,"cs":0.1424905765799648,"cp":0.14265590918489152}
+
+MNT — nedovoljno cena (4/5), fali: cr
+  Naziv: Mantle
+  >>> FALI CR: https://cryptorank.io/price/mantle
+  CMC: https://coinmarketcap.com/currencies/mantle/
+  CG:  https://www.coingecko.com/en/coins/mantle
+  CS:  https://coinstats.app/coins/mantle/
+  CP:  https://coinpaprika.com/coin/mnt-mantle/
+  Cene: {"cmc":0.6778215694485268,"cg":0.678711,"cs":0.6776533531288541,"cp":0.6790686521328835}
+
+MON — nedovoljno cena (4/5), fali: cr
+  Naziv: Monad
+  >>> FALI CR: https://cryptorank.io/price/monad
+  CMC: https://coinmarketcap.com/currencies/monad/
+  CG:  https://www.coingecko.com/en/coins/monad
+  CS:  https://coinstats.app/coins/CrAr4RRJMBVwRsZtT62pEhfA9H5utymC2mVx8e7FreP2_solana/
+  CP:  https://coinpaprika.com/coin/mon-monad/
+  Cene: {"cmc":0.026207246985880648,"cg":0.02622767,"cs":0.02609940087325841,"cp":0.026293390868321956}
+
+MORPHO — nedovoljno cena (4/5), fali: cr
+  Naziv: Morpho
+  >>> FALI CR: https://cryptorank.io/price/morpho
+  CMC: https://coinmarketcap.com/currencies/morpho/
+  CG:  https://www.coingecko.com/en/coins/morpho
+  CS:  https://coinstats.app/coins/morpho/
+  CP:  https://coinpaprika.com/coin/morpho-morpho/
+  Cene: {"cmc":2.812606846534578,"cg":2.81,"cs":2.8129984031421,"cp":2.8153265060479713}
+
+NEAR — nedovoljno cena (4/5), fali: cr
+  Naziv: NEAR Protocol
+  >>> FALI CR: https://cryptorank.io/price/near-protocol
+  CMC: https://coinmarketcap.com/currencies/near-protocol/
+  CG:  https://www.coingecko.com/en/coins/near
+  CS:  https://coinstats.app/coins/near/
+  CP:  https://coinpaprika.com/coin/near-near-protocol/
+  Cene: {"cmc":5.050516365030816,"cg":5.04,"cs":5.046289094885309,"cp":5.0476724165782}
+
+NEXO — nedovoljno cena (4/5), fali: cr
+  Naziv: Nexo
+  >>> FALI CR: https://cryptorank.io/price/nexo
+  CMC: https://coinmarketcap.com/currencies/nexo/
+  CG:  https://www.coingecko.com/en/coins/nexo
+  CS:  https://coinstats.app/coins/nexo/
+  CP:  https://coinpaprika.com/coin/nexo-nexo/
+  Cene: {"cmc":0.875058852304817,"cg":0.872651,"cs":0.8738964154075809,"cp":0.8738684677444317}
+
+NFT — nedovoljno cena (4/5), fali: cr
+  Naziv: AINFT
+  >>> FALI CR: https://cryptorank.io/price/apenft
+  CMC: https://coinmarketcap.com/currencies/apenft/
+  CG:  https://www.coingecko.com/en/coins/apenft
+  CS:  https://coinstats.app/coins/apenft/
+  CP:  https://coinpaprika.com/coin/nft-apenft/
+  Cene: {"cmc":2.401570619579358e-7,"cg":2.40097e-7,"cs":2.4030805553643094e-7,"cp":2.4018471798759286e-7}
+
+OKB — nedovoljno cena (4/5), fali: cr
+  Naziv: OKB
+  >>> FALI CR: https://cryptorank.io/price/okb
+  CMC: https://coinmarketcap.com/currencies/okb/
+  CG:  https://www.coingecko.com/en/coins/okb
+  CS:  https://coinstats.app/coins/okb/
+  CP:  https://coinpaprika.com/coin/okb-okb/
+  Cene: {"cmc":120.56125691215563,"cg":120.6,"cs":120.59286956513924,"cp":120.55663740789716}
+
+OP — nedovoljno cena (4/5), fali: cr
+  Naziv: Optimism
+  >>> FALI CR: https://cryptorank.io/price/optimism-ethereum
+  CMC: https://coinmarketcap.com/currencies/optimism-ethereum/
+  CG:  https://www.coingecko.com/en/coins/optimism
+  CS:  https://coinstats.app/coins/optimism/
+  CP:  https://coinpaprika.com/coin/op-optimism/
+  Cene: {"cmc":0.13747782296944683,"cg":0.137616,"cs":0.13731443789099126,"cp":0.13763327295716873}
+
+PENDLE — nedovoljno cena (4/5), fali: cr
+  Naziv: Pendle
+  >>> FALI CR: https://cryptorank.io/price/pendle
+  CMC: https://coinmarketcap.com/currencies/pendle/
+  CG:  https://www.coingecko.com/en/coins/pendle
+  CS:  https://coinstats.app/coins/pendle/
+  CP:  https://coinpaprika.com/coin/pendle-pendle/
+  Cene: {"cmc":2.602696179009561,"cg":2.61,"cs":2.595727888518278,"cp":2.606503894041982}
+
+PEPE — nedovoljno cena (4/5), fali: cr
+  Naziv: Pepe
+  >>> FALI CR: https://cryptorank.io/price/pepe
+  CMC: https://coinmarketcap.com/currencies/pepe/
+  CG:  https://www.coingecko.com/en/coins/pepe
+  CS:  https://coinstats.app/coins/pepe/
+  CP:  https://coinpaprika.com/coin/pepe-pepe/
+  Cene: {"cmc":0.000004516950912782136,"cg":0.00000453,"cs":0.000004509152883753831,"cp":0.000004530613003813157}
+
+PI — nedovoljno cena (4/5), fali: cr
+  Naziv: Pi
+  >>> FALI CR: https://cryptorank.io/price/pi
+  CMC: https://coinmarketcap.com/currencies/pi/
+  CG:  https://www.coingecko.com/en/coins/pi-network
+  CS:  https://coinstats.app/coins/pi-network/
+  CP:  https://coinpaprika.com/coin/pi2-pi-network/
+  Cene: {"cmc":0.08972090209262724,"cg":0.089801,"cs":0.08961444544865328,"cp":0.08985712356535579}
+
+PIEVERSE — nedovoljno cena (4/5), fali: cr
+  Naziv: Pieverse
+  >>> FALI CR: https://cryptorank.io/price/pieverse
+  CMC: https://coinmarketcap.com/currencies/pieverse/
+  CG:  https://www.coingecko.com/en/coins/pieverse
+  CS:  https://coinstats.app/coins/pieverse/
+  CP:  https://coinpaprika.com/coin/pieverse-pieverse/
+  Cene: {"cmc":1.6077918067319636,"cg":1.61,"cs":1.6039783479313523,"cp":1.6108147505826689}
+
+PUMP — nedovoljno cena (4/5), fali: cr
+  Naziv: Pump.fun
+  >>> FALI CR: https://cryptorank.io/price/pump-fun
+  CMC: https://coinmarketcap.com/currencies/pump-fun/
+  CG:  https://www.coingecko.com/en/coins/pump-fun
+  CS:  https://coinstats.app/coins/pump-fun/
+  CP:  https://coinpaprika.com/coin/pump-pumpfun/
+  Cene: {"cmc":0.004158026354936935,"cg":0.00415962,"cs":0.004163925964575637,"cp":0.004164268674828831}
+
+QNT — nedovoljno cena (4/5), fali: cr
+  Naziv: Quant
+  >>> FALI CR: https://cryptorank.io/price/quant
+  CMC: https://coinmarketcap.com/currencies/quant/
+  CG:  https://www.coingecko.com/en/coins/quant-network
+  CS:  https://coinstats.app/coins/quant/
+  CP:  https://coinpaprika.com/coin/qnt-quant/
+  Cene: {"cmc":96.86247054219947,"cg":96.72,"cs":96.86401462443584,"cp":96.65441421119874}
+
+QTUM — nedovoljno cena (4/5), fali: cg
+  Naziv: Qtum
+  >>> FALI CG: https://www.coingecko.com/en/coins/qtum
+  CMC: https://coinmarketcap.com/currencies/qtum/
+  CG:  https://www.coingecko.com/en/coins/qtum
+  CS:  https://coinstats.app/coins/qtum/
+  CP:  https://coinpaprika.com/coin/qtum-qtum/
+  Cene: {"cmc":1.034597822248453,"cs":1.0362773071355906,"cp":1.0362133610621427,"cr":1.034417116954}
+
+RAIN — nedovoljno cena (4/5), fali: cr
+  Naziv: Rain
+  >>> FALI CR: https://cryptorank.io/price/rain
+  CMC: https://coinmarketcap.com/currencies/rain/
+  CG:  https://www.coingecko.com/en/coins/rain
+  CS:  https://coinstats.app/coins/rain/
+  CP:  https://coinpaprika.com/coin/rain-rain-protocol/
+  Cene: {"cmc":0.011869102344015439,"cg":0.01189064,"cs":0.011875624511891954,"cp":0.011907260173302875}
+
+RAY — nedovoljno cena (4/5), fali: cr
+  Naziv: Raydium
+  >>> FALI CR: https://cryptorank.io/price/raydium
+  CMC: https://coinmarketcap.com/currencies/raydium/
+  CG:  https://www.coingecko.com/en/coins/raydium
+  CS:  https://coinstats.app/coins/raydium/
+  CP:  https://coinpaprika.com/coin/ray-raydium/
+  Cene: {"cmc":2.1254377998193226,"cg":2.13,"cs":2.1196652261588547,"cp":2.127852646412006}
+
+RENDER — nedovoljno cena (4/5), fali: cr
+  Naziv: Render
+  >>> FALI CR: https://cryptorank.io/price/render
+  CMC: https://coinmarketcap.com/currencies/render/
+  CG:  https://www.coingecko.com/en/coins/render-token
+  CS:  https://coinstats.app/coins/render-token/
+  CP:  https://coinpaprika.com/coin/rndr-render-token/
+  Cene: {"cmc":1.952868717425879,"cg":1.95,"cs":1.9523932299105942,"cp":1.9558372058438673}
+
+RUNE — nedovoljno cena (4/5), fali: cr
+  Naziv: THORChain
+  >>> FALI CR: https://cryptorank.io/price/thorchain
+  CMC: https://coinmarketcap.com/currencies/thorchain/
+  CG:  https://www.coingecko.com/en/coins/thorchain
+  CS:  https://coinstats.app/coins/thorchain/
+  CP:  https://coinpaprika.com/coin/rune-thorchain/
+  Cene: {"cmc":0.6473299795332241,"cg":0.647708,"cs":0.6467172720566032,"cp":0.6476342037788192}
+
+S — nedovoljno cena (4/5), fali: cr
+  Naziv: Sonic
+  >>> FALI CR: https://cryptorank.io/price/sonic
+  CMC: https://coinmarketcap.com/currencies/sonic/
+  CG:  https://www.coingecko.com/en/coins/sonic-3
+  CS:  https://coinstats.app/coins/sonic-3/
+  CP:  https://coinpaprika.com/coin/s-sonic/
+  Cene: {"cmc":0.041208569980161106,"cg":0.04126609,"cs":0.04116108042465307,"cp":0.04122044396689834}
+
+SEI — nedovoljno cena (4/5), fali: cr
+  Naziv: Sei
+  >>> FALI CR: https://cryptorank.io/price/sei
+  CMC: https://coinmarketcap.com/currencies/sei/
+  CG:  https://www.coingecko.com/en/coins/sei-network
+  CS:  https://coinstats.app/coins/sei-network/
+  CP:  https://coinpaprika.com/coin/sei-sei/
+  Cene: {"cmc":0.06797324255786107,"cg":0.06813,"cs":0.06766788863021218,"cp":0.06801345660206433}
+
+SENT — nedovoljno cena (4/5), fali: cr
+  Naziv: Sentient
+  >>> FALI CR: https://cryptorank.io/price/sentient
+  CMC: https://coinmarketcap.com/currencies/sentient/
+  CG:  https://www.coingecko.com/en/coins/sentient
+  CS:  https://coinstats.app/coins/sentient/
+  CP:  https://coinpaprika.com/coin/sent-sentient/
+  Cene: {"cmc":0.02235315538380691,"cg":0.02233845,"cs":0.02227650630986856,"cp":0.022348696526961396}
+
+SFP — nedovoljno cena (4/5), fali: cr
+  Naziv: SafePal
+  >>> FALI CR: https://cryptorank.io/price/safepal
+  CMC: https://coinmarketcap.com/currencies/safepal/
+  CG:  https://www.coingecko.com/en/coins/safepal
+  CS:  https://coinstats.app/coins/safepal/
+  CP:  https://coinpaprika.com/coin/sfp-safepal-token/
+  Cene: {"cmc":0.30697519163953974,"cg":0.306928,"cs":0.3065786014735692,"cp":0.30703173942753015}
+
+SHFL — nedovoljno cena (4/5), fali: cr
+  Naziv: Shuffle
+  >>> FALI CR: https://cryptorank.io/price/shuffle
+  CMC: https://coinmarketcap.com/currencies/shuffle/
+  CG:  https://www.coingecko.com/en/coins/shuffle-2
+  CS:  https://coinstats.app/coins/shuffle-2/
+  CP:  https://coinpaprika.com/coin/shfl-shuffle/
+  Cene: {"cmc":0.36543053833307565,"cg":0.365653,"cs":0.36571839434741765,"cp":0.3662103423978648}
+
+SKR — nedovoljno cena (4/5), fali: cr
+  Naziv: Seeker
+  >>> FALI CR: https://cryptorank.io/price/solana-mobile-seeker
+  CMC: https://coinmarketcap.com/currencies/solana-mobile-seeker/
+  CG:  https://www.coingecko.com/en/coins/seeker
+  CS:  https://coinstats.app/coins/seeker/
+  CP:  https://coinpaprika.com/coin/skr-seeker/
+  Cene: {"cmc":0.020255383880307773,"cg":0.02028354,"cs":0.020217338602704093,"cp":0.020302336961969536}
+
+SKY — nedovoljno cena (4/5), fali: cr
+  Naziv: Sky
+  >>> FALI CR: https://cryptorank.io/price/sky
+  CMC: https://coinmarketcap.com/currencies/sky/
+  CG:  https://www.coingecko.com/en/coins/sky
+  CS:  https://coinstats.app/coins/sky/
+  CP:  https://coinpaprika.com/coin/sky-sky/
+  Cene: {"cmc":0.07440488870455844,"cg":0.074449,"cs":0.07423804273146976,"cp":0.07433641332844257}
+
+SOL — nedovoljno cena (4/5), fali: cr
+  Naziv: Solana
+  >>> FALI CR: https://cryptorank.io/price/solana
+  CMC: https://coinmarketcap.com/currencies/solana/
+  CG:  https://www.coingecko.com/en/coins/solana
+  CS:  https://coinstats.app/coins/solana/
+  CP:  https://coinpaprika.com/coin/sol-solana/
+  Cene: {"cmc":120.18271161574478,"cg":120.31,"cs":120.13319241091551,"cp":120.3740852175104}
+
+SPX — nedovoljno cena (4/5), fali: cr
+  Naziv: SPX6900
+  >>> FALI CR: https://cryptorank.io/price/spx6900
+  CMC: https://coinmarketcap.com/currencies/spx6900/
+  CG:  https://www.coingecko.com/en/coins/spx6900
+  CS:  https://coinstats.app/coins/spx6900/
+  CP:  https://coinpaprika.com/coin/spx-spx6900/
+  Cene: {"cmc":0.45440978792047365,"cg":0.455884,"cs":0.45305412202566336,"cp":0.4555732525844515}
+
+STABLE — nedovoljno cena (4/5), fali: cr
+  Naziv: Stable
+  >>> FALI CR: https://cryptorank.io/price/stable
+  CMC: https://coinmarketcap.com/currencies/stable/
+  CG:  https://www.coingecko.com/en/coins/stable-2
+  CS:  https://coinstats.app/coins/0x011ebe7d75e2c9d1e0bd0be0bef5c36f0a90075f_binance_smart/
+  CP:  https://coinpaprika.com/coin/stable-stable/
+  Cene: {"cmc":0.02631856218706954,"cg":0.02630877,"cs":0.02625250393510694,"cp":0.026342286048440248}
+
+STRK — nedovoljno cena (4/5), fali: cr
+  Naziv: Starknet
+  >>> FALI CR: https://cryptorank.io/price/starknet-token
+  CMC: https://coinmarketcap.com/currencies/starknet-token/
+  CG:  https://www.coingecko.com/en/coins/starknet
+  CS:  https://coinstats.app/coins/starknet/
+  CP:  https://coinpaprika.com/coin/strk-starknet/
+  Cene: {"cmc":0.040885998679912654,"cg":0.04093163,"cs":0.04088783283890361,"cp":0.04093074681373815}
+
+STX — nedovoljno cena (4/5), fali: cr
+  Naziv: Stacks
+  >>> FALI CR: https://cryptorank.io/price/stacks
+  CMC: https://coinmarketcap.com/currencies/stacks/
+  CG:  https://www.coingecko.com/en/coins/blockstack
+  CS:  https://coinstats.app/coins/blockstack/
+  CP:  https://coinpaprika.com/coin/stx-stacks/
+  Cene: {"cmc":0.32962339667197804,"cg":0.330411,"cs":0.32950531261810523,"cp":0.33036905627701896}
+
+SUI — nedovoljno cena (4/5), fali: cr
+  Naziv: Sui
+  >>> FALI CR: https://cryptorank.io/price/sui
+  CMC: https://coinmarketcap.com/currencies/sui/
+  CG:  https://www.coingecko.com/en/coins/sui
+  CS:  https://coinstats.app/coins/sui/
+  CP:  https://coinpaprika.com/coin/sui-sui/
+  Cene: {"cmc":1.1378348779556922,"cg":1.14,"cs":1.1369659310613458,"cp":1.14040424086464}
+
+SYRUP — nedovoljno cena (4/5), fali: cr
+  Naziv: Maple Finance
+  >>> FALI CR: https://cryptorank.io/price/maple-finance
+  CMC: https://coinmarketcap.com/currencies/maple-finance/
+  CG:  https://www.coingecko.com/en/coins/syrup
+  CS:  https://coinstats.app/coins/syrup/
+  CP:  https://coinpaprika.com/coin/syrup-syrup-token/
+  Cene: {"cmc":0.21832021395795564,"cg":0.218519,"cs":0.21827434845069346,"cp":0.21827952349780846}
+
+TAO — nedovoljno cena (4/5), fali: cr
+  Naziv: Bittensor
+  >>> FALI CR: https://cryptorank.io/price/bittensor
+  CMC: https://coinmarketcap.com/currencies/bittensor/
+  CG:  https://www.coingecko.com/en/coins/bittensor
+  CS:  https://coinstats.app/coins/bittensor/
+  CP:  https://coinpaprika.com/coin/tao-bittensor/
+  Cene: {"cmc":309.0533308234488,"cg":309.48,"cs":308.94456422477367,"cp":309.871114500709}
+
+TIA — nedovoljno cena (4/5), fali: cr
+  Naziv: Celestia
+  >>> FALI CR: https://cryptorank.io/price/celestia
+  CMC: https://coinmarketcap.com/currencies/celestia/
+  CG:  https://www.coingecko.com/en/coins/celestia
+  CS:  https://coinstats.app/coins/celestia/
+  CP:  https://coinpaprika.com/coin/tia-celestia/
+  Cene: {"cmc":0.49898578351374445,"cg":0.499557,"cs":0.4975695593102936,"cp":0.49947974611570484}
+
+TUSD — nedovoljno cena (4/5), fali: cr
+  Naziv: TrueUSD
+  >>> FALI CR: https://cryptorank.io/price/trueusd
+  CMC: https://coinmarketcap.com/currencies/trueusd/
+  CG:  https://www.coingecko.com/en/coins/true-usd
+  CS:  https://coinstats.app/coins/trueusd/
+  CP:  https://coinpaprika.com/coin/tusd-trueusd/
+  Cene: {"cmc":0.9995216912844905,"cg":0.999678,"cs":0.9992444943173143,"cp":1.0000616995489089}
+
+UB — nedovoljno cena (4/5), fali: cr
+  Naziv: Unibase
+  >>> FALI CR: https://cryptorank.io/price/unibase
+  CMC: https://coinmarketcap.com/currencies/unibase/
+  CG:  https://www.coingecko.com/en/coins/unibase
+  CS:  https://coinstats.app/coins/unibase/
+  CP:  https://coinpaprika.com/coin/ub-unibase/
+  Cene: {"cmc":0.14642066995414119,"cg":0.146654,"cs":0.14718631105341867,"cp":0.1463672429043485}
+
+UNI — nedovoljno cena (4/5), fali: cr
+  Naziv: Uniswap
+  >>> FALI CR: https://cryptorank.io/price/uniswap
+  CMC: https://coinmarketcap.com/currencies/uniswap/
+  CG:  https://www.coingecko.com/en/coins/uniswap
+  CS:  https://coinstats.app/coins/uniswap/
+  CP:  https://coinpaprika.com/coin/uni-uniswap/
+  Cene: {"cmc":9.781833772921585,"cg":9.8,"cs":9.776878712031191,"cp":9.803058604832401}
+
+USD1 — nedovoljno cena (4/5), fali: cr
+  Naziv: World Liberty Financial USD
+  >>> FALI CR: https://cryptorank.io/price/usd1
+  CMC: https://coinmarketcap.com/currencies/usd1/
+  CG:  https://www.coingecko.com/en/coins/usd1-wlfi
+  CS:  https://coinstats.app/coins/TPFqcBAaaUMCSVRCqPaQ9QnzKhmuoLR6Rc_tron/
+  CP:  https://coinpaprika.com/coin/usd1-usd1/
+  Cene: {"cmc":0.9993437617139858,"cg":0.999349,"cs":0.9993929235405036,"cp":0.999182626213655}
+
+USDAI — nedovoljno cena (4/5), fali: cr
+  Naziv: USDai
+  >>> FALI CR: https://cryptorank.io/price/usdai
+  CMC: https://coinmarketcap.com/currencies/usdai/
+  CG:  https://www.coingecko.com/en/coins/usdai
+  CS:  https://coinstats.app/coins/usdai/
+  CP:  https://coinpaprika.com/coin/usdai-usdai/
+  Cene: {"cmc":1.000096855806305,"cg":1,"cs":1.0002524903535437,"cp":1.0002791098149943}
+
+USDD — nedovoljno cena (4/5), fali: cr
+  Naziv: USDD
+  >>> FALI CR: https://cryptorank.io/price/usdd
+  CMC: https://coinmarketcap.com/currencies/usdd/
+  CG:  https://www.coingecko.com/en/coins/usdd
+  CS:  https://coinstats.app/coins/usdd/
+  CP:  https://coinpaprika.com/coin/usdd-usdd/
+  Cene: {"cmc":1.0002115670724285,"cg":0.998866,"cs":0.9989131591777859,"cp":0.9995513587370631}
+
+VET — nedovoljno cena (4/5), fali: cr
+  Naziv: VeChain
+  >>> FALI CR: https://cryptorank.io/price/vechain
+  CMC: https://coinmarketcap.com/currencies/vechain/
+  CG:  https://www.coingecko.com/en/coins/vechain
+  CS:  https://coinstats.app/coins/vechain/
+  CP:  https://coinpaprika.com/coin/vet-vechain/
+  Cene: {"cmc":0.009460087366200704,"cg":0.00946959,"cs":0.009449732335184443,"cp":0.009472374128290297}
+
+WIF — nedovoljno cena (4/5), fali: cr
+  Naziv: dogwifhat
+  >>> FALI CR: https://cryptorank.io/price/dogwifhat
+  CMC: https://coinmarketcap.com/currencies/dogwifhat/
+  CG:  https://www.coingecko.com/en/coins/dogwifcoin
+  CS:  https://coinstats.app/coins/dogwifcoin/
+  CP:  https://coinpaprika.com/coin/wif-dogwifcoin/
+  Cene: {"cmc":0.2454617522043632,"cg":0.245367,"cs":0.24568443725644734,"cp":0.24547146983479026}
+
+XEC — nedovoljno cena (4/5), fali: cr
+  Naziv: eCash
+  >>> FALI CR: https://cryptorank.io/price/ecash
+  CMC: https://coinmarketcap.com/currencies/ecash/
+  CG:  https://www.coingecko.com/en/coins/ecash
+  CS:  https://coinstats.app/coins/ecash/
+  CP:  https://coinpaprika.com/coin/xec-ecash/
+  Cene: {"cmc":0.000009099667034196579,"cg":0.00000911,"cs":0.000009083741279133241,"cp":0.000009107674629758928}
+
+XPL — nedovoljno cena (4/5), fali: cr
+  Naziv: Plasma
+  >>> FALI CR: https://cryptorank.io/price/plasma-xpl
+  CMC: https://coinmarketcap.com/currencies/plasma-xpl/
+  CG:  https://www.coingecko.com/en/coins/plasma
+  CS:  https://coinstats.app/coins/plasma/
+  CP:  https://coinpaprika.com/coin/xpl-plasma/
+  Cene: {"cmc":0.11287404408974587,"cg":0.112806,"cs":0.11255544503811969,"cp":0.11245781511867406}
+
+XTZ — nedovoljno cena (4/5), fali: cr
+  Naziv: Tezos
+  >>> FALI CR: https://cryptorank.io/price/tezos
+  CMC: https://coinmarketcap.com/currencies/tezos/
+  CG:  https://www.coingecko.com/en/coins/tezos
+  CS:  https://coinstats.app/coins/tezos/
+  CP:  https://coinpaprika.com/coin/xtz-tezos/
+  Cene: {"cmc":0.3348877495106314,"cg":0.335138,"cs":0.33472105691626364,"cp":0.33507890596248374}
+
+ZK — nedovoljno cena (4/5), fali: cr
+  Naziv: ZKsync
+  >>> FALI CR: https://cryptorank.io/price/zksync
+  CMC: https://coinmarketcap.com/currencies/zksync/
+  CG:  https://www.coingecko.com/en/coins/zksync
+  CS:  https://coinstats.app/coins/zksync/
+  CP:  https://coinpaprika.com/coin/zk-zksync/
+  Cene: {"cmc":0.01237604299504972,"cg":0.01236938,"cs":0.012336353899722053,"cp":0.012383486385898932}
+
+ZRO — nedovoljno cena (4/5), fali: cr
+  Naziv: LayerZero
+  >>> FALI CR: https://cryptorank.io/price/layerzero
+  CMC: https://coinmarketcap.com/currencies/layerzero/
+  CG:  https://www.coingecko.com/en/coins/layerzero
+  CS:  https://coinstats.app/coins/0x6985884c4392d348587b19cb9eaaf157f13271cd_arbitrum-one/
+  CP:  https://coinpaprika.com/coin/zro-layerzero/
+  Cene: {"cmc":1.501078347304702,"cg":1.5,"cs":1.5026347010355667,"cp":1.4998707610830475}
+
+ZRX — nedovoljno cena (4/5), fali: cg
+  Naziv: 0x Protocol
+  >>> FALI CG: https://www.coingecko.com/en/coins/0x
+  CMC: https://coinmarketcap.com/currencies/0x/
+  CG:  https://www.coingecko.com/en/coins/0x
+  CS:  https://coinstats.app/coins/0x/
+  CP:  https://coinpaprika.com/coin/zrx-0x/
+  Cene: {"cmc":0.12429614133832653,"cs":0.12385748483725763,"cp":0.12444011514199607,"cr":0.124115433947}
+
+
+────────────────────────────────────────────────────────────
+--- 3/5 cena ---
+
+ATH — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: Aethir
+  >>> FALI CG: https://www.coingecko.com/en/coins/aethir
+  >>> FALI CR: https://cryptorank.io/price/aethir
+  CMC: https://coinmarketcap.com/currencies/aethir/
+  CG:  https://www.coingecko.com/en/coins/aethir
+  CS:  https://coinstats.app/coins/aethir/
+  CP:  https://coinpaprika.com/coin/ath14-aethir/
+  Cene: {"cmc":0.005951856759611227,"cs":0.005946781655450711,"cp":0.00596654127721527}
+
+ATOM — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: Cosmos
+  >>> FALI CG: https://www.coingecko.com/en/coins/cosmos-hub
+  >>> FALI CR: https://cryptorank.io/price/cosmos
+  CMC: https://coinmarketcap.com/currencies/cosmos/
+  CG:  https://www.coingecko.com/en/coins/cosmos-hub
+  CS:  https://coinstats.app/coins/cosmos/
+  CP:  https://coinpaprika.com/coin/atom-cosmos/
+  Cene: {"cmc":1.8124086741302345,"cs":1.8111794789714064,"cp":1.8157166627987316}
+
+BEAM — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: Beam
+  >>> FALI CG: https://www.coingecko.com/en/coins/beam
+  >>> FALI CR: https://cryptorank.io/price/onbeam
+  CMC: https://coinmarketcap.com/currencies/onbeam/
+  CG:  https://www.coingecko.com/en/coins/beam
+  CS:  https://coinstats.app/coins/beam-2/
+  CP:  https://coinpaprika.com/coin/beam-beam-eth/
+  Cene: {"cmc":0.0021376455975623113,"cs":0.002131664673137019,"cp":0.0021368148448407624}
+
+FLUID — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: Fluid
+  >>> FALI CG: https://www.coingecko.com/en/coins/instadapp
+  >>> FALI CR: https://cryptorank.io/price/instadapp
+  CMC: https://coinmarketcap.com/currencies/instadapp/
+  CG:  https://www.coingecko.com/en/coins/instadapp
+  CS:  https://coinstats.app/coins/instadapp/
+  CP:  https://coinpaprika.com/coin/inst-instadapp/
+  Cene: {"cmc":1.4390063785671285,"cs":1.4333096488200234,"cp":1.4371839453885198}
+
+FORM — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: Four
+  >>> FALI CG: https://www.coingecko.com/en/coins/four
+  >>> FALI CR: https://cryptorank.io/price/binaryx-new
+  CMC: https://coinmarketcap.com/currencies/binaryx-new/
+  CG:  https://www.coingecko.com/en/coins/four
+  CS:  https://coinstats.app/coins/four/
+  CP:  https://coinpaprika.com/coin/form-four/
+  Cene: {"cmc":0.30509269310577386,"cs":0.30459984491696335,"cp":0.3053899277602004}
+
+GALA — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: Gala
+  >>> FALI CG: https://www.coingecko.com/en/coins/gala
+  >>> FALI CR: https://cryptorank.io/price/gala
+  CMC: https://coinmarketcap.com/currencies/gala/
+  CG:  https://www.coingecko.com/en/coins/gala
+  CS:  https://coinstats.app/coins/gala/
+  CP:  https://coinpaprika.com/coin/gala-gala/
+  Cene: {"cmc":0.002104155306406214,"cs":0.002097975453072573,"cp":0.002108644049781129}
+
+GAS — nedovoljno cena (3/5), fali: cmc, cg
+  Naziv: Gas
+  >>> FALI CMC: https://coinmarketcap.com/currencies/gas/
+  >>> FALI CG: https://www.coingecko.com/en/coins/gas
+  CMC: https://coinmarketcap.com/currencies/gas/
+  CG:  https://www.coingecko.com/en/coins/gas
+  CS:  https://coinstats.app/coins/gas/
+  CP:  https://coinpaprika.com/coin/gas-gas/
+  Cene: {"cs":1.4713297136027657,"cp":1.470378617000324,"cr":1.470591345667}
+
+GEOD — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: GEODNET
+  >>> FALI CG: https://www.coingecko.com/en/coins/geodnet
+  >>> FALI CR: https://cryptorank.io/price/geodnet
+  CMC: https://coinmarketcap.com/currencies/geodnet/
+  CG:  https://www.coingecko.com/en/coins/geodnet
+  CS:  https://coinstats.app/coins/geodnet/
+  CP:  https://coinpaprika.com/coin/geod-geodnet-token/
+  Cene: {"cmc":0.2545356290709685,"cs":0.25534211637730625,"cp":0.2553247478337101}
+
+KITE — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: Kite
+  >>> FALI CG: https://www.coingecko.com/en/coins/kite
+  >>> FALI CR: https://cryptorank.io/price/kite
+  CMC: https://coinmarketcap.com/currencies/kite/
+  CG:  https://www.coingecko.com/en/coins/kite
+  CS:  https://coinstats.app/coins/kite-2/
+  CP:  https://coinpaprika.com/coin/kite-kite-ai/
+  Cene: {"cmc":0.13095423562822,"cs":0.13072226790933847,"cp":0.13130924764525115}
+
+MATIC — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: Polygon (prev. MATIC)
+  >>> FALI CG: https://www.coingecko.com/en/coins/polygon
+  >>> FALI CR: https://cryptorank.io/price/polygon-ecosystem-token
+  CMC: https://coinmarketcap.com/currencies/polygon-ecosystem-token/
+  CG:  https://www.coingecko.com/en/coins/polygon
+  CS:  https://coinstats.app/coins/polygon-ecosystem-token/
+  CP:  https://coinpaprika.com/coin/matic-polygon/
+  Cene: {"cmc":0.11184078433786805,"cs":0.11171883217622093,"cp":0.11185783412291248}
+
+ORCA — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: Orca
+  >>> FALI CG: https://www.coingecko.com/en/coins/orca
+  >>> FALI CR: https://cryptorank.io/price/orca
+  CMC: https://coinmarketcap.com/currencies/orca/
+  CG:  https://www.coingecko.com/en/coins/orca
+  CS:  https://coinstats.app/coins/orca/
+  CP:  https://coinpaprika.com/coin/orca-orca/
+  Cene: {"cmc":1.6395357409452678,"cs":1.635957329894482,"cp":1.641538960822958}
+
+ORDI — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: ORDI
+  >>> FALI CG: https://www.coingecko.com/en/coins/ordinals
+  >>> FALI CR: https://cryptorank.io/price/ordi
+  CMC: https://coinmarketcap.com/currencies/ordi/
+  CG:  https://www.coingecko.com/en/coins/ordinals
+  CS:  https://coinstats.app/coins/ordinals/
+  CP:  https://coinpaprika.com/coin/ordi-ordinals/
+  Cene: {"cmc":4.662682491898874,"cs":4.6450575630881366,"cp":4.668794163364434}
+
+PEAQ — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: peaq
+  >>> FALI CG: https://www.coingecko.com/en/coins/peaq-2
+  >>> FALI CR: https://cryptorank.io/price/peaq
+  CMC: https://coinmarketcap.com/currencies/peaq/
+  CG:  https://www.coingecko.com/en/coins/peaq-2
+  CS:  https://coinstats.app/coins/peaq-2/
+  CP:  https://coinpaprika.com/coin/peaq-peaq-network/
+  Cene: {"cmc":0.043869240221185955,"cs":0.044034726234053294,"cp":0.04400769182918124}
+
+PLUME — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: Plume
+  >>> FALI CG: https://www.coingecko.com/en/coins/plume
+  >>> FALI CR: https://cryptorank.io/price/plume
+  CMC: https://coinmarketcap.com/currencies/plume/
+  CG:  https://www.coingecko.com/en/coins/plume
+  CS:  https://coinstats.app/coins/plume/
+  CP:  https://coinpaprika.com/coin/plume-plume/
+  Cene: {"cmc":0.01838104479572801,"cs":0.018362068237186387,"cp":0.01841749572955359}
+
+PROM — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: Prom
+  >>> FALI CG: https://www.coingecko.com/en/coins/prometeus
+  >>> FALI CR: https://cryptorank.io/price/prom
+  CMC: https://coinmarketcap.com/currencies/prom/
+  CG:  https://www.coingecko.com/en/coins/prometeus
+  CS:  https://coinstats.app/coins/prometeus/
+  CP:  https://coinpaprika.com/coin/prom-prometeus/
+  Cene: {"cmc":5.421870499297586,"cs":5.413758151026143,"cp":5.42714471240067}
+
+SOSO — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: SoSoValue
+  >>> FALI CG: https://www.coingecko.com/en/coins/sosovalue
+  >>> FALI CR: https://cryptorank.io/price/sosovalue
+  CMC: https://coinmarketcap.com/currencies/sosovalue/
+  CG:  https://www.coingecko.com/en/coins/sosovalue
+  CS:  https://coinstats.app/coins/sosovalue/
+  CP:  https://coinpaprika.com/coin/soso-sosovalue/
+  Cene: {"cmc":0.31279601204845664,"cs":0.3147363576375496,"cp":0.31433867576143254}
+
+SUPER — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: SuperVerse
+  >>> FALI CG: https://www.coingecko.com/en/coins/superfarm
+  >>> FALI CR: https://cryptorank.io/price/superverse
+  CMC: https://coinmarketcap.com/currencies/superverse/
+  CG:  https://www.coingecko.com/en/coins/superfarm
+  CS:  https://coinstats.app/coins/superfarm/
+  CP:  https://coinpaprika.com/coin/super-superfarm/
+  Cene: {"cmc":0.17799962828118265,"cs":0.17779891621813815,"cp":0.17794894802571062}
+
+TEL — nedovoljno cena (3/5), fali: cg, cs
+  Naziv: Telcoin
+  >>> FALI CG: https://www.coingecko.com/en/coins/telcoin
+  >>> FALI CS: https://coinstats.app/coins/telcoin/
+  CMC: https://coinmarketcap.com/currencies/telcoin/
+  CG:  https://www.coingecko.com/en/coins/telcoin
+  CS:  https://coinstats.app/coins/telcoin/
+  CP:  https://coinpaprika.com/coin/tel-telcoin/
+  Cene: {"cmc":0.0016625224138592759,"cp":0.001662901679666827,"cr":0.0016635479}
+
+WEMIX — nedovoljno cena (3/5), fali: cg, cr
+  Naziv: WEMIX
+  >>> FALI CG: https://www.coingecko.com/en/coins/wemix-token
+  >>> FALI CR: https://cryptorank.io/price/wemix
+  CMC: https://coinmarketcap.com/currencies/wemix/
+  CG:  https://www.coingecko.com/en/coins/wemix-token
+  CS:  https://coinstats.app/coins/wemix-token/
+  CP:  https://coinpaprika.com/coin/wemix-wemix-token/
+  Cene: {"cmc":0.197829686824203,"cs":0.19775736474395245,"cp":0.19772903162246486}
+
+
+────────────────────────────────────────────────────────────
+--- 2/5 cena ---
+
+ZANO — nedovoljno cena (2/5), fali: cmc, cg, cr
+  Naziv: Zano
+  >>> FALI CMC: https://coinmarketcap.com/currencies/zano/
+  >>> FALI CG: https://www.coingecko.com/en/coins/zano
+  >>> FALI CR: https://cryptorank.io/price/zano
+  CMC: https://coinmarketcap.com/currencies/zano/
+  CG:  https://www.coingecko.com/en/coins/zano
+  CS:  https://coinstats.app/coins/zano/
+  CP:  https://coinpaprika.com/coin/zano-zano/
+  Cene: {"cs":5.84771002162819,"cp":5.753346394410415}
+
