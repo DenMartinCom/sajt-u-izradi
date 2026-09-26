@@ -473,7 +473,9 @@ body {
     margin-top: 4px;
     padding-top: 8px;
 }
-.marquee-track:hover { animation-play-state: paused; }
+@media (hover: hover) {
+    .marquee-track:hover { animation-play-state: paused; }
+}
 @keyframes marquee-scroll {
     from { transform: translateX(0); }
     to { transform: translateX(-50%); }
