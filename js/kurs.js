@@ -1,216 +1,367 @@
-// ===== KURS + KALKULATOR =====
+// ===== PRAĆENJE ADRESE (ETH / USDT / ZAMA) =====
+
 (function () {
     const WORKER_URL = 'https://cmc-proxy.martin-denic.workers.dev';
+    const STORAGE_ADRESA = 'watch_address_v1';
+    const STORAGE_TOKEN = 'watch_token_v1';
+    const STORAGE_KURS = 'kurs_cache_v1';
+    const INTERVAL = 15000;
+    const CENA_KEŠ_MS = 5 * 60 * 1000;
+    const KURS_TIMEOUT_MS = 3000;
 
-    // kod valute → naziv (za prikaz)
-    const VALUTE_META = {
-        EUR: { naziv: 'evro' },
-        USD: { naziv: 'dolar' },
-        CHF: { naziv: 'franak' },
-        GBP: { naziv: 'funta' },
-        RUB: { naziv: 'rublja' },
-        BAM: { naziv: 'marka' },
-        RSD: { naziv: 'dinar' },
-        JPY: { naziv: 'jen' },
-        CNY: { naziv: 'juan' },
-        CAD: { naziv: 'dolar' },
-        AUD: { naziv: 'dolar' },
-        SEK: { naziv: 'kruna' },
-        NOK: { naziv: 'kruna' },
-        DKK: { naziv: 'kruna' },
-        CZK: { naziv: 'kruna' },
-        PLN: { naziv: 'zlot' },
-        HUF: { naziv: 'forinta' },
-        RON: { naziv: 'lej' },
-        TRY: { naziv: 'lira' },
-        INR: { naziv: 'rupija' },
-        KWD: { naziv: 'dinar' },
-        MKD: { naziv: 'denar' },
-        AED: { naziv: 'dirham' },
-        BYN: { naziv: 'rublja' },
-        XDR: { naziv: 'SDR' },
-        ATS: { naziv: 'šiling' },
-        BEF: { naziv: 'franak' },
-        DEM: { naziv: 'marka' },
-        ESP: { naziv: 'pezeta' },
-        FIM: { naziv: 'marka' },
-        FRF: { naziv: 'franak' },
-        GRD: { naziv: 'drahmi' },
-        IEP: { naziv: 'funta' },
-        ITL: { naziv: 'lira' },
-        LUF: { naziv: 'franak' },
-        PTE: { naziv: 'eskudo' }
+    const KRIPTO = {
+        eth:  { coingecko: 'ethereum', cmc: 1027,  delilac: 1e18, contract: null },
+        usdt: { coingecko: 'tether',   cmc: 825,   delilac: 1e6,  contract: '0xdAC17F958D2ee523a2206206994597C13D831ec7' },
+        zama: { coingecko: 'zama',     cmc: 39332, delilac: 1e18, contract: '0xA12CC123ba206d4031D1c7f6223D1C2Ec249f4f3' }
     };
 
-    const PRIKAZ = ['EUR', 'USD', 'CHF', 'GBP', 'RUB', 'BAM'];
-
-    const gridEl = document.getElementById('kurs-grid');
-    const viseEl = document.getElementById('kurs-vise');
-    const inputEl = document.getElementById('kalk-iznos');
-    const valutaEl = document.getElementById('kalk-valuta');
-    const smerEl = document.getElementById('kalk-smer');
-    const rezultatEl = document.getElementById('kalk-rezultat');
-    const flagLevo = document.getElementById('kalk-flag-levo');
-    const flagDesno = document.getElementById('kalk-flag-desno');
-
-    if (!gridEl) return;
-
+    let trenutnaAdresa = null;
+    let trenutniToken = null;
+    let intervalId = null;
+    let proveraUToku = false;
+    let kešCena = {};
     let kurs = null;
-    let prikazSve = false;
-    let smer = 'valuta_u_rsd'; // ili 'rsd_u_valuta'
 
-    function nazivZa(kod) {
-        return (VALUTE_META[kod] && VALUTE_META[kod].naziv) ? VALUTE_META[kod].naziv : kod;
-    }
+    const inputEl = document.getElementById('eth-adresa');
+    const selectEl = document.getElementById('token-izbor');
+    const btnEl = document.getElementById('eth-prati-btn');
+    const statusEl = document.getElementById('adresa-status');
 
-    function zastavaUrl(kod) {
-        return `Slike/zastavice/${kod}.png`;
-    }
+    if (!inputEl || !selectEl || !btnEl || !statusEl) return;
 
-    function formatKurs(n) {
+    // ===== FORMATIRANJE =====
+    const fUsd = (n, dec) => {
         if (typeof n !== 'number' || !isFinite(n)) return '—';
-        return n.toLocaleString('sr-RS', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-    }
+        const d = (typeof dec === 'number') ? dec : (Math.abs(n) < 1 ? 3 : 2);
+        return n.toLocaleString('en-US', { minimumFractionDigits: d, maximumFractionDigits: d });
+    };
 
-    function formatValuta(n) {
+    const fBroj = (n) => {
         if (typeof n !== 'number' || !isFinite(n)) return '—';
-        return n.toLocaleString('sr-RS', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        const abs = Math.abs(n);
+        let dec;
+        if (abs >= 1) dec = 2;
+        else if (abs >= 0.01) dec = 4;
+        else dec = 6;
+        return n.toLocaleString('en-US', { minimumFractionDigits: dec, maximumFractionDigits: dec });
+    };
+
+    const fRsd = (n, dec) => {
+        if (typeof n !== 'number' || !isFinite(n)) return null;
+        const d = (typeof dec === 'number') ? dec : 0;
+        return n.toLocaleString('en-US', { minimumFractionDigits: d, maximumFractionDigits: d });
+    };
+
+    function usdUEur(usd) {
+        if (!kurs || !kurs.eur_rsd || !kurs.usd_rsd) return null;
+        return usd / (kurs.eur_rsd / kurs.usd_rsd);
     }
 
-    function formatRsd(n) {
-        if (typeof n !== 'number' || !isFinite(n)) return '—';
-        return n.toLocaleString('sr-RS', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' RSD';
+    function setStatus(text, type = '') {
+        statusEl.textContent = text;
+        statusEl.className = 'adresa-status' + (type ? ' ' + type : '');
     }
 
-    function napraviValutu(kod) {
-        const vrednost = kurs && kurs.valute && kurs.valute[kod] != null ? kurs.valute[kod] : null;
-        const naziv = nazivZa(kod);
-        const flagUrl = zastavaUrl(kod);
-        const vrednostTekst = vrednost != null ? formatKurs(vrednost) : '—';
-        return `<div class="kurs-valuta" data-valuta="${kod}">
-            <img src="${flagUrl}" alt="${kod}" loading="lazy" onerror="if(!this.dataset.err){this.dataset.err=1; this.src='Slike/coins/_default.png';}">
-            <span class="kv-kod">${kod}</span>
-            <span class="kv-naziv">${naziv}</span>
-            <span class="kv-vrednost">${vrednostTekst}</span>
-        </div>`;
+    function vrednostiUTriValute(usd) {
+        if (typeof usd !== 'number' || !isFinite(usd)) return '';
+        const dec = Math.abs(usd) < 1 ? 3 : 2;
+        let tekst = `$${fUsd(usd, dec)}`;
+        const eur = usdUEur(usd);
+        if (eur !== null) tekst += ` / €${fUsd(eur, dec)}`;
+        if (kurs && kurs.usd_rsd) {
+            const rsd = usd * kurs.usd_rsd;
+            const rsdDec = Math.abs(usd) < 1 ? 3 : 0;
+            tekst += ` / ${fRsd(rsd, rsdDec)} RSD`;
+        }
+        return tekst;
     }
 
-    function iscrtajGrid() {
-        if (!kurs || !kurs.valute) return;
-        if (prikazSve) {
-            const svi = Object.keys(kurs.valute).sort();
-            gridEl.innerHTML = svi.map(napraviValutu).join('');
-        } else {
-            gridEl.innerHTML = PRIKAZ.map(napraviValutu).join('');
-        }
+    function validnaAdresa(a) {
+        return /^0x[a-fA-F0-9]{40}$/.test(a);
     }
 
-    function azurirajPlaceholder() {
-        if (!inputEl || !valutaEl) return;
-        const kod = valutaEl.value;
-        if (smer === 'valuta_u_rsd') {
-            inputEl.placeholder = 'Količina u ' + kod;
-        } else {
-            inputEl.placeholder = 'Količina u RSD';
-        }
-    }
-
-    // Ažurira zastavice iznad polja u kalkulatoru, u zavisnosti od smera
-    function azurirajZastavice() {
-        if (!flagLevo || !flagDesno) return;
-        const kod = valutaEl.value;
-
-        if (smer === 'valuta_u_rsd') {
-            flagLevo.src = zastavaUrl(kod);
-            flagLevo.alt = kod;
-            flagDesno.src = zastavaUrl('RSD');
-            flagDesno.alt = 'RSD';
-        } else {
-            flagLevo.src = zastavaUrl('RSD');
-            flagLevo.alt = 'RSD';
-            flagDesno.src = zastavaUrl(kod);
-            flagDesno.alt = kod;
-        }
-    }
-
-    function izracunaj() {
-        if (!kurs || !kurs.valute) {
-            if (rezultatEl) rezultatEl.textContent = '—';
-            return;
-        }
-        const tekst = (inputEl.value || '').trim();
-        if (!tekst) {
-            rezultatEl.textContent = '—';
-            return;
-        }
-        const iznos = parseFloat(tekst);
-        if (!isFinite(iznos)) {
-            rezultatEl.textContent = '—';
-            return;
-        }
-        const kod = valutaEl.value;
-        const k = kurs.valute[kod];
-        if (!k) {
-            rezultatEl.textContent = 'nema kursa za ' + kod;
-            return;
-        }
-
-        if (smer === 'valuta_u_rsd') {
-            const rsd = iznos * k;
-            rezultatEl.textContent = formatRsd(rsd);
-        } else {
-            const valuta = iznos / k;
-            rezultatEl.textContent = formatValuta(valuta) + ' ' + kod;
-        }
-    }
-
-    async function ucitaj() {
+    // ===== KURS — localStorage keš + svež fetch sa timeout-om =====
+    function ucitajKursIzKesa() {
         try {
-            const r = await fetch(`${WORKER_URL}/kurs`);
-            const d = await r.json();
-            if (d && !d.error && d.valute) {
-                kurs = d;
-                iscrtajGrid();
-                izracunaj();
+            const raw = localStorage.getItem(STORAGE_KURS);
+            if (!raw) return null;
+            const d = JSON.parse(raw);
+            const danas = new Date().toISOString().slice(0, 10);
+            if (d && d.datum === danas && d.kurs) return d.kurs;
+        } catch (e) {}
+        return null;
+    }
+
+    function sacuvajKursUKes(k) {
+        try {
+            const danas = new Date().toISOString().slice(0, 10);
+            localStorage.setItem(STORAGE_KURS, JSON.stringify({ datum: danas, kurs: k }));
+        } catch (e) {}
+    }
+
+    async function osveziKurs() {
+        // Prvo keš (ako je od danas) — da prva provera ima EUR/RSD odmah
+        const izKesa = ucitajKursIzKesa();
+        if (izKesa) kurs = izKesa;
+
+        // Onda svež fetch sa timeout-om
+        try {
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), KURS_TIMEOUT_MS);
+            const f = window.fetchRateLimited || fetch;
+            const res = await f(`${WORKER_URL}/kurs`, { signal: controller.signal });
+            clearTimeout(timeoutId);
+            if (res.ok) {
+                const svež = await res.json();
+                if (svež && svež.valute) {
+                    kurs = svež;
+                    sacuvajKursUKes(svež);
+                }
             }
         } catch (e) {
-            console.warn('Kurs greška:', e);
+            // tiho — koristimo keš ili ostaje null
         }
     }
 
-    if (viseEl) {
-        viseEl.addEventListener('click', () => {
-            prikazSve = !prikazSve;
-            iscrtajGrid();
-            viseEl.textContent = prikazSve
-                ? 'Prikaži osnovne valute ↑'
-                : 'Prikaži sve valute srednjeg kursa dinara (RSD)';
-        });
+    async function fetchRL(url, opts) {
+        const f = window.fetchRateLimited || fetch;
+        return f(url, opts);
     }
 
-    if (valutaEl) {
-        valutaEl.addEventListener('change', () => {
-            azurirajPlaceholder();
-            azurirajZastavice();
-            izracunaj();
-        });
+    async function fetchSaRetry(url, pokusaja = 2, pauzaMs = 500, timeoutMs = 8000) {
+        for (let i = 0; i < pokusaja; i++) {
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+            try {
+                const res = await fetchRL(url, { signal: controller.signal });
+                clearTimeout(timeoutId);
+                if (!res.ok) {
+                    if (i < pokusaja - 1) { await new Promise(r => setTimeout(r, pauzaMs)); continue; }
+                    return null;
+                }
+                const tekst = await res.text();
+                try { return JSON.parse(tekst); }
+                catch (jsonErr) {
+                    if (i < pokusaja - 1) { await new Promise(r => setTimeout(r, pauzaMs)); continue; }
+                    return null;
+                }
+            } catch (e) {
+                clearTimeout(timeoutId);
+                if (i < pokusaja - 1) { await new Promise(r => setTimeout(r, pauzaMs)); continue; }
+                return null;
+            }
+        }
+        return null;
     }
 
-    if (inputEl) {
-        inputEl.addEventListener('input', izracunaj);
+    async function dohvatiBalans(adresa, token) {
+        const config = KRIPTO[token];
+        if (!config) throw new Error('Nepoznat token');
+
+        let url = `${WORKER_URL}/balance?address=${adresa}`;
+        if (config.contract) url += `&contract=${config.contract}`;
+
+        const data = await fetchSaRetry(url);
+        if (!data) throw new Error('timeout');
+        if (data.status !== '1') throw new Error(data.message || 'Blockscout greška');
+
+        const sirovi = data.result;
+        const balans = parseFloat(sirovi) / config.delilac;
+        const cenaUsd = (typeof data.cena_usd === 'number') ? data.cena_usd : null;
+        return { sirovi, balans, cenaUsd };
     }
 
-    if (smerEl) {
-        smerEl.addEventListener('click', () => {
-            smer = smer === 'valuta_u_rsd' ? 'rsd_u_valuta' : 'valuta_u_rsd';
-            azurirajPlaceholder();
-            azurirajZastavice();
-            izracunaj();
-        });
+    async function dohvatiPrethodni(adresa, token) {
+        try {
+            const res = await fetchRL(`${WORKER_URL}/get-balans?adresa=${adresa}&token=${token}`);
+            if (!res.ok) return null;
+            const data = await res.json();
+            if (data.ok && data.podaci) return data.podaci;
+        } catch (e) {}
+        return null;
     }
 
-    azurirajPlaceholder();
-    azurirajZastavice();
-    ucitaj();
-    setInterval(ucitaj, 5 * 60 * 1000);
+    async function sacuvajBalans(adresa, token, balans, balansUsd) {
+        try {
+            let url = `${WORKER_URL}/save-balans?adresa=${adresa}&token=${token}&balans=${encodeURIComponent(balans)}`;
+            if (balansUsd !== null && balansUsd !== undefined) url += `&balans_usd=${balansUsd}`;
+            await fetchRL(url);
+        } catch (e) {}
+    }
+
+    async function dohvatiCacheCenu(adresa, token) {
+        try {
+            const res = await fetchRL(`${WORKER_URL}/get-balans?adresa=${adresa}&token=${token}`);
+            if (!res.ok) return null;
+            const data = await res.json();
+            if (data.ok && data.podaci && data.podaci.balans_usd && data.podaci.balans) {
+                const balans = parseFloat(data.podaci.balans) / KRIPTO[token].delilac;
+                if (balans > 0) return parseFloat(data.podaci.balans_usd) / balans;
+            }
+        } catch (e) {}
+        return null;
+    }
+
+    // ===== CENA PREKO /odrzivost (Worker bira najzdraviji servis) =====
+    async function dohvatiCenu(token, adresa) {
+        if (kešCena[token] && (Date.now() - kešCena[token].vreme) < CENA_KEŠ_MS) {
+            return kešCena[token].vrednost;
+        }
+
+        const config = KRIPTO[token];
+        const data = await fetchSaRetry(`${WORKER_URL}/odrzivost?ids=${config.coingecko}`);
+
+        if (data && typeof data[config.coingecko] === 'object' && typeof data[config.coingecko].usd === 'number') {
+            console.log('✅ Cena preko', data.izvor || 'nepoznat', ':', data[config.coingecko].usd);
+            const cena = data[config.coingecko].usd;
+            kešCena[token] = { vrednost: cena, vreme: Date.now() };
+            return cena;
+        }
+
+        // Fallback: D1 cache iz balans_history
+        if (adresa) {
+            const cacheCena = await dohvatiCacheCenu(adresa, token);
+            if (cacheCena !== null) {
+                console.log('✅ Cena iz D1 cache-a:', cacheCena);
+                kešCena[token] = { vrednost: cacheCena, vreme: Date.now() };
+                return cacheCena;
+            }
+        }
+
+        return null;
+    }
+
+    async function proveri() {
+        if (!trenutnaAdresa || !trenutniToken) return;
+        if (proveraUToku) return;
+        proveraUToku = true;
+
+        try {
+            const { sirovi, balans, cenaUsd } = await dohvatiBalans(trenutnaAdresa, trenutniToken);
+            const prethodni = await dohvatiPrethodni(trenutnaAdresa, trenutniToken);
+
+            // ===== Prvi put =====
+            if (!prethodni) {
+                if (balans === 0) {
+                    await sacuvajBalans(trenutnaAdresa, trenutniToken, sirovi, '0');
+                    setStatus(`Čekam uplatu ${trenutniToken.toUpperCase()}...`, 'ok');
+                    return;
+                }
+
+                let cena = cenaUsd;
+                if (cena === null) cena = await dohvatiCenu(trenutniToken, trenutnaAdresa);
+
+                if (cena === null) {
+                    await sacuvajBalans(trenutnaAdresa, trenutniToken, sirovi, null);
+                    setStatus(`Pratim • ${fBroj(balans)} ${trenutniToken.toUpperCase()} (cena nedostupna)`, 'ok');
+                    return;
+                }
+                const usd = balans * cena;
+                await sacuvajBalans(trenutnaAdresa, trenutniToken, sirovi, usd.toFixed(2));
+                setStatus(`Pratim • ${fBroj(balans)} ${trenutniToken.toUpperCase()} (${vrednostiUTriValute(usd)})`, 'ok');
+                return;
+            }
+
+            // ===== Uporedi =====
+            const prethodniSirovi = prethodni.balans;
+
+            if (sirovi === prethodniSirovi) {
+                let cena = cenaUsd;
+                if (cena === null) cena = await dohvatiCenu(trenutniToken, trenutnaAdresa);
+                if (cena !== null && balans > 0) {
+                    const usd = balans * cena;
+                    setStatus(`Pratim • ${fBroj(balans)} ${trenutniToken.toUpperCase()} (${vrednostiUTriValute(usd)})`, 'ok');
+                } else if (balans === 0) {
+                    setStatus(`Čekam uplatu ${trenutniToken.toUpperCase()}...`, 'ok');
+                } else {
+                    setStatus(`Pratim • ${fBroj(balans)} ${trenutniToken.toUpperCase()}`, 'ok');
+                }
+                return;
+            }
+
+            // ===== Promena =====
+            const prethodniBalans = parseFloat(prethodniSirovi) / KRIPTO[trenutniToken].delilac;
+            const razlika = balans - prethodniBalans;
+            const smer = razlika > 0 ? 'Stiglo' : 'Otišlo';
+
+            let cena = cenaUsd;
+            if (cena === null) cena = await dohvatiCenu(trenutniToken, trenutnaAdresa);
+
+            let poruka;
+            let balansUsdZaUpis = null;
+
+            if (cena === null) {
+                poruka = `${smer} ${fBroj(Math.abs(razlika))} ${trenutniToken.toUpperCase()}`;
+            } else {
+                const razlikaUsd = Math.abs(razlika) * cena;
+                poruka = `${smer} ${fBroj(Math.abs(razlika))} ${trenutniToken.toUpperCase()}, oko ${vrednostiUTriValute(razlikaUsd)}`;
+                balansUsdZaUpis = (balans * cena).toFixed(2);
+            }
+
+            setStatus(poruka, 'ok');
+            if (window.playAdresaSound) window.playAdresaSound();
+            if (window.posaljiEmailMinimum) {
+                window.posaljiEmailMinimum({ poruka: poruka, time: new Date().toLocaleString('sr-RS') });
+            }
+
+            await sacuvajBalans(trenutnaAdresa, trenutniToken, sirovi, balansUsdZaUpis);
+
+            if (intervalId) { clearInterval(intervalId); intervalId = null; }
+
+        } catch (e) {
+            console.warn('Greška pri proveri:', e);
+            if (e.message && e.message.includes('timeout')) setStatus('Transakcija u toku...', 'ok');
+            else setStatus('Probajte kasnije', 'error');
+        } finally {
+            proveraUToku = false;
+        }
+    }
+
+    function pokreniPracenje(adresa, token) {
+        if (intervalId) clearInterval(intervalId);
+        trenutnaAdresa = adresa;
+        trenutniToken = token;
+        kešCena = {};
+        setStatus('Učitavanje...');
+
+        (async () => {
+            // Prvo kurs (keš + svež sa timeout-om), pa prva provera
+            await osveziKurs();
+            proveri();
+            intervalId = setInterval(proveri, INTERVAL);
+        })();
+    }
+
+    btnEl.addEventListener('click', () => {
+        const a = inputEl.value.trim();
+        const t = selectEl.value;
+        if (!validnaAdresa(a)) { setStatus('Neispravna adresa', 'error'); return; }
+        if (!KRIPTO[t]) { setStatus('Nepoznat token', 'error'); return; }
+        try {
+            localStorage.setItem(STORAGE_ADRESA, a);
+            localStorage.setItem(STORAGE_TOKEN, t);
+        } catch (e) {}
+        pokreniPracenje(a, t);
+    });
+
+    inputEl.addEventListener('keydown', (e) => { if (e.key === 'Enter') btnEl.click(); });
+
+    async function probajAutoPaste() {
+        try {
+            if (!navigator.clipboard || !navigator.clipboard.readText) return;
+            const tekst = await navigator.clipboard.readText();
+            const ocisceno = (tekst || '').trim();
+            if (!validnaAdresa(ocisceno)) return;
+            if (inputEl.value.trim() !== ocisceno) inputEl.value = ocisceno;
+        } catch (e) {}
+    }
+    inputEl.addEventListener('focus', probajAutoPaste);
+    inputEl.addEventListener('click', probajAutoPaste);
+
+    try {
+        const a = localStorage.getItem(STORAGE_ADRESA);
+        const t = localStorage.getItem(STORAGE_TOKEN) || 'eth';
+        if (a && validnaAdresa(a)) { inputEl.value = a; selectEl.value = t; }
+    } catch (e) {}
+
 })();
