@@ -1010,3 +1010,8 @@ img[src*="_default.png"],
 }
 .cd-item:hover { background: #3a3a3a; }
 .cd-item.active { background: #FFD700; color: #121212; font-weight: 600; }
+
+/* Grafikon tokena — token dropdown je širi */
+.cd-token { width: auto; min-width: 130px; max-width: 55%; }
+.cd-token .cd-menu { min-width: 100%; max-height: 156px; }
+.cd-token .cd-toggle { padding: 4px 8px; font-size: 0.75rem; }
