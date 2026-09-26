@@ -191,23 +191,6 @@ async function getPricesPrekoOdrzivost(cgIds) {
     }
 }
 
-// ===== GAS CENA =====
-async function getGasPrices() {
-    try {
-        const res = await fetchRateLimited(`${WORKER_URL}/gas`);
-        const data = await res.json();
-        if (data.gas && data.gas.status === '1' && data.gas.result) {
-            return {
-                slow: parseFloat(data.gas.result.SafeGasPrice),
-                standard: parseFloat(data.gas.result.ProposeGasPrice)
-            };
-        }
-    } catch (e) {
-        console.warn('Gas greška:', e);
-    }
-    return null;
-}
-
 // ===== FEAR & GREED =====
 async function getFearGreed() {
     try {
@@ -258,8 +241,141 @@ async function loadFearGreed() {
     labEl.textContent = fg.label || 'Fear & Greed';
 }
 
-// ===== GAS WIDGET =====
+// ===== NOVI GAS WIDGET =====
+function azurirajGasNovi(snap) {
+    const titleEl = document.getElementById('gas-full-title');
+    if (!titleEl) return;
 
+    if (!snap) {
+        titleEl.textContent = '⛽ ETH Gas';
+        ['gas-full-suggest', 'gas-full-ratio', 'gas-full-ema', 'gas-full-next', 'gas-full-tip', 'gas-full-standard', 'gas-full-fast'].forEach(id => {
+            const e = document.getElementById(id);
+            if (e) e.textContent = '—';
+        });
+        return;
+    }
+
+    // Naslov sa blokom
+    titleEl.textContent = snap.lastBlock ? ('⛽ ETH Gas: #' + snap.lastBlock) : '⛽ ETH Gas';
+
+    const set = (id, txt) => { const e = document.getElementById(id); if (e) e.textContent = txt; };
+
+    // 1. Base Fee
+    set('gas-full-suggest', snap.suggestBaseFee != null ? snap.suggestBaseFee.toFixed(3) : '—');
+
+    // 4. Sledeći blok
+    set('gas-full-next', snap.nextBaseFee != null ? snap.nextBaseFee.toFixed(3) : '—');
+
+    // 3. Zauzetost + EMA 5
+    const poslednji = (Array.isArray(snap.gasUsedRatio) && snap.gasUsedRatio.length)
+        ? snap.gasUsedRatio[snap.gasUsedRatio.length - 1]
+        : null;
+    set('gas-full-ratio', poslednji != null ? (poslednji * 100).toFixed(1) : '—');
+    set('gas-full-ema', snap.emaGasUsed5 != null ? (snap.emaGasUsed5 * 100).toFixed(1) : '—');
+
+    // 7. Standard, Brz
+    set('gas-full-standard', snap.proposeGasPrice != null ? snap.proposeGasPrice.toFixed(3) + ' Gwei' : '—');
+    set('gas-full-fast', snap.fastGasPrice != null ? snap.fastGasPrice.toFixed(3) + ' Gwei' : '—');
+
+    // 6. Tip (ispod Brz)
+    set('gas-full-tip', snap.tip != null ? snap.tip.toFixed(3) + ' Gwei' : '—');
+}
+
+// ===== GRAF GAS BASE FEE =====
+let gasChart = null;
+const gasY = { min: 0, mid: 0.5, max: 1 };
+
+function azurirajGasGraf(history) {
+    if (!Array.isArray(history) || !history.length) return;
+
+    const canvas = document.getElementById('gas-chart');
+    if (!canvas || typeof Chart === 'undefined') return;
+
+    const labels = history.map(p => {
+        const d = new Date(p.t);
+        return String(d.getHours()).padStart(2, '0') + ':' + String(d.getMinutes()).padStart(2, '0');
+    });
+    const values = history.map(p => p.b);
+
+    let min = Math.min(...values);
+    let max = Math.max(...values);
+    if (min === max) { min = min * 0.95; max = max * 1.05; }
+    gasY.min = min;
+    gasY.max = max;
+    gasY.mid = (min + max) / 2;
+
+    if (gasChart) {
+        gasChart.data.labels = labels;
+        gasChart.data.datasets[0].data = values;
+        gasChart.options.scales.y.min = min;
+        gasChart.options.scales.y.max = max;
+        gasChart.update('none');
+        return;
+    }
+
+    gasChart = new Chart(canvas.getContext('2d'), {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [{
+                data: values,
+                borderColor: '#FFD700',
+                backgroundColor: 'rgba(255,215,0,0.10)',
+                borderWidth: 2,
+                pointRadius: 0,
+                pointHoverRadius: 0,
+                tension: 0.3,
+                fill: true
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            animation: { duration: 300 },
+            events: ['click', 'touchstart'],
+            interaction: { mode: 'index', intersect: false },
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    callbacks: {
+                        label: (ctx) => 'Base Fee: ' + Number(ctx.parsed.y).toFixed(3) + ' Gwei'
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    grid: { display: false },
+                    ticks: {
+                        color: '#888',
+                        font: { size: 9 },
+                        maxRotation: 0,
+                        autoSkip: true,
+                        maxTicksLimit: 4
+                    }
+                },
+                y: {
+                    grid: { display: false },
+                    min: gasY.min,
+                    max: gasY.max,
+                    afterBuildTicks: (axis) => {
+                        axis.ticks = [
+                            { value: gasY.min },
+                            { value: gasY.mid },
+                            { value: gasY.max }
+                        ];
+                    },
+                    ticks: {
+                        color: '#FFD700',
+                        font: { size: 10 },
+                        callback: (v) => Number(v).toFixed(3)
+                    }
+                }
+            }
+        }
+    });
+}
+
+// ===== GAS WIDGET =====
 async function loadGas() {
     setStatus('Učitavanje...', 'loading');
 
@@ -318,137 +434,6 @@ async function loadGas() {
         azurirajGasNovi(null);
         setStatus('Greška pri dobavljanju podataka', 'error');
     }
-}
-// ===== NOVI GAS WIDGET =====
-function azurirajGasNovi(snap) {
-    const el = document.getElementById('gas-full-suggest');
-    if (!el) return;
-
-    if (!snap) {
-        ['gas-full-suggest', 'gas-full-block', 'gas-full-ratio', 'gas-full-ema', 'gas-full-next', 'gas-full-tip', 'gas-full-standard', 'gas-full-fast'].forEach(id => {
-            const e = document.getElementById(id);
-            if (e) e.textContent = '—';
-        });
-        return;
-    }
-
-    const set = (id, txt) => { const e = document.getElementById(id); if (e) e.textContent = txt; };
-
-    // 1. Base Fee
-    set('gas-full-suggest', snap.suggestBaseFee != null ? snap.suggestBaseFee.toFixed(3) : '—');
-
-    // 2. Blok
-    set('gas-full-block', snap.lastBlock ? '#' + snap.lastBlock : '—');
-
-    // 3. Zauzetost + EMA 5
-    const poslednji = (Array.isArray(snap.gasUsedRatio) && snap.gasUsedRatio.length)
-        ? snap.gasUsedRatio[snap.gasUsedRatio.length - 1]
-        : null;
-    set('gas-full-ratio', poslednji != null ? (poslednji * 100).toFixed(1) : '—');
-    set('gas-full-ema', snap.emaGasUsed5 != null ? (snap.emaGasUsed5 * 100).toFixed(1) : '—');
-
-    // 4. Sledeći blok
-    set('gas-full-next', snap.nextBaseFee != null ? snap.nextBaseFee.toFixed(3) : '—');
-
-    // 6. Tip
-    set('gas-full-tip', snap.tip != null ? snap.tip.toFixed(3) + ' Gwei' : '—');
-
-    // 7. Standard i Brz
-    set('gas-full-standard', snap.proposeGasPrice != null ? snap.proposeGasPrice.toFixed(3) + ' Gwei' : '—');
-    set('gas-full-fast', snap.fastGasPrice != null ? snap.fastGasPrice.toFixed(3) + ' Gwei' : '—');
-}
-
-// ===== GRAF GAS BASE FEE =====
-let gasChart = null;
-const gasY = { min: 0, mid: 0.5, max: 1 };
-
-function azurirajGasGraf(history) {
-    if (!Array.isArray(history) || !history.length) return;
-
-    const canvas = document.getElementById('gas-chart');
-    if (!canvas || typeof Chart === 'undefined') return;
-
-    const labels = history.map(p => {
-        const d = new Date(p.t);
-        return String(d.getHours()).padStart(2, '0') + ':' + String(d.getMinutes()).padStart(2, '0');
-    });
-    const values = history.map(p => p.b);
-
-    let min = Math.min(...values);
-    let max = Math.max(...values);
-    if (min === max) { min = min * 0.95; max = max * 1.05; }
-    gasY.min = min;
-    gasY.max = max;
-    gasY.mid = (min + max) / 2;
-
-    if (gasChart) {
-        gasChart.data.labels = labels;
-        gasChart.data.datasets[0].data = values;
-        gasChart.options.scales.y.min = min;
-        gasChart.options.scales.y.max = max;
-        gasChart.update('none');
-        return;
-    }
-
-    gasChart = new Chart(canvas.getContext('2d'), {
-        type: 'line',
-        data: {
-            labels: labels,
-            datasets: [{
-                data: values,
-                borderColor: '#FFD700',
-                backgroundColor: 'rgba(255,215,0,0.10)',
-                borderWidth: 2,
-                pointRadius: 0,
-                pointHoverRadius: 0,
-                tension: 0.3,
-                fill: true
-            }]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            animation: { duration: 300 },
-            interaction: { mode: 'index', intersect: false },
-            plugins: {
-                legend: { display: false },
-                tooltip: {
-                    callbacks: {
-                        label: (ctx) => 'Base Fee: ' + Number(ctx.parsed.y).toFixed(3) + ' Gwei'
-                    }
-                }
-            },
-            scales: {
-                x: {
-                    grid: { display: false },
-                    ticks: {
-                        color: '#888',
-                        font: { size: 9 },
-                        maxRotation: 0,
-                        autoSkip: true,
-                        maxTicksLimit: 4
-                    }
-                },
-                y: {
-                    grid: { display: false },
-                    min: gasY.min,
-                    max: gasY.max,
-                    afterBuildTicks: (axis) => {
-                        axis.ticks = [
-                            { value: gasY.min },
-                            { value: gasY.mid },
-                            { value: gasY.max }
-                        ];
-                    },
-                    ticks: {
-                        color: '#FFD700',
-                        font: { size: 10 },
-                        callback: (v) => Number(v).toFixed(3)
-                    }
-                }
-            }
-        }
-    });
 }
 
 // ===== ZAMA WIDGET =====
