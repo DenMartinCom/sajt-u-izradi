@@ -1,0 +1,172 @@
+Izvestaj — 2026-09-26 00:02 UTC
+============================================================
+
+Uparivanje: novih 11, sumnjivih 3, neuparenih 32
+Logoi: preuzeto 0, nedovuceno 0
+
+
+============================================================
+=== CoinGecko ===
+Auto: 2 | Sumnjivi: 1 | Nenadjeni: 10
+
+NOVI (auto):
+  CMC #: 222 | stonk — STONK (stonkfun.xyz) → stonk-3 (krug 4) | CMC ID: 42022
+    CoinGecko: https://www.coingecko.com/en/coins/stonk-3
+  CMC #: 226 | usx — Solstice USX → usx (krug 4) | CMC ID: 38948
+    CoinGecko: https://www.coingecko.com/en/coins/usx
+
+SUMNJIVI:
+  CMC #: 233 | strcx — Strategy PP Variable tokenized stock (xStock) | CMC ID: 39711
+    Razlog: cena se razlikuje (7.92%)
+    Naša CMC: https://coinmarketcap.com/currencies/strategy-pp-variable-tokenized-stock-xstock/
+    CoinGecko: https://www.coingecko.com/en/coins/strategy-pp-variable-xstock
+    Za brisanje: UPDATE kripto_meta SET coingecko_id = NULL WHERE simbol = 'strcx';
+
+NIJE NAĐENO:
+  CMC #: 92 |  — 币安人生 (cena $0.5056127872444536) | CMC ID: 38590
+    CMC: https://coinmarketcap.com/currencies/bianrensheng/
+    DDG: https://duckduckgo.com/?q=site:coingecko.com/en/coins/+
+  CMC #: 172 | deep — DeepBook Protocol (cena $0.02303375370706512) | CMC ID: 33391
+    CMC: https://coinmarketcap.com/currencies/deepbook-protocol/
+    DDG: https://duckduckgo.com/?q=site:coingecko.com/en/coins/+deep
+  CMC #: 185 | genius — Genius Terminal (cena $0.3485976815288897) | CMC ID: 39841
+    CMC: https://coinmarketcap.com/currencies/genius-terminal/
+    DDG: https://duckduckgo.com/?q=site:coingecko.com/en/coins/+genius
+  CMC #: 194 | cheems — Cheems (cheems.pet) (cena $5.605590238427802e-7) | CMC ID: 33280
+    CMC: https://coinmarketcap.com/currencies/cheems-pet/
+    DDG: https://duckduckgo.com/?q=site:coingecko.com/en/coins/+cheems
+  CMC #: 202 | del — Decimal (cena $0.4605521258078187) | CMC ID: 12400
+    CMC: https://coinmarketcap.com/currencies/decimal/
+    DDG: https://duckduckgo.com/?q=site:coingecko.com/en/coins/+del
+  CMC #: 209 | jlp — Jupiter Perps LP (cena $4.904659277669064) | CMC ID: 28853
+    CMC: https://coinmarketcap.com/currencies/jupiter-perps-lp/
+    DDG: https://duckduckgo.com/?q=site:coingecko.com/en/coins/+jlp
+  CMC #: 237 | ale — Ailey (cena $0.2693161191131466) | CMC ID: 30605
+    CMC: https://coinmarketcap.com/currencies/project-ailey/
+    DDG: https://duckduckgo.com/?q=site:coingecko.com/en/coins/+ale
+  CMC #: 238 |  — 龙虾 (Lobster) (cena $0.1298789292471609) | CMC ID: 39671
+    CMC: https://coinmarketcap.com/currencies/lobster-2/
+    DDG: https://duckduckgo.com/?q=site:coingecko.com/en/coins/+
+  CMC #: 246 |  — 牛来 (Niu Lai) (cena $0.1040332912258127) | CMC ID: 41861
+    CMC: https://coinmarketcap.com/currencies/niu-lai/
+    DDG: https://duckduckgo.com/?q=site:coingecko.com/en/coins/+
+  CMC #: 249 | cate — Catecoin (cate.meme) (cena $0.10669525725889364) | CMC ID: 41878
+    CMC: https://coinmarketcap.com/currencies/catecoin-cate-meme/
+    DDG: https://duckduckgo.com/?q=site:coingecko.com/en/coins/+cate
+
+
+============================================================
+=== CoinStats ===
+Auto: 6 | Sumnjivi: 1 | Nenadjeni: 13
+
+NOVI (auto):
+  CMC #: 185 | genius — Genius Terminal → genius-3 (krug 4) | CMC ID: 39841
+    CoinStats: https://coinstats.app/coins/genius-3/
+  CMC #: 194 | cheems — Cheems (cheems.pet) → cheems-token (krug 4) | CMC ID: 33280
+    CoinStats: https://coinstats.app/coins/cheems-token/
+  CMC #: 209 | jlp — Jupiter Perps LP → jupiter-perpetuals-liquidity-provider-token (krug 4) | CMC ID: 28853
+    CoinStats: https://coinstats.app/coins/jupiter-perpetuals-liquidity-provider-token/
+  CMC #: 222 | stonk — STONK (stonkfun.xyz) → 6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx_solana (krug 4) | CMC ID: 42022
+    CoinStats: https://coinstats.app/coins/6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx_solana/
+  CMC #: 226 | usx — Solstice USX → usx (krug 4) | CMC ID: 38948
+    CoinStats: https://coinstats.app/coins/usx/
+  CMC #: 249 | cate — Catecoin (cate.meme) → Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump_solana (krug 4) | CMC ID: 41878
+    CoinStats: https://coinstats.app/coins/Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump_solana/
+
+SUMNJIVI:
+  CMC #: 233 | strcx — Strategy PP Variable tokenized stock (xStock) | CMC ID: 39711
+    Razlog: cena se razlikuje (7.92%)
+    Naša CMC: https://coinmarketcap.com/currencies/strategy-pp-variable-tokenized-stock-xstock/
+    CoinStats: https://coinstats.app/coins/strategy-pp-variable-xstock/
+    Za brisanje: UPDATE kripto_meta SET coinstats_id = NULL WHERE simbol = 'strcx';
+
+NIJE NAĐENO:
+  CMC #: 15 | leo — UNUS SED LEO (cena $8.811930650937542) | CMC ID: 3957
+    CMC: https://coinmarketcap.com/currencies/unus-sed-leo/
+    DDG: https://duckduckgo.com/?q=site:coinstats.app/coins/+leo
+  CMC #: 92 |  — 币安人生 (cena $0.5056127872444536) | CMC ID: 38590
+    CMC: https://coinmarketcap.com/currencies/bianrensheng/
+    DDG: https://duckduckgo.com/?q=site:coinstats.app/coins/+
+  CMC #: 159 | dexe — DeXe (cena $1.9357831410194393) | CMC ID: 7326
+    CMC: https://coinmarketcap.com/currencies/dexe/
+    DDG: https://duckduckgo.com/?q=site:coinstats.app/coins/+dexe
+  CMC #: 172 | deep — DeepBook Protocol (cena $0.02303375370706512) | CMC ID: 33391
+    CMC: https://coinmarketcap.com/currencies/deepbook-protocol/
+    DDG: https://duckduckgo.com/?q=site:coinstats.app/coins/+deep
+  CMC #: 178 | soon — SOON (cena $0.20250735376955759) | CMC ID: 36542
+    CMC: https://coinmarketcap.com/currencies/soon/
+    DDG: https://duckduckgo.com/?q=site:coinstats.app/coins/+soon
+  CMC #: 202 | del — Decimal (cena $0.4605521258078187) | CMC ID: 12400
+    CMC: https://coinmarketcap.com/currencies/decimal/
+    DDG: https://duckduckgo.com/?q=site:coinstats.app/coins/+del
+  CMC #: 208 | ctm — c8ntinuum (cena $0.2386446623630365) | CMC ID: 37745
+    CMC: https://coinmarketcap.com/currencies/c8ntinuum/
+    DDG: https://duckduckgo.com/?q=site:coinstats.app/coins/+ctm
+  CMC #: 236 | jsm — Joseon Mun (cena $0.00045382333403343655) | CMC ID: 25194
+    CMC: https://coinmarketcap.com/currencies/joseon-mun/
+    DDG: https://duckduckgo.com/?q=site:coinstats.app/coins/+jsm
+  CMC #: 237 | ale — Ailey (cena $0.2693161191131466) | CMC ID: 30605
+    CMC: https://coinmarketcap.com/currencies/project-ailey/
+    DDG: https://duckduckgo.com/?q=site:coinstats.app/coins/+ale
+  CMC #: 238 |  — 龙虾 (Lobster) (cena $0.1298789292471609) | CMC ID: 39671
+    CMC: https://coinmarketcap.com/currencies/lobster-2/
+    DDG: https://duckduckgo.com/?q=site:coinstats.app/coins/+
+  CMC #: 240 | vcnt — ViciCoin (cena $19.473140453046852) | CMC ID: 28656
+    CMC: https://coinmarketcap.com/currencies/vicicoin/
+    DDG: https://duckduckgo.com/?q=site:coinstats.app/coins/+vcnt
+  CMC #: 244 | pm — PumpMeme (cena $3.346207331543164) | CMC ID: 37614
+    CMC: https://coinmarketcap.com/currencies/pumpmeme/
+    DDG: https://duckduckgo.com/?q=site:coinstats.app/coins/+pm
+  CMC #: 246 |  — 牛来 (Niu Lai) (cena $0.1040332912258127) | CMC ID: 41861
+    CMC: https://coinmarketcap.com/currencies/niu-lai/
+    DDG: https://duckduckgo.com/?q=site:coinstats.app/coins/+
+
+
+============================================================
+=== CoinPaprika ===
+Auto: 3 | Sumnjivi: 1 | Nenadjeni: 9
+
+NOVI (auto):
+  CMC #: 172 | deep — DeepBook Protocol → deep-deepbook-protocol (krug 4) | CMC ID: 33391
+    CoinPaprika: https://coinpaprika.com/coin/deep-deepbook-protocol/
+  CMC #: 194 | cheems — Cheems (cheems.pet) → cheems-cheems-cheemspet (krug 3) | CMC ID: 33280
+    CoinPaprika: https://coinpaprika.com/coin/cheems-cheems-cheemspet/
+  CMC #: 209 | jlp — Jupiter Perps LP → jlp-jupiter-perpetuals-liquidity-provider-token (krug 4) | CMC ID: 28853
+    CoinPaprika: https://coinpaprika.com/coin/jlp-jupiter-perpetuals-liquidity-provider-token/
+
+SUMNJIVI:
+  CMC #: 202 | del — Decimal | CMC ID: 12400
+    Razlog: cena se razlikuje (6.24%)
+    Naša CMC: https://coinmarketcap.com/currencies/decimal/
+    CoinPaprika: https://coinpaprika.com/coin/del-decimal/
+    Za brisanje: UPDATE kripto_meta SET coinpaprika_id = NULL WHERE simbol = 'del';
+
+NIJE NAĐENO:
+  CMC #: 92 |  — 币安人生 (cena $0.5056127872444536) | CMC ID: 38590
+    CMC: https://coinmarketcap.com/currencies/bianrensheng/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+
+  CMC #: 185 | genius — Genius Terminal (cena $0.3485976815288897) | CMC ID: 39841
+    CMC: https://coinmarketcap.com/currencies/genius-terminal/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+genius
+  CMC #: 222 | stonk — STONK (stonkfun.xyz) (cena $0.3095692177168647) | CMC ID: 42022
+    CMC: https://coinmarketcap.com/currencies/stonk-fun/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+stonk
+  CMC #: 226 | usx — Solstice USX (cena $1.0022668333681088) | CMC ID: 38948
+    CMC: https://coinmarketcap.com/currencies/solstice-usx/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+usx
+  CMC #: 233 | strcx — Strategy PP Variable tokenized stock (xStock) (cena $106.85070878324956) | CMC ID: 39711
+    CMC: https://coinmarketcap.com/currencies/strategy-pp-variable-tokenized-stock-xstock/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+strcx
+  CMC #: 237 | ale — Ailey (cena $0.2693161191131466) | CMC ID: 30605
+    CMC: https://coinmarketcap.com/currencies/project-ailey/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+ale
+  CMC #: 238 |  — 龙虾 (Lobster) (cena $0.1298789292471609) | CMC ID: 39671
+    CMC: https://coinmarketcap.com/currencies/lobster-2/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+
+  CMC #: 246 |  — 牛来 (Niu Lai) (cena $0.1040332912258127) | CMC ID: 41861
+    CMC: https://coinmarketcap.com/currencies/niu-lai/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+
+  CMC #: 249 | cate — Catecoin (cate.meme) (cena $0.10669525725889364) | CMC ID: 41878
+    CMC: https://coinmarketcap.com/currencies/catecoin-cate-meme/
+    DDG: https://duckduckgo.com/?q=site:coinpaprika.com/coin/+cate
+
