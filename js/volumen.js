@@ -1,7 +1,7 @@
 // ===== VOLUMEN — promena volumena trgovanja =====
 // Prikazuje top 10 tokena po promeni volumena (gainers/losers)
 // Za izabrani period. Izvor: /volumen (kripto_kes tabela).
-// Prikaz identičan liste.js (cene): logo | simbol | cena | promena%
+// Prikaz identičan cene.js: logo | simbol | cena | promena%
 (function () {
     const WORKER_URL = 'https://cmc-proxy.martin-denic.workers.dev';
     const el = document.getElementById('volumen-widget');
@@ -9,8 +9,6 @@
 
     let period = '24h';
 
-    // Svi periodi — dropdown
-    // (ostali su tu radi budućnosti, trenutno samo 24h ima podatke)
     const PERIODI = [
         { v: '1h',  t: '1h' },
         { v: '6h',  t: '6h' },
@@ -23,35 +21,6 @@
         { v: '90d', t: '90d' }
     ];
 
-    // ===== FORMAT — isto kao liste.js =====
-    function formatCena(n) {
-        if (typeof n !== 'number' || !isFinite(n)) return '—';
-        if (n >= 100) return '$' + Math.round(n).toLocaleString('en-US');
-        if (n >= 1) return '$' + n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-        if (n >= 0.01) return '$' + n.toLocaleString('en-US', { minimumFractionDigits: 4, maximumFractionDigits: 4 });
-        return '$' + n.toLocaleString('en-US', { minimumFractionDigits: 6, maximumFractionDigits: 6 });
-    }
-
-    function formatPromena(n, p) {
-        if (typeof n !== 'number' || !isFinite(n)) return '';
-        const znak = n >= 0 ? '+' : '';
-        const abs = Math.abs(n);
-
-        if (p === '1h' || p === '6h' || p === '12h') {
-            // kratki periodi — 2 decimale
-            if (abs >= 1000) {
-                return znak + abs.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + '%';
-            }
-            return znak + abs.toFixed(2) + '%';
-        } else {
-            // ostali periodi — bez decimala
-            if (abs >= 1000) {
-                return znak + Math.round(abs).toLocaleString('en-US') + '%';
-            }
-            return znak + Math.round(abs) + '%';
-        }
-    }
-
     function cmcUrl(c) {
         const slug = c.cmc_slug || c.simbol;
         return 'https://coinmarketcap.com/currencies/' + encodeURIComponent(slug) + '/';
@@ -59,22 +28,27 @@
 
     function red(c) {
         const kl = c.promena >= 0 ? 'up' : 'down';
+        const cenaTekst = c.cena != null ? '$' + window.formatCena(c.cena) : '—';
+        const promTekst = c.promena != null ? window.formatProc(c.promena) + '%' : '';
         return `<a class="liste-red" href="${cmcUrl(c)}" target="_blank" rel="noopener">
             <img src="${c.logo}" alt="${c.simbol}" loading="lazy" onerror="if(!this.dataset.err){this.dataset.err=1; this.src='Slike/coins/_default.png';}">
             <span class="lr-simbol">${c.simbol}</span>
-            <span class="lr-cena">${formatCena(c.cena)}</span>
-            <span class="lr-promena ${kl}">${formatPromena(c.promena, period)}</span>
+            <span class="lr-cena">${cenaTekst}</span>
+            <span class="lr-promena ${kl}">${promTekst}</span>
         </a>`;
     }
 
     function skeleton() {
         const opcije = PERIODI.map(p =>
-            `<option value="${p.v}"${p.v === period ? ' selected' : ''}>${p.t}</option>`
+            `<div class="cd-item${p.v === period ? ' active' : ''}" data-value="${p.v}">${p.t}</div>`
         ).join('');
         el.innerHTML = `
             <div class="liste-header">
-                <div class="liste-title">Promena volumena</div>
-                <select class="liste-period" id="volumen-period">${opcije}</select>
+                <div class="liste-title">Volumen spot trgovanja, promena Top 10</div>
+                <div class="cd" id="volumen-cd">
+                    <button class="cd-toggle" type="button">${period}</button>
+                    <div class="cd-menu">${opcije}</div>
+                </div>
             </div>
             <div class="liste-kolone">
                 <div>
@@ -119,16 +93,38 @@
         }
     }
 
-    skeleton();
+    function initDropdown() {
+        const cd = document.getElementById('volumen-cd');
+        if (!cd) return;
+        const toggle = cd.querySelector('.cd-toggle');
+        const menu = cd.querySelector('.cd-menu');
 
-    const sel = document.getElementById('volumen-period');
-    if (sel) {
-        sel.addEventListener('change', () => {
-            period = sel.value;
+        toggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const bioOtvoren = cd.classList.contains('open');
+            cd.classList.toggle('open');
+            if (!bioOtvoren) {
+                const active = menu.querySelector('.cd-item.active');
+                if (active) active.scrollIntoView({ block: 'nearest' });
+            }
+        });
+
+        menu.addEventListener('click', (e) => {
+            const item = e.target.closest('.cd-item');
+            if (!item) return;
+            const val = item.dataset.value;
+            period = val;
+            toggle.textContent = val;
+            menu.querySelectorAll('.cd-item').forEach(x => x.classList.toggle('active', x.dataset.value === val));
+            cd.classList.remove('open');
             ucitaj();
         });
+
+        document.addEventListener('click', () => cd.classList.remove('open'));
     }
 
+    skeleton();
+    initDropdown();
     ucitaj();
     setInterval(ucitaj, 60000);
 })();
