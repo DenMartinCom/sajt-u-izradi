@@ -199,8 +199,56 @@
         </section>
 
         <!-- TAB 4 — ON-CHAIN -->
-        <section class="tab-content" id="t4">
-            <div class="widget widget-gas">
+<section class="tab-content" id="t4">
+    <!-- NOVI GAS WIDGET -->
+    <div class="widget widget-gas-full">
+        <div class="gas-title">&#9981; ETH Gas</div>
+
+        <div class="gas-full-grid">
+            <div class="gas-full-item">
+                <div class="gfi-label">Base Fee</div>
+                <div class="gfi-value"><span id="gas-full-suggest">—</span><small>Gwei</small></div>
+            </div>
+            <div class="gas-full-item">
+                <div class="gfi-label">Blok</div>
+                <div class="gfi-value"><span id="gas-full-block">—</span></div>
+            </div>
+            <div class="gas-full-item">
+                <div class="gfi-label">Zauzetost</div>
+                <div class="gfi-value"><span id="gas-full-ratio">—</span><small>%</small></div>
+            </div>
+            <div class="gas-full-item">
+                <div class="gfi-label">EMA 5</div>
+                <div class="gfi-value"><span id="gas-full-ema">—</span><small>%</small></div>
+            </div>
+            <div class="gas-full-item">
+                <div class="gfi-label">Sl. blok</div>
+                <div class="gfi-value"><span id="gas-full-next">—</span><small>Gwei</small></div>
+            </div>
+        </div>
+
+        <div class="gas-full-graph-wrap">
+            <canvas id="gas-chart"></canvas>
+        </div>
+
+        <div class="gas-full-rec">
+            <div class="gfr-row">
+                <span class="gfr-label">Tip</span>
+                <span class="gfr-value" id="gas-full-tip">—</span>
+            </div>
+            <div class="gfr-row">
+                <span class="gfr-label">Standard</span>
+                <span class="gfr-value" id="gas-full-standard">—</span>
+            </div>
+            <div class="gfr-row">
+                <span class="gfr-label">Brz</span>
+                <span class="gfr-value" id="gas-full-fast">—</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- POSTOJEĆI GAS WIDGET (Safe/Standard + UK) -->
+    <div class="widget widget-gas">
                 <div class="gas-title">&#9981; ETH Gas</div>
                 <div class="gas-row">
                     <div class="gas-item">
