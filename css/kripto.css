@@ -914,6 +914,7 @@ body {
 }
 @media (max-width: 370px) {
     .widget-pretraga iframe { height: 860px; }
+    .gas-full-grid { grid-template-columns: repeat(2, 1fr); }
     .widget-kripto .coinmarketcap-currency-widget { font-size: 0.75rem !important; }
     .gas-row { gap: 25px; }
     .gas-item .gas-value { font-size: 1.1rem; }
@@ -1012,8 +1013,8 @@ img[src*="_default.png"],
 }
 .gas-full-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(72px, 1fr));
-    gap: 8px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
     width: 100%;
 }
 .gas-full-item {
