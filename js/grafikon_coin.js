@@ -9,18 +9,16 @@
     if (!canvas || typeof Chart === 'undefined') return;
 
     const headerEl = document.querySelector('.grafikon-coin-header');
-    const selectTokenEl = document.getElementById('grafikon-coin-select');
-    const statusEl = document.getElementById('grafikon-coin-status');
-    if (!headerEl || !selectTokenEl) return;
+    if (!headerEl) return;
 
     const PERIODI = [
-        { v: '30',  t: '30 dana' },
-        { v: '60',  t: '60 dana' },
-        { v: '90',  t: '90 dana' },
-        { v: '120', t: '120 dana' },
-        { v: '150', t: '150 dana' },
-        { v: '180', t: '180 dana' },
-        { v: '210', t: '210 dana' },
+        { v: '30',  t: '30d' },
+        { v: '60',  t: '60d' },
+        { v: '90',  t: '90d' },
+        { v: '120', t: '120d' },
+        { v: '150', t: '150d' },
+        { v: '180', t: '180d' },
+        { v: '210', t: '210d' },
         { v: 'sve', t: 'Sve' }
     ];
 
@@ -32,14 +30,30 @@
 
     // ===== DODAVANJE KONTROLA U HEADER =====
     function dodajKontrole() {
-        const periodSelect = document.createElement('select');
-        periodSelect.className = 'grafikon-coin-select';
-        periodSelect.id = 'grafikon-coin-period';
-        periodSelect.innerHTML = PERIODI.map(p =>
-            `<option value="${p.v}"${p.v === period ? ' selected' : ''}>${p.t}</option>`
-        ).join('');
-        headerEl.appendChild(periodSelect);
+        // Token dropdown
+        const tokenCd = document.createElement('div');
+        tokenCd.className = 'cd cd-token';
+        tokenCd.id = 'coin-token-cd';
+        tokenCd.innerHTML = `
+            <button class="cd-toggle" type="button">Učitavanje...</button>
+            <div class="cd-menu"></div>
+        `;
+        headerEl.appendChild(tokenCd);
 
+        // Period dropdown
+        const periodCd = document.createElement('div');
+        periodCd.className = 'cd';
+        periodCd.id = 'coin-period-cd';
+        const opcije = PERIODI.map(p =>
+            `<div class="cd-item${p.v === period ? ' active' : ''}" data-value="${p.v}">${p.t}</div>`
+        ).join('');
+        periodCd.innerHTML = `
+            <button class="cd-toggle" type="button">${PERIODI.find(p => p.v === period).t}</button>
+            <div class="cd-menu">${opcije}</div>
+        `;
+        headerEl.appendChild(periodCd);
+
+        // Vol checkbox
         const volLabel = document.createElement('label');
         volLabel.className = 'grafikon-coin-vol';
         volLabel.innerHTML = `<input type="checkbox" id="coin-vol-cb"><span>Vol</span>`;
@@ -54,20 +68,6 @@
         return delovi[2] + '.' + delovi[1];
     }
 
-    function formatCenaTick(v) {
-        if (v >= 1000) return '$' + Math.round(v).toLocaleString('en-US');
-        if (v >= 1) return '$' + v.toFixed(2);
-        if (v >= 0.01) return '$' + v.toFixed(4);
-        return '$' + v.toFixed(6);
-    }
-
-    function formatVolTick(v) {
-        if (v >= 1e9) return (v / 1e9).toFixed(1) + 'B';
-        if (v >= 1e6) return (v / 1e6).toFixed(1) + 'M';
-        if (v >= 1e3) return (v / 1e3).toFixed(1) + 'K';
-        return String(v);
-    }
-
     function obrisiGraf() {
         if (chart) { chart.destroy(); chart = null; }
     }
@@ -77,6 +77,7 @@
         obrisiGraf();
 
         if (!podaci || !podaci.length) {
+            const statusEl = document.getElementById('grafikon-coin-status');
             if (statusEl) statusEl.textContent = 'Nema podataka';
             return;
         }
@@ -130,7 +131,8 @@
                 ticks: {
                     color: '#FFD700',
                     font: { size: 10 },
-                    callback: formatCenaTick
+                    maxTicksLimit: 3,
+                    callback: (v) => window.formatCena(v)
                 }
             }
         };
@@ -142,7 +144,8 @@
                 ticks: {
                     color: '#888',
                     font: { size: 10 },
-                    callback: formatVolTick
+                    maxTicksLimit: 3,
+                    callback: (v) => window.formatCena(v)
                 }
             };
         }
@@ -154,6 +157,7 @@
                 responsive: true,
                 maintainAspectRatio: false,
                 animation: { duration: 300 },
+                events: ['click', 'touchstart'],
                 interaction: { mode: 'index', intersect: false },
                 plugins: {
                     legend: { display: false },
@@ -167,9 +171,9 @@
                                 const v = ctx.parsed.y;
                                 if (v == null) return null;
                                 if (ctx.datasetIndex === 0) {
-                                    return 'Cena: $' + Number(v).toLocaleString('en-US', { maximumFractionDigits: 6 });
+                                    return 'Cena: $' + window.formatCena(v);
                                 }
-                                return 'Volumen: ' + Number(v).toLocaleString('en-US');
+                                return 'Volumen: ' + window.formatCena(v);
                             }
                         }
                     }
@@ -178,6 +182,7 @@
             }
         });
 
+        const statusEl = document.getElementById('grafikon-coin-status');
         if (statusEl) statusEl.textContent = simbol.toUpperCase() + ' • ' + podaci.length + ' dana';
     }
 
@@ -192,6 +197,7 @@
             return;
         }
 
+        const statusEl = document.getElementById('grafikon-coin-status');
         if (statusEl) statusEl.textContent = 'Učitavanje...';
 
         try {
@@ -211,12 +217,18 @@
     }
 
     // ===== DROPDOWN TOKENA =====
-    async function napuniDropdown() {
+    async function napuniTokenDropdown() {
+        const cd = document.getElementById('coin-token-cd');
+        if (!cd) return;
+        const toggle = cd.querySelector('.cd-toggle');
+        const menu = cd.querySelector('.cd-menu');
+
         try {
             const r = await fetch(`${WORKER_URL}/marquee`);
             const d = await r.json();
             if (!d || d.error) {
-                selectTokenEl.innerHTML = '<option value="">Greška</option>';
+                menu.innerHTML = '<div class="cd-item">Greška</div>';
+                toggle.textContent = 'Greška';
                 return;
             }
             const gornji = [...(d.set1 || []), ...(d.fiksni || [])];
@@ -228,32 +240,77 @@
                 lista.push(c);
             }
             if (!lista.length) {
-                selectTokenEl.innerHTML = '<option value="">Nema tokena</option>';
+                menu.innerHTML = '<div class="cd-item">Nema tokena</div>';
+                toggle.textContent = 'Nema tokena';
                 return;
             }
-            selectTokenEl.innerHTML = lista.map(c =>
-                `<option value="${c.simbol}">${c.simbol.toUpperCase()} — ${c.naziv}</option>`
+
+            menu.innerHTML = lista.map(c =>
+                `<div class="cd-item" data-value="${c.simbol}">${c.simbol.toUpperCase()} — ${c.naziv}</div>`
             ).join('');
+
+            toggle.textContent = lista[0].simbol.toUpperCase();
+            menu.querySelector('.cd-item').classList.add('active');
+
+            // Klik na stavku
+            menu.addEventListener('click', (e) => {
+                const item = e.target.closest('.cd-item');
+                if (!item) return;
+                const val = item.dataset.value;
+                toggle.textContent = val.toUpperCase();
+                menu.querySelectorAll('.cd-item').forEach(x => x.classList.toggle('active', x.dataset.value === val));
+                cd.classList.remove('open');
+                ucitajToken(val);
+            });
+
+            // Toggle
+            toggle.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const bioOtvoren = cd.classList.contains('open');
+                cd.classList.toggle('open');
+                if (!bioOtvoren) {
+                    const active = menu.querySelector('.cd-item.active');
+                    if (active) active.scrollIntoView({ block: 'nearest' });
+                }
+            });
+            document.addEventListener('click', () => cd.classList.remove('open'));
+
             ucitajToken(lista[0].simbol);
         } catch (e) {
             console.warn('Dropdown greška:', e);
-            selectTokenEl.innerHTML = '<option value="">Greška</option>';
+            menu.innerHTML = '<div class="cd-item">Greška</div>';
+            toggle.textContent = 'Greška';
         }
     }
 
     // ===== INIT =====
     dodajKontrole();
 
-    const periodEl = document.getElementById('grafikon-coin-period');
+    const periodCd = document.getElementById('coin-period-cd');
+    const periodToggle = periodCd.querySelector('.cd-toggle');
+    const periodMenu = periodCd.querySelector('.cd-menu');
+    periodToggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const bioOtvoren = periodCd.classList.contains('open');
+        periodCd.classList.toggle('open');
+        if (!bioOtvoren) {
+            const active = periodMenu.querySelector('.cd-item.active');
+            if (active) active.scrollIntoView({ block: 'nearest' });
+        }
+    });
+    periodMenu.addEventListener('click', (e) => {
+        const item = e.target.closest('.cd-item');
+        if (!item) return;
+        const val = item.dataset.value;
+        period = val;
+        periodToggle.textContent = item.textContent;
+        periodMenu.querySelectorAll('.cd-item').forEach(x => x.classList.toggle('active', x.dataset.value === val));
+        periodCd.classList.remove('open');
+        if (trenutniToken) ucitajToken(trenutniToken);
+    });
+    document.addEventListener('click', () => periodCd.classList.remove('open'));
+
     const volCb = document.getElementById('coin-vol-cb');
-
-    if (periodEl) {
-        periodEl.addEventListener('change', () => {
-            period = periodEl.value;
-            if (trenutniToken) ucitajToken(trenutniToken);
-        });
-    }
-
     if (volCb) {
         volCb.addEventListener('change', () => {
             prikazVolumena = volCb.checked;
@@ -264,11 +321,5 @@
         });
     }
 
-    if (selectTokenEl) {
-        selectTokenEl.addEventListener('change', () => {
-            ucitajToken(selectTokenEl.value);
-        });
-    }
-
-    napuniDropdown();
+    napuniTokenDropdown();
 })();
