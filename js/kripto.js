@@ -259,24 +259,41 @@ async function loadFearGreed() {
 }
 
 // ===== GAS WIDGET =====
+
 async function loadGas() {
     setStatus('Učitavanje...', 'loading');
 
     try {
-        const [gas, prices] = await Promise.all([
-            getGasPrices(),
+        const [resGas, prices] = await Promise.all([
+            fetchRateLimited(`${WORKER_URL}/gas`),
             getPricesPrekoOdrzivost(['ethereum'])
         ]);
 
-        const ethPrice = prices.ethereum ? prices.ethereum.usd : null;
+        let gasData = null;
+        try { gasData = await resGas.json(); } catch (e) {}
 
-        if (gas && ethPrice !== null) {
-            const slowUsd = gas.slow * GAS_UNITS * GWEI_TO_ETH * ethPrice;
-            const standardUsd = gas.standard * GAS_UNITS * GWEI_TO_ETH * ethPrice;
+        const ethPrice = prices.ethereum ? prices.ethereum.usd : null;
+        const snap = gasData && gasData.snapshot ? gasData.snapshot : null;
+
+        if (!snap) {
+            resetGasDisplay();
+            azurirajGasNovi(null);
+            setStatus('Gas podaci nedostupni', 'error');
+            return;
+        }
+
+        // Novi widget
+        azurirajGasNovi(snap);
+        azurirajGasGraf(gasData.history);
+
+        // Stari widget (Safe/Standard + UK)
+        if (snap.safeGasPrice != null && ethPrice !== null) {
+            const slowUsd = snap.safeGasPrice * GAS_UNITS * GWEI_TO_ETH * ethPrice;
+            const standardUsd = snap.proposeGasPrice * GAS_UNITS * GWEI_TO_ETH * ethPrice;
             const ukupno = slowUsd * 3.51;
 
-            document.getElementById('gas-slow').textContent = gas.slow.toFixed(3) + '';
-            document.getElementById('gas-standard').textContent = gas.standard.toFixed(3) + '';
+            document.getElementById('gas-slow').textContent = snap.safeGasPrice.toFixed(3);
+            document.getElementById('gas-standard').textContent = snap.proposeGasPrice.toFixed(3);
             document.getElementById('gas-slow-usd').textContent = '$' + slowUsd.toFixed(3) + ' - Uk. ' + ukupno.toFixed(3);
             document.getElementById('gas-standard-usd').textContent = '$' + standardUsd.toFixed(3);
 
@@ -285,9 +302,9 @@ async function loadGas() {
             }
 
             setStatus(`Ažurirano • ETH: $${formatUsd(ethPrice)}`, 'ok');
-        } else if (gas) {
-            document.getElementById('gas-slow').textContent = gas.slow.toFixed(3) + '';
-            document.getElementById('gas-standard').textContent = gas.standard.toFixed(3) + '';
+        } else if (snap.safeGasPrice != null) {
+            document.getElementById('gas-slow').textContent = snap.safeGasPrice.toFixed(3);
+            document.getElementById('gas-standard').textContent = snap.proposeGasPrice.toFixed(3);
             document.getElementById('gas-slow-usd').textContent = '—';
             document.getElementById('gas-standard-usd').textContent = '—';
             setStatus('ETH cena nedostupna', 'error');
@@ -298,8 +315,140 @@ async function loadGas() {
     } catch (error) {
         console.error('Greška:', error);
         resetGasDisplay();
+        azurirajGasNovi(null);
         setStatus('Greška pri dobavljanju podataka', 'error');
     }
+}
+// ===== NOVI GAS WIDGET =====
+function azurirajGasNovi(snap) {
+    const el = document.getElementById('gas-full-suggest');
+    if (!el) return;
+
+    if (!snap) {
+        ['gas-full-suggest', 'gas-full-block', 'gas-full-ratio', 'gas-full-ema', 'gas-full-next', 'gas-full-tip', 'gas-full-standard', 'gas-full-fast'].forEach(id => {
+            const e = document.getElementById(id);
+            if (e) e.textContent = '—';
+        });
+        return;
+    }
+
+    const set = (id, txt) => { const e = document.getElementById(id); if (e) e.textContent = txt; };
+
+    // 1. Base Fee
+    set('gas-full-suggest', snap.suggestBaseFee != null ? snap.suggestBaseFee.toFixed(3) : '—');
+
+    // 2. Blok
+    set('gas-full-block', snap.lastBlock ? '#' + snap.lastBlock : '—');
+
+    // 3. Zauzetost + EMA 5
+    const poslednji = (Array.isArray(snap.gasUsedRatio) && snap.gasUsedRatio.length)
+        ? snap.gasUsedRatio[snap.gasUsedRatio.length - 1]
+        : null;
+    set('gas-full-ratio', poslednji != null ? (poslednji * 100).toFixed(1) : '—');
+    set('gas-full-ema', snap.emaGasUsed5 != null ? (snap.emaGasUsed5 * 100).toFixed(1) : '—');
+
+    // 4. Sledeći blok
+    set('gas-full-next', snap.nextBaseFee != null ? snap.nextBaseFee.toFixed(3) : '—');
+
+    // 6. Tip
+    set('gas-full-tip', snap.tip != null ? snap.tip.toFixed(3) + ' Gwei' : '—');
+
+    // 7. Standard i Brz
+    set('gas-full-standard', snap.proposeGasPrice != null ? snap.proposeGasPrice.toFixed(3) + ' Gwei' : '—');
+    set('gas-full-fast', snap.fastGasPrice != null ? snap.fastGasPrice.toFixed(3) + ' Gwei' : '—');
+}
+
+// ===== GRAF GAS BASE FEE =====
+let gasChart = null;
+const gasY = { min: 0, mid: 0.5, max: 1 };
+
+function azurirajGasGraf(history) {
+    if (!Array.isArray(history) || !history.length) return;
+
+    const canvas = document.getElementById('gas-chart');
+    if (!canvas || typeof Chart === 'undefined') return;
+
+    const labels = history.map(p => {
+        const d = new Date(p.t);
+        return String(d.getHours()).padStart(2, '0') + ':' + String(d.getMinutes()).padStart(2, '0');
+    });
+    const values = history.map(p => p.b);
+
+    let min = Math.min(...values);
+    let max = Math.max(...values);
+    if (min === max) { min = min * 0.95; max = max * 1.05; }
+    gasY.min = min;
+    gasY.max = max;
+    gasY.mid = (min + max) / 2;
+
+    if (gasChart) {
+        gasChart.data.labels = labels;
+        gasChart.data.datasets[0].data = values;
+        gasChart.options.scales.y.min = min;
+        gasChart.options.scales.y.max = max;
+        gasChart.update('none');
+        return;
+    }
+
+    gasChart = new Chart(canvas.getContext('2d'), {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [{
+                data: values,
+                borderColor: '#FFD700',
+                backgroundColor: 'rgba(255,215,0,0.10)',
+                borderWidth: 2,
+                pointRadius: 0,
+                pointHoverRadius: 0,
+                tension: 0.3,
+                fill: true
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            animation: { duration: 300 },
+            interaction: { mode: 'index', intersect: false },
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    callbacks: {
+                        label: (ctx) => 'Base Fee: ' + Number(ctx.parsed.y).toFixed(3) + ' Gwei'
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    grid: { display: false },
+                    ticks: {
+                        color: '#888',
+                        font: { size: 9 },
+                        maxRotation: 0,
+                        autoSkip: true,
+                        maxTicksLimit: 4
+                    }
+                },
+                y: {
+                    grid: { display: false },
+                    min: gasY.min,
+                    max: gasY.max,
+                    afterBuildTicks: (axis) => {
+                        axis.ticks = [
+                            { value: gasY.min },
+                            { value: gasY.mid },
+                            { value: gasY.max }
+                        ];
+                    },
+                    ticks: {
+                        color: '#FFD700',
+                        font: { size: 10 },
+                        callback: (v) => Number(v).toFixed(3)
+                    }
+                }
+            }
+        }
+    });
 }
 
 // ===== ZAMA WIDGET =====
