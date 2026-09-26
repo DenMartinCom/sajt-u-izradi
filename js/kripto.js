@@ -25,6 +25,83 @@ function formatBroj(n) {
 window.formatUsd = formatUsd;
 window.formatBroj = formatBroj;
 
+// ===== FORMAT CENE (globalno pravilo za sajt) =====
+// Pravilo:
+//   a >= 1e12 → "1.23T" (3 sf, sufiks)
+//   a >= 1e9  → "1.23B"
+//   a >= 1e6  → "1.23M"
+//   a >= 1000 → integer sa zapetama (65,123)
+//   1 <= a < 1000 → 2 dec (123.46)
+//   0.01 <= a < 1 → 4 sf, max 5 dec (0.6543, 0.06543, 0.00654)
+//   0.0001 <= a < 0.01 → 5 dec (0.00654, 0.00012)
+//   a < 0.0001 → e notacija, 2 dec u mantisi (1.23e-5)
+//   n === 0 → "0"
+// Bez "$" — dodaje pozivalac.
+function ocistiNule(str) {
+    if (str.indexOf('.') === -1) return str;
+    str = str.replace(/0+$/, '');
+    if (str.endsWith('.')) str = str.slice(0, -1);
+    return str;
+}
+
+function sufiksBroj(a, delilac, oznaka) {
+    const v = a / delilac;
+    let str;
+    if (v >= 100) str = v.toFixed(0);
+    else if (v >= 10) str = v.toFixed(1);
+    else str = v.toFixed(2);
+    str = ocistiNule(str);
+    if (!str) str = '0';
+    return str + oznaka;
+}
+
+function zaokruziMalo(a) {
+    const c = Math.floor(Math.log10(a));
+    let dec = 3 - c;
+    if (dec > 5) dec = 5;
+    if (dec < 0) dec = 0;
+    return ocistiNule(a.toFixed(dec));
+}
+
+function formatCena(n) {
+    if (typeof n !== 'number' || !isFinite(n)) return '—';
+    if (n === 0) return '0';
+
+    const neg = n < 0;
+    const a = Math.abs(n);
+    let rez;
+
+    if (a >= 1e12) rez = sufiksBroj(a, 1e12, 'T');
+    else if (a >= 1e9) rez = sufiksBroj(a, 1e9, 'B');
+    else if (a >= 1e6) rez = sufiksBroj(a, 1e6, 'M');
+    else if (a >= 1000) rez = a.toLocaleString('en-US', { maximumFractionDigits: 0 });
+    else if (a >= 1) rez = a.toFixed(2);
+    else if (a >= 0.01) rez = zaokruziMalo(a);
+    else if (a >= 0.0001) rez = ocistiNule(a.toFixed(5));
+    else rez = a.toExponential(2);
+
+    return neg ? '-' + rez : rez;
+}
+
+// ===== FORMAT PROCENTA (globalno pravilo za sajt) =====
+//   |p| < 10  → 2 dec (0.34, 5.68)
+//   |p| < 100 → 1 dec (12.3, 45.7)
+//   |p| >= 100 → 0 dec, zapete (1,234)
+// Uvek znak +/-. Bez "%" — dodaje pozivalac.
+function formatProc(n) {
+    if (typeof n !== 'number' || !isFinite(n)) return '—';
+    const a = Math.abs(n);
+    const znak = n >= 0 ? '+' : '-';
+    let rez;
+    if (a >= 100) rez = a.toLocaleString('en-US', { maximumFractionDigits: 0 });
+    else if (a >= 10) rez = a.toFixed(1);
+    else rez = a.toFixed(2);
+    return znak + rez;
+}
+
+window.formatCena = formatCena;
+window.formatProc = formatProc;
+
 // ===== RATE LIMITER =====
 const IZVOR_MIN_RAZMAK = 1000;
 const poslednjiPoziv = {
