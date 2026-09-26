@@ -656,19 +656,7 @@ body {
     flex: 1;
     min-width: 0;
 }
-.grafikon-coin-select {
-    background: #2a2a2a;
-    color: #e0e0e0;
-    border: 1px solid #383838;
-    border-radius: 6px;
-    padding: 4px 8px;
-    font-size: 0.75rem;
-    cursor: pointer;
-    outline: none;
-    max-width: 45%;
-    min-width: 0;
-    font-family: inherit;
-}
+
 .grafikon-coin-select:focus { border-color: #FFD700; }
 .grafikon-coin-vol {
     display: inline-flex;
@@ -941,7 +929,6 @@ body {
     .liste-red .lr-promena { min-width: 62px; }
     .liste-red .lr-cena { padding-right: 16px; }
     .kalk-polje:first-child { flex: 0 0 25%; }
-    .grafikon-coin-select { max-width: 50%; }
 }
 
 /* Popravka blikanja slika */
