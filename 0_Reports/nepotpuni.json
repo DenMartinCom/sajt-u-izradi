@@ -1,0 +1,161 @@
+{
+  "vreme": 1790528959237,
+  "stavke": [
+    {
+      "simbol": "",
+      "fali": [
+        "cg",
+        "cs",
+        "cp",
+        "cr"
+      ]
+    },
+    {
+      "simbol": "ale",
+      "fali": [
+        "cg",
+        "cs",
+        "cp",
+        "cr"
+      ]
+    },
+    {
+      "simbol": "brent",
+      "fali": [
+        "cs"
+      ]
+    },
+    {
+      "simbol": "cheems",
+      "fali": [
+        "cg",
+        "cs",
+        "cp",
+        "cr"
+      ]
+    },
+    {
+      "simbol": "ctm",
+      "fali": [
+        "cs"
+      ]
+    },
+    {
+      "simbol": "deep",
+      "fali": [
+        "cg",
+        "cs",
+        "cp",
+        "cr"
+      ]
+    },
+    {
+      "simbol": "del",
+      "fali": [
+        "cg",
+        "cs",
+        "cp",
+        "cr"
+      ]
+    },
+    {
+      "simbol": "dexe",
+      "fali": [
+        "cs"
+      ]
+    },
+    {
+      "simbol": "genius",
+      "fali": [
+        "cg",
+        "cs",
+        "cp",
+        "cr"
+      ]
+    },
+    {
+      "simbol": "huma",
+      "fali": [
+        "cg",
+        "cs",
+        "cp",
+        "cr"
+      ]
+    },
+    {
+      "simbol": "jlp",
+      "fali": [
+        "cg",
+        "cs",
+        "cp",
+        "cr"
+      ]
+    },
+    {
+      "simbol": "jsm",
+      "fali": [
+        "cs"
+      ]
+    },
+    {
+      "simbol": "leo",
+      "fali": [
+        "cs"
+      ]
+    },
+    {
+      "simbol": "lsk",
+      "fali": [
+        "cs"
+      ]
+    },
+    {
+      "simbol": "pm",
+      "fali": [
+        "cs"
+      ]
+    },
+    {
+      "simbol": "stonk",
+      "fali": [
+        "cg",
+        "cs",
+        "cp",
+        "cr"
+      ]
+    },
+    {
+      "simbol": "strcx",
+      "fali": [
+        "cg",
+        "cs",
+        "cp",
+        "cr"
+      ]
+    },
+    {
+      "simbol": "usx",
+      "fali": [
+        "cg",
+        "cs",
+        "cp",
+        "cr"
+      ]
+    },
+    {
+      "simbol": "vcnt",
+      "fali": [
+        "cs"
+      ]
+    },
+    {
+      "simbol": "w",
+      "fali": [
+        "cg",
+        "cs",
+        "cp",
+        "cr"
+      ]
+    }
+  ]
+}
