@@ -4,8 +4,11 @@ const GAS_UNITS = 95000;
 const GWEI_TO_ETH = 1e-9;
 const ZAMA_MULTIPLIER = 218;
 
-const GAS_INTERVAL = 12000;
-const ZAMA_INTERVAL = GAS_INTERVAL * 5;
+// GAS_INTERVAL se čita iz /parametri-javni (gas_eth_osvezava_sek).
+// Default fallback: 20s. Keš u localStorage da ne čeka pri svakom učitavanju.
+const GAS_PARAM_KEY = 'gas_interval_sek_v1';
+const GAS_INTERVAL_DEFAULT_SEK = 20;
+let GAS_INTERVAL = GAS_INTERVAL_DEFAULT_SEK * 1000;
 
 // ===== FORMATIRANJE =====
 function formatUsd(n) {
@@ -101,6 +104,32 @@ function formatProc(n) {
 
 window.formatCena = formatCena;
 window.formatProc = formatProc;
+
+// ===== GAS INTERVAL — čitanje iz Workera =====
+function ucitajGasIntervalIzKesa() {
+    try {
+        const v = parseInt(localStorage.getItem(GAS_PARAM_KEY), 10);
+        if (isFinite(v) && v >= 5 && v <= 60) {
+            GAS_INTERVAL = v * 1000;
+        }
+    } catch (e) {}
+}
+
+async function osveziGasInterval() {
+    try {
+        const r = await fetch(`${WORKER_URL}/parametri-javni`);
+        const d = await r.json();
+        if (d && d.gas_eth_osvezava_sek) {
+            const v = parseInt(d.gas_eth_osvezava_sek, 10);
+            if (isFinite(v) && v >= 5 && v <= 60) {
+                GAS_INTERVAL = v * 1000;
+                try { localStorage.setItem(GAS_PARAM_KEY, String(v)); } catch (e) {}
+            }
+        }
+    } catch (e) {
+        console.warn('parametri-javni greška:', e);
+    }
+}
 
 // ===== RATE LIMITER =====
 const IZVOR_MIN_RAZMAK = 1000;
@@ -555,9 +584,13 @@ window.posaljiEmailMinimum = posaljiEmailMinimum;
 
 // ===== INIT =====
 initEmailCheckbox();
-loadGas();
-loadZama();
-loadFearGreed();
+ucitajGasIntervalIzKesa();
 
-setInterval(loadGas, GAS_INTERVAL);
-setInterval(loadZama, ZAMA_INTERVAL);
+(async () => {
+    await osveziGasInterval();
+    loadGas();
+    loadZama();
+    loadFearGreed();
+    setInterval(loadGas, GAS_INTERVAL);
+    setInterval(loadZama, GAS_INTERVAL);
+})();
