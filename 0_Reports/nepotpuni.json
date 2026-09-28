@@ -1,5 +1,5 @@
 {
-  "vreme": 1790578520311,
+  "vreme": 1790585790394,
   "stavke": [
     {
       "simbol": "",
@@ -80,6 +80,12 @@
       "simbol": "leo",
       "fali": [
         "cs"
+      ]
+    },
+    {
+      "simbol": "lisusd",
+      "fali": [
+        "cr"
       ]
     },
     {
