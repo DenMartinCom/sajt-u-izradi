@@ -1,5 +1,5 @@
 {
-  "vreme": 1790555643586,
+  "vreme": 1790564132791,
   "stavke": [
     {
       "simbol": "",
@@ -66,6 +66,12 @@
     },
     {
       "simbol": "jsm",
+      "fali": [
+        "cs"
+      ]
+    },
+    {
+      "simbol": "kntq",
       "fali": [
         "cs"
       ]
