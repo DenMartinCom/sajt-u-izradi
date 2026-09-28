@@ -1,5 +1,5 @@
 {
-  "vreme": 1790551302859,
+  "vreme": 1790555643586,
   "stavke": [
     {
       "simbol": "",
@@ -13,25 +13,13 @@
     {
       "simbol": "ale",
       "fali": [
-        "cg",
-        "cs",
-        "cp",
-        "cr"
+        "cs"
       ]
     },
     {
       "simbol": "brent",
       "fali": [
         "cs"
-      ]
-    },
-    {
-      "simbol": "cheems",
-      "fali": [
-        "cg",
-        "cs",
-        "cp",
-        "cr"
       ]
     },
     {
@@ -43,19 +31,13 @@
     {
       "simbol": "deep",
       "fali": [
-        "cg",
-        "cs",
-        "cp",
-        "cr"
+        "cs"
       ]
     },
     {
       "simbol": "del",
       "fali": [
-        "cg",
-        "cs",
-        "cp",
-        "cr"
+        "cs"
       ]
     },
     {
@@ -67,28 +49,19 @@
     {
       "simbol": "genius",
       "fali": [
-        "cg",
-        "cs",
-        "cp",
-        "cr"
+        "cs"
       ]
     },
     {
       "simbol": "huma",
       "fali": [
-        "cg",
-        "cs",
-        "cp",
-        "cr"
+        "cs"
       ]
     },
     {
       "simbol": "jlp",
       "fali": [
-        "cg",
-        "cs",
-        "cp",
-        "cr"
+        "cs"
       ]
     },
     {
@@ -116,30 +89,28 @@
       ]
     },
     {
+      "simbol": "purr",
+      "fali": [
+        "cs"
+      ]
+    },
+    {
       "simbol": "stonk",
       "fali": [
-        "cg",
-        "cs",
-        "cp",
-        "cr"
+        "cs"
       ]
     },
     {
       "simbol": "strcx",
       "fali": [
-        "cg",
         "cs",
-        "cp",
         "cr"
       ]
     },
     {
       "simbol": "usx",
       "fali": [
-        "cg",
-        "cs",
-        "cp",
-        "cr"
+        "cs"
       ]
     },
     {
@@ -151,10 +122,7 @@
     {
       "simbol": "w",
       "fali": [
-        "cg",
-        "cs",
-        "cp",
-        "cr"
+        "cs"
       ]
     }
   ]
