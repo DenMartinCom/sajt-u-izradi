@@ -18,10 +18,10 @@ cmc_id,simbol,naziv,slug
 40217,SPCXB,"SpaceX Tokenized bStocks",spacex-tokenized-bstocks
 37005,CRCLX,"Circle tokenized stock (xStock)",circle-tokenized-stock-xstock
 38273,USDon,"U.S. Dollar Tokenized Currency (Ondo)",us-dollar-tokenized-currency-ondo
-38942,USDsui,"USDsui",usdsui
 40536,MSTRB,"Strategy Tokenized bStocks",strategy-tokenized-bstocks
-41878,CATE,"Catecoin (cate.meme)",catecoin-cate-meme
+38942,USDsui,"USDsui",usdsui
 36912,SN4,"Targon",targon
+41878,CATE,"Catecoin (cate.meme)",catecoin-cate-meme
 38051,IVVon,"iShares Core S&P 500 Tokenized ETF (Ondo)",ishares-core-sp-500-tokenized-etf-ondo
 40643,preSPCX,"SpaceX 
 Pre-IPO stock (Republic)",spacex-pre-ipo-stock-republic
@@ -30,8 +30,8 @@ Pre-IPO stock (Republic)",spacex-pre-ipo-stock-republic
 7959,vBUSD,"Venus BUSD",venus-busd
 40593,QQQB,"Invesco QQQ Trust Tokenized bStocks",invesco-qqq-trust-tokenized-bstocks
 36762,DUSD,"StandX DUSD",standx-dusd
-24877,BIM,"BIM",bim
 42031,ZCAT,"Anonymous Cat",anonymous-cat
+24877,BIM,"BIM",bim
 36310,ATOS,"Atoshi",atoshi
 42038,BONER,"Boner Coin",boner-coin
 38067,SPYon,"SPDR S&P 500 Tokenized ETF (Ondo)",spdr-sp-500-tokenized-etf-ondo
@@ -46,4 +46,3 @@ Pre-IPO stock (Republic)",spacex-pre-ipo-stock-republic
 37057,QQQX,"Nasdaq tokenized ETF (xStock)",nasdaq-tokenized-stock-xstock
 37013,GOOGLX,"Alphabet tokenized stock (xStock)",alphabet-tokenized-stock-xstock
 38407,BOLD,"Liquity BOLD",liquity-v2
-28340,SMART,"SMART",smart-blockchain
