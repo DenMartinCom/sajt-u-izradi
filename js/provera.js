@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Provera mapa</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; }
+  body {
+    font-family: -apple-system, system-ui, sans-serif;
+    background: #0f1115;
+    color: #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    height: 100dvh;
+    overflow: hidden;
+  }
+  header, footer {
+    flex: 0 0 auto;
+    padding: 8px 12px;
+    background: #161a22;
+    border-bottom: 1px solid #222;
+    font-size: 13px;
+  }
+  header { display: flex; justify-content: space-between; align-items: center; }
+  header button {
+    background: #2a3140; color: #e6e6e6; border: none;
+    padding: 6px 12px; border-radius: 6px; font-size: 13px;
+  }
+  footer {
+    border-bottom: none;
+    border-top: 1px solid #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+  }
+  footer button {
+    background: #2a3140; color: #e6e6e6; border: none;
+    padding: 8px 18px; border-radius: 6px; font-size: 14px;
+    min-width: 44px;
+  }
+  footer button:disabled { opacity: 0.3; }
+  .zaglavlje {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 4px;
+    padding: 4px 6px 2px;
+    font-size: 11px; color: #8892a6;
+    text-align: center; text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: #161a22;
+  }
+  #lista {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .red {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+    padding: 4px 6px;
+    border-bottom: 1px solid #1a1f28;
+  }
+  .kartica {
+    display: flex; flex-direction: column; align-items: center;
+    justify-content: center; padding: 4px;
+    background: #1a1f28; border-radius: 6px;
+    min-height: 0; overflow: hidden;
+  }
+  .kartica.prazno { opacity: 0.3; }
+  .kartica .ime {
+    font-size: 11px; color: #b8c0cc;
+    white-space: nowrap; overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%; line-height: 1.3;
+  }
+  .kartica .logo {
+    width: 28px; height: 28px; margin: 2px 0;
+    object-fit: contain;
+  }
+  .kartica .simbol {
+    font-size: 11px; font-weight: 600;
+    color: #6ea8fe; line-height: 1.3;
+  }
+  .kartica.cg .simbol { color: #8ce99a; }
+</style>
+</head>
+<body>
+  <header>
+    <span id="info">Učitavanje...</span>
+    <button id="reload">↻</button>
+  </header>
+  <div class="zaglavlje"><div>CMC</div><div>CG</div></div>
+  <div id="lista"></div>
+  <footer>
+    <button id="pre">←</button>
+    <span id="strana">— / —</span>
+    <button id="sle">→</button>
+  </footer>
+  <script src="provera.js"></script>
+</body>
+</html>
