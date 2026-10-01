@@ -293,3 +293,4 @@ strategy-pp-variable-xstock,strcx,Strategy PP Variable xStock,strategy-pp-variab
 starknet,strk,Starknet,starknet,26433,starknet.png,10000000000,"{""ethereum"":""0xca14007eff0db1f8135f4c25b34de49ab0d42766"",""starknet"":""0x04718f5a0fc34cc1af16a1cdee98ffb20c31f5cd61d6ab07201858f4287c938d"",""solana"":""HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz""}",18
 blockstack,stx,Stacks,stacks,2069,Stacks_Logo_png.png,1870900990.057139,,
 sui,sui,Sui,sui,26375,sui-ocean-square.png,10000000000,"{""sui"":""0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI""}",9
+sun-token,sun,Sun Token,sun-token,12424,RSFOmQ.png,19900730000,"{""tron"":""TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S""}",18
