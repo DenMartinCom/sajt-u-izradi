@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="sr">
 <head>
 <meta charset="utf-8">
@@ -39,12 +39,15 @@
   }
   footer button {
     background: #2a3140; color: #e6e6e6; border: none;
-    padding: 8px 18px; border-radius: 6px; font-size: 14px;
+    padding: 8px 14px; border-radius: 6px; font-size: 14px;
     min-width: 44px;
   }
   footer button:disabled { opacity: 0.3; }
+  #gen { background: #2f5d3a; padding: 8px 16px; font-weight: 600; }
+  #reset { background: transparent; color: #7a8496; border: 1px solid #2a3140; padding: 6px 10px; font-size: 12px; min-width: 32px; }
+  .sredina { display: flex; gap: 8px; align-items: center; }
   .zaglavlje {
-    display: grid; grid-template-columns: 1fr 1fr; gap: 4px;
+    display: grid; grid-template-columns: 28px 1fr 1fr; gap: 4px;
     padding: 4px 6px 2px;
     font-size: 11px; color: #8892a6;
     text-align: center; text-transform: uppercase;
@@ -58,10 +61,17 @@
   }
   .red {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 28px 1fr 1fr;
     gap: 4px;
     padding: 4px 6px;
     border-bottom: 1px solid #1a1f28;
+    align-items: center;
+  }
+  .cek { display: flex; align-items: center; justify-content: center; }
+  .cek input {
+    width: 20px; height: 20px;
+    accent-color: #6ea8fe;
+    cursor: pointer;
   }
   .kartica {
     display: flex; flex-direction: column; align-items: center;
@@ -69,7 +79,7 @@
     background: #1a1f28; border-radius: 6px;
     min-height: 0; overflow: hidden;
   }
-  .kartica.prazno { opacity: 0.3; }
+  .kartica.prazno { opacity: 0.35; }
   .kartica .ime {
     font-size: 11px; color: #b8c0cc;
     white-space: nowrap; overflow: hidden;
@@ -92,11 +102,15 @@
     <span id="info">Učitavanje...</span>
     <button id="reload">↻</button>
   </header>
-  <div class="zaglavlje"><div>CMC</div><div>CG</div></div>
+  <div class="zaglavlje"><div></div><div>CMC</div><div>CG</div></div>
   <div id="lista"></div>
   <footer>
     <button id="pre">←</button>
-    <span id="strana">— / —</span>
+    <div class="sredina">
+      <span id="strana">— / —</span>
+      <button id="reset" title="Očisti sve">R</button>
+      <button id="gen">Generiši</button>
+    </div>
     <button id="sle">→</button>
   </footer>
   <script src="js/provera.js"></script>
