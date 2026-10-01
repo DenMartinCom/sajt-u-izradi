@@ -40,3 +40,4 @@ cosmos,atom,Cosmos Hub,cosmos-hub,1481,cosmos_hub.png,533612942.540377,"{""cosmo
 atoshi,atos,Atoshi,atoshi,55359,ATOS.png,99999999999.99998,"{""ethereum"":""0x4d0528598f916fd1d8dc80e5f54a8feedcfd4b18""}",18
 aurora-near,aurora,Aurora,aurora-near,20582,aurora.jpeg,999739990,"{""ethereum"":""0xaaaaaa20d9e0e2461697782ef11675f668207961"",""aurora"":""0x8bec47865ade3b172a928df8f990bc7f2a3b9f79"",""near-protocol"":""aaaaaa20d9e0e2461697782ef11675f668207961.factory.bridge.near""}",18
 agent-usd,ausd,Agent USD,agent-usd,102172008,AgentUSD_logo.jpg,5141.53889,"{""base"":""0xf33cac2bb6b26e7615b1873c84e4174ae193a9aa""}",6
+aave-usdt,ausdt,Aave USDT,aave-usdt,14243,aUSDT.78f5faae.png,0,"{""ethereum"":""0x3ed3b47dd13ec9a98b44e6204a523e766b225811"",""fantom"":""0x6ab707aca953edaefbc4fd23ba73294241490620"",""harmony-shard-0"":""0x6ab707aca953edaefbc4fd23ba73294241490620""}",6
