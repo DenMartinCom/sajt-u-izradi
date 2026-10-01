@@ -335,3 +335,4 @@ usd1-wlfi,usd1,USD1,usd1-wlfi,54977,USD1_1000x1000_transparent.png,4418501461.95
 anzens-usda,usda,Anzens USDA,anzens-usda,67347,usda.jpg,6759693.44,"{""cardano"":""fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441""}",6
 usdai,usdai,USDai,usdai,55857,USDai_Token_Full_Glyph.png,252907769.831433,"{""arbitrum-one"":""0x0a1a1a107e45b7ced86833863f482bc5f4ed82ef"",""ethereum"":""0x0a1a1a107e45b7ced86833863f482bc5f4ed82ef"",""plasma"":""0x0a1a1a107e45b7ced86833863f482bc5f4ed82ef"",""base"":""0x0a1a1a107e45b7ced86833863f482bc5f4ed82ef""}",18
 usdsui,usdsui,USDsui,usdsui,70675,usdsui.png,76870543.2,"{""sui"":""0x44f838219cf67b058f3b37907b655f226153c18e33dfcd0da559a844fea9b1c1::usdsui::USDSUI""}",6
+abstract-bridged-usdt-abstract,usdt,Abstract Bridged USDT (Abstract),abstract-bridged-usdt-abstract,67296,usdt.jpg,884382.306589,"{""abstract"":""0x0709f39376deee2a2dfc94a58edeb2eb9df012bd""}",6
