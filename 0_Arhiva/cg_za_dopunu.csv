@@ -88,3 +88,4 @@ anubis-bridged-dai-anubis,dai,Anubis Bridged DAI (Anubis),anubis-bridged-dai-anu
 dash,dash,Dash,dash,19,dash-logo.png,12850453.03859214,,
 decred,dcr,Decred,decred,329,dcr.png,17628267.32171936,,
 digibyte,dgb,DigiByte,digibyte,63,digibyte.png,18496400149.01526,,
+binance-peg-dogecoin,doge,Binance-Peg Dogecoin,binance-peg-dogecoin,15768,dogecoin.png,2564000000,"{""binance-smart-chain"":""0xba2ae424d960c26247dd6c32edc70b295c744c43"",""avalanche"":""0x846e52d0dd71c2fdc891538b2d37ff84345c7b9f""}",8
