@@ -238,3 +238,4 @@ prometeus,prom,Prom,prom,8825,Ticker.png,19250000,"{""ethereum"":""0xfc82bb4ba86
 pharos-network,pros,Pharos,pharos,102172947,pharos_400x400.jpg,1000000000,,
 big-pump,pump,Big Pump,big-pump,37588,YF5EakvX_400x400.jpg,4444444444444,"{""binance-smart-chain"":""0x22b4fa9a13a0d303ad258ee6d62a6ac60364b0c9""}",18
 hyperliquid-strategies-backpack-securities,purr,Hyperliquid Strategies (Backpack Securities),hyperliquid-strategies-backpack-securities,102174833,PURR.png,0,"{""solana"":""PURRaGKXwD9rdZw851PnRDBMuDGopxrDGCM6GMHA9vh""}",6
+pyth-network,pyth,Pyth Network,pyth-network,31924,pyth.png,10000000000,"{""solana"":""HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3"",""neon-evm"":""0x0575dd4afd93b7522fee4e0179f243eca3856137"",""manta-pacific"":""0x90e95735378a31bfad2dcd87128fbb80ffeb6917""}",6
