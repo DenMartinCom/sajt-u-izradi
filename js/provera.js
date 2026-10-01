@@ -1,104 +1,134 @@
-﻿<!DOCTYPE html>
-<html lang="sr">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Provera mapa</title>
-<style>
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  html, body { height: 100%; }
-  body {
-    font-family: -apple-system, system-ui, sans-serif;
-    background: #0f1115;
-    color: #e6e6e6;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    height: 100dvh;
-    overflow: hidden;
+﻿const LIMIT_TOKENA = 10;
+const PER_PAGE = 40;
+const RAW = 'https://raw.githubusercontent.com/DenMartinCom/sajt-u-izradi/main';
+const API = 'https://cmc-proxy.martin-denic.workers.dev';
+
+let cmcIndex = {};
+let cgIndex = {};
+let tokens = [];
+let strana = 0;
+
+async function fetchJson(url) {
+  const r = await fetch(url, { cache: 'no-store' });
+  if (!r.ok) throw new Error('HTTP ' + r.status + ' — ' + url);
+  return r.json();
+}
+
+function urlCmc(cmcId) {
+  return `https://s2.coinmarketcap.com/static/img/coins/64x64/${cmcId}.png`;
+}
+
+function urlCg(zapis) {
+  if (!zapis || !zapis.logo || typeof zapis.logo !== 'object') return null;
+  if (zapis.logo.id == null || !zapis.logo.file) return null;
+  return `https://assets.coingecko.com/coins/images/${zapis.logo.id}/large/${zapis.logo.file}`;
+}
+
+function napraviKarticu(zapis, tip) {
+  const el = document.createElement('div');
+  el.className = 'kartica ' + tip;
+
+  const ime = document.createElement('div');
+  ime.className = 'ime';
+
+  const img = document.createElement('img');
+  img.className = 'logo';
+  img.alt = '';
+  img.loading = 'lazy';
+  img.style.visibility = 'hidden';
+
+  const simbol = document.createElement('div');
+  simbol.className = 'simbol';
+
+  if (!zapis) {
+    el.classList.add('prazno');
+    ime.textContent = '—';
+    simbol.textContent = '—';
+  } else {
+    ime.textContent = zapis.name || '—';
+    simbol.textContent = zapis.symbol || '—';
+    const url = tip === 'cmc' ? urlCmc(zapis.id) : urlCg(zapis);
+    if (url) {
+      img.src = url;
+      img.onload = () => { img.style.visibility = 'visible'; };
+    }
   }
-  header, footer {
-    flex: 0 0 auto;
-    padding: 8px 12px;
-    background: #161a22;
-    border-bottom: 1px solid #222;
-    font-size: 13px;
+
+  el.appendChild(ime);
+  el.appendChild(img);
+  el.appendChild(simbol);
+  return el;
+}
+
+function render() {
+  const lista = document.getElementById('lista');
+  lista.innerHTML = '';
+
+  const start = strana * PER_PAGE;
+  const end = Math.min(start + PER_PAGE, tokens.length);
+
+  for (let i = start; i < end; i++) {
+    const t = tokens[i];
+    const red = document.createElement('div');
+    red.className = 'red';
+
+    const cmcZapis = t.cmc != null ? cmcIndex[String(t.cmc)] : null;
+    const cgZapis = t.cg ? cgIndex[t.cg] : null;
+
+    red.appendChild(napraviKarticu(cmcZapis, 'cmc'));
+    red.appendChild(napraviKarticu(cgZapis, 'cg'));
+    lista.appendChild(red);
   }
-  header { display: flex; justify-content: space-between; align-items: center; }
-  header button {
-    background: #2a3140; color: #e6e6e6; border: none;
-    padding: 6px 12px; border-radius: 6px; font-size: 13px;
+
+  const ukupnoStrana = Math.max(1, Math.ceil(tokens.length / PER_PAGE));
+  document.getElementById('strana').textContent = `${strana + 1} / ${ukupnoStrana}`;
+  document.getElementById('pre').disabled = strana === 0;
+  document.getElementById('sle').disabled = strana >= ukupnoStrana - 1;
+  document.getElementById('info').textContent = `${tokens.length} tokena`;
+}
+
+async function pokreni() {
+  const info = document.getElementById('info');
+  try {
+    info.textContent = 'Meta...';
+    const m = await fetchJson(`${API}/test?servis=meta`);
+    const meta = m.meta || {};
+
+    info.textContent = 'CMC mapa...';
+    const cmcArr = await fetchJson(`${RAW}/0_Arhiva/d_coinmarketcap_map.json`);
+    cmcIndex = {};
+    if (Array.isArray(cmcArr)) for (const z of cmcArr) if (z.id != null) cmcIndex[String(z.id)] = z;
+
+    info.textContent = 'CG mapa...';
+    const cgArr = await fetchJson(`${RAW}/0_Arhiva/d_coingecko_map.json`);
+    cgIndex = {};
+    if (Array.isArray(cgArr)) for (const z of cgArr) if (z.id != null) cgIndex[String(z.id)] = z;
+
+    tokens = [];
+    for (const [simbol, i] of Object.entries(meta)) {
+      tokens.push({
+        simbol,
+        cmc: i.cmc != null ? i.cmc : null,
+        cg: i.coingecko || null
+      });
+      if (tokens.length >= LIMIT_TOKENA) break;
+    }
+
+    strana = 0;
+    render();
+  } catch (e) {
+    info.textContent = 'Greška: ' + e.message;
+    console.error(e);
   }
-  footer {
-    border-bottom: none;
-    border-top: 1px solid #222;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 8px;
-  }
-  footer button {
-    background: #2a3140; color: #e6e6e6; border: none;
-    padding: 8px 18px; border-radius: 6px; font-size: 14px;
-    min-width: 44px;
-  }
-  footer button:disabled { opacity: 0.3; }
-  .zaglavlje {
-    display: grid; grid-template-columns: 1fr 1fr; gap: 4px;
-    padding: 4px 6px 2px;
-    font-size: 11px; color: #8892a6;
-    text-align: center; text-transform: uppercase;
-    letter-spacing: 0.5px;
-    background: #161a22;
-  }
-  #lista {
-    flex: 1 1 auto;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-  }
-  .red {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4px;
-    padding: 4px 6px;
-    border-bottom: 1px solid #1a1f28;
-  }
-  .kartica {
-    display: flex; flex-direction: column; align-items: center;
-    justify-content: center; padding: 4px;
-    background: #1a1f28; border-radius: 6px;
-    min-height: 0; overflow: hidden;
-  }
-  .kartica.prazno { opacity: 0.3; }
-  .kartica .ime {
-    font-size: 11px; color: #b8c0cc;
-    white-space: nowrap; overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 100%; line-height: 1.3;
-  }
-  .kartica .logo {
-    width: 28px; height: 28px; margin: 2px 0;
-    object-fit: contain;
-  }
-  .kartica .simbol {
-    font-size: 11px; font-weight: 600;
-    color: #6ea8fe; line-height: 1.3;
-  }
-  .kartica.cg .simbol { color: #8ce99a; }
-</style>
-</head>
-<body>
-  <header>
-    <span id="info">Učitavanje...</span>
-    <button id="reload">↻</button>
-  </header>
-  <div class="zaglavlje"><div>CMC</div><div>CG</div></div>
-  <div id="lista"></div>
-  <footer>
-    <button id="pre">←</button>
-    <span id="strana">— / —</span>
-    <button id="sle">→</button>
-  </footer>
-  <script src="provera.js"></script>
-</body>
-</html>
+}
+
+document.getElementById('pre').addEventListener('click', () => {
+  if (strana > 0) { strana--; render(); }
+});
+document.getElementById('sle').addEventListener('click', () => {
+  const ukupno = Math.ceil(tokens.length / PER_PAGE);
+  if (strana < ukupno - 1) { strana++; render(); }
+});
+document.getElementById('reload').addEventListener('click', pokreni);
+
+pokreni();
