@@ -199,14 +199,17 @@ async function generisi() {
   }
 }
 
-// ===== Generiši cg_nema_logo.csv (opciono, traži POST rutu u workeru) =====
+// ===== Generiši cg_nema_logo.csv — samo sajt (tokeni iz meta sa cg_id, bez logo u d_cg) =====
 async function generisiNemaLogo() {
   const ids = [];
-  for (const z of Object.values(cgIndex)) {
-    const ima = z.logo && typeof z.logo === 'object' && z.logo.id != null && z.logo.file;
-    if (!ima) ids.push(z.id);
+  for (const t of tokens) {
+    if (!t.cg) continue;
+    const zapis = cgIndex[String(t.cg)];
+    if (!zapis) continue;
+    const ima = zapis.logo && typeof zapis.logo === 'object' && zapis.logo.id != null && zapis.logo.file;
+    if (!ima) ids.push(t.cg);
   }
-  if (!ids.length) { alert('Svi imaju logo.'); return; }
+  if (!ids.length) { alert('Svi tokeni sa sajta imaju logo.'); return; }
   try {
     const r = await fetch(`${API}/cg-nema-logo-sacuvaj`, {
       method: 'POST',
@@ -214,7 +217,8 @@ async function generisiNemaLogo() {
       body: JSON.stringify({ ids })
     });
     const d = await r.json();
-    alert(d.ok ? `Sačuvano ${d.broj}` : 'Greška');
+    if (d && d.ok) alert(`Sačuvano ${d.broj} cg_id u 0_Arhiva/cg_nema_logo.csv`);
+    else alert('Greška: ' + (d && d.greska ? d.greska : 'nepoznato'));
   } catch (e) {
     alert('Greška: ' + e.message);
   }
