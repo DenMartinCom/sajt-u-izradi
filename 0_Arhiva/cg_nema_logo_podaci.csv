@@ -1,1 +1,3 @@
 id,symbol,name,slug,logo_id,logo_file,total_supply,contract,decimals
+oil-token,oil,Oil Token,oil-token-3,39504,logo_oil_200%D1%85200.png,20000000000,"{""arbitrum-one"":""0xafe8107123eefd62469474dec9680860b890e5b6""}",18
+leo-token,leo,LEO Token,leo-token,8418,leo-token.png,985239504,"{""ethereum"":""0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3"",""sora"":""0x009e199267a6a2c8ae075bb8d4c40ee8d05c1b769085ee59ce98e50c2b2d8756""}",18
