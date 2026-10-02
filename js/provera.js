@@ -199,6 +199,27 @@ async function generisi() {
   }
 }
 
+// ===== Generiši cg_nema_logo.csv (opciono, traži POST rutu u workeru) =====
+async function generisiNemaLogo() {
+  const ids = [];
+  for (const z of Object.values(cgIndex)) {
+    const ima = z.logo && typeof z.logo === 'object' && z.logo.id != null && z.logo.file;
+    if (!ima) ids.push(z.id);
+  }
+  if (!ids.length) { alert('Svi imaju logo.'); return; }
+  try {
+    const r = await fetch(`${API}/cg-nema-logo-sacuvaj`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ids })
+    });
+    const d = await r.json();
+    alert(d.ok ? `Sačuvano ${d.broj}` : 'Greška');
+  } catch (e) {
+    alert('Greška: ' + e.message);
+  }
+}
+
 document.getElementById('pre').addEventListener('click', () => {
   if (strana > 0) { strana--; render(); }
 });
