@@ -232,6 +232,7 @@ document.getElementById('reset').addEventListener('click', () => {
   render();
 });
 document.getElementById('gen').addEventListener('click', generisi);
+document.getElementById('nologo').addEventListener('click', generisiNemaLogo);
 document.getElementById('reload').addEventListener('click', pokreni);
 
 pokreni();
