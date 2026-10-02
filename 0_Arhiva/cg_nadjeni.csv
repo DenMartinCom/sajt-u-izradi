@@ -1,4 +1,9 @@
 cmc_id,cg_id,symbol,name,slug,logo_id,logo_file,total_supply,contract,decimals
-38828,kite-2,KITE,Kite,,,,,,
-3957,leoono,LEO,LEOONO by Virtuals,,,,,,
-39841,genius-3,GENIUS,Genius,,,,,,
+39064,midnight-3,NIGHT,Midnight,,,,,,
+40925,artificial-inu-2,AI,Artificial Inu,,,,,,
+30618,digital-oil-memecoin,OIL,Digital Oil Memecoin,,,,,,
+3957,leo-2,leo,Leo,leo-3,51150,leo.webp,999790772.940978,{"solana":"8Cd7wXoPb5Yt9cUGtmHNqAEmpMDrhfcVqnGbLC48b8Qm"},6
+6538,curve-dao-token,CRV,Curve DAO,,,,,,
+33280,cheems-cto,CHEEMS,Cheems CTO,,,,,,
+12400,delegate-fun,DEL,delegate.fun,,,,,,
+42022,stonk-4,STONK,STONK,,,,,,
