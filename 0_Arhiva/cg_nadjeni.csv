@@ -1,9 +1,5 @@
 cmc_id,cg_id,symbol,name,slug,logo_id,logo_file,total_supply,contract,decimals
-39064,midnight-3,NIGHT,Midnight,,,,,,
-40925,artificial-inu-2,AI,Artificial Inu,,,,,,
-30618,digital-oil-memecoin,OIL,Digital Oil Memecoin,,,,,,
-3957,leo-2,leo,Leo,leo-3,51150,leo.webp,999790772.940978,{"solana":"8Cd7wXoPb5Yt9cUGtmHNqAEmpMDrhfcVqnGbLC48b8Qm"},6
-6538,curve-dao-token,CRV,Curve DAO,,,,,,
-33280,cheems-cto,CHEEMS,Cheems CTO,,,,,,
-12400,delegate-fun,DEL,delegate.fun,,,,,,
-42022,stonk-4,STONK,STONK,,,,,,
+40925,artificial-inu,AI,Artificial Inu,artificial-inu,67722,ai.png,996237888.851902,{"solana":"7tAnusL3srXjzEriVL86a23KgwDZKXJTZ2ezEUubonk"},6
+30618,oil,OIL,OIL,oil,71569,photo_2026-01-14_05-54-12.jpg,976545840.369995,{"solana":"6FgPuEv5gNiHCTJqQeWiY6vu79fuSSqYJkHrpdompump"},6
+3957,leoono,LEO,LEOONO by Virtuals,leoono-by-virtuals,53267,token_icon.jpeg,1000000000,{"base":"0xc8db98437bed9943f11c5b31b645b07c0efc17e0"},18
+42022,stonk-3,stonk,STONK,stonk-2,102175239,tscmgapqpfx5j4hu8gbs3aj85s7a.,807411072.2074015,{"solana":"6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx"},9
