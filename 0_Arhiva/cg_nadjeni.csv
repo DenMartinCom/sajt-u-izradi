@@ -1,17 +1,4 @@
 cmc_id,cg_id,symbol,name,slug,logo_id,logo_file,total_supply,contract,decimals
-825,abstract-bridged-usdt-abstract,usdt,Abstract Bridged USDT (Abstract),abstract-bridged-usdt-abstract,67296,usdt.jpg,884382.306589,{"abstract":"0x0709f39376deee2a2dfc94a58edeb2eb9df012bd"},6
-4172,luna-wormhole,lunc,Terra Classic (Wormhole),terra-classic-wormhole,22951,LUNA_wh_small.png,,{"solana":"F6v4wfAdJB8D8p77bMXZgYt8TDKsYxLYxH5AFhUkYx9W","ethereum":"0xbd31ea8212119f94a611fa969881cba3ea06fa3d","oasis":"0x4f43717b20ae319aa50bc5b2349b93af5f7ac823","binance-smart-chain":"0x156ab3346823b651294766e23e6cf87254d68962","polygon-pos":"0x9cd6746665d9557e1b9a775819625711d0693439","avalanche":"0x70928e5b188def72817b7775f0bf6325968e563b"},6
-25194,jaseonmun,JSM,Joseon-Mun,,,,,,
-30618,digital-oil-memecoin,OIL,Digital Oil Memecoin,,,,,,
-28321,anubis-bridged-pol-anubis,pol,Anubis Bridged POL (Anubis),anubis-bridged-pol-anubis,102174718,polygon-matic-logo.png,2453793.171084441,{"anubis":"0x72cf15f74657bb00dd1d8dd475248dee644f689a"},18
-3957,leo-2,leo,Leo,leo-3,51150,leo.webp,999790772.940978,{"solana":"8Cd7wXoPb5Yt9cUGtmHNqAEmpMDrhfcVqnGbLC48b8Qm"},6
-2087,kucoin-shares,kcs,KuCoin,kucoin-shares,1047,sa9z79.png,142155021.2957717,,
-35697,pchain,pi,Plian,plian,3463,pilan.png,1561500000,,
-3794,cosmos,atom,Cosmos Hub,cosmos-hub,1481,cosmos_hub.png,533612942.540377,{"cosmos":"uatom","evmos":"0xc5e00d3b04563950941f7137b5afa3a534f0d6d6","dungeon-chain":"ibc/C3988DBA4BA195F3514EA2E02497B9F66019CE53EFB96D4982CE95CA6A51BBCE","osmosis":"ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2","canto":"0xeceeefcee421d8062ef8d6b4d814efe4dc898265","terra-2":"ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2","kava":"0x15932e26f5bd4923d46a2b205191c4b5d5f43fe3","archway":"ibc/27394fb092d2eccd56123c74f36e4c1f926001ceada9ca97ea622b25f41e5eb2","mantra":"ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701","binance-smart-chain":"0x0eb3a705fc54725037cc9e008bdede697f62f335"},6
-6538,bridged-curve-dao-token-stargate,crv,Bridged Curve DAO Token (Stargate),bridged-curve-dao-token-stargate,31182,CurveFi_32.png,2168.009615,{"fantom":"0xc7ae4ab742f6b0b203f6710c87677005bc45ad01"},18
-8646,mina-protocol,mina,Mina Protocol,mina-protocol,15628,JM4_vQ34_400x400.png,1293631019.840039,,
-39841,genius-2,GENIUS,Genius,genius-2,66162,4C4447E6-F562-4B0B-936E-D412848D4563.png,664779814.994063,{"solana":"24kAN3xiQZba11BrgEsM9qfcqkD9xM7fBxnizkENpump"},6
-33280,cheems,CHEEMS,Cheems,cheems,18358,newlogo.png,2441552415.0174,{"solana":"3FoUAsGDbvTD6YZ4wVKJgTB76onJUKz7GPEBNiR5b8wc"},4
-12400,delegate-fun,DEL,delegate.fun,,,,,,
-28853,jupiter-perpetuals-liquidity-provider-token,JLP,Jupiter Perpetuals Liquidity Provider Token,,,,,,
-30605,project-ailey,ALE,Project Ailey,,,,,,
+28298,beam-2,BEAM,Beam,,,,,,
+30618,oil,OIL,OIL,,,,,,
+35697,pi-network,PI,Pi Network,,,,,,
