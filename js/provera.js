@@ -6,7 +6,7 @@ let cmcIndex = {};
 let cgIndex = {};
 let tokens = [];
 let strana = 0;
-let obelezeni = new Set();   // cmc_id (string) — sve što je čekirano
+let obelezeni = new Set();
 
 async function fetchJson(url) {
   const r = await fetch(url, { cache: 'no-store' });
@@ -22,6 +22,19 @@ function urlCg(zapis) {
   if (!zapis || !zapis.logo || typeof zapis.logo !== 'object') return null;
   if (zapis.logo.id == null || !zapis.logo.file) return null;
   return `https://assets.coingecko.com/coins/images/${zapis.logo.id}/large/${zapis.logo.file}`;
+}
+
+function linkZaKarticu(zapis, tip) {
+  if (!zapis) return null;
+  if (tip === 'cmc') {
+    if (!zapis.slug) return null;
+    return `https://coinmarketcap.com/currencies/${zapis.slug}/`;
+  }
+  if (tip === 'cg') {
+    if (!zapis.id) return null;
+    return `https://www.coingecko.com/en/coins/${zapis.id}`;
+  }
+  return null;
 }
 
 function napraviKarticu(zapis, tip) {
@@ -45,8 +58,20 @@ function napraviKarticu(zapis, tip) {
     ime.textContent = '/';
     simbol.textContent = '/';
   } else {
-    ime.textContent = zapis.name || '/';
+    const tekst = zapis.name || '/';
+    const link = linkZaKarticu(zapis, tip);
+    if (link) {
+      const a = document.createElement('a');
+      a.href = link;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      a.textContent = tekst;
+      ime.appendChild(a);
+    } else {
+      ime.textContent = tekst;
+    }
     simbol.textContent = zapis.symbol || '/';
+
     const url = tip === 'cmc' ? urlCmc(zapis.id) : urlCg(zapis);
     if (url) {
       img.src = url;
@@ -72,7 +97,6 @@ function render() {
     const red = document.createElement('div');
     red.className = 'red';
 
-    // checkbox
     const cek = document.createElement('div');
     cek.className = 'cek';
     const inp = document.createElement('input');
@@ -125,7 +149,7 @@ async function pokreni() {
 
     tokens = [];
     for (const [simbol, i] of Object.entries(meta)) {
-      if (i.cmc == null) continue;   // samo tokeni sa cmc_id
+      if (i.cmc == null) continue;
       tokens.push({
         simbol,
         cmc: i.cmc,
@@ -133,7 +157,6 @@ async function pokreni() {
       });
     }
 
-    // auto-čekiraj one kojima fali cg
     obelezeni = new Set();
     for (const t of tokens) {
       if (t.cg == null) obelezeni.add(String(t.cmc));
