@@ -216,11 +216,15 @@ async function generisiNemaLogo() {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ ids })
     });
-    const d = await r.json();
+    const tekst = await r.text();
+    console.log('NL status:', r.status, 'body:', tekst.slice(0, 500));
+    if (!r.ok) { alert('HTTP ' + r.status + ': ' + tekst.slice(0, 200)); return; }
+    let d;
+    try { d = JSON.parse(tekst); } catch (e) { alert('Nije JSON: ' + tekst.slice(0, 200)); return; }
     if (d && d.ok) alert(`Sačuvano ${d.broj} cg_id u 0_Arhiva/cg_nema_logo.csv`);
-    else alert('Greška: ' + (d && d.greska ? d.greska : 'nepoznato'));
+    else alert('Greška: ' + (d && d.greska ? d.greska : JSON.stringify(d).slice(0, 200)));
   } catch (e) {
-    alert('Greška: ' + e.message);
+    alert('Mreža: ' + e.message);
   }
 }
 
