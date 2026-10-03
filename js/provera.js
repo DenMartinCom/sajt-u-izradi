@@ -6,13 +6,13 @@ const MARK_KEY_PREFIX = 'provera_mark_';
 const RECENT_MS = 24 * 60 * 60 * 1000;
 
 const state = {
-  aktivniTab: 'cg',           // 'cg' | 'cc'
-  mark: { cg: {}, cc: {} },   // { [cmc_id]: { target, ts } }
-  obelezeni: { cg: new Set(), cc: new Set() },
+  aktivniTab: 'cg',           // 'cg' | 'cs'
+  mark: { cg: {}, cs: {} },   // { [cmc_id]: { target, ts } }
+  obelezeni: { cg: new Set(), cs: new Set() },
   cmcIndex: {},
   cgIndex: {},
-  ccIndex: {},                // keyed po symbol
-  tokens: [],                 // [{simbol, cmc, cg, cc}]
+  csIndex: {},                // keyed po id
+  tokens: [],                 // [{simbol, cmc, cg, cs}]
   prikazani: [],
   strana: 0,
   sortiranje: 'nedavno',
@@ -57,10 +57,10 @@ function urlCg(zapis) {
   return `https://assets.coingecko.com/coins/images/${zapis.logo.id}/large/${zapis.logo.file}`;
 }
 
-function urlCc(zapis) {
+function urlCs(zapis) {
   if (!zapis || !zapis.logo) return null;
   if (typeof zapis.logo !== 'string' || !zapis.logo.length) return null;
-  return `https://www.cryptocompare.com/media/${zapis.logo}`;
+  return `https://static.coinstats.app/coins/${zapis.logo}`;
 }
 
 function linkZaKarticu(zapis, tip) {
@@ -73,9 +73,9 @@ function linkZaKarticu(zapis, tip) {
     if (!zapis.id) return null;
     return `https://www.coingecko.com/en/coins/${zapis.id}`;
   }
-  if (tip === 'cc') {
-    if (!zapis.symbol) return null;
-    return `https://www.cryptocompare.com/coins/${String(zapis.symbol).toLowerCase()}/overview/USD`;
+  if (tip === 'cs') {
+    if (!zapis.slug) return null;
+    return `https://coinstats.app/coins/${zapis.slug}`;
   }
   return null;
 }
@@ -116,7 +116,7 @@ function napraviKarticu(zapis, tip) {
     }
     simbol.textContent = zapis.symbol || '/';
 
-    const url = tip === 'cmc' ? urlCmc(zapis.id) : (tip === 'cg' ? urlCg(zapis) : urlCc(zapis));
+    const url = tip === 'cmc' ? urlCmc(zapis.id) : (tip === 'cg' ? urlCg(zapis) : urlCs(zapis));
     if (url) {
       img.src = url;
       img.onload = () => { img.style.visibility = 'visible'; };
@@ -134,12 +134,12 @@ function desniZapis(t) {
   if (state.aktivniTab === 'cg') {
     return t.cg ? state.cgIndex[String(t.cg)] : null;
   }
-  return t.cc ? state.ccIndex[String(t.cc)] : null;
+  return t.cs ? state.csIndex[String(t.cs)] : null;
 }
 
 function desniTargetId(t) {
   if (state.aktivniTab === 'cg') return t.cg;
-  return t.cc;
+  return t.cs;
 }
 
 // ===== SORTIRANJE / FILTRIRANJE =====
@@ -242,7 +242,7 @@ async function pokreni() {
   const info = document.getElementById('info');
   try {
     state.mark.cg = ucitajMark('cg');
-    state.mark.cc = ucitajMark('cc');
+    state.mark.cs = ucitajMark('cs');
 
     info.textContent = 'Meta...';
     const m = await fetchJson(`${API}/test?servis=meta`);
@@ -258,11 +258,11 @@ async function pokreni() {
     state.cgIndex = {};
     if (Array.isArray(cgArr)) for (const z of cgArr) if (z.id != null) state.cgIndex[String(z.id)] = z;
 
-    info.textContent = 'CC mapa...';
-    const ccArr = await fetchJson(`${RAW}/0_Arhiva/Mape/d_cryptocompare_map.json`);
-    state.ccIndex = {};
-    if (Array.isArray(ccArr)) for (const z of ccArr) {
-      if (z.symbol && !state.ccIndex[String(z.symbol)]) state.ccIndex[String(z.symbol)] = z;
+    info.textContent = 'CS mapa...';
+    const csArr = await fetchJson(`${RAW}/0_Arhiva/Mape/c_coinstats_map.json`);
+    state.csIndex = {};
+    if (Array.isArray(csArr)) for (const z of csArr) {
+      if (z.id && !state.csIndex[String(z.id)]) state.csIndex[String(z.id)] = z;
     }
 
     state.tokens = [];
@@ -272,7 +272,7 @@ async function pokreni() {
         simbol,
         cmc: i.cmc,
         cg: i.coingecko || null,
-        cc: i.cryptocompare_simbol || null
+        cs: i.coinstats_id || null
       });
     }
 
@@ -288,10 +288,10 @@ async function pokreni() {
 
 function inicijalizujObelezene() {
   state.obelezeni.cg = new Set();
-  state.obelezeni.cc = new Set();
+  state.obelezeni.cs = new Set();
   for (const t of state.tokens) {
     if (t.cg == null) state.obelezeni.cg.add(String(t.cmc));
-    if (t.cc == null) state.obelezeni.cc.add(String(t.cmc));
+    if (t.cs == null) state.obelezeni.cs.add(String(t.cmc));
   }
 }
 
@@ -322,7 +322,7 @@ async function generisi() {
   const parovi = [];
   for (const t of state.tokens) {
     if (!ob.has(String(t.cmc))) continue;
-    const target = tab === 'cg' ? (t.cg || null) : (t.cc || null);
+    const target = tab === 'cg' ? (t.cg || null) : (t.cs || null);
     parovi.push({ cmc: t.cmc, target });
   }
 
@@ -358,12 +358,12 @@ async function generisiNemaLogo() {
       const ima = zapis.logo && typeof zapis.logo === 'object' && zapis.logo.id != null && zapis.logo.file;
       if (!ima) ids.push(t.cg);
     } else {
-      if (!t.cc) continue;
-      const zapis = state.ccIndex[String(t.cc)];
+      if (!t.cs) continue;
+      const zapis = state.csIndex[String(t.cs)];
       if (!zapis) continue;
       const logo = zapis.logo;
       const ima = logo && typeof logo === 'string' && logo.length > 0;
-      if (!ima) ids.push(t.cc);
+      if (!ima) ids.push(t.cs);
     }
   }
 
@@ -389,7 +389,7 @@ async function generisiNemaLogo() {
 
 // ===== LISTENERI =====
 document.getElementById('tab-cg').addEventListener('click', () => prebaciTab('cg'));
-document.getElementById('tab-cc').addEventListener('click', () => prebaciTab('cc'));
+document.getElementById('tab-cs').addEventListener('click', () => prebaciTab('cs'));
 
 document.getElementById('pre').addEventListener('click', () => {
   if (state.strana > 0) { state.strana--; render(); }
