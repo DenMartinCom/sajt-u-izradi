@@ -272,7 +272,7 @@ async function pokreni() {
         simbol,
         cmc: i.cmc,
         cg: i.coingecko || null,
-        cs: i.coinstats_id || null
+        cs: i.coinstats || null
       });
     }
 
