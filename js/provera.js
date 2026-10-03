@@ -2,18 +2,51 @@
 const RAW = 'https://raw.githubusercontent.com/DenMartinCom/sajt-u-izradi/main';
 const API = 'https://cmc-proxy.martin-denic.workers.dev';
 
-let cmcIndex = {};
-let cgIndex = {};
-let tokens = [];
-let strana = 0;
-let obelezeni = new Set();
+const MARK_KEY_PREFIX = 'provera_mark_';
+const RECENT_MS = 24 * 60 * 60 * 1000;
 
+const state = {
+  aktivniTab: 'cg',           // 'cg' | 'cc'
+  mark: { cg: {}, cc: {} },   // { [cmc_id]: { target, ts } }
+  obelezeni: { cg: new Set(), cc: new Set() },
+  cmcIndex: {},
+  cgIndex: {},
+  ccIndex: {},                // keyed po symbol
+  tokens: [],                 // [{simbol, cmc, cg, cc}]
+  prikazani: [],
+  strana: 0,
+  sortiranje: 'nedavno',
+  samo24h: false
+};
+
+// ===== localStorage =====
+function ucitajMark(tab) {
+  try {
+    const raw = localStorage.getItem(MARK_KEY_PREFIX + tab);
+    if (!raw) return {};
+    const p = JSON.parse(raw);
+    return (p && typeof p === 'object' && !Array.isArray(p)) ? p : {};
+  } catch (e) { return {}; }
+}
+
+function sacuvajMark(tab) {
+  try { localStorage.setItem(MARK_KEY_PREFIX + tab, JSON.stringify(state.mark[tab])); } catch (e) {}
+}
+
+function oznaci(cmc, target) {
+  const tab = state.aktivniTab;
+  state.mark[tab][String(cmc)] = { target: target || null, ts: Date.now() };
+  sacuvajMark(tab);
+}
+
+// ===== fetch =====
 async function fetchJson(url) {
   const r = await fetch(url, { cache: 'no-store' });
   if (!r.ok) throw new Error('HTTP ' + r.status + ' — ' + url);
   return r.json();
 }
 
+// ===== URL / LINK helperi =====
 function urlCmc(cmcId) {
   return `https://s2.coinmarketcap.com/static/img/coins/64x64/${cmcId}.png`;
 }
@@ -22,6 +55,12 @@ function urlCg(zapis) {
   if (!zapis || !zapis.logo || typeof zapis.logo !== 'object') return null;
   if (zapis.logo.id == null || !zapis.logo.file) return null;
   return `https://assets.coingecko.com/coins/images/${zapis.logo.id}/large/${zapis.logo.file}`;
+}
+
+function urlCc(zapis) {
+  if (!zapis || !zapis.logo) return null;
+  if (typeof zapis.logo !== 'string' || !zapis.logo.length) return null;
+  return `https://www.cryptocompare.com/media/${zapis.logo}`;
 }
 
 function linkZaKarticu(zapis, tip) {
@@ -34,9 +73,14 @@ function linkZaKarticu(zapis, tip) {
     if (!zapis.id) return null;
     return `https://www.coingecko.com/en/coins/${zapis.id}`;
   }
+  if (tip === 'cc') {
+    if (!zapis.symbol) return null;
+    return `https://www.cryptocompare.com/coins/${String(zapis.symbol).toLowerCase()}/overview/USD`;
+  }
   return null;
 }
 
+// ===== KARTICA =====
 function napraviKarticu(zapis, tip) {
   const el = document.createElement('div');
   el.className = 'kartica ' + tip;
@@ -72,7 +116,7 @@ function napraviKarticu(zapis, tip) {
     }
     simbol.textContent = zapis.symbol || '/';
 
-    const url = tip === 'cmc' ? urlCmc(zapis.id) : urlCg(zapis);
+    const url = tip === 'cmc' ? urlCmc(zapis.id) : (tip === 'cg' ? urlCg(zapis) : urlCc(zapis));
     if (url) {
       img.src = url;
       img.onload = () => { img.style.visibility = 'visible'; };
@@ -85,17 +129,71 @@ function napraviKarticu(zapis, tip) {
   return el;
 }
 
+// ===== DOHVAT DESNOG ZAPISA =====
+function desniZapis(t) {
+  if (state.aktivniTab === 'cg') {
+    return t.cg ? state.cgIndex[String(t.cg)] : null;
+  }
+  return t.cc ? state.ccIndex[String(t.cc)] : null;
+}
+
+function desniTargetId(t) {
+  if (state.aktivniTab === 'cg') return t.cg;
+  return t.cc;
+}
+
+// ===== SORTIRANJE / FILTRIRANJE =====
+function pripremiPrikaz() {
+  const tab = state.aktivniTab;
+  const mark = state.mark[tab];
+  let l = state.tokens.slice();
+
+  if (state.samo24h) {
+    const granica = Date.now() - RECENT_MS;
+    l = l.filter(t => {
+      const m = mark[String(t.cmc)];
+      return m && m.ts && m.ts >= granica;
+    });
+  }
+
+  if (state.sortiranje === 'simbol') {
+    l.sort((a, b) => String(a.simbol).localeCompare(String(b.simbol)));
+  } else if (state.sortiranje === 'nedavno') {
+    l.sort((a, b) => {
+      const ma = mark[String(a.cmc)];
+      const mb = mark[String(b.cmc)];
+      const ta = (ma && ma.ts) ? ma.ts : 0;
+      const tb = (mb && mb.ts) ? mb.ts : 0;
+      return tb - ta;
+    });
+  }
+
+  state.prikazani = l;
+  state.strana = 0;
+}
+
+// ===== RENDER =====
 function render() {
   const lista = document.getElementById('lista');
   lista.innerHTML = '';
 
-  const start = strana * PER_PAGE;
-  const end = Math.min(start + PER_PAGE, tokens.length);
+  const tab = state.aktivniTab;
+  const mark = state.mark[tab];
+  const obelezeni = state.obelezeni[tab];
+
+  const start = state.strana * PER_PAGE;
+  const end = Math.min(start + PER_PAGE, state.prikazani.length);
 
   for (let i = start; i < end; i++) {
-    const t = tokens[i];
+    const t = state.prikazani[i];
     const red = document.createElement('div');
     red.className = 'red';
+
+    const m = mark[String(t.cmc)];
+    if (m && m.ts) {
+      if ((Date.now() - m.ts) < RECENT_MS) red.classList.add('mark-recent');
+      else red.classList.add('mark-staro');
+    }
 
     const cek = document.createElement('div');
     cek.className = 'cek';
@@ -104,65 +202,83 @@ function render() {
     inp.checked = obelezeni.has(String(t.cmc));
     inp.dataset.cmc = String(t.cmc);
     inp.addEventListener('change', () => {
-      if (inp.checked) obelezeni.add(String(t.cmc));
-      else obelezeni.delete(String(t.cmc));
+      if (inp.checked) {
+        obelezeni.add(String(t.cmc));
+        const target = desniTargetId(t);
+        if (target) oznaci(t.cmc, target);
+      } else {
+        obelezeni.delete(String(t.cmc));
+      }
       azurirajInfo();
     });
     cek.appendChild(inp);
 
-    const cmcZapis = t.cmc != null ? cmcIndex[String(t.cmc)] : null;
-    const cgZapis = t.cg ? cgIndex[t.cg] : null;
+    const cmcZapis = t.cmc != null ? state.cmcIndex[String(t.cmc)] : null;
+    const dZapis = desniZapis(t);
 
     red.appendChild(cek);
     red.appendChild(napraviKarticu(cmcZapis, 'cmc'));
-    red.appendChild(napraviKarticu(cgZapis, 'cg'));
+    red.appendChild(napraviKarticu(dZapis, tab));
     lista.appendChild(red);
   }
 
-  const ukupnoStrana = Math.max(1, Math.ceil(tokens.length / PER_PAGE));
-  document.getElementById('strana').textContent = `${strana + 1} / ${ukupnoStrana}`;
-  document.getElementById('pre').disabled = strana === 0;
-  document.getElementById('sle').disabled = strana >= ukupnoStrana - 1;
+  const ukupnoStrana = Math.max(1, Math.ceil(state.prikazani.length / PER_PAGE));
+  document.getElementById('strana').textContent = `${state.strana + 1} / ${ukupnoStrana}`;
+  document.getElementById('pre').disabled = state.strana === 0;
+  document.getElementById('sle').disabled = state.strana >= ukupnoStrana - 1;
   azurirajInfo();
 }
 
 function azurirajInfo() {
-  document.getElementById('info').textContent = `${tokens.length} tokena | čekirano: ${obelezeni.size}`;
+  const sve = state.tokens.length;
+  const prik = state.prikazani.length;
+  const ob = state.obelezeni[state.aktivniTab].size;
+  const deo = (prik === sve) ? `${sve} tokena` : `${prik}/${sve} tokena`;
+  document.getElementById('info').textContent = `${deo} | čekirano: ${ob}`;
 }
 
+// ===== START =====
 async function pokreni() {
   const info = document.getElementById('info');
   try {
+    state.mark.cg = ucitajMark('cg');
+    state.mark.cc = ucitajMark('cc');
+
     info.textContent = 'Meta...';
     const m = await fetchJson(`${API}/test?servis=meta`);
     const meta = m.meta || {};
 
     info.textContent = 'CMC mapa...';
-    const cmcArr = await fetchJson(`${RAW}/0_Arhiva/d_coinmarketcap_map.json`);
-    cmcIndex = {};
-    if (Array.isArray(cmcArr)) for (const z of cmcArr) if (z.id != null) cmcIndex[String(z.id)] = z;
+    const cmcArr = await fetchJson(`${RAW}/0_Arhiva/Mape/d_coinmarketcap_map.json`);
+    state.cmcIndex = {};
+    if (Array.isArray(cmcArr)) for (const z of cmcArr) if (z.id != null) state.cmcIndex[String(z.id)] = z;
 
     info.textContent = 'CG mapa...';
-    const cgArr = await fetchJson(`${RAW}/0_Arhiva/d_coingecko_map.json`);
-    cgIndex = {};
-    if (Array.isArray(cgArr)) for (const z of cgArr) if (z.id != null) cgIndex[String(z.id)] = z;
+    const cgArr = await fetchJson(`${RAW}/0_Arhiva/Mape/d_coingecko_map.json`);
+    state.cgIndex = {};
+    if (Array.isArray(cgArr)) for (const z of cgArr) if (z.id != null) state.cgIndex[String(z.id)] = z;
 
-    tokens = [];
+    info.textContent = 'CC mapa...';
+    const ccArr = await fetchJson(`${RAW}/0_Arhiva/Mape/d_cryptocompare_map.json`);
+    state.ccIndex = {};
+    if (Array.isArray(ccArr)) for (const z of ccArr) {
+      if (z.symbol && !state.ccIndex[String(z.symbol)]) state.ccIndex[String(z.symbol)] = z;
+    }
+
+    state.tokens = [];
     for (const [simbol, i] of Object.entries(meta)) {
       if (i.cmc == null) continue;
-      tokens.push({
+      state.tokens.push({
         simbol,
         cmc: i.cmc,
-        cg: i.coingecko || null
+        cg: i.coingecko || null,
+        cc: i.cryptocompare_simbol || null
       });
     }
 
-    obelezeni = new Set();
-    for (const t of tokens) {
-      if (t.cg == null) obelezeni.add(String(t.cmc));
-    }
-
-    strana = 0;
+    inicijalizujObelezene();
+    pripremiPrikaz();
+    azurirajZaglavlje();
     render();
   } catch (e) {
     info.textContent = 'Greška: ' + e.message;
@@ -170,26 +286,56 @@ async function pokreni() {
   }
 }
 
+function inicijalizujObelezene() {
+  state.obelezeni.cg = new Set();
+  state.obelezeni.cc = new Set();
+  for (const t of state.tokens) {
+    if (t.cg == null) state.obelezeni.cg.add(String(t.cmc));
+    if (t.cc == null) state.obelezeni.cc.add(String(t.cmc));
+  }
+}
+
+// ===== TAB =====
+function prebaciTab(tab) {
+  state.aktivniTab = tab;
+  state.strana = 0;
+
+  document.querySelectorAll('.tab').forEach(el => {
+    el.classList.toggle('aktivan', el.dataset.tab === tab);
+  });
+
+  azurirajZaglavlje();
+  pripremiPrikaz();
+  render();
+}
+
+function azurirajZaglavlje() {
+  document.getElementById('desnoZaglavlje').textContent = state.aktivniTab.toUpperCase();
+}
+
+// ===== GENERIŠI =====
 async function generisi() {
-  if (!obelezeni.size) {
-    alert('Nema obeleženih.');
-    return;
-  }
+  const tab = state.aktivniTab;
+  const ob = state.obelezeni[tab];
+  if (!ob.size) { alert('Nema obeleženih.'); return; }
+
   const parovi = [];
-  for (const t of tokens) {
-    if (!obelezeni.has(String(t.cmc))) continue;
-    parovi.push({ cmc: t.cmc, cg: t.cg != null ? t.cg : null });
+  for (const t of state.tokens) {
+    if (!ob.has(String(t.cmc))) continue;
+    const target = tab === 'cg' ? (t.cg || null) : (t.cc || null);
+    parovi.push({ cmc: t.cmc, target });
   }
+
   try {
-    const r = await fetch(`${API}/provera-sacuvaj`, {
+    const r = await fetch(`${API}/provera-sacuvaj?servis=${tab}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ parovi })
     });
     const d = await r.json();
     if (d && d.ok) {
-      alert(`Sačuvano ${d.broj} parova u 0_Arhiva/provera_cmc-cg.csv`);
-      obelezeni = new Set();
+      alert(`Sačuvano ${d.broj} parova (${tab.toUpperCase()})`);
+      state.obelezeni[tab] = new Set();
       render();
     } else {
       alert('Greška: ' + (d && d.greska ? d.greska : 'nepoznato'));
@@ -199,19 +345,32 @@ async function generisi() {
   }
 }
 
-// ===== Generiši cg_nema_logo.csv — samo sajt (tokeni iz meta sa cg_id, bez logo u d_cg) =====
+// ===== NL — bez logotipa =====
 async function generisiNemaLogo() {
+  const tab = state.aktivniTab;
   const ids = [];
-  for (const t of tokens) {
-    if (!t.cg) continue;
-    const zapis = cgIndex[String(t.cg)];
-    if (!zapis) continue;
-    const ima = zapis.logo && typeof zapis.logo === 'object' && zapis.logo.id != null && zapis.logo.file;
-    if (!ima) ids.push(t.cg);
+
+  for (const t of state.tokens) {
+    if (tab === 'cg') {
+      if (!t.cg) continue;
+      const zapis = state.cgIndex[String(t.cg)];
+      if (!zapis) continue;
+      const ima = zapis.logo && typeof zapis.logo === 'object' && zapis.logo.id != null && zapis.logo.file;
+      if (!ima) ids.push(t.cg);
+    } else {
+      if (!t.cc) continue;
+      const zapis = state.ccIndex[String(t.cc)];
+      if (!zapis) continue;
+      const logo = zapis.logo;
+      const ima = logo && typeof logo === 'string' && logo.length > 0;
+      if (!ima) ids.push(t.cc);
+    }
   }
-  if (!ids.length) { alert('Svi tokeni sa sajta imaju logo.'); return; }
+
+  if (!ids.length) { alert('Svi tokeni imaju logo.'); return; }
+
   try {
-    const r = await fetch(`${API}/cg-nema-logo-sacuvaj`, {
+    const r = await fetch(`${API}/nema-logo-sacuvaj?servis=${tab}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ ids })
@@ -221,26 +380,42 @@ async function generisiNemaLogo() {
     if (!r.ok) { alert('HTTP ' + r.status + ': ' + tekst.slice(0, 200)); return; }
     let d;
     try { d = JSON.parse(tekst); } catch (e) { alert('Nije JSON: ' + tekst.slice(0, 200)); return; }
-    if (d && d.ok) alert(`Sačuvano ${d.broj} cg_id u 0_Arhiva/cg_nema_logo.csv`);
+    if (d && d.ok) alert(`Sačuvano ${d.broj} id-jeva bez logotipa (${tab.toUpperCase()})`);
     else alert('Greška: ' + (d && d.greska ? d.greska : JSON.stringify(d).slice(0, 200)));
   } catch (e) {
     alert('Mreža: ' + e.message);
   }
 }
 
+// ===== LISTENERI =====
+document.getElementById('tab-cg').addEventListener('click', () => prebaciTab('cg'));
+document.getElementById('tab-cc').addEventListener('click', () => prebaciTab('cc'));
+
 document.getElementById('pre').addEventListener('click', () => {
-  if (strana > 0) { strana--; render(); }
+  if (state.strana > 0) { state.strana--; render(); }
 });
 document.getElementById('sle').addEventListener('click', () => {
-  const ukupno = Math.ceil(tokens.length / PER_PAGE);
-  if (strana < ukupno - 1) { strana++; render(); }
+  const ukupno = Math.ceil(state.prikazani.length / PER_PAGE);
+  if (state.strana < ukupno - 1) { state.strana++; render(); }
 });
 document.getElementById('reset').addEventListener('click', () => {
-  obelezeni = new Set();
+  state.obelezeni[state.aktivniTab] = new Set();
   render();
 });
 document.getElementById('gen').addEventListener('click', generisi);
 document.getElementById('nologo').addEventListener('click', generisiNemaLogo);
 document.getElementById('reload').addEventListener('click', pokreni);
+
+document.getElementById('sort').addEventListener('change', (e) => {
+  state.sortiranje = e.target.value;
+  pripremiPrikaz();
+  render();
+});
+
+document.getElementById('filter24h').addEventListener('change', (e) => {
+  state.samo24h = e.target.checked;
+  pripremiPrikaz();
+  render();
+});
 
 pokreni();
