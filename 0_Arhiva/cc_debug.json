@@ -1,0 +1,28 @@
+{
+  "simbol": "USDT",
+  "vreme": 1791019664429,
+  "odgovor": {
+    "Response": "Error",
+    "Message": "You are over your rate limit please upgrade your account!",
+    "HasWarning": false,
+    "Type": 99,
+    "RateLimit": {
+      "calls_made": {
+        "second": 1,
+        "minute": 1,
+        "hour": 1,
+        "day": 245,
+        "month": 267,
+        "total_calls": 581
+      },
+      "max_calls": {
+        "second": 1,
+        "minute": 10,
+        "hour": 100,
+        "day": 100,
+        "month": 100
+      }
+    },
+    "Data": {}
+  }
+}
