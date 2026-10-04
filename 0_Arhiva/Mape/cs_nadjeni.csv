@@ -1,5 +1,3 @@
 cmc_id,cs_id,symbol,name,slug,logo_id,logo_file,total_supply,contract,decimals
-39125,lighter,LIT,Lighter,lighter,,lighterqsI.png,1000000000,{"ethereum":"0x232ce3bd40fcd6f80f3d55a522d03f25df784ee2","robinhood":"0xeeca2e7dc194a320d349122d88259bb9595a4cb0"},18
-37745,c8ntinuum,CTM,c8ntinuum,c8ntinuum,,c8ntinuumiWa.png,8888888888,{"ethereum":"0xc8fb80fcc03f699c70ff0cc08c09106288888888","binance_smart":"0xc8Fb80fCc03f699C70ff0CC08C09106288888888","solana":"C8fU5GdfAt5mnw2RK7HE6XJGFNxHpaskZMkXxdm88888"},18
-30618,0x00006916819880adfda57e4329ab8db487c6773a_robinhood,OIL,Oil,oil-2,,0x00006916819880adfda57e4329ab8db487c6773a_robinhoodfuU.png,1456120000,{"robinhood":"0x00006916819880adfda57e4329ab8db487c6773a"},18
-39711,strategy-pp-variable-xstock,STRCX,Strategy PP Variable xStock,strategy-pp-variable-xstock,,strategy-pp-variable-xstockryG.png,2865707,{"ethereum":"0x1aad217b8f78dba5e6693460e8470f8b1a3977f3","solana":"Xs78JED6PFZxWc2wCEPspZW9kL3Se5J7L5TChKgsidH"},18
+2394,telcoin-2,TEL,Telcoin,telcoin-2,,telcoin-2nTb.png,100000000000,{"ethereum":"0x7e13b43065380acdec1c2d138c579cbbbafa0731","base":"0x7e13b43065380acdec1c2d138c579cbbbafa0731","polygon-pos":"0x7e13b43065380acdec1c2d138c579cbbbafa0731"},18
+30618,o5XguNKkz71K37BJsAhyMJnatwwbJ9MdixSmDW6pump_solana,OIL,Oil Rig,oil-rig,,oil-rigx9h.png,996833808,{"solana":"o5XguNKkz71K37BJsAhyMJnatwwbJ9MdixSmDW6pump"},18
