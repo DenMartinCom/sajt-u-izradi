@@ -1,18 +1,31 @@
 {
+  "12400": [
+    "CkADK7xbwyyU4TUs2ExUbJcASUqawVB7ZKSr1pexbonk_solana"
+  ],
   "29470": [
     "energi-dollar"
   ],
   "30618": [
     "oil-token",
-    "digital-oil-memecoin"
+    "digital-oil-memecoin",
+    "ABmMqCr6ybUhSPoG2iT1JKaf9ix5dqJU4eqmaBBCUipJ_solana"
   ],
   "32196": [
     "superrarebears-hype"
+  ],
+  "37745": [
+    "tether"
+  ],
+  "39125": [
+    "timeless"
   ],
   "39158": [
     "4ytpZgVoNB66bFs6NRCUaAVsLdtYk2fHq4U92Jnjpump_solana",
     "tether",
     "binance-coin",
     "usd-coin"
+  ],
+  "39711": [
+    "tether"
   ]
 }
