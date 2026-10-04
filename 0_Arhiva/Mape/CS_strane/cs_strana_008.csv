@@ -1,0 +1,1001 @@
+id,symbol,name,slug,logo,total_supply,contract,decimals
+wdot,WDOT,WDOT,wdot,wdotF2Y.png,101829,"{""astar"":""0xffffffffffffffffffffffffffffffffffffffff"",""cosmos"":""ibc/3FF92D26B407FD61AE95D975712A7C319CDE28DE4D80BDC9978D935932B991D7"",""secret"":""secret1h5d3555tz37crrgl5rppu2np2fhaugq3q8yvv9""}",18
+lumpy,LUMPY,Lumpy,lumpy,lumpy3IK.png,963815040,"{""base"":""0xaf6b42a3fe548c0ce73269235817fd47d8c149cd""}",18
+0xe298b938631f750dd409fb18227c4a23dcdaab9b_base,WABASWETH,Wrapped Aave Base WETH,wrapped-aave-base-weth,wrapped-aave-base-wethl31.png,43.5781,"{""base"":""0xe298b938631f750dd409fb18227c4a23dcdaab9b""}",18
+oni-token,ONI,ONINO,oni-token,oni-tokenb5Y.png,99999999,"{""binance_smart"":""0xea89199344a492853502a7a699cc4230854451b8"",""fantom"":""0x667c856f1a624baefe89fc4909c8701296c86c98""}",18
+island-token,ISLAND,ISLAND Token,island-token,island-token9tO.png,921075885,"{""ethereum"":""0x157a6df6b74f4e5e45af4e4615fde7b49225a662"",""base"":""0x157a6df6b74f4e5e45af4e4615fde7b49225a662"",""solana"":""HX6zNkjJ7zy653VoDWzbaYpSg7BrgLfq4i4RA7D5nkkz""}",18
+5Wd2ALxQfnpgQKCyH4WL9giBiiuuLuJs84CJxfQccvmN_solana,SPEED,real fast,real-fast,real-fastrFi.png,733152765,"{""solana"":""5Wd2ALxQfnpgQKCyH4WL9giBiiuuLuJs84CJxfQccvmN""}",18
+redbelly-bridged-usdc-redbelly,USDC.E,Lucid Bridged USDC (Redbelly),redbelly-bridged-usdc-redbelly,redbelly-bridged-usdc-redbellyren.png,120990,"{""redbelly-network"":""0x8201c02d4ab2214471e8c3ad6475c8b0cd9f2d06""}",18
+ai-inu,AIINU,AI INU,ai-inu,ai-inu0OS.png,1000000000,"{""base"":""0x8853f0c059c27527d33d02378e5e4f6d5afb574a"",""solana"":""Bs7diZazUH2PgNyWh7qj3kgUFXqumZpkAjTGSzQKx4cV""}",18
+0x66803fb87abd4aac3cbb3fad7c3aa01f6f3fb207_celo,WETH,Wormhole Bridged WETH (Celo),wormhole-bridged-weth-celo,wormhole-bridged-weth-celobOO.png,45.3964,"{""celo"":""0x66803fb87abd4aac3cbb3fad7c3aa01f6f3fb207""}",18
+zaibot,ZAI,Zaibot,zaibot,zaibotqhO.png,100000000,"{""binance_smart"":""0x68449870eea84453044bd430822827e21fd8f101"",""ethereum"":""0x68449870eea84453044bd430822827e21fd8f101"",""blast"":""0x68449870eea84453044bd430822827e21fd8f101""}",18
+defichain,DFI,DeFiChain,defichain,1649753625524.png,1200000003,"{""ethereum"":""0x8fc8f8269ebca376d046ce292dc7eac40c8d358a"",""binance_smart"":""0x361c60b7c2828fcab80988d00d1d542c83387b50""}",18
+andy-4,ANDY,Andy BSC,andy-4,andy-4XBT.png,100000000000000,"{""binance_smart"":""0x01ca78a2b5f1a9152d8a3a625bd7df5765eee1d8""}",18
+Zenko9EfTmbYVUw8RMjEW4vf7bNPSd419EjtpAFXeWw_solana,ZENKO,Zenko Protocol,zenko-protocol,Zenko9EfTmbYVUw8RMjEW4vf7bNPSd419EjtpAFXeWw_solanaey1.png,999999753,"{""solana"":""Zenko9EfTmbYVUw8RMjEW4vf7bNPSd419EjtpAFXeWw""}",18
+wrapped-elastos,WELA,Wrapped Elastos,wrapped-elastos,wrapped-elastosksh.png,313259,"{""elastos"":""0x517e9e5d46c1ea8ab6f78677d6114ef47f71f6c4""}",18
+9So52ugZh2BLBT3f7p61947q91uQh2DyvbfyMDeRpump_solana,MUSKIT,Musk It,musk-it,9So52ugZh2BLBT3f7p61947q91uQh2DyvbfyMDeRpump_solanatml.png,999874060,"{""solana"":""9So52ugZh2BLBT3f7p61947q91uQh2DyvbfyMDeRpump""}",18
+3vJenGaGsuKG5shPhi7rjnuy3MV6xjmBTGjYqYzXpump_solana,RAT,RAT Escape,rat-escape,3vJenGaGsuKG5shPhi7rjnuy3MV6xjmBTGjYqYzXpump_solananJj.png,999936044,"{""solana"":""3vJenGaGsuKG5shPhi7rjnuy3MV6xjmBTGjYqYzXpump""}",18
+0xf5c83ea805e5aeff5de24c7da23ef246c2bf8ec7_base,MONSTA,Based Monsta,based-monsta,0xf5c83ea805e5aeff5de24c7da23ef246c2bf8ec7_baseLrQ.png,5972532491,"{""base"":""0xf5c83ea805e5aeff5de24c7da23ef246c2bf8ec7""}",18
+strike,STRIKE,Strike,strike,strikeg3n.png,6540888,"{""ethereum"":""0x74232704659ef37c08995e386a2e26cc27a8d7b1""}",18
+0xd34cf0759cb65a0fe508bb1dae0a16cb5109bb7b_base,OS,bunnyOS,bunnyos,bunnyosL8T.png,1000000000,"{""base"":""0xd34cf0759cb65a0fe508bb1dae0a16cb5109bb7b""}",18
+palatin-technologies-inc-common-stock-backpack-securities,PTN,"Palatin Technologies, Inc. Common Stock (Backpack Securities)",palatin-technologies-inc-common-stock-backpack-securities,palatin-technologies-inc-common-stock-backpack-securitiesvIw.png,13784,"{""solana"":""PTNzAfFAB4LvoUQEUUGrFMyUoRLExMYjH6CcfyQfsVP""}",18
+pinata,PINATA,Piñata,pinata,pinataxW1.png,960659579,"{""solana"":""Edpcd9aYh6BVRKV5hYrgnEuJ3MHAFcdnHtSL9yvopump""}",18
+dione,DIONE,Dione,dione,dioneSAS.png,13433600526,,
+BqPqrrQuoQXFGGEAEMnPmDgZ6RWQCajWnY3V6Yp4DZWP_solana,ES,Eclipse,eclipse-3,eclipse-3jRK.png,1000000000,"{""solana"":""BqPqrrQuoQXFGGEAEMnPmDgZ6RWQCajWnY3V6Yp4DZWP"",""ethereum"":""0x6055dc6ff1077eebe5e6d2ba1a1f53d7ef8430de"",""eclipse"":""GnBAskb2SQjrLgpTjtgatz4hEugUsYV7XrWU1idV3oqW""}",18
+0x06fc3d5d2369561e28f261148576520f5e49d6ea_base,AVC,AVC,avc-2,0x06fc3d5d2369561e28f261148576520f5e49d6ea_basehwr.png,1000000000,"{""base"":""0x06fc3d5d2369561e28f261148576520f5e49d6ea""}",18
+awakeborn-token,AWK,Awakeborn Token,awakeborn-token,awakeborn-token3uw.png,99999973237,"{""polygon-pos"":""0x380df89d883776ba04f65569f1d1a6e218bfc2df""}",18
+nsdq420,NSDQ,NSDQ420,nsdq420,nsdq4209ny.png,1000000000,"{""ethereum"":""0x615987d46003cc37387dbe544ff4f16fa1200077"",""solana"":""GXUisEapYfHJe8oFoWSPPyiLSLYT6Em9iEeXTFxUHyUA""}",18
+flash-liquidity-token,FLP.1,Flash Liquidity Token,flash-liquidity-token,flash-liquidity-tokenYxi.png,107810,"{""solana"":""NUZ3FDWTtN5SP72BsefbsqpnbAY5oe21LE8bCSkqsEK""}",18
+0xc00899951d84ee5afb1bf22df1d91d5206457d86_robinhood,ZIP,ZIP,zip-2,zip-2Lqg.png,1000000000,"{""robinhood"":""0xc00899951d84ee5afb1bf22df1d91d5206457d86""}",18
+regen,REGEN,Regen,regen,regenDOw.png,148354423,"{""osmosis"":""ibc/1DCC8A6CB5689018431323953344A9F6CC4D0BFB261E88C9F7777372C10CD076"",""evmos"":""0x0ce35b0d42608ca54eb7bcc8044f7087c18e7717"",""celo"":""0x2e6c05f1f7d1f4eb9a088bf12257f1647682b754"",""polygon-pos"":""0xdfffe0c33b4011c4218acd61e68a62a32eaf9a8b"",""base"":""0x2e6c05f1f7d1f4eb9a088bf12257f1647682b754""}",18
+neptune-2,NEPT,Neptune,neptune-2,neptune-2b8C.png,20000000,"{""injective"":""factory/inj1v3a4zznudwpukpr8y987pu5gnh4xuf7v36jhva/nept""}",18
+aura-4,AURA,Aura,aura-4,aura-4zF5.png,100000000,"{""alephium"":""ywWQo64HBSMXcv3XBLrm8WjY2Co43BpYJPB3YoSDd4xX""}",18
+axt-ondo-tokenized,AXTION,AXT (Ondo Tokenized),axt-ondo-tokenized,axt-ondo-tokenizedEFy.png,1394,"{""ethereum"":""0x6a3e77d984e22bed6a036d3da79d7857936a593f"",""binance_smart"":""0x0c50323af81d5c33822c6add256fb9093d42bc74"",""solana"":""Z1K14ngynqmrmfRSC2dRZGs1ghmnDKiiahjaM2condo""}",18
+0x391cf4b21f557c935c7f670218ef42c21bd8d686_ethereum,XMW,Morphware,morphware,0x391cf4b21f557c935c7f670218ef42c21bd8d686_ethereumpaB.png,1232922769,"{""ethereum"":""0x391cf4b21f557c935c7f670218ef42c21bd8d686""}",18
+whitefiber-inc-robinhood-token,WYFI,"WhiteFiber, Inc. • Robinhood Token",whitefiber-inc-robinhood-token,whitefiber-inc-robinhood-tokenuq8.png,6608,"{""robinhood"":""0x9e7abd3c9139d14e4c86dce0e455aab7a0c2fb3e""}",18
+D8r8XTuCrUhLheWeGXSwC3G92RhASficV3YA7B2XWcLv_solana,BAG,catwifbag,catwifbag,catwifbagOyt.png,998228108,"{""solana"":""D8r8XTuCrUhLheWeGXSwC3G92RhASficV3YA7B2XWcLv""}",18
+wrapped-goat-bitcoin,WGBTC,Wrapped Goat Bitcoin,wrapped-goat-bitcoin,wrapped-goat-bitcoinbKz.png,1.4114,"{""goat"":""0xbc10000000000000000000000000000000000000""}",18
+credo-technology-group-holding-ondo-tokenized,CRDOON,Credo Technology Group Holding (Ondo Tokenized),credo-technology-group-holding-ondo-tokenized,credo-technology-group-holding-ondo-tokenizedcpv.png,544.1414,"{""ethereum"":""0xb348a4bce7fae890d2d37ea104e59fb3881757c2"",""binance_smart"":""0xf157481bebd0c0686780fd0f61806c900a6137e8"",""solana"":""d4Rc6KvP3nQT8zC86Z31zM1DJCSfUD6y424cKnZondo""}",18
+overnight-fi-usd-arbitrum-one,XUSD,xUSD,overnight-fi-usd-arbitrum-one,overnight-fi-usd-arbitrum-oneuqx.png,119197,"{""arbitrum-one"":""0xe80772eaf6e2e18b651f160bc9158b2a5cafca65""}",18
+0x26c41b10527de2dc870fa5c9d5f4a8dbaa966cdf_robinhood,PHOOD,Privacy Hood by Virtuals,privacy-hood-by-virtuals,0x26c41b10527de2dc870fa5c9d5f4a8dbaa966cdf_robinhoodvEn.png,1000000000,"{""robinhood"":""0x26c41b10527de2dc870fa5c9d5f4a8dbaa966cdf""}",18
+0x1fdd61ef9a5c31b9a2abc7d39c139c779e8412af_ethereum,JJ,JEJE,jeje,jejenjN.png,420690000000000,"{""ethereum"":""0x1fdd61ef9a5c31b9a2abc7d39c139c779e8412af""}",18
+lambo-0fcbf0f7-1a8f-470d-ba09-797d5e95d836,LAMBO,LAMBO,lambo-0fcbf0f7-1a8f-470d-ba09-797d5e95d836,lambo-0fcbf0f7-1a8f-470d-ba09-797d5e95d836kzD.png,69000000000,"{""ethereum"":""0x3d2b66bc4f9d6388bd2d97b95b565be1686aefb3""}",18
+crosswallet,CWT,CrossWallet,crosswallet,crosswalletB7q.png,125000000,"{""binance_smart"":""0x5a726a26edb0df8fd55f03cc30af8a7cea81e78d"",""tron"":""TY2Ge1YYphoAatwaBxa1zYfJVa8CqNyL6B""}",18
+0xea65bb5a79ff34ca83e2995f9ff6edd0887b08da9b45bf2e31f930d3efb82866::s::S_sui,S,Agent S,agent-s,0xea65bb5a79ff34ca83e2995f9ff6edd0887b08da9b45bf2e31f930d3efb82866::s::S_suiIPO.png,1000000000,"{""sui"":""0xea65bb5a79ff34ca83e2995f9ff6edd0887b08da9b45bf2e31f930d3efb82866::s::S""}",18
+aimedis-new,AIMX,AIMX,aimedis-new,aimedis-new8vc.png,588000000,"{""polygon-pos"":""0x33b6d77c607ea499ab5db7e2201c5a516a78a5db""}",18
+5GV3iDWoURdYaSS52wr4NkGLzpk7G6pVf8A9QXLhpump_solana,RCSC,RCSC,rcsc,rcsc0Mc.png,999991183,"{""solana"":""5GV3iDWoURdYaSS52wr4NkGLzpk7G6pVf8A9QXLhpump""}",18
+digg,DIGG,DIGG,digg,digg6K1.png,573.9265,"{""ethereum"":""0x798d1be841a82a273720ce31c822c61a67a601c3""}",18
+0x7d6fcb3327d7e17095fa8b0e3513ac7a3564f5e1_base,$SOLACE,Solace,solace-2,0x7d6fcb3327d7e17095fa8b0e3513ac7a3564f5e1_baseVzB.png,1000000000,"{""base"":""0x7d6fcb3327d7e17095fa8b0e3513ac7a3564f5e1""}",18
+us-copper-index-fund-ondo-tokenized,CPERON,US Copper Index Fund (Ondo Tokenized),us-copper-index-fund-ondo-tokenized,us-copper-index-fund-ondo-tokenizedJl8.png,2791,"{""ethereum"":""0x22a684e0a3cc9b74596719f722cf4e597aafa3ba"",""binance_smart"":""0x0888edfec4c0a66fce074796cf4f6509c00f6c49"",""solana"":""hpkpc1Xenv5oEpVefk3woWjZa9rxaJxaEaVVA4Fondo""}",18
+proshares-ultra-qqq-rstock,RQLD,ProShares Ultra QQQ Tokenized Stock (Reality),proshares-ultra-qqq-rstock,proshares-ultra-qqq-rstockBMH.png,1210,"{""arbitrum-one"":""0x39334177e238f3d562609f2f674882b7cc94b597""}",18
+0xd63f21e7f4205d59c5b486273c42e261d5cd4d1d_base,BLKH,BLACK HOLE,black-hole-2,black-hole-213F.png,1000000000,"{""base"":""0xd63f21e7f4205d59c5b486273c42e261d5cd4d1d""}",18
+mettalex,MTLX,Mettalex,mettalex,mettalexevj.png,40000000,"{""ethereum"":""0x2e1e15c44ffe4df6a0cb7371cd00d5028e571d14"",""binance_smart"":""0x5921dee8556c4593eefcfad3ca5e2f618606483b""}",18
+shido-bridged-usdc,USDC,Shido Bridged USDC (Shido),shido-bridged-usdc,shido-bridged-usdcNmZ.png,118300,"{""shido"":""0xee1fc22381e6b6bb5ee3bf6b5ec58df6f5480df8""}",18
+meme-millionaires,MFM,Meme Millionaires,meme-millionaires,meme-millionaireszRg.png,878539110,"{""hedera-hashgraph"":""0x00000000000000000000000000000000004630af""}",18
+6vVfbQVRSXcfyQamPqCzcqmA86vCzb2d7B7gmDDqpump_solana,UPTOBER,UPTOBER,uptober,6vVfbQVRSXcfyQamPqCzcqmA86vCzb2d7B7gmDDqpump_solanaJv1.png,903206776,"{""solana"":""6vVfbQVRSXcfyQamPqCzcqmA86vCzb2d7B7gmDDqpump""}",18
+bogdanoff,BOG,Bogdanoff,bogdanoff,bogdanoffREN.png,300000000000000,"{""ethereum"":""0x0ba74fb26ca523f2dc22fa4318581cc2452eaba1""}",18
+gmfam,GMFAM,GMFAM,gmfam,gmfamy1w.png,100000000000000,"{""ethereum"":""0xe9da5e227e3fa4fc933b5f540be021e7ecc3fd81""}",18
+0x717d31a60a9e811469673429c9f8ea24358990f1_base,EVERY,Everyworld,everyworld,everyworldBmC.png,10000000000,"{""base"":""0x717d31a60a9e811469673429c9f8ea24358990f1"",""ethereum"":""0x9afa9999e45484adf5d8eed8d9dfe0693bacd838""}",18
+A8vJzs6ygbZQyYLf9FKund8j3pDfUzxBeje8rJiypump_solana,OMNI,Omni,omni-2,A8vJzs6ygbZQyYLf9FKund8j3pDfUzxBeje8rJiypump_solana1Uk.png,1000000000,"{""solana"":""A8vJzs6ygbZQyYLf9FKund8j3pDfUzxBeje8rJiypump""}",18
+B6f27ETGcjgGNB1fqULJbXVmw9FnL8HgBp7R83hmpump_solana,DROOLING,drooling cat,drooling-cat,drooling-catNLt.png,999525434,"{""solana"":""B6f27ETGcjgGNB1fqULJbXVmw9FnL8HgBp7R83hmpump""}",18
+0x6331bf8d601f0d7f0d2101772af5137c418c4444_binance_smart,BSC,Binance Super Cycle,binance-super-cycle,0x6331bf8d601f0d7f0d2101772af5137c418c4444_binance_smart1SD.png,1000000000,"{""binance_smart"":""0x6331bf8d601f0d7f0d2101772af5137c418c4444""}",18
+hummingbird-finance-2,HMNG,Hummingbird Finance,hummingbird-finance-2,hummingbird-finance-2BJI.png,100000000000000,"{""binance_smart"":""0x851944049dfdd189725b136c5ae3fb83cc62b28d""}",18
+inu,INU,Inu.,inu,inuPoW.png,499112530222733,"{""ethereum"":""0x050d94685c6b0477e1fc555888af6e2bb8dfbda5""}",18
+0x0d8c844716bcd981d9b6d3f2ccf5364129086c96_binance_smart,ZYRA,BitcoinZK,bitcoinzk-zyra,0x0d8c844716bcd981d9b6d3f2ccf5364129086c96_binance_smartz2o.png,1000000000,"{""binance_smart"":""0x0d8c844716bcd981d9b6d3f2ccf5364129086c96""}",18
+DMXBsVBwfuzc5axa2vz6Ba2BzAxcUmn6V7ZtsJFEpump_solana,TOADS,Poet Toads,poet-toads,poet-toadsrVS.png,914780891,"{""solana"":""DMXBsVBwfuzc5axa2vz6Ba2BzAxcUmn6V7ZtsJFEpump""}",18
+popular,POP,POPULAR,popular,popularmsr.png,955848883,"{""sui"":""0xf37a4ca45f2e1f14352c24485aa774888ccb6ac969cde3ef3443ba7d9e957bba::pop::POP""}",18
+coin-3,COINS,Coin,coin-3,coin-3XAD.png,999989572,"{""solana"":""9LjvTxWgtoEVdwRucY9hJLqmTcPnCRxoDiwbpzRvpump""}",18
+BbbwE8rudhjK4husSRc37X54mYyDBRcykJ7fk5oHpump_solana,TBC,Trencher Broadcasting Company,trencher-broadcasting-company,BbbwE8rudhjK4husSRc37X54mYyDBRcykJ7fk5oHpump_solanaDIK.png,999807622,"{""solana"":""BbbwE8rudhjK4husSRc37X54mYyDBRcykJ7fk5oHpump""}",18
+agentcoin-tv,AITV,AITV,agentcoin-tv,agentcoin-tvA5q.png,1000000000,"{""ethereum"":""0x04e69ff14a86e1ca9a155a8563e95887973ee175"",""base"":""0x45e4e92f5a94f4b741c9cb553ff8be7b25eb7df5"",""binance_smart"":""0x1b93875b82da65fb3f8a3591b21888f41517be93""}",18
+cyberfi,CFI,CyberFi,cyberfi,cyberfihwI.png,2400000,"{""ethereum"":""0x63b4f3e3fa4e438698ce330e365e831f7ccd1ef4"",""polygon-pos"":""0xecf8f2fa183b1c4d2a269bf98a54fce86c812d3e"",""fantom"":""0x6a545f9c64d8f7b957d8d2e6410b52095a9e6c29"",""binance_smart"":""0x6a545f9c64d8f7b957d8d2e6410b52095a9e6c29""}",18
+superreturn-ssuperusd,SSUPERUSD,SuperReturn sSuperUSD,superreturn-ssuperusd,superreturn-ssuperusdUPd.png,107809,"{""ethereum"":""0x139450c2dcef827c9a2a0bb1cb5506260940c9fd"",""soneium"":""0x139450c2dcef827c9a2a0bb1cb5506260940c9fd"",""plume-network"":""0x139450c2dcef827c9a2a0bb1cb5506260940c9fd"",""arbitrum-one"":""0x139450c2dcef827c9a2a0bb1cb5506260940c9fd""}",18
+elur-coin,ELURC,eLur-coin,elur-coin,elur-coin29m.png,999988889,"{""solana"":""5CvySD4GB7mrp3X5UXHWqQeKn96gxo7rPC71nKx8pump""}",18
+occidental-petroleum-ondo-tokenized,OXYON,Occidental Petroleum (Ondo Tokenized),occidental-petroleum-ondo-tokenized,occidental-petroleum-ondo-tokenizedMNV.png,1999,"{""ethereum"":""0xeedc48205852e9d83ea5ca92fa8656597788601f"",""binance_smart"":""0x01b5a4ac600be98448dbefbb78bcdf38262552cc"",""solana"":""1GNFMryQ6c9ZpMhgNimmsbtgYM21qnBJgRAFoNiondo""}",18
+5EaYZcaKfTVdpQ2avVtJ7BNWJ1Rnj86F1dWxppawpump_solana,DOLLO,All in Dollo,all-in-dollo,5EaYZcaKfTVdpQ2avVtJ7BNWJ1Rnj86F1dWxppawpump_solanaATf.png,999926710,"{""solana"":""5EaYZcaKfTVdpQ2avVtJ7BNWJ1Rnj86F1dWxppawpump""}",18
+0xde7a416ac821c77478340eebaa21b68297025ef3_base,BENI,Beni,beni,beni9iL.png,991514191,"{""base"":""0xde7a416ac821c77478340eebaa21b68297025ef3""}",18
+crazy-bunny,CRAZYBUNNY,Crazy Bunny,crazy-bunny,crazy-bunnyjoy.png,0,"{""binance_smart"":""0x48ed9372169ef0bf2b901bbe45e52b6a6b8f1ecc""}",18
+0x6215a58ed045d71f2561aaabe54f4c885c522998_x-layer,WSKHYX,Wrapped SK hynix xStock,wrapped-sk-hynix-xstock,wrapped-sk-hynix-xstockKWx.png,603.0978,"{""x-layer"":""0x6215a58ed045d71f2561aaabe54f4c885c522998""}",18
+4AdDFsG1xzz1L7zKGo2fbiqv256Z92u8uCcJCgYuTBLo_solana,TJRM,Tajir Tech Hub,tajir-tech-hub,4AdDFsG1xzz1L7zKGo2fbiqv256Z92u8uCcJCgYuTBLo_solana8cb.png,485410704,"{""solana"":""4AdDFsG1xzz1L7zKGo2fbiqv256Z92u8uCcJCgYuTBLo""}",18
+8bdhP1UQMevciC9oJ7NrvgDfoW8XPXPfbkkm6vKtMS7N_solana,SPORE,Spore,spore-2,8bdhP1UQMevciC9oJ7NrvgDfoW8XPXPfbkkm6vKtMS7N_solanaceX.png,999891952,"{""solana"":""8bdhP1UQMevciC9oJ7NrvgDfoW8XPXPfbkkm6vKtMS7N""}",18
+skai,SKAI,Skillful AI,skai,skai9Xq.png,1000000000,"{""ethereum"":""0xcf078da6e85389de507ceede0e3d217e457b9d49"",""base"":""0xe7399151b688a265f347693d358821a5a8c213ec""}",18
+AVF9F4C4j8b1Kh4BmNHqybDaHgnZpJ7W7yLvL7hUpump_solana,LOBSTAR,Lobstar,lobstar,lobstardpa.png,999656446,"{""solana"":""AVF9F4C4j8b1Kh4BmNHqybDaHgnZpJ7W7yLvL7hUpump""}",18
+hop-protocol,HOP,Hop Protocol,hop-protocol,hop-protocolgrg.png,1000000000,"{""ethereum"":""0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc"",""polygon-pos"":""0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc"",""optimistic-ethereum"":""0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc"",""arbitrum-one"":""0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc"",""xdai"":""0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc"",""base"":""0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc""}",18
+ptokens-ore,ORE,ORE Network,ptokens-ore,ptokens-oreSdd.png,1060000000,"{""ethereum"":""0x4f640f2529ee0cf119a2881485845fa8e61a782a"",""binance_smart"":""0x4ef285c8cbe52267c022c39da98b97ca4b7e2ff9"",""polygon-pos"":""0xd52f6ca48882be8fbaa98ce390db18e1dbe1062d""}",18
+0x3c8cd0db9a01efa063a7760267b822a129bc7dca_base,FROC,Based Froc,based-froc,0x3c8cd0db9a01efa063a7760267b822a129bc7dca_basejHx.png,100000000000,"{""base"":""0x3c8cd0db9a01efa063a7760267b822a129bc7dca""}",18
+core-scientific-xstock,CORZX,Core Scientific xStock,core-scientific-xstock,core-scientific-xstock2fN.png,5036651,"{""ethereum"":""0x51ed5b74a05f256dbd9ebb4e4f68bb41ba10160b"",""solana"":""XsBGEXxbBcuu8Nrokj14G8v4ezT3JYWWLneTzXK8t6Z""}",18
+xerc20-pro,X,X,xerc20-pro,xerc20-proCvC.png,966082387957,"{""ethereum"":""0xa62894d5196bc44e4c3978400ad07e7b30352372""}",18
+0xf5f2a79eeccf6e7f4c570c803f529930e29cc96b_base,CERTAI,CertaiK by Virtuals,certaik-by-virtuals,0xf5f2a79eeccf6e7f4c570c803f529930e29cc96b_baseBkV.png,997195783,"{""base"":""0xf5f2a79eeccf6e7f4c570c803f529930e29cc96b""}",18
+AdxNrCntq6YkYC2qVffF2Fw7WC1UatKhV8J6G4ekgNx3_solana,SON,"ARE YA WINNING, SON?",are-ya-winning-son,AdxNrCntq6YkYC2qVffF2Fw7WC1UatKhV8J6G4ekgNx3_solanaUp9.png,999968214,"{""solana"":""AdxNrCntq6YkYC2qVffF2Fw7WC1UatKhV8J6G4ekgNx3""}",18
+0xe67c44430f0f1d2c71bdda95348740523d397777_robinhood,DMND,Diamond,diamond-3,diamond-3qYg.png,1000000000,"{""robinhood"":""0xe67c44430f0f1d2c71bdda95348740523d397777""}",18
+rusk-token,RUSK,Rusk Token,rusk-token,rusk-token9Lh.png,851170681,"{""polygon-pos"":""0x231878d973c09fbcc0ca2239fffb717795402cb4"",""solana"":""8opwitz1u9ArvM5k8o6PTximNeNk8yMzqWyjJfCotRtd""}",18
+naos-finance,NAOS,NAOS Finance,naos-finance,naos-financePZT.png,219179510,"{""ethereum"":""0x4a615bb7166210cce20e6642a6f8fb5d4d044496"",""binance_smart"":""0x758d08864fb6cce3062667225ca10b8f00496cc2""}",18
+sedra-coin,SDR,Sedra Coin,sedra-coin,sedra-coin0Bg.png,26398018860,,
+shape-bridged-weth-shape,WETH,Shape Bridged WETH (Shape),shape-bridged-weth-shape,shape-bridged-weth-shape5lX.png,43.2463,"{""shape"":""0x4200000000000000000000000000000000000006""}",18
+the-wendy-s-company-backpack-securities,WEN,The Wendy's Company (Backpack Securities),the-wendy-s-company-backpack-securities,the-wendy-s-company-backpack-securitiesdZJ.png,18985,"{""solana"":""WENAZ2WyPbmgvUcKfQ8hyMDfBQP9bZ65hsZ5KTFrRGZ""}",18
+LoL1RDQiUfifC2BX28xaef6r2G8ES8SEzgrzThJemMv_solana,LOL,LOL,lol-3,LoL1RDQiUfifC2BX28xaef6r2G8ES8SEzgrzThJemMv_solanaZFJ.png,977272747,"{""solana"":""LoL1RDQiUfifC2BX28xaef6r2G8ES8SEzgrzThJemMv""}",18
+0x636bd98fc13908e475f56d8a38a6e03616ec5563_ethereum,WAT,Wat,wat,watMdw.png,420690000000,"{""ethereum"":""0x636bd98fc13908e475f56d8a38a6e03616ec5563""}",18
+0x1c26da604221466976beeb509698152ba8a3a13f_abstract,GRIND,GRIND,grind,0x1c26da604221466976beeb509698152ba8a3a13f_abstractL4V.png,77777777777,"{""abstract"":""0x1c26da604221466976beeb509698152ba8a3a13f""}",18
+0xbc732bc5f1e9a9f4bdf4c0672ee538dbf56c161afe04ff1de2176efabdf41f92::suai::SUAI_sui,SUAI,SuiAI,suiai,0xbc732bc5f1e9a9f4bdf4c0672ee538dbf56c161afe04ff1de2176efabdf41f92::suai::SUAI_suiw5K.png,1000000000,"{""sui"":""0xbc732bc5f1e9a9f4bdf4c0672ee538dbf56c161afe04ff1de2176efabdf41f92::suai::SUAI""}",18
+wong,WONG,WONG,wong,wongtB2.png,1000000000,"{""apechain"":""0xd6e4df460d9ba104dfc5dc57db392c177083d20c""}",18
+rex-fun,REX,rex.fun,rex-fun,rex-funDrV.png,999872079,"{""solana"":""CmQJNJ185pjzQoebPbcqZu1kTykHxJbn4gER1Af7pump""}",18
+0xdcaa5e062b2be18e52ea6ed7ba232538621ddc10_base,AURA,Aurra by Virtuals,aurra-by-virtuals,0xdcaa5e062b2be18e52ea6ed7ba232538621ddc10_basenE0.png,1000000000,"{""base"":""0xdcaa5e062b2be18e52ea6ed7ba232538621ddc10""}",18
+pnetwork,PNT,pNetwork,pnetwork,pnetworkRWD.png,87969765,"{""ethereum"":""0x89ab32156e46f46d02ade3fecbe5fc4243b9aaed"",""binance_smart"":""0xdaacb0ab6fb34d24e8a67bfa14bf4d95d4c7af92""}",18
+acquire-fi,ACQ,Acquire.Fi,acquire-fi,acquire-fiBuY.png,298898952,"{""ethereum"":""0x4bdcb66b968060d9390c1d12bd29734496205581""}",18
+HdHqKPz3n52e6FCJREKY3MS56TagyvRxsxVYG7E4rF99_solana,47,TRUMP 47,trump-47,HdHqKPz3n52e6FCJREKY3MS56TagyvRxsxVYG7E4rF99_solanapJ8.png,842859944,"{""solana"":""HdHqKPz3n52e6FCJREKY3MS56TagyvRxsxVYG7E4rF99""}",18
+slimex,SLX,Slimex,slimex,slimexaog.png,10000000000,"{""binance_smart"":""0x8a063a9ff4de28dcb87117cc759be6ce70e09f81"",""klay-token"":""0x32db8748f9b99c6fc2590484f584089955d05c19""}",18
+revv,REVV,REVV,revv,revvJ6M.png,3000000000,"{""ethereum"":""0x557b933a7c2c45672b610f8954a3deb39a51a8ca"",""binance_smart"":""0x833f307ac507d47309fd8cdd1f835bef8d702a93"",""polygon-pos"":""0x70c006878a5a50ed185ac4c87d837633923de296""}",18
+nova-4,NOVA,NOVA,nova-4,nova-4o8I.png,1000000000,"{""solana"":""NoVpnNV3Mj6ozo6SF2E2DAGkQZ1DmBcsKuSL1xz5a69""}",18
+snowflake-inc-robinhood-token,SNOW,Snowflake Inc. • Robinhood Token,snowflake-inc-robinhood-token,snowflake-inc-robinhood-tokene4T.png,342.5612,"{""robinhood"":""0xba0cab75495255d0cb58e22b648bfed4ecd1f47e""}",18
+nova-usdc,USDC,zkLink Nova Merged Bridged USDC (zkLink Nova),nova-usdc,nova-usdcLQj.png,115319,"{""zklink-nova"":""0x1a1a3b2ff016332e866787b311fcb63928464509""}",18
+A8bcY1eSenMiMy75vgSnp6ShMfWHRHjeM6JxfM1CNDL_solana,CANDLE,Candle TV,candle-tv,candle-tvl2w.png,9999794942,"{""solana"":""A8bcY1eSenMiMy75vgSnp6ShMfWHRHjeM6JxfM1CNDL""}",18
+nonja,NONJA,Nonja,nonja,nonjaPRY.png,1000000000,"{""injective"":""inj1fu5u29slsg2xtsj7v5la22vl4mr4ywl7wlqeck""}",18
+stride-staked-osmo,STOSMO,Stride Staked Osmo,stride-staked-osmo,stride-staked-osmoDCl.png,2292844,"{""osmosis"":""ibc/D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC""}",18
+kncler-coin,KANCLER,kncler coin,kncler-coin,kncler-coinzE1.png,999997007,"{""solana"":""FiDNTyuVE3V89DXRyoEWj1Gv4bycDL9Hub9tGmoHpump""}",18
+4i7AHzGkMRfuq7dsDtDYRJhNPWJox4Lgh5kN2Awhpump_solana,MEMESAI,Memes AI,memes-ai-2,memes-ai-2iLz.png,999858660,"{""solana"":""4i7AHzGkMRfuq7dsDtDYRJhNPWJox4Lgh5kN2Awhpump""}",18
+0x3d01fe5a38ddbd307fdd635b4cb0e29681226d6f_base,ALPHA,Alpha,alpha-6,0x3d01fe5a38ddbd307fdd635b4cb0e29681226d6f_basesMN.png,100000000000,"{""base"":""0x3d01fe5a38ddbd307fdd635b4cb0e29681226d6f""}",18
+GhuEi5AWtZaWuAda4ysJwMTzU8oMdjiL1bz6eziptT2p_solana,FROGE,Froge,froge-4,froge-4H7K.png,747890430,"{""solana"":""GhuEi5AWtZaWuAda4ysJwMTzU8oMdjiL1bz6eziptT2p""}",18
+friends-with-benefits-pro,FWB,Friends With Benefits Pro [OLD],friends-with-benefits-pro,friends-with-benefits-pro3jv.png,1000000,"{""ethereum"":""0x35bd01fc9d6d5d81ca9e055db88dc49aa2c699a8""}",18
+3fP61JWqLxxrvBv5NSxJdAz4GtCB7UpfU3UFxZTgj1yG_solana,WAR,Warrior Coin,warrior-coin,3fP61JWqLxxrvBv5NSxJdAz4GtCB7UpfU3UFxZTgj1yG_solanaCzE.png,139985698683,"{""solana"":""3fP61JWqLxxrvBv5NSxJdAz4GtCB7UpfU3UFxZTgj1yG""}",18
+0x555f3aa7c9c60ca67f906557777fab78fd70a302da7d66a23fcb4f8808d15010::sonic::SONIC_sui,SONIC,Sonic Snipe Bot,sonic-snipe-bot,0x555f3aa7c9c60ca67f906557777fab78fd70a302da7d66a23fcb4f8808d15010::sonic::SONIC_suiMos.png,6101614,"{""sui"":""0x555f3aa7c9c60ca67f906557777fab78fd70a302da7d66a23fcb4f8808d15010::sonic::SONIC""}",18
+BgQ2Tj4y4YQume4guQrkK8RWB8oRQtHYtAta1tXubL1G_solana,BIF,bonkwifhat,bonkwifhat,bonkwifhatnGU.png,1000000000,"{""solana"":""BgQ2Tj4y4YQume4guQrkK8RWB8oRQtHYtAta1tXubL1G""}",18
+0x6cdd08de79231a1957f205a3fe5cf9dbf4b0c454_binance_smart,BABYNEIRO,Baby Neiro,baby-neiro-2,0x6cdd08de79231a1957f205a3fe5cf9dbf4b0c454_binance_smart4K5.png,0,"{""binance_smart"":""0x6cdd08de79231a1957f205a3fe5cf9dbf4b0c454""}",18
+0xa71e2738704e367798baa2755af5a10499634953_arbitrum-one,AVRK,Avarik Saga,avarik-saga,avarik-sagaEjU.png,500000000,"{""arbitrum-one"":""0xa71e2738704e367798baa2755af5a10499634953"",""ethereum"":""0x607f451f850cb612a07b37b6315be23f55165610"",""base"":""0xcaacd56d3d9b41d9d1272457e77f8ae510fdb688""}",18
+0xf7d2a651188ea9f52cc802b3d962eb6c88bfaba3_robinhood,HOVER,Hover,hover-2,hover-2K78.png,100000000000,"{""robinhood"":""0xf7d2a651188ea9f52cc802b3d962eb6c88bfaba3""}",18
+wrapped-bmx-liquidity-token,WBLT,Wrapped BMX Liquidity Token,wrapped-bmx-liquidity-token,wrapped-bmx-liquidity-tokenEx6.png,211880,"{""base"":""0x4e74d4db6c0726ccded4656d0bce448876bb4c7a""}",18
+osmosis-alllink,LINK,Osmosis allLINK,osmosis-alllink,osmosis-alllinkkdb.png,8153,"{""osmosis"":""factory/osmo18zdw5yvs6gfp95rp74qqwug9yduw2fyr8kplk2xgs726s9axc5usa2vpgw/alloyed/allLINK""}",18
+8cHzQHUS2s2h8TzCmfqPKYiM4dSt4roa3n7MyRLApump_solana,CLAWD,solanaclawd,solanaclawd,solanaclawdZ2V.png,774897390,"{""solana"":""8cHzQHUS2s2h8TzCmfqPKYiM4dSt4roa3n7MyRLApump""}",18
+BnszRWbs9LxSzsCUUS57HMTNNtyDHFsnmZ1mVhAYdaos_solana,LLM,Latina Language Model,latina-language-model,latina-language-modelqtG.png,994921940,"{""solana"":""BnszRWbs9LxSzsCUUS57HMTNNtyDHFsnmZ1mVhAYdaos""}",18
+A8YHuvQBMAxXoZAZE72FyC8B7jKHo8RJyByXRRffpump_solana,XBT,XBT,xbt,A8YHuvQBMAxXoZAZE72FyC8B7jKHo8RJyByXRRffpump_solanaFFT.png,999729758,"{""solana"":""A8YHuvQBMAxXoZAZE72FyC8B7jKHo8RJyByXRRffpump""}",18
+3KHMZhpthXuiCcgfTv7vVu9PpEz64KAEURFwi6Lopump_solana,GOBLIN,GoblinCoin,goblincoin,goblincoinONI.png,703458379,"{""solana"":""3KHMZhpthXuiCcgfTv7vVu9PpEz64KAEURFwi6Lopump""}",18
+7Tx8qTXSakpfaSFjdztPGQ9n2uyT1eUkYz7gYxxopump_solana,ASSDAQ,ASSDAQ,assdaq,7Tx8qTXSakpfaSFjdztPGQ9n2uyT1eUkYz7gYxxopump_solanaIDi.png,999841741,"{""solana"":""7Tx8qTXSakpfaSFjdztPGQ9n2uyT1eUkYz7gYxxopump"",""ethereum"":""0xf4f53989d770458b659f8d094b8e31415f68a4cf""}",18
+fishkoin,KOIN,Fishkoin,fishkoin,fishkoinPgf.png,16427461650768,"{""binance_smart"":""0x7f72ebb448387537c174a5d17e762c877db28fb6""}",18
+0x3c10e343095e4fddf5cc36fcd41e298cf9ad2eaa_binance_smart,ORX,OREX,orex,0x3c10e343095e4fddf5cc36fcd41e298cf9ad2eaa_binance_smartHef.png,50000000,"{""binance_smart"":""0x3c10e343095e4fddf5cc36fcd41e298cf9ad2eaa""}",18
+grape-2,GRAPE,Grape Protocol,grape-2,grape-2hvM.png,999608983,"{""solana"":""8upjSpvjcdpuzhfR1zriwg5NXkwDruejqNE9WNbPRtyA""}",18
+moon3CP11XLvrAxUPBnPtueDEJvmjqAyZwPuq7wBC1y_solana,MROCKS,Moon Rocks,moon-rocks,moon3CP11XLvrAxUPBnPtueDEJvmjqAyZwPuq7wBC1y_solanamiw.png,999987786,"{""solana"":""moon3CP11XLvrAxUPBnPtueDEJvmjqAyZwPuq7wBC1y""}",18
+GtV6g1ey2NERrcbvL5bdzrxRJQDfxpMaLU9oLtRipump_solana,CROW,CROW,crow-4,crow-4l3v.png,979635637,"{""solana"":""GtV6g1ey2NERrcbvL5bdzrxRJQDfxpMaLU9oLtRipump""}",18
+4q3Z58YxrZEAVMLtMwnm7eHtodSD3LSpSNt3pDnqpump_solana,KOLIN,Kolin,kolin-2,4q3Z58YxrZEAVMLtMwnm7eHtodSD3LSpSNt3pDnqpump_solanaZ2Q.png,999898770,"{""solana"":""4q3Z58YxrZEAVMLtMwnm7eHtodSD3LSpSNt3pDnqpump""}",18
+hyre-agent,HYRE,Hyre Agent,hyre-agent,hyre-agentFAG.png,995981444,"{""solana"":""2HtyE1W7fE2cdoYxR5fsukr9AyoQGpJep14NAVBMpump""}",18
+Adgt7dseCq71eN6GDuoUgpsNQp81ZNhq24nrF7pxpump_solana,NOIZ,Noiz,noiz,noiz9nJ.png,954678425,"{""solana"":""Adgt7dseCq71eN6GDuoUgpsNQp81ZNhq24nrF7pxpump""}",18
+0xf609e7c374ee82001c3c9834c63d8c8cc6ed7777_binance_smart,妖蝶,妖蝶 (Yao Die),yao-die,yao-diexBq.png,508783354,"{""binance_smart"":""0xf609e7c374ee82001c3c9834c63d8c8cc6ed7777""}",18
+AiqBwm3CpoCM6rmsR9BwM6zNXns4YVwjkvpXKNdCmoon_solana,VDNA,VERRA DNA,verra-dna,AiqBwm3CpoCM6rmsR9BwM6zNXns4YVwjkvpXKNdCmoon_solanahi5.png,989982726,"{""solana"":""AiqBwm3CpoCM6rmsR9BwM6zNXns4YVwjkvpXKNdCmoon""}",18
+zZRRHGndBuUsbn4VM47RuagdYt57hBbskQ2Ba6K5775_solana,GREG,greg16676935420,greg16676935420,greg16676935420Unb.png,999899532,"{""solana"":""zZRRHGndBuUsbn4VM47RuagdYt57hBbskQ2Ba6K5775""}",18
+fodl-finance,FODL,Fodl Finance,fodl-finance,fodl-financePeH.png,1000000000,"{""ethereum"":""0x4c2e59d098df7b6cbae0848d66de2f8a4889b9c3"",""binance_smart"":""0x43f5b29d63cedc5a7c1724dbb1d698fde05ada21"",""polygon-pos"":""0x5314ba045a459f63906aa7c76d9f337dcb7d6995""}",18
+elon-goat,EGT,Elon GOAT,elon-goat,elon-goatjur.png,9000000000,"{""ethereum"":""0x450e7f6e3a2f247a51b98c39297a9a5bfbdb3170""}",18
+psydao,PSY,PsyDAO,psydao,psydao94V.png,102334155,"{""ethereum"":""0x2196b84eace74867b73fb003aff93c11fce1d47a""}",18
+monsta-infinite,MONI,Monsta Infinite,monsta-infinite,monsta-infiniteMlu.png,270000000,"{""binance_smart"":""0x9573c88ae3e37508f87649f87c4dd5373c9f31e0""}",18
+feels-good-man-2,FGM,Feels Good Man,feels-good-man-2,feels-good-man-212w.png,69420000000,"{""ethereum"":""0x1f19d846d99a0e75581913b64510fe0e18bbc31f""}",18
+safevano-wallet,SAFEVANO,Safevano Wallet,safevano-wallet,safevano-walletGMf.png,10999936,"{""robinhood"":""0xe6613d2bbd5f5c5bb203c36ee414ffaa4a47a977""}",18
+kolscan,KOLSCAN,kolscan,kolscan,kolscanc2g.png,965006586,"{""solana"":""6jTQCFZR8JwvvenVGa3RzGM3a5YEagk9kQXDpHHdpump""}",18
+0xf63e309818e4ea13782678ce6c31c1234fa61809_ethereum,JANET,Janet,janet,0xf63e309818e4ea13782678ce6c31c1234fa61809_ethereumluk.png,1000000000,"{""ethereum"":""0xf63e309818e4ea13782678ce6c31c1234fa61809""}",18
+bankless-dao,BANK,Bankless DAO,bankless-dao,bankless-dao60H.png,1000000000,"{""ethereum"":""0x2d94aa3e47d9d5024503ca8491fce9a2fb4da198"",""polygon-pos"":""0xdb7cb471dd0b49b29cab4a1c14d070f27216a0ab"",""optimistic-ethereum"":""0x29faf5905bff9cfcc7cf56a5ed91e0f091f8664b""}",18
+robonomics-network-2,XRT,Robonomics Network,robonomics-network-2,robonomics-network-202l.png,898843,"{""ethereum"":""0x1f752250f518e419f2f03804e25728c5c6dff73f""}",18
+FMTG5DSNYSS6Wv6d6bWG8MnK9ncdgVnkUFRj3ksdpump_solana,ALBEMARLE,Albemarle City,albemarle-city,albemarle-citya6u.png,999956739,"{""solana"":""FMTG5DSNYSS6Wv6d6bWG8MnK9ncdgVnkUFRj3ksdpump""}",18
+shadowtokens-bridged-usdc-elastos,ETHUSDC,Shadow Token Bridged USDC (Elastos),shadowtokens-bridged-usdc-elastos,shadowtokens-bridged-usdc-elastosLul.png,112814,"{""elastos"":""0xa06be0f5950781ce28d965e5efc6996e88a8c141""}",18
+CdAH7BSRD7qNeZFA2Rbm4KATL45ko793hPxxAixUpump_solana,PEP,Smol Pep,smol-pep-2,smol-pep-2zmK.png,999707716,"{""solana"":""CdAH7BSRD7qNeZFA2Rbm4KATL45ko793hPxxAixUpump""}",18
+map-technical-forecasting,MAPTF,MAP Technical Forecasting,map-technical-forecasting,map-technical-forecastingaEE.png,1000000000,"{""internet-computer"":""vurva-zqaaa-aaaak-quezq-cai""}",18
+usa-rare-earth-ondo-tokenized,USARON,USA Rare Earth (Ondo Tokenized),usa-rare-earth-ondo-tokenized,usa-rare-earth-ondo-tokenizedKo9.png,8241,"{""ethereum"":""0xe2c149fa719d43912bfe584c71c9a6a018a5e916"",""binance_smart"":""0x2206e07410a8fe9ef595e7184b2e9d160fdb7211"",""solana"":""aA1dRckexLmQyppFoWmjKDFjrNFUsZeGzZ7L5xpondo""}",18
+coreweave-rstock,RCRWV,CoreWeave Tokenized Stock (Reality),coreweave-rstock,coreweave-rstocke2m.png,1258,"{""arbitrum-one"":""0x3621153439c995084cd0e359a5f5239de41811eb"",""morph-l2"":""0x837a290550fe6de10aa2d21d3f513e6151f12249""}",18
+brett,BRETT,Brett,brett,brettqxw.png,1000000000,"{""solana"":""DxtssVdyYe4wWE5f5zEgx2NqtDFbVL3ABGY62WCycHWg""}",18
+antimatter,TUNE,Bitune,antimatter,1615379705555.png,100000000,"{""ethereum"":""0x1fac00ccee478eced6a120a50ed2ab28ee7fe32b"",""arbitrum-one"":""0xaaa62d9584cbe8e4d68a43ec91bff4ff1fadb202""}",18
+6baGyq4HLbUn93MQUGFqBktpXP8BRjpoxSsAap4ppump_solana,LEVI,The White Bull,the-white-bull-2,the-white-bull-2T8s.png,999979273,"{""solana"":""6baGyq4HLbUn93MQUGFqBktpXP8BRjpoxSsAap4ppump""}",18
+timeswap,TIME,Timeswap,timeswap,timeswapo1m.png,1750000000,,
+0x69c68e4c00c6f6e4ac027300293a879be1e11e18_robinhood,AP,ap,ap,0x69c68e4c00c6f6e4ac027300293a879be1e11e18_robinhoodzSP.png,1000000000,"{""robinhood"":""0x69c68e4c00c6f6e4ac027300293a879be1e11e18""}",18
+0x919e43a2cce006710090e64bde9e01b38fd7f32f_base,AIYP,Agent YP by Virtuals,agent-yp-by-virtuals,0x919e43a2cce006710090e64bde9e01b38fd7f32f_baseUAL.png,999031959,"{""base"":""0x919e43a2cce006710090e64bde9e01b38fd7f32f""}",18
+smoothy,SMTY,Smoothy,smoothy,smoothyjOp.png,100000000,"{""ethereum"":""0xbf776e4fca664d791c4ee3a71e2722990e003283"",""binance_smart"":""0xbf776e4fca664d791c4ee3a71e2722990e003283""}",18
+odin-tools,ODIN,ODIN Tools,odin-tools,odin-tools7hg.png,92010852,"{""solana"":""odinyvt9FgWWxw9BwZFjf7Agcch6Pk9mKubszw4izAG""}",18
+liquidus-2,LIQ,Liquidus,liquidus-2,liquidus-2Iwu.png,6500000,"{""binance_smart"":""0x2749c9f2f8568d389bbf61ed77784a43c3cd3e19""}",18
+J2bUGZDxRDpsVfjZqKwn6yYCUKFmqzHgt8UajhGtpump_solana,∅,Voidify,-7,J2bUGZDxRDpsVfjZqKwn6yYCUKFmqzHgt8UajhGtpump_solanakck.png,959620870,"{""solana"":""J2bUGZDxRDpsVfjZqKwn6yYCUKFmqzHgt8UajhGtpump""}",18
+986j8mhmidrcbx3wf1XJxsQFvWBMXg7gnDi3mejsr8H8_solana,STRSZN,Stream SZN,stream-szn,986j8mhmidrcbx3wf1XJxsQFvWBMXg7gnDi3mejsr8H8_solanaGP4.png,999845308,"{""solana"":""986j8mhmidrcbx3wf1XJxsQFvWBMXg7gnDi3mejsr8H8""}",18
+bridged-dai-stablecoin-linea,DAI,Bridged Dai Stablecoin (Linea),bridged-dai-stablecoin-linea,bridged-dai-stablecoin-lineapaM.png,111747,"{""linea"":""0x4af15ec2a0bd43db75dd04e62faa3b8ef36b00d5""}",18
+catheon-gaming,CATHEON,Catheon Gaming,catheon-gaming,catheon-gaming3Nr.png,10000000000,"{""polygon-pos"":""0x7e7737c40878e720b32e7bc9cd096259f876d69f""}",18
+majo,MAJO,Majo,majo,majoRDy.png,21000000,,
+solana-shib,SSHIB,Solana Shib ,solana-shib,solana-shibCdY.png,93673202071350,"{""solana"":""6VHL2vMKgrF1YQFSv29Rs1pj9VCRK29bD11NtDqerqHA""}",18
+63zfjPfH4uaX3TQZoD35WqUrqiuCQQWndMTxQHsJpump_solana,PROMETHEUS,Prometheus,prometheus-6,prometheus-6bdn.png,924819195,"{""solana"":""63zfjPfH4uaX3TQZoD35WqUrqiuCQQWndMTxQHsJpump""}",18
+cipher-2,CPR,CIPHER,cipher-2,cipher-2rGh.png,10800000000,"{""polygon-pos"":""0xaa404804ba583c025fa64c9a276a6127ceb355c6""}",18
+ada-peepos,FREN,FREN,ada-peepos,ada-peeposbu2.png,420069000000,"{""cardano"":""fc11a9ef431f81b837736be5f53e4da29b9469c983d07f321262ce61""}",18
+defi-kingdoms-crystal,CRYSTAL,DeFi Kingdoms Crystal,defi-kingdoms-crystal,defi-kingdoms-crystalJnm.png,235230607,"{""defi-kingdoms-blockchain"":""0x04b9da42306b023f3572e106b11d82aad9d32ebb""}",18
+0x1e8e148055cbd5a02ea75eed79da7ce4b91108b9_ethereum,FART,FartCoin,fartcoin-2,0x1e8e148055cbd5a02ea75eed79da7ce4b91108b9_ethereumRtT.png,69420000,"{""ethereum"":""0x1e8e148055cbd5a02ea75eed79da7ce4b91108b9""}",18
+plant-vs-undead-token,PVU,Plant vs Undead,plant-vs-undead-token,plant-vs-undead-tokenXqk.png,300000000,"{""binance_smart"":""0x31471e0791fcdbe82fbf4c44943255e923f1b794""}",18
+GmbC2HgWpHpq9SHnmEXZNT5e1zgcU9oASDqbAkGTpump_solana,CATANA,Catana,catana,GmbC2HgWpHpq9SHnmEXZNT5e1zgcU9oASDqbAkGTpump_solanaLY9.png,999785230,"{""solana"":""GmbC2HgWpHpq9SHnmEXZNT5e1zgcU9oASDqbAkGTpump""}",18
+9eF4iX4BzeKnvJ7gSw5L725jk48zJw2m66NFxHHvpump_solana,LIVE,Stream until 100M MC,stream-until-100m-mc,9eF4iX4BzeKnvJ7gSw5L725jk48zJw2m66NFxHHvpump_solanaZ7z.png,980690159,"{""solana"":""9eF4iX4BzeKnvJ7gSw5L725jk48zJw2m66NFxHHvpump""}",18
+marketpeak,PEAK,PEAKDEFI,marketpeak,MarketPeakW1t6L.png,2133871318,"{""ethereum"":""0x630d98424efe0ea27fb1b3ab7741907dffeaad78"",""binance_smart"":""0x630d98424efe0ea27fb1b3ab7741907dffeaad78""}",18
+peppin,PEPPIN,Peppin,peppin,peppinkBQ.png,1000000000,"{""binance_smart"":""0xa81697d866bfcfbdecd44134c5c02c7032c07777""}",18
+foxe,FOXE,FOXE,foxe,foxesSL.png,177781900000000,"{""ethereum"":""0x378e1be15be6d6d1f23cfe7090b6a77660dbf14d""}",18
+0xd83c128e7498be555845a6dc331a99e1524c1777_binance_smart,UTOPIA,Utopia,utopia-3,utopia-3qqh.png,1000000000,"{""binance_smart"":""0xd83c128e7498be555845a6dc331a99e1524c1777""}",18
+janus-henderson-aaa-clo-etf-ondo-tokenized-etf,JAAAON,Janus Henderson AAA CLO ETF (Ondo Tokenized ETF),janus-henderson-aaa-clo-etf-ondo-tokenized-etf,janus-henderson-aaa-clo-etf-ondo-tokenized-etfdOs.png,2141,"{""ethereum"":""0x219a1b27baa08d72fac836665a3b752f3c9acbbc"",""binance_smart"":""0x84719a1082ed487c7eeac7d69885e3cc2009ea78"",""solana"":""KZtqx9BJbpcGY7vdzhqPXM3ECKChxE5YhXaDiwRondo""}",18
+lilybux,LILYBUX,LilyBux,lilybux,lilybuxq4I.png,999986284,"{""solana"":""3wASZZHadqJDw2decXbBoM1qLMKmh3pCBXk9nArwpump""}",18
+astherus-staked-cake,ASCAKE,Aster Staked CAKE,astherus-staked-cake,astherus-staked-cakezkU.png,40932,"{""binance_smart"":""0x9817f4c9f968a553ff6caef1a2ef6cf1386f16f7""}",18
+crossswap,CSWAP,CrossSwap,crossswap,crossswaphAw.png,20000000,"{""ethereum"":""0xe0b0c16038845bed3fcf70304d3e167df81ce225"",""binance_smart"":""0xe0b0c16038845bed3fcf70304d3e167df81ce225""}",18
+faraland,FARA,FaraLand,faraland,faralandued.png,71000000,"{""binance_smart"":""0xf4ed363144981d3a65f42e7d0dc54ff9eef559a1""}",18
+GYKmdfcUmZVrqfcH1g579BGjuzSRijj3LBuwv79rpump_solana,WDOG,Wrapped DOG,wrapped-dog,GYKmdfcUmZVrqfcH1g579BGjuzSRijj3LBuwv79rpump_solananuN.png,999998439,"{""solana"":""GYKmdfcUmZVrqfcH1g579BGjuzSRijj3LBuwv79rpump""}",18
+joby-aviation-rstock,RJOBY,Joby Aviation Tokenized Stock (Reality),joby-aviation-rstock,joby-aviation-rstockLBf.png,18596,"{""arbitrum-one"":""0x5ba1fccd3b366bb57fd712c23c281e1b957eed85"",""morph-l2"":""0x5d58ef9350304102525504fbe43543ded9264a2e""}",18
+5sbZ3E6x84GXtWmBG2vX5pCTLuvCPiwn5C2Yrs3eden_solana,EDEN,Edenlayer,edenlayer,5sbZ3E6x84GXtWmBG2vX5pCTLuvCPiwn5C2Yrs3eden_solanaicW.png,999996864,"{""solana"":""5sbZ3E6x84GXtWmBG2vX5pCTLuvCPiwn5C2Yrs3eden""}",18
+grok-4,GROK,GROK,grok-4,grok-4mvQ.png,840172141532,"{""binance_smart"":""0xc53ca0d56c420e8f913316e84d2c492ede99c61e""}",18
+bGxHNbsacaVL35pkYWae5PYQDZXSpuQb3QDyW31pump_solana,PEANUT,OG Peanut,1-squirrel,bGxHNbsacaVL35pkYWae5PYQDZXSpuQb3QDyW31pump_solananZV.png,999837070,"{""solana"":""bGxHNbsacaVL35pkYWae5PYQDZXSpuQb3QDyW31pump""}",18
+corgicoin,CORGI,CorgiCoin,corgicoin,corgicoinQrm.png,10000000000,"{""binance_smart"":""0x450dcf93160a30be156a4600802c91bf64dffd2e""}",18
+CB1YQfUzgsnaCd93cZLdiX1uASW7utWBaYMUsvcwNUBV_solana,LOOM,loom,loom-4,loom-4l0L.png,968509717,"{""solana"":""CB1YQfUzgsnaCd93cZLdiX1uASW7utWBaYMUsvcwNUBV""}",18
+crawju,CRAWJU,CRAWJU,crawju,crawjugzv.png,994109792,"{""cardano"":""ac597ca62a32cab3f4766c8f9cd577e50ebb1d00383ec7fa3990b016435241574a55""}",18
+0x747e550a7b848ace786c3cfe754aa78febc8a022_ethereum,DODO,DODO,dodo-2,dodo-2sDD.png,10000000,"{""ethereum"":""0x747e550a7b848ace786c3cfe754aa78febc8a022""}",18
+0xdbcd57cc74b180f928258f7b1a32f6f7e64bf12e_ethereum,BEPE,Baby Pepe Token,baby-pepe-token,baby-pepe-tokensPP.png,1000000000,"{""ethereum"":""0xdbcd57cc74b180f928258f7b1a32f6f7e64bf12e""}",18
+remiG7sGaHWgrY7o6SXJW5CYi5A7kmKutyJz6x6hUsp_solana,REMILIO,remilio,remilio,remilioYY6.png,994644188,"{""solana"":""remiG7sGaHWgrY7o6SXJW5CYi5A7kmKutyJz6x6hUsp""}",18
+6n7Janary9fqzxKaJVrhL9TG2F61VbAtwUMu1YZscaQS_solana,HOBBES,Ansem's Cat,ansem-s-cat,ansem-s-catcsL.png,999999889,"{""solana"":""6n7Janary9fqzxKaJVrhL9TG2F61VbAtwUMu1YZscaQS""}",18
+durovs-dog,PYONYA,Durovs Dog,durovs-dog,durovs-dogL1G.png,923505575,"{""the-open-network"":""EQAOyf4n-7wTtTI45LGQwfacEfnkpOa9v6bjpwgeCHX5WW8y""}",18
+updog,UPDOG,UpDog,updog,updogtjR.png,1000000000000000,"{""binance_smart"":""0x400613f184d1207f5c07a67d67040a4e23e92feb""}",18
+ArQNTJtmxuWQ77KB7a1PmoZc5Zd25jXmXPDWBX8qVoux_solana,PNP,PNP Exchange,pnp-exchange,ArQNTJtmxuWQ77KB7a1PmoZc5Zd25jXmXPDWBX8qVoux_solanazZE.png,999976863,"{""solana"":""UVcu7kbVKW6Rs5PKzuwVSbm8ukvrWByS3hBXqHapump""}",18
+bombie,BOMB,Bombie,bombie,bombie1cv.png,10000000000,"{""binance_smart"":""0x7e975d85714b11d862c7cffee3c88d565a139eb7"",""the-open-network"":""EQAQZEf6A-BfN8wYVnjdyPWpCXwkTSjhfF5ZWP7AjReM4eEI""}",18
+0x6386da73545ae4e2b2e0393688fa8b65bb9a7169_sophon,USDT,Sophon Bridged USDT (Sophon),sophon-bridged-usdt-sophon,sophon-bridged-usdt-sophontrO.png,109807,"{""sophon"":""0x6386da73545ae4e2b2e0393688fa8b65bb9a7169""}",18
+orbit-4,ORBIT,Orbit,orbit-4,orbit-4V8I.png,999986961,"{""hedera-hashgraph"":""0.0.10460232""}",18
+plutusdao,PLS,PlutusDAO,plutusdao,plutusdaoP0v.png,100000000,"{""arbitrum-one"":""0x51318b7d00db7acc4026c88c3952b66278b6a67f""}",18
+gyoza,GYOZA,Gyoza,gyoza,gyozaTed.png,1000000000,"{""ethereum"":""0x4e51a6b3cc6d5ae69a0d44db9de846aeb5a582dd""}",18
+6Tph3SxbAW12BSJdCevVV9Zujh97X69d5MJ4XjwKmray_solana,CYAI,CyreneAI,cyreneai,cyreneaiKJW.png,999795216,"{""solana"":""6Tph3SxbAW12BSJdCevVV9Zujh97X69d5MJ4XjwKmray""}",18
+hey-research-lab,HEY,Hey Research Lab,hey-research-lab,hey-research-labxqk.png,856597026,"{""robinhood"":""0xb33eb16782776b4d738c0fd643577cb0284db610""}",18
+topgoal,GOAL,TopGoal,topgoal,topgoalJRa.png,1000000000,"{""binance_smart"":""0xc4736f2611a62d545dc2d0d8f0766283617e6fcb""}",18
+alt-town,TOWN,Alt.town,alt-town,alt-town0SL.png,2000000000,"{""binance_smart"":""0x1aaeb7d6436fda7cdac7b87ab8022e97586d2da1""}",18
+li-auto-ondo-tokenized,LION,Li Auto (Ondo Tokenized),li-auto-ondo-tokenized,li-auto-ondo-tokenized2gi.png,9691,"{""ethereum"":""0xb6e362a39db703f0f7cf582c9fc043a51624e53d"",""binance_smart"":""0x9810beac9af3c30d14cfb61cdd557e160f60fd50"",""solana"":""v12TwfofSbvVqQ5N5KGG4d3J8rtEi4BjGfn2apyondo""}",18
+astradex-ai,ADEX,AstraDex AI,astradex-ai,astradex-aihoy.png,21000000,"{""ethereum"":""0x5fd48ca1212a409ca1020ea43b49f7ec40010435""}",18
+0x36a650e757da5fb28f1c50c3405360f60c5bffff_binance_smart,WILLU,Will U,will-u,0x36a650e757da5fb28f1c50c3405360f60c5bffff_binance_smartL1l.png,1000000000,"{""binance_smart"":""0x36a650e757da5fb28f1c50c3405360f60c5bffff""}",18
+snobcat,SNAT,SnobCat,snobcat,snobcatHga.png,1000000000,"{""robinhood"":""0x02c83495bb67b325f9694dd9bfacd51c8218bdc9""}",18
+0x5b5dee44552546ecea05edea01dcd7be7aa6144a_base,TN100X,TN100x,tn100x,tn100xqy3.png,8683230738,"{""base"":""0x5b5dee44552546ecea05edea01dcd7be7aa6144a""}",18
+poodlecoin,POODLE,Poodlecoin,poodlecoin,poodlecoinCNc.png,84393868541718,"{""flare-network"":""0xc18f99ce6dd6278be2d3f1e738ed11623444ae33""}",18
+hypersign-identity-token,HID,Hypersign Identity,hypersign-identity-token,hypersign-identity-tokensQm.png,50000000,"{""ethereum"":""0xb14ebf566511b9e6002bb286016ab2497b9b9c9d"",""polygon-pos"":""0x87847703d4bb4fcd42db887ffdcb94496e77e3ab""}",18
+aped,APED,Aped,aped,apedyqA.png,1000000,"{""ethereum"":""0xe0151763455a8a021e64880c238ba1cff3787ff0""}",18
+AoR5LncBpmpv6WwxCqiEM96Z9Lwiim2bSAyZAHt9MudA_solana,AOR,American Oil Reserve,american-oil-reserve,american-oil-reserveOce.png,999980107,"{""solana"":""AoR5LncBpmpv6WwxCqiEM96Z9Lwiim2bSAyZAHt9MudA""}",18
+0xc71ea051a5f82c67adcf634c36ffe6334793d24c_ethereum,WAETHLIDOGHO,Wrapped Aave Ethereum Lido GHO,wrapped-aave-ethereum-lido-gho,wrapped-aave-ethereum-lido-ghoAKy.png,104426,"{""ethereum"":""0xc71ea051a5f82c67adcf634c36ffe6334793d24c""}",18
+9ufM9TJd1UEmi9awnGfxCkCHAgQ3JZ5Sw6YxeSeEASY_solana,INFERRA,Inferra,inferra,inferraaG2.png,999924232,"{""solana"":""9ufM9TJd1UEmi9awnGfxCkCHAgQ3JZ5Sw6YxeSeEASY""}",18
+2mmdiGEDjiKgG2Tefj5UQad7qUT4eEqLDeja2ixipump_solana,PODGE,Pepe on Doge,pepe-on-doge,2mmdiGEDjiKgG2Tefj5UQad7qUT4eEqLDeja2ixipump_solanaTZM.png,999981075,"{""solana"":""2mmdiGEDjiKgG2Tefj5UQad7qUT4eEqLDeja2ixipump"",""elrond"":""PODGE-daf74a""}",18
+anonymous-shib,ZSHIB,Anonymous Shib,anonymous-shib,anonymous-shibYrw.png,979902323,"{""solana"":""6nSM2HxvaetyDrUYjjAUKwgWGi8CGjmboLee7wcHeKN4""}",18
+Em4rcuhX6STfB7mxb66dUXDmZPYCjDiQFthvzSzpump_solana,BASED,BASED,based,Em4rcuhX6STfB7mxb66dUXDmZPYCjDiQFthvzSzpump_solanarva.png,1000000000,"{""solana"":""Em4rcuhX6STfB7mxb66dUXDmZPYCjDiQFthvzSzpump""}",18
+GVmtuUyLDuXNh2gJtHgarEtpqSiwn5965fNv37VeEhk1_solana,GDOG,GDOG,gdog,GVmtuUyLDuXNh2gJtHgarEtpqSiwn5965fNv37VeEhk1_solana08t.png,82852653115,"{""solana"":""GVmtuUyLDuXNh2gJtHgarEtpqSiwn5965fNv37VeEhk1""}",18
+vaneck-agribusiness-etf-xstock,MOOX,VanEck Agribusiness ETF xStock,vaneck-agribusiness-etf-xstock,vaneck-agribusiness-etf-xstock5XR.png,0,"{""ethereum"":""0x06a0138f8c3e5110fd98e34a4473fb08f1304b87"",""solana"":""Xs72K1Ta1D5ccNy3RzSyQWGgZywWvphX78pL8WBk1Bo"",""ink"":""0x06a0138f8c3e5110fd98e34a4473fb08f1304b87""}",18
+wombat-exchange,WOM,Wombat Exchange,wombat-exchange,wombat-exchange6W3.png,1000000000,"{""binance_smart"":""0xad6742a35fb341a9cc6ad674738dd8da98b94fb1"",""arbitrum-one"":""0x7b5eb3940021ec0e8e463d5dbb4b7b09a89ddf96"",""ethereum"":""0xc0b314a8c08637685fc3dafc477b92028c540cfb""}",18
+0xa776a95223c500e81cb0937b291140ff550ac3e4_ethereum,GRAY,Gradient,gradient,0xa776a95223c500e81cb0937b291140ff550ac3e4_ethereumbv2.png,10000000,"{""ethereum"":""0xa776a95223c500e81cb0937b291140ff550ac3e4""}",18
+0x7fb4d0f51544f24f385a421db6e7d4fc71ad8e5c_katana,WSTETH,Polygon zkEVM Bridged wstETH (Katana),polygon-zkevm-bridged-wsteth-katana,polygon-zkevm-bridged-wsteth-katanaDmQ.png,32.3935,"{""katana"":""0x7fb4d0f51544f24f385a421db6e7d4fc71ad8e5c""}",18
+clube-atletico-mineiro-fan-token,GALO,Clube Atlético Mineiro Fan Token,clube-atletico-mineiro-fan-token,clube-atletico-mineiro-fan-tokenxFd.png,10000000,"{""chiliz"":""0x558cc7ac99793b10c1c142a1c7e5adf6657dea9c"",""solana"":""HJDTyM8uTpdVfW4KSjXJnFXKDVg7czRxDm3d7PJD9PTd"",""base"":""0xfdf9877a9b63b05f44b47920a29aeeb515b735d5""}",18
+BQX1cjcRHXmrqNtoFWwmE5bZj7RPneTmqXB979b2pump_solana,ITALIANROT,Italian Brainrot,italian-brainrot,BQX1cjcRHXmrqNtoFWwmE5bZj7RPneTmqXB979b2pump_solana2lR.png,999594276,"{""solana"":""BQX1cjcRHXmrqNtoFWwmE5bZj7RPneTmqXB979b2pump""}",18
+7GUnr7krtQhJwd6ASY2VUprd9t4c64zcgCsjdmZepump_solana,NPC,NPCs,npcs,npcsUoM.png,884821585,"{""solana"":""7GUnr7krtQhJwd6ASY2VUprd9t4c64zcgCsjdmZepump""}",18
+5zCETicUCJqJ5Z3wbfFPZqtSpHPYqnggs1wX7ZRpump_solana,SPARK,Illusion of Life,illusion-of-life,illusion-of-lifeNql.png,999528094,"{""solana"":""5zCETicUCJqJ5Z3wbfFPZqtSpHPYqnggs1wX7ZRpump""}",18
+pepo1CFNU2RXf7yXX7HNXazXwxsq8WrPvDHpHriwoLY_solana,PEPO,PEPO,pepo,pepoGXz.png,997681584,"{""solana"":""pepo1CFNU2RXf7yXX7HNXazXwxsq8WrPvDHpHriwoLY""}",18
+orange-3,ORA,Orange,orange-3,orange-3K48.png,4000000,"{""algorand"":""1284444444""}",18
+bull-coin,BULL,Bull Coin,bull-coin,bull-coinNSj.png,500000000000000,"{""binance_smart"":""0xf483af09917ba63f1e274056978036d266eb56e6""}",18
+scotty-beam,SCOTTY,Scotty Beam,scotty-beam,scotty-beam50r.png,750000000,"{""binance_smart"":""0x000351d035d8bbf2aa3131ebfecd66fb21836f6c""}",18
+babylong,$BABYLONG,BABYLONG,babylong,babylongAeF.png,1029522803484,"{""binance_smart"":""0xeceb785a646f2c5ac759aa30d0fc85841ba004f3""}",18
+0x9609b540e5dedddb147abbf9812ade06b1e61b2c_ethereum,MICKEY,Steamboat Willie,steamboat-willie,steamboat-willielro.png,1000000000,"{""ethereum"":""0x9609b540e5dedddb147abbf9812ade06b1e61b2c""}",18
+el-gato,ELGATO,el gato,el-gato,el-gatoinx.png,9995611514,"{""solana"":""F47vvwFYuLioQsqEVAjqdY6Yihc8wVRiUcfHGcBR9XUs""}",18
+0x23b35c7f686cac8297ea6e81a467286481ca4444_binance_smart,SZN,BNB MEME SZN,bnb-meme-szn,0x23b35c7f686cac8297ea6e81a467286481ca4444_binance_smartbz0.png,1000000000,"{""binance_smart"":""0x23b35c7f686cac8297ea6e81a467286481ca4444""}",18
+anita-max-wynn,WYNN,Anita Max Wynn,anita-max-wynn,anita-max-wynnJCF.png,999999999,"{""solana"":""4vqYQTjmKjxrWGtbL2tVkbAU1EVAz9JwcYtd2VE3PbVU""}",18
+0x86f7424c3e1ebb3f42e1e687468e36d5f2a1222e_arc,ELLIPSE,ELLIPSE,ellipse,ellipseyiL.png,948651902,"{""arc"":""0x86f7424c3e1ebb3f42e1e687468e36d5f2a1222e""}",18
+39HqgQ18g9R33sUfKq1TjX4sbKrgTb4YntnBCFhURJvy_solana,MONEROCHAN,Monero-Chan,monero-chan,monero-chane7g.png,999898113,"{""solana"":""39HqgQ18g9R33sUfKq1TjX4sbKrgTb4YntnBCFhURJvy""}",18
+866Sh46xjH7cW7aW18tBUmGm3xh6EzGTk1Li7YbbmqJr_solana,FURM,Furmula,furmula,866Sh46xjH7cW7aW18tBUmGm3xh6EzGTk1Li7YbbmqJr_solanaFrz.png,924890746,"{""solana"":""866Sh46xjH7cW7aW18tBUmGm3xh6EzGTk1Li7YbbmqJr""}",18
+zapp,ZAPP,ZAPP,zapp,zappNxC.png,999837561,"{""solana"":""Ab16ce5SDbibTbXevxHLpqUnUvu9tNkkpaJcSDvCpump""}",18
+kilt-protocol-3,PR,Primer,kilt-protocol-3,kilt-protocol-3Gpm.png,286418767,"{""base"":""0x2357110f5f0c5344eef75966500c75116a4aa153"",""robinhood"":""0x3bbfdbc9c6dcb95577fee16eed10f0bc2856a03d""}",18
+X69GKB2fLN8tSUxNTMneGAQw79qDw9KcPQp3RoAk9cf_solana,$GREMLY,Gremly,gremly,X69GKB2fLN8tSUxNTMneGAQw79qDw9KcPQp3RoAk9cf_solanaMv8.png,403840425414142,"{""solana"":""X69GKB2fLN8tSUxNTMneGAQw79qDw9KcPQp3RoAk9cf""}",18
+foxgirl,FOXGIRL,FoxGirl,foxgirl,foxgirlGok.png,99999484890300,"{""binance_smart"":""0x599beec263fa6ea35055011967597b259fc012a4""}",18
+conan-2,CONAN,Conan,conan-2,conan-2DL2.png,1000000000000,"{""ethereum"":""0x85d19fb57ca7da715695fcf347ca2169144523a7""}",18
+2RBko3xoz56aH69isQMUpzZd9NYHahhwC23A5F3Spkin_solana,PKIN,Pumpkin,pumpkin-4,2RBko3xoz56aH69isQMUpzZd9NYHahhwC23A5F3Spkin_solanaFdK.png,934364544,"{""solana"":""2RBko3xoz56aH69isQMUpzZd9NYHahhwC23A5F3Spkin""}",18
+dero,DERO,Dero,dero,DeroygzRO.png,18400000,,
+zksync-erc20-bridged-dai-zksync,DAI,ZKsync ERC20 Bridged DAI (zkSync),zksync-erc20-bridged-dai-zksync,zksync-erc20-bridged-dai-zksyncXpZ.png,106751,"{""zksync"":""0x4b9eb6c0b6ea15176bbf62841c6b2a8a398cb656""}",18
+0x9e91f79070926a191e41367d40ad582686f9e66d_ethereum,STYLE,STYLE Token,style-protocol-2,style-protocol-2niC.png,920000000,"{""ethereum"":""0x9e91f79070926a191e41367d40ad582686f9e66d"",""arbitrum-one"":""0x9500ba777560daf9d3ab148ea1cf1ed39df9ebdb"",""base"":""0x958a405cfd2789e2b7f261d542feae84a8514c44""}",18
+7UN8WkBumTUCofVPXCPjNWQ6msQhzrg9tFQRP48Nmw5V_solana,XENCAT,SolXenCat,solxencat,solxencat7PH.png,999967057,"{""solana"":""7UN8WkBumTUCofVPXCPjNWQ6msQhzrg9tFQRP48Nmw5V""}",18
+boringdao,BORING,BoringDAO,boringdao,boringdaopYl.png,1703089466,"{""ethereum"":""0xbc19712feb3a26080ebf6f2f7849b417fdd792ca"",""binance_smart"":""0xffeecbf8d7267757c2dc3d13d730e97e15bfdf7f""}",18
+4ELGifwr2jHtEaFZUXXvQLAYiE6W5bvpWYZbJTRSpump_solana,TTG,Taitiko,taitiko,4ELGifwr2jHtEaFZUXXvQLAYiE6W5bvpWYZbJTRSpump_solana8uk.png,999867246,"{""solana"":""4ELGifwr2jHtEaFZUXXvQLAYiE6W5bvpWYZbJTRSpump""}",18
+0x19ed254efa5e061d28d84650891a3db2a9940c16_binance_smart,SUP,Superp,superp,superp5JZ.png,1000000000,"{""binance_smart"":""0x19ed254efa5e061d28d84650891a3db2a9940c16""}",18
+GkeUTuaFB4oZADaqiCo3yauHNx9SxUNn8euHptEEbonk_solana,GRASSITO,Grassito,grassito,grassitoqQl.png,414825667130,"{""solana"":""GkeUTuaFB4oZADaqiCo3yauHNx9SxUNn8euHptEEbonk""}",18
+7sGdNQSvUGpahh6qyXB3g5gsdK9FAzZM299KyCXspump_solana,HTTPS,had to take profits sir,had-to-take-profits-sir,had-to-take-profits-sirtGX.png,999426846,"{""solana"":""7sGdNQSvUGpahh6qyXB3g5gsdK9FAzZM299KyCXspump""}",18
+0x12419a0427c2a27a61c1cb4a49f5fad24fd4e671_ethereum,STARMAN,STARMAN,starman,0x12419a0427c2a27a61c1cb4a49f5fad24fd4e671_ethereumBD9.png,1000000000,"{""ethereum"":""0x12419a0427c2a27a61c1cb4a49f5fad24fd4e671""}",18
+ton-cat,TCAT,Ton Cat,ton-cat,ton-catfge.png,637016905,"{""the-open-network"":""EQBtDmYgCKk3ecQ1x-j0CLZRnPYyaV7cB33ad036QN-HE2C7""}",18
+shredn,SHRED,ShredN,shredn,shrednzKM.png,100000000,"{""binance_smart"":""0xddfd6382a18ad7279eb6db4dfb78922ddc33d6e7""}",18
+0xb0ca83c9524a642cc1ab6e62c6006c47ba74d68a_base,PLOI,PLOI,ploi,ploiFjE.png,1000000000,"{""base"":""0xb0ca83c9524a642cc1ab6e62c6006c47ba74d68a""}",18
+motacoin,MOTA,MotaCoin,motacoin,motacoinwMQ.png,70824854,"{""solana"":""Motafkn56HH6fwtYGJk4Lz7pRSpVB1ESScTCyj4eEL1""}",18
+0xbeef698bd78139829e540622d5863e723e8715f1_ethereum,BEEF,PepeBull,pepebull,pepebull2Ep.png,420690000000000,"{""ethereum"":""0xbeef698bd78139829e540622d5863e723e8715f1""}",18
+lympid,LYP,Lympid,lympid,lympidsFZ.png,99816011,"{""base"":""0x4837b18a6d7af6159c8665505b90a2ed393255e0"",""polygon-pos"":""0x4837b18a6d7af6159c8665505b90a2ed393255e0""}",18
+0xc655c331d1aa7f96c252f1f40ce13d80eac53504_base,MUSIC,Music by Virtuals,music-by-virtuals,0xc655c331d1aa7f96c252f1f40ce13d80eac53504_basea0E.png,997589006,"{""base"":""0xc655c331d1aa7f96c252f1f40ce13d80eac53504""}",18
+western-digital-corporation-robinhood-token,WDC,Western Digital Corporation • Robinhood Token,western-digital-corporation-robinhood-token,western-digital-corporation-robinhood-tokenw5A.png,244.7668,"{""robinhood"":""0xf52597345a8edf418bc4071b4a35112472277d3e""}",18
+healthsci-ai,HSAI,HealthSci.AI,healthsci-ai,healthsci-aiBQW.png,100000000,"{""ethereum"":""0xaa3acc21d184cef6f7fc3385fbdb79575231afba"",""base"":""0x11a2021368f518fa390d20308076b25c57292e83""}",18
+monke-coin,MONKE,Monke,monke-coin,monke-coinOPh.png,6900000000000,"{""ethereum"":""0xc8168d5665f4418353728ac970713e09c0b7c20e""}",18
+cryptok,CRYPTOK,CrypTok,cryptok,cryptoku6x.png,1300497391,"{""solana"":""ESsCdmGyPK9sostFbWV5iM6owxcqsGNfBQaj3xkAkREV""}",18
+planet-finance,AQUA,Planet Finance,planet-finance,planet-financenRB.png,89499,"{""binance_smart"":""0x72b7d61e8fc8cf971960dd9cfa59b8c829d91991""}",18
+cats-2,CATS,CATS,cats-2,cats-2CiI.png,600000000000,"{""the-open-network"":""EQA3AshPEVly8wQ6mZincrKC_CkJSKXqqjyg0VMsVjF_CATS""}",18
+G85CQEBqwsoe3qkb5oXXpdZFh7uhYXhDRsQAM4aJuBLV_solana,ORGO,Orgo,orgo,G85CQEBqwsoe3qkb5oXXpdZFh7uhYXhDRsQAM4aJuBLV_solanaAhz.png,999925091,"{""solana"":""G85CQEBqwsoe3qkb5oXXpdZFh7uhYXhDRsQAM4aJuBLV""}",18
+ai-pin,AI,AI PIN,ai-pin,ai-pin5U1.png,100000000,"{""ethereum"":""0xbc544207ff1c5b2bc47a35f745010b603b97e99e"",""base"":""0xf516562b703f46084eeb79afe58cc046572e56a7"",""robinhood"":""0x1e0aaaf3fdb5c0de3574d215e7081177ec0f96a3""}",18
+6KmwvVo8gDUVAnoAftMuyUTojfx6xtgm2xkHp2ixpump_solana,DELUSIONAL,Delusional Optimism,delusional-optimism,delusional-optimismuFR.png,999761586,"{""solana"":""6KmwvVo8gDUVAnoAftMuyUTojfx6xtgm2xkHp2ixpump""}",18
+rogue-ai,RAI,Rogue AI,rogue-ai,rogue-aiflE.png,999947811,"{""solana"":""BCQjsvdsoqaSKo8iwgmfnzMV5S2rC7XR3i2K7Ep8BAGS""}",18
+power-staked-sol,PWRSOL,Power Staked SOL,power-staked-sol,power-staked-soldxr.png,727.8502,"{""solana"":""pWrSoLAhue6jUxUkbWgmEy5rD9VJzkFmvfTDV5KgNuu""}",18
+data-lake,LAKE,Data Lake,data-lake,data-lakeRM7.png,2500000000,"{""ethereum"":""0xf9ca9523e5b5a42c3018c62b084db8543478c400""}",18
+idena,IDNA,Idena,idena,idenapQa.png,160393768,"{""binance_smart"":""0x0de08c1abe5fb86dd7fd2ac90400ace305138d5b""}",18
+GinNabffZL4fUj9Vactxha74GDAW8kDPGaHqMtMzps2f_solana,GINNAN,Ginnan The Cat,ginnan-the-cat,GinNabffZL4fUj9Vactxha74GDAW8kDPGaHqMtMzps2f_solanaq9l.png,6899850626973,"{""solana"":""GinNabffZL4fUj9Vactxha74GDAW8kDPGaHqMtMzps2f""}",18
+monkeyhaircut,MONK,monkeyhaircut,monkeyhaircut,monkeyhaircutcZL.png,999734708,"{""solana"":""FYa25XnBsXQXAdTnsyKBKd5gZ1VZhChBRF57CqfRxJZX""}",18
+0x4200000000000000000000000000000000000006_bob-network,WETH,BOB Bridged WETH (BOB Network),bridged-wrapped-ethereum-bob-network,bridged-wrapped-ethereum-bob-networkQsx.png,39.0639,"{""bob-network"":""0x4200000000000000000000000000000000000006""}",18
+0xf31e6d62bfc485857af2186eb3d8ee94b4379fed_base,CHIDO,Chinese Doge Wow,chinese-doge-wow,0xf31e6d62bfc485857af2186eb3d8ee94b4379fed_basebuF.png,951479147,"{""base"":""0xf31e6d62bfc485857af2186eb3d8ee94b4379fed""}",18
+wrapped-fuse,WFUSE,Wrapped FUSE,wrapped-fuse,wrapped-fusedZf.png,13512811,"{""fuse"":""0x0be9e53fd7edac9f859882afdda116645287c629""}",18
+decentraweb,DWEB,DecentraWeb,decentraweb,decentraweb1BB.png,99414176,"{""ethereum"":""0xe7f58a92476056627f9fdb92286778abd83b285f"",""polygon-pos"":""0x8839e639f210b80ffea73aedf51baed8dac04499""}",18
+8oosbx7jJrZxm5m4ThKhBpvwwG4QpoAe6i4GiG19pump_solana,WIZARD,Wizard Gang,wizard-gang,wizard-gangq2F.png,999778700,"{""solana"":""8oosbx7jJrZxm5m4ThKhBpvwwG4QpoAe6i4GiG19pump""}",18
+0x79dacb99a8698052a9898e81fdf883c29efb93cb_base,ACOLYT,Acolyt,acolyte-by-virtuals,0x79dacb99a8698052a9898e81fdf883c29efb93cb_baseg4E.png,997974695,"{""base"":""0x79dacb99a8698052a9898e81fdf883c29efb93cb"",""solana"":""EajMGPYVMzqUjXwnmyagVGDS2CW5xJitb17TpB4uDifD""}",18
+arcanus,ARCANUS,Arcanus,arcanus,arcanusGMv.png,971540374,"{""arc"":""0x29316db42ff99f640fd4d1bb169635b6318cd430""}",18
+eli5a,ELI5A,Eli5a,eli5a,eli5awEb.png,21000000,"{""base"":""0xd413485aa9ca4f88419904255a2384f667dddcab""}",18
+0xe1e5f00a9b0255ca4df85b3130ee0f77d15acc2d_robinhood,🅿️,Pushin' 🅿️,pushin,pushinye9.png,1000000000,"{""robinhood"":""0xe1e5f00a9b0255ca4df85b3130ee0f77d15acc2d""}",18
+epiko,EPIKO,Epiko,epiko,epikoutD.png,300000000,"{""ethereum"":""0xb62e24b747eaa41454857cf6011832117df59cb8"",""solana"":""6ep1sNB9UWni3nBZUX84USsRBhKRzMAxEmcia479cWTh""}",18
+wiener-doge-on-solana,WIENER,Wiener Doge on Solana,wiener-doge-on-solana,wiener-doge-on-solanaHwQ.png,999297,"{""solana"":""CceCXFy4UeXheTpf8sn1bpECxMQeH5BTyxQK4BdRMf2T""}",18
+cryptoblades,SKILL,CryptoBlades,cryptoblades,cryptobladesWgF.png,1000000,"{""binance_smart"":""0x154a9f9cbd3449ad22fdae23044319d6ef2a1fab"",""polygon-pos"":""0x863d6074afaf02d9d41a5f8ea83278df7089aa86""}",18
+dforce-token,DF,dForce,dforce-token,dforce-tokenC1y.png,999926147,"{""ethereum"":""0x431ad2ff6a9c365805ebad47ee021148d6f7dbe0"",""arbitrum-one"":""0xae6aab43c4f3e0cea4ab83752c278f8debaba689"",""energi"":""0xc588d81d1a9ef1a119446482fc7cbcdb0012292a"",""binance_smart"":""0x4a9a2b2b04549c3927dd2c9668a5ef3fca473623""}",18
+wrapped-ceth,CETH,Wrapped cETH,wrapped-ceth,wrapped-cethPWi.png,65.6838,"{""celo"":""0x2def4285787d58a2f811af24755a8150622f4361""}",18
+0xd33fd95fc17bc808b35e98458e078330f35dbfa3_polygon-pos,NIGHT,Midnight,midnight,midnight8E6.png,10000000000,"{""polygon-pos"":""0xd33fd95fc17bc808b35e98458e078330f35dbfa3""}",18
+vibing-cat-2,VIBE CAT,Vibing Cat,vibing-cat-2,vibing-cat-2b7G.png,862277442,"{""robinhood"":""0x2355431b83b1a8e40172d099d90243d8d666b56b""}",18
+0x240cd7b53d364a208ed41f8ced4965d11f571b7a_ethereum,DOGGO,Doggo,doggo-3,0x240cd7b53d364a208ed41f8ced4965d11f571b7a_ethereum0Cq.png,420690000000,"{""ethereum"":""0x240cd7b53d364a208ed41f8ced4965d11f571b7a""}",18
+ella,ELLA,ELLA,ella,ellaLYg.png,999948336,"{""solana"":""CF5VehjuZvxZZQFP5tybGra6ts574FAwt6Z7GuX9pump""}",18
+ED5wbeyAYtLM4WRGnohPxJEwniaikEFioVmJyZH6K31m_solana,TIME,TIME,time,ED5wbeyAYtLM4WRGnohPxJEwniaikEFioVmJyZH6K31m_solanaTnP.png,465273918822,"{""solana"":""ED5wbeyAYtLM4WRGnohPxJEwniaikEFioVmJyZH6K31m""}",18
+guardian-token-2,GUARDIAN,Guardian Token,guardian-token-2,guardian-token-2mIo.png,591989238,"{""solana"":""A2X6xEhZUCPiHstrGehbNT9TrdEh9hEDfyYfNeNuAdDy""}",18
+oraim8c9d1nkfuQk9EzGYEUGxqL3MHQYndRw1huVo5h_solana,MAX,MAX,max-2,oraim8c9d1nkfuQk9EzGYEUGxqL3MHQYndRw1huVo5h_solanariK.png,999636175,"{""solana"":""oraim8c9d1nkfuQk9EzGYEUGxqL3MHQYndRw1huVo5h"",""oraichain"":""factory/orai1wuvhex9xqs3r539mvc6mtm7n20fcj3qr2m0y9khx6n5vtlngfzes3k0rq9/oraim8c9d1nkfuQk9EzGYEUGxqL3MHQYndRw1huVo5h""}",18
+rmrk,RMRK,RMRK,rmrk,rmrk8Dd.png,10000000,"{""ethereum"":""0x524d524b4c9366be706d3a90dcf70076ca037ae3"",""moonriver"":""0xffffffff893264794d9d57e1e0e21e0042af5a0a"",""moonbeam"":""0x524d524b4c9366be706d3a90dcf70076ca037ae3"",""binance_smart"":""0x524d524b4c9366be706d3a90dcf70076ca037ae3"",""polygon-pos"":""0x524d524b4c9366be706d3a90dcf70076ca037ae3"",""base"":""0x524d524b4c9366be706d3a90dcf70076ca037ae3""}",18
+inspect,INSP,Inspect,inspect,inspectKFF.png,1000000000,"{""ethereum"":""0x186ef81fd8e77eec8bffc3039e7ec41d5fc0b457"",""binance_smart"":""0x8d279274789ccec8af94a430a5996eaace9609a9""}",18
+s-c-corinthians-fan-token,SCCP,S.C. Corinthians Fan Token,s-c-corinthians-fan-token,s-c-corinthians-fan-tokennUa.png,20000000,"{""chiliz"":""0x25fb4ff916fafb88d78918c54c1d14b57586046b"",""solana"":""EFgHaH3va27dKwyUJxDKT76Gx8FVQh3MgUnvKH2fyS8Q"",""base"":""0xea47b98cf324af980845fb05aa19ef0ae3ba97d1""}",18
+wrkr-by-virtuals,WRKR,wrkr by Virtuals,wrkr-by-virtuals,wrkr-by-virtualsPLk.png,1000000000,"{""robinhood"":""0xbec416ac3e36a8ca0571cef5a104edaef2a31a89""}",18
+holy-coin,HOLY,Holy Coin,holy-coin,holy-coinXhG.png,999879587,"{""solana"":""BSXFKLVsyrYckSF4SGXu9DRfMb3Fos7tRF9zMXgRCUsP""}",18
+RmtMAYVTTFv2iK9muMrXEoAnSSsZPPgRPbqZCKwNDYk_solana,EYE,BULLS'S EYE,bulls-s-eye,bulls-s-eyeS5p.png,999134129,"{""solana"":""RmtMAYVTTFv2iK9muMrXEoAnSSsZPPgRPbqZCKwNDYk""}",18
+ByyMCyATC6j92DFYGCC45qnCinpbHpHVEPPQZf2ezST6_solana,TEG,Tegbotsystem,tegbotsystem,tegbotsystemYJn.png,4999980,"{""solana"":""ByyMCyATC6j92DFYGCC45qnCinpbHpHVEPPQZf2ezST6""}",18
+seagate-ondo-tokenized,STXON,Seagate (Ondo Tokenized),seagate-ondo-tokenized,seagate-ondo-tokenizedFXT.png,121.8935,"{""ethereum"":""0xb53894f82a6b2d3b7365f24932b5bde1c5fb51ff"",""binance_smart"":""0x966ebcba3c51e81f5cf159a1eabefd2327ab5e8d"",""solana"":""EXtprP1wzrNo2bByrU9JyzqEg2hQMSCVJakeHHYondo""}",18
+0x3628d69aa2d66e9efe95ab1267d440dec24389b6_base,UOMI,UOMI,uomi,0x3628d69aa2d66e9efe95ab1267d440dec24389b6_basetBs.png,4919219238,"{""base"":""0x3628d69aa2d66e9efe95ab1267d440dec24389b6"",""ethereum"":""0x6b4bcfeccf80ab79eae40475af34cd986e583090""}",18
+0xcdca2eaae4a8a6b83d7a3589946c2301040dafbf_base,SURF,Surf,surf-2,surf-2YVi.png,21000000,"{""base"":""0xcdca2eaae4a8a6b83d7a3589946c2301040dafbf""}",18
+0x6223901ea64608c75da8497d5eff15d19a1d8fd5_base,CORGI,Corgi,corgi,corgizEM.png,1000000000,"{""base"":""0x6223901ea64608c75da8497d5eff15d19a1d8fd5""}",18
+0xc114cf69972e3c1b4b529e0418012c01fcf9e725_ethereum,BEAR,Bearly Legal,bearly-legal,bearly-legalT9O.png,100000000,"{""ethereum"":""0xc114cf69972e3c1b4b529e0418012c01fcf9e725""}",18
+ibm-rstock,RIBM,IBM Tokenized Stock (Reality),ibm-rstock,ibm-rstockLNC.png,463.3296,"{""arbitrum-one"":""0x054cc8ef9a3d8accdb8f906e941d2298da8ada5a"",""morph-l2"":""0x8b85d8721ef2318ac3d0e2681f01011713b64aaf""}",18
+treat-token,TREAT,Treat Token,treat-token,treat-tokendUF.png,2656863392,"{""ethereum"":""0xfbd5fd3f85e9f4c5e8b40eec9f8b8ab1caaa146b""}",18
+0x77061b45c5e4d440bd681b5f72bd0f4231a6fc04_robinhood,ROBINVAULT,RobinVault,robinvault,0x77061b45c5e4d440bd681b5f72bd0f4231a6fc04_robinhoodfON.png,542247062,"{""robinhood"":""0x77061b45c5e4d440bd681b5f72bd0f4231a6fc04""}",18
+0x0fe906e030a44ef24ca8c7dc7b7c53a6c4f00ce9_ethereum,WAETHLIDOWETH,Wrapped Aave Ethereum Lido WETH,wrapped-aave-ethereum-lido-weth,wrapped-aave-ethereum-lido-wethOQq.png,36.6882,"{""ethereum"":""0x0fe906e030a44ef24ca8c7dc7b7c53a6c4f00ce9""}",18
+fofar,FOFAR,Fofar,fofar,fofarIF3.png,420690000000,"{""ethereum"":""0xeff49b0f56a97c7fd3b51f0ecd2ce999a7861420""}",18
+0xf43f21384d03b5cbbddd58d2de64071e4ce76ab0_ethereum,GIGACHAD,GigaChad,gigachad-eth,0xf43f21384d03b5cbbddd58d2de64071e4ce76ab0_ethereumg7A.png,420690000000000,"{""ethereum"":""0xf43f21384d03b5cbbddd58d2de64071e4ce76ab0""}",18
+micropets-3,PETS,MicroPets,micropets-3,micropets-3QM4.png,1460912,"{""binance_smart"":""0x610fd1a9601cf7b1d188dbf3264738aecc9fc96c""}",18
+mycel,MYCEL,Mycel,mycel,mycelxkz.png,999842208,"{""solana"":""HudkzEWpcUnTYFZMMcbNdwk1S5Am26J2SyEh4NfFworg""}",18
+0xb4fa28e9dba552df8a55579bc9494f0f7486d215_ethereum,VEK,Vektes,vektes,vektes4v6.png,1000000000,"{""ethereum"":""0xb4fa28e9dba552df8a55579bc9494f0f7486d215""}",18
+0xc1172b98c4bc2e85cd7b0c60a4ec55abfffb036b_robinhood,GP,RUNEBROKER GP,runebroker-gp,runebroker-gpd8K.png,2015574906,"{""robinhood"":""0xc1172b98c4bc2e85cd7b0c60a4ec55abfffb036b""}",18
+ALR5X2H6THn2VDPoMtkVwxVktcN1kQGvxCwLfejzpump_solana,WURK,WURK,wurk,wurkAGd.png,999625161,"{""solana"":""ALR5X2H6THn2VDPoMtkVwxVktcN1kQGvxCwLfejzpump""}",18
+0xf30bf00edd0c22db54c9274b90d2a4c21fc09b07_base,FELIX,FELIX,felix-3,0xf30bf00edd0c22db54c9274b90d2a4c21fc09b07_baseSAj.png,95890313090,"{""base"":""0xf30bf00edd0c22db54c9274b90d2a4c21fc09b07""}",18
+snappy,SNAP,Snappy,snappy,snappypeH.png,1000000000,"{""binance_smart"":""0x3a9e15b28e099708d0812e0843a9ed70c508fb4b""}",18
+game-meteor-coin,GMTO,Game Meteor Coin,game-meteor-coin,game-meteor-coino1J.png,95780985845,"{""polygon-pos"":""0x070c3e8a408bbacc61f40ef023d30e173f268f5e""}",18
+believe-in-something,BIS,Believe In Something,believe-in-something,believe-in-somethingRp2.png,999659967,"{""solana"":""2GPJhV9jNrj7TaLYMRgWkcy6sTKLcwntv7nZ7qDyMRGM""}",18
+kovin-segnocchi,KOVIN,Kovin Segnocchi,kovin-segnocchi,kovin-segnocchigXR.png,69420000000,"{""avalanche"":""0x694200a68b18232916353250955be220e88c5cbb""}",18
+34a8ALsPmbWxp7D3bQ6erERrCLz1ahr6u6o66Udmpump_solana,PESTO,Pesto the Baby King Penguin,pesto-the-baby-king-penguin,34a8ALsPmbWxp7D3bQ6erERrCLz1ahr6u6o66Udmpump_solanaXgt.png,999556688,"{""solana"":""34a8ALsPmbWxp7D3bQ6erERrCLz1ahr6u6o66Udmpump""}",18
+uber-technologies-rstock,RUBER,Uber Tokenized Stock (Reality),uber-technologies-rstock,uber-technologies-rstockyKO.png,1506,"{""arbitrum-one"":""0x65a641c78c58c08bb9f25d0f0d39ca64b0cf696a"",""morph-l2"":""0x76201ee997c970f48399795e6938a0e032525d7c""}",18
+24EX9CQqEpR9mNUDTjkooKqRTf2pkY2mgbDqwNDwpump_solana,PATE,Pepe Cate Coin,pepe-cate-coin,pepe-cate-coinlSu.png,873834413,"{""solana"":""24EX9CQqEpR9mNUDTjkooKqRTf2pkY2mgbDqwNDwpump""}",18
+unit-doublezero,UDZ,Unit DoubleZero,unit-doublezero,unit-doublezero66l.png,2234343,"{""hyperliquid"":""0x9cd8fd4cae61e63a10ba7615780ee520""}",18
+strata-senior-prime,SRPRIME,Strata Senior PRIME,strata-senior-prime,strata-senior-primeuAb.png,100141,"{""ethereum"":""0x35bff778d3fc53a561486bf28e761428499232eb""}",18
+0xa27a2c21a9d468634107b38d9fffb42ad09b204f_ethereum,FWOGSTR,Fwogs Strategy,fwogs-strategy,fwogs-strategyqcB.png,918466487,"{""ethereum"":""0xa27a2c21a9d468634107b38d9fffb42ad09b204f""}",18
+8gHPxqgHj6JQ2sQtMSghQYVN5qRP8wm5T6HNejuwpump_solana,RYS,RefundYourSOL,refundyoursol,refundyoursoly4i.png,819448656,"{""solana"":""8gHPxqgHj6JQ2sQtMSghQYVN5qRP8wm5T6HNejuwpump""}",18
+telcoin-mxn,EMXN,Telcoin MXN,telcoin-mxn,telcoin-mxnk3C.png,1811764,"{""polygon-pos"":""0x68727e573d21a49c767c3c86a92d9f24bd933c99""}",18
+GRFKaABC518SqXMvBpAVYUZtVT3Nj4mYk7E7xU4gA5Rg_solana,GOO,Silly Goose,silly-goose,silly-goose4c7.png,948118738,"{""solana"":""GRFKaABC518SqXMvBpAVYUZtVT3Nj4mYk7E7xU4gA5Rg""}",18
+0xcdc80a63d24bb2b3c7de48ef4a69a00000000000_binance_smart,K0,Kill Zero,kill-zero,0xcdc80a63d24bb2b3c7de48ef4a69a00000000000_binance_smartlri.png,7640352938,"{""binance_smart"":""0xcdc80a63d24bb2b3c7de48ef4a69a00000000000""}",18
+bnbee,BEE,BNBEE,bnbee,bnbeeTnZ.png,1000000000,"{""binance_smart"":""0x735c522c20305d868f2c14654b878950f820dc50""}",18
+unicorn-4,UNICORN,Unicorn,unicorn-4,unicorn-4utI.png,1000000000,"{""unichain"":""0x926dc7b96bb2f4a91c2a67e291faf482691a3001""}",18
+wall-street-games,WSG,Wall Street Games [OLD],wall-street-games,wall-street-gamesKr3.png,999785033525476,"{""binance_smart"":""0xa58950f05fea2277d2608748412bf9f802ea4901"",""polygon-pos"":""0x3c1bb39bb696b443a1d80bb2b3a3d950ba9dee87""}",18
+restake-finance,RSTK,Restake Finance,restake-finance,restake-financePdz.png,100000000,"{""ethereum"":""0x12ef10a4fc6e1ea44b4ca9508760ff51c647bb71""}",18
+0xc29832025e7652ef58d15f7fa3e232a2fdfaab07_base,ZOE,Zoe,zoe,zoeNgx.png,100000000000,"{""base"":""0xc29832025e7652ef58d15f7fa3e232a2fdfaab07""}",18
+0xe9e3d8609e50c333b7e8fafb1a06f5443cb64444_binance_smart,YEPE,Yellow Pepe,yellow-pepe-2,yellow-pepe-2DIM.png,1000000000,"{""binance_smart"":""0xe9e3d8609e50c333b7e8fafb1a06f5443cb64444""}",18
+nyan-meme-coin,NYAN,Nyan Meme Coin,nyan-meme-coin,nyan-meme-coinq4z.png,63172200000000,"{""ethereum"":""0x0ebe30595a44e5288c24161ddfc1e9fa08e33a0c""}",18
+coin-2,COIN,COIN,coin-2,coin-2UpQ.png,231489000,"{""base"":""0xd022723a5005f53c95b51d1822f42b1a3366ee4d""}",18
+0x686b1209b2de12818aa69dd139530448d0c792b3_base,POOP,Poopcoin,poopcoin-poop,poopcoin-poopW7T.png,1000000000,"{""base"":""0x686b1209b2de12818aa69dd139530448d0c792b3""}",18
+astrolescent,ASTRL,Astrolescent,astrolescent,astrolescentSAf.png,36000000,"{""radix"":""resource_rdx1t4tjx4g3qzd98nayqxm7qdpj0a0u8ns6a0jrchq49dyfevgh6u0gj3""}",18
+229vWzBTiUNdraYpVtSH9usTwwVxcyPDbBWf1zEPpump_solana,CALVIN,Calvin in the Cabal,calvin-in-the-cabal,229vWzBTiUNdraYpVtSH9usTwwVxcyPDbBWf1zEPpump_solanaSXQ.png,999997067,"{""solana"":""Axo7inGzj9dhTH4R4LHxC3kxuRq7uxhiuxLqqLZeBAGS""}",18
+ada-the-dog,ADA,TOLY'S DOG,ada-the-dog,ada-the-dogaZf.png,999597873,"{""solana"":""E4Q5pLaEiejwEQHcM9GeYSQfMyGy8DJ4bPWgeYthn24v""}",18
+0x885a590198e5f0947f4c92db815cf2a2147980b8_base,BASESHAKE,BaseShake,baseshake,0x885a590198e5f0947f4c92db815cf2a2147980b8_baseyqA.png,1000000000,"{""base"":""0x885a590198e5f0947f4c92db815cf2a2147980b8""}",18
+0x331ae2af41c4d3a644ceb5dc79a4b900f7a5b60d_base,AXB,AIxBET,aixbet,aixbet12O.png,1000000000,"{""base"":""0x331ae2af41c4d3a644ceb5dc79a4b900f7a5b60d""}",18
+GFRxeCdpomjJaYQEuwPDAPghyBD3H9zqnWY2HJPjpump_solana,WEALTH,Generational Wealth,generational-wealth-3,GFRxeCdpomjJaYQEuwPDAPghyBD3H9zqnWY2HJPjpump_solanaSoa.png,999679992,"{""solana"":""GFRxeCdpomjJaYQEuwPDAPghyBD3H9zqnWY2HJPjpump""}",18
+erectusdao,YUGE,ErectusDAO,erectusdao,erectusdaoBeN.png,1595241,"{""ethereum"":""0xfdc9d2a3cae56e484a85de3c2e812784a8184d0d""}",18
+cryptohog,HOGSCOIN,CryptoHog,cryptohog,cryptohogA3L.png,1000000000,"{""binance_smart"":""0xf40a230bd8162e34f97a3e113c4e44a7e9bafa16""}",18
+netvrk,NETVR,Netvrk,netvrk,netvrkPEG.png,100000000,"{""ethereum"":""0x52498f8d9791736f1d6398fe95ba3bd868114d10"",""polygon-pos"":""0x3558887f15b5b0074dc4167761de14a6dfcb676e""}",18
+0x776aaef8d8760129a0398cf8674ee28cefc0eab9_base,FLOPPA,Floppa,floppa-cat,floppa-cat4qe.png,1000000000,"{""base"":""0x776aaef8d8760129a0398cf8674ee28cefc0eab9"",""solana"":""F6Aj973E5vGHyGnVsKC39rAFwnFukF11JmpPQ7xPUFF8""}",18
+the-little-guy,GUY,The Little Guy,the-little-guy,the-little-guyLJX.png,1000000000,"{""robinhood"":""0x51b57d1157975756c156ee28e3e167718792b665""}",18
+WCoRVxGcpiwE6EvtDjXHJq6Kcn4nWT9Ubt1PrJHNAzM_solana,WCOR,World Collective Oil Reserve,world-collective-oil-reserve,world-collective-oil-reservelKN.png,999980223,"{""solana"":""WCoRVxGcpiwE6EvtDjXHJq6Kcn4nWT9Ubt1PrJHNAzM""}",18
+0x9d7d4d0e0c41fa6bc1e30ddf8645d8f83c101e18_robinhood,CHROME,Chrome Cat,chrome-cat,chrome-catRtG.png,1000000000,"{""robinhood"":""0x9d7d4d0e0c41fa6bc1e30ddf8645d8f83c101e18""}",18
+shroom-finance,SHROOM,Niftyx Protocol,shroom-finance,shroom-financeDnn.png,65557424,"{""ethereum"":""0xed0439eacf4c4965ae4613d77a5c2efe10e5f183""}",18
+0x4229725d41e2233d75b47675b55c6781df0b56a7_ethereum,CADAI,CADAI,cadai,cadaiFnD.png,27701478,"{""ethereum"":""0x4229725d41e2233d75b47675b55c6781df0b56a7"",""binance_smart"":""0xf4dc9bcc6c5f774b2ce6f9118b3a55867ecbf6cb"",""arbitrum-one"":""0x4debfb9ed639144cf1e401674af361ffffcefb58""}",18
+usdx-3,USDX,USDX,usdx-3,usdx-3Ejz.png,100667,"{""polygon-pos"":""0x1ff2a62dd802d74d0b0ca6d36d43d2a13ab43a55""}",18
+moonft,MTC,Moonft,moonft,moonftDXq.png,100000000,"{""binance_smart"":""0x4e1a724b0588fa971263c8ac5f78ca215c7d09dd""}",18
+FAFxVxnkzZHMCodkWyoccgUNgVScqMw2mhhQBYDFjFAF_solana,FAF,Flash.Trade,flash-trade,FAFxVxnkzZHMCodkWyoccgUNgVScqMw2mhhQBYDFjFAF_solanaaAx.png,1199987609,"{""solana"":""FAFxVxnkzZHMCodkWyoccgUNgVScqMw2mhhQBYDFjFAF""}",18
+ubeswap-2,UBE,Ubeswap,ubeswap-2,ubeswap-29A1.png,199939848,"{""celo"":""0x71e26d0e519d14591b9de9a0fe9513a398101490""}",18
+7tAnusL3srXjzEriVL86a23KgwDZKXJTZ2ezEUubonk_solana,AI,Artificial Inu,artificial-inu,7tAnusL3srXjzEriVL86a23KgwDZKXJTZ2ezEUubonk_solanaGv5.png,996237889,"{""solana"":""7tAnusL3srXjzEriVL86a23KgwDZKXJTZ2ezEUubonk""}",18
+0x8ada9bf2d08b484cb9dee67caccd04b991d88145_ethereum,HYPR,Hypr,hypr,0x8ada9bf2d08b484cb9dee67caccd04b991d88145_ethereumqiy.png,1000000000,"{""ethereum"":""0x8ada9bf2d08b484cb9dee67caccd04b991d88145""}",18
+yield-optimizer-eur,YOEUR,Yield Optimizer EUR,yield-optimizer-eur,yield-optimizer-eur23T.png,86071,"{""base"":""0x50c749ae210d3977adc824ae11f3c7fd10c871e9""}",18
+snowflake-rstock,RSNOW,Snowflake Tokenized Stock (Reality),snowflake-rstock,snowflake-rstockPKu.png,294.7024,"{""arbitrum-one"":""0x9772f39128352142e90e11eb522e151296f3ccb3"",""morph-l2"":""0x23cae13bbe2aa60a539a8cf41ff187dfed8d11a7""}",18
+6PuC6gyVfZAATJwoArT49ajY9dibXc3YX9WyfXZbpmrQ_solana,NO,NO,no,no0CH.png,999761559,"{""solana"":""6PuC6gyVfZAATJwoArT49ajY9dibXc3YX9WyfXZbpmrQ""}",18
+bag,BAG,Bag,bag,bagEXV.png,5906100921,"{""ethereum"":""0x808688c820ab080a6ff1019f03e5ec227d9b522b"",""polygon-pos"":""0x73b29199a8e4c146e893eb95f18dac41738a88c6"",""blast"":""0xb9dfcd4cf589bb8090569cb52fac1b88dbe4981f""}",18
+goose-finance,EGG,Goose Finance,goose-finance,goose-financeBcY.png,92520898,"{""binance_smart"":""0xf952fc3ca7325cc27d15885d37117676d25bfda6""}",18
+satozhi,SATOZ,Satozhi,satozhi,satozhijh1.png,15488117,"{""ethereum"":""0x845e2e8b42dced7dedcdba9bde32c9e338224f97"",""binance_smart"":""0xf4341fa52669cea0c1836095529a7e9b04b8b88d"",""tron"":""TYq22mVD6aQdvzYhNxVYtjmRBCQmmcp2EK""}",18
+0xc7db9a7034d061feca50f0a25636bcc83ca717d9_robinhood,FAB,Fab,fab,fabOft.png,1000000000,"{""robinhood"":""0xc7db9a7034d061feca50f0a25636bcc83ca717d9""}",18
+milk,MILK,Cool Cats Milk,milk,1679657634791.png,2452070745,"{""polygon-pos"":""0x1599fe55cda767b1f631ee7d414b41f5d6de393d""}",18
+0xac5bdcf2eecebec8da3af0ef76912e197c6e547e_base,FRAME,FRAME,frame-2,frame-28bx.png,1000000000,"{""base"":""0xac5bdcf2eecebec8da3af0ef76912e197c6e547e""}",18
+nest-apollo-acrdx-vault,NACRDX,Nest Apollo ACRDX Vault,nest-apollo-acrdx-vault,nest-apollo-acrdx-vaultkXg.png,100143,"{""plume-network"":""0x2a3e301dbd45c143dfbb7b1ce1c55bf0bbf161cb"",""ethereum"":""0x2a3e301dbd45c143dfbb7b1ce1c55bf0bbf161cb""}",18
+sparkpoint,SRK,SparkPoint,sparkpoint,SparkPointRhAE4.png,13019612245,"{""ethereum"":""0x0488401c3f535193fa8df029d9ffe615a06e74e6"",""harmony-shard-0"":""0x9500a1fbef7014dbd384633fd20bb1e6916d6fca""}",18
+0xa43a9b6eedd8204f445237bf72775ed9b1723d45_robinhood,ND4,ND4.eth,nd4-eth,nd4-eth07o.png,873798287,"{""robinhood"":""0xa43a9b6eedd8204f445237bf72775ed9b1723d45""}",18
+aura-3,AURA,AURA,aura-3,aura-3oDg.png,78891807006,"{""xrp"":""6175726100000000000000000000000000000000.rpjuvqrH37RGzb88UVibzCQYSNrM9FxJDy""}",18
+0x759f8b83db57033aed95545694f6ada480b6e987_ethereum,DOGEUS,Dogeus Maximus,dogeus-maximus-2,0x759f8b83db57033aed95545694f6ada480b6e987_ethereumYUW.png,1000000000,"{""ethereum"":""0x759f8b83db57033aed95545694f6ada480b6e987""}",18
+alpha-city-2,CITY,Alpha City,alpha-city-2,alpha-city-2a0r.png,1000000000,"{""sui"":""0x308fa16c7aead43e3a49a4ff2e76205ba2a12697234f4fe80a2da66515284060::city::CITY""}",18
+4rWuWZei2iFNHYpnz5wjMeSvimsJcj5EgpSNvNS1pump_solana,SAID,SAID Protocol,said-protocol,said-protocolFiV.png,988431693,"{""solana"":""4rWuWZei2iFNHYpnz5wjMeSvimsJcj5EgpSNvNS1pump""}",18
+0x42069000770c482fed048e1da03a5f82773abd69_avalanche,BRO,My Bro,my-bro,0x42069000770c482fed048e1da03a5f82773abd69_avalancheUyV.png,420690000000000,"{""avalanche"":""0x42069000770c482fed048e1da03a5f82773abd69""}",18
+cerebras-systems-robinhood-tokenized-stock,CBRS,Cerebras Systems • Robinhood Token,cerebras-systems-robinhood-tokenized-stock,cerebras-systems-robinhood-tokenized-stockeVf.png,560.9089,"{""robinhood"":""0x5c90450bbb4273d7b2f17cf6917aeb237a569679""}",18
+web,WEB,Web,web,weboUK.png,1000000000000,"{""ethereum"":""0x2b81945875f892aff04af0a298d35fb2cf848c7b""}",18
+grove,GRV,GroveCoin,grove,groveISn.png,79200835,"{""binance_smart"":""0xf33893de6eb6ae9a67442e066ae9abd228f5290c"",""ethereum"":""0xf33893de6eb6ae9a67442e066ae9abd228f5290c""}",18
+0x0bffa97f774824e9da843699aedd2835cb1b8022_arc,ARCASH,ARCASH,arcash,arcashdS7.png,975934998,"{""arc"":""0x0bffa97f774824e9da843699aedd2835cb1b8022""}",18
+diamond-launch,DLC,Diverge Loop,diamond-launch,diamond-launch7Wd.png,1000000000,"{""binance_smart"":""0xde83180dd1166d4f8e5c2b7de14a2163b1bb4a87""}",18
+fu,FU,FU,fu,fuOVP.png,177206636331,"{""binance_smart"":""0xed6af21df463c7f116a6d7d687a4c190c4cf7586""}",18
+quantum-computing-backpack-securities,QUBT,Quantum Computing (Backpack Securities),quantum-computing-backpack-securities,quantum-computing-backpack-securitiesG9f.png,12176,"{""solana"":""QUBTAD8C9bMU9LvmMNgKPhrmBGbHvxpu6vfWQtThxxw""}",18
+earthmeta,EMT,EarthMeta [OLD],earthmeta,earthmetangH.png,2100000000,"{""polygon-pos"":""0x708383ae0e80e75377d664e4d6344404dede119a""}",18
+tronpad,TRONPAD,TRONPAD,tronpad,tronpadApJ.png,765213000,"{""binance_smart"":""0x1bf7aedec439d6bfe38f8f9b20cf3dc99e3571c4""}",18
+0x5e3f09ab25548616b4b97f6163ff19cf6027930d_ethereum,USACOIN,USAcoin,usacoin,0x5e3f09ab25548616b4b97f6163ff19cf6027930d_ethereum9cZ.png,21000000,"{""ethereum"":""0x5e3f09ab25548616b4b97f6163ff19cf6027930d""}",18
+hdoki,OKI,HDOKI,hdoki,hdokiB1U.png,3999814798,"{""solana"":""GJQpf6Zjvokd3YK5EprXqZUah9jxkn8aG4pTeWL7Gkju"",""binance_smart"":""0x9a63d4b46826f458e008127e5a4d936ae213c6ce""}",18
+0x48874ad21dbd7512c0edc123232898c6ecf34d7e_robinhood,HOODS,HoodSale,hoodsale,0x48874ad21dbd7512c0edc123232898c6ecf34d7e_robinhoodYHT.png,100000000,"{""robinhood"":""0x48874ad21dbd7512c0edc123232898c6ecf34d7e""}",18
+0xb77a1bd00d9c7ff5e15d70c7f78e4b80e18e4444_binance_smart,財務自由,財務自由 (Financial Freedom),financial-freedom,financial-freedomuQq.png,1000000000,"{""binance_smart"":""0xb77a1bd00d9c7ff5e15d70c7f78e4b80e18e4444""}",18
+FfgtU4bMte3JRZGX7kcNVywxiGoSqUTga8eZxTSFpump_solana,ALPACA,Alpaca,alpaca-2,FfgtU4bMte3JRZGX7kcNVywxiGoSqUTga8eZxTSFpump_solanaozT.png,961055658,"{""solana"":""FfgtU4bMte3JRZGX7kcNVywxiGoSqUTga8eZxTSFpump""}",18
+0x6967b9a8c0b14849cfe8f9e5732b401433fd2898_ethereum,NAKA,Naka Go,naka-go,0x6967b9a8c0b14849cfe8f9e5732b401433fd2898_ethereumSRu.png,1000000000,"{""ethereum"":""0x6967b9a8c0b14849cfe8f9e5732b401433fd2898""}",18
+staked-vetro-usd,SVUSD,Staked Vetro USD,staked-vetro-usd,staked-vetro-usdM7T.png,96500,"{""ethereum"":""0x476310e34d2810f7d79c43a74e4d79405bd7a925""}",18
+galaxy-fox,GFOX,Galaxy Fox,galaxy-fox,galaxy-foxZcV.png,5000000000,"{""ethereum"":""0x8f1cece048cade6b8a05dfa2f90ee4025f4f2662""}",18
+velaspad,VLXPAD,VelasPad,velaspad,velaspaddzY.png,431210314,"{""ethereum"":""0xb8e3bb633f7276cc17735d86154e0ad5ec9928c0"",""binance_smart"":""0xb8e3bb633f7276cc17735d86154e0ad5ec9928c0"",""velas"":""0xa065e0858417dfc7abc6f2bd4d0185332475c180""}",18
+maga-trump,MAGATRUMP,MAGA Trump,maga-trump,maga-trumplOk.png,1000000000,"{""ethereum"":""0x225e5b78f289c6d7d7757ad2b9d23b6ab31a5eea""}",18
+AHW5N8iqZobTcBepkSJzZ61XtAuSzBDcpxtrLG6KUKPk_solana,BENDOG,Ben the Dog,ben-the-dog,ben-the-dog9fd.png,999882330,"{""solana"":""AHW5N8iqZobTcBepkSJzZ61XtAuSzBDcpxtrLG6KUKPk""}",18
+wrapped-electroneum,WETN,Wrapped Electroneum,wrapped-electroneum,wrapped-electroneumzbC.png,48155741,"{""electroneum"":""0x138dafbda0ccb3d8e39c19edb0510fc31b7c1c77""}",18
+0xfefe157c9d0ae025213092ff9a5cb56ab492bab8_ethereum,FEFE,Fefe,fefe-on-eth,0xfefe157c9d0ae025213092ff9a5cb56ab492bab8_ethereumrd0.png,420690000,"{""ethereum"":""0xfefe157c9d0ae025213092ff9a5cb56ab492bab8""}",18
+kitty-ai,KITTY,Kitty AI,kitty-ai,kitty-ai6L5.png,994685833,"{""solana"":""8yJ15ee2AUQmwbWPxXLTTeBTzyMGn4MtSRKMqVHw1J1G""}",18
+0x95ccfd2b81a9667b0cc979992632f98fc853eba3_base,HERMESOS,Hermes OS,hermes-os,hermes-osBFe.png,100000000000,"{""base"":""0x95ccfd2b81a9667b0cc979992632f98fc853eba3""}",18
+rocket-lab-corporation-robinhood-tokenized-stock,RKLB,Rocket Lab Corporation • Robinhood Token,rocket-lab-corporation-robinhood-tokenized-stock,rocket-lab-corporation-robinhood-tokenized-stock10i.png,1301,"{""robinhood"":""0x3b14c39e89d60d627b42a1a4ca45b5bb45fc12e2""}",18
+AyLn7YdHqh3pGSNC1YrdEtEdSCVjG7BxQedxBvkTpump_solana,DATA,DATA HEDGE,data-hedge,data-hedgemg1.png,999737180,"{""solana"":""AyLn7YdHqh3pGSNC1YrdEtEdSCVjG7BxQedxBvkTpump""}",18
+6NcdiK8B5KK2DzKvzvCfqi8EHaEqu48fyEzC8Mm9pump_solana,STONKS,STONKS,stonks-5,6NcdiK8B5KK2DzKvzvCfqi8EHaEqu48fyEzC8Mm9pump_solanau1u.png,999743437,"{""solana"":""6NcdiK8B5KK2DzKvzvCfqi8EHaEqu48fyEzC8Mm9pump""}",18
+0xab3f23c2abcb4e12cc8b593c218a7ba64ed17ba3_base,CRED,Helixa Cred,helixa-cred,helixa-credMKq.png,100000000000,"{""base"":""0xab3f23c2abcb4e12cc8b593c218a7ba64ed17ba3""}",18
+0xdb39a9d4a1f1b4e93a5684d602207628ad60613c_monad,WNWMON,Wrapped Neverland WMON,wrapped-neverland-wmon,wrapped-neverland-wmonUPM.png,3947959,"{""monad"":""0xdb39a9d4a1f1b4e93a5684d602207628ad60613c""}",18
+0x08d9cb5100c306c2909b63415d7ff05268633b41_cronos,CLG,Cronos Legends,cronos-legends,0x08d9cb5100c306c2909b63415d7ff05268633b41_cronosgx8.png,477.9425,"{""cronos"":""0x08d9cb5100c306c2909b63415d7ff05268633b41""}",18
+aimalls,AIT,AiMalls,aimalls,aimalls5Ws.png,822541,"{""binance_smart"":""0x5f113f7ef20ff111fd130e83d8e97fd1e0e2518f""}",18
+H4phNbsqjV5rqk8u6FUACTLB6rNZRTAPGnBb8KXJpump_solana,SSE,Solana Social Explorer,solana-social-explorer,H4phNbsqjV5rqk8u6FUACTLB6rNZRTAPGnBb8KXJpump_solanamLF.png,999997590,"{""solana"":""H4phNbsqjV5rqk8u6FUACTLB6rNZRTAPGnBb8KXJpump""}",18
+waterdrop-inc-astock,AWDH,Waterdrop Inc aStock,waterdrop-inc-astock,waterdrop-inc-astockGN2.png,82120,"{""arbitrum-one"":""0x6458d4844ccaad06dbf566d1df93d8815f89d9b0"",""base"":""0x6458d4844ccaad06dbf566d1df93d8815f89d9b0"",""ethereum"":""0x6458d4844ccaad06dbf566d1df93d8815f89d9b0"",""binance_smart"":""0x6458d4844ccaad06dbf566d1df93d8815f89d9b0"",""monad"":""0x6458d4844ccaad06dbf566d1df93d8815f89d9b0"",""robinhood"":""0x6458d4844ccaad06dbf566d1df93d8815f89d9b0""}",18
+9hdynudAhhWzuNFAnpz7NjvdKMfh9z8mcZKNYHuAUgJQ_solana,SWIF,Sheep Wif Hat,sheep-wif-hat,9hdynudAhhWzuNFAnpz7NjvdKMfh9z8mcZKNYHuAUgJQ_solana0MW.png,873196841,"{""solana"":""9hdynudAhhWzuNFAnpz7NjvdKMfh9z8mcZKNYHuAUgJQ""}",18
+cat-cat-token,CAT,Cat,cat-cat-token,cat-cat-tokenZCK.png,988963945853091,"{""binance_smart"":""0x0173295183685f27c84db046b5f0bea3e683c24b""}",18
+CS7LmjtuugEUWtFgfyto79nrksKigv7Fdcp9qPuigdLs_solana,MANYU,littlemanyu,littlemanyu,CS7LmjtuugEUWtFgfyto79nrksKigv7Fdcp9qPuigdLs_solanaCJu.png,998903988,"{""solana"":""CS7LmjtuugEUWtFgfyto79nrksKigv7Fdcp9qPuigdLs""}",18
+0xc575bd129848ce06a460a19466c30e1d0328f52c_ethereum,RAI,Reploy,reploy,0xc575bd129848ce06a460a19466c30e1d0328f52c_ethereumf7i.png,10000000,"{""ethereum"":""0xc575bd129848ce06a460a19466c30e1d0328f52c""}",18
+7gKKy2p1SaMkRFPX7caF96YpfuMMpDj82ZpjaffuvaU5_solana,PARK,STONKS PARK,stonks-park,stonks-parkmFB.png,957597444,"{""solana"":""7gKKy2p1SaMkRFPX7caF96YpfuMMpDj82ZpjaffuvaU5""}",18
+voldemorttrumprobotnik-10neko,ETHEREUM,VoldemortTrumpRobotnik-10Neko,voldemorttrumprobotnik-10neko,voldemorttrumprobotnik-10nekoetj.png,923712765,"{""ethereum"":""0xc32db1d3282e872d98f6437d3bcfa57801ca6d5c"",""solana"":""2kj1MLqBPnhCTyjxT3MtJhcktJHxgR7s4EDu18khsvgj""}",18
+Dogg6xWSgkF8KbsHkTWD3Et4J9a8VBLZjrASURXGiLe1_solana,DOGAI,DOGAI,dogai-wtf,Dogg6xWSgkF8KbsHkTWD3Et4J9a8VBLZjrASURXGiLe1_solanaAvc.png,999746986,"{""solana"":""Dogg6xWSgkF8KbsHkTWD3Et4J9a8VBLZjrASURXGiLe1""}",18
+solve-care,SOLVE,SOLVE,solve-care,1575546489511.png,1000000000,"{""ethereum"":""0x446c9033e7516d820cc9a2ce2d0b7328b579406f""}",18
+doodoo,DOODOO,DooDoo,doodoo,doodooDMM.png,4200000,"{""aptos"":""0x73eb84966be67e4697fc5ae75173ca6c35089e802650f75422ab49a8729704ec::coin::DooDoo"",""solana"":""JDwzFSxcUvLubUb9xAuuZNvh4bbcEJcuM9TezpmRHVWF""}",18
+FcRvwYyHKbBgjJGhoCykKAWnvMJocRAGD6iuVYWspump_solana,LIZARDMAX,Lizardmaxxing,lizardmaxxing,lizardmaxxingVcC.png,968674812,"{""solana"":""FcRvwYyHKbBgjJGhoCykKAWnvMJocRAGD6iuVYWspump""}",18
+mp-materials-rstock,RMP,MP Materials Tokenized Stock (Reality),mp-materials-rstock,mp-materials-rstockLHm.png,2168,"{""arbitrum-one"":""0x583c87f50594cefb90f329b5d8beb88f6c64196d"",""morph-l2"":""0xefc8944ddcc84712d4a56c480e87dc41b936d2bc""}",18
+uni,UNI,Uni,uni,unigrS.png,1000000000,"{""sui"":""0xaf9e228fd0292e2a27b4859bc57a2f3a9faedb9341b6307c84fef163e44790cc::uni::UNI""}",18
+baobao-2-2,BAOBAO,BaoBao,baobao-2-2,baobao-2-2gh8.png,681490464,"{""solana"":""7Da1f2wibgzZZheXnVvqYgbWpccnGPM2CJPUkdcebonk""}",18
+hourglass,WAIT,Hourglass,hourglass,hourglassbui.png,97751977,"{""ethereum"":""0x2559813bbb508c4c79e9ccce4703bcb1f149edd7""}",18
+direxion-daily-semi-bear-3x-etf-ondo-tokenized,SOXSON,Direxion Daily Semi Bear 3X ETF (Ondo Tokenized),direxion-daily-semi-bear-3x-etf-ondo-tokenized,direxion-daily-semi-bear-3x-etf-ondo-tokenizedHjI.png,32368,"{""ethereum"":""0x01eb2ee6ec05c304666210133b762088ff9965ac"",""binance_smart"":""0x335dd4112704f108b5ddd8f8a44bd9ed68522a80"",""solana"":""ivnSAcjCqEtWYTKFbqYe8YoqRZqCBfT4BGP5G1nondo""}",18
+0x0921799cb1d702148131024d18fcde022129dc73_ethereum,LL,LightLink,lightlink,lightlinkPAl.png,1000000000,"{""ethereum"":""0x0921799cb1d702148131024d18fcde022129dc73"",""lightlink"":""0x519d3443cacc61bd844546edaea48e5502021802"",""base"":""0x519d3443cacc61bd844546edaea48e5502021802""}",18
+0x6d7497751656618fc38cfb5478994a20f7e235df_ethereum,SPYRO,SPYRO,spyro,spyrofCu.png,1000000000000,"{""ethereum"":""0x6d7497751656618fc38cfb5478994a20f7e235df""}",18
+wrapped-ctc,WCTC,Wrapped CTC,wrapped-ctc,wrapped-ctcE5V.png,1413561,"{""ethereum"":""0xeb32ad88b09fb94129a8b972876ad02eaac91e53"",""binance_smart"":""0xeb32ad88b09fb94129a8b972876ad02eaac91e53""}",18
+barnbridge,BOND,BarnBridge,barnbridge,barnbridgeaxo.png,10000000,"{""ethereum"":""0x0391d2021f89dc339f60fff84546ea23e337750f"",""arbitrum-one"":""0x0d81e50bc677fa67341c44d7eaa9228dee64a4e1"",""optimistic-ethereum"":""0x3e7ef8f50246f725885102e8238cbba33f276747""}",18
+malachite,MALA,Malachite,malachite,malachiteG9b.png,923624475,"{""arc"":""0x4f7dc89dc44ad08c20d9680d2ee9cfad69bfda55""}",18
+etica,ETI,Etica,etica,eticaBe5.png,7303367,,
+snake-4,SNAKE,SNAKE,snake-4,snake-4qXb.png,2267234,"{""sonic"":""0x3a516e01f82c1e18916ed69a81dd498ef64bb157""}",18
+abudium,AB,Abudium,abudium,abudiumwql.png,1000000000,"{""memecore"":""0x62994bb3be13d3eaa2462477c25d5c7667d3ca55""}",18
+rod-ai,RODAI,ROD.AI,rod-ai,rod-aiJpm.png,69356059317315,"{""solana"":""GdbyLsNKHKLXTZVEo8QrGKVmrexEeZUYvhpSfuZ9TdkC""}",18
+amazon-dinari-tokenized-stock,AMZN,Amazon (Dinari Tokenized Stock),amazon-dinari-tokenized-stock,amazon-dinari-tokenized-stockoRb.png,386.387,"{""ethereum"":""0x149ae2607d2d3c79bf053d720caccf831d48d55f"",""base"":""0xf393d07e6ca9818a601055b4bb3c48a5bb98e701"",""arbitrum-one"":""0x8240affe697cde618ad05c3c8963f5bfe152650b"",""avalanche"":""0xaba4a08c36404f6eff79dc85b0b4c5172a095504"",""hyperevm"":""0xaba4a08c36404f6eff79dc85b0b4c5172a095504""}",18
+duckies,DUCKIES,Yellow Duckies,duckies,duckies6M6.png,150000000,"{""polygon-pos"":""0x18e73a5333984549484348a94f4d219f4fab7b81"",""linea"":""0x796000fad0d00b003b9dd8e531ba90cff39e01e0"",""ethereum"":""0x90b7e285ab6cf4e3a2487669dba3e339db8a3320""}",18
+61nBtbHTfxCJikoUQJUizYv2tKSHg2KJ3r9YsdLxpump_solana,PUMPRPG,PUMP.RPG,pump-rpg,pump-rpguyu.png,989566371,"{""solana"":""61nBtbHTfxCJikoUQJUizYv2tKSHg2KJ3r9YsdLxpump""}",18
+quick-intel,QKNTL,Quick Intel,quick-intel,quick-intelDHh.png,80000000,"{""arbitrum-one"":""0xbcd4d5ac29e06e4973a1ddcd782cd035d04bc0b7"",""ethereum"":""0xbcd4d5ac29e06e4973a1ddcd782cd035d04bc0b7""}",18
+vanguard-real-estate-etf-ondo-tokenized,VNQON,Vanguard Real Estate ETF (Ondo Tokenized),vanguard-real-estate-etf-ondo-tokenized,vanguard-real-estate-etf-ondo-tokenizedWTL.png,1061,"{""ethereum"":""0xccae8843e26259278c200c6506f6e5a3bdd524cd"",""binance_smart"":""0x10b58a3d9dcec59bb1c3bf6b9c9414eafce711c9"",""solana"":""F3dMJ9H137YUNc9cpN3gBWDSq4MSRbTFtojH65Uondo""}",18
+muzzle,MUZZ,MUZZLE,muzzle,muzzleTJt.png,15561083150,"{""ethereum"":""0xef3daa5fda8ad7aabff4658f1f78061fd626b8f0""}",18
+0x3ec7310937281ca4bf89d5bb11704be9b7ff7777_monad,ANAGO,ANAGO,anago,0x3ec7310937281ca4bf89d5bb11704be9b7ff7777_monadQtc.png,1000000000,"{""monad"":""0x3ec7310937281ca4bf89d5bb11704be9b7ff7777""}",18
+tWKHzXd5PRmxTF5cMfJkm2Ua3TcjwNNoSRUqx6Apump_solana,AGIALPHA,AGI ALPHA AGENT,agi-alpha-agent,tWKHzXd5PRmxTF5cMfJkm2Ua3TcjwNNoSRUqx6Apump_solanazUe.png,999985412,"{""solana"":""tWKHzXd5PRmxTF5cMfJkm2Ua3TcjwNNoSRUqx6Apump""}",18
+generational-earnings-mechanism,GEM,Generational Earnings Mechanism,generational-earnings-mechanism,generational-earnings-mechanismwxV.png,997352348,"{""solana"":""GEMvEjH73cXzVuBJKKbejf2yKUpkvv8JtrrSd6YHVKYe""}",18
+greyhound-2,GH,Greyhound,greyhound-2,greyhound-22Bt.png,999992059,"{""solana"":""BtDFyQ1mjL4RHiXrx4ARuzXUt196u1hWoF2rgWUHpump""}",18
+inbred-cat,INBRED,Inbred Cat,inbred-cat,inbred-catKkP.png,994514321,"{""solana"":""EjzzyCSiLqjFDprpZj8e1zjXmcTG5HPGFRSEoWcJWHh9""}",18
+swan-chain,SWAN,Swan Chain,swan-chain,swan-chainYMg.png,1000000000,,
+wrapped-energi,WNRG,Wrapped Energi,wrapped-energi,wrapped-energi8qC.png,11611426,"{""energi"":""0xa55f26319462355474a9f2c8790860776a329aa4""}",18
+0x4472c69d299382f8847ebce4fc6ed8e295510e3e_robinhood,PBTC3X,Arcus BTC (3x Long),arcus-btc-3x-long,0x4472c69d299382f8847ebce4fc6ed8e295510e3e_robinhood3pk.png,467.3372,"{""robinhood"":""0x4472c69d299382f8847ebce4fc6ed8e295510e3e""}",18
+silly-dragon,SILLY,Silly Dragon,silly-dragon,silly-dragonwEY.png,999782043,"{""solana"":""7EYnhQoR9YM3N7UoaKRoA44Uy8JeaZV3qyouov87awMs""}",18
+39zSVsSHFqNhARbVh6n8ZF78nCmhV3gSg8D39xhBNe73_solana,AP,America Party,america-party,39zSVsSHFqNhARbVh6n8ZF78nCmhV3gSg8D39xhBNe73_solanajeq.png,999494750,"{""solana"":""39zSVsSHFqNhARbVh6n8ZF78nCmhV3gSg8D39xhBNe73""}",18
+king-bonk,KINGBONK,King Bonk,king-bonk,king-bonkR3h.png,0,"{""binance_smart"":""0x9059101e9c3b1ed5f778d6e88ba7d368f7dc9b57""}",18
+utu-coin,UTU,UTU Coin,utu-coin,utu-coinDhQ.png,998000000,"{""ethereum"":""0xa58a4f5c4bb043d2cc1e170613b74e767c94189b"",""binance_smart"":""0xed4bb33f20f32e989af975196e86019773a7cff0"",""optimistic-ethereum"":""0xf7dc37493e2e375dfdebec75e71d555af68648bf"",""aurora"":""0x7aa1a72f744cdcd4c89918aebfbe4f1d1d1156e6""}",18
+8TzfHZa6ZnvvGsQfnFC5wGrCiqbN9nD2KMjyabfrpump_solana,STOIC,Stoicism,stoicism,1750749032878.png,997984505,"{""solana"":""8TzfHZa6ZnvvGsQfnFC5wGrCiqbN9nD2KMjyabfrpump""}",18
+2KgAN8nLAU74wjiyKi85m4ZT6Z9MtqrUTGfse8Xapump_solana,SHEGEN,Aiwithdaddyissues,aiwithdaddyissues,2KgAN8nLAU74wjiyKi85m4ZT6Z9MtqrUTGfse8Xapump_solanapru.png,999451980,"{""solana"":""2KgAN8nLAU74wjiyKi85m4ZT6Z9MtqrUTGfse8Xapump""}",18
+GRFK7sv4KhkMzJ7BXDUBy4PLyZVBeXuW1FeaT6Mnpump_solana,$RICH,Meme Coin Millionaire,meme-coin-millionaire,GRFK7sv4KhkMzJ7BXDUBy4PLyZVBeXuW1FeaT6Mnpump_solanaRFN.png,999596036,"{""solana"":""GRFK7sv4KhkMzJ7BXDUBy4PLyZVBeXuW1FeaT6Mnpump""}",18
+opulous,OPUL,Opulous,opulous,opulousf9w.png,500000000,"{""ethereum"":""0x80d55c03180349fff4a229102f62328220a96444"",""binance_smart"":""0x686318000d982bc8dcc1cdcf8ffd22322f0960ed"",""algorand"":""287867876"",""arbitrum-one"":""0x0c5fa0e07949f941a6c2c29a008252db1527d6ee"",""avalanche"":""0x6c44e09737ac84bcf27633883daf7487898e4e5e"",""base"":""0x118a14bd824a7099e8c5279216ff410a7e5472bd"",""optimistic-ethereum"":""0x1f444e9fb735b2438bee3b841efea060d235abf1"",""polygon-pos"":""0xcccde52ef8f7d74d73ee033f7daccfafe29edd45""}",18
+0xb87c087d0f6fbe2f7223c5410291cb82744102d4_ethereum,NVF,New Vision Fund,new-vision-fund,new-vision-fundNrk.png,10000000000,"{""ethereum"":""0xb87c087d0f6fbe2f7223c5410291cb82744102d4""}",18
+bridged-weth-superposition,WETH,Bridged WETH (Superposition),bridged-weth-superposition,bridged-weth-superpositionw53.png,38.615,"{""Superposition"":""0x1fb719f10b56d7a85dcd32f27f897375fb21cfdd""}",18
+daohaus,HAUS,DAOhaus,daohaus,daohausNaU.png,1000000,"{""ethereum"":""0xf2051511b9b121394fa75b8f7d4e7424337af687"",""xdai"":""0xb0c5f3100a4d9d9532a4cfd68c55f1ae8da987eb""}",18
+kasta,KASTA,Kasta,kasta,kastaC8D.png,1499516764,"{""polygon-pos"":""0x235737dbb56e8517391473f7c964db31fa6ef280""}",18
+0xd43fba1f38d9b306aeef9d78ad177d51ef802b46_ethereum,GONDOLA,Gondola,gondola,0xd43fba1f38d9b306aeef9d78ad177d51ef802b46_ethereumIOE.png,420690000000,"{""ethereum"":""0xd43fba1f38d9b306aeef9d78ad177d51ef802b46"",""solana"":""DG3LB7Kr8Londuz1j2us4YUXyNqiiLioKdYjSB37HbN2""}",18
+8NfK7b9u1RvMpHJnAnZki4mNQwjhvzrVZs7bRQatpump_solana,LION,The Lion,the-lion,8NfK7b9u1RvMpHJnAnZki4mNQwjhvzrVZs7bRQatpump_solana2gU.png,999658132,"{""solana"":""8NfK7b9u1RvMpHJnAnZki4mNQwjhvzrVZs7bRQatpump""}",18
+3up9oA3hqCYRoxXhnAeUBfLv3oNrTCyAqL44t82qpump_solana,CRISPR,Cas9,cas9,3up9oA3hqCYRoxXhnAeUBfLv3oNrTCyAqL44t82qpump_solanaCFK.png,999953021,"{""solana"":""3up9oA3hqCYRoxXhnAeUBfLv3oNrTCyAqL44t82qpump""}",18
+defiato,DFIAT,DeFiato,defiato,defiato3BM.png,250000000,"{""ethereum"":""0x1045f5ccb01daea4f8eab055f5fcbb7c0e7c89f0"",""binance_smart"":""0xf64ed9ad397a1ae657f31131d4b189220a7f1cc7"",""avalanche"":""0xafe3d2a31231230875dee1fa1eef14a412443d22"",""terra"":""terra1vpws4hmpmpsqwnz3gljn8zj42rv7rkpc5atgt4""}",18
+7M9KJcPNC65ShLDmJmTNhVFcuY95Y1VMeYngKgt67D1t_solana,R/SNOOFI,r/snoofi,r-snoofi,7M9KJcPNC65ShLDmJmTNhVFcuY95Y1VMeYngKgt67D1t_solana58r.png,1000000000,"{""solana"":""7M9KJcPNC65ShLDmJmTNhVFcuY95Y1VMeYngKgt67D1t""}",18
+0x38d513ec43dda20f323f26c7bef74c5cf80b6477_base,CARLO,Carlo,carlo,carloTTb.png,1000000000,"{""base"":""0x38d513ec43dda20f323f26c7bef74c5cf80b6477""}",18
+meta-bsc,META,Meta BSC,meta-bsc,meta-bscBE2.png,1000000000000,"{""binance_smart"":""0x26165a5a3dd21fa528becf3ff7f114d00a517344""}",18
+2Fob54QUhUbP9jv6h5XAh3PgB1kcULR6LXbxSzuwpump_solana,SAGENT,SUPER AGENTOS,super-agentos,super-agentosJqY.png,999964861,"{""solana"":""2Fob54QUhUbP9jv6h5XAh3PgB1kcULR6LXbxSzuwpump""}",18
+HEYKwDJRoSsiLNQ9F9bZFKo7yxum1WbTFCgiHTX5h6tb_solana,HEY,hey.lol,hey-lol,hey-lolMcc.png,999988593,"{""solana"":""HEYKwDJRoSsiLNQ9F9bZFKo7yxum1WbTFCgiHTX5h6tb""}",18
+datadog-robinhood-tokenized-stock,DDOG,Datadog • Robinhood Token,datadog-robinhood-tokenized-stock,datadog-robinhood-tokenized-stockKnv.png,346.8207,"{""robinhood"":""0x27c99fbde9d0d2aa4f4bfb4943f237843ddf6958""}",18
+3uxMtF7dT2VSvRFkrLf9Gqm4nDDy2J5RBEXCQpjubonk_solana,RT,Rhetor,rhetor,rhetorEmr.png,999998851,"{""solana"":""3uxMtF7dT2VSvRFkrLf9Gqm4nDDy2J5RBEXCQpjubonk""}",18
+applied-materials-robinhood-tokenized-stock,AMAT,Applied Materials • Robinhood Token,applied-materials-robinhood-tokenized-stock,applied-materials-robinhood-tokenized-stockkiB.png,177.1127,"{""robinhood"":""0x36046893810a7e7fce501229d57dc3fc8c8716d0""}",18
+eusd-27a558b0-8b5b-4225-a614-63539da936f4,EUSD,eUSD (OLD),eusd-27a558b0-8b5b-4225-a614-63539da936f4,eusd-27a558b0-8b5b-4225-a614-63539da936f4Z8d.png,90378,"{""ethereum"":""0x97de57ec338ab5d51557da3434828c5dbfada371""}",18
+istanbul-basaksehir-fan-token,IBFK,İstanbul Başakşehir Fan Token,istanbul-basaksehir-fan-token,istanbul-basaksehir-fan-tokenTUH.png,3000000,"{""chiliz"":""0x7b69003c404b0579f257c16e2664b4eb4c7b2acf"",""solana"":""Dqb6YKsEHq6agB5FbMCBnmF3RkthDrC7izBpeSArgXxb"",""base"":""0x8644d43161be15689f4730b258ad152019224075""}",18
+ye-i,YE-I,YE-I,ye-i,ye-iRgu.png,998991247,"{""solana"":""7M3A35cr3cjw43W8ps98P71K5Y1V8PrEH1bFBxsKpump""}",18
+2HHgCLfKA5Rd1Fn9xAxfYzS3XoR5NnuxKDYz2EmWpump_solana,SBR,Strategic Bitcoin Reserve,sbrsol,2HHgCLfKA5Rd1Fn9xAxfYzS3XoR5NnuxKDYz2EmWpump_solanaTiC.png,999662616,"{""solana"":""2HHgCLfKA5Rd1Fn9xAxfYzS3XoR5NnuxKDYz2EmWpump""}",18
+zuzalu-inu,ZUZALU,Zuzalu Inu,zuzalu-inu,zuzalu-inul7l.png,1000000000,"{""ethereum"":""0xd1f17b7a6bff962659ed608bcd6d318bb5fbb249""}",18
+6N5cSpWghA9p5Q8PRNkZnvh3aZB2gf3regzQXcnZYaMo_solana,CNZSTRAT,Claynosaurz Strategy,claynosaurz-strategy,claynosaurz-strategyxrb.png,448843470,"{""solana"":""6N5cSpWghA9p5Q8PRNkZnvh3aZB2gf3regzQXcnZYaMo""}",18
+hyperliquid-strategies-inc-rstock,RPURR,Hyperliquid Strategies Tokenized Stock (Reality),hyperliquid-strategies-inc-rstock,hyperliquid-strategies-inc-rstockQ1A.png,7896,"{""arbitrum-one"":""0x8ad2e038005359cb2955292a3411a84516e99ed3""}",18
+0x7b0ee9dcb5c1d4d7cd630c652959951936512ba3_base,DELU,Delu,delu,delueSo.png,99999999998,"{""base"":""0x7b0ee9dcb5c1d4d7cd630c652959951936512ba3""}",18
+open-xstock,OPENX,OPEN xStock,open-xstock,open-xstockD2t.png,20054691,"{""solana"":""XsGtpmjhmC8kyjVSWL4VicGu36ceq9u55PTgF8bhGv6"",""ethereum"":""0xbee6b69345f376598fe16abd5592c6f844825e66"",""binance_smart"":""0xbee6b69345f376598fe16abd5592c6f844825e66""}",18
+FtPqJ2YTKmPyBxp3Npg18RE9Z77SQu9jrkRVYLzpump_solana,MURAD,Murad,murad,FtPqJ2YTKmPyBxp3Npg18RE9Z77SQu9jrkRVYLzpump_solanaABZ.png,999557251,"{""solana"":""FtPqJ2YTKmPyBxp3Npg18RE9Z77SQu9jrkRVYLzpump""}",18
+0x85635006d808030e97f3174c8ea1b4aa1f1feba3_base,VVVEITY,Venice Deity,venice-deity,venice-deityPrs.png,100000000000,"{""base"":""0x85635006d808030e97f3174c8ea1b4aa1f1feba3""}",18
+ryoshi-with-knife,RYOSHI,ryoshi with knife,ryoshi-with-knife,ryoshi-with-knifeEDB.png,777777777777778,"{""cronos"":""0x055c517654d72a45b0d64dc8733f8a38e27fd49c""}",18
+grab-holdings-rstock,RGRAB,Grab Holdings Tokenized Stock (Reality),grab-holdings-rstock,grab-holdings-rstockkDe.png,30728,"{""arbitrum-one"":""0xfc935dbba695a00d19f678fd6639e5bb833c4406"",""morph-l2"":""0x0d7dce094487c7863f32e4919792f5f4027f0eb6""}",18
+0x6457da6fca3c807b7f430770dbbe8ab5a767234a_robinhood,ARVO,Arvo,arvo,arvobSW.png,1000000000,"{""robinhood"":""0x6457da6fca3c807b7f430770dbbe8ab5a767234a""}",18
+galaconnect-bridged-fet-galachain,GFET,GalaConnect Bridged FET (GalaChain),galaconnect-bridged-fet-galachain,galaconnect-bridged-fet-galachainojy.png,4483030,"{""galachain"":""E3oTUFysUfQzaeAnzB4LSzTgnx""}",18
+4NGbC4RRrUjS78ooSN53Up7gSg4dGrj6F6dxpMWHbonk_solana,PANDU,Pandu Pandas [OLD],pandu-pandas,pandu-pandasPML.png,99970561013,"{""solana"":""4NGbC4RRrUjS78ooSN53Up7gSg4dGrj6F6dxpMWHbonk""}",18
+0xbf2e353f5db1a01e4e7f051222c666afc81b2574_ethereum,THE DOGEFATHER,DogeFather,dogefather-3,0xbf2e353f5db1a01e4e7f051222c666afc81b2574_ethereumleN.png,1000000000,"{""ethereum"":""0xbf2e353f5db1a01e4e7f051222c666afc81b2574""}",18
+51zudBR4NmATG35goida4dLQH5YPn9k8hVkLcizNpump_solana,JAM,jam cat,jam-cat,51zudBR4NmATG35goida4dLQH5YPn9k8hVkLcizNpump_solanaaK6.png,999251793,"{""solana"":""51zudBR4NmATG35goida4dLQH5YPn9k8hVkLcizNpump""}",18
+scada,SCADA,SCADA,scada,scadaHwU.png,302652668,"{""pulsechain"":""0x69e23263927ae53e5ff3a898d082a83b7d6fb438"",""ethereum"":""0xa7d12701385abb9814f220d2df705b9fe75bfdfa""}",18
+0xf0430bd971ee4a63674a2103e21129e9ccf29686_ethereum,GARY,Elons Pet Snail,elons-pet-snail,0xf0430bd971ee4a63674a2103e21129e9ccf29686_ethereumpW4.png,44000000,"{""ethereum"":""0xf0430bd971ee4a63674a2103e21129e9ccf29686""}",18
+0x291a50e611035b6562a2374b8b44de70aa8d7896_arbitrum-one,PEN,Pentagon Games,pentagon-games,pentagon-gamesoEl.png,1000000000,"{""arbitrum-one"":""0x291a50e611035b6562a2374b8b44de70aa8d7896"",""ethereum"":""0x5ee3188a3f8adee1d736edd4ae85000105c88f66""}",18
+cindicator,CND,Cindicator,cindicator,CindicatorVQjIB.png,2000000005,"{""ethereum"":""0xd4c435f5b09f855c3317c8524cb1f586e42795fa""}",18
+sumer-money-suusd,SUUSD,Sumer.Money suUSD,sumer-money-suusd,sumer-money-suusdkdY.png,84824,"{""meter"":""0x8bf591eae535f93a242d5a954d3cde648b48a5a8"",""arbitrum-one"":""0x8bf591eae535f93a242d5a954d3cde648b48a5a8"",""base"":""0x8bf591eae535f93a242d5a954d3cde648b48a5a8""}",18
+daumenfrosch,DAUMEN,Daumenfrosch,daumenfrosch,daumenfroschydB.png,10000000,,
+0x069f01cdd1e32d7bab5fc81527df191835136c9d_ethereum,APUGURL,Apu Gurl,apu-gurl,apu-gurlTJF.png,420690000000,"{""ethereum"":""0x069f01cdd1e32d7bab5fc81527df191835136c9d""}",18
+77RBCP95AFT9XRsx4xuGUHjBQsjcatGYCZ2VXx8Epump_solana,HUAHUA,HUA HUA,hua-hua,77RBCP95AFT9XRsx4xuGUHjBQsjcatGYCZ2VXx8Epump_solanah0D.png,988895079,"{""solana"":""77RBCP95AFT9XRsx4xuGUHjBQsjcatGYCZ2VXx8Epump""}",18
+tonstation,MRSOON,TON Station,tonstation,tonstationCOJ.png,65860282991,"{""the-open-network"":""EQCwe0g3cEFhsz4VK5nrtOZBkFeSISxhCVUqvON7Im__SOON""}",18
+0xd888a5460fffa4b14340dd9fe2710cbabd520659_ethereum,KOL,ProtoKOLs,protokols,0xd888a5460fffa4b14340dd9fe2710cbabd520659_ethereumtOi.png,10000000,"{""ethereum"":""0xd888a5460fffa4b14340dd9fe2710cbabd520659""}",18
+DUgEVBVJukYsw5BDnM81T2c6PZ1aCnk9zQJ5guJdpump_solana,GPC,Going Parabolic Coin,going-parabolic-coin,going-parabolic-coinMfh.png,999485869,"{""solana"":""DUgEVBVJukYsw5BDnM81T2c6PZ1aCnk9zQJ5guJdpump""}",18
+torus-2,TORUS,TORUS,torus-2,torus-2KGi.png,16598481,"{""ethereum"":""0xb47f575807fc5466285e1277ef8acfbb5c6686e8""}",18
+2jbdBWTK2MYpuRsmEDJqETU3UMM2nN3WGtete4HUpump_solana,$ROKHA,Rokha,rokha,rokha0j3.png,936987483,"{""solana"":""2jbdBWTK2MYpuRsmEDJqETU3UMM2nN3WGtete4HUpump""}",18
+Be78Ld3SpYMif5YgxM4ipJx2eGSDcAaaCkHUzcV5pump_solana,42069K,The Retirement Token,the-retirement-token,Be78Ld3SpYMif5YgxM4ipJx2eGSDcAaaCkHUzcV5pump_solanabIR.png,997954100,"{""solana"":""Be78Ld3SpYMif5YgxM4ipJx2eGSDcAaaCkHUzcV5pump""}",18
+galapagos-token,0.000001,Galapagos Token,galapagos-token,galapagos-tokenpAt.png,999710434,"{""solana"":""6Z17TYRxJtPvHSGh7s6wtcERgxHGv37sBq6B9Sd1pump""}",18
+moonprime-games,LUNAR,MoonPrime Games,moonprime-games,moonprime-gamesNik.png,895473885,"{""binance_smart"":""0xab7dd9c9993e63604ff57cfc2dbe430adffd33d3""}",18
+metafluence,METO,Metafluence,metafluence,metafluence8GE.png,4800000000,"{""binance_smart"":""0xa78775bba7a542f291e5ef7f13c6204e704a90ba""}",18
+0x72499bddb67f4ca150e1f522ca82c87bc9fb18c8_base,BONK,Bonk On Base,bonk-on-base,bonk-on-baseyXW.png,100000000000000,"{""base"":""0x72499bddb67f4ca150e1f522ca82c87bc9fb18c8""}",18
+defi-warrior,FIWA,Defi Warrior,defi-warrior,defi-warriorsnD.png,10000000000,"{""binance_smart"":""0x633237c6fa30fae46cc5bb22014da30e50a718cc""}",18
+5Ke381D44MEQg3BQarWhAwhj1xbdNvXe2KHkTiZzw7r5_solana,LUCI,LUCI,luci,5Ke381D44MEQg3BQarWhAwhj1xbdNvXe2KHkTiZzw7r5_solanajJ6.png,997460187,"{""solana"":""5Ke381D44MEQg3BQarWhAwhj1xbdNvXe2KHkTiZzw7r5""}",18
+0xaf1e52927d724fd34773bd53ada57f4c2b742069_ethereum,SHIT,Dogeshit,dogeshit,dogeshitaiH.png,420690000000,"{""ethereum"":""0xaf1e52927d724fd34773bd53ada57f4c2b742069""}",18
+new-order,NEWO,New Order,new-order,new-orderstR.png,396086062,"{""ethereum"":""0x98585dfc8d9e7d48f0b1ae47ce33332cf4237d96"",""avalanche"":""0x4bfc90322dd638f81f034517359bd447f8e0235a""}",18
+paysenger-ego,EGO,Paysenger EGO,paysenger-ego,paysenger-egoip9.png,323000000,,
+0x2eac9b08a4d86f347b9e856fb3ec082e61c76545_base,AIRENE,AIRENE by Virtuals,airene,airene8V0.png,1000000000,"{""base"":""0x2eac9b08a4d86f347b9e856fb3ec082e61c76545""}",18
+fofar-2,FOFAR,FoFar,fofar-2,fofar-2T9W.png,1000000000,"{""tron"":""TUFonyWZ4Tza5MzgDj6g2u5rfdGoRVYG7g""}",18
+5UAMZkfNmuVcKzr2wo8Jqw4R1k8vfdAVJNN6h3bVpump_solana,LIMBO,LIMBO,limbo,5UAMZkfNmuVcKzr2wo8Jqw4R1k8vfdAVJNN6h3bVpump_solanaVEX.png,999997811,"{""solana"":""5UAMZkfNmuVcKzr2wo8Jqw4R1k8vfdAVJNN6h3bVpump"",""avalanche"":""0x3e5b9c8930ecab017e16c3b7a2d0cb746d8bcdcf""}",18
+blue-agent,BLUEAGENT,Blue Agent,blue-agent,blue-agentAcL.png,1000000000,"{""base"":""0xf895783b2931c919955e18b5e3343e7c7c456ba3"",""robinhood"":""0x765eecec6b7bee0474d00faf76e61fca8ed027b3""}",18
+0x5460b5e88799d27bbdf8a210926c17dec18d7777_binance_smart,VENUSCOIN,VenusCoin,venuscoin,0x5460b5e88799d27bbdf8a210926c17dec18d7777_binance_smartBgr.png,926626084,"{""binance_smart"":""0x5460b5e88799d27bbdf8a210926c17dec18d7777""}",18
+siyana,SYYN,Siyana,siyana,siyanaXlh.png,100000000000,"{""base"":""0xc7562d0536d3bf5a92865ac22062a2893e45cb07""}",18
+kitten-haimer,KHAI,Kitten Haimer,kitten-haimer,kitten-haimerigw.png,54000000,"{""solana"":""3TWgDvYBL2YPET2LxnWAwsMeoA8aL4DutNuwat2pKCjC""}",18
+6iFUKWGDksVvmnSYJUGYnsu168xstni8xJkTF7QrpPAu_solana,CANDLE,Candle Cat,candle-cat,candle-catQ3w.png,193308544,"{""solana"":""6iFUKWGDksVvmnSYJUGYnsu168xstni8xJkTF7QrpPAu""}",18
+jesus-on-sol,JESUS,JESUS ON SOL,jesus-on-sol,jesus-on-solh5h.png,6999335,"{""solana"":""2c8TQe4TUf2doRXd3yQ1XEn7zhT1vWw1y41SXz6G4j7S""}",18
+t-mobile-xstock,TMUSX,T-Mobile xStock,t-mobile-xstock,t-mobile-xstockieW.png,486642,"{""ethereum"":""0x68f3ddee8bae33691e7cd0372984fd857e842760"",""solana"":""XswCi2U1G6Ppbw1QhG45yKb8UKuR1FKLJrquv2FZSD4"",""arbitrum-one"":""0x68f3ddee8bae33691e7cd0372984fd857e842760"",""binance_smart"":""0x68f3ddee8bae33691e7cd0372984fd857e842760"",""hyperevm"":""0x68f3ddee8bae33691e7cd0372984fd857e842760"",""ink"":""0x68f3ddee8bae33691e7cd0372984fd857e842760"",""mantle"":""0x68f3ddee8bae33691e7cd0372984fd857e842760"",""optimistic-ethereum"":""0x68f3ddee8bae33691e7cd0372984fd857e842760"",""the-open-network"":""EQDpgfCcp2GILvUsZrcvtKHiO2W7iuGlduT0FpczktTWpt6Z"",""x-layer"":""0x68f3ddee8bae33691e7cd0372984fd857e842760""}",18
+0x1185cb5122edad199bdbc0cbd7a0457e448f23c7_base,SEKOIA,sekoia by Virtuals,sekoia-by-virtuals,0x1185cb5122edad199bdbc0cbd7a0457e448f23c7_base5Hx.png,1000000000,"{""base"":""0x1185cb5122edad199bdbc0cbd7a0457e448f23c7""}",18
+0x7d9ce55d54ff3feddb611fc63ff63ec01f26d15f_base,FUNGI,Fungi,fungi,fungiz7D.png,210000000,"{""base"":""0x7d9ce55d54ff3feddb611fc63ff63ec01f26d15f""}",18
+crash-cat,CRASHCAT,CRASH CAT,crash-cat,crash-catTTT.png,818241998,"{""robinhood"":""0xcf8b02128d2803b3df114e277094cc1096294b5c""}",18
+avive,AVIVE,Avive,avive,avivedUv.png,9460759190,"{""arbitrum-one"":""0x5117f4ad0bc70dbb3b05bf39a1ec1ee40dd67654""}",18
+4HBQm2EhdpUWZkTYxttxNDnsoWi5beRAGWHpjVo8pump_solana,CAT,CAT Terminal,cat-terminal,cat-terminalm1r.png,999966524,"{""solana"":""4HBQm2EhdpUWZkTYxttxNDnsoWi5beRAGWHpjVo8pump""}",18
+vtrading,VTRADING,Vtrading,vtrading,vtradingjl1.png,1000000000,"{""ethereum"":""0x69cade383df52ec02562869da8aa146be08c5c3c""}",18
+0x9fd9278f04f01c6a39a9d1c1cd79f7782c6ade08_ethereum,BIAO,Biaoqing,biaoqing,biaoqingrqw.png,1000000000,"{""ethereum"":""0x9fd9278f04f01c6a39a9d1c1cd79f7782c6ade08"",""base"":""0xf4fa93f76220414cdf6fd95a85e7a407e2dd3e3d""}",18
+0xb56b5269c03421765c28aa61037536ea5690741c_base,DESSAI,DessalinesAI by Virtuals,dessalinesai-by-virtuals,dessalinesai-by-virtualsyT8.png,1000000000,"{""base"":""0xb56b5269c03421765c28aa61037536ea5690741c""}",18
+pepe-inverted,ƎԀƎԀ,Pepe Inverted,pepe-inverted,pepe-inverteddNk.png,420690000000000,"{""ethereum"":""0x69d29f1b0cc37d8d3b61583c99ad0ab926142069"",""solana"":""FyJvH1WvCPPvhZaH8F46DAHdgMKvgKSvDRXF6A4Lp1Uv"",""avalanche"":""0x53c44c368a11f54b8dc496915dd71bd42bd64a91"",""binance_smart"":""0x0a80bbfcfe280eb072e767e4c015a2fc2da5145c"",""base"":""0x5fe872bf640e06380b848976c7927827a0f2a3ce"",""monad"":""0x85a0b9bda81a12c760e96497a5b7155dbf897a39""}",18
+metavpad,METAV,MetaVPad,metavpad,metavpadbVu.png,1946507057,"{""binance_smart"":""0x62858686119135cc00c4a3102b436a0eb314d402""}",18
+layerzero-bridged-weth-aptos,WETH,Aptos Bridged WETH (Aptos),layerzero-bridged-weth-aptos,layerzero-bridged-weth-aptosj9q.png,34.4094,"{""aptos"":""0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WETH""}",18
+HJ39rRZ6ys22KdB3USxDgNsL7RKiQmsC3yL8AS3Suuku_solana,UPDOG,What’s Updog?,what-s-updog,what-s-updogyB2.png,999961930,"{""solana"":""HJ39rRZ6ys22KdB3USxDgNsL7RKiQmsC3yL8AS3Suuku""}",18
+fx-rusd,RUSD,f(x) rUSD,fx-rusd,fx-rusd9xa.png,92283,"{""ethereum"":""0x65d72aa8da931f047169112fcf34f52dbaae7d18""}",18
+zirodelta,ZDLT,Zirodelta,zirodelta,zirodelta4uX.png,998686174,"{""solana"":""4PX31xRA1BaAyb2Js45ZKYp92VGWGp47yWeVs5CGVKbf""}",18
+minds,MINDS,Minds,minds,mindsd7r.png,250000000,"{""ethereum"":""0xb26631c6dda06ad89b93c71400d25692de89c068"",""base"":""0x686015ebf044a1b8a4be750346be00293a996071""}",18
+0xdbc6333a7d8bcd95f96641eda4d095e69f207777_binance_smart,BICAT,Bicat,bicat,bicatIyD.png,1000000000,"{""binance_smart"":""0xdbc6333a7d8bcd95f96641eda4d095e69f207777""}",18
+0x6797b6244fa75f2e78cdffc3a4eb169332b730cc_base,EAI,Eagle AI,eagle-ai,eagle-aigbE.png,100000000,"{""base"":""0x6797b6244fa75f2e78cdffc3a4eb169332b730cc""}",18
+pepe-grinch,GRINCH,Pepe Grinch,pepe-grinch,pepe-grinchU3v.png,1000000000,"{""the-open-network"":""EQA6G0uVERDZTkLNa0drWBna1F5TSbogy7UXEWU5ERHz4uJL""}",18
+ari,ARI,ARI,ari,arimkB.png,479632972,"{""base"":""0xd1e6f3f0a7f40d5412f7471875879381441bf722""}",18
+gourmetgalaxy,GUM,Gourmet Galaxy,gourmetgalaxy,gourmetgalaxyhWp.png,20000000,"{""ethereum"":""0x4f5fa8f2d12e5eb780f6082dd656c565c48e0f24"",""binance_smart"":""0xc53708664b99df348dd27c3ac0759d2da9c40462""}",18
+shopify-robinhood-tokenized-stock,SHOP,Shopify • Robinhood Token,shopify-robinhood-tokenized-stock,shopify-robinhood-tokenized-stock9ng.png,606.1432,"{""robinhood"":""0xf53f66751b1eff985311b693531e3290f600c410""}",18
+0xae60eafb73eb0516951ab20089cff32ac9dc63b7_hyperevm,US,UltraSolid,ultrasolid,ultrasolidfqc.png,46129608,"{""hyperevm"":""0xae60eafb73eb0516951ab20089cff32ac9dc63b7""}",18
+UwU8RVXB69Y6Dcju6cN2Qef6fykkq6UUNpB15rZku6Z_solana,UWU,Unicorn [OLD],unicorn-3,UwU8RVXB69Y6Dcju6cN2Qef6fykkq6UUNpB15rZku6Z_solanaUjx.png,16002113978,"{""solana"":""UwU8RVXB69Y6Dcju6cN2Qef6fykkq6UUNpB15rZku6Z""}",18
+0xfe20c1b85aba875ea8cecac8200bf86971968f3a_base,BALD,BALD,bald-2,0xfe20c1b85aba875ea8cecac8200bf86971968f3a_basetxT.png,1000000000000,"{""base"":""0xfe20c1b85aba875ea8cecac8200bf86971968f3a""}",18
+864YJRb3JAVARC4FNuDtPKFxdEsYRbB39Nwxkzudxy46_solana,HABIBI,Habibi (Sol),habibi-sol,habibi-solGo5.png,999910453,"{""solana"":""864YJRb3JAVARC4FNuDtPKFxdEsYRbB39Nwxkzudxy46""}",18
+wrapped-aave-arbitrum-wsteth,WAARBWSTETH,Wrapped Aave Arbitrum wstETH,wrapped-aave-arbitrum-wsteth,wrapped-aave-arbitrum-wstethQ1B.png,29.257,"{""arbitrum-one"":""0xe98fc055c99decd8da0c111b090885d5d15c774e""}",18
+9EwutmiMiLHoH5hj5aCLMDJUdsLZVg926ZmDdr8Ppump_solana,CHATTY,ChatGPT's Mascot,chatgpt-s-mascot,9EwutmiMiLHoH5hj5aCLMDJUdsLZVg926ZmDdr8Ppump_solana6jD.png,996499528,"{""solana"":""9EwutmiMiLHoH5hj5aCLMDJUdsLZVg926ZmDdr8Ppump""}",18
+0x32e5c63483dc00e00bf99016fa91775e00464de1_robinhood,INC,INC,inc,0x32e5c63483dc00e00bf99016fa91775e00464de1_robinhoodiFc.png,1000000000,"{""robinhood"":""0x32e5c63483dc00e00bf99016fa91775e00464de1""}",18
+paid-network,PAID,PAID,paid-network,paid-networkQbn.png,589686915,"{""base"":""0x655a51e6803faf50d4ace80fa501af2f29c856cf""}",18
+epoch-2,EPT,Epoch,epoch-2,epoch-28dk.png,918850000,"{""sui"":""0x228c580891953873670a13c4dc2e4eb84cae59925a3c774b978af134212092b5::template::TEMPLATE""}",18
+0x32e0f9d26d1e33625742a52620cc76c1130efde6_base,BASED,BASED,based-2,0x32e0f9d26d1e33625742a52620cc76c1130efde6_base67V.png,75273150000,"{""base"":""0x32e0f9d26d1e33625742a52620cc76c1130efde6""}",18
+kryvex,KRYVEX,KRYVEX,kryvex,kryvexB9a.png,954728976,"{""solana"":""PrkyDdnE9A99ghintXqgoynRahwz4oevixigZg3pump""}",18
+SoLiDMWBct5TurG1LNcocemBK7QmTn4P33GSrRrcd2n_solana,SOLID,Solana ID,solid,SoLiDMWBct5TurG1LNcocemBK7QmTn4P33GSrRrcd2n_solanaxjr.png,999987613,"{""solana"":""SoLiDMWBct5TurG1LNcocemBK7QmTn4P33GSrRrcd2n""}",18
+0x76734b57dfe834f102fb61e1ebf844adf8dd931e_base,WEIRDO,Weirdo,weirdo-2,weirdo-2TVH.png,69420000000,"{""base"":""0x76734b57dfe834f102fb61e1ebf844adf8dd931e""}",18
+8BtoThi2ZoXnF7QQK1Wjmh2JuBw9FjVvhnGMVZ2vpump_solana,DARK,Dark Eclipse,dark-eclipse,dark-eclipseVNw.png,999957849,"{""solana"":""8BtoThi2ZoXnF7QQK1Wjmh2JuBw9FjVvhnGMVZ2vpump""}",18
+0xd211b17dfe8288d4fb0dd8eeff07a6c48fc679d5_avalanche,BAUSD,Aquabank bAUSD,aquabank-bausd,aquabank-bausdZCX.png,91500,"{""avalanche"":""0xd211b17dfe8288d4fb0dd8eeff07a6c48fc679d5""}",18
+HaYRgD7rjwj1AwoWjafokj4196sufYm4vKFamLZVpump_solana,ARCHIBROWN,Archibald Brown,archibald-brown,archibald-brownHth.png,891065690,"{""solana"":""HaYRgD7rjwj1AwoWjafokj4196sufYm4vKFamLZVpump""}",18
+rektcoin,REKT,$REKT,rektcoin,rektcoin9oK.png,125000000,"{""ethereum"":""0xec33d722d014c02cf4efb46d68098e98e027c364"",""binance_smart"":""0xec33d722d014c02cf4efb46d68098e98e027c364"",""base"":""0x8972ab69d499b5537a31576725f0af8f67203d38""}",18
+tom-coin,TMC,Tom Coin,tom-coin,tom-coinTGQ.png,1000000000000000,"{""binance_smart"":""0x8f1fe4e6707cd4236b704759d2ee15166c68183a""}",18
+0xa3109f24185ce81b89b9ceead7f81e3b07a61b07_base,MOVIE,Sequel,sequel,sequelfhP.png,100000000000,"{""base"":""0xa3109f24185ce81b89b9ceead7f81e3b07a61b07""}",18
+kraneshares-csi-china-internet-etf-ondo-tokenized,KWEBON,KraneShares CSI China Internet ETF (Ondo Tokenized),kraneshares-csi-china-internet-etf-ondo-tokenized,kraneshares-csi-china-internet-etf-ondo-tokenizedN9d.png,3797,"{""ethereum"":""0xeaa2287290544ed9f481012aa348619a4d2f9e51"",""binance_smart"":""0x7437203800140ba7d9081dde8cef09ee40e3bf03"",""solana"":""DVPSYdqWPLvNa8afnEqa3B9eDfTTWpGyUZeXvdMondo""}",18
+dinolfg,DINO,DinoLFG,dinolfg,dinolfgjH6.png,333333333,"{""ethereum"":""0x49642110b712c1fd7261bc074105e9e44676c68f"",""pulsechain"":""0xfd3a511cb1c435d6a6e471392902bf4a83773d9c"",""solana"":""33eWALS9GkzSMS3EsKSdYCsrUiMdQDgX2QzGx4vA9wE8""}",18
+4F5VG4QNMMhbZURpqdvjVkKERtD9KSuf7kPEbAd8pump_solana,MAYBE,Schrodinger's Coin,schrodinger-s-coin,4F5VG4QNMMhbZURpqdvjVkKERtD9KSuf7kPEbAd8pump_solanaLW5.png,841640334,"{""solana"":""4F5VG4QNMMhbZURpqdvjVkKERtD9KSuf7kPEbAd8pump""}",18
+fgi-industries-st0x-tokenized-stock,WTFGI,FGI Industries (ST0x Tokenized Stock),fgi-industries-st0x-tokenized-stock,fgi-industries-st0x-tokenized-stockMQu.png,11545,"{""base"":""0x6aed8b1acfb04f4e0e6db580f12ff41438a394e5""}",18
+baby-cash-cat,BABYCASHCAT,Baby Cash Cat,baby-cash-cat,baby-cash-catGny.png,1000000000,"{""robinhood"":""0x57a1ab439e8c24b90ecc6534c05621d6e68ed35a""}",18
+whipcat,WHIPCAT,WHIPCAT,whipcat,whipcatJd3.png,971677728,"{""solana"":""F4635H9HFAzYjpyM3coGMtW8pMmEYRtwrgz5mgfHpump""}",18
+wrapped-shido,WSHIDO,Wrapped Shido,wrapped-shido,wrapped-shidopPs.png,1143849675,"{""shido"":""0x8cbaffd9b658997e7bf87e98febf6ea6917166f7""}",18
+HhcfXbZ2rukoKx8oAH8rfkmzXbwvfdh6MMLZjneg4rWk_solana,COPCAT,Copper Cat,copper-cat,copper-cathtu.png,1000000000,"{""solana"":""HhcfXbZ2rukoKx8oAH8rfkmzXbwvfdh6MMLZjneg4rWk""}",18
+FLJYGHpCCcfYUdzhcfHSeSd2peb5SMajNWaCsRnhpump_solana,STORE,Solana Spaces,solana-spaces,FLJYGHpCCcfYUdzhcfHSeSd2peb5SMajNWaCsRnhpump_solanajYK.png,972496012,"{""solana"":""FLJYGHpCCcfYUdzhcfHSeSd2peb5SMajNWaCsRnhpump""}",18
+catvax,CATVAX,Catvax,catvax,catvaxrle.png,83936072,"{""solana"":""EVDoPXkWNRMc7fQirg7emNdc17KNqsCyzVi4mWPmDvni""}",18
+occamfi,OCC,OccamFi,occamfi,occamfinYV.png,99500000,"{""ethereum"":""0x2f109021afe75b949429fe30523ee7c0d5b27207"",""cardano"":""10a124dcf67dadd515250ebdacefd718c7fdce1e"",""binance_smart"":""0x2a4dffa1fa0f86ce7f0982f88aecc199fb3476bc"",""milkomeda-cardano"":""0x461d52769884ca6235b685ef2040f47d30c94eb5""}",18
+dtsla,DTSLA,Tesla Tokenized Stock Defichain,dtsla,dtslaGgk.png,40757,,
+arcus-spcx-3x-long,PSPCX3X,Arcus SPCX (3x Long),arcus-spcx-3x-long,arcus-spcx-3x-longeqr.png,771.6319,"{""robinhood"":""0x8b9d2eb675e33e541cb7de25a55724d2e70e8dab""}",18
+analos,ANALOS,analoS,analos,analosy24.png,99913777605,"{""solana"":""7iT1GRYYhEop2nV1dyCwK2MGyLmPHq47WhPGSwiqcUg5""}",18
+johnson-johnson-backpack-securities,JNJ,Johnson & Johnson (Backpack Securities),johnson-johnson-backpack-securities,johnson-johnson-backpack-securitiesROr.png,343.8075,"{""solana"":""JNJg1znKdF712Phe7L7z52AATAvEjEytBdN2w8Lnh1Y""}",18
+cortex-4,CORTEX,CORTEX,cortex-4,cortex-4r9j.png,1000000000,"{""arc"":""0x3bd5702b950163cd6945f53b9bcefb551605821f""}",18
+0xb8a87405d9a4f2f866319b77004e88dff66c0d92_ethereum,SORA,Sora AI,sora-ai,sora-aiteg.png,1000000000,"{""ethereum"":""0xb8a87405d9a4f2f866319b77004e88dff66c0d92""}",18
+mad-coin,$MAD,Mad Coin,mad-coin,mad-coinVpM.png,484128388,"{""solana"":""Fa7ZE9nCEYnrHsnoeHuhEExJpchtrBtKXnWe6CgHpump""}",18
+CTJf74cTo3cw8acFP1YXF3QpsQUUBGBjh2k2e8xsZ6UL_solana,NEIRO,Neiro,neiro,CTJf74cTo3cw8acFP1YXF3QpsQUUBGBjh2k2e8xsZ6UL_solana1P9.png,999861037,"{""solana"":""CTJf74cTo3cw8acFP1YXF3QpsQUUBGBjh2k2e8xsZ6UL""}",18
+elote,LOLO,Elote,elote,eloteaQZ.png,998475086,"{""solana"":""CCgH8T82ABC7Krg4bR4Jj2yotiDQdzk3yg6GLLUApump""}",18
+pump,PUMP,Pump,pump,pumpQM8.png,21000000,"{""blast"":""0x216a5a1135a9dab49fa9ad865e0f22fe22b5630a""}",18
+shiryo-inu,SHIRYO-INU,Shiryo,shiryo-inu,shiryo-inuC2C.png,0,"{""ethereum"":""0x1e2f15302b90edde696593607b6bd444b64e8f02""}",18
+0x6af73d4579c70a24d52e4f4b43eecb2a75019f94_base,RCAT,Replicat-One by Virtuals,replicat-one-by-virtuals,0x6af73d4579c70a24d52e4f4b43eecb2a75019f94_basekmZ.png,1000000000,"{""base"":""0x6af73d4579c70a24d52e4f4b43eecb2a75019f94""}",18
+0x71dff63057274f5d20330c5f18b5922b97660f9c_robinhood,AP,Artificial Pepe,artificial-pepe,0x71dff63057274f5d20330c5f18b5922b97660f9c_robinhoodcxi.png,1000000000,"{""robinhood"":""0x71dff63057274f5d20330c5f18b5922b97660f9c""}",18
+smudge-lord,SMUDGE,Smudge Lord,smudge-lord,smudge-lordPUu.png,420690000000000,"{""ethereum"":""0x516e2758b044433371076a48127b8cfa7b0bdb43""}",18
+0x230ea9aed5d08afdb22cd3c06c47cf24ad501301_ethereum,SPX2.0,SPX6900 2.0,spx6900-2-0,0x230ea9aed5d08afdb22cd3c06c47cf24ad501301_ethereumm9v.png,977694447,"{""ethereum"":""0x230ea9aed5d08afdb22cd3c06c47cf24ad501301""}",18
+8tSeXYSXzFvaDX1nbWrEFFaFuPHuWqpzksKYxQPvpump_solana,VIBE,Vibe Cat,vibe-cat-2,8tSeXYSXzFvaDX1nbWrEFFaFuPHuWqpzksKYxQPvpump_solanajF4.png,982307105,"{""solana"":""8tSeXYSXzFvaDX1nbWrEFFaFuPHuWqpzksKYxQPvpump""}",18
+xzk,XZK,Expand,xzk,xzkSG4.png,1000000000,"{""ethereum"":""0xe8fc52b1bb3a40fd8889c0f8f75879676310ddf0""}",18
+89BZ5RU212yKr3iFdJHyn3ZsR37bS4s8TbmVb2yApump_solana,MIM,Magic Internet Money,magic-internet-money-2,magic-internet-money-2Bv2.png,999897199,"{""solana"":""89BZ5RU212yKr3iFdJHyn3ZsR37bS4s8TbmVb2yApump""}",18
+libra-4,LIBRA,Libra,libra-4,libra-4qYp.png,999794486,"{""solana"":""7Zt2KUh5mkpEpPGcNcFy51aGkh9Ycb5ELcqRH1n2GmAe""}",18
+tygr-2,TYGR,Tygr,tygr-2,tygr-2hT8.png,882976214,"{""robinhood"":""0x69984ad3322300039f2855f81c44dbc532efe744""}",18
+shibeus-maximus,SHIBEUS,Shibeus Maximus,shibeus-maximus,shibeus-maximusjmv.png,1000000000,"{""ethereum"":""0x5f907f5a55f257c61463cd4d10ede35dfc7dede9""}",18
+gogopool,GGP,GoGoPool,gogopool,gogopoolMxc.png,20962968,"{""avalanche"":""0x69260b9483f9871ca57f81a90d91e2f96c2cd11d""}",18
+0x66b5228cfd34d9f4d9f03188d67816286c7c0b74_ethereum,VOLT,VOLT.WIN,volt-win,0x66b5228cfd34d9f4d9f03188d67816286c7c0b74_ethereumxSF.png,554245305,"{""ethereum"":""0x66b5228cfd34d9f4d9f03188d67816286c7c0b74""}",18
+coder,CDR,Coder,coder,coder9LB.png,999978327,"{""solana"":""DjAbfe6EjhvZs4RAajYs8r3jcC1cFqqK4beTfGS7Lidd""}",18
+simple-ai,SMPL,Simple AI,simple-ai,simple-aiMkV.png,100000000,"{""ethereum"":""0xfdd070e34cbd0923d307f3af481be5bddac4f487""}",18
+duckereum,DUCKER,Duckereum,duckereum,duckereumXWr.png,100000000,"{""ethereum"":""0xa52bffad02b1fe3f86a543a4e81962d3b3bb01a7"",""dogechain"":""0x264c1383ea520f73dd837f915ef3a732e204a493""}",18
+breadheads,CRUMBS,BreadHeads,breadheads,breadheadsQdj.png,998076357,"{""solana"":""BQDMYwgnWr9UBcUCvLX67yXriTVe1bkPEiTQ1TzKpump""}",18
+rivian-automotive-backpack-securities,RIVN,Rivian Automotive (Backpack Securities),rivian-automotive-backpack-securities,rivian-automotive-backpack-securitieswA5.png,6095,"{""solana"":""RcZmt84VMJv9bDhKqmw1uWDahYrUT468VwAChTnfD8p""}",18
+baasid,BAAS,BaaSid,baasid,BaaSidCbVoU.png,10000000000,"{""ethereum"":""0x5d929aa919e489505ccaad8a199619c6dca0c2de""}",18
+0x28cd1fc7b6eebf46b59001ff49c9d14f8bb97777_binance_smart,翻身币,翻身币税助力凉兮翻身,fan-shen-bi-shui-zhu-li-liang-xi-fan-shen,fan-shen-bi-shui-zhu-li-liang-xi-fan-shenBKT.png,1000000000,"{""binance_smart"":""0x28cd1fc7b6eebf46b59001ff49c9d14f8bb97777""}",18
+gramming,GRAMMING,Gramming,gramming,grammingfyx.png,1000000000,"{""the-open-network"":""EQAmsYIAadPQrEn-wZrRKwqhnReLDOeKl9T70umuk0MA1ULW""}",18
+CZkxnM5PNPak31JSFNzJ76CWcYRu4mgxvBwcHaBJpump_solana,AI4,AI⁴,ai,aiyyn.png,999794974,"{""solana"":""CZkxnM5PNPak31JSFNzJ76CWcYRu4mgxvBwcHaBJpump""}",18
+salvium,SAL,Salvium,salvium,salviumHix.png,104268077,,
+0x6d8d8df799279e761a4f49edc319b3bd50f14444_binance_smart,我是未来,我是未来 (I am the Future),i-am-the-future,i-am-the-futurelL2.png,1000000000,"{""binance_smart"":""0x6d8d8df799279e761a4f49edc319b3bd50f14444""}",18
+nexion,NEON,NEXION,nexion,nexionN7W.png,804766513,"{""pulsechain"":""0xf2da3942616880e52e841e5c504b5a9fba23fff0""}",18
+0xb17a7581c9a006e8b5fda85506cfd3448ed75746_base,AUDIT,The Audit Oracle,the-audit-oracle,the-audit-oracleoBK.png,1000000000,"{""base"":""0xb17a7581c9a006e8b5fda85506cfd3448ed75746""}",18
+apeironnft,APRS,Apeiron,apeironnft,apeironnftpxU.png,1000000000,"{""ronin"":""0xb1ec71be31da4ff603970c0d88584ef2af102f38""}",18
+B3hgxnFwveJNzxah9rrx5HnoiSUdz2b8kmggKyYKmoon_solana,BNDL,Bundles,bundles-2,B3hgxnFwveJNzxah9rrx5HnoiSUdz2b8kmggKyYKmoon_solanaw5U.png,892726010,"{""solana"":""B3hgxnFwveJNzxah9rrx5HnoiSUdz2b8kmggKyYKmoon""}",18
+bella-bumper-play-2-earn,PISTA,Bella Bumper Play 2 Earn,bella-bumper-play-2-earn,bella-bumper-play-2-earnixy.png,500000000,"{""solana"":""9CaQUthsVMugZzMvskrrvcHXyjFqHGdNtGkPT8QSRACE""}",18
+jungle-bay-memes,JBM,jungle bay memes,jungle-bay-memes,jungle-bay-memesU1R.png,93243552078,"{""base"":""0x3313338fe4bb2a166b81483bfcb2d4a6a1ebba8d""}",18
+5csfa95Xf8ebiCwP9joQ7mtC8KwFvnnejnYx5FbYpump_solana,XMONEY,XMONEY,xmoney,5csfa95Xf8ebiCwP9joQ7mtC8KwFvnnejnYx5FbYpump_solanaMEa.png,999008798,"{""solana"":""5csfa95Xf8ebiCwP9joQ7mtC8KwFvnnejnYx5FbYpump""}",18
+micro-gpt,$MICRO,Micro GPT,micro-gpt,micro-gptms9.png,1000000000,"{""ethereum"":""0x8cedb0680531d26e62abdbd0f4c5428b7fdc26d5""}",18
+stargazer-ai,STAR,Stargazer AI,stargazer-ai,stargazer-aiN6d.png,1000000000,"{""robinhood"":""0x0172fd20b8e89cb577a6edd3b800ee7b2a5b00c1""}",18
+5JcdnWEwuHh1v3SAARq8zH9tEwDQGpaHzBrZ81m4pump_solana,XING,Xing Xing,xing-xing,5JcdnWEwuHh1v3SAARq8zH9tEwDQGpaHzBrZ81m4pump_solanaMtC.png,989111863,"{""solana"":""5JcdnWEwuHh1v3SAARq8zH9tEwDQGpaHzBrZ81m4pump""}",18
+zero-network-bridged-usdc-zero-network,USDC,Zero Network Bridged USDC (Zero Network),zero-network-bridged-usdc-zero-network,zero-network-bridged-usdc-zero-networkNdt.png,90367,"{""zero-network"":""0x6a6394f47dd0baf794808f2749c09bd4ee874e70""}",18
+noot-noot,NOOT,Noot Noot,noot-noot,noot-noot5Pt.png,1000000000,"{""abstract"":""0x85ca16fd0e81659e0b8be337294149e722528731""}",18
+0xef172ee53fbbe945ae2bd6ccff93384acf9cf19d_ink,ICAT,Ink Cat,ink-cat,ink-cat0D4.png,1000000000,"{""ink"":""0xef172ee53fbbe945ae2bd6ccff93384acf9cf19d""}",18
+futu-holdings-rstock,RFUTU,Futu Holdings Tokenized Stock (Reality),futu-holdings-rstock,futu-holdings-rstockQff.png,929.5889,"{""arbitrum-one"":""0x061c43ed6bc5b30fb9d371b88b40d3c182ded853"",""morph-l2"":""0x473d27d2316883fff093a9b8604d91c3da2a4875""}",18
+cryptogpt-token,LAI,LayerAI,cryptogpt-token,cryptogpt-token6mP.png,2895098184,"{""binance_smart"":""0x776f9987d9deed90eed791cbd824d971fd5ccf09"",""ethereum"":""0x168e209d7b2f58f1f24b8ae7b7d35e662bbf11cc"",""solana"":""44fvUC89PJcFDNFFXXevaqMa5BXXCQXNGJRfTMiEQhBE""}",18
+uranus-sol,ANUS,URANUS (SOL),uranus-sol,uranus-solcDN.png,9999822874,"{""solana"":""9hjZ8UTNrNWt3YUTHVpvzdQjNbp64NbKSDsbLqKR6BZc""}",18
+tinhatcat,THC,TinHatCat,tinhatcat,tinhatcatfjf.png,23333333,"{""fantom"":""0x479673391b3818f5e3ed2fa69a58e13d685becf6"",""sonic"":""0x17af1df44444ab9091622e4aa66db5bb34e51ad5""}",18
+pelfort,PELF,PELFORT,pelfort,pelfortkFN.png,10000000000,"{""solana"":""BgJW7U1u2RY5XJk9uYb5AqFRzjMtqE7pw3kaf9iw9Ntz""}",18
+5j2shkkzascw33QpW6RRqfRkacLkn7QwwV1e7jX36nyn_solana,FECES,FECES,feces,feceswWa.png,749570244,"{""solana"":""5j2shkkzascw33QpW6RRqfRkacLkn7QwwV1e7jX36nyn""}",18
+0xf3c3745894d979f8f85761bd060520bddbc464e9_ethereum,LION,King Of Meme,king-of-meme,king-of-memejoS.png,109100000000000,"{""ethereum"":""0xf3c3745894d979f8f85761bd060520bddbc464e9""}",18
+harrypottertrumphomersimpson777inu,ETHEREUM,HarryPotterTrumpHomerSimpson777Inu,harrypottertrumphomersimpson777inu,harrypottertrumphomersimpson777inuZkf.png,989484749,"{""ethereum"":""0x24249b5a869a445c9b0ce269a08d73c618df9d21""}",18
+5wVtfsFhLjxm27K9mN3ziYWCCpQwXXq7HWUiRMW7pump_solana,MESA,MESA,mesa,mesai0C.png,998678098,"{""solana"":""5wVtfsFhLjxm27K9mN3ziYWCCpQwXXq7HWUiRMW7pump""}",18
+8vBMibwpn8wpfYKbQ9xqzodymg3LjmYec2tSNGRy23K8_solana,HYPER,Hyperfy,hyperfy,hyperfyH7o.png,999958592,"{""solana"":""8vBMibwpn8wpfYKbQ9xqzodymg3LjmYec2tSNGRy23K8""}",18
+laika,LAIKA,Laika,laika,laikaKYx.png,1000000000000,"{""ethereum"":""0x77f9cf0bd8c500cffdf420e72343893aecc2ec0b""}",18
+shiba,SHIBA,Shiba,shiba,shibaR2G.png,1000000000000000,"{""ethereum"":""0xfd1450a131599ff34f3be1775d8c8bf79e353d8c""}",18
+catcoin-bsc,CAT,Catcoin BSC,catcoin-bsc,catcoin-bscz3Z.png,0,"{""binance_smart"":""0xff71e87a2e7b818eee86f3f1c2e94a06cac85866""}",18
+rip,RIP,RIP,rip,rippY4.png,982702072,"{""axiome-chain"":""axm1sj7zrll8n6rh07hgzqtjemeeane53a68fzqzsmnyntw95w4h7z6s24683a""}",18
+0x09675e24ca1eb06023451ac8088eca1040f47585_ethereum,APES,ApeScreener,apescreener,apescreeneratZ.png,100000000,"{""ethereum"":""0x09675e24ca1eb06023451ac8088eca1040f47585""}",18
+penguin-solutions-robinhood-tokenized-stock,PENG,Penguin Solutions • Robinhood Token,penguin-solutions-robinhood-tokenized-stock,penguin-solutions-robinhood-tokenized-stockKE7.png,1443,"{""robinhood"":""0x9b23573b156b52565012f5ce02cdf60afbaa70be""}",18
+0x9a9de07629ef283c2d700efd3958f59b7d528453_base,MOTO,MOTO,moto-2,0x9a9de07629ef283c2d700efd3958f59b7d528453_baseUhF.png,1000000000,"{""base"":""0x9a9de07629ef283c2d700efd3958f59b7d528453""}",18
+0x6f43ff77a9c0cf552b5b653268fbfe26a052429b_avalanche,LAMBO,LAMBO,lambo-4,0x6f43ff77a9c0cf552b5b653268fbfe26a052429b_avalanchefQO.png,10000000000,"{""avalanche"":""0x6f43ff77a9c0cf552b5b653268fbfe26a052429b""}",18
+coinary-token,CYT,Coinary,coinary-token,coinary-tokenSZz.png,320084762,"{""binance_smart"":""0xd9025e25bb6cf39f8c926a704039d2dd51088063""}",18
+citrea-bridged-usdc,USDC.E,Citrea Bridged USDC (Citrea),citrea-bridged-usdc,citrea-bridged-usdcURm.png,87887,"{""citrea"":""0xe045e6c36cf77faa2cfb54466d71a3aef7bbe839""}",18
+lucha,LUCHA,Lucha,lucha,lucha3cY.png,12408963,"{""polygon-pos"":""0x6749441fdc8650b5b5a854ed255c82ef361f1596"",""base"":""0xf4435cc8b478d54313f04c956882be3d9acf9f6f""}",18
+lonk-on-near,LONK,Lonk,lonk-on-near,lonk-on-nearqls.png,376489666999,"{""near-protocol"":""token.lonkingnearbackto2024.near""}",18
+azuma-coin,AZUM,Azuma Coin,azuma-coin,azuma-coinl0q.png,500000000,"{""ethereum"":""0xd26a9c3437f7d121098c8c05c7413f5cc70bb070""}",18
+mmfinance,MMF,MMFinance (Cronos),mmfinance,mmfinanceg9K.png,1000000000,"{""cronos"":""0x97749c9b61f878a880dfe312d2594ae07aed7656""}",18
+hodooi-com,HOD,HoDooi.com,hodooi-com,hodooi-comjTV.png,1000000000,"{""binance_smart"":""0x19a4866a85c652eb4a2ed44c42e4cb2863a62d51""}",18
+0xae4a37d554c6d6f3e398546d8566b25052e0169c_base,DONUT,Donut,donut-2,0xae4a37d554c6d6f3e398546d8566b25052e0169c_base78c.png,20752269,"{""base"":""0xae4a37d554c6d6f3e398546d8566b25052e0169c""}",18
+crazy-frog,CRAZY,Crazy Frog Coin,crazy-frog,crazy-frogvDD.png,1000000000,"{""ethereum"":""0xad5fdc8c3c18d50315331fca7f66efe5033f6c4c""}",18
+zoomer-3,ZOOMER,Zoomer,zoomer-3,zoomer-3TpZ.png,994626118,"{""solana"":""2DgktxmKE9jvNKipF1R7JBgsHv1FJJcys8VCTqYpksyJ""}",18
+3N2ETvNpPNAxhcaXgkhKoY1yDnQfs41Wnxsx5qNJpump_solana,NEUR,neur.sh,neur-sh,3N2ETvNpPNAxhcaXgkhKoY1yDnQfs41Wnxsx5qNJpump_solana8UQ.png,999316839,"{""solana"":""3N2ETvNpPNAxhcaXgkhKoY1yDnQfs41Wnxsx5qNJpump""}",18
+0xfb1b73a861104b36049d1b6c0a0eb76a608ce5f7_base,PRML,PrimeLayer,primelayer,0xfb1b73a861104b36049d1b6c0a0eb76a608ce5f7_baseERZ.png,1000000000,"{""base"":""0xfb1b73a861104b36049d1b6c0a0eb76a608ce5f7""}",18
+coinzix-token,ZIX,Coinzix Token,coinzix-token,coinzix-tokenYDi.png,6000000000,"{""binance_smart"":""0x48077400faf11183c043feb5184a13ea628bb0db""}",18
+grab-holdings-ondo-tokenized-stock,GRABON,Grab Holdings (Ondo Tokenized Stock),grab-holdings-ondo-tokenized-stock,grab-holdings-ondo-tokenized-stocknMu.png,28282,"{""ethereum"":""0x1c174711f3fd63c4165d6f296b3eb19d17fde94a"",""binance_smart"":""0xab2f74804c022c5249d52e743af4340e42f5f3b6"",""solana"":""m9GcsVgdjaL3KsdtSFHimnhtsUMpTHkjtwEG4Tzondo""}",18
+lol-land,LOL,LOL Land,lol-land,lol-landcQ1.png,5000000000,"{""abstract"":""0xc6b3c271946e5013380fb7322d5bc67f81e02481""}",18
+gelato-2,GEL,Gelato,gelato-2,gelato-2FTs.png,8888888888,"{""pulsechain"":""0x616cb6a245ed4c11216ec58d10b6a2e87271845d""}",18
+farverse,FARVERSE,Farverse,farverse,farverseMKn.png,100000000000,"{""base"":""0xdfe23e2c07f8edf23eba9c9a45e23303417c6b07""}",18
+Cdq1WR1d4i2hMrqKUWgZeUbRpkhamGHSvm1f6ATpuray_solana,ALT,Altcoin,altcoin-2,Cdq1WR1d4i2hMrqKUWgZeUbRpkhamGHSvm1f6ATpuray_solanavgG.png,894512260,"{""solana"":""Cdq1WR1d4i2hMrqKUWgZeUbRpkhamGHSvm1f6ATpuray""}",18
+7D7BRcBYepfi77vxySapmeqRNN1wsBBxnFPJGbH5pump_solana,DMAGA,Dark MAGA,dark-maga,7D7BRcBYepfi77vxySapmeqRNN1wsBBxnFPJGbH5pump_solanavpO.png,999837685,"{""solana"":""7D7BRcBYepfi77vxySapmeqRNN1wsBBxnFPJGbH5pump""}",18
+0xa66f68ef2d8091e13585a502464bd11a159cf710_base,CEO,EarnOrg,jeff-ceo,0xa66f68ef2d8091e13585a502464bd11a159cf710_baser0Y.png,1000000000,"{""base"":""0xa66f68ef2d8091e13585a502464bd11a159cf710""}",18
+B9jYrBoCPN7FcXVHe56KXsYgJE5gbTxsadjvyFiVpump_solana,BAG,Moonbag,moonbag-2,B9jYrBoCPN7FcXVHe56KXsYgJE5gbTxsadjvyFiVpump_solanaFus.png,999818851,"{""solana"":""B9jYrBoCPN7FcXVHe56KXsYgJE5gbTxsadjvyFiVpump""}",18
+red-pill-2,RPILL,Red Pill,red-pill-2,red-pill-2f9B.png,690000000000,"{""ethereum"":""0x43fe2b0c5485c10e772a1843e32a7642ace5b88c"",""solana"":""EB54Nt1ydAgMR3edpaXEwb16R8TfF1enJ7zaYSefo7wH""}",18
+0x534b7aad1cdb6f02ec48cabe428f0d9131e40b07_base,MINI,minidev,minidev,minideveF8.png,100000000000,"{""base"":""0x534b7aad1cdb6f02ec48cabe428f0d9131e40b07""}",18
+GaPbGp23pPuY9QBLPUjUEBn2MKEroTe9Q3M3f2Xpump_solana,SHITCOIN,just a shitcoin,just-a-shitcoin,GaPbGp23pPuY9QBLPUjUEBn2MKEroTe9Q3M3f2Xpump_solana3Mm.png,965140955,"{""solana"":""GaPbGp23pPuY9QBLPUjUEBn2MKEroTe9Q3M3f2Xpump""}",18
+yay-games,YAY,YAY Network,yay-games,yay-gamesVax.png,1000000000,"{""binance_smart"":""0x524df384bffb18c0c8f3f43d012011f8f9795579"",""avalanche"":""0x01c2086facfd7aa38f69a6bd8c91bef3bb5adfca""}",18
+C2nneybCJP2i6mk6Nu6SfTcxoNXNLjngnzwDgje2eNrr_solana,JHH,JHH,jen-hsun-huang,C2nneybCJP2i6mk6Nu6SfTcxoNXNLjngnzwDgje2eNrr_solanajRS.png,9999990062593,"{""solana"":""C2nneybCJP2i6mk6Nu6SfTcxoNXNLjngnzwDgje2eNrr""}",18
+international-klein-blue,IKB,International Klein Blue,international-klein-blue,international-klein-blue6Nr.png,824631397,"{""solana"":""F7viRR7XKFeDxMG441DC1KDZu8cFjPvGFF6tnKYNVvFc""}",18
+graphlinq-wrapped-eth,WETH,GraphLinq Wrapped ETH,graphlinq-wrapped-eth,graphlinq-wrapped-eth3ry.png,32.4375,"{""graphlinq-chain"":""0xbeed106d0f2e6950bfa1eec74e1253ca0a643442""}",18
+9bNUjxEvygayUE2ZRN5zh9Hhjh6cN6GPK4zoHzXXpump_solana,MOSS,MOSS AI,moss,9bNUjxEvygayUE2ZRN5zh9Hhjh6cN6GPK4zoHzXXpump_solanaX6f.png,909949990,"{""solana"":""9bNUjxEvygayUE2ZRN5zh9Hhjh6cN6GPK4zoHzXXpump""}",18
+babypoes,BABYPOES,BabyPOES,babypoes,babypoesSvT.png,941594615,"{""solana"":""83xejQ2QoHWD47REppszZPbvkzHUyem5SSkjyXBFieoC""}",18
+SH55hfaipFAbwT42nQYhRoM5o5t61QpkmJ6p62vXB3m_solana,SHOP,Shopify (Backpack Securities),shopify-backpack-securities,shopify-backpack-securitiesBxZ.png,571.0144,"{""solana"":""SH55hfaipFAbwT42nQYhRoM5o5t61QpkmJ6p62vXB3m""}",18
+0x75b364916b65f1e8959fa0210a6922c2ee237777_binance_smart,TRUSTCAT,TrustCat,trustcat,0x75b364916b65f1e8959fa0210a6922c2ee237777_binance_smartPHe.png,1000000000,"{""binance_smart"":""0x75b364916b65f1e8959fa0210a6922c2ee237777""}",18
+peepo-sol,PEEP,Peepo (SOL),peepo-sol,peepo-solGWp.png,54894869349,"{""solana"":""n54ZwXEcLnc3o7zK48nhrLV4KTU5wWD4iq7Gvdt5tik""}",18
+0x1f70300bce8c2302780bd0a153ebb75b8ca7efcb_ethereum,BARRON,Mini Donald,mini-donald,0x1f70300bce8c2302780bd0a153ebb75b8ca7efcb_ethereumrQC.png,1000000000,"{""ethereum"":""0x1f70300bce8c2302780bd0a153ebb75b8ca7efcb""}",18
+ureeqa,URQA,UREEQA,ureeqa,ureeqac9b.png,100000000,"{""ethereum"":""0x1735db6ab5baa19ea55d0adceed7bcdc008b3136"",""avalanche"":""0xbd3936ec8d83a5d4e73eca625ecfa006da8c8f52""}",18
+0x19848077f45356b21164c412eff3d3e4ff6ebc31_ethereum,SPIKE,Spike,spike-on-eth,spike-on-ethbHS.png,395670320555,"{""ethereum"":""0x19848077f45356b21164c412eff3d3e4ff6ebc31""}",18
+seba,SEBA,Seba,seba,sebaacf.png,250000000,"{""binance_smart"":""0xd15d3baf3f40988810c5f9da54394ffb5246ded6""}",18
+jackal-protocol,JKL,Jackal Protocol,jackal-protocol,jackal-protocolANd.png,181135672,"{""secret"":""secret1sgaz455pmtgld6dequqayrdseq8vy2fc48n8y3"",""osmosis"":""ibc/8E697BDABE97ACE8773C6DF7402B2D1D5104DD1EEABE12608E3469B7F64C15BA"",""archway"":""ibc/926432AE1C5FA4F857B36D970BE7774C7472079506820B857B75C5DE041DD7A3"",""base"":""0x4eed0d2deb4c588393c80869b122327581b0d98e""}",18
+aarna-atvptmax,ATVPTMAX,aarna atvPTmax,aarna-atvptmax,aarna-atvptmaxX7L.png,221403,"{""ethereum"":""0xd7956afcff5ebb0a84a2470aed3d8147cc00e617""}",18
+bruh,BRUH,BRUH,bruh,bruhoX2.png,69000000000000,"{""arbitrum-one"":""0xb5b5b428e4de365f809ced8271d202449e5c2f72""}",18
+monark,MONARK,MONARK,monark,monarkhE3.png,952943701,"{""solana"":""FYZcYCHSp8FzNba1UtDZydKKGosmxVNpFBiVuia38AhT""}",18
+brokoli,BRKL,Brokoli,brokoli,brokoliIzg.png,125000000,"{""ethereum"":""0x4674a4f24c5f63d53f22490fb3a08eaaad739ff8"",""binance_smart"":""0x66cafcf6c32315623c7ffd3f2ff690aa36ebed38""}",18
+real-5,REAL,REAL,real-5,real-5MZL.png,2000000000,"{""ethereum"":""0x90836d7f096506d8a250f9dc27306d4ac1351e6c""}",18
+0x9cb595fbb3601dc0ef80e87921dc4ffd9307aba3_robinhood,MUSEGRAM,musegram,musegram,musegramV8y.png,100000000000,"{""robinhood"":""0x9cb595fbb3601dc0ef80e87921dc4ffd9307aba3""}",18
+thundercore-bridged-usdc-thundercore,USDC,Thundercore Bridged USDC (Thundercore),thundercore-bridged-usdc-thundercore,thundercore-bridged-usdc-thundercoreix9.png,86260,"{""thundercore"":""0x22e89898a04eaf43379beb70bf4e38b1faf8a31e""}",18
+cchf,CHFM,Mento Swiss Franc,cchf,cchf1ic.png,70958,"{""celo"":""0xb55a79f398e759e43c95b979163f30ec87ee131d""}",18
+larissa-blockchain,LRS,Larissa Blockchain,larissa-blockchain,larissa-blockchaingiK.png,43415042,"{""polygon-pos"":""0x6483de4a2c76a38f288c4922fe2f507b2322ef80""}",18
+hungarian-vizsla-inu,HVI,Hungarian Vizsla Inu,hungarian-vizsla-inu,hungarian-vizsla-inuNW6.png,0,"{""binance_smart"":""0xde619a9e0eeeaa9f8cd39522ed788234837f3b26""}",18
+clown-pepe,HONK,Clown Pepe,clown-pepe,clown-pepenjU.png,420690000000,"{""ethereum"":""0x5efcea234f7547de4569aad1215fa5d2adaced38""}",18
+B5YTUMqSnwzztWHWmzAzHApeRy6cuGEx49Bidt4kuH8w_solana,TIPANSEM,ansem.tips,ansem-tips,ansem-tipsPOh.png,986506011,"{""solana"":""B5YTUMqSnwzztWHWmzAzHApeRy6cuGEx49Bidt4kuH8w""}",18
+arkeo,ARKEO,ARKEO,arkeo,arkeo1wi.png,120992625,,
+0x7588880d9c78e81fade7b7e8dc0781e95995a792_base,SAINT,Satoshi AI agent by Virtuals,satoshi-ai-agent-by-virtuals,0x7588880d9c78e81fade7b7e8dc0781e95995a792_baseZh7.png,1000000000,"{""base"":""0x7588880d9c78e81fade7b7e8dc0781e95995a792""}",18
+pumpville,PUMPVILLE,PUMPVILLE,pumpville,pumpvillea73.png,982078159,"{""solana"":""72FkeF1cpBMtbordhTVNVbBGdaN5DfHcchstHwPWpump""}",18
+gram-ecosystem,GRAMPUS,GRAM Ecosystem,gram-ecosystem,gram-ecosystem9o2.png,1000000000,"{""base"":""0x856d602e73545deaa1491a3726cf628d49f74f51"",""ethereum"":""0x856d602e73545deaa1491a3726cf628d49f74f51"",""klay-token"":""0x856d602e73545deaa1491a3726cf628d49f74f51""}",18
+0x1d008f50fb828ef9debbbeae1b71fffe929bf317_base,CLANKFUN,clank.fun,clank-fun,0x1d008f50fb828ef9debbbeae1b71fffe929bf317_baseBVY.png,100000000000,"{""base"":""0x1d008f50fb828ef9debbbeae1b71fffe929bf317""}",18
+0x3b3cd21242ba44e9865b066e5ef5d1cc1030cc58_base,STREME,Streme,streme,0x3b3cd21242ba44e9865b066e5ef5d1cc1030cc58_basesIz.png,100000000000,"{""base"":""0x3b3cd21242ba44e9865b066e5ef5d1cc1030cc58""}",18
+agridex-governance-token,AGRI,AgriDex,agridex-governance-token,agridex-governance-tokenHS7.png,1000000000,"{""solana"":""AGRidUXLeDij9CJprkZx7WBXtTQC67jtfiwz293mVrJ""}",18
+sakai-vault,SAKAI,Sakai Vault,sakai-vault,sakai-vaultmtf.png,8000000,"{""binance_smart"":""0x43b35e89d15b91162dea1c51133c4c93bdd1c4af""}",18
+0x693c7acf65e52c71bafe555bc22d69cb7f8a78a2_story,LARRY,Evil Larry,evil-larry,0x693c7acf65e52c71bafe555bc22d69cb7f8a78a2_storyw37.png,998326619,"{""story"":""0x693c7acf65e52c71bafe555bc22d69cb7f8a78a2""}",18
+kryptokrona,XKR,Kryptokrona,kryptokrona,kryptokronazkt.png,1000000000,,
+DFVeSFxNohR5CVuReaXSz6rGuJ62LsKhxFpWsDbbjups_solana,VIBE,Vibe Cat,vibe-cat-3,vibe-cat-30eu.png,99989848,"{""solana"":""DFVeSFxNohR5CVuReaXSz6rGuJ62LsKhxFpWsDbbjups""}",18
+wagmi-coin,WAGMI,Wagmi Coin,wagmi-coin,wagmi-coinrqn.png,420690000000000,"{""ethereum"":""0xef8e456967122db4c3c160314bde8d2602ad6199""}",18
+scottyai,SCOTTY,ScottyTheAi,scottyai,scottyaiFEu.png,1734567890,"{""ethereum"":""0xc0db17bc219c5ca8746c29ee47862ee3ad742f4a""}",18
+sheesha-finance-erc20,SHEESHA,Sheesha Finance (ERC20),sheesha-finance-erc20,sheesha-finance-erc20tGy.png,99990,"{""ethereum"":""0x232fb065d9d24c34708eedbf03724f2e95abe768""}",18
+0x0db510e79909666d6dec7f5e49370838c16d950f_base,ANON,Anon,super-anon,super-anonM8i.png,1000000000,"{""base"":""0x0db510e79909666d6dec7f5e49370838c16d950f""}",18
+7BC22ppHGeCdhpxNVyJMxV51y1qzkAcEd8YXtzX8pump_solana,POSITIONS,POSITIONS,positions,positionsv72.png,999702863,"{""solana"":""7BC22ppHGeCdhpxNVyJMxV51y1qzkAcEd8YXtzX8pump""}",18
+lilai,LILAI,LilAI,lilai,lilaiWwL.png,1000000000,"{""arbitrum-one"":""0x655a6beebf2361a19549a99486ff65f709bd2646"",""ethereum"":""0x85cf7f10683c73359e7b06c082eef5851ff2956d""}",18
+0x3849cc93e7b71b37885237cd91a215974135cd8d_base,CREATE,Create,create-2,0x3849cc93e7b71b37885237cd91a215974135cd8d_base6sH.png,100000000000,"{""base"":""0x3849cc93e7b71b37885237cd91a215974135cd8d""}",18
+black-agnus,FTW,Black Agnus,black-agnus,black-agnusGmm.png,59996366956376,"{""ethereum"":""0x306fd3e7b169aa4ee19412323e1a5995b8c1a1f4"",""binance_smart"":""0x306fd3e7b169aa4ee19412323e1a5995b8c1a1f4"",""base"":""0x306fd3e7b169aa4ee19412323e1a5995b8c1a1f4"",""arbitrum-one"":""0x306fd3e7b169aa4ee19412323e1a5995b8c1a1f4"",""solana"":""7ePhsDXkpPJs6rPM3TQScpbgonzKUPo9vuQr8GXMMGpf"",""polygon-pos"":""0x306fd3e7b169aa4ee19412323e1a5995b8c1a1f4""}",18
+thirdfy,TFY,Thirdfy,thirdfy,thirdfyX3n.png,584959999,"{""base"":""0xb2aca4ca8b7bbd9a5388ccb044c87dedf8a51c7c""}",18
+7RT5zwZG1hhfparpKgh8WvSnPxJB8FQ529VSyaNKpump_solana,RETAIL,Exit Liquidity,exit-liquidity,7RT5zwZG1hhfparpKgh8WvSnPxJB8FQ529VSyaNKpump_solanaUj4.png,999957998,"{""solana"":""7RT5zwZG1hhfparpKgh8WvSnPxJB8FQ529VSyaNKpump""}",18
+level,LVL,Level,level,levelkm2.png,26825526,"{""binance_smart"":""0xb64e280e9d1b5dbec4accedb2257a87b400db149"",""arbitrum-one"":""0xb64e280e9d1b5dbec4accedb2257a87b400db149""}",18
+5YqckGEkWHJmp9LW5aUF2uJrdUbMJaHcYnGjA8M7Ebw8_solana,TORSY,TORSY,torsy,5YqckGEkWHJmp9LW5aUF2uJrdUbMJaHcYnGjA8M7Ebw8_solanaWj5.png,602519252,"{""solana"":""5YqckGEkWHJmp9LW5aUF2uJrdUbMJaHcYnGjA8M7Ebw8""}",18
+web3war,FPS,web3war,web3war,web3warZCn.png,150000000,"{""binance_smart"":""0x351da1e7500aba1d168b9435dce73415718d212f"",""zilliqa"":""zil1j2wrzjljwyjelspmtr63vfl34c467ype2w3mjl""}",18
+4y9E3tJpGNzRr1592oWTPECgyp2VDSc1Bf3DqAm5FZsK_solana,FATGF,FATGF,fatgf,4y9E3tJpGNzRr1592oWTPECgyp2VDSc1Bf3DqAm5FZsK_solanam5P.png,982254137,"{""solana"":""4y9E3tJpGNzRr1592oWTPECgyp2VDSc1Bf3DqAm5FZsK""}",18
+HuAncxDEsakCDgZS2Yfo9xJbHmtHXMnxxkT9jqdXnHhm_solana,KM,Kekius Maximus,kekius-maximus-2,HuAncxDEsakCDgZS2Yfo9xJbHmtHXMnxxkT9jqdXnHhm_solanaTEE.png,999209907,"{""solana"":""HuAncxDEsakCDgZS2Yfo9xJbHmtHXMnxxkT9jqdXnHhm""}",18
+duckcoin,DUCK,DuckCoin,duckcoin,duckcoinzOa.png,1000000000,"{""the-open-network"":""EQBTcytZjdZwFLj6TO7CeGvn4aMmqXvbX-nODiApbd011gT3""}",18
+J1ow1c3ExcJYQmgNFRPfCp1LMYRf6P3A33isDcBmpump_solana,ZODS,ZODs,zods,J1ow1c3ExcJYQmgNFRPfCp1LMYRf6P3A33isDcBmpump_solanawQt.png,823534040,"{""solana"":""J1ow1c3ExcJYQmgNFRPfCp1LMYRf6P3A33isDcBmpump""}",18
+dubs-the-cat,RDUBS,Dubs the Cat,dubs-the-cat,dubs-the-catbaS.png,1000000000,"{""robinhood"":""0x623ede6b702721e2014d9a420c759abfe0f1e3f3""}",18
+pollen-2,POLLEN,Pollen,pollen-2,pollen-2vb6.png,420000000,"{""berachain"":""0xc99e948e9d183848a6c4f5e6c1d225f02f171d79""}",18
+EQDoPCAEJC4NPBkGNa9N-8zfOsQDpBCjIe6bbzlPIoIqXbZm_the-open-network,TONSKI,TONSKI,tonski,tonskijyU.png,100000000,"{""the-open-network"":""EQDoPCAEJC4NPBkGNa9N-8zfOsQDpBCjIe6bbzlPIoIqXbZm""}",18
+0xc77867d630dbe567d219a86fddbe7ef1f0670fdc_ethereum,ALIENS,Aliens,aliens-2,aliens-27UG.png,10000000000,"{""ethereum"":""0xc77867d630dbe567d219a86fddbe7ef1f0670fdc""}",18
+0x444600d9fa140e9506d0cbc436bffad3d5c3febc_base,LUCIEN,Director Lucien,director-lucien,director-lucienDAX.png,1000000000,"{""base"":""0x444600d9fa140e9506d0cbc436bffad3d5c3febc""}",18
+e-money,NGM,e-Money,e-money,e-moneycc3.png,102993397,"{""ethereum"":""0xed0d5747a9ab03a75fbfec3228cd55848245b75d"",""osmosis"":""ibc/1DC495FCEFDA068A3820F903EDBD78B942FBD204D7E93D3BA2B432E9669D1A59""}",18
+rizznet,RZTO,RZTO,rizznet,rizznettWO.png,10000000000,"{""solana"":""2qpqweHfSKUvZFGQL3D7aadD5i5dDN8kz9xdZGraGAxC""}",18
+CCz5hPGJobjtVGGrEiUhHAz9qCEt1KyKxFkGBjVcjuvo_solana,ZAPCAT,ZAPCAT,zapcat,CCz5hPGJobjtVGGrEiUhHAz9qCEt1KyKxFkGBjVcjuvo_solanaL77.png,999664131,"{""solana"":""CCz5hPGJobjtVGGrEiUhHAz9qCEt1KyKxFkGBjVcjuvo""}",18
+EQB6Ql1JE7Hq0JuropLYschcu-WNt2vMmWF2-8mEMrK68nJn_the-open-network,MAN,Gentleman,gentleman,EQB6Ql1JE7Hq0JuropLYschcu-WNt2vMmWF2-8mEMrK68nJn_the-open-network0Qh.png,1000000000,"{""the-open-network"":""EQB6Ql1JE7Hq0JuropLYschcu-WNt2vMmWF2-8mEMrK68nJn""}",18
+FtateF34Xzawa91bpbVNdX72hZYo9cymRDYqBreHHbJi_solana,PANTS,dogwifpants,dogwifpants-2,dogwifpants-24tc.png,980881233,"{""solana"":""FtateF34Xzawa91bpbVNdX72hZYo9cymRDYqBreHHbJi""}",18
+0xb1a1d8cb266a7a4f6e070a7d2e026c5c02e788da_base,NEOX,Neox,neox,neoxRLf.png,1000000000,"{""base"":""0xb1a1d8cb266a7a4f6e070a7d2e026c5c02e788da""}",18
+rocket-lab-backpack-securities,RKLB,Rocket Lab (Backpack Securities),rocket-lab-backpack-securities,rocket-lab-backpack-securitiesZvs.png,1149,"{""solana"":""RKLBnAXGqv31iZomqsuAWkQm1aqC7JwwvbCfzGdqAhz""}",18
+palmeiras-fan-token,VERDAO,Palmeiras Fan Token,palmeiras-fan-token,palmeiras-fan-token8Ls.png,20000000,"{""chiliz"":""0xb46357d8ed050d35d3a24154c39d7236dae86187"",""solana"":""5qBMrbPx1CUbmqc87THJhWPy6aUkywkU3DdREqXgZ23W"",""base"":""0x35a8615686940935b1f8b6e39b62ac1ca063f905""}",18
+G8Vy25NzjRmuQtnN35xF7j3X2Z1TrV39XijZu8Mg4w8n_solana,$COOK,Let Him Cook,let-him-cook,G8Vy25NzjRmuQtnN35xF7j3X2Z1TrV39XijZu8Mg4w8n_solanahVv.png,998651757,"{""solana"":""G8Vy25NzjRmuQtnN35xF7j3X2Z1TrV39XijZu8Mg4w8n""}",18
+phicoin,PHI,Phicoin,phicoin,phicoinIBN.png,210837920,"{""solana"":""BxVQV55MSNF48H3Lur4fj9CTEA7bCVmFJg7gfym1Gs5M""}",18
+0x72b658bd674f9c2b4954682f517c17d14476e417_ethereum,OPTR,opTrade AI,optrade-ai,0x72b658bd674f9c2b4954682f517c17d14476e417_ethereum92n.png,1000000,"{""ethereum"":""0x72b658bd674f9c2b4954682f517c17d14476e417""}",18
+0xcccccccc7021b32ebb4e8c08314bd62f7c653ec4_zora-network,USDZC,Zora Bridged USDC (Zora),zora-bridged-usdc-zora,zora-bridged-usdc-zorad8a.png,84177,"{""zora-network"":""0xcccccccc7021b32ebb4e8c08314bd62f7c653ec4""}",18
+artificial-doge,AD,Artificial Doge,artificial-doge,artificial-dogedqo.png,1000000000,"{""robinhood"":""0x63ffd4aa844f4befcee1b4606e467d1d209a926b""}",18
+hydt-protocol-hydt,HYDT,HYDT,hydt-protocol-hydt,hydt-protocol-hydtQu1.png,89340,"{""binance_smart"":""0x9810512be701801954449408966c630595d0cd51""}",18
+6oGuFDbEeaSzTcvrmmd2MqfNYwHKXFoN7regcR22pump_solana,NEEGY,NEEGY,neegy,neegyvPm.png,999750766,"{""solana"":""6oGuFDbEeaSzTcvrmmd2MqfNYwHKXFoN7regcR22pump""}",18
+parsiq,PRQ,PARSIQ,parsiq,parsiqn3j.png,310256872,"{""ethereum"":""0x362bc847a3a9637d3af6624eec853618a43ed7d2"",""binance_smart"":""0xd21d29b38374528675c34936bf7d5dd693d2a577""}",18
+voucher-bnc,VBNC,Voucher BNC,voucher-bnc,voucher-bncCj3.png,7096161,"{""bifrost-network"":""0x0101000000000000000000000000000000000000000000000000000000000000""}",18
+holdcoin,HOLD,Holdcoin,holdcoin,holdcoinTcF.png,10000000000,"{""the-open-network"":""EQCz_xK2vAf6DHSrmSQ3mV-uEigJbKPP0tWUpqkqYW-RHoLD""}",18
+carbon-browser,CSIX,Carbon Browser,carbon-browser,carbon-browsery2q.png,905421304,"{""binance_smart"":""0x04756126f044634c9a0f0e985e60c88a51acc206"",""ethereum"":""0x345887cdb19e12833ed376bbf8b8b38269f5f5c8""}",18
+zapicorn,ZAPI,Zapicorn,zapicorn,zapicorn5mg.png,927957895,"{""ethereum"":""0xc434268603ca8854e0be1a3ff15cad73bd6ec49a""}",18
+H33XL6HHDReCVRgSApZpsXM7Hy7JGyLztRJaGxjapump_solana,APPLE,dog with apple in mouth,dog-with-apple-in-mouth,H33XL6HHDReCVRgSApZpsXM7Hy7JGyLztRJaGxjapump_solanaHje.png,999223295,"{""solana"":""H33XL6HHDReCVRgSApZpsXM7Hy7JGyLztRJaGxjapump""}",18
+vent-finance,VENT,Vent Finance,vent-finance,vent-financep6r.png,250000000,"{""ethereum"":""0x5f0bc16d50f72d10b719dbf6845de2e599eb5624"",""polygon-pos"":""0xf21441f9ec4c1fe69cb7cf186eceab31af2b658d"",""binance_smart"":""0x872d068c25511be88c1f5990c53eeffcdf46c9b4""}",18
+F6mbYSowWLoqX1G7qyc8xfggbr4VkwAjLdsPqmtcpump_solana,ALGOPUB,Algo Pub,algo-pub,algo-pubthr.png,999721875,"{""solana"":""F6mbYSowWLoqX1G7qyc8xfggbr4VkwAjLdsPqmtcpump""}",18
+gui-inu,GUI,Gui Inu,gui-inu,gui-inuhIB.png,777777777777,"{""aptos"":""0xe4ccb6d39136469f376242c31b34d10515c8eaaa38092f804db8e08a8f53c5b2::assets_v1::EchoCoin002""}",18
+EQD0KpcRMh-sKO2z5-vOjgvFjTT58tO-2Nmvxqg5ocFQFtWz_the-open-network,FPIBANK,FPI Bank,fpi-bank,EQD0KpcRMh-sKO2z5-vOjgvFjTT58tO-2Nmvxqg5ocFQFtWz_the-open-networkXFY.png,964999998,"{""the-open-network"":""EQD0KpcRMh-sKO2z5-vOjgvFjTT58tO-2Nmvxqg5ocFQFtWz""}",18
+sekuritance,SKRT,Sekuritance,sekuritance,sekuritancewjT.png,818202997,"{""ethereum"":""0x887168120cb89fb06f3e74dc4af20d67df0977f6"",""polygon-pos"":""0xe51e88dd08499762b8e4eb3a9f3da9b8e79608c3""}",18
+0x6c9b3a74ae4779da5ca999371ee8950e8db3407f_sonic,FLY,Fly,fly-2,0x6c9b3a74ae4779da5ca999371ee8950e8db3407f_sonic1mE.png,98547852,"{""sonic"":""0x6c9b3a74ae4779da5ca999371ee8950e8db3407f""}",18
+little-angry-bunny-v2,LAB-V2,Little Angry Bunny v2,little-angry-bunny-v2,little-angry-bunny-v2UPo.png,0,"{""binance_smart"":""0x07f5ceded6b3dba557b3663edc8941fb37b63945""}",18
+mememe,$MEMEME,MEMEME,mememe,mememeTiB.png,69420000000,"{""ethereum"":""0x1a963df363d01eebb2816b366d61c917f20e1ebe""}",18
+54meDtup2K7pqyhUK24AymoLzMPtrkhNTbEzQ6gSpump_solana,BABYSOL,Baby Solana,baby-solana,54meDtup2K7pqyhUK24AymoLzMPtrkhNTbEzQ6gSpump_solana7Af.png,999915342,"{""solana"":""54meDtup2K7pqyhUK24AymoLzMPtrkhNTbEzQ6gSpump""}",18
+0x68aaa0d94ea163b9bbf659dc3766defb4c0ac7be_ethereum,ANDYMAN,Andyman,andyman,0x68aaa0d94ea163b9bbf659dc3766defb4c0ac7be_ethereumNz7.png,963473302,"{""ethereum"":""0x68aaa0d94ea163b9bbf659dc3766defb4c0ac7be""}",18
+donut,DONUT,Donut,donut,DonutKsBZq.png,227302503,"{""ethereum"":""0xc0f9bd5fa5698b6505f643900ffa515ea5df54a9"",""xdai"":""0x524b969793a64a602342d89bc2789d43a016b13a"",""arbitrum-one"":""0xf42e2b8bc2af8b110b65be98db1321b1ab8d44f5""}",18
+wfdp,WFDP,WFDP,wfdp,wfdpWUL.png,100000000,"{""tron"":""TQb8rm1BDjArsBh78yw8enstQ3E85XFc9u"",""binance_smart"":""0x8cd29d79f9376f353c493a7f2ff9d27df8d372de"",""polygon-pos"":""0xb541a306dd240ef04fb5e7e0db9a3c6cb7ddbb07""}",18
+MRNAzXzhNcaEXJPibHEn8cd4vyekCDiivTyEwswLUCT_solana,MRNA,Moderna (Backpack Securities),moderna-backpack-securities,moderna-backpack-securitiesghr.png,432.2052,"{""solana"":""MRNAzXzhNcaEXJPibHEn8cd4vyekCDiivTyEwswLUCT""}",18
+EWMfSJgDCE7CXDAYz3hbCaA7NsFHTnddySXx3shco2Hs_solana,STASH,Stash Inu,stash-inu,stash-inuUV1.png,9384670333,"{""solana"":""EWMfSJgDCE7CXDAYz3hbCaA7NsFHTnddySXx3shco2Hs""}",18
+intrepid-token,INT,Intrepid Token,intrepid-token,intrepid-token1mn.png,100000,"{""ethereum"":""0xa2762ba628b962f93498d8893b6e4346140fe96d""}",18
+3dk9CNre8tmv6bbNXd5F6dgkNnEzsyQ7sPhVT8kKpump_solana,FARTCAT,Fartcat,fartcat,3dk9CNre8tmv6bbNXd5F6dgkNnEzsyQ7sPhVT8kKpump_solana9f3.png,999357286,"{""solana"":""3dk9CNre8tmv6bbNXd5F6dgkNnEzsyQ7sPhVT8kKpump""}",18
+universe-xyz,XYZ,Universe.XYZ,universe-xyz,universe-xyzjyz.png,1135000000,"{""ethereum"":""0x618679df9efcd19694bb1daa8d00718eacfa2883""}",18
+argon-2,ARGN,Argon,argon-2,argon-2F23.png,78164,"{""ethereum"":""0xf3d6b714dc93bc6c44bc766cc92f4a0d99344932""}",18
+2MDr15dTn6km3NWusFcnZyhq3vWpYDg7vWprghpzbonk_solana,NOM,Trust in Nom,trust-in-nom,2MDr15dTn6km3NWusFcnZyhq3vWpYDg7vWprghpzbonk_solanaYMT.png,999850565,"{""solana"":""2MDr15dTn6km3NWusFcnZyhq3vWpYDg7vWprghpzbonk""}",18
+vasco-da-gama-fan-token,VASCO,Vasco da Gama Fan Token,vasco-da-gama-fan-token,vasco-da-gama-fan-tokendM8.png,20000000,"{""chiliz"":""0xd5f1b2454db115967bfac73bfea21da5e2543c8e"",""solana"":""4nQBeMMsLJXfFQRS5VnLxCCk74iVguJMhZ2etSHq1nFz"",""base"":""0x3a45dd104e5aa792d7aff0d2a942450358e291fc""}",18
+zkitty-bot,$ZKITTY,ZKitty Bot,zkitty-bot,zkitty-bot7kH.png,5000000,"{""ethereum"":""0x7df18e4efd6e6f73cfb462937dac40fe42533016""}",18
+mobileye-global-ondo-tokenized,MBLYON,Mobileye Global (Ondo Tokenized),mobileye-global-ondo-tokenized,mobileye-global-ondo-tokenizedYe3.png,11129,"{""ethereum"":""0xc4fa11ed5141195ccba19180628fa5091f53790b"",""binance_smart"":""0xcc977b493f52b4b6b6a0c3594530f2baee565e96"",""solana"":""eCSPcjdpdKL1546PU3RM6BXkebuKn8iH4iuMcTBondo""}",18
+global-x-copper-miners-etf-rstock,RCOPX,Global X Copper Miners ETF Tokenized Stock (Reality),global-x-copper-miners-etf-rstock,global-x-copper-miners-etf-rstockcVx.png,992.3413,"{""arbitrum-one"":""0xab30854f3fdc362c9094f04e38c01c408c5d9c37"",""morph-l2"":""0x0da446a34e482314dec83a2119b37272d5cc1b94""}",18
+AtortPA9SVbkKmdzu5zg4jxgkR4howvPshorA9jYbonk_solana,IKUN,IKUN,ikun,AtortPA9SVbkKmdzu5zg4jxgkR4howvPshorA9jYbonk_solanah9L.png,999997932,"{""solana"":""AtortPA9SVbkKmdzu5zg4jxgkR4howvPshorA9jYbonk""}",18
+ertha,ERTHA,Ertha,ertha,erthaGdW.png,2000000000,"{""binance_smart"":""0x62823659d09f9f9d2222058878f89437425eb261""}",18
+karat,KAT,Karat,karat,karattfw.png,1960031820,"{""zksync"":""0xcdb7d260c107499c80b4b748e8331c64595972a1""}",18
+software-ai-2,SOFTWARE.AI,software.ai,software-ai-2,software-ai-2KWJ.png,896622,"{""doma"":""0xa100000000000d6e18bc155f425685e4badfe11c""}",18
+1-800-flowers-com-backpack-securities,FLWS,1-800-FLOWERS.COM (Backpack Securities),1-800-flowers-com-backpack-securities,1-800-flowers-com-backpack-securitiesYUA.png,32534,"{""solana"":""FLWSojG1gB5VStYR3Sb4nQFRt43UBYkqih1j2CpVLqgd""}",18
+0xd968196fa6977c4e58f2af5ac01c655ea8332d22_base,NATO,The Nation Token,the-nation-token,0xd968196fa6977c4e58f2af5ac01c655ea8332d22_base43B.png,1000000000000,"{""base"":""0xd968196fa6977c4e58f2af5ac01c655ea8332d22""}",18
+nifty-league,NFTL,Nifty League,nifty-league,nifty-leagueWFN.png,1000000000,"{""ethereum"":""0x3c8d2fce49906e11e71cb16fa0ffeb2b16c29638"",""immutable"":""0xb0d7e9ff5fb8e739c4990f7920d8047acfae4884""}",18
+wrapped-eth-skale,ETHC,Wrapped ETH (SKALE),wrapped-eth-skale,wrapped-eth-skaleaYI.png,33.094,"{""skale"":""0xd2aaa00700000000000000000000000000000000""}",18
+nothing-3,NOT,Nothing,nothing-3,nothing-3EOM.png,88975877083900,"{""stacks"":""SP32AEEF6WW5Y0NMJ1S8SBSZDAY8R5J32NBZFPKKZ.nope""}",18
+market-making-pro,MMPRO,Market Making Pro,market-making-pro,market-making-promzu.png,100000000,"{""binance_smart"":""0x6067490d05f3cf2fdffc0e353b1f5fd6e5ccdf70""}",18
+ubix-network,UBX,UBIX Network,ubix-network,ubix-network4Uv.png,456227541417,"{""ethereum"":""0xf5b5efc906513b4344ebabcf47a04901f99f09f3""}",18
+rovyn-fi,RVN,Rovyn.fi,rovyn-fi,rovyn-fiqHp.png,994143187,"{""robinhood"":""0x060a0600abe74166e629f6749de284910ff8d8a3""}",18
+0xd12a99dbc40036cec6f1b776dccd2d36f5953b94_ethereum,DRAGGY,Draggy CTO,draggy-cto,draggy-ctoG9W.png,420690000000000,"{""ethereum"":""0xd12a99dbc40036cec6f1b776dccd2d36f5953b94""}",18
+nucleus-vision,NCASH,Nucleus Vision,nucleus-vision,nucleus-visiontBY.png,10000000000,"{""ethereum"":""0x809826cceab68c387726af962713b64cb5cb3cca""}",18
+babelfish-2,$FISH,Babelfish,babelfish-2,babelfish-2dcF.png,420000001,"{""rootstock"":""0x055a902303746382fbb7d18f6ae0df56efdc5213""}",18
+DpxKNEi3XVeRByaGqYKvz2w6E2PhPgBAqdayLcQEpump_solana,SOS,Strategic Oil Supply,strategic-oil-supply-2,strategic-oil-supply-2SOG.png,999978502,"{""solana"":""DpxKNEi3XVeRByaGqYKvz2w6E2PhPgBAqdayLcQEpump""}",18
+6MFiqqkS4MUwmkoa8sj5UJcFzJGVxHD1yEpoyRRUdoge_solana,TARO,Ryotaro,ryotaro,ryotaroKWx.png,999935167,"{""solana"":""6MFiqqkS4MUwmkoa8sj5UJcFzJGVxHD1yEpoyRRUdoge""}",18
+0x87dfe1248a1dc4ce473bd9cb2937d66cdc6c30fee63f3fe0dbb55c7a09d35dec::up::UP_sui,UP,DoubleUp,doubleup,0x87dfe1248a1dc4ce473bd9cb2937d66cdc6c30fee63f3fe0dbb55c7a09d35dec::up::UP_suisF3.png,100000000,"{""sui"":""0x87dfe1248a1dc4ce473bd9cb2937d66cdc6c30fee63f3fe0dbb55c7a09d35dec::up::UP""}",18
+0xe75d0fb2c24a55ca1e3f96781a2bcc7bdba058f0_bob-network,USDC.E,BOB Gateway Bridged USDC (BOB Network),bob-network-bridged-usdce-bob-network,bob-network-bridged-usdce-bob-network7cv.png,81796,"{""bob-network"":""0xe75d0fb2c24a55ca1e3f96781a2bcc7bdba058f0""}",18
+facedao,FACE,FaceDAO,facedao,facedaoyl5.png,1000000000000000,"{""binance_smart"":""0xb700597d8425ced17677bc68042d7d92764acf59""}",18
+0x033bbde722ea3cdcec73cffea6581df9f9c257de_ethereum,VELAR,Velar,velar,velarROR.png,1000000000,"{""ethereum"":""0x033bbde722ea3cdcec73cffea6581df9f9c257de"",""stacks"":""SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.velar-token""}",18
+GPwwihLa1w9Qsz27SmNrj7aLVnE7pr2cAvHe6aVVpump_solana,DANK,Dank Memes,dank-memes,GPwwihLa1w9Qsz27SmNrj7aLVnE7pr2cAvHe6aVVpump_solana4CU.png,959038744,"{""solana"":""GPwwihLa1w9Qsz27SmNrj7aLVnE7pr2cAvHe6aVVpump""}",18
+5gsDMgG3p1xZR7qvbS88EjNSDesBdJjYH7PGemUgpump_solana,FAHHHH,FAHHHH,fahhhh,5gsDMgG3p1xZR7qvbS88EjNSDesBdJjYH7PGemUgpump_solanaGrS.png,999381591,"{""solana"":""5gsDMgG3p1xZR7qvbS88EjNSDesBdJjYH7PGemUgpump""}",18
+hotkeyswap,HOTKEY,HotKeySwap,hotkeyswap,hotkeyswapTmr.png,94991136,"{""ethereum"":""0x018dd3a0dd7f213cc822076b3800816d3ce1ed86""}",18
+EWiVNxCqNatzV2paBHyfKUwGLnk7WKs9uZTA5jkTpump_solana,SAKURA,Sakura,sakura-2,sakura-2H4E.png,999830693,"{""solana"":""EWiVNxCqNatzV2paBHyfKUwGLnk7WKs9uZTA5jkTpump""}",18
+floor-cheese-burger,FLRBRG,Floor Cheese Burger,floor-cheese-burger,floor-cheese-burgeruvu.png,69420000000,"{""ethereum"":""0x9138c8779a0ac8a84d69617d5715bd8afa23c650""}",18
+6tVZVjcppH2BZ9Xj5yFU1Zt34m2rYcyDqqpSeMDZpump_solana,MIHARU,Smiling Dolphin,smiling-dolphin,6tVZVjcppH2BZ9Xj5yFU1Zt34m2rYcyDqqpSeMDZpump_solanaQih.png,999361530,"{""solana"":""6tVZVjcppH2BZ9Xj5yFU1Zt34m2rYcyDqqpSeMDZpump""}",18
+Bd9thw3PAeyHeBGSi4R1ARBuptpG5rM4fhB8BRWJkq1e_solana,GLUNGUS,glungus,glungus,glungusgeX.png,952366411,"{""solana"":""Bd9thw3PAeyHeBGSi4R1ARBuptpG5rM4fhB8BRWJkq1e""}",18
+fvHLJUwsynVHJrssbZ8MLNyku9jt2izUspbBD4Spump_solana,FLEX,Reflex Monster,reflex-monster,reflex-monsterGxP.png,957033695,"{""solana"":""fvHLJUwsynVHJrssbZ8MLNyku9jt2izUspbBD4Spump""}",18
+erable,ERA,Erable°,erable,erablexUX.png,193179120,"{""polygon-pos"":""0xa8bf0b92be0338794d2e3b180b9643a1f0eb2914""}",18
+bork-2,BORK,Bork,bork-2,bork-2hIn.png,9987600993,"{""solana"":""4jZXkSNgTQKCDb36ECZ6a2aNzcUniGcDeXgTdtM2HxAX""}",18
+0x33ac788bc9ccb27e9ec558fb2bde79950a6b9d5b_base,GLANKER,glonkybot,glonkybot,0x33ac788bc9ccb27e9ec558fb2bde79950a6b9d5b_base4Xb.png,100000000000,"{""base"":""0x33ac788bc9ccb27e9ec558fb2bde79950a6b9d5b""}",18
+just-a-pulse-guy,PULSEGUY,Just a pulse guy,just-a-pulse-guy,just-a-pulse-guybLG.png,941281937,"{""pulsechain"":""0x67922d590ba6c784f468b6b562d201113a8fbd2d""}",18
+yeeti,YEETI,YEETI 液体,yeeti,yeetiXcB.png,1000000000,"{""hyperliquid"":""0x2150c49b1b981b88349dae535d607ce2""}",18
+0xf7b0dd0b642a6ccc2fc4d8ffe2bffb0cac8c43c8_base,GEKKO,Gekko AI by Virtuals,gekko-ai,0xf7b0dd0b642a6ccc2fc4d8ffe2bffb0cac8c43c8_basesur.png,1000000000,"{""base"":""0xf7b0dd0b642a6ccc2fc4d8ffe2bffb0cac8c43c8""}",18
+artfi,ARTFI,ARTFI,artfi,artfi8YP.png,1000000000,"{""sui"":""0x706fa7723231e13e8d37dad56da55c027f3163094aa31c867ca254ba0e0dc79f::artfi::ARTFI""}",18
+yield-optimizer-usd-edge,YOUSDEDGE,Yield Optimizer USD Edge,yield-optimizer-usd-edge,yield-optimizer-usd-edgeXbH.png,79563,"{""ethereum"":""0x5dd8bfa6c5c68d05d25ef6143e05c11e26c4cdb7""}",18
+ton-inu,TINU,Ton Inu,ton-inu,ton-inuBOb.png,1000000000,"{""the-open-network"":""EQA6Q3dMgVEfXQ9tNBL2fMljEhI_azQ-R3vvPgjGOXwoF7kt""}",18
+changex,CHANGE,Changex,changex,changexz7y.png,425000000,"{""ethereum"":""0x7051faed0775f664a0286af4f75ef5ed74e02754"",""hydra"":""0x18ffd46709f9ebc7c686fbdd8e2a7531ce34869f""}",18
+hoppy-token,HOPPY,Hoppy Token,hoppy-token,hoppy-tokenlHm.png,420690000000000,"{""ethereum"":""0x8c130499d33097d4d000d3332e1672f75b431543""}",18
+0x74e9fee3fcb56bccac22e726cce7a78ca90185e1_ethereum,RIZO,Rizo,rizo,rizoB2g.png,420690000000,"{""ethereum"":""0x74e9fee3fcb56bccac22e726cce7a78ca90185e1""}",18
+BXebtR4k2WiaZ1HJmxcZkoCdxSBx1g1xnEpVra9Ppump_solana,DOGSHIT2,Dog shit going nowhere,dog-shit-going-nowhere,BXebtR4k2WiaZ1HJmxcZkoCdxSBx1g1xnEpVra9Ppump_solanaLBG.png,999651370,"{""solana"":""BXebtR4k2WiaZ1HJmxcZkoCdxSBx1g1xnEpVra9Ppump""}",18
+0xc5b61b1e1f7f88511c9c0c6f475f823c66cc4e2d39a49beb6777059710be8404::toilet::TOILET_sui,TOILET,Toilet Dust,toilet-dust,toilet-dustuv7.png,10000000000,"{""sui"":""0xc5b61b1e1f7f88511c9c0c6f475f823c66cc4e2d39a49beb6777059710be8404::toilet::TOILET""}",18
+burt,BURT,Burt,burt,burtHj5.png,1000000000,"{""kasplex"":""$BURT""}",18
+0xf530c629c2a34b5bb42b46986367bb33a5cedb07_base,ROGUEAI,RogueAI,rogueai,rogueainJC.png,100000000000,"{""base"":""0xf530c629c2a34b5bb42b46986367bb33a5cedb07""}",18
+0xa4c21320d2c4e1ee7a72abe9b2b04f2cd3786028_binance_smart,BONG,BONG,bong,bongEtw.png,961621636,"{""binance_smart"":""0xa4c21320d2c4e1ee7a72abe9b2b04f2cd3786028""}",18
+rein-protocol,REIN,REIN Protocol,rein-protocol,rein-protocolgST.png,1000000,"{""robinhood"":""0x57f457b705315f1f1b4c5a9e64da4140365efb09""}",18
+5QS7RcHfGUa2ZtrovPvEJMB9coqroiT7H48dPSwFpump_solana,AIOS,AIOS Foundation,aios-foundation,5QS7RcHfGUa2ZtrovPvEJMB9coqroiT7H48dPSwFpump_solanamS7.png,333794310,"{""solana"":""5QS7RcHfGUa2ZtrovPvEJMB9coqroiT7H48dPSwFpump""}",18
+BX9yEgW8WkoWV8SvqTMMCynkQWreRTJ9ZS81dRXYnnR9_solana,SPIKE,Spike,spike,spikentf.png,999347429,"{""solana"":""BX9yEgW8WkoWV8SvqTMMCynkQWreRTJ9ZS81dRXYnnR9""}",18
+honeyland-honey,HXD,Honeyland,honeyland-honey,honeyland-honeyRX9.png,774506312,"{""solana"":""3dgCCb15HMQSA4Pn3Tfii5vRk7aRqTH95LJjxzsG2Mug""}",18
+celer-bridged-wbnb-linea,WBNB,Celer Bridged WBNB (Linea),celer-bridged-wbnb-linea,celer-bridged-wbnb-linea5Bz.png,102.1937,"{""linea"":""0xf5c6825015280cdfd0b56903f9f8b5a2233476f5""}",18
+raini-studios-token,RST,Raini Studios Token,raini-studios-token,raini-studios-tokenD3Q.png,919281602,"{""beam"":""0xe338aa35d844d5c1a4e052380dbfa939e0cce13f"",""avalanche"":""0x23675ba5d0a8075da5ba18756554e7633cea2c85"",""ethereum"":""0xbe03e60757f21f4b6fc8f16676ad9d5b1002e512""}",18
+0x1df197d03967ed707e5aabc2c6cf0c0d62cb7777_binance_smart,QLM,千里马 (Chollima),qianlima,0x1df197d03967ed707e5aabc2c6cf0c0d62cb7777_binance_smart69L.png,126810829,"{""binance_smart"":""0x1df197d03967ed707e5aabc2c6cf0c0d62cb7777""}",18
+kla-ondo-tokenized,KLACON,KLA (Ondo Tokenized),kla-ondo-tokenized,kla-ondo-tokenizedbAp.png,38.7326,"{""ethereum"":""0xa637ae510cb50e61236a89ac480b93b8c3bccc46"",""binance_smart"":""0xfc263946439b0d802bf4c5a6fcd34e2885259f91"",""solana"":""149o8ppQf9SzKCKXZ4v3dzHkwumvtQSRzSEkr29uondo""}",18
+ABmMqCr6ybUhSPoG2iT1JKaf9ix5dqJU4eqmaBBCUipJ_solana,OIL,Trump Oil Reserve,trump-oil-reserve,trump-oil-reserveC8C.png,999959486,"{""solana"":""ABmMqCr6ybUhSPoG2iT1JKaf9ix5dqJU4eqmaBBCUipJ""}",18
+och,OCH,Orchai,och,ochIsh.png,20000000,"{""ethereum"":""0x19373ecbb4b8cc2253d70f2a246fa299303227ba"",""oraichain"":""orai1lplapmgqnelqn253stz6kmvm3ulgdaytn89a8mz9y85xq8wd684s6xl3lt""}",18
+arrows,ARROWS,ARROWS,arrows,arrows7mE.png,1000000000,"{""robinhood"":""0xd71b7b4e1dc16bd6938d3f235a68aa8ab1cf4f0e""}",18
+3GEznP41VaAGv9yRdBiuYdA8zkffNc8b7DzNJgFbH4Kh_solana,SCRAT,Scrat,scrat,scrat5th.png,99968461,"{""solana"":""3GEznP41VaAGv9yRdBiuYdA8zkffNc8b7DzNJgFbH4Kh""}",18
+calamari-network,KMA,Calamari Network,calamari-network,calamari-network1D8.png,1305017293,"{""manta-pacific"":""0x6745cf7a0aaca457f451a4b8c60c8504320f69d0""}",18
+rick,RICK,Rick,rick,ricki3Q.png,1000000000,"{""robinhood"":""0x0db4494693a034e3fb89009013113858b2cb8c45""}",18
+0xc21dd0ee043930711c2a3e55f39c7d3144d09b07_base,GITBANK,Gitbank,gitbank,gitbankPnn.png,100000000000,"{""base"":""0xc21dd0ee043930711c2a3e55f39c7d3144d09b07""}",18
+r-coin,RCN,R-COIN,r-coin,r-coinR5H.png,100000000,"{""tron"":""TLvMkAoVdceGYbb1FM48XqWLFLYee6JNxz""}",18
+0x1cdb289befdfac8af945a288bcdccc382cb34d32_robinhood,XL,X Link,x-link,0x1cdb289befdfac8af945a288bcdccc382cb34d32_robinhoodN6M.png,981203484,"{""robinhood"":""0x1cdb289befdfac8af945a288bcdccc382cb34d32""}",18
+0x1e2093ab84768948c6176db5ad98c909ce97f368_base,DORA,DORA AI by Virtuals,dora-ai-by-virtuals,0x1e2093ab84768948c6176db5ad98c909ce97f368_baseOh6.png,1000000000,"{""base"":""0x1e2093ab84768948c6176db5ad98c909ce97f368""}",18
+0x987cf44f3f5d854ec0703123d7fd003a8b56ebb4_abstract,POLLY,Polly,pengus-wife,0x987cf44f3f5d854ec0703123d7fd003a8b56ebb4_abstractANZ.png,1000000000,"{""abstract"":""0x987cf44f3f5d854ec0703123d7fd003a8b56ebb4"",""solana"":""3JgHze5iM3ztccvgrnvVaCAjPVqWk4hMssyZXn2KJ5S2""}",18
+0xb200000000000000000000231d6c1f1ce455ba32_base,B420,B420,b420,b420vYH.png,69,"{""base"":""0xb200000000000000000000231d6c1f1ce455ba32""}",18
+0x21e325b059cd83d4037c82f0f5998ba2df3d7777_monad,BOB,Bob,bob-6,bob-6TVL.png,1000000000,"{""monad"":""0x21e325b059cd83d4037c82f0f5998ba2df3d7777""}",18
+5EQotG3SrMgC1pEqEgkPGGVCK1mHWVBFWV7MnKivvPTT_solana,PTTO,Potito,potito,potitoyms.png,99980910,"{""solana"":""5EQotG3SrMgC1pEqEgkPGGVCK1mHWVBFWV7MnKivvPTT""}",18
+1rus-btc25,@BTC25,@BTC25,1rus-btc25,1rus-btc2576w.png,420689996314947,"{""the-open-network"":""EQC7rnHHtMVBKyhiGnAbtYIlzGxS0dfi3ZbHExFX0LYi9cAH""}",18
+5iqjhP5ig6JWdXQf6hYAwojZeMf11pTCvH87gCQtpump_solana,TTP,TrendTrader Pro,trendtrader-pro,trendtrader-proKtJ.png,976105792,"{""solana"":""5iqjhP5ig6JWdXQf6hYAwojZeMf11pTCvH87gCQtpump""}",18
+coin-on-base,COIN,Coin on Base,coin-on-base,coin-on-baseAMZ.png,97500000000,"{""base"":""0x8e16d46cb2da01cdd49601ec73d7b0344969ae33""}",18
+FVGdJQVzAdKr8ZH7ahyhp4cvDszX3N8QYGSdzueopump_solana,ATTN,attn markets,attn-markets,attn-marketsAz6.png,999976038,"{""solana"":""FVGdJQVzAdKr8ZH7ahyhp4cvDszX3N8QYGSdzueopump""}",18
+re7-wbtc-morpho-vault,RE7WBTC,Re7 WBTC Morpho Vault,re7-wbtc-morpho-vault,re7-wbtc-morpho-vaultXTi.png,0.91853013,"{""ethereum"":""0xe0c98605f279e4d7946d25b75869c69802823763""}",18
+0x9aaae745cf2830fb8ddc6248b17436dc3a5e701c_base,GOCHU,Gochujangcoin,gochujangcoin,gochujangcoinQvY.png,29999999950000,"{""base"":""0x9aaae745cf2830fb8ddc6248b17436dc3a5e701c""}",18
+wrapped-velas,WVLX,Wrapped Velas,wrapped-velas,wrapped-velashxO.png,84597996,"{""velas"":""0xc579d1f3cf86749e05cd06f7ade17856c2ce3126""}",18
+DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK_solana,COPE,Cope,cope-3,DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK_solanaiJm.png,890838766,"{""solana"":""DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK""}",18
+Avb1PBRudW7uUV9MqTUqfZ3EZTDvNkKS63W3wyPseudf_solana,CATWIF,CatWifHat,catwifhat-3,catwifhat-3U9J.png,899422854,"{""solana"":""Avb1PBRudW7uUV9MqTUqfZ3EZTDvNkKS63W3wyPseudf""}",18
+home-depot-xstock,HDX,Home Depot xStock,home-depot-xstock,home-depot-xstockNXJ.png,282955,"{""arbitrum-one"":""0x766b0cd6ed6d90b5d49d2c36a3761e9728501ba9"",""binance_smart"":""0x766b0cd6ed6d90b5d49d2c36a3761e9728501ba9"",""solana"":""XszjVtyhowGjSC5odCqBpW1CtXXwXjYokymrk7fGKD3"",""ethereum"":""0x766b0cd6ed6d90b5d49d2c36a3761e9728501ba9"",""the-open-network"":""EQC_2TSc-toKtn5psH4LFYZxtcMXEuNxEPH9RIXBxXW4zbh7"",""mantle"":""0x766b0cd6ed6d90b5d49d2c36a3761e9728501ba9""}",18
+krispy-kreme-inc-common-stock-backpack-securities,DNUT,"Krispy Kreme, Inc. Common Stock (Backpack Securities)",krispy-kreme-inc-common-stock-backpack-securities,krispy-kreme-inc-common-stock-backpack-securitiesV2j.png,27696,"{""solana"":""DNUTsCvKbKwu2RM72cUuW3TD9YpzArzACcqYQssjPLSk""}",18
+0xba5e66fb16944da22a62ea4fd70ad02008744460_base,TURBO,Based Turbo,based-turbo,0xba5e66fb16944da22a62ea4fd70ad02008744460_base03l.png,69000000000,"{""base"":""0xba5e66fb16944da22a62ea4fd70ad02008744460""}",18
+0x3303113001c51769f2753c2afb7b5a6d0535660e_binance_smart,BABYGROK,Baby Grok,baby-grok-5,0x3303113001c51769f2753c2afb7b5a6d0535660e_binance_smart322.png,282702953479895,"{""binance_smart"":""0x3303113001c51769f2753c2afb7b5a6d0535660e""}",18
+0x00000000000000000000000000000000007ab463_hedera-hashgraph,SMACKM,SMACKM,smackm,smackmkM4.png,1000000000,"{""hedera-hashgraph"":""0x00000000000000000000000000000000007ab463""}",18
+62CsquahdQ3J286G9UTqV6whxryfihdV4yg7kSJnpump_solana,BGG1,Blinks.gg,blinks-gg,62CsquahdQ3J286G9UTqV6whxryfihdV4yg7kSJnpump_solanaE51.png,999892127,"{""solana"":""62CsquahdQ3J286G9UTqV6whxryfihdV4yg7kSJnpump""}",18
+FNj16zAMFERd4w2nKfjfVn51aW38m56jcfNHzpVQmoon_solana,SOS,SOULONSOL,soulonsol,FNj16zAMFERd4w2nKfjfVn51aW38m56jcfNHzpVQmoon_solanaVgZ.png,979149445,"{""solana"":""FNj16zAMFERd4w2nKfjfVn51aW38m56jcfNHzpVQmoon""}",18
+rainbow-bridged-weth-near-protocol,WETH,Rainbow Bridged WETH (Near Protocol),rainbow-bridged-weth-near-protocol,rainbow-bridged-weth-near-protocoliR4.png,29.3911,"{""near-protocol"":""c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2.factory.bridge.near""}",18
+aipad,AIPAD,AIPad,aipad,aipadqC5.png,199049334,"{""ethereum"":""0xe55d97a97ae6a17706ee281486e98a84095d8aaf"",""binance_smart"":""0xe55d97a97ae6a17706ee281486e98a84095d8aaf""}",18
+FfixAeHevSKBZWoXPTbLk4U4X9piqvzGKvQaFo3cpump_solana,POLYFACTS,Polyfactual,polyfactual,FfixAeHevSKBZWoXPTbLk4U4X9piqvzGKvQaFo3cpump_solana8xZ.png,999947903,"{""solana"":""FfixAeHevSKBZWoXPTbLk4U4X9piqvzGKvQaFo3cpump""}",18
+rosecoin,ROSE,Rosecoin,rosecoin,rosecoingFw.png,1000000,"{""the-open-network"":""EQBdr5b7csZbXhDnQ5U364bpLylHfk8AWcug8TwhzCMVcvPA""}",18
+0x85bea4ee627b795a79583fcede229e198aa57055_ethereum,MARVIN,Marvin Inu,marvin-inu-2,0x85bea4ee627b795a79583fcede229e198aa57055_ethereumV8i.png,420690000000,"{""ethereum"":""0x85bea4ee627b795a79583fcede229e198aa57055""}",18
+0x1495bc9e44af1f8bcb62278d2bec4540cf0c05ea_ethereum,DEAI,Zero1 Labs,zero1-labs,zero1-labspjZ.png,1000000000,"{""ethereum"":""0x1495bc9e44af1f8bcb62278d2bec4540cf0c05ea""}",18
+real-mxn,MXNE,Real MXN,real-mxn,real-mxnBaX.png,1428995,"{""base"":""0x269cae7dc59803e5c596c95756faeebb6030e0af"",""solana"":""6zYgzrT7X2wi9a9NeMtUvUWLLmf2a8vBsbYkocYdB9wa"",""stellar"":""MXNe-GCQCNWT22JDLENQAVIE6DRJGHWAQ6EX2H5ABGPV55EJUPPZM5UA7KHZR""}",18
+ero-copper-dinari-tokenized-stock,ERO,Ero Copper (Dinari Tokenized Stock),ero-copper-dinari-tokenized-stock,ero-copper-dinari-tokenized-stockynK.png,2082,"{""ethereum"":""0xcf5905de7d83dce7cd109485c42723bb76eba5a6"",""base"":""0xba921e840fb60adb0f92b2a977427fe8e5dd208c"",""arbitrum-one"":""0x071e1fd14fbacb2b856867043eb12ace1ee3cb52"",""avalanche"":""0xa1ea066aa47236e5cbeefda480534d174e3b21df""}",18
+75DvRjTDpaEbrdUHVomdjfsiXbBi5FwNyctyUgfLooS_solana,FLS,Floos,floos,75DvRjTDpaEbrdUHVomdjfsiXbBi5FwNyctyUgfLooS_solanaw6O.png,924103681,"{""solana"":""75DvRjTDpaEbrdUHVomdjfsiXbBi5FwNyctyUgfLooS""}",18
+the-resistance-cat,$RECA,The Resistance Cat,the-resistance-cat,the-resistance-catnSw.png,9977972,"{""the-open-network"":""EQBwHOvf3UrPPJB7jeDHaOT-2vP0QQlDoEDBsgfv5XF75J3j""}",18
+xcad-network,XCAD,XCAD Network,xcad-network,xcad-networkd87.png,194817991,"{""ethereum"":""0x7659ce147d0e714454073a5dd7003544234b6aa0"",""polygon-pos"":""0xa55870278d6389ec5b524553d03c04f5677c061e"",""binance_smart"":""0xa026ad2ceda16ca5fc28fd3c72f99e2c332c8a26"",""zilliqa"":""zil1z5l74hwy3pc3pr3gdh3nqju4jlyp0dzkhq2f5y"",""metis-andromeda"":""0x66673f0a3b5d99524ba76a558b93a9ca1386f4cd"",""step-network"":""0xe6801928061cdbe32ac5ad0634427e140efd05f9"",""arbitrum-one"":""0x921f99719eb6c01b4b8f0ba7973a7c24891e740a"",""opbnb"":""0xaf9fe3b5ccdae78188b1f8b9a49da7ae9510f151"",""base"":""0x750cf88d9e0c2bcedeec31d5faad6ed6e3f1abc6"",""solana"":""AHcxvCP5se2DiqfcXwBz8i7WygwWJdd8f9S9t6nd4YsQ""}",18
+yieldwatch,WATCH,Yieldwatch,yieldwatch,yieldwatchblQ.png,20000000,"{""binance_smart"":""0x7a9f28eb62c791422aa23ceae1da9c847cbec9b0"",""polygon-pos"":""0x09211dc67f9fe98fb7bbb91be0ef05f4a12fa2b2""}",18
+orion-money,ORION,Orion Money,orion-money,orion-moneyepy.png,1000000000,"{""ethereum"":""0x727f064a78dc734d33eec18d5370aef32ffd46e4"",""terra"":""terra1mddcdx0ujx89f38gu7zspk2r2ffdl5enyz2u03"",""polygon-pos"":""0x5e0294af1732498c77f8db015a2d52a76298542b"",""binance_smart"":""0x3dcb18569425930954feb191122e574b87f66abd""}",18
+0x821c94e69bc7ca058c913b7b5e6b0a5c9fd1523d58723a966fb8c1f5ea888105_aptos,KAPT,Kofi Aptos,kofi-aptos,kofi-aptoswQt.png,94560,"{""aptos"":""0x821c94e69bc7ca058c913b7b5e6b0a5c9fd1523d58723a966fb8c1f5ea888105""}",18
+0x70fd93fb088150e203d2243b9bd3190276f80c70_ethereum,BIRDDOG,Birddog,birddog,birddogVBx.png,420000000000,"{""ethereum"":""0x70fd93fb088150e203d2243b9bd3190276f80c70""}",18
+swarm-4,SWRM,Swarm,swarm-4,swarm-4H9B.png,80265174,"{""pulsechain"":""0x1e2b066d068eb087ccf85620b8306a283ea70816""}",18
+blockchain-monster-hunt,BCMC,Blockchain Monster Hunt,blockchain-monster-hunt,blockchain-monster-huntEgU.png,1000000000,"{""ethereum"":""0x2ba8349123de45e931a8c8264c332e6e9cf593f9"",""polygon-pos"":""0xc10358f062663448a3489fc258139944534592ac"",""binance_smart"":""0xc10358f062663448a3489fc258139944534592ac""}",18
+0xe19e7429ab6c1f9dd391faa88fbb940c7d22f18f_base,MIO,MIO,mio,0xe19e7429ab6c1f9dd391faa88fbb940c7d22f18f_base11l.png,1000000000,"{""base"":""0xe19e7429ab6c1f9dd391faa88fbb940c7d22f18f""}",18
+baby-myro,BABYMYRO,Baby Myro,baby-myro,baby-myropYl.png,0,"{""binance_smart"":""0x9b152a4ce62d8157dc1d539021e9bca999124b0a""}",18
+bone-bone,BONE,Bone,bone-bone,bone-boneXfN.png,138647331,,
+x-world-games,XWG,X World Games,x-world-games,x-world-gamesqQA.png,9938481614,"{""binance_smart"":""0x6b23c89196deb721e6fd9726e6c76e4810a464bc"",""ethereum"":""0x0a77ef9bf662d62fbf9ba4cf861eaa83f9cc4fec"",""arbitrum-one"":""0xeb4d25db65dcef52380c99ba7e1344c820ecb1fc""}",18
+javsphere,JAV,Javsphere,javsphere,javsphereJck.png,806528426,"{""defichain"":""0x66f3cf265d2d146a0348f6fc67e3da0835e0968e"",""defichain-evm"":""0x66f3cf265d2d146a0348f6fc67e3da0835e0968e"",""base"":""0xedc68c4c54228d273ed50fc450e253f685a2c6b9""}",18
+GJLiErro8cbWeDngDMWJug9dkwwckYZg4Lvb79F3pump_solana,ILY,iiii lovvvv youuuu,iiii-lovvv-youuuu,GJLiErro8cbWeDngDMWJug9dkwwckYZg4Lvb79F3pump_solana9ki.png,965015271,"{""solana"":""GJLiErro8cbWeDngDMWJug9dkwwckYZg4Lvb79F3pump""}",18
+0xccfbcd3bf85d8657a6bbd10b8c81c99f13207777_binance_smart,十八BRO,18bro the blackcat,18bro-the-blackcat,18bro-the-blackcatNS8.png,1000000000,"{""binance_smart"":""0xccfbcd3bf85d8657a6bbd10b8c81c99f13207777""}",18
+catzcoin,CATZ,CatzCoin,catzcoin,catzcoin0OD.png,100000000000,"{""binance_smart"":""0xbfbee3dac982148ac793161f7362344925506903""}",18
+CQvadZTR8vikRqqwyhvYV8YpdfCRjUCGyQwCuY4rxBQt_solana,CONAN,Conan Meme,conan-meme,CQvadZTR8vikRqqwyhvYV8YpdfCRjUCGyQwCuY4rxBQt_solanaLql.png,306400462,"{""solana"":""CQvadZTR8vikRqqwyhvYV8YpdfCRjUCGyQwCuY4rxBQt""}",18
+0x1f015712aa2a48085ec93f87d643bb625b668b07_base,I,Indexy,indexy,0x1f015712aa2a48085ec93f87d643bb625b668b07_basekS0.png,100000000000,"{""base"":""0x1f015712aa2a48085ec93f87d643bb625b668b07""}",18
+spdr-s-p-500-etf-trust-defichain,DSPY,SPDR S&P 500 ETF Trust Defichain,spdr-s-p-500-etf-trust-defichain,spdr-s-p-500-etf-trust-defichainQCk.png,26042,"{""defichain"":""dspy""}",18
+dor,DOR,Dor,dor,dorUzq.png,443340748,"{""base"":""0xfe9885baff18074846aaa2d5541581adf068731d"",""constellation-network"":""DAG0CyySf35ftDQDQBnd1bdQ9aPyUdacMghpnCuM""}",18
+aquarius-2,AQUARIUS,Aquarius,aquarius-2,aquarius-2PLw.png,999986189,"{""solana"":""C49Ut3om3QFTDrMZ5Cr8VcTKPpHDcQ2Fv8mmuJHHigDt""}",18
+GUy9Tu8YtvvHoL3DcXLJxXvEN8PqEus6mWQUEchcbonk_solana,BOSS,Ibiza Final Boss,ibiza-final-boss,ibiza-final-bossgcz.png,930252482,"{""solana"":""GUy9Tu8YtvvHoL3DcXLJxXvEN8PqEus6mWQUEchcbonk""}",18
+lokr,LKR,Lokr,lokr,lokrT3I.png,100000000,"{""ethereum"":""0x80ce3027a70e0a928d9268994e9b85d03bd4cdcf"",""binance_smart"":""0xa5ff48e326958e0ce6fdf9518de561f2b5f57da3"",""polygon-pos"":""0xa5ff48e326958e0ce6fdf9518de561f2b5f57da3""}",18
+0x1035ae3f87a91084c6c5084d0615cc6121c5e228_base,FWOG,Based Fwog,based-fwog,0x1035ae3f87a91084c6c5084d0615cc6121c5e228_baseEtT.png,100000000000,"{""base"":""0x1035ae3f87a91084c6c5084d0615cc6121c5e228""}",18
+0xa46447afe60bdbf271bb05ea70d56aee1c4a4094_base,2DAI,2DAI.io,2dai-io-2,2dai-io-2O4I.png,1000000,"{""base"":""0xa46447afe60bdbf271bb05ea70d56aee1c4a4094""}",18
+6MMdrc39L3rMZkshRP9WSKe3trSdcbx5ywJmzJBanzqw_solana,TAOSHI,TAOSHI,taoshi,taoshisUH.png,20850614,"{""solana"":""6MMdrc39L3rMZkshRP9WSKe3trSdcbx5ywJmzJBanzqw""}",18
+baobaosol,BAOS,BaoBaoSol,baobaosol,baobaosolMjb.png,998935140,"{""solana"":""UHaVCzi4ZsGrzHhAFbokkXfaugfYbkdVME8XYaR7eKu""}",18
+ge-vernova-rstock,RGEV,GE Vernova Tokenized Stock (Reality),ge-vernova-rstock,ge-vernova-rstockgkF.png,79.1072,"{""arbitrum-one"":""0x24e9817e28264c87ef5816da1b3d2e2a1f93f5a1"",""morph-l2"":""0xbae24bd87054f47819a0ba7ba2c97a5c3aef5417""}",18
+play-2,PLAY,PLAY,play-2,play-2xmy.png,1000000000,"{""base"":""0x7404ac09adf614603d9c16a7ce85a1101f3514ba"",""ethereum"":""0x7404ac09adf614603d9c16a7ce85a1101f3514ba""}",18
+AgDNMAi8r2QS1FQEeTHLsZSmkQKCK7xXP2bR7jQ2pump_solana,WTF,Meme Games WTF,meme-games-wtf,AgDNMAi8r2QS1FQEeTHLsZSmkQKCK7xXP2bR7jQ2pump_solanaAW5.png,999311805,"{""solana"":""AgDNMAi8r2QS1FQEeTHLsZSmkQKCK7xXP2bR7jQ2pump""}",18
+0xcefcffaa272c51a1962f0d73ea6ad9a9a8c64c1d_abstract,ABBY,Absters Girl,absters-girl,0xcefcffaa272c51a1962f0d73ea6ad9a9a8c64c1d_abstractCSn.png,994884794,"{""abstract"":""0xcefcffaa272c51a1962f0d73ea6ad9a9a8c64c1d""}",18
+0xe79031b5aaeb3ee8d0145e3d75b81b36bffe341d_ethereum,BOPPY,Boppy The Bat,boppy-the-bat,0xe79031b5aaeb3ee8d0145e3d75b81b36bffe341d_ethereum2Et.png,420690000000000,"{""ethereum"":""0xe79031b5aaeb3ee8d0145e3d75b81b36bffe341d""}",18
+0x6f99ad269c84e0e80318f6cfb01323c7bda4b087_ethereum,VU,Vu,vu,0x6f99ad269c84e0e80318f6cfb01323c7bda4b087_ethereumCIP.png,1000000000,"{""ethereum"":""0x6f99ad269c84e0e80318f6cfb01323c7bda4b087""}",18
+ishares-ethereum-trust-ondo-tokenized,ETHAON,iShares Ethereum Trust (Ondo Tokenized),ishares-ethereum-trust-ondo-tokenized,ishares-ethereum-trust-ondo-tokenized7ht.png,3797,"{""ethereum"":""0x98284fbc11edd7540e29b896a49817bbe52ddcbd"",""binance_smart"":""0x04b16ff1f9673146f68aa5d5f57aa45adcf068e1"",""solana"":""LitNUakTges74cjDJm6HHfFNKGPdySkp3MWSYzYondo""}",18
+0xb200000000000000000000503d889fdcbe48b801_base,RAWR,RAWR,rawr-2,rawr-22iv.png,1000000000,"{""base"":""0xb200000000000000000000503d889fdcbe48b801""}",18
+0x2a3a4c92ce37abd7239fb010bc390710f4062407_megaeth,FLUFFEY,Fluffey,fluffey,0x2a3a4c92ce37abd7239fb010bc390710f4062407_megaeth8oa.png,1000000000,"{""megaeth"":""0x2a3a4c92ce37abd7239fb010bc390710f4062407""}",18
+2eTJqpK4QqWofGLSoirWNdC3Goyxp81KC3JDMqcupump_solana,MINDSHARE,mindshare,mindshare,mindshare6wj.png,999895890,"{""solana"":""2eTJqpK4QqWofGLSoirWNdC3Goyxp81KC3JDMqcupump""}",18
+5LwseQRo8fsz4S3y7jbqqe5C7tZTz5PwhXNCHj13jLBi_solana,PESHI,PESHI,peshi,peshi0Gn.png,418414791745,"{""solana"":""5LwseQRo8fsz4S3y7jbqqe5C7tZTz5PwhXNCHj13jLBi""}",18
+0xece7b98bd817ee5b1f2f536daf34d0b6af8bb542_base,ROCK,Just a Black Rock on Base,just-a-black-rock-on-base,just-a-black-rock-on-basePTq.png,10000000000,"{""base"":""0xece7b98bd817ee5b1f2f536daf34d0b6af8bb542""}",18
+2u3ufZ5defxwPXMixvvQpSs68PDNzHTdE52t9Crspump_solana,BLOXWAP,BLOXWAP,bloxwap,bloxwapwK4.png,975224513,"{""solana"":""2u3ufZ5defxwPXMixvvQpSs68PDNzHTdE52t9Crspump""}",18
+bitgo-holdings-rstock,RBTGO,BitGo Holdings Tokenized Stock (Reality),bitgo-holdings-rstock,bitgo-holdings-rstockodl.png,11046,"{""arbitrum-one"":""0x0e10ab3ae30830b01c070e2137002bc053068929"",""morph-l2"":""0x109a496440565be6864f27d477de1956cd5b045d""}",18
+armaraos,ARMARA,ArmaraOS,armaraos,armaraos1L0.png,949689215,"{""solana"":""A1TJ3cWdzwcjZMm9Pcb3E51iNjV5eZE3SpZXUrboMARA""}",18
+AWc8uws9nh7pYjFQ8FzxavmP8WTUPwmQZAvK2yAPBAGS_solana,ZHC,ZERO-HUMAN COMPANY,zero-human-company,zero-human-companyvlT.png,999755537,"{""solana"":""AWc8uws9nh7pYjFQ8FzxavmP8WTUPwmQZAvK2yAPBAGS""}",18
+0xde5d2530a877871f6f0fc240b9fce117246dadae_ethereum,$JUICE,Juice,juice,juiceeme.png,10000000,"{""ethereum"":""0xde5d2530a877871f6f0fc240b9fce117246dadae""}",18
+TDxL4V5LE6TYSFXSCWJkkSsCYbgmrDnTer_tron,SZN,szn,szn,sznEgG.png,1000000000,"{""tron"":""TDxL4V5LE6TYSFXSCWJkkSsCYbgmrDnTer""}",18
+0xb3912b20b3abc78c15e85e13ec0bf334fbb924f7_ethereum,HANA,Hana,hana,0xb3912b20b3abc78c15e85e13ec0bf334fbb924f7_ethereumGse.png,8913101266,"{""ethereum"":""0xb3912b20b3abc78c15e85e13ec0bf334fbb924f7""}",18
+aigentx,AGX,AGIX,aigentx,aigentxoTJ.png,100000000,"{""ethereum"":""0xe2432110c32d0717e33c245fe0cfa2b26c07f47a""}",18
+Dt6vESocrRixuFz2taZunygpKcNQwxAjUMgYUxvNpump_solana,LOLCAT,Lolcat,lolcat-2,Dt6vESocrRixuFz2taZunygpKcNQwxAjUMgYUxvNpump_solanaB5j.png,999888319,"{""solana"":""Dt6vESocrRixuFz2taZunygpKcNQwxAjUMgYUxvNpump""}",18
+stellaswap,STELLA,StellaSwap,stellaswap,stellaswapKGM.png,115369254,"{""moonbeam"":""0x0e358838ce72d5e61e0018a2ffac4bec5f4c88d2""}",18
+0x8a0a9b663693a22235b896f70a229c4a22597623_ethereum,SCALE,Scalia Infrastructure,scalia-infrastructure,scalia-infrastructure8xd.png,100000000,"{""ethereum"":""0x8a0a9b663693a22235b896f70a229c4a22597623""}",18
+neuron,NRN,Neuron,neuron,neuronVwm.png,1000000000,"{""arbitrum-one"":""0xdadeca1167fe47499e53eb50f261103630974905""}",18
+kraken-ink,KRAKEN,Kraken,kraken-ink,kraken-inkWUU.png,100000000000,"{""ink"":""0xca5f2ccbd9c40b32657df57c716de44237f80f05""}",18
+F9TgEJLLRUKDRF16HgjUCdJfJ5BK6ucyiW8uJxVPpump_solana,AGIXT,AGiXT,agixt,F9TgEJLLRUKDRF16HgjUCdJfJ5BK6ucyiW8uJxVPpump_solanahCt.png,999999837,"{""solana"":""F9TgEJLLRUKDRF16HgjUCdJfJ5BK6ucyiW8uJxVPpump""}",18
+apm-coin,APM,apM,apm-coin,apm-coin9yp.png,1812500000,"{""ethereum"":""0xc8c424b91d8ce0137bab4b832b7f7d154156ba6c""}",18
+7EW5dDD6MYJK4PcZ89MGApJQwWeDEeNgH4NCVU4qpump_solana,PURCH,Purch,purch,7EW5dDD6MYJK4PcZ89MGApJQwWeDEeNgH4NCVU4qpump_solanaQvE.png,999936366,"{""solana"":""7EW5dDD6MYJK4PcZ89MGApJQwWeDEeNgH4NCVU4qpump""}",18
+beam-bridged-avax-beam,AVAX,Beam Bridged AVAX (Beam),beam-bridged-avax-beam,beam-bridged-avax-beamtBv.png,6972,"{""beam"":""0x00e69e0b6014d77040b28e04f2b8ac25a6ea5d34""}",18
+0xf4c450c1570c2dbda91de1ed2e39995a15028c97_robinhood,HODL,Diamond Hands,diamond-hands-6,diamond-hands-6Zkx.png,1000000000,"{""robinhood"":""0xf4c450c1570c2dbda91de1ed2e39995a15028c97""}",18
+jian-coin,JIANCO,JIAN COIN,jian-coin,jian-coinI3C.png,836788382,"{""solana"":""BdzaE3T7uU59pBVDBHZVZh3yWrrpo4oPrXdv4nPDpump""}",18
+GNHW5JetZmW85vAU35KyoDcYoSd3sNWtx5RPMTDJpump_solana,GOAT,Goatcoin,goatcoin-2,GNHW5JetZmW85vAU35KyoDcYoSd3sNWtx5RPMTDJpump_solana6RM.png,999992268,"{""solana"":""GNHW5JetZmW85vAU35KyoDcYoSd3sNWtx5RPMTDJpump""}",18
+nft-worlds,WRLD,NFT Worlds,nft-worlds,nft-worldsH0y.png,5000000000,"{""ethereum"":""0xd5d86fc8d5c0ea1ac1ac5dfab6e529c9967a45e9"",""polygon-pos"":""0xd5d86fc8d5c0ea1ac1ac5dfab6e529c9967a45e9""}",18
+0xf697a91e2fbf7f0f6c09c9b32d6523628ec5d3f6_base,AMPD,Ample,ample,0xf697a91e2fbf7f0f6c09c9b32d6523628ec5d3f6_baseNK4.png,1000000000,"{""base"":""0xf697a91e2fbf7f0f6c09c9b32d6523628ec5d3f6""}",18
+0xd1b89856d82f978d049116eba8b7f9df2f342ff3_ethereum,PEPO,Peepo,peepo-eth,peepo-ethGQo.png,417779029641,"{""ethereum"":""0xd1b89856d82f978d049116eba8b7f9df2f342ff3""}",18
+spawn,SPAWN,Spawn,spawn,spawno1w.png,999985066,"{""solana"":""pC9Wo6oHLJx2Vwrvrtpj64mRHQPFYwvGSr4eR2apump""}",18
+arse-digital,ARSE,ARSe Digital,arse-digital,arse-digitaltDa.png,122731869,"{""polygon-pos"":""0x2278485e81b735e0f79fdca936f901d0727e6603""}",18
+0x25e1c298f100d7c600e9e44d46788c1ebbd4f69b_base,P,Pike Finance,pike-finance,0x25e1c298f100d7c600e9e44d46788c1ebbd4f69b_baseRJ9.png,358450000,"{""base"":""0x25e1c298f100d7c600e9e44d46788c1ebbd4f69b""}",18
+swop,SWOP,Swop,swop,swopmL6.png,6658150,"{""waves"":""Ehie5xYpeN8op1Cctc6aGUrqx8jq3jtf1DSjXDbfm7aT""}",18
+0x41b1f9dcd5923c9542b6957b9b72169595acbc5c_ethereum,CHEEMS,Cheems CTO,cheems-cto,0x41b1f9dcd5923c9542b6957b9b72169595acbc5c_ethereumbNp.png,420690000000000,"{""ethereum"":""0x41b1f9dcd5923c9542b6957b9b72169595acbc5c""}",18
+uptop,UPTOP,UpTop,uptop,uptop95F.png,1000000000,"{""binance_smart"":""0x8a0db359c38414b5f145f65cc1c69d9253067c43""}",18
+markhor,MARKHOR,Markhor The Goat,markhor,markhoreCq.png,100000000000000,"{""binance_smart"":""0xfbe01e78c22d659680eab15e2d17803a6347c126""}",18
+0x130e60ac604e1899d1d638dc56c9c7cc1fca7777_binance_smart,钻石,钻石 (Diamond),diamond-2,diamond-2j2C.png,1000000000,"{""binance_smart"":""0x130e60ac604e1899d1d638dc56c9c7cc1fca7777""}",18
+0x9f277edfc463ebaa3d2a6274b01177697e910391_ethereum,WOOLLY,Miniature Woolly Mammoth,miniature-woolly-mammoth,0x9f277edfc463ebaa3d2a6274b01177697e910391_ethereumr9x.png,1000000000,"{""ethereum"":""0x9f277edfc463ebaa3d2a6274b01177697e910391""}",18
+on-semiconductor-ondo-tokenized,ONON,ON Semiconductor (Ondo Tokenized),on-semiconductor-ondo-tokenized,on-semiconductor-ondo-tokenizedRcT.png,898.939,"{""ethereum"":""0xa52b2d6ca1cd9b1e8b931645428380c340caef9a"",""binance_smart"":""0xb35a9eab5d25282f4e668798b629a9294e9a47aa"",""solana"":""13qtwy5fZi9Przz14pzo9xqFSr8QHmLyUpUCvP1xondo""}",18
+aries,ARIES,Aries,aries,ariesxzt.png,999597437,"{""solana"":""GhFiFrExPY3proVF96oth1gESWA5QPQzdtb8cy8b1YZv""}",18
+Bz4MhmVRQENiCou7ZpJ575wpjNFjBjVBSiVhuNg1pump_solana,PROJECT89,Project89 [OLD],project89,Bz4MhmVRQENiCou7ZpJ575wpjNFjBjVBSiVhuNg1pump_solanaV0J.png,999870047,"{""solana"":""Bz4MhmVRQENiCou7ZpJ575wpjNFjBjVBSiVhuNg1pump""}",18
+mumu,MUMU,Mumu,mumu,mumuDH9.png,687554528531408,"{""ethereum"":""0x2f573070e6090b3264fe707e2c9f201716f123c7""}",18
+gold-rstock,GLDR,Gold rStock,gold-rstock,gold-rstockfvc.png,138.5746,"{""solana"":""AEv6xLECJ2KKmwFGX85mHb9S2c2BQE7dqE5midyrXHBb""}",18
+geez-pnutz,PNUTZ,Geez PNutz,geez-pnutz,geez-pnutzcds.png,240000,"{""apechain"":""0x54a70516e9c0223f4a92be3a4832a06f546e783b""}",18
+HPm64oG8eoCKuPj2MaHc1ruqdZ4Pe71UEGiUET1MtJAu_solana,MAG,Magnetix,magnetix,HPm64oG8eoCKuPj2MaHc1ruqdZ4Pe71UEGiUET1MtJAu_solanaSXQ.png,999964632,"{""solana"":""HPm64oG8eoCKuPj2MaHc1ruqdZ4Pe71UEGiUET1MtJAu""}",18
+looksrare,LOOKS,LooksRare,looksrare,looksrareLuz.png,992964512,"{""ethereum"":""0xf4d2888d29d722226fafa5d9b24f9164c092421e""}",18
+qualcomm-robinhood-tokenized-stock,QCOM,Qualcomm • Robinhood Token,qualcomm-robinhood-tokenized-stock,qualcomm-robinhood-tokenized-stockfQQ.png,407.2913,"{""robinhood"":""0x0f17206447090e464c277571124dd2688e48aea9""}",18
+0x2676e4e0e2eb58d9bdb5078358ff8a3a964cedf5_base,POLY,Polytrader by Virtuals,polytrader-by-virtuals,0x2676e4e0e2eb58d9bdb5078358ff8a3a964cedf5_baseIhN.png,998041989,"{""base"":""0x2676e4e0e2eb58d9bdb5078358ff8a3a964cedf5""}",18
+hbadger,HBADG,Hbadger,hbadger,hbadgernFo.png,8800000000,"{""binance_smart"":""0x5d72717ab33f38504935960a1d8603276a76511c""}",18
+0x56a38e7216304108e841579041249feb236c887b_base,LBM,Libertum,libertum,libertumYdd.png,200000000,"{""base"":""0x56a38e7216304108e841579041249feb236c887b""}",18
+0x443ac9f358226f5f48f2cd10bc0121e7a6176323_sei-v2,BAT,BitBat Token,bitbat-token,bitbat-token48E.png,16621154,"{""sei-v2"":""0x443ac9f358226f5f48f2cd10bc0121e7a6176323""}",18
+wrapped-g,WG,Wrapped G,wrapped-g,wrapped-g51s.png,11237900,"{""gravity-alpha"":""0xbb859e225ac8fb6be1c7e38d87b767e95fef0ebd""}",18
+0xe1e93e92c0c2aff2dc4d7d4a8b250d973cad4444_binance_smart,恶俗企鹅,三维威廉泰尔企鹅 (Vulgar Penguin),vulgar-penguin,0xe1e93e92c0c2aff2dc4d7d4a8b250d973cad4444_binance_smartX8v.png,1000000000,"{""binance_smart"":""0xe1e93e92c0c2aff2dc4d7d4a8b250d973cad4444""}",18
+0x9f278dc799bbc61ecb8e5fb8035cbfa29803623b_ethereum,BDX,Baby DragonX,baby-dragonx,0x9f278dc799bbc61ecb8e5fb8035cbfa29803623b_ethereumjDW.png,98832573690,"{""ethereum"":""0x9f278dc799bbc61ecb8e5fb8035cbfa29803623b""}",18
+7dGbPgUxKpB5qWiLRKcTQSC3om1fPzUpgGAFfwej9hXx_solana,GCR,Golden Celestial Ratio,golden-celestial-ratio,golden-celestial-ratioakj.png,1617952401,"{""solana"":""7dGbPgUxKpB5qWiLRKcTQSC3om1fPzUpgGAFfwej9hXx""}",18
+0x468eabcb5c914ac59e72691f8fc970880a94f4b3_ethereum,EMDR,Modulr,modulr,0x468eabcb5c914ac59e72691f8fc970880a94f4b3_ethereumFRB.png,410879,"{""ethereum"":""0x468eabcb5c914ac59e72691f8fc970880a94f4b3""}",18
+0xe2f3fae4bc62e21826018364aa30ae45d430bb07_base,ANTIHUNTER,AntiHunter,antihunter,antihunterGy8.png,100000000000,"{""base"":""0xe2f3fae4bc62e21826018364aa30ae45d430bb07""}",18
+7i5XE77hnx1a6hjWgSuYwmqdmLoDJNTU1rYA6Gqx7QiE_solana,RNA,RNA,rna,7i5XE77hnx1a6hjWgSuYwmqdmLoDJNTU1rYA6Gqx7QiE_solanaiE4.png,0,"{""solana"":""7i5XE77hnx1a6hjWgSuYwmqdmLoDJNTU1rYA6Gqx7QiE""}",18
+synopsys-rstock,RSNPS,Synopsys Tokenized Stock (Reality),synopsys-rstock,synopsys-rstockztV.png,155.0638,"{""arbitrum-one"":""0x8f9255c7582184de7d3ddc5abc61cb44c018c08c"",""morph-l2"":""0xc5cee410947fbd87d1fa30f7c671f3b8f22e944c""}",18
+haahyN2RTafHNNySeXKoowgGF7DdX5b5nGNGmghpump_solana,UAI,AIMERICA,aimerica,haahyN2RTafHNNySeXKoowgGF7DdX5b5nGNGmghpump_solanaRg1.png,998042891,"{""solana"":""haahyN2RTafHNNySeXKoowgGF7DdX5b5nGNGmghpump""}",18
+fitchin-universe,CHIN,Fitchin Universe,fitchin-universe,fitchin-universeiCv.png,999993462,"{""solana"":""CHiNsA2B6ZbmKnEmHPCbbX9aXJyoJzAtcLpHEDd6Qyq3""}",18
+CoRkC3r6MqYuTeMRc7D8JJF7UiUyFWurXGpYy1xQATNq_solana,FLUFF,Fluffys,fluffys,fluffysRKl.png,103974999,"{""solana"":""CoRkC3r6MqYuTeMRc7D8JJF7UiUyFWurXGpYy1xQATNq""}",18
+vLieQF5eDqUuuk8RzRaqgAHkXr7bSEBZaWk9Zfibonk_solana,DEBT,DebtCoin,debtcoin,vLieQF5eDqUuuk8RzRaqgAHkXr7bSEBZaWk9Zfibonk_solanaZEO.png,979085081,"{""solana"":""vLieQF5eDqUuuk8RzRaqgAHkXr7bSEBZaWk9Zfibonk""}",18
+king-2,KING,KING Coin,king-2,king-20H5.png,10000000000,"{""solana"":""9noXzpXnkyEcKF3AeXqUHTdR59V5uvrRBUZ9bwfQwxeq"",""ethereum"":""0xe28027c99c7746ffb56b0113e5d9708ac86fae8f""}",18
+0x78de5c914b91ee1a1defd2c617f759e74a896b07_base,BASTR,Base Strategy,base-strategy,base-strategy2Z5.png,95475508477,"{""base"":""0x78de5c914b91ee1a1defd2c617f759e74a896b07""}",18
+blocky-ai-agent-2,BLOCKY,Blocky,blocky-ai-agent-2,blocky-ai-agent-2qlb.png,20999915,"{""solana"":""9TwGzR67b7pVjhiDZyHoYk5ynYGLaCG3hezKXK6642US""}",18
+0x790814cd782983fab4d7b92cf155187a865d9f18_ethereum,MATT,Matt Furie,matt-0x79,0x790814cd782983fab4d7b92cf155187a865d9f18_ethereumHcX.png,420690000000,"{""ethereum"":""0x790814cd782983fab4d7b92cf155187a865d9f18""}",18
+Hnq9gGF2HFShcNg7U6pU1xxNs7zwvD5E1LoLdjMApump_solana,HIKI,hikikomori,hikikomori,Hnq9gGF2HFShcNg7U6pU1xxNs7zwvD5E1LoLdjMApump_solanazcK.png,1000000000,"{""solana"":""Hnq9gGF2HFShcNg7U6pU1xxNs7zwvD5E1LoLdjMApump""}",18
+nftlaunch,NFTL,NFTLaunch,nftlaunch,nftlaunchGdo.png,135000000,"{""ethereum"":""0xe7f72bc0252ca7b16dbb72eeee1afcdb2429f2dd"",""binance_smart"":""0xe7f72bc0252ca7b16dbb72eeee1afcdb2429f2dd""}",18
+novara,NVR,novara,novara,novara8W3.png,10000000000,"{""robinhood"":""0x880b852316d430741c5b693aa53f22871e42ee77""}",18
+kitty-kult,KULT,Kitty Kult,kitty-kult,kitty-kultsiq.png,776429871400,"{""base"":""0x9999999999999d8b360c6985db1a74a0f3b75e1b""}",18
+unity-3,UNITY,UNITY,unity-3,unity-3nBo.png,15736111,"{""pulsechain"":""0xc70cf25dfcf5c5e9757002106c096ab72fab299e""}",18
+0xfb70859efec2ceb84dd4935a0842aa69290020bc_ethereum,PAIRS,Pairs,pairs,pairsFV8.png,8000000000,"{""ethereum"":""0xfb70859efec2ceb84dd4935a0842aa69290020bc""}",18
+capricorn-2,CAPRICORN,Capricorn,capricorn-2,capricorn-2qDU.png,999981323,"{""solana"":""3C2SN1FjzE9MiLFFVRp7Jhkp8Gjwpk29S2TCSJ2jkHn2""}",18
+dego-finance,DEGO,Dego Finance,dego-finance,dego-financeOES.png,21000000,"{""ethereum"":""0x3da932456d082cba208feb0b096d49b202bf89c8"",""binance_smart"":""0x3da932456d082cba208feb0b096d49b202bf89c8"",""solana"":""BU4eP1vCR99amXKsMXhctX8YpqUa7wbULQ26XaQbazkS""}",18
+kona,KONA,KONA,kona,konaW2R.png,17283,"{""abstract"":""0x92aba186c85b5afeb3a2cedc8772ae8638f1b565""}",18
+0x587cd533f418825521f3a1daa7ccd1e7339a1b07_base,STARKBOT,StarkBot,starkbot,starkbot4yi.png,99999991000,"{""base"":""0x587cd533f418825521f3a1daa7ccd1e7339a1b07""}",18
+metavault-trade,MVX,Metavault Trade,metavault-trade,metavault-tradePQY.png,4000000,"{""polygon-pos"":""0x2760e46d9bb43dafcbecaad1f64b93207f9f0ed7"",""zksync"":""0xc8ac6191cdc9c7bf846ad6b52aaaa7a0757ee305"",""linea"":""0x0018d96c579121a94307249d47f053e2d687b5e7"",""scroll"":""0x0018d96c579121a94307249d47f053e2d687b5e7"",""kava"":""0x0018d96c579121a94307249d47f053e2d687b5e7""}",18
+0x44e18207b6e98f4a786957954e462ed46b8c95be_ethereum,TERMINUS,Terminus,terminus-3,0x44e18207b6e98f4a786957954e462ed46b8c95be_ethereumbju.png,420690000000,"{""ethereum"":""0x44e18207b6e98f4a786957954e462ed46b8c95be""}",18
+0xa17f383786cf2241affe41b130d8c373fdb34574_ethereum,SPCX,SPACEX4200,spacex4200,spacex4200ONQ.png,420000000,"{""ethereum"":""0xa17f383786cf2241affe41b130d8c373fdb34574""}",18
+0xe2c24a2394415ea928653f27c74684c95057b13b_robinhood,RHPS,RHPS,rhps,rhpslRb.png,1000000000,"{""robinhood"":""0xe2c24a2394415ea928653f27c74684c95057b13b""}",18
+HD3JBABeFkdZwUgKwhwJYqjLNrPWXEaDVfH4uMqRpump_solana,USEFUL,USEFUL COIN,useful-coin-2,useful-coin-2yCs.png,999303375,"{""solana"":""HD3JBABeFkdZwUgKwhwJYqjLNrPWXEaDVfH4uMqRpump""}",18
+0x60a646e3fd75cde4c5b604b22d4fcd04639913c8_base,QUILL,Quill,quill,0x60a646e3fd75cde4c5b604b22d4fcd04639913c8_basedpY.png,1000000000,"{""base"":""0x60a646e3fd75cde4c5b604b22d4fcd04639913c8""}",18
+bitcicoin,BITCI,Bitcicoin,bitcicoin,bitcicoinQOX.png,20817970797,,
+taurus-2,TAURUS,Taurus,taurus-2,taurus-2Uvq.png,999956572,"{""solana"":""EjkkxYpfSwS6TAtKKuiJuNMMngYvumc1t1v9ZX1WJKMp""}",18
+PZkZdFmVQbP41q2JKDim7ytnUzTscrvBz2zMH6fpump_solana,BARON,Terminalius Maximus,terminalius-maximus,PZkZdFmVQbP41q2JKDim7ytnUzTscrvBz2zMH6fpump_solananjZ.png,997781693,"{""solana"":""PZkZdFmVQbP41q2JKDim7ytnUzTscrvBz2zMH6fpump""}",18
+one-hundred-million-inu,OHMI,One Hundred Million Inu,one-hundred-million-inu,one-hundred-million-inu6hU.png,100000000,"{""ethereum"":""0x4159862bcf6b4393a80550b1ed03dffa6f90533c""}",18
+bolt,BOLT,Bolt,bolt,BoltCmVSw.png,999000000,"{""ethereum"":""0xd5930c307d7395ff807f2921f12c5eb82131a789""}",18
+0x54eaf6bb665565bb8897f9d7ad5b3818ded143b4_base,DGENAI,Degen AI by Virtuals,degen-ai,0x54eaf6bb665565bb8897f9d7ad5b3818ded143b4_basedX6.png,1000000000,"{""base"":""0x54eaf6bb665565bb8897f9d7ad5b3818ded143b4""}",18
+0x515e72af68a374c8f375534b59752277ee9b4a51_base,A51,Aliens,aliens-4,0x515e72af68a374c8f375534b59752277ee9b4a51_basexxi.png,5100,"{""base"":""0x515e72af68a374c8f375534b59752277ee9b4a51""}",18
+terminal,TERMINAL,Terminal,terminal,terminalQZW.png,1000000000,"{""base"":""0xb488fcb23333e7baa28d1dfd7b69a5d3a8bfeb3a""}",18
+sable,SABLE,Sable,sable,sableh7G.png,100000000,"{""binance_smart"":""0x1ee098cbaf1f846d5df1993f7e2d10afb35a878d""}",18
+legia-warsaw-fan-token,LEG,Legia Warsaw Fan Token,legia-warsaw-fan-token,legia-warsaw-fan-token4r3.png,5000000,"{""chiliz"":""0xfd8a11532c5ca9bec64ec86e4e5ed78089cd443f"",""solana"":""HW1hgpqo5njF5yDGe7tkKEgYzYHmyU4QwizXQs3pgC2G"",""base"":""0x068068fb7b3e3e30b9284ca0a40877d8a37a6b34""}",18
+0x1f1a979e6f9e0179218376041ea54caedef5dba3_base,ETHR,Ethresearchbot,ethresearchbot,ethresearchbotCMT.png,94979395398,"{""base"":""0x1f1a979e6f9e0179218376041ea54caedef5dba3""}",18
