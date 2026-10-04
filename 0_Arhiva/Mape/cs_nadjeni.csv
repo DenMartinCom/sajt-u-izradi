@@ -1,10 +1,3 @@
 cmc_id,cs_id,symbol,name,slug,logo_id,logo_file,total_supply,contract,decimals
-30618,digital-oil-memecoin,OIL,Digital Oil Memecoin,digital-oil-memecoin,,digital-oil-memecoinNTw.png,997694104,{"solana":"5LS3ips7jWxfuVHzoMzKzp3cCwjH9zmrtYXmYBVGpump"},18
-37614,pumpmeme,PM,PumpMeme,pumpmeme,,pumpmemej26.png,100000000,{"binance_smart":"0x652fcafea5a2da18e8947748b7849b72148b4543"},18
-38590,0x924fa68a0fc644485b8df8abfa0a41c2e7744444_binance_smart,币安人生,币安人生 (BinanceLife),bianrensheng,,0x924fa68a0fc644485b8df8abfa0a41c2e7744444_binance_smartyzp.png,1000000000,{"binance_smart":"0x924fa68a0fc644485b8df8abfa0a41c2e7744444"},18
-39841,genius-3,GENIUS,Genius,genius-3,,genius-3rIZ.png,953973324,{"binance_smart":"0x1f12b85aac097e43aa1555b2881e98a51090e9a6"},18
-12400,CkADK7xbwyyU4TUs2ExUbJcASUqawVB7ZKSr1pexbonk_solana,DEL,delegate.fun,delegate-fun,,CkADK7xbwyyU4TUs2ExUbJcASUqawVB7ZKSr1pexbonk_solanaLSK.png,998626766,{"solana":"CkADK7xbwyyU4TUs2ExUbJcASUqawVB7ZKSr1pexbonk"},18
-42022,6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx_solana,STONK,STONK,stonk-3,,stonk-34j8.png,803233880,{"solana":"6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx"},18
-38948,usx,USX,USX,usx,,usxVNO.png,212502973,{"solana":"6FrrzDk5mQARGc1TDYoyVnSyRdds1t4PbtohCD6p3tgG"},18
-36576,0x92516e0ddf1ddbf7fab1b79cac26689fdc5ba8e6_binance_smart,HUMA,Huma Finance,huma-finance,,huma-financeNL3.png,10000000000,{"binance_smart":"0x92516e0ddf1ddbf7fab1b79cac26689fdc5ba8e6","solana":"HUMA1821qVDKta3u2ovmfDQeW2fSQouSKE8fkF44wvGw"},18
-39070,kinetiq,KNTQ,Kinetiq,kinetiq,,kinetiqy2g.png,1000000000,{"hyperevm":"0x000000000000780555bd0bca3791f89f9542c2d6","hyperliquid":"0xbd31bd605c0a1b82c72aae3587f9061f"},18
+39158,0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa_binance_smart,BTW,Bitway,bitway,,bitway9tK.png,10000000000,{"binance_smart":"0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa","ethereum":"0x3a63de3572c69a1307ff08394f3ee7702c16d25d"},18
+30618,ABmMqCr6ybUhSPoG2iT1JKaf9ix5dqJU4eqmaBBCUipJ_solana,OIL,Trump Oil Reserve,trump-oil-reserve,,trump-oil-reserveC8C.png,999959486,{"solana":"ABmMqCr6ybUhSPoG2iT1JKaf9ix5dqJU4eqmaBBCUipJ"},18
