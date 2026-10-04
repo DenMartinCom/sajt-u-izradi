@@ -1,3 +1,2 @@
 cmc_id,cs_id,symbol,name,slug,logo_id,logo_file,total_supply,contract,decimals
-2394,telcoin-2,TEL,Telcoin,telcoin-2,,telcoin-2nTb.png,100000000000,{"ethereum":"0x7e13b43065380acdec1c2d138c579cbbbafa0731","base":"0x7e13b43065380acdec1c2d138c579cbbbafa0731","polygon-pos":"0x7e13b43065380acdec1c2d138c579cbbbafa0731"},18
-30618,o5XguNKkz71K37BJsAhyMJnatwwbJ9MdixSmDW6pump_solana,OIL,Oil Rig,oil-rig,,oil-rigx9h.png,996833808,{"solana":"o5XguNKkz71K37BJsAhyMJnatwwbJ9MdixSmDW6pump"},18
+30618,6FgPuEv5gNiHCTJqQeWiY6vu79fuSSqYJkHrpdompump_solana,OIL,OIL,oil,,oilg7F.png,976545840,{"solana":"6FgPuEv5gNiHCTJqQeWiY6vu79fuSSqYJkHrpdompump"},18
