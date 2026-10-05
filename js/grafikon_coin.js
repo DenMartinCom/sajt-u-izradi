@@ -2,9 +2,9 @@
 // Prikazuje istoriju cene (linija) i volumena (stubići) za izabrani token.
 // Tokeni: iz /marquee (gornji red = set1 + fiksni).
 // Periodi: 30..210 dana, Sve.
-// Podaci: /istorija?token=X&dana=Y (keš u D1, 6h TTL).
+// Podaci: /graf/{cmc_id}.json (R2, dnevni snapshoti, keš 24h na CF edge).
 (function () {
-    const WORKER_URL = 'https://cmc-proxy.martin-denic.workers.dev';
+    const WORKER_URL = 'https://kripto-consumer.martin-denic.workers.dev';
     const canvas = document.getElementById('coin-chart');
     if (!canvas || typeof Chart === 'undefined') return;
 
@@ -23,10 +23,11 @@
     ];
 
     let period = '30';
-    let trenutniToken = null;
+    let trenutniCmcId = null;
+    let trenutniSimbol = null;
     let chart = null;
     let prikazVolumena = false;
-    const kes = {}; // { "btc|30": { podaci } }
+    const kes = {}; // { "cmcId|period": { podaci, simbol } }
 
     // ===== DODAVANJE KONTROLA U HEADER =====
     function dodajKontrole() {
@@ -61,15 +62,26 @@
     }
 
     // ===== POMOĆNE =====
-    function formatDatum(d) {
-        if (!d || typeof d !== 'string') return '';
-        const delovi = d.split('-');
-        if (delovi.length < 3) return d;
-        return delovi[2] + '.' + delovi[1];
+    function formatDatum(ms) {
+        if (ms == null) return '';
+        const d = new Date(Number(ms));
+        if (!isFinite(d.getTime())) return '';
+        const dan = String(d.getDate()).padStart(2, '0');
+        const mes = String(d.getMonth() + 1).padStart(2, '0');
+        return dan + '.' + mes + '.';
     }
 
     function obrisiGraf() {
         if (chart) { chart.destroy(); chart = null; }
+    }
+
+    function filtrirajPoPeriodu(podaci, periodStr) {
+        if (!Array.isArray(podaci) || !podaci.length) return [];
+        if (periodStr === 'sve') return podaci.slice();
+        const dana = parseInt(periodStr, 10);
+        if (!isFinite(dana) || dana <= 0) return podaci.slice();
+        const granica = Date.now() - dana * 86400000;
+        return podaci.filter(p => Number(p.d) >= granica);
     }
 
     // ===== CRTANJE =====
@@ -165,7 +177,13 @@
                         callbacks: {
                             title: (items) => {
                                 const i = items[0].dataIndex;
-                                return (podaci[i] && podaci[i].d) ? podaci[i].d : '';
+                                if (!podaci[i]) return '';
+                                const d = new Date(Number(podaci[i].d));
+                                if (!isFinite(d.getTime())) return '';
+                                const dan = String(d.getDate()).padStart(2, '0');
+                                const mes = String(d.getMonth() + 1).padStart(2, '0');
+                                const god = d.getFullYear();
+                                return `${dan}.${mes}.${god}.`;
                             },
                             label: (ctx) => {
                                 const v = ctx.parsed.y;
@@ -187,13 +205,15 @@
     }
 
     // ===== UČITAVANJE =====
-    async function ucitajToken(token) {
-        if (!token) return;
-        trenutniToken = token;
-        const kljuc = token + '|' + period;
+    async function ucitajToken(cmcId, simbol) {
+        if (!cmcId) return;
+        trenutniCmcId = cmcId;
+        trenutniSimbol = simbol;
+        const kljuc = cmcId + '|' + period;
 
         if (kes[kljuc]) {
-            nacrtajGraf(kes[kljuc].podaci, token);
+            const filtrirano = filtrirajPoPeriodu(kes[kljuc].podaci, period);
+            nacrtajGraf(filtrirano, kes[kljuc].simbol);
             return;
         }
 
@@ -201,15 +221,22 @@
         if (statusEl) statusEl.textContent = 'Učitavanje...';
 
         try {
-            const r = await fetch(`${WORKER_URL}/istorija?token=${encodeURIComponent(token)}&dana=${period}`);
-            const d = await r.json();
-            if (d.error) {
-                if (statusEl) statusEl.textContent = 'Greška: ' + d.error;
+            const r = await fetch(`${WORKER_URL}/graf/${encodeURIComponent(cmcId)}.json`);
+            if (r.status === 404) {
+                if (statusEl) statusEl.textContent = 'Nema grafa za ' + String(simbol).toUpperCase();
                 return;
             }
-            const podaci = d.podaci || [];
-            kes[kljuc] = { podaci };
-            nacrtajGraf(podaci, token);
+            const d = await r.json();
+            if (!d || !Array.isArray(d.podaci)) {
+                if (statusEl) statusEl.textContent = 'Nema podataka';
+                return;
+            }
+            const sim = d.simbol || simbol;
+            kes[cmcId + '|sve'] = { podaci: d.podaci, simbol: sim };
+            // keširaj i po periodu da ne ponavlja filter
+            kes[kljuc] = { podaci: d.podaci, simbol: sim };
+            const filtrirano = filtrirajPoPeriodu(d.podaci, period);
+            nacrtajGraf(filtrirano, sim);
         } catch (e) {
             console.warn('Grafikon coin greška:', e);
             if (statusEl) statusEl.textContent = 'Greška pri učitavanju';
@@ -235,8 +262,9 @@
             const vidjeni = new Set();
             const lista = [];
             for (const c of gornji) {
-                if (!c || !c.simbol || vidjeni.has(c.simbol)) continue;
-                vidjeni.add(c.simbol);
+                if (!c || !c.simbol || c.cmc_id == null) continue;
+                if (vidjeni.has(String(c.cmc_id))) continue;
+                vidjeni.add(String(c.cmc_id));
                 lista.push(c);
             }
             if (!lista.length) {
@@ -246,7 +274,7 @@
             }
 
             menu.innerHTML = lista.map(c =>
-                `<div class="cd-item" data-value="${c.simbol}">${c.simbol.toUpperCase()} — ${c.naziv}</div>`
+                `<div class="cd-item" data-cmc="${c.cmc_id}" data-simbol="${c.simbol}">${c.simbol.toUpperCase()} — ${c.naziv}</div>`
             ).join('');
 
             toggle.textContent = lista[0].simbol.toUpperCase();
@@ -256,11 +284,12 @@
             menu.addEventListener('click', (e) => {
                 const item = e.target.closest('.cd-item');
                 if (!item) return;
-                const val = item.dataset.value;
-                toggle.textContent = val.toUpperCase();
-                menu.querySelectorAll('.cd-item').forEach(x => x.classList.toggle('active', x.dataset.value === val));
+                const cmcId = item.dataset.cmc;
+                const simbol = item.dataset.simbol;
+                toggle.textContent = simbol.toUpperCase();
+                menu.querySelectorAll('.cd-item').forEach(x => x.classList.toggle('active', x.dataset.cmc === cmcId));
                 cd.classList.remove('open');
-                ucitajToken(val);
+                ucitajToken(cmcId, simbol);
             });
 
             // Toggle
@@ -275,7 +304,7 @@
             });
             document.addEventListener('click', () => cd.classList.remove('open'));
 
-            ucitajToken(lista[0].simbol);
+            ucitajToken(lista[0].cmc_id, lista[0].simbol);
         } catch (e) {
             console.warn('Dropdown greška:', e);
             menu.innerHTML = '<div class="cd-item">Greška</div>';
@@ -306,7 +335,7 @@
         periodToggle.textContent = item.textContent;
         periodMenu.querySelectorAll('.cd-item').forEach(x => x.classList.toggle('active', x.dataset.value === val));
         periodCd.classList.remove('open');
-        if (trenutniToken) ucitajToken(trenutniToken);
+        if (trenutniCmcId) ucitajToken(trenutniCmcId, trenutniSimbol);
     });
     document.addEventListener('click', () => periodCd.classList.remove('open'));
 
@@ -314,9 +343,12 @@
     if (volCb) {
         volCb.addEventListener('change', () => {
             prikazVolumena = volCb.checked;
-            if (trenutniToken) {
-                const kljuc = trenutniToken + '|' + period;
-                if (kes[kljuc]) nacrtajGraf(kes[kljuc].podaci, trenutniToken);
+            if (trenutniCmcId) {
+                const kljuc = trenutniCmcId + '|' + period;
+                if (kes[kljuc]) {
+                    const filtrirano = filtrirajPoPeriodu(kes[kljuc].podaci, period);
+                    nacrtajGraf(filtrirano, kes[kljuc].simbol);
+                }
             }
         });
     }
