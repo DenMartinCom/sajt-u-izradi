@@ -6,17 +6,15 @@ const MARK_KEY_PREFIX = 'provera_mark_';
 const RECENT_MS = 24 * 60 * 60 * 1000;
 
 const state = {
-  aktivniTab: 'cg',           // 'cg' | 'cs'
+  aktivniTab: 'cg',
   mark: { cg: {}, cs: {} },
   obelezeni: { cg: new Set(), cs: new Set() },
   cmcIndex: {},
   cgIndex: {},
   csIndex: {},
-  tokens: [],                 // [{simbol, cmc, cg, cs, grupa, cmc_podaci}]
+  tokens: [],
   prikazani: [],
   strana: 0,
-  sortiranje: 'nedavno',
-  samo24h: false,
   kesPauza: '0'
 };
 
@@ -143,8 +141,7 @@ function desniTargetId(t) {
   return t.cs;
 }
 
-// ===== SORTIRANJE / FILTRIRANJE =====
-// Prioritet grupa: 0 = novi_koini_upari, 1 = novi_koini, 2 = ostali
+// ===== SORTIRANJE =====
 function grupaPrioritet(g) {
   if (g === 'upari') return 0;
   if (g === 'novi') return 1;
@@ -154,41 +151,18 @@ function grupaPrioritet(g) {
 function pripremiPrikaz() {
   const tab = state.aktivniTab;
   const mark = state.mark[tab];
-  let l = state.tokens.slice();
+  const l = state.tokens.slice();
 
-  if (state.samo24h) {
-    const granica = Date.now() - RECENT_MS;
-    l = l.filter(t => {
-      const m = mark[String(t.cmc)];
-      return m && m.ts && m.ts >= granica;
-    });
-  }
-
-  if (state.sortiranje === 'simbol') {
-    l.sort((a, b) => {
-      const pa = grupaPrioritet(a.grupa);
-      const pb = grupaPrioritet(b.grupa);
-      if (pa !== pb) return pa - pb;
-      return String(a.simbol).localeCompare(String(b.simbol));
-    });
-  } else if (state.sortiranje === 'nedavno') {
-    l.sort((a, b) => {
-      const pa = grupaPrioritet(a.grupa);
-      const pb = grupaPrioritet(b.grupa);
-      if (pa !== pb) return pa - pb;
-      const ma = mark[String(a.cmc)];
-      const mb = mark[String(b.cmc)];
-      const ta = (ma && ma.ts) ? ma.ts : 0;
-      const tb = (mb && mb.ts) ? mb.ts : 0;
-      return tb - ta;
-    });
-  } else {
-    l.sort((a, b) => {
-      const pa = grupaPrioritet(a.grupa);
-      const pb = grupaPrioritet(b.grupa);
-      return pa - pb;
-    });
-  }
+  l.sort((a, b) => {
+    const pa = grupaPrioritet(a.grupa);
+    const pb = grupaPrioritet(b.grupa);
+    if (pa !== pb) return pa - pb;
+    const ma = mark[String(a.cmc)];
+    const mb = mark[String(b.cmc)];
+    const ta = (ma && ma.ts) ? ma.ts : 0;
+    const tb = (mb && mb.ts) ? mb.ts : 0;
+    return tb - ta;
+  });
 
   state.prikazani = l;
   state.strana = 0;
@@ -306,6 +280,48 @@ async function pustiKes() {
   }
 }
 
+// ===== DODAVANJE TOKENA PO CMC SLUG-u =====
+function izvuciSlug(input) {
+  if (!input) return null;
+  const s = String(input).trim();
+  const m = s.match(/\/currencies\/([^\/#?]+)/i);
+  if (m) return m[1].toLowerCase();
+  const ociscen = s.toLowerCase().replace(/[^a-z0-9-]/g, '');
+  return ociscen || null;
+}
+
+async function dodajToken() {
+  const inp = document.getElementById('slug-input');
+  const btn = document.getElementById('go-btn');
+  if (!inp || !btn) return;
+
+  const slug = izvuciSlug(inp.value);
+  if (!slug) { alert('Nema slug'); return; }
+
+  btn.disabled = true;
+  const stariTekst = btn.textContent;
+  btn.textContent = '...';
+
+  try {
+    const r = await fetch(`${API}/dodaj-token?slug=${encodeURIComponent(slug)}`);
+    const d = await r.json();
+    if (d && d.ok) {
+      inp.value = '';
+      await pokreni();
+      const ime = d.symbol ? d.symbol.toUpperCase() : d.cmc_id;
+      alert(`${ime} (cmc_id:${d.cmc_id}) — ${d.akcija}`);
+    } else {
+      alert('Greška: ' + (d && d.greska ? d.greska : 'nepoznato'));
+    }
+  } catch (e) {
+    alert('Greška: ' + e.message);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = stariTekst;
+    inp.focus();
+  }
+}
+
 // ===== START =====
 async function pokreni() {
   const info = document.getElementById('info');
@@ -370,7 +386,7 @@ async function pokreni() {
     for (const [cmcId, i] of Object.entries(meta)) {
       if (i.cmc == null || !i.simbol) continue;
       const cmcStr = String(i.cmc);
-      if (upariSet.has(cmcStr)) continue;   // već dodato gore
+      if (upariSet.has(cmcStr)) continue;
       const jeNovi = noviKoiniSet.has(cmcStr);
       state.tokens.push({
         simbol: i.simbol,
@@ -431,7 +447,6 @@ async function generisi() {
     parovi.push({ cmc: t.cmc, target });
   }
 
-  // Prvo pauziraj keš
   try {
     await fetch(`${API}/kes-pauza?stanje=1`);
     await osveziPauzaStatus();
@@ -514,19 +529,11 @@ document.getElementById('reset').addEventListener('click', () => {
 });
 document.getElementById('gen').addEventListener('click', generisi);
 document.getElementById('nologo').addEventListener('click', generisiNemaLogo);
-document.getElementById('reload').addEventListener('click', pokreni);
 document.getElementById('pusti-kes').addEventListener('click', pustiKes);
+document.getElementById('go-btn').addEventListener('click', dodajToken);
 
-document.getElementById('sort').addEventListener('change', (e) => {
-  state.sortiranje = e.target.value;
-  pripremiPrikaz();
-  render();
-});
-
-document.getElementById('filter24h').addEventListener('change', (e) => {
-  state.samo24h = e.target.checked;
-  pripremiPrikaz();
-  render();
+document.getElementById('slug-input').addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') { e.preventDefault(); dodajToken(); }
 });
 
 pokreni();
