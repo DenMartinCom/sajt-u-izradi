@@ -1,10 +1,10 @@
 // ===== GRAFIKON COINA =====
 // Prikazuje istoriju cene (linija) i volumena (stubići) za izabrani token.
-// Tokeni: iz /marquee (gornji red = set1 + fiksni).
-// Periodi: 30..210 dana, Sve.
-// Podaci: /graf/{cmc_id}.json (R2, dnevni snapshoti, keš 24h na CF edge).
+// Tokeni: iz /marquee (gornji red = set1 + fiksni) — producer.
+// Podaci: /graf/{cmc_id}.json (R2, dnevni snapshoti, keš 24h) — consumer.
 (function () {
-    const WORKER_URL = 'https://kripto-consumer.martin-denic.workers.dev';
+    const PRODUCER_URL = 'https://cmc-proxy.martin-denic.workers.dev';
+    const CONSUMER_URL = 'https://kripto-consumer.martin-denic.workers.dev';
     const canvas = document.getElementById('coin-chart');
     if (!canvas || typeof Chart === 'undefined') return;
 
@@ -221,7 +221,7 @@
         if (statusEl) statusEl.textContent = 'Učitavanje...';
 
         try {
-            const r = await fetch(`${WORKER_URL}/graf/${encodeURIComponent(cmcId)}.json`);
+            const r = await fetch(`${CONSUMER_URL}/graf/${encodeURIComponent(cmcId)}.json`);
             if (r.status === 404) {
                 if (statusEl) statusEl.textContent = 'Nema grafa za ' + String(simbol).toUpperCase();
                 return;
@@ -251,7 +251,7 @@
         const menu = cd.querySelector('.cd-menu');
 
         try {
-            const r = await fetch(`${WORKER_URL}/marquee`);
+            const r = await fetch(`${PRODUCER_URL}/marquee`);
             const d = await r.json();
             if (!d || d.error) {
                 menu.innerHTML = '<div class="cd-item">Greška</div>';
