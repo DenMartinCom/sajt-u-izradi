@@ -64,6 +64,16 @@
     color: #8892a6;
     padding: 4px 12px;
   }
+  .pauza-badge {
+    display: none;
+    font-size: 11px;
+    color: #d9534f;
+    font-weight: 600;
+    padding: 2px 6px;
+    border: 1px solid #5a2a2a;
+    border-radius: 4px;
+  }
+  .pauza-badge.aktivna { display: inline-block; }
   footer {
     border-bottom: none;
     border-top: 1px solid #222;
@@ -71,6 +81,11 @@
     justify-content: space-between;
     align-items: center;
     gap: 8px;
+  }
+  .sredina-levo, .sredina-desno {
+    display: flex;
+    gap: 6px;
+    align-items: center;
   }
   footer button {
     background: #2a3140; color: #e6e6e6; border: none;
@@ -81,7 +96,8 @@
   #gen { background: #2f5d3a; padding: 8px 16px; font-weight: 600; }
   #reset { background: transparent; color: #7a8496; border: 1px solid #2a3140; padding: 6px 10px; font-size: 12px; min-width: 32px; }
   #nologo { background: transparent; color: #7a8496; border: 1px solid #2a3140; padding: 6px 10px; font-size: 12px; min-width: 32px; }
-  .sredina { display: flex; gap: 8px; align-items: center; }
+  #pusti-kes { background: transparent; color: #d9534f; border: 1px solid #5a2a2a; padding: 6px 10px; font-size: 12px; min-width: 32px; }
+  #pusti-kes.aktivna { background: #5a2a2a; color: #fff; }
   .zaglavlje {
     display: grid; grid-template-columns: 28px 1fr 1fr; gap: 4px;
     padding: 4px 6px 2px;
@@ -106,6 +122,14 @@
   }
   .red.mark-recent { border-left-color: #f5c542; }
   .red.mark-staro  { border-left-color: #4a5260; }
+  .red.red-upari {
+    background: rgba(217, 83, 79, 0.08);
+    border-left-color: #d9534f;
+  }
+  .red.red-novi {
+    background: rgba(245, 197, 66, 0.05);
+    border-left-color: #f5c542;
+  }
   .cek { display: flex; align-items: center; justify-content: center; }
   .cek input {
     width: 20px; height: 20px;
@@ -147,6 +171,7 @@
       <button id="tab-cg" class="tab aktivan cg" data-tab="cg">CG</button>
       <button id="tab-cs" class="tab" data-tab="cs">CS</button>
     </div>
+    <span id="pauza-badge" class="pauza-badge" title="Keš ciklus pauziran">⏸ PAUZA</span>
     <div class="kontrole">
       <select id="sort" title="Sortiranje">
         <option value="nedavno">Nedavno menjani</option>
@@ -164,14 +189,17 @@
   <div class="zaglavlje"><div></div><div>CMC</div><div id="desnoZaglavlje">CG</div></div>
   <div id="lista"></div>
   <footer>
-    <button id="pre">←</button>
-    <div class="sredina">
+    <div class="sredina-levo">
+      <button id="pusti-kes" title="Pusti keš — odpauziraj (K)">K</button>
+      <button id="pre">←</button>
       <span id="strana">— / —</span>
-      <button id="reset" title="Očisti selekciju">R</button>
-      <button id="nologo" title="Bez logotipa">NL</button>
-      <button id="gen">Generiši</button>
     </div>
-    <button id="sle">→</button>
+    <div class="sredina-desno">
+      <button id="reset" title="Očisti selekciju">R</button>
+      <button id="nologo" title="Bez logotipa">L</button>
+      <button id="gen">Generiši</button>
+      <button id="sle">→</button>
+    </div>
   </footer>
   <script src="js/provera.js"></script>
 </body>
