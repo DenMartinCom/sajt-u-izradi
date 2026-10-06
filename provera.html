@@ -48,11 +48,22 @@
   .tab.aktivan.cg { color: #8ce99a; border-color: #2f5d3a; }
   .tab.aktivan.cs { color: #6ea8fe; border-color: #2f4d80; }
   .kontrole { display: flex; gap: 6px; align-items: center; }
-  .kontrole select {
+  .kontrole input {
     background: #2a3140; color: #e6e6e6;
-    border: none; padding: 6px 8px; border-radius: 6px;
+    border: 1px solid #3a4250;
+    padding: 6px 8px; border-radius: 6px;
     font-size: 12px;
+    width: 140px;
+    min-width: 0;
   }
+  .kontrole input:focus { outline: none; border-color: #5a6a80; }
+  .kontrole button {
+    background: #2f5d3a; color: #fff;
+    border: none; padding: 6px 12px; border-radius: 6px;
+    font-size: 12px; font-weight: 600;
+    cursor: pointer;
+  }
+  .kontrole button:disabled { opacity: 0.5; }
   .f24 {
     display: flex; align-items: center; gap: 4px;
     font-size: 12px; color: #8892a6;
@@ -173,16 +184,8 @@
     </div>
     <span id="pauza-badge" class="pauza-badge" title="Keš ciklus pauziran">⏸ PAUZA</span>
     <div class="kontrole">
-      <select id="sort" title="Sortiranje">
-        <option value="nedavno">Nedavno menjani</option>
-        <option value="podrazumevano">Podrazumevano</option>
-        <option value="simbol">Simbol A-Ž</option>
-      </select>
-      <label class="f24" title="Samo menjani u poslednjih 24h">
-        <input type="checkbox" id="filter24h">
-        <span>24h</span>
-      </label>
-      <button id="reload">↻</button>
+      <input type="text" id="slug-input" placeholder="slug ili CMC link" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+      <button id="go-btn">Go</button>
     </div>
   </header>
   <div class="infoBar"><span id="info">Učitavanje...</span></div>
