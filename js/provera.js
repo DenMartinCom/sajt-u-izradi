@@ -7,16 +7,17 @@ const RECENT_MS = 24 * 60 * 60 * 1000;
 
 const state = {
   aktivniTab: 'cg',           // 'cg' | 'cs'
-  mark: { cg: {}, cs: {} },   // { [cmc_id]: { target, ts } }
+  mark: { cg: {}, cs: {} },
   obelezeni: { cg: new Set(), cs: new Set() },
   cmcIndex: {},
   cgIndex: {},
-  csIndex: {},                // keyed po id
-  tokens: [],                 // [{simbol, cmc, cg, cs}]
+  csIndex: {},
+  tokens: [],                 // [{simbol, cmc, cg, cs, grupa, cmc_podaci}]
   prikazani: [],
   strana: 0,
   sortiranje: 'nedavno',
-  samo24h: false
+  samo24h: false,
+  kesPauza: '0'
 };
 
 // ===== localStorage =====
@@ -143,6 +144,13 @@ function desniTargetId(t) {
 }
 
 // ===== SORTIRANJE / FILTRIRANJE =====
+// Prioritet grupa: 0 = novi_koini_upari, 1 = novi_koini, 2 = ostali
+function grupaPrioritet(g) {
+  if (g === 'upari') return 0;
+  if (g === 'novi') return 1;
+  return 2;
+}
+
 function pripremiPrikaz() {
   const tab = state.aktivniTab;
   const mark = state.mark[tab];
@@ -157,14 +165,28 @@ function pripremiPrikaz() {
   }
 
   if (state.sortiranje === 'simbol') {
-    l.sort((a, b) => String(a.simbol).localeCompare(String(b.simbol)));
+    l.sort((a, b) => {
+      const pa = grupaPrioritet(a.grupa);
+      const pb = grupaPrioritet(b.grupa);
+      if (pa !== pb) return pa - pb;
+      return String(a.simbol).localeCompare(String(b.simbol));
+    });
   } else if (state.sortiranje === 'nedavno') {
     l.sort((a, b) => {
+      const pa = grupaPrioritet(a.grupa);
+      const pb = grupaPrioritet(b.grupa);
+      if (pa !== pb) return pa - pb;
       const ma = mark[String(a.cmc)];
       const mb = mark[String(b.cmc)];
       const ta = (ma && ma.ts) ? ma.ts : 0;
       const tb = (mb && mb.ts) ? mb.ts : 0;
       return tb - ta;
+    });
+  } else {
+    l.sort((a, b) => {
+      const pa = grupaPrioritet(a.grupa);
+      const pb = grupaPrioritet(b.grupa);
+      return pa - pb;
     });
   }
 
@@ -188,6 +210,9 @@ function render() {
     const t = state.prikazani[i];
     const red = document.createElement('div');
     red.className = 'red';
+
+    if (t.grupa === 'upari') red.classList.add('red-upari');
+    else if (t.grupa === 'novi') red.classList.add('red-novi');
 
     const m = mark[String(t.cmc)];
     if (m && m.ts) {
@@ -233,8 +258,52 @@ function azurirajInfo() {
   const sve = state.tokens.length;
   const prik = state.prikazani.length;
   const ob = state.obelezeni[state.aktivniTab].size;
+  const brojUpari = state.tokens.filter(x => x.grupa === 'upari').length;
+  const brojNovi = state.tokens.filter(x => x.grupa === 'novi').length;
   const deo = (prik === sve) ? `${sve} tokena` : `${prik}/${sve} tokena`;
-  document.getElementById('info').textContent = `${deo} | čekirano: ${ob}`;
+  const dodatak = (brojUpari || brojNovi) ? ` | čeka uparivanje: ${brojUpari}, za istoriju: ${brojNovi}` : '';
+  document.getElementById('info').textContent = `${deo} | čekirano: ${ob}${dodatak}`;
+}
+
+// ===== PAUZA STATUS =====
+async function osveziPauzaStatus() {
+  try {
+    const r = await fetch(`${API}/kes-pauza-status`, { cache: 'no-store' });
+    const d = await r.json();
+    if (d && d.ok) {
+      state.kesPauza = d.kes_pauza;
+      const badge = document.getElementById('pauza-badge');
+      const btnK = document.getElementById('pusti-kes');
+      if (badge) badge.classList.toggle('aktivna', d.kes_pauza === '1');
+      if (btnK) btnK.classList.toggle('aktivna', d.kes_pauza === '1');
+    }
+  } catch (e) {}
+}
+
+// ===== PUSTI KES =====
+async function pustiKes() {
+  if (state.kesPauza !== '1') {
+    alert('Keš već nije pauziran.');
+    return;
+  }
+  if (!confirm('Pustiti keš? Upareni tokeni idu u novi_koini, neupareni se brišu iz meta.')) return;
+
+  try {
+    const r = await fetch(`${API}/pusti-kes`);
+    const d = await r.json();
+    if (d && d.ok) {
+      let poruka = `Prebačeno u novi_koini: ${d.prebaceno_u_novi_koini}\n`;
+      poruka += `Neupareno (ostaje za ručno): ${d.neupareno_ostaje}\n`;
+      poruka += `Keš pauza: ${d.kes_pauza}`;
+      alert(poruka);
+      await osveziPauzaStatus();
+      await pokreni();
+    } else {
+      alert('Greška: ' + (d && d.greska ? d.greska : 'nepoznato'));
+    }
+  } catch (e) {
+    alert('Greška: ' + e.message);
+  }
 }
 
 // ===== START =====
@@ -243,6 +312,8 @@ async function pokreni() {
   try {
     state.mark.cg = ucitajMark('cg');
     state.mark.cs = ucitajMark('cs');
+
+    await osveziPauzaStatus();
 
     info.textContent = 'Meta...';
     const m = await fetchJson(`${API}/test?servis=meta`);
@@ -265,14 +336,48 @@ async function pokreni() {
       if (z.id && !state.csIndex[String(z.id)]) state.csIndex[String(z.id)] = z;
     }
 
+    info.textContent = 'Upari status...';
+    let noviKoiniSet = new Set();
+    let upariSet = new Set();
+    let upariLista = [];
+    try {
+      const us = await fetchJson(`${API}/upari-status`);
+      if (us && us.ok) {
+        if (Array.isArray(us.novi_koini_lista)) for (const id of us.novi_koini_lista) noviKoiniSet.add(String(id));
+        if (Array.isArray(us.upari_lista)) {
+          for (const n of us.upari_lista) {
+            upariSet.add(String(n.cmc_id));
+          }
+          upariLista = us.upari_lista;
+        }
+      }
+    } catch (e) {}
+
     state.tokens = [];
-    for (const [simbol, i] of Object.entries(meta)) {
-      if (i.cmc == null) continue;
+
+    // 1) novi_koini_upari (prioritet)
+    for (const n of upariLista) {
       state.tokens.push({
-        simbol,
+        simbol: n.symbol || '',
+        cmc: n.cmc_id,
+        cg: null,
+        cs: null,
+        grupa: 'upari'
+      });
+    }
+
+    // 2) meta (mapa po cmc_id)
+    for (const [cmcId, i] of Object.entries(meta)) {
+      if (i.cmc == null || !i.simbol) continue;
+      const cmcStr = String(i.cmc);
+      if (upariSet.has(cmcStr)) continue;   // već dodato gore
+      const jeNovi = noviKoiniSet.has(cmcStr);
+      state.tokens.push({
+        simbol: i.simbol,
         cmc: i.cmc,
         cg: i.coingecko || null,
-        cs: i.coinstats || null
+        cs: i.coinstats || null,
+        grupa: jeNovi ? 'novi' : 'meta'
       });
     }
 
@@ -326,6 +431,12 @@ async function generisi() {
     parovi.push({ cmc: t.cmc, target });
   }
 
+  // Prvo pauziraj keš
+  try {
+    await fetch(`${API}/kes-pauza?stanje=1`);
+    await osveziPauzaStatus();
+  } catch (e) {}
+
   try {
     const r = await fetch(`${API}/provera-sacuvaj?servis=${tab}`, {
       method: 'POST',
@@ -334,7 +445,7 @@ async function generisi() {
     });
     const d = await r.json();
     if (d && d.ok) {
-      alert(`Sačuvano ${d.broj} parova (${tab.toUpperCase()})`);
+      alert(`Sačuvano ${d.broj} parova (${tab.toUpperCase()}). Keš je pauziran.`);
       state.obelezeni[tab] = new Set();
       render();
     } else {
@@ -376,7 +487,6 @@ async function generisiNemaLogo() {
       body: JSON.stringify({ ids })
     });
     const tekst = await r.text();
-    console.log('NL status:', r.status, 'body:', tekst.slice(0, 500));
     if (!r.ok) { alert('HTTP ' + r.status + ': ' + tekst.slice(0, 200)); return; }
     let d;
     try { d = JSON.parse(tekst); } catch (e) { alert('Nije JSON: ' + tekst.slice(0, 200)); return; }
@@ -405,6 +515,7 @@ document.getElementById('reset').addEventListener('click', () => {
 document.getElementById('gen').addEventListener('click', generisi);
 document.getElementById('nologo').addEventListener('click', generisiNemaLogo);
 document.getElementById('reload').addEventListener('click', pokreni);
+document.getElementById('pusti-kes').addEventListener('click', pustiKes);
 
 document.getElementById('sort').addEventListener('change', (e) => {
   state.sortiranje = e.target.value;
