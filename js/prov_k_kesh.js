@@ -3,8 +3,17 @@
   const KES_KEY = 'kes_meta_v1';
   const KES_MS = 60 * 1000;
 
+  // Sve kolone iz kripto_kes (34) — za filter "bez svih"
+  const KES_KOLONE = [
+    'cmc_id', 'simbol', 'cena', 'vreme', 'izvor', 'rank',
+    'volumen_24h', 'market_cap',
+    'pr_cena_15m', 'pr_cena_30m', 'pr_cena_1h', 'pr_cena_6h', 'pr_cena_12h', 'pr_cena_24h',
+    'pr_cena_7d', 'pr_cena_14d', 'pr_cena_30d', 'pr_cena_60d', 'pr_cena_90d', 'pr_cena_200d', 'pr_cena_1y',
+    'pr_vol_15m', 'pr_vol_30m', 'pr_vol_1h', 'pr_vol_6h', 'pr_vol_12h', 'pr_vol_24h',
+    'pr_vol_7d', 'pr_vol_14d', 'pr_vol_30d', 'pr_vol_60d', 'pr_vol_90d', 'pr_vol_200d', 'pr_vol_1y'
+  ];
+
   let podaci = [];
-  let intervalMin = 15;
 
   const $ = id => document.getElementById(id);
   const listaEl = $('lista');
@@ -62,7 +71,6 @@
         const k = JSON.parse(r);
         if (Date.now() - k.vreme < KES_MS) {
           podaci = k.podaci || [];
-          intervalMin = k.intervalMin || 15;
           return;
         }
       }
@@ -74,9 +82,8 @@
       const d = await resp.json();
       if (!d.ok) throw new Error(d.greska || 'greška');
       podaci = d.redovi || [];
-      intervalMin = d.interval_min || 15;
       try {
-        sessionStorage.setItem(KES_KEY, JSON.stringify({ vreme: Date.now(), podaci, intervalMin }));
+        sessionStorage.setItem(KES_KEY, JSON.stringify({ vreme: Date.now(), podaci }));
       } catch (e) {}
     } catch (e) {
       infoEl.textContent = 'Greška: ' + e.message;
@@ -94,19 +101,25 @@
     if (trenutni) sel.value = trenutni;
   }
 
+  function imaPraznoPolje(r) {
+    for (const k of KES_KOLONE) {
+      if (r[k] == null) return true;
+    }
+    return false;
+  }
+
   function filtriraj() {
     const pretraga = $('pretraga').value.trim().toLowerCase();
     const izvor = $('izvor-filter').value;
     const bezCene = $('f-bez-cene').checked;
-    const nesveze = $('f-nesveze').checked;
+    const bezSvih = $('f-bez-svih').checked;
     const bezLogo = $('f-bez-logo').checked;
-    const granica = Date.now() - intervalMin * 60 * 1000;
 
     return podaci.filter(r => {
       if (izvor && r.izvor !== izvor) return false;
       if (bezCene && r.cena != null) return false;
-      if (nesveze && r.vreme && r.vreme > granica) return false;
       if (bezLogo && r.logo_lokalno && r.logo_lokalno !== 'Slike/Coins/_default.png') return false;
+      if (bezSvih && !imaPraznoPolje(r)) return false;
       if (pretraga) {
         const s = (String(r.simbol || '') + ' ' + String(r.naziv || '') + ' ' + String(r.cmc_id || '')).toLowerCase();
         if (!s.includes(pretraga)) return false;
@@ -235,7 +248,7 @@
   $('pretraga').addEventListener('input', onFilter);
   $('izvor-filter').addEventListener('change', render);
   $('f-bez-cene').addEventListener('change', render);
-  $('f-nesveze').addEventListener('change', render);
+  $('f-bez-svih').addEventListener('change', render);
   $('f-bez-logo').addEventListener('change', render);
 
   $('osvezi').addEventListener('click', async () => {
