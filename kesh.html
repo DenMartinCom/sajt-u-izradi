@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pregled keša</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; }
+  body {
+    font-family: -apple-system, system-ui, sans-serif;
+    background: #0f1115;
+    color: #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    height: 100dvh;
+    overflow: hidden;
+  }
+  header, .infoBar {
+    flex: 0 0 auto;
+    padding: 8px 12px;
+    background: #161a22;
+    border-bottom: 1px solid #222;
+    font-size: 13px;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .naslov { font-weight: 600; color: #f5c542; }
+  .kontrole { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+  .kontrole input[type=text] {
+    background: #2a3140; color: #e6e6e6;
+    border: 1px solid #3a4250;
+    padding: 6px 8px; border-radius: 6px;
+    font-size: 12px;
+    width: 160px;
+  }
+  .kontrole input[type=text]:focus { outline: none; border-color: #5a6a80; }
+  .kontrole button {
+    background: #2f5d3a; color: #fff;
+    border: none; padding: 6px 12px; border-radius: 6px;
+    font-size: 12px; font-weight: 600;
+    cursor: pointer;
+  }
+  .f {
+    display: flex; align-items: center; gap: 4px;
+    font-size: 11px; color: #8892a6;
+    cursor: pointer;
+    user-select: none;
+  }
+  .f input { accent-color: #6ea8fe; }
+  .infoBar {
+    font-size: 11px; color: #8892a6;
+    padding: 4px 12px;
+  }
+  #lista {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .red {
+    border-bottom: 1px solid #1a1f28;
+    padding: 6px 8px;
+  }
+  .red-glava {
+    display: grid;
+    grid-template-columns: 24px 60px 1fr 90px 65px 65px 65px 60px;
+    gap: 6px;
+    align-items: center;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 2px 0;
+  }
+  .red-glava:hover { background: #1a1f28; border-radius: 4px; }
+  .red-glava .logo {
+    width: 22px; height: 22px; object-fit: contain;
+  }
+  .red-glava .simbol { font-weight: 700; color: #f5c542; }
+  .red-glava .naziv { color: #b8c0cc; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .red-glava .cena { text-align: right; font-variant-numeric: tabular-nums; }
+  .red-glava .proc { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+  .red-glava .proc.up { color: #8ce99a; }
+  .red-glava .proc.down { color: #ff7b72; }
+  .red-glava .proc.zero { color: #8892a6; }
+  .red-glava .izvor { text-align: center; color: #8892a6; font-size: 10px; }
+
+  .red-det {
+    display: none;
+    padding: 8px;
+    background: #14181f;
+    border-radius: 6px;
+    margin-top: 6px;
+    font-size: 11px;
+  }
+  .red.detaljno .red-det { display: block; }
+
+  .det-sekcija { margin-bottom: 10px; }
+  .det-sekcija:last-child { margin-bottom: 0; }
+  .det-naslov {
+    font-weight: 600; color: #f5c542;
+    margin-bottom: 4px; font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.5px;
+  }
+  .det-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 3px;
+  }
+  .det-polje {
+    display: flex; justify-content: space-between;
+    padding: 3px 6px;
+    background: #1a1f28;
+    border-radius: 4px;
+    font-size: 10px;
+    gap: 6px;
+    min-width: 0;
+  }
+  .det-polje .k { color: #8892a6; flex-shrink: 0; }
+  .det-polje .v {
+    color: #e6e6e6; font-variant-numeric: tabular-nums;
+    text-align: right; overflow: hidden;
+    text-overflow: ellipsis; white-space: nowrap;
+    min-width: 0;
+  }
+  .det-polje .v.null { color: #4a5260; }
+  .det-polje.dugacko { grid-column: span 2; }
+
+  @media (max-width: 600px) {
+    .red-glava {
+      grid-template-columns: 20px 50px 1fr 70px 55px 55px;
+      gap: 4px;
+      font-size: 11px;
+    }
+    .red-glava .proc:nth-child(7) { display: none; }
+    .red-glava .izvor { display: none; }
+    .det-grid { grid-template-columns: repeat(auto-fill, minmax(95px, 1fr)); }
+  }
+  @media (max-width: 400px) {
+    .red-glava {
+      grid-template-columns: 18px 42px 1fr 62px 50px;
+      gap: 3px;
+      font-size: 10px;
+    }
+    .red-glava .proc:nth-child(6) { display: none; }
+  }
+</style>
+</head>
+<body>
+  <header>
+    <span class="naslov">Pregled keša</span>
+    <div class="kontrole">
+      <input type="text" id="pretraga" placeholder="simbol, naziv, cmc_id" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+      <label class="f"><input type="checkbox" id="f-bez-cene" /> bez cene</label>
+      <label class="f"><input type="checkbox" id="f-bez-svih" /> bez svih</label>
+      <label class="f"><input type="checkbox" id="f-bez-logo" /> bez logo</label>
+      <button id="osvezi">Osveži</button>
+    </div>
+  </header>
+  <div class="infoBar"><span id="info">Učitavanje...</span></div>
+  <div id="lista"></div>
+  <script src="js/prov_k_kesh.js"></script>
+</body>
+</html>
