@@ -69,7 +69,7 @@
   }
   .red-glava {
     display: grid;
-    grid-template-columns: 24px 60px 1fr 90px 65px 65px 65px 60px;
+    grid-template-columns: 24px 60px 1fr 90px 65px 65px 65px;
     gap: 6px;
     align-items: center;
     cursor: pointer;
@@ -87,7 +87,6 @@
   .red-glava .proc.up { color: #8ce99a; }
   .red-glava .proc.down { color: #ff7b72; }
   .red-glava .proc.zero { color: #8892a6; }
-  .red-glava .izvor { text-align: center; color: #8892a6; font-size: 10px; }
 
   .red-det {
     display: none;
@@ -137,7 +136,6 @@
       font-size: 11px;
     }
     .red-glava .proc:nth-child(7) { display: none; }
-    .red-glava .izvor { display: none; }
     .det-grid { grid-template-columns: repeat(auto-fill, minmax(95px, 1fr)); }
   }
   @media (max-width: 400px) {
@@ -171,7 +169,7 @@
   const KES_MS = 60 * 1000;
 
   const KES_KOLONE = [
-    'cmc_id', 'simbol', 'cena', 'vreme', 'izvor', 'rank',
+    'cmc_id', 'simbol', 'cena', 'vreme', 'rank',
     'volumen_24h', 'market_cap',
     'pr_cena_15m', 'pr_cena_30m', 'pr_cena_1h', 'pr_cena_6h', 'pr_cena_12h', 'pr_cena_24h',
     'pr_cena_7d', 'pr_cena_14d', 'pr_cena_30d', 'pr_cena_60d', 'pr_cena_90d', 'pr_cena_200d', 'pr_cena_1y',
@@ -334,7 +332,6 @@
       polje('market_cap', r.market_cap),
       polje('decimals', r.decimals),
       polje('stablecoin', r.je_stablecoin ? 'da' : 'ne'),
-      polje('izvor', r.izvor),
       polje('vreme', fVreme(r.vreme))
     ];
 
@@ -356,7 +353,6 @@
           <span class="proc ${klasaProc(p1)}">${fProc(p1)}</span>
           <span class="proc ${klasaProc(p24)}">${fProc(p24)}</span>
           <span class="proc ${klasaProc(p7)}">${fProc(p7)}</span>
-          <span class="izvor">${esc(r.izvor || '')}</span>
         </div>
         <div class="red-det">
           ${detSekcija('Promene cene', cenePolja)}
