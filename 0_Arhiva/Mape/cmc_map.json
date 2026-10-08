@@ -14,7 +14,11 @@
     "name": "Tether USDt",
     "slug": "tether",
     "contract": {
-      "eth": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      "eth": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "bnb": "0x55d398326f99059ff775485246999027b3197955",
+      "sol": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "arb": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+      "base": "0xfde4c96c8593536e31f229ea8f37b2ada2699bb2"
     },
     "web": "tether.to",
     "logo": "825.png"
@@ -24,7 +28,13 @@
     "symbol": "USDC",
     "name": "USDC",
     "slug": "usd-coin",
-    "contract": {},
+    "contract": {
+      "base": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "arb": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "sol": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "bnb": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+      "eth": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+    },
     "web": "circle.com",
     "logo": "3408.png"
   },
@@ -34,7 +44,9 @@
     "name": "Zama",
     "slug": "zama",
     "contract": {
-      "eth": "0xa12cc123ba206d4031d1c7f6223d1c2ec249f4f3"
+      "eth": "0xa12cc123ba206d4031d1c7f6223d1c2ec249f4f3",
+      "bnb": "0x6907a5986c4950bdaf2f81828ec0737ce787519f",
+      "sol": "4Zp52aF4hZi9fzH19xpbWKYKQvgLyCN67KFbrQDqeTKh"
     },
     "web": "zama.org",
     "logo": "39332.png"
