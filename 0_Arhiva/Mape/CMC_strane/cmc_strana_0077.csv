@@ -1,0 +1,101 @@
+id,symbol,name,slug,web,logo,contract
+40779,NNE,Nano Nuclear Energy Tokenized Stock (Robinhood),nano-nuclear-energy-tokenized-stock-robinhood,robinhood.com,40779.png,"{""robinhood-placeholder"":""0xBEF75684C43c4ea7BD18Dd532a2244674Ee8b926""}"
+40780,META,Meta Platforms Tokenized Stock (Robinhood),meta-platforms-tokenized-stock-robinhood,robinhood.com,40780.png,"{""robinhood-placeholder"":""0xc0D6457C16Cc70d6790Dd43521C899C87ce02f35""}"
+40781,SGOV,iShares 0-3 Month Tokenized Treasury Bond ETF (Robinhood),ishares-0-3-month-tokenized-treasury-bond-etf-robinhood,robinhood.com,40781.png,"{""robinhood-placeholder"":""0x92FD66527192E3e61d4DDd13322Aa222DE86F9B5""}"
+40783,CRWD,CrowdStrike Holdings Tokenized Stock (Robinhood),crowdstrike-holdings-tokenized-stock-robinhood,robinhood.com,40783.png,"{""robinhood-placeholder"":""0xea72Ecca2d0f6bFA1394DBBCff85b52CD4233931""}"
+40786,SKHYX,SK hynix tokenized stock (xStock),sk-hynix-tokenized-stock-xstock,xstocks.fi,40786.png,"{""solana"":""XsnhgGRQwhExfS2bmWzR6EYddKGPRGDEjeJsatkmKqU"",""ethereum"":""0x58100046a4afcd4ee4fadbd4244f3f895a341c56"",""mantle"":""0x58100046a4afcd4ee4fadbd4244f3f895a341c56"",""ink-token"":""0x58100046a4afcd4ee4fadbd4244f3f895a341c56"",""arbitrum"":""0x58100046a4afcd4ee4fadbd4244f3f895a341c56"",""okb"":""0x58100046a4Afcd4eE4faDbD4244f3f895a341c56"",""hyperliquid"":""0x58100046a4afcd4ee4fadbd4244f3f895a341c56"",""optimism-ethereum"":""0x58100046a4afcd4ee4fadbd4244f3f895a341c56"",""gram"":""EQAAeiQvlTTyF48sbx1Am_muV5h6FXC0EMhrAJyK_yVG2qhB"",""bnb"":""0x58100046a4afcd4ee4fadbd4244f3f895a341c56""}"
+40787,MTHT,Mermaid Treasure Hunt Token (mthttoken.com),mermaid-treasure-hunt-token,mthttoken.com,40787.png,"{""bnb"":""0xc968f1c545f2714c3140208e1e0adbf1958f2ff7""}"
+40788,KAMIRAI,Kamirai,kamirai,kamirai.io,40788.png,"{""bnb"":""0x12bfe0251Eb64c6e26d1A264673593D6164ca213""}"
+40789,COINB,Coinbase Tokenized bStocks,coinbase-tokenized-bstocks,bstocks.finance,40789.png,"{""bnb"":""0x585bde7c54abb5ccd7791f923d6c2187635f3952""}"
+40790,SPYB,State Street SPDR S&P 500 ETF Tokenized bStocks,state-street-spdr-sp-500-etf-tokenized-bstocks,bstocks.finance,40790.png,"{""bnb"":""0x7138b48df7d98d7e3cc221bfe7192d0a178182d8""}"
+40791,CBRSB,Cerebras Tokenized bStocks,cerebras-tokenized-bstocks,bstocks.finance,40791.png,"{""bnb"":""0xe81c6bb0266cd68b4f17278531dd03ea1f12da4e""}"
+40792,QCOMB,Qualcomm Tokenized bStocks,qualcomm-tokenized-bstocks,bstocks.finance,40792.png,"{""bnb"":""0x5f7a56e877b9130608bf8be962621011182fefe1""}"
+40793,GOOGLB,Alphabet Tokenized bStocks,alphabet-tokenized-bstocks,bstocks.finance,40793.png,"{""bnb"":""0x3f53de71c126bdabae20f9cd64848d317f6c3238""}"
+40794,SOXLB,Semicon Bull 3X ETF Tokenized bStocks,semicon-bull-3x-etf-tokenized-bstocks,bstocks.finance,40794.png,"{""bnb"":""0xd97d097a89113fa59b76c572e5b2eb647e8eefaf""}"
+40795,GLWB,Corning Tokenized bStocks,corning-tokenized-bstocks,bstocks.finance,40795.png,"{""bnb"":""0x740e075cbbea22a082b9d6679e65e82767875b6a""}"
+40796,WDCB,Western Digital Tokenized bStocks,western-digital-tokenized-bstocks,bstocks.finance,40796.png,"{""bnb"":""0xebe29695f8047c13d36e7a790ca8c1b239ffad1c""}"
+40797,NBISB,Nebius Tokenized bStocks,nebius-tokenized-bstocks,bstocks.finance,40797.png,"{""bnb"":""0xe256bc2a4f5297f8ba6f043f180a46300ecbcbb1""}"
+40798,DRAMB,Roundhill Memory ETF Tokenized bStocks,roundhill-memory-etf-tokenized-bstocks,bstocks.finance,40798.png,"{""bnb"":""0x93862d63fd9fd488b1328e9b47717d75e994a84b""}"
+40799,GTAVI,Grand Theft Auto VI (gtavieth.com),grand-theft-auto-vi,gtavieth.com,40799.png,"{""ethereum"":""0x2e5ef97C96D6a44CcB8Db9C30f2F5DCec04BB6f9""}"
+40801,TCC,TCryptochicks,tcryptochicks,,40801.png,"{""bnb"":""0xa4390B901a63641c92327E5793b45FCB46954444""}"
+40802,APLD,Applied Digital Corp (Derivatives),applied-digital-corp-derivatives,,40802.png,{}
+40803,SIMO,Silicon Motion Technology Corp (Derivatives),silicon-motion-technology-corp-derivatives,,40803.png,{}
+40804,OSCR,Oscar Health Inc (Derivatives),oscar-health-inc-derivatives,,40804.png,{}
+40805,UNIC,UNI TOKEN (uniccrypto.com),uni-token,uniccrypto.com,40805.png,"{""bnb"":""0xde9cB77FA1a0ED3b33d10379A822D7e3c7A4FFFc""}"
+40806,ASTEROID,Asteroid The Space Shiba Inu (asteroid.charity),asteroid-the-space-shiba-inu,asteroid.charity,40806.png,"{""solana"":""4UeLCRqARmfb6e6KQijtiktqqXUxbfk6jZng7DhuBAGS""}"
+40807,SHAZ,SharonAI Holdings Inc (Derivatives),sharonai-holdings-inc-derivatives,,40807.png,{}
+40808,SUSDD,Savings USDD,savings-usdd,usdd.io,40808.png,"{""ethereum"":""0xc5d6a7b61d18afa11435a889557b068bb9f29930"",""bnb"":""0x8ba9da757d1d66c58b1ae7e2ed6c04087348a82d""}"
+40809,CASHCAT,Cash Cat,cash-cat,cashcattoken.xyz,40809.png,"{""robinhood-placeholder"":""0x020bfc650a365f8bb26819deaabf3e21291018b4""}"
+40811,RSVP,RSVP Token,rsvp-token,rsvptoken.com,40811.png,"{""bnb"":""0xca891a9fb2807028b68a2c853fc796c812aab6c9""}"
+40812,ARROW,Arrow Finance,arrow-finance,arrowfinance.io,40812.png,"{""robinhood-placeholder"":""0xf2915d1e3C1B0c769d0c756Ec43F1c1f6c99cD03""}"
+40813,SKHYB,SK Hynix Tokenized bStocks,sk-hynix-tokenized-bstocks,bstocks.finance,40813.png,"{""bnb"":""0xca750ef65f295bbecd685abf54e82caf297bdb61""}"
+40814,GRVT,Grvt,grvt,grvt.io,40814.png,"{""ethereum"":""0xAD29F2723fcdBcF665F210F25E06f97477e417cF"",""bnb"":""0x46F2564E0FA8248d15125E7e54173cfbdEf91Be7""}"
+40815,SNDK,SanDisk Corp tokenized stock (Backpack),sandisk-corp-tokenized-stock-backpack,backpack.exchange,40815.png,"{""solana"":""SNDKbwMUQvZhnLnxLduradgLHG5KrPuKwpnrkkGRhfH""}"
+40816,BOT,RoboStrategy Inc tokenized stock (Backpack),robostrategy-inc-tokenized-stock-backpack,backpack.exchange,40816.png,"{""solana"":""BoTx8y9ynfdxf5ZjWtCoBVkff52qKA82ysaLU8ZM6d8T""}"
+40817,MU,Micron Technology Inc tokenized stock (Backpack),micron-technology-inc-tokenized-stock-backpack,backpack.exchange,40817.png,"{""solana"":""MUxEsUKSMACyw5fZf68wxf5FLnZVhtU9CwH8uNNGay1""}"
+40819,TAOT,The America Only Token,the-america-only-token,buytaot.com,40819.png,"{""base"":""0x7f2f00e54dcaa8b248bdfd75da2ae859d4d8ff3e""}"
+40820,JNJ,Johnson & Johnson (Derivatives),johnson-johnson-derivatives,,40820.png,{}
+40822,PENG,Penguin Solutions Inc (Derivatives),penguin-solutions-inc-derivatives,,40822.png,{}
+40823,SKHYON,SK Hynix Tokenized Stock (Ondo),sk-hynix-tokenized-stock-ondo,app.ondo.finance,40823.png,"{""ethereum"":""0xc0fE36F4FFBDf1B38E192215073590a68f9A2Af7"",""bnb"":""0x4268F2Bfb23A7496504AA5eD1Ee325248586299F"",""solana"":""Huyb2fyDDjSuDKCRWsN9ci2rmcgPo6NFiLbx9ZDondo""}"
+40824,SKHY,SK Hynix (Derivatives),sk-hynix-derivatives,,40824.png,{}
+40825,INTW,GraniteShares 2x Long INTC Daily ETF (Derivatives),graniteshares-2x-long-intc-daily-etf-derivaties,,40825.png,{}
+40826,SNXX,Tradr 2X Long SNDK Daily ETF (Derivatives),tradr-2x-long-sndk-daily-etf-derivaties,,40826.png,{}
+40827,XBI,State Street SPDR S&P Biotech ETF (Derivatives),state-street-spdr-sp-biotech-etf-derivaties,,40827.png,{}
+40828,BNC,CEA Industries Inc (Derivatives),cea-industries-inc-derivaties,,40828.png,{}
+40829,FWDI,Forward Industries Inc (Derivatives),forward-industries-inc-derivaties,,40829.png,{}
+40831,ROB,Rob (robthearcher.com),robthearcher,robthearcher.com,40831.png,"{""robinhood-placeholder"":""0x84f210f9fa42613e5f5bc89ee4978afbd1e90f11""}"
+40832,WEN,Wen Lambo (wenlamborh.com),wenlamborh,wenlamborh.com,40832.png,"{""robinhood-placeholder"":""0xa80eb66b3e0cf66ccb46f8b8c9e7ff5803eeb820""}"
+40833,SKHY,SK Hynix tokenized stock (Backpack),sk-hynix-tokenized-stock-backpack,backpack.exchange,40833.png,"{""solana"":""SKHYhSjuRWHgikq8eRKbtBbpABgJSkd7ytQV14i9EQ3""}"
+40834,NRV,Nerve Protocol,nerve-protocol,nerve-protocol.com,40834.png,"{""robinhood-placeholder"":""0xACe3C5Adc456dE444501D91C12B0b03f902EB250""}"
+40835,GEC,Greencoin,greenen,greenen.co.uk,40835.png,"{""bnb"":""0xf65Fb2BFE01Bb1147816770766242f41Fc5b5410""}"
+40836,DITAU,DitGold,ditgold,ditgold.com,40836.png,"{""ethereum"":""0xE866c6222bf253d1da2Cc6a0520c96fdcA2E5b5e""}"
+40837,VEX,ProjectVex,projectvex,projectvex.ai,40837.png,"{""robinhood-placeholder"":""0x8Ff92566f2e81BDd68EDfAa8cde73942A723796b""}"
+40838,CDXR,Codex (codexblockchain.com),codexblockchain,codexblockchain.com,40838.png,"{""ethereum"":""0x40AAf75454036Bed56F3266cCf18f6b7befd6Aca"",""bnb"":""0x40AAf75454036Bed56F3266cCf18f6b7befd6Aca"",""base"":""0x40AAf75454036Bed56F3266cCf18f6b7befd6Aca""}"
+40840,JOBY,Free Joby,free-joby,jobyweeks.com,40840.png,"{""solana"":""4SnKwnz6DyagftnFqdxsvWvehrcbEDhxmmXNQk2Jpump""}"
+40841,FOX,Robin Hood (robinhoodfox.com),robin-hood-robinhoodfox-com,robinhoodfox.com,40841.png,"{""robinhood-placeholder"":""0x2103faA9D1762e27a716C61718b3aCf3Ec1F9bf1""}"
+40842,BXC,BitradeX Capital,bitradex-capital,bitradex.ai,40842.png,"{""solana"":""z8cZNaAtJbARyn4rBjY6v1fCLX8roXs8Z5qZ5HktLFo""}"
+40843,SNOW,Snowflake Inc (Derivatives),snowflake-inc-derivaties,,40843.png,{}
+40844,AAOIB,Applied Optoelectronics Tokenized bStocks,applied-optoelectronics-tokenized-bstocks,bstocks.finance,40844.png,"{""bnb"":""0x10343ef7da3301493d7ecb647d68a288c6c1db2f""}"
+40845,AVGOB,Broadcom Tokenized bStocks,broadcom-tokenized-bstocks,bstocks.finance,40845.png,"{""bnb"":""0x76682c454467b3a1150ad8b6a92fc5ee2c21d7ed""}"
+40846,TSMB,TSMC Tokenized bStocks,tsmc-tokenized-bstocks,bstocks.finance,40846.png,"{""bnb"":""0xab78b89b5bb00236be0b4b20704cbfa04efc711c""}"
+40847,IBMB,IBM Tokenized bStocks,ibm-tokenized-bstocks,bstocks.finance,40847.png,"{""bnb"":""0xfa273b076feb8c0fb34e554ae341082323d016a3""}"
+40848,MRVLB,Marvell Technology Tokenized bStocks,marvell-technology-tokenized-bstocks,bstocks.finance,40848.png,"{""bnb"":""0x16cd4fe7e8880ecc3ba222795229e20489fc2c76""}"
+40849,RKLBB,Rocket Lab Tokenized bStocks,rocket-lab-tokenized-bstocks,bstocks.finance,40849.png,"{""bnb"":""0xc8da12cbcce7c45180692a6420b0076e03a5179a""}"
+40850,HOODB,Robinhood Tokenized bStocks,robinhood-tokenized-bstocks,bstocks.finance,40850.png,"{""bnb"":""0xa394dcea3fd3847fd793afbfd163e2e3858b7c65""}"
+40851,ARMB,Arm Tokenized bStocks,arm-tokenized-bstocks,bstocks.finance,40851.png,"{""bnb"":""0xd42a79ebb7f527f40faecd196ffb47ad5e8d6f8c""}"
+40852,BABAB,Alibaba Tokenized bStocks,alibaba-tokenized-bstocks,bstocks.finance,40852.png,"{""bnb"":""0x4ef9d3062c7f6eba4aae4990c5036598c6eff4ec""}"
+40853,NOKB,Nokia Tokenized bStocks,nokia-tokenized-bstocks,bstocks.finance,40853.png,"{""bnb"":""0x7c4d7a180d737dd5a70d8065a90e6746a69c37ea""}"
+40854,ALD,Aladdin,aladdin-rwa,aldrwa.com,40854.png,"{""bnb"":""0x3cBd513239d9E5538A4CAEd8ed53eF77009Df473""}"
+40855,KHACN,KharYsma Coins,kharysma-coins,startarcoins.com,40855.png,"{""ethereum"":""0x11c1b94294A7967092F747434dEE4876EcA5fD53"",""solana"":""3dhbW1cBcyLddaJXDrY6fP45xfgap45qoCfnaTMCpump""}"
+40856,AIUSD,AIUSD,aiusd,bridgeaxis.io,40856.png,"{""base"":""0x409e79C96389C00Fb5a46586acE2615c6d09C76e""}"
+40857,CXMT,ChangXin Memory Technologies (Derivatives),changxin-memory-technologies-derivaties,,40857.png,{}
+40858,SANTACOIN,SANTAHOOD,santahood,santahood.com,40858.png,"{""robinhood-placeholder"":""0x38bb87Cf3E7344A82be7CD671c191f015b97eEe6""}"
+40859,INDEX,The Index,the-index-finance,theindex.finance,40859.png,"{""robinhood-placeholder"":""0x56910D4409F3a0C78C64DD8D0545FF0705389870""}"
+40861,PEAR,Pear Protocol,pear-protocol,pear.garden,40861.png,"{""arbitrum"":""0x3212dc0F8c834e4DE893532d27CC9B6001684DB0""}"
+40862,SOXS,Direxion Daily Semiconductor Bear 3X Shares (Derivatives),direxion-daily-semiconductor-bear-3x-shares-derivaties,,40862.png,{}
+40863,TZA,Direxion Daily Small Cap Bear 3X ETF (Derivatives),direxion-daily-small-cap-bear-3x-etf-derivaties,,40863.png,{}
+40864,0700,Tencent Holdings (Derivatives),tencent-holdings-derivatives,,40864.png,{}
+40866,BLACKBEAR,The Black Bear,the-black-bear,dex.coinmarketcap.com,40866.png,"{""solana"":""8X1N2HmiP11UXidmyRNHLoBGjAhXU4rk5GnrVYGYpump""}"
+40867,KTI,Kotai (kotaiproject.io),kotai-project,kotaiproject.io,40867.png,"{""bnb"":""0xd1fB56e6aEe842708392f2c8ee948bDfABae3AFE""}"
+40868,PEEPS,Peeps (peeps.wtf),peeps,peeps.wtf,40868.png,"{""robinhood-placeholder"":""0xf202dE51BB42A0073948b0971707D14C54Ef5F44""}"
+40869,ZTH,Zenith Protocol,zenith-protocol,zenithprotocol.top,40869.png,"{""solana"":""CfXwEn55uXAzx9qV1p7fa83opqRkbRKrMJuqQ8Rspump""}"
+40870,BUZ,Buz Coin (buzzcoin.co),buz-coin,buzzcoin.co,40870.png,"{""bnb"":""0x79fa1Ea465a08b319595BAeDbb32009E6dde0F42""}"
+40871,SOSANA,SOSANA,sosana,sosana.io,40871.png,"{""solana"":""49jdQxUkKtuvorvnwWqDzUoYKEjfgroTzHkQqXG9YFMj""}"
+40872,AEON,AEON,aeon-xyz,aeon.xyz,40872.png,"{""bnb"":""0x277aDD739c6E0477616948357AF9E79Fe1Ec9B80""}"
+40873,BOT,BOT Chain,bot-chain,botchain.ai,40873.png,{}
+40874,JOTCHUA,Jotchua (jotchua.net),jotchua,jotchua.net,40874.png,"{""solana"":""BcHEaaTCvycPwwsJ9yQTXdHP9X2gCLkznDbZ8VySpump""}"
+40875,AXTIB,AXT Tokenized bStocks,axt-tokenized-bstocks,bstocks.finance,40875.png,"{""bnb"":""0x9bdc8b470dbf89dbcb123587c6f5e49cca3463be""}"
+40876,KORUB,South Korea Bull 3X ETF Tokenized bStocks,south-korea-bull-3x-etf-tokenized-bstocks,bstocks.finance,40876.png,"{""bnb"":""0x1ffad32d69c5fead99f88c25ca0191edc3757636""}"
+40877,CRWVB,CoreWeave Tokenized bStocks,coreweave-tokenized-bstocks,bstocks.finance,40877.png,"{""bnb"":""0x33e7317e17838fee56b10fe8d0b9ca6ca3090c95""}"
+40878,QNTB,Quantinuum Tokenized bStocks,quantinuum-tokenized-bstocks,bstocks.finance,40878.png,"{""bnb"":""0xd721c192d612db77621df57a9fab38418033c02e""}"
+40879,MVLLB,GraniteShares 2X Long MRVL ETF Tokenized bStocks,graniteshares-2x-long-mrvl-etf-tokenized-bstocks,bstocks.finance,40879.png,"{""bnb"":""0x7c26a12f20507e2cee22ceebed9e88fda47f866c""}"
+40880,SNXXB,Tradr 2X Long SNDK ETF Tokenized bStocks,tradr-2x-long-sndk-etf-tokenized-bstocks,bstocks.finance,40880.png,"{""bnb"":""0x9e82e3da8f1115b73d24bb24113ab836ffdab6b6""}"
+40881,MUUB,Direxion MU Bull 2X ETF Tokenized bStocks,direxion-mu-bull-2x-etf-tokenized-bstocks,bstocks.finance,40881.png,"{""bnb"":""0x0bb3fa77e0809f42948e435f04883c25415e8263""}"
+40882,ORCLB,Oracle Tokenized bStocks,oracle-tokenized-bstocks,bstocks.finance,40882.png,"{""bnb"":""0x4684d9887fc1c71cba7bab8e88835cec217eb598""}"
+40883,INTWB,GraniteShares 2X Long INTC ETF Tokenized bStocks,graniteshares-2x-long-intc-etf-tokenized-bstocks,bstocks.finance,40883.png,"{""bnb"":""0x0735d9904b7e34e6fe39b0f66e00c111b3f2b681""}"
+40884,TQQQB,ProShares UltraPro QQQ Tokenized bStocks,proshares-ultrapro-qqq-tokenized-bstocks,bstocks.finance,40884.png,"{""bnb"":""0x462b5f13b7c7748279358962925c5de83bb9e598""}"
+40885,FONQ,FONQ,fonq,fonq.io,40885.png,"{""ethereum"":""0x4cff203005b24aa1083b35063d684a76b1080f22""}"
+40886,HBULL,Hyper Bull,hyper-bull,hyperbullsol.com,40886.png,"{""solana"":""7V6Sk63y8Rr1MvcN5mYNp61wgFhy4EeQg5gUASk9pump""}"
+40887,CHONKETHA,Chonketha the Wet Beaver,chonketha-the-wet-beaver,chonketha.com,40887.png,"{""solana"":""HcfnJxLov6tY8i1dq9uYRRZKCvxADPpovcfkyXzdpump""}"
+40888,SOFI,SoFi Technologies Inc (Derivatives),sofi-technologies-inc-derivaties,,40888.png,{}
+40890,GNOT,Gno.land,gno-land,gno.land,40890.png,{}
