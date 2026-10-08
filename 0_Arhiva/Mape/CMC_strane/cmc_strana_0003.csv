@@ -1,0 +1,101 @@
+id,symbol,name,slug,web,logo,contract
+1669,HMQ,Humaniq,humaniq,humaniq.com,1669.png,"{""ethereum"":""0xcbcc0f036ed4788f63fc0fee32873d6a7487b908""}"
+1680,ANT,Aragon,aragon,aragon.org,1680.png,"{""ethereum"":""0xa117000000f279d81a1d3cc75430faa017fa5a2e""}"
+1681,PZM,PRIZM,prizm,pzm.space,1681.png,{}
+1684,QTUM,Qtum,qtum,qtum.org,1684.png,{}
+1693,MAY,Theresa May Coin,theresa-may-coin,theresamaycoin.com,1693.png,{}
+1697,BAT,Basic Attention Token,basic-attention-token,basicattentiontoken.org,1697.png,"{""ethereum"":""0x0d8775f648430679a709e98d2b0cb6250d2887ef"",""bnb"":""0x101d82428437127bf1608f699cd651e6abf9766e"",""solana"":""EPeUFDgHRxs9xxEPVaL6kfGQvCon7jmAWKVUHuux1Tpz"",""gnosis-gno"":""0xC6cC63f4AA25BBD4453eB5F3a0DfE546feF9b2f3"",""avalanche"":""0x98443B96EA4b0858FDF3219Cd13e98C7A4690588"",""near-protocol"":""0d8775f648430679a709e98d2b0cb6250d2887ef.factory.bridge.near""}"
+1698,ZEN,Horizen,horizen,horizen.io,1698.png,"{""base"":""0xf43eb8de897fbc7f2502483b2bef7bb9ea179229""}"
+1700,AE,Æternity,aeternity,aeternity.com,1700.png,{}
+1710,VERI,Veritaseum,veritaseum,veritas.veritaseum.com,1710.png,"{""ethereum"":""0x8f3470A7388c05eE4e7AF3d01D8C722b0FF52374""}"
+1712,QRL,Quantum Resistant Ledger,quantum-resistant-ledger,theqrl.org,1712.png,{}
+1720,IOTA,IOTA,iota,iota.org,1720.png,"{""iota"":""0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee""}"
+1721,MYST,Mysterium,mysterium,mysterium.network,1721.png,"{""ethereum"":""0x4Cf89ca06ad997bC732Dc876ed2A7F26a9E7f361"",""bnb"":""0x2ff0b946a6782190c4fe5d4971cfe79f0b6e4df2"",""polygon-ecosystem-token"":""0x1379E8886A944d2D9d440b3d88DF536Aea08d9F3""}"
+1722,MORE,More Coin,more-coin,morebrand.co,1722.png,"{""ethereum"":""0x305DE070488C8469dFAC957226c9c900c4BFbA22""}"
+1727,BNT,Bancor,bancor,carbondefi.xyz,1727.png,"{""ethereum"":""0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c"",""solana"":""EDVVEYW4fPJ6vKw5LZXRGUSPzxoHrv6eWvTqhCr8oShs"",""gnosis-gno"":""0x9a495a281D959192343B0e007284bf130bd05F86""}"
+1732,NMR,Numeraire,numeraire,numer.ai,1732.png,"{""ethereum"":""0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671""}"
+1736,UNIFY,Unify,unify,unify.cyou,1736.png,{}
+1747,ONX,Onix,onix,onixcoin.com,1747.png,{}
+1757,FUN,FUNToken,funtoken,funtoken.io,1757.png,"{""ethereum"":""0x419d0d8bdd9af5e606ae2232ed285aff190e711b""}"
+1759,SNT,Status,status,status.im,1759.png,"{""ethereum"":""0x744d70fdbe2ba4cf95131626614a1763df805b9e""}"
+1762,ERG,Ergo,ergo,ergoplatform.org,1762.png,{}
+1765,EOS,EOS,eos,eosnetwork.com,1765.png,"{""bnb"":""0x56b6fb708fc5732dec1afc8d8556423a2edccbd6"",""htx-token"":""0xae3a94a6dc7fce46b40d63bbf355a3ab2aa2a588"",""eos"":""0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee""}"
+1768,ADX,heyAura,adx-net,heyaura.com,1768.png,"{""ethereum"":""0xade00c28244d5ce17d72e40330b1c318cd12b7c3"",""bnb"":""0x6bff4fb161347ad7de4a625ae5aa3a1ca7077819"",""robinhood-placeholder"":""0xf82119ebd01eb6ab67105c9536a713d61a25cf9f""}"
+1772,STORJ,Storj,storj,storj.io,1772.png,"{""ethereum"":""0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac""}"
+1774,SOCC,SocialCoin,socialcoin-socc,socc.network,1774.png,{}
+1779,WGR,Wagerr,wagerr,wagerr.com,1779.png,"{""bnb"":""WGR-D3D"",""ethereum"":""0xc237868a9c5729bdf3173dddacaa336a0a5bb6e0""}"
+1784,PLBT,Polybius,polybius,polybius.io,1784.png,"{""ethereum"":""0x0affa06e7fbe5bc9a764c979aa66e8256a631f02""}"
+1785,GAS,Gas,gas,neo.org,1785.png,"{""neo"":""0xdE41591ED1f8ED1484aC2CD8ca0876428de60EfF""}"
+1786,SNC,SunContract,suncontract,suncontract.org,1786.png,"{""ethereum"":""0xF4134146AF2d511Dd5EA8cDB1C4AC88C57D60404""}"
+1788,MTL,Metal DAO,metal,metall2.com,1788.png,"{""metal"":""0xBCFc435d8F276585f6431Fc1b9EE9A850B5C00A9""}"
+1789,PPT,Populous,populous,populous.world,1789.png,"{""ethereum"":""0xd4fa1460f537bb9085d22c7bccb5dd450ef28e3a""}"
+1807,SAN,Santiment Network Token,santiment,santiment.net,1807.png,"{""ethereum"":""0x7c5a0ce9267ed19b22f8cae653f198e3e8daf098""}"
+1808,OMG,OMG Network,omg,omg.network,1808.png,"{""ethereum"":""0xd26114cd6ee289accf82350c8d8487fedb8a0c07""}"
+1814,MRX,Metrix Coin,metrix-coin,metrixcoin.com,1814.png,"{""ethereum"":""0xd38b1159c8aee064af2d869afa1c2c1632da8b97"",""bnb"":""0x767b28a30e3a15dcece7bff7a020adfde9d19cf8""}"
+1816,CVC,Civic,civic,civic.com,1816.png,"{""ethereum"":""0x41e5560054824ea6b0732e656e3ad64e20e94e45""}"
+1817,VGX,VGX Token,vgx-token,vgxfoundation.com,1817.png,"{""ethereum"":""0x3C4B6E6e1eA3D4863700D7F76b36B7f3D3f13E3d""}"
+1826,PART,Particl,particl,particl.io,1826.png,{}
+1828,SMART,SmartCash,smartcash,smartcash.cc,1828.png,{}
+1831,BCH,Bitcoin Cash,bitcoin-cash,bch.info,1831.png,"{""bnb"":""0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf"",""htx-token"":""0xef3cebd77e0c52cb6f60875d9306397b5caca375""}"
+1834,PLR,Pillar,pillar,pillar.fi,1834.png,"{""ethereum"":""0xe3818504c1b32bf1557b16c238b2e01fd3149c17""}"
+1839,BNB,BNB,bnb,bnbchain.org,1839.png,"{""ethereum"":""0xb8c77482e45f1f44de1745f52c74426c631bdd52"",""bnb"":""0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee""}"
+1846,GSR,GeyserCoin,geysercoin,geysercoin.com,1846.png,{}
+1856,DNT,district0x,district0x,district0x.io,1856.png,"{""ethereum"":""0x0abdace70d3790235af448c88547603b945604ea""}"
+1878,SHDW,Shadow Token,shadow-token,shadowera.com,1878.png,{}
+1881,ONION,DeepOnion,deeponion,deeponion.org,1881.png,{}
+1883,ADS,Adshares,adshares,adshares.net,1883.png,"{""ethereum"":""0xcfcecfe2bd2fed07a9145222e8a7ad9cf1ccd22a"",""bnb"":""0xcfcecfe2bd2fed07a9145222e8a7ad9cf1ccd22a"",""polygon-ecosystem-token"":""0x598e49f01befeb1753737934a5b11fea9119c796"",""base"":""0xb20a4bd059f5914a2f8b9c18881c637f79efb7df""}"
+1886,DENT,Dent,dent,dentwireless.com,1886.png,"{""ethereum"":""0x3597bfd533a99c9aa083587b074434e61eb0a258""}"
+1888,IFT,InvestFeed,investfeed,investfeed.com,1888.png,"{""ethereum"":""0x7654915a1b82d6d2d0afc37c52af556ea8983c7e""}"
+1894,TCC,The ChampCoin,the-champcoin,tccworld.org,1894.png,"{""bnb"":""0x1831257D6FEF2b83354a75b19B8aAf8f6514D3DA""}"
+1896,ZRX,0x Protocol,0x,0xprotocol.org,1896.png,"{""ethereum"":""0xe41d2489571d322189246dafa5ebde1f4699f498""}"
+1902,MYB,MyBit,mybit,mybit.io,1902.png,"{""ethereum"":""0x5d60d8d7ef6d37e16ebabc324de3be57f135e0bc""}"
+1908,NAS,Nebulas,nebulas-token,nebulas.io,1908.png,{}
+1918,ACT,Achain,achain,achain.com,1918.png,{}
+1934,LRC,Loopring,loopring,loopring.org,1934.png,"{""ethereum"":""0xbbbbca6a901c926f240b89eacb641d8aec7aeafd"",""solana"":""HCTVFTzHL21a1dPzKxAUeWwqbE8QMUyvgChFDL4XYoi1""}"
+1948,AVT,Aventus,aventus,aventus.io,1948.png,"{""ethereum"":""0x0d88ed6e74bbfd96b831231638b66c05571e824f""}"
+1949,DLT,Agrello,agrello-delta,agrello.id,1949.png,"{""ethereum"":""0x07e3c70653548B04f0A75970C1F81B4CBbFB606f""}"
+1958,TRX,TRON,tron,trondao.org,1958.png,"{""ethereum"":""0x50327c6c5a14dcade707abad2e27eb517df87ab5"",""bnb"":""0xCE7de646e7208a4Ef112cb6ed5038FA6cC6b12e3"",""tron"":""0""}"
+1962,BUZZ,BUZZCoin,buzzcoin,buzzcoin.info,1962.png,{}
+1966,MANA,Decentraland,decentraland,decentraland.org,1966.png,"{""ethereum"":""0x0f5d2fb29fb7d3cfee444a200298f468908cc942"",""gnosis-gno"":""0x7838796B6802B18D7Ef58fc8B757705D6c9d12b3"",""solana"":""7dgHoN8wBZCc5wbnQ2C47TDnBMAxG4Q5L3KjP67z8kNi"",""fusion"":""0x61be5df5459573a7c25673e74281cef4cef81e7d""}"
+1967,IND,Indorse Token,indorse-token,indorse.io,1967.png,"{""ethereum"":""0xf8e386eda857484f5a12e4b5daa9984e06e73705""}"
+1970,ATB,ATBCoin,atbcoin,atbcoin.com,1970.png,{}
+1974,PRO,Propy,propy,propy.com,1974.png,"{""ethereum"":""0x226bb599a12c826476e3a771454697ea52e9e220"",""base"":""0x18dD5B087bCA9920562aFf7A0199b96B9230438b""}"
+1975,LINK,Chainlink,chainlink,chain.link,1975.png,"{""ethereum"":""0x514910771af9ca656af840dff83e8264ecf986ca"",""bnb"":""0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd"",""solana"":""LinkhB3afbBKb2EQQu7s7umdZceV3wcvAUJhQAfQ23L"",""gnosis-gno"":""0xE2e73A1c69ecF83F464EFCE6A5be353a37cA09b2"",""polygon-ecosystem-token"":""0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39"",""avalanche"":""0x5947bb275c521040051d82396192181b413227a3"",""celo"":""0xd07294e6E917e07dfDcee882dd1e2565085C2ae0"",""optimism-ethereum"":""0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6"",""arbitrum"":""0xf97f4df75117a78c1A5a0DBb814Af92458539FB4"",""cronos"":""0x8c80A01F461f297Df7F9DA3A4f740D7297C8Ac85"",""astar"":""0x31efb841d5e0b4082f7e1267dab8de1b853f2a9d"",""wemix"":""0x80f1FcdC96B55e459BF52b998aBBE2c364935d69"",""xdc-network"":""0xE27dd9BF01B55ce6803c0d81386A04212c718b95"",""core-dao"":""0x3902228D6A3d2Dc44731fD9d45FeE6a61c722D0b"",""linea"":""0xa18152629128738a5c081eb226335FEd4B9C95e9"",""base"":""0x88Fb150BDc53A65fe94Dea0c9BA0a6dAf8C6e196"",""blast"":""0x93202eC683288a9EA75BB829c6baCFb2BfeA9013"",""merlin-chain"":""0x71052BAe71C25C78E37fD12E5ff1101A71d9018F"",""okb"":""0x8aF9711B44695a5A081F25AB9903DDB73aCf8FA9"",""mode"":""0x183E3691EfF3524B2315D3703D94F922CbE51F54"",""metal"":""0x587d19DDF735D6B536aAdB1a2A92938eB23B8d5C"",""worldcoin-org"":""0x915b648e994d5f31059B38223b9fbe98ae185473"",""apecoin-ape"":""0xf575731b78981B86d34321d875A3D25a48479be6"",""berachain"":""0x71052BAe71C25C78E37fD12E5ff1101A71d9018F"",""frax-share"":""0xd6A6ba37fAaC229B9665E86739ca501401f5a940"",""magic-token"":""0xC74eAEf00bE07C6C8A28feAa54e50942efEDF02A"",""uniswap"":""0xEF66491eab4bbB582c57b14778afd8dFb70D8A1A"",""hyperliquid"":""0x1AC2EE68b8d038C982C1E1f73F596927dd70De59"",""monad"":""0x76f257B1DDA5cC71bee4eF637Fbdde4C801310A9"",""tezos"":""0x8ce7618E8f8E514d13889283F58FF03B794e6CC3"",""use-corn"":""0x7311DED199CC28D80E58e81e8589aa160199FCD2"",""hashkey-platform-token"":""0x71052BAe71C25C78E37fD12E5ff1101A71d9018F"",""plasma-xpl"":""0x76a443768A5e3B8d1AED0105FC250877841Deb40"",""ink-token"":""0x71052BAe71C25C78E37fD12E5ff1101A71d9018F"",""plume"":""0xb549B375dA0c76f8b3877B9aDfDD28378f087A64"",""katana-network"":""0xc2C447b04e0ED3476DdbDae8E9E39bE7159d27b6"",""bob-build-on-bitcoin"":""0x5aB885CDa7216b163fb6F813DEC1E1532516c833"",""bitlayer"":""0x56B275c0Ec034a229a1deD8DB17089544bc276D9"",""bitget-token-new"":""0x76a443768A5e3B8d1AED0105FC250877841Deb40"",""robinhood-placeholder"":""0x492641f648a4986844848e0befe66d14817bce34"",""arc-token"":""0x76a443768a5e3b8d1aed0105fc250877841deb40"",""pharos"":""0x51e2A24742Db77604B881d6781Ee16B5b8fcBE29"",""hemi"":""0x63dbE12A6381D64adE47bc3D92aBF4393DFF4BC8"",""newton"":""0x76a443768A5e3B8d1AED0105FC250877841Deb40"",""lisk"":""0x71052BAe71C25C78E37fD12E5ff1101A71d9018F"",""zircuit"":""0x5D6d033B4FbD2190D99D930719fAbAcB64d2439a""}"
+1984,SUB,Substratum,substratum,substratum.net,1984.png,"{""ethereum"":""0x8D75959f1E61EC2571aa72798237101F084DE63a""}"
+1991,RVT,Rivetz,rivetz,rivetz.com,1991.png,"{""ethereum"":""0x3d1ba9be9f66b8ee101911bc36d3fb562eac2244""}"
+1993,KIN,Kin,kin,,1993.png,"{""solana"":""kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6""}"
+1996,SALT,SALT,salt,saltlending.com,1996.png,"{""ethereum"":""0x4156D3342D5c385a87D264F90653733592000581""}"
+2001,COLX,ColossusXT,colossusxt,colossusxt.io,2001.png,"{""bnb"":""0xF8aCF86194443DCde55fc5B9e448e183c290D8Cb"",""ethereum"":""0x95bf7e307bc1ab0ba38ae10fc27084bc36fcd605""}"
+2010,ADA,Cardano,cardano,cardano.org,2010.png,"{""bnb"":""0x3ee2200efb3400fabb9aacf31297cbdd1d435d47""}"
+2011,XTZ,Tezos,tezos,tezos.com,2011.png,"{""tezos"":""Tez""}"
+2022,INXT,Internxt,internxt,internxt.com,2022.png,"{""ethereum"":""0x4a8f5f96d5436e43112c2fbc6a9f70da9e4e16d4""}"
+2041,BTCZ,BitcoinZ,bitcoinz,getbtcz.com,2041.png,"{""bnb"":""0xcBBB3e5099F769F6d4E2b8b92DC0e268f7E099D8""}"
+2047,ZSC,Zeusshield,zeusshield,zsc.io,2047.png,"{""ethereum"":""0x7A41e0517a5ecA4FdbC7FbebA4D4c47B9fF6DC63""}"
+2058,AST,AirSwap,airswap,airswap.io,2058.png,"{""ethereum"":""0x27054b13b1b798b345b591a4d22e6562d47ea75a"",""gnosis-gno"":""0x743a991365ba94BFC90Ad0002CAD433c7a33cb4a""}"
+2062,AION,Aion,aion,theoan.com,2062.png,{}
+2070,DRT,DomRaider,domraider,token.domraider.com,2070.png,"{""ethereum"":""0x9af4f26941677c706cfecf6d3379ff01bb85d5ab""}"
+2071,REQ,Request,request,request.network,2071.png,"{""ethereum"":""0x8f8221afbb33998d8584a2b05749ba73c37a938a"",""polygon-ecosystem-token"":""0xb25e20de2f2ebb4cffd4d16a55c7b395e8a94762""}"
+2076,BLUE,Blue Protocol,ethereum-blue,blueprotocol.com,2076.png,"{""ethereum"":""0x539efe69bcdd21a83efd9122571a64cc25e0282b""}"
+2081,AMB,Ascendia (ex AirDAO),airdao,ascendia.network,2081.png,"{""ethereum"":""0xf4fb9bf10e489ea3edb03e094939341399587b0c"",""solana"":""AMB4mArTRxZG7jCLqhxWziDeZGxzT59WPrQWvgpZPe8d""}"
+2083,BTG,Bitcoin Gold,bitcoin-gold,btgofficial.org,2083.png,{}
+2087,KCS,KuCoin Token,kucoin-token,kucoin.com,2087.png,"{""ethereum"":""0xf34960d9d60be18cc1d5afc1a6f012a723a28811"",""kucoin-token"":""0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee""}"
+2092,NULS,NULS,nuls,nuls.io,2092.png,"{""ethereum"":""0xa2791bdf2d5055cda4d46ec17f9f429568275047"",""bnb"":""0x8cd6e29d3686d24d3c2018cee54621ea0f89313b""}"
+2096,RCN,RCN Finance,ripio-credit-network,rcn.finance,2096.png,"{""ethereum"":""0xf970b8e36e23f7fc3fd752eea86f8be8d83375a6""}"
+2099,ICX,ICON,icon,icon.community,2099.png,{}
+2104,IETH,iEthereum,iethereum,iethereum.trade,2104.png,"{""ethereum"":""0x859a9c0b44cb7066d956a958b0b82e54c9e44b4b""}"
+2130,ENJ,Enjin Coin,enjin-coin,enjin.io,2130.png,{}
+2132,POWR,Powerledger,power-ledger,powerledger.io,2132.png,"{""ethereum"":""0x595832f8fc6bf59c85c527fec3740a1b7a361269""}"
+2136,ATL,ATLANT,atlant,atlant.io,2136.png,"{""ethereum"":""0x78b7fada55a64dd895d8c8c35779dd8b67fa8a05""}"
+2137,ETN,Electroneum,electroneum,electroneum.com,2137.png,{}
+2143,DATA,Streamr,streamr,streamr.network,2143.png,"{""ethereum"":""0x8f693ca8d21b157107184d29d398a8d082b38b76"",""bnb"":""0x0864c156b3C5F69824564dEC60c629aE6401bf2a"",""polygon-ecosystem-token"":""0x3a9A81d576d83FF21f26f325066054540720fC34""}"
+2158,PHR,Phore,phore,phore.io,2158.png,{}
+2161,RDN,Raiden Network Token,raiden-network-token,raiden.network,2161.png,"{""ethereum"":""0x255aa6df07540cb5d3d297f0d0d4d84cb52bc8e6""}"
+2178,UFR,Upfiring,upfiring,upfiring.com,2178.png,"{""ethereum"":""0xea097a2b1db00627b2fa17460ad260c016016977""}"
+2184,PRIX,Privatix,privatix,privatix.io,2184.png,"{""ethereum"":""0x3adfc4999f77d04c8341bac5f3a76f58dff5b37a""}"
+2222,BCD,Bitcoin Diamond,bitcoin-diamond,bitcoindiamond.org,2222.png,{}
+2223,VEE,BLOCKv,blockv,blockv.io,2223.png,"{""ethereum"":""0x340d2bde5eb28c1eed91b2f790723e3b160613b7"",""polygon-ecosystem-token"":""0xf1c1a3c2481a3a8a3f173a9ab5ade275292a6fa3"",""base"":""0xeFc2689D3E79252fBA37E889a1b5aD92cEDC6e4F""}"
+2231,FLIXX,Flixxo,flixxo,flixxo.com,2231.png,"{""ethereum"":""0xf04a8ac553fcedb5ba99a64799155826c136b0be""}"
+2243,DRGN,Dragonchain,dragonchain,dragonchain.com,2243.png,"{""ethereum"":""0x419c4db4b9e25d6db2ad9691ccb832c8d9fda05e""}"
+2245,PRE,Presearch,presearch,presearch.com,2245.png,"{""ethereum"":""0xEC213F83defB583af3A000B1c0ada660b1902A0F"",""base"":""0x3816dd4bd44c8830c2fa020a5605bac72fa3de7a""}"
+2273,UQC,Uquid Coin,uquid-coin,uquidcoin.com,2273.png,"{""ethereum"":""0x8806926ab68eb5a7b909dcaf6fdbe5d93271d6e2""}"
+2280,FIL,Filecoin,filecoin,filecoin.io,2280.png,"{""bnb"":""0x0d8ce2a99bb6e3b7db580ed848240e4a0f9ae153"",""htx-token"":""0xae3a768f9ab104c69a7cd6041fe16ffa235d1810"",""hoo-smart-chain"":""0x0bf85d3b0c9ebcc282fde0591882d12e57e700b3""}"
