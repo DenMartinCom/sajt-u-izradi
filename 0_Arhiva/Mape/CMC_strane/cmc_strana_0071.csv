@@ -1,0 +1,101 @@
+id,symbol,name,slug,web,logo,contract
+39823,BULL,Bull (bulltheleader),bull-theleader,bulltheleader.com,39823.png,"{""solana"":""3TYgKwkE2Y3rxdw9osLRSpxpXmSC1C1oo19W9KHspump""}"
+39824,EITHER,Eitherway,eitherway,eitherway.ai,39824.png,"{""solana"":""HmBdm8vbisABUjkxms6ZUnoaXbfwFM6ymxShWfAENaoi""}"
+39826,UNT,UnityWallet,unitywallet,unitywallet.com,39826.png,"{""solana"":""UNTyTuyNPhLufn4K4SMsW6BxbvfYEMgQ4qUT9orPapp""}"
+39827,RIV,RIV Coin,riv-coin,riv-coin.com,39827.png,"{""solana"":""2bpT3ksMdwdZ6DuHyq3FDUr7HDwvZ5DRZoT1fUPALJaH""}"
+39828,BLM,BLM coin,blm-coin,mars.fun,39828.png,"{""bnb"":""0xd6e14208e929a38db47bae48f3ac8a420aff0999""}"
+39829,CIRBTC,Circle Wrapped Bitcoin,circle-wrapped-bitcoin,circle.com,39829.png,"{""arc-token"":""0x171A4217b86A807A64eB94757Db6849fb4bDbAA0"",""ethereum"":""0x72DFB2E44f59C5AD2bAFE84314E5b99a7cd5075E""}"
+39830,EAT,WYDE: End Hunger,wyde-end-hunger,wyde.org,39830.png,"{""base"":""0x680bc6ed5c7222e2f29bdbc87f8e8f3400d8ce04""}"
+39831,ROCKET,ROCKET,rocketcion-space,rocketcion.space,39831.png,"{""bnb"":""0xba2030337051dedecb2c4490bd82c0c2b15e76e0""}"
+39835,MAXXING,Maxxing,maxxing,solmaxxing.xyz,39835.png,"{""solana"":""32CdQdBUxbCsLy5AUHWmyidfwhgGUr9N573NBUrDpump""}"
+39836,HANC,OddHanc,oddhanc,oddhanc.eth.limo,39836.png,"{""ethereum"":""0x8786336fbe367eb4548a1ee3e4543355ecab5fc4""}"
+39837,PRO,Pro Token,pro-token,cryptodao.it.com,39837.png,"{""bnb"":""0x8d65744527f55d0b2338350912d5c99a81ddf0e2""}"
+39841,GENIUS,Genius Terminal,genius-terminal,tradegenius.com,39841.png,"{""bnb"":""0x1F12B85aAC097E43Aa1555b2881E98a51090e9A6""}"
+39842,BRENT,Brent Crude,brent-crude,brentmeme.com,39842.png,"{""solana"":""kLqMvUm1p4pRbxU4r8kWCTVAuWMJLtcTJqGb4b5pump""}"
+39843,ODIC,Order-Defined Integrity Credit,order-defined-integrity-credit,seekweb4.com,39843.png,"{""bnb"":""0x3Da14529289eA39368298657071033B0C81C0fa9""}"
+39844,PUMPCADE,PUMPCADE,pumpcade,cade.market,39844.png,"{""solana"":""Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu""}"
+39845,SLV,iShares Silver Trust (Derivatives),ishares-silver-trust-derivatives,,39845.png,{}
+39846,SOLIB,Solitaire Blossom,solitaire-blossom,solitaireblossom.com,39846.png,"{""bnb"":""0x20971EFC7f458d49EE56A4DA407fE436eb87a635""}"
+39848,UPS,Upscreener,upscreener,upscreener.com,39848.png,"{""bnb"":""0xae5A409773b9A7Dd0Ae94ff437Ac213d8faFBa01""}"
+39849,IWC,iWorld Cruise,iworld-cruise,coinmarketcap.com,39849.png,"{""bnb"":""0xbc0d5cbcf51d37ed7da33a83314d9ff02d4152e8""}"
+39851,OFC,OneFootball Credits,onefootball-credits,club.onefootball.com,39851.png,"{""base"":""0x752C5a95d202972E124390F30a50154409d3c858"",""ethereum"":""0x9CB7A4EF0cAE65B07362bc679a0B874041E3da53""}"
+39852,NI225,Nikkei 225 (Derivatives),nikkei-225-derivatives,,39852.png,{}
+39853,KS200,KOSPI 200 Index (Derivatives),kospi-200-index-derivatives,,39853.png,{}
+39854,CTK,Cortik AI,cortik-ai,cortik.ai,39854.png,"{""polygon-ecosystem-token"":""0x933479BA627356f7EfABa030504bF1C65cffca5a""}"
+39855,BUBI,Bullbit PERP DEX,bullbit-perp-dex,bullbit.ai,39855.png,"{""base"":""0xc5E4A819113074b5C3B48f1F873Cf51aB19FCEd2""}"
+39856,NEET,NotInEmploymentEducationTraining,notinemploymenteducationtraining,neetcoin.xyz,39856.png,"{""solana"":""Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump""}"
+39857,VIT,V.I.T.R.I.O.L. Network,v-i-t-r-i-o-l-network,vitriol.network,39857.png,"{""solana"":""6g1GDK3rBTTA25TNbDs1ZAWoTRrEbiq7aSVC754coVo4""}"
+39858,CWU,Commonwealth,commonwealth,blockchain.commonwealthunion.com,39858.png,"{""solana"":""CmVUoJUt7hMGc9ze7s8zYdnA7enMfCAFdQCggxcbACWU""}"
+39861,PDD,PDD Holdings Inc (Derivatives),pdd-holdings-inc-derivatives,,39861.png,{}
+39865,SPIKE,SPIKE (spikemattfurie),spikemattfurie,spikemattfurie.com,39865.png,"{""solana"":""BFiGUxnidogqcZAPVPDZRCfhx3nXnFLYqpQUaUGpump""}"
+39869,WATT,D.Energy,d-energy,denergychain.com,39869.png,{}
+39870,CHIP,USD.AI,usd-ai,usd.ai,39870.png,"{""arbitrum"":""0x0C1c1C109FE34733fca54b82d7B46B75CFb71F6e"",""ethereum"":""0x0c1c1c109fe34733fca54b82d7b46b75cfb71f6e"",""base"":""0x0c1c1c109fe34733fca54b82d7b46b75cfb71f6e"",""solana"":""chipCAT7vi5CZtbZsn9z7iMPXvFwyAnKz3QFu8XVuHm""}"
+39871,AVGO,Broadcom Inc (Derivatives),broadcom-inc-derivatives,broadcom.com,39871.png,{}
+39872,BIRD,Allbirds Inc (Derivatives),allbirds-inc-derivatives,,39872.png,{}
+39873,XGT,Green Token,green-token,green-tkn.com,39873.png,"{""ethereum"":""0x6ee92375337135d4928978195dCC5EF03657EDb4""}"
+39876,BPL,Bubble Protocol,bubble-protocol,bubbleswap.io,39876.png,{}
+39878,KUVI,Kuvi,kuvi,kuvi.ai,39878.png,"{""bnb"":""0xCCd6b38FffEeAb9c0Ac2413bCcf8b0ACed748881""}"
+39879,STAY,STAYNEX,staynex,staynex.vip,39879.png,"{""bnb"":""0x30C0ef9361645ec56a7e640CD05ce6aBdFce8422""}"
+39880,ASTEROID,Asteroid Shiba,asteroid-shiba,asteroideth.io,39880.png,"{""ethereum"":""0xf280b16ef293d8e534e370794ef26bf312694126""}"
+39883,AI,Gensyn,gensyn,gensyn.foundation,39883.png,"{""ethereum"":""0x4d7078DDd6cCFED2F85dB5B7D3Ff16828d378d48""}"
+39885,RISE,RISE NASA,rise-nasa,risenasa.com,39885.png,"{""ethereum"":""0xE74200193FDb4195e8b7Fc2D263af4a8322b5A5A""}"
+39886,RIZO,Haha Yes Hedgehog,haha-yes-hedgehog,hahayesrizo.com,39886.png,"{""ethereum"":""0x3009b6833f8925b7985c2408c49160dd1ab317ca""}"
+39892,SLVN,Solvion,solvion,solvion.info,39892.png,"{""bnb"":""0x5446BccD41F745eebFcf180d3743e1AeDB3BEBa7""}"
+39895,ASTEROID,Asteroid (Asteroid OG),asteroideth-site,asteroidog.com,39895.png,"{""ethereum"":""0xAFF2565091E7207191dBe340B8528D02FA78d044""}"
+39897,ALTSZN,ALTSEASON,altseason,itsaltseason.com,39897.png,"{""solana"":""CcLd8HTAKLWtQHatqPwBQjtuCA72FNB9E1ckRTEzpump""}"
+39898,DEPLOYR,Deployr,deployr,app.printr.money,39898.png,"{""solana"":""8JvDVZK6CHFhwwBUgZcEy18i1xXQzAHfimYarmoobrrr""}"
+39900,MYSTERY,Mystery (MysteryRiderEth),mystery-ridereth,mysterymattfurie.com,39900.png,"{""ethereum"":""0x45547AB0100f5E8b158258b6d94D7586De69fc21""}"
+39901,WARS,Peso Argentino,ripio-wars,ripio.com,39901.png,"{""ethereum"":""0x0dc4f92879b7670e5f4e4e6e3c801d229129d90d"",""base"":""0x0dc4f92879b7670e5f4e4e6e3c801d229129d90d"",""gnosis-gno"":""0x0dc4f92879b7670e5f4e4e6e3c801d229129d90d"",""worldcoin-org"":""0x0dc4f92879b7670e5f4e4e6e3c801d229129d90d""}"
+39902,SN46,Zipcode (prev: RESI),resi,zipcode.ai,39902.png,"{""bittensor"":""46""}"
+39903,KAIO,KAIO,kaio,kaio.xyz,39903.png,"{""ethereum"":""0x00bac91fd8f5b4a0dc03c8021139b76f6549ee7e""}"
+39904,SKIBIDI,Skibidi Toilet,skibidi-toilet-fun,solskibidi.fun,39904.png,"{""solana"":""FFvp48WygUSxCCNP3n9Zu5G7F2yatwXQHbpD2Mkkpump""}"
+39905,FLETH,flETH,fleth,,39905.png,"{""base"":""0x000000000d564d5be76f7f0d28fe52605afc7cf8""}"
+39908,BGBTC,Bitget Wrapped BTC,bitget-wrapped-btc,bitget.com,39908.png,"{""ethereum"":""0x0520930F21b14Cafac7a27b102487beE7138a017"",""bitget-token-new"":""0x31011317764E097b28d159a8145B92BFA453F606""}"
+39909,MAGA,Make Aliens Great Again,make-aliens-great-again,makealiensgreatagain.com,39909.png,"{""solana"":""Hon2rHAiqkcDtUzL5gA2vjXPr7T1MPCK2UT2AHKCpump""}"
+39910,RUJI,Rujira,rujira,rujira.network,39910.png,"{""thorchain"":""x/ruji""}"
+39913,WZRA,Wrapped Zera,wrapped-zera,zera.net,39913.png,"{""solana"":""9zVugUbpn27zvSfBwkhYAG4yvnxdy58ZFS5Rt89zaP15""}"
+39914,OCT,Octra,octra,octra.org,39914.png,"{""ethereum"":""0x4647e1fE715c9e23959022C2416C71867F5a6E80""}"
+39915,LOKI,LokiCoin,lokicoin,lokicoin.io,39915.png,"{""ethereum"":""0xFEeDf398124AAfeB6a36351C924bd00a361ea89A"",""solana"":""6pyYgxJEfvfBd83xjrbdiDVVuudLJp85He4G77R6c3BR""}"
+39916,CTR,Citrea,citrea,citrea.xyz,39916.png,"{""base"":""0x11030f79109269d796fd0fb956d6244e502757f7""}"
+39917,BELKA,The Dancing Squirrel,the-dancing-squirrel,,39917.png,"{""solana"":""4df1wZoygsynEZ6XmpcoabrVwv7nBgjHLyCns5xApump""}"
+39918,SNC,SNC SCANDIC COIN,scandic-coin,scandiccoin.dev,39918.png,"{""ethereum"":""0x95697CB93cDd65A29ca2613BEEafA18E39fA5b76""}"
+39920,ASE,Asentum,asentum,asentum.com,39920.png,"{""ethereum"":""0x041Ff0E49F6F774E7DC7bD10Ee4A14c00B1D80B2""}"
+39921,CBMEGA,Coinbase Wrapped MEGA,coinbase-wrapped-mega,megaeth.com,39921.png,"{""base"":""0xcb111E6A2a3bde90856D299d61341ac302167D23""}"
+39922,ASSET,REAL,real-finance,real.finance,39922.png,"{""ethereum"":""0x99E980265Bf36516C442be982df1772a6cCb3233""}"
+39923,STRCON,Strategy Stretch Preferred Tokenized Stock (Ondo),strategy-stretch-perferred-tokenized-stock-ondo,app.ondo.finance,39923.png,"{""ethereum"":""0xECABE1Ff8a9e1dC55899cf58dac8497ecE5Ae84c"",""bnb"":""0x71E9dc9DEbc18650BD2342B93623B88C2aD00c89"",""solana"":""y6kSRF4i9tfMMjZziPHtQE1PeUS6bWEHTzZMFgXondo""}"
+39925,PUSD,Polymarket USD,polymarket-usd,polymarket.com,39925.png,"{""polygon-ecosystem-token"":""0xc011a7e12a19f7b1f670d46f03b03f3342e82dfb""}"
+39926,IMOUT,I AM OUT,i-am-out,imoutsol.com,39926.png,"{""solana"":""DACYVx34V5aQaehN3MZGYxPfoyQYHZSnFAFw3T2Vbonk""}"
+39927,BABYASTEROID,Baby Asteroid (Honoring Liv),babyasteroid,babyasteroid.meme,39927.png,"{""bnb"":""0xFEcbdA1b8dbd73C4EeA7843C04DB816107fA6666""}"
+39928,GME,GameStop Corp (Derivatives),gamestop-corp-derivatives,,39928.png,{}
+39929,1810,Xiaomi Corp HKD price (Derivatives),xiaomi-corp-derivatives,,39929.png,{}
+39930,UPEG,Unipeg,unipeg,unipeg.art,39930.png,"{""ethereum"":""0x44b28991b167582f18ba0259e0173176ca125505""}"
+39931,CBRS,Cerebras Systems (Derivatives),cerebras-systems-derivatives,,39931.png,{}
+39932,QCOM,Qualcomm (Derivatives),qualcomm-derivatives,,39932.png,{}
+39933,ASTEROIDOGE,Asteroid Doge (asteroiddoge.site),asteroiddoge-site,asteroiddoge.site,39933.png,"{""bnb"":""0x8046460bece458b829e11b1bd36c1956f4d321d9""}"
+39934,RCON,Recon Raccoon,recon-raccoon,reconraccoon.xyz,39934.png,"{""solana"":""7nZuYZYZnof9gF3zr9QhdnxpQ1mTM8LN3VaJuhrGbonk""}"
+39935,AIB,America is Back (americaisback.vip),america-is-back,americaisback.vip,39935.png,"{""ethereum"":""0xB3A0F70c913Aa04404BD177BE9E20B47613830B6""}"
+39936,BOOB,boob (boobillions.com),boobillions,boobillions.com,39936.png,"{""solana"":""9zqre5sRRdFvKqyTyvEd1jcKDRF4g47s7mZSGUnQpump""}"
+39938,GNOD,Gnodi,gnodi,gnodi.info,39938.png,"{""osmosis"":""ibc/9005151AB92A888293B05E8D0C679032F86639EC2251430565FA38CF3BB6226B""}"
+39942,USDCX,USDCx (Canton),usdcx-canton,circle.com,39942.png,{}
+39943,XLE,State Street Energy Select Sector SPDR ETF (Derivatives),state-street-energy-select-sector-spdr-etf-derivatives,,39943.png,{}
+39944,LITE,Lumentum Holdings (Derivatives),lumentum-holdings-derivatives,,39944.png,{}
+39945,DRAM,Roundhill Memory ETF (Derivatives),roundhill-memory-etf-derivatives,,39945.png,{}
+39946,MRVL,Marvell Technology (Derivatives),marvell-technology-derivatives,,39946.png,{}
+39947,BX,Blackstone (Derivatives),blackstone-derivatives,,39947.png,{}
+39948,RKLB,Rocket Lab Corp (Derivatives),rocket-lab-corp-derivatives,,39948.png,{}
+39949,EWZ,Ishares Msci Brazil ETF (Derivatives),ishares-msci-brazil-etf-derivatives,,39949.png,{}
+39950,CBTC,Wrapped Bitcoin (Canton),wrapped-bitcoin-canton,bitsafe.finance,39950.png,{}
+39951,ASTEROIDFLOKI,Asteroid Floki,asteroid-floki,asteroidfloki.fun,39951.png,"{""bnb"":""0x9b7f6543f4C4C6f2E426A534F52b681B3Af3aab6""}"
+39953,EBAY,eBay (Derivatives),ebay-derivstives,,39953.png,{}
+39954,ZM,Zoom (Derivatives),zoom-derivatives,,39954.png,{}
+39955,SHARE,ShareX,sharex-network,sharex.network,39955.png,"{""bnb"":""0x5FCA51aff213bFBEAB0b711b93c3374252fD6aC3""}"
+39957,GICAT,GIGGLE CAT,gicat,gigglecat.vip,39957.png,"{""bnb"":""0x118179FC98F245e59b2eCb702652C2355b723364""}"
+39958,POPMART,Pop Mart International Group Limited (Derivatives),pop-mart-international-group-limited-derivatives,,39958.png,{}
+39960,MINIMAX,MiniMax Group (Derivatives),minimax-group-derivatives,,39960.png,{}
+39961,TENCENT,Tencent Holdings Ltd (Derivatives),tencent-holdings-ltd-derivatives,,39961.png,{}
+39962,SWEETS,Anubis Chain,anubis-chain,anubischain.ai,39962.png,"{""anubis"":""0x2654d71e897d769dab854d9dc00b3165716f3fa7""}"
+39963,RIAL,RIAL,rial,rialonsol.com,39963.png,"{""solana"":""C4j1kRxLhWzHCDEffhJQtEnfR7B1PKRhQHpmWpFzAUSA""}"
+39964,SOXL,Direxion Daily Semiconductor ETF (Derivatives),direxion-daily-semiconductor-etf-derivatives,,39964.png,{}
+39965,NEX,Nexus,nexus-labs,nexus.xyz,39965.png,"{""ethereum"":""0xf57D49646621F563b0B905aFc8336923AC569Ec5"",""bnb"":""0x365de036a1f7dccb621530d517133521debb2013""}"
+39966,MTONGA,Make TON Great Again,make-ton-great-again,,39966.png,"{""gram"":""EQDuGgqZU7_AEgiOwEe-abozIefuoairTWLOyd7c_f8GhzMf""}"
+39968,DIAMOND,Diamond Hands on TON,diamond-hands-on-ton,diamondhandston.com,39968.png,"{""gram"":""EQDcAkKNxhExGiDweLlVRK0bKzUwIE7Y7rdPgjybWwKAnmh_""}"
