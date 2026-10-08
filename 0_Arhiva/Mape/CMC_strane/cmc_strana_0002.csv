@@ -1,0 +1,101 @@
+id,symbol,name,slug,web,logo,contract
+1035,AMS,AmsterdamCoin,amsterdamcoin,amsterdamcoin.com,1035.png,{}
+1037,AGRS,Agoras: Tau Net,agoras-tokens,tau.net,1037.png,"{""ethereum"":""0x738865301a9b7dd80dc3666dd48cf034ec42bdda""}"
+1038,EUC,Eurocoin,eurocoin,eurocoin-euc.com,1038.png,{}
+1042,SC,Siacoin,siacoin,sia.tech,1042.png,{}
+1052,VEC2,VectorAI,vector,vector-blockchain.com,1052.png,{}
+1066,PAK,Pakcoin,pakcoin,pakcoin.io,1066.png,{}
+1082,SIB,SIBCoin,sibcoin,sibcoin.com,1082.png,{}
+1085,SWING,Swing,swing,,1085.png,{}
+1090,SANDG,Save and Gain,save-and-gain,coinaid.co.uk,1090.png,{}
+1104,REP,Augur,augur,augur.net,1104.png,"{""ethereum"":""0x1985365e9f78359a9B6AD760e32412f4a445E862""}"
+1120,DFT,DraftCoin,draftcoin,btcdraft.com,1120.png,{}
+1135,CLUB,ClubCoin,clubcoin,clubcoin.co,1135.png,{}
+1136,ADZ,Adzcoin,adzcoin,adzcoin.org,1136.png,{}
+1146,AV,AvatarCoin,avatarcoin,,1146.png,{}
+1154,VAL,Validity,validity,validitytech.com,1154.png,{}
+1155,LTCR,Litecred,litecred,,1155.png,{}
+1159,SLS,SaluS,salus,saluscoin.info,1159.png,{}
+1164,FRN,Francs,francs,francs.paris,1164.png,{}
+1165,EVIL,Evil Coin,evil-coin,evilcoin.xyz,1165.png,{}
+1168,DCR,Decred,decred,decred.org,1168.png,{}
+1169,PIVX,PIVX,pivx,pivx.org,1169.png,{}
+1175,RBIES,Rubies,rubies,rbies.org,1175.png,{}
+1185,FREED,FreedomCoin,freedomcoin-freed,freedomcoin.global,1185.png,{}
+1191,MEME,Memetic / PepeCoin,memetic,memetic.ai,1191.png,{}
+1194,IMS,Independent Money System,independent-money-system,independentmoneysystem.com,1194.png,{}
+1200,NEVA,NevaCoin,nevacoin,nevacoin.net,1200.png,"{""bnb"":""0xe7498f332C35a346b486F3f6a68F05934E92A228""}"
+1209,PEX,PosEx,posex,,1209.png,{}
+1210,CAB,Cabbage,cabbage,cabbage.tech,1210.png,{}
+1212,MOJO,MojoCoin,mojocoin,mojocoin.org,1212.png,{}
+1214,LSK,Lisk,lisk,lisk.com,1214.png,"{""ethereum"":""0x6033F7f88332B8db6ad452B7C6D5bB643990aE3f"",""base"":""0xac485391EB2d7D88253a7F1eF18C37f4242D1A24""}"
+1216,EDRC,EDRCoin,edrcoin,edrcoin.cash,1216.png,{}
+1218,POST,PostCoin,postcoin,postcoin.top,1218.png,{}
+1223,BERN,BERNcash,berncash,berncoin.org,1223.png,{}
+1230,STEEM,Steem,steem,steem.com,1230.png,{}
+1244,XHI,HiCoin,hicoin,xhicoin.io,1244.png,{}
+1248,XBTC21,Bitcoin 21,bitcoin-21,,1248.png,{}
+1252,2GIVE,2GIVE,2give,2give.info,1252.png,{}
+1254,XPTX,PlatinumBAR,platinumbar,platinumbar.io,1254.png,{}
+1257,LANA,LanaCoin,lanacoin,lanacoin.com,1257.png,{}
+1259,PONZI,PonziCoin,ponzicoin,,1259.png,{}
+1274,WAVES,Waves,waves,waves.tech,1274.png,"{""ethereum"":""0x7296eaA225804451a91616b29D040cAB05435f0d"",""bnb"":""0xcbc86b26e0BD751683ecF2581B21f7cE4a224042"",""solana"":""4XEjo9GZkKom3E26NQiidJLawwM9kbt76gUMDdGe1meQ"",""waves"":""WAVES""}"
+1281,ION,ION,ion,ionomy.com,1281.png,"{""ethereum"":""0xee59B43149CEAD680aedF8778163ce8CB8c8A6fB"",""polygon-ecosystem-token"":""0x68b741416153bBf5CB4FaEe0aA447f918fE5C322"",""osmosis"":""uion""}"
+1282,HVCO,High Voltage,high-voltage,highvoltagecoin.tech,1282.png,{}
+1285,GB,GoldBlocks,goldblocks,goldblocks.eu,1285.png,{}
+1291,CMT,Comet,comet,cometcoin.com,1291.png,{}
+1297,CHESS,ChessCoin,chesscoin,chess-coin.github.io,1297.png,{}
+1306,CJ,Cryptojacks,cryptojacks,cryptojacks.com,1306.png,{}
+1312,SBD,Steem Dollars,steem-dollars,steem.io,1312.png,{}
+1320,ARDR,Ardor,ardor,jelurida.com,1320.png,{}
+1321,ETC,Ethereum Classic,ethereum-classic,ethereumclassic.org,1321.png,"{""bnb"":""0x3d6545b08693dae087e957cb1180ee38b9e3c25e"",""ethereum-classic"":""0x1953cab0E5bFa6D4a9BaD6E05fD46C1CC6527a5a""}"
+1343,STRAX,Stratis [Old],stratis,stratisplatform.com,1343.png,{}
+1351,ACES,Aces,aces,,1351.png,{}
+1353,TAJ,TajCoin,tajcoin,tajcoin.tech,1353.png,{}
+1368,VLT,Veltor,veltor,,1368.png,{}
+1376,NEO,Neo,neo,neo.org,1376.png,{}
+1382,NLC,NoLimitCoin,nolimitcoin,nolimitcoin.org,1382.png,"{""bnb"":""0x6519cb1f694ccbcc72417570b364f2d051eefb9d"",""polygon-ecosystem-token"":""0xc157ee77518769b8009642F68A8d6A500ff59d53"",""ethereum"":""0xa74Ee74152DcA467DbaA3915445164496f361744""}"
+1389,ZYD,Zayedcoin,zayedcoin,zayedcoin.net,1389.png,{}
+1392,PLU,Pluton,pluton,plutus.it,1392.png,"{""ethereum"":""0xd8912c10681d8b21fd3742244f44658dba12264e""}"
+1395,DLC,Dollarcoin,dollarcoin,,1395.png,{}
+1396,MST,MustangCoin,mustangcoin,mustangcoin.xyz,1396.png,{}
+1414,FIRO,Firo,firo,firo.org,1414.png,"{""bnb"":""0xd5d0322b6bab6a762c79f8c81a0b674778e13aed""}"
+1437,ZEC,Zcash,zcash,z.cash,1437.png,"{""bnb"":""0x1ba42e5193dfa8b03d15dd1b86a3113bbbef8eeb"",""near-protocol"":""zec.omft.near""}"
+1439,ASAFE,AllSafe,allsafe,allsafecoin.org,1439.png,{}
+1447,ZCL,ZClassic,zclassic,zclassic.org,1447.png,{}
+1455,GLM,Golem,golem-network-tokens,golem.network,1455.png,"{""ethereum"":""0x7DD9c5Cba05E151C895FDe1CF355C9A1D5DA6429"",""polygon-ecosystem-token"":""0x0B220b82F3eA3B7F6d9A1D8ab58930C064A2b5Bf""}"
+1468,KURT,Kurrent,kurrent,kurrentproject.com,1468.png,{}
+1474,ENT,Eternity,eternity,ent.eternity-group.org,1474.png,{}
+1492,GBYTE,Obyte,obyte,obyte.org,1492.png,"{""ethereum"":""0x31F69dE127C8A0fF10819C0955490a4Ae46fcc2a"",""bnb"":""0xeb34De0C4B2955CE0ff1526CDf735c9E6d249D09"",""polygon-ecosystem-token"":""0xAB5F7a0e20b0d056Aed4Aa4528C78da45BE7308b"",""kava"":""0x0b93109d05ef330acd2c75148891cc61d20c3ef1""}"
+1495,POSW,PoSW Coin,posw-coin,posw.io,1495.png,{}
+1500,WINGS,Wings,wings,wings.ai,1500.png,"{""ethereum"":""0x667088b212ce3d06a1b553a7221E1fD19000d9aF""}"
+1503,JUP,Jupiter,jupiter,jup.io,1503.png,"{""ethereum"":""0x4B1E80cAC91e2216EEb63e29B957eB91Ae9C2Be8"",""bnb"":""0x0231f91e02debd20345ae8ab7d71a41f8e140ce7""}"
+1505,ALIAS,ALIAS,alias,alias.cash,1505.png,{}
+1511,VIDZ,PureVidz,purevidz,purevidz.net,1511.png,{}
+1514,ICOB,ICOBID,icobid,icobidplatform.net,1514.png,{}
+1515,IBANK,iBank,ibank,,1515.png,{}
+1518,MKR,Maker,maker,makerdao.com,1518.png,"{""ethereum"":""0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2"",""bnb"":""0x5f0da599bb2cccfcf6fdfd7d81743b6020864350"",""avalanche"":""0x88128fd4b259552A9A1D457f435a6527AAb72d42""}"
+1521,KMD,Komodo,komodo,komodoplatform.com,1521.png,"{""bnb"":""0x2003f7ba57Ea956B05B85C60B4B2Ceea9b111256""}"
+1522,FRST,FirstCoin,firstcoin,firstcoinproject.com,1522.png,{}
+1528,ICON,Iconic,iconic,iconicproject.com,1528.png,{}
+1546,CNT,Centurion,centurion,centurionlab.info,1546.png,"{""ethereum"":""0x23c90dbf4fC282e352B75CC13d095Cc2496D3271"",""aptos"":""0xc051aad4e29ffb57bde2a55dd795ac2ad7cd8142fd59602219558f41e7847275::CNT::Cnt""}"
+1552,MLN,Enzyme,enzyme,enzyme.finance,1552.png,"{""ethereum"":""0xec67005c4e498ec7f55e092bd1d35cbc47c91892"",""polygon-ecosystem-token"":""0xa9f37d84c856fda3812ad0519dad44fa0a3fe207""}"
+1556,TIME,Chrono.tech,chrono-tech,chrono.tech,1556.png,"{""ethereum"":""0x485d17A6f1B8780392d53D64751824253011A260"",""bnb"":""0x3b198e26E473b8faB2085b37978e36c9DE5D7f68"",""polygon-ecosystem-token"":""0xb970Bc1BD4fCD639c37aa8eFD6713eaDc577252f""}"
+1558,ARGUS,Argus (www.argusnetwork.co),argus,argusnetwork.co,1558.png,{}
+1562,SWT,Swarm City,swarm-city,swarm.city,1562.png,"{""ethereum"":""0xb9e7f8568e08d5659f5d29c4997173d84cdf2607""}"
+1567,XNO,Nano,nano,nano.org,1567.png,{}
+1582,NETKO,Netko,netko,netko.tech,1582.png,{}
+1586,ARK,Ark,ark,ark.io,1586.png,{}
+1619,SKY,Skycoin,skycoin,skycoin.com,1619.png,{}
+1623,BLAZR,BlazerCoin,blazercoin,blazercoin.cf,1623.png,{}
+1629,ZENI,Zennies,zennies,zeni.zone,1629.png,{}
+1630,CXT,Coinonat,coinonat,coinonat.org,1630.png,{}
+1632,CONX,Concoin,concoin,concoin.com,1632.png,{}
+1637,RLC,iExec RLC,rlc,iex.ec,1637.png,"{""ethereum"":""0x607f4c5bb672230e8672085532f7e901544a7375"",""arbitrum"":""0xe649e6a1F2afc63ca268C2363691ceCAF75CF47C""}"
+1638,TRST,WeTrust,trust,wetrust.io,1638.png,"{""ethereum"":""0xcb94be6f13a1182e4a4b6140cb7bf2025d28e41b""}"
+1651,SCS,SpeedCash,speedcash,getspeedcash.org,1651.png,"{""ethereum"":""0x81995ff7AEe5c780192b47e0B42a7a86692d1415"",""waves"":""5R4ZGfZv2oiY8DmswFohnpg214NLU5ijzTK84J6fpVHE""}"
+1654,BTX,BitCore,bitcore,bitcore.cc,1654.png,"{""bnb"":""0x000000089fb24237dA101020Ff8e2AfD14624687""}"
+1657,VOLT,Bitvolt,bitvolt,bitvolt.co,1657.png,"{""bnb"":""0x9825a3DB53E8C21265cabbb73749d71E4Bd7b68B""}"
+1658,LUN,Lunyr,lunyr,lunyr.com,1658.png,"{""ethereum"":""0xfa05A73FfE78ef8f1a739473e462c54bae6567D9""}"
+1659,GNO,Gnosis,gnosis-gno,gnosis.io,1659.png,"{""ethereum"":""0x6810e776880c02933d47db1b9fc05908e5386b96"",""gnosis-gno"":""0x9c58bacc331c9aa871afd802db6379a98e80cedb"",""arbitrum"":""0xa0b862f60edef4452f25b4160f177db44deb6cf1""}"
+1660,TKN,Monolith,monolith,monolith.xyz,1660.png,"{""ethereum"":""0xaaaf91d9b90df800df4f55c205fd6989c977e73a""}"
