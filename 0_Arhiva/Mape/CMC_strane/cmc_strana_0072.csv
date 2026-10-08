@@ -1,0 +1,101 @@
+id,symbol,name,slug,web,logo,contract
+39970,ARX,Arcium,arcium,arcium.com,39970.png,"{""bnb"":""0xd5f6ef5deabe61e6d5cdb49bfb6f156f2c1ca715"",""solana"":""ARXwZkNAtzPfdcoqQiduJn8EPv9fKiDfGn2KyggyDrFs""}"
+39971,TEA,Tea Protocol,tea-protocol,tea.xyz,39971.png,"{""ethereum"":""0x7eA7ea50ed58BC4d0a9194bCD328E21F7Be80c2B""}"
+39972,SAN,San Chan (sanchanproject.org),san-chan-project,sanchanproject.org,39972.png,"{""solana"":""GQz5ThKHNcuAvMKA8rCPSdoFUoApk9Fi8qB9m3Gqpump""}"
+39973,PINX,Pinex,pinex,pinexs.io,39973.png,"{""bnb"":""0xD26dDD1c8b47d8cD1Fb0658e9f46CCDbCE581f52""}"
+39974,IBS,IBS,ibs,defi.pots.money,39974.png,"{""bnb"":""0x255e746aBb8D9Acac00d6d023e5E63E3b8DFA7cd""}"
+39975,ELIEN,ELIEN MUSK,elien-musk,elienmusk.site,39975.png,"{""bnb"":""0x3262B79f60BE859285ca42A083223ecd1df788C6""}"
+39979,GAYTES,Pill Gaytes,pill-gaytes,pillgaytes.com,39979.png,"{""solana"":""HSznAnNhSFgyRWiZh4m7pBmtjHsSLi4Dbmjp18zppump""}"
+39983,SN59,Agent Arena by Masa,agent-arena-by-masa,,39983.png,"{""bittensor"":""59""}"
+39984,SN79,τaos,aos-2,taos.im,39984.png,"{""bittensor"":""79""}"
+39985,SN15,BitQuant,bitquant,bitquant.io,39985.png,"{""bittensor"":""15""}"
+39986,SN75,Hippius,hippius,hippius.com,39986.png,"{""bittensor"":""75""}"
+39987,SN120,affine,affine,,39987.png,"{""bittensor"":""120""}"
+39988,SN68,NOVA,nova-3,metanova-labs.ai,39988.png,"{""bittensor"":""68""}"
+39989,SHLD,Global X Defense Tech ETF  (Derivatives),global-x-defense-tech-etf-derivatives,,39989.png,{}
+39990,WDC,Western Digital Corp (Derivatives),western-digital-corp-derivatives,,39990.png,{}
+39991,MDOM,MovieDom,moviedom,moviedom.com,39991.png,"{""ethereum"":""0x93B0D81fe10E5DB1927dD5a4346445EAFE548a2E""}"
+39994,ARM,Arm Holdings PLC - ADR (Derivatives),arm-holdings-plc-adr-derivatives,,39994.png,{}
+39995,COHR,Coherent (Derivatives),coherent-derivatives,,39995.png,{}
+39996,HD,Home Depot Inc (Derivatives),home-depot-inc-derivatives,,39996.png,{}
+39997,UBER,Uber Technologies Inc (Derivatives),uber-technologies-inc-derivatives,,39997.png,{}
+39998,DIS,Walt Disney Co (Derivatives),walt-disney-co-derivatives,,39998.png,{}
+39999,XFEE,XFee,xfee,xfee.fun,39999.png,"{""solana"":""96egraTCizRpzNx4WvMMhPJf7TKS7W5kUHeenmd1XfuN""}"
+40000,MIM,Magic Internet Money,magic-internet-money-og,magicinternetmoney.org,40000.png,"{""solana"":""89BZ5RU212yKr3iFdJHyn3ZsR37bS4s8TbmVb2yApump""}"
+40001,DAD,DADCOIN,dadcoin,dadcoinofficial.com,40001.png,"{""solana"":""CowyrEtbMX5oT211m3u9ayaBcTknsP2wh2zMWghbpump""}"
+40003,PURR,Hyperliquid Strategies Inc (Derivatives),hyperliquid-strategies-inc-derivatives,,40003.png,{}
+40004,VIRL,Virl.fun,virl-fun,virl.fun,40004.png,"{""solana"":""BiywH8Eq2CbGhwMHKwCnfTiccWJwN7r1Q4Qn9hsypump""}"
+40006,ATWO,Arena Two,arena-two,arenatwo.com,40006.png,"{""base"":""0x499D35eBE6cEe9B2Ac35Fd003fcBbeeB9CFc7B32""}"
+40007,FLNC,"Fluence Energy, Inc. Class A Common Stock (Derivatives)",fluence-energy-inc-class-a-common-stock-derivatives,,40007.png,{}
+40008,ZEST,Zest Protocol,zest-protocol,zestprotocol.com,40008.png,"{""ethereum"":""0xf326c8c9a691319f6330e27aa4a39f2d22c88dc5"",""bnb"":""0x5506599c722389a60580b5213ea1da60d64754a1"",""base"":""0x7297968ffb753dd12e4f6b1f18d9865c76707fc2""}"
+40009,USDI,USDi,us-dollar-indonesia,usdi.co.id,40009.png,"{""bnb"":""0x47ab9F2C9044c27BE6a9204E4650e00651baDBBe""}"
+40010,GLW,Corning Inc (Derivatives),corning-inc-derivatives,,40010.png,{}
+40011,BINI,Binibit,binibit,binibit.com,40011.png,"{""ethereum"":""0x5a76a2830859c321a50937a22fde571fbf4810f3""}"
+40013,JPM,JPmorgan Chase & Co (Derivatives),jpmorgan-chase-co-derivatives,,40013.png,{}
+40014,V,Visa Inc (Derivatives),visa-inc-derivatives,,40014.png,{}
+40015,WMT,Walmart Inc (Derivatives),walmart-inc-derivatives,,40015.png,{}
+40016,BRKB,Berkshire Hathaway Inc Class B (Derivatives),berkshire-hathaway-class-b-derivatives,,40016.png,{}
+40017,UMXM,Manadia,manadia,mana.app,40017.png,"{""bnb"":""0x44fc58faaaca03e5d52e493dae930ffa63e2a664""}"
+40018,TSPACEX,T-SpaceX tokenized stock (Tessera),t-spacex-tokenized-stock-tessera,tessera.pe,40018.png,"{""solana"":""TSPXcLV76s6V2zDiZQ18kBfcbnjaE2ZzNT3ga2Pd99v""}"
+40019,USDR,DollarCoin (dollarcoin.org),dollarcoin-org,dollarcoin.org,40019.png,"{""solana"":""8q6WW22cuTTXUTFzxPtZzc6vKxYz9Dv81KttmzVit7VE"",""ethereum"":""0x9623DfB044D5612Ce0c0F1606973CCAEFd03CD05"",""polygon-ecosystem-token"":""0x3B5F2810fB2168FfA9C73160F97BF9f2461fFa5c"",""base"":""0x3B5F2810fB2168FfA9C73160F97BF9f2461fFa5c""}"
+40021,NBIS,Nebius Group NV (Derivatives),nebius-group-nv-derivatives,,40021.png,{}
+40023,TMAI,Token Metrics AI (NEW),token-metrics-ai-new,tokenmetrics.com,40023.png,"{""solana"":""JBH3sZw1MFHunc4ifgLFkUKGecDpB1FwSXkEo8PnCD4Z""}"
+40026,PEPONK,PEPONK,peponk,peponk.io,40026.png,"{""solana"":""4W9nkDkmhVokuv84yeNkSMHQxh1Ta35GMkYMsACbpump""}"
+40027,JAM,JAM Coin,jam,coin.jamindonesia.com,40027.png,"{""solana"":""D5KojYsUGd53bFiGVpKnGEyCLQcnPPVr4mgco44Mo6fk""}"
+40028,EFUN,Eagle Fun (eagleworld.fun),eagle-fun,eagleworld.fun,40028.png,"{""bnb"":""0x6cbf442eaa9539ff93ba2dd7726933bb7b66feed""}"
+40029,MANIFEST,Manifesting (manifesting.meme),manifesting,manifesting.meme,40029.png,"{""solana"":""BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump""}"
+40030,ARCANE,Arcane,arcane,app.arcaneprivacy.com,40030.png,"{""solana"":""3jSL5nnnYcRLmTqFmwvY1Mikh42fQsT7p7NvXPYzanon""}"
+40031,ILY,ILITY,ility,ility.xyz,40031.png,"{""base"":""0x90Eb0e291e9D78A96bfe423B8E616A02c4838cF0""}"
+40032,CLIPX,ClipX,clipx,clipx.app,40032.png,"{""bnb"":""0xc269d59a0d608ea0bd672f2f4616c372d8554444""}"
+40033,USDI,Trivest USDI,trivest-usdi,trivestusdi.io,40033.png,"{""bnb"":""0xd248e72413c6f9c8583ea67b290f2920914fc101""}"
+40035,GEV,GE Vernova Inc (Derivatives),ge-vernova-inc-derivatives,,40035.png,{}
+40036,B4,Build4,build4,build4.io,40036.png,"{""bnb"":""0x1d547f9d0890ee5abfb49d7d53ca19df85da4444""}"
+40037,SNDKX,Sandisk Corporation tokenized stock(xstock),sandisk-corporation-xstock,xstocks.com,40037.png,"{""ethereum"":""0xb63efbc28860c8097e341de1fcf59456161e9d98"",""okb"":""0xb63EFBc28860c8097e341DE1fCF59456161E9D98""}"
+40039,UBERX,Uber tokenized stock(xStock),uber-xstock,xstocks.fi,40039.png,"{""ethereum"":""0xdb9783ca04bbd64fe2c6d7b9503a979b3de30729""}"
+40040,ARK,Ark Protocol (ark.win),ark-protocol,ark.win,40040.png,"{""ethereum"":""0x94faCf7455D18631c68f999965DcC714F17e8568""}"
+40041,ELIZAOK,elizaOK,elizaok,elizaok.com,40041.png,"{""bnb"":""0x7c1b951e9552b9295343cff464205739e713ffff""}"
+40042,EWT,iShares MSCI Taiwan ETF (Derivatives),ishares-msci-taiwan-etf-derivatives,,40042.png,{}
+40044,RTPBET,RTP.bet,rtp-bet,rtp-sol.com,40044.png,"{""solana"":""BafT6NoybUFdEMn8RUA9fyYUqeC5SgCCE9ccocAt5t6M""}"
+40045,小蝌蚪,小蝌蚪,xiaokedou,four.meme,40045.png,"{""bnb"":""0xbdebdf77948cc2143384121fdd76a5ac4b25ffff""}"
+40046,FUTU,Futu Holdings (Derivatives),futu-holdings-derivatives,,40046.png,{}
+40047,SLX,Solstice,solstice,solstice.finance,40047.png,"{""bnb"":""0x02bcC4C181B83a8c0A342BC003389CbEcb4BC54D"",""solana"":""SLXdx4BUt2v9uJQNzWqSfzTJ9UKLUDsvxHFMEEdrfgq""}"
+40049,TERMINUS,Terminus (terminus-city.io),terminus-city,terminus-city.io,40049.png,"{""bnb"":""0x7D74a3497856d0F463Af55CD489823a98Dfa6666""}"
+40057,STACCANA,Solana Fork Staccana,solana-fork-staccana,staccana.com,40057.png,"{""solana"":""73edX6xoGY4v5y2hzuKdrUbJXLntqgmo74au1Ki1pump""}"
+40058,PITCH,Pitch World Cup,pitch-world-cup,pitchwc.app,40058.png,"{""base"":""0xeaE13ea73BEc936664A51734c8c01ec7c3B0699C""}"
+40059,QUILL,Quill,quill,quill.computer,40059.png,"{""base"":""0x60A646e3fD75CdE4c5b604b22d4Fcd04639913C8""}"
+40060,SAC,ShadowsClaw,shadowsclaw,shadowsagent.net,40060.png,"{""bnb"":""0x7cc151c2Ee1016d7b586fb818759B6ae07719999""}"
+40061,WALLI,Wallitelli,wallitelli,wallitelli.ai,40061.png,"{""bnb"":""0xc6A031fd206C72c614dB391590F48a5Ed9B2f9dC""}"
+40062,HOPPY,HOPPY (hoppysol.com),hoppy-sol,hoppysol.com,40062.png,"{""solana"":""2RWndXkxWkaKhGjE7dZivVbK5qXtpwnCZJ1jpnxapump""}"
+40064,BE,Bloom Energy Corp (Derivatives),bloom-energy-corp-derivatives,,40064.png,{}
+40065,CRWD,CrowdStrike Holdings Inc (Derivatives),crowdstrike-holdings-inc-derivatives,,40065.png,{}
+40067,AAOI,Applied Optoelectronics Inc (Derivatives),applied-optoelectronics-inc-derivatives,,40067.png,{}
+40068,INFQ,Infleqtion Inc (Derivatives),infleqtion-inc-derivatives,,40068.png,{}
+40069,PLC,Pearl Chain (pearlchaintoken.com),pearl-chain,pearlchaintoken.com,40069.png,{}
+40072,NOK,Nokia Oyj (Derivatives),nokia-oyj-derivatives,,40072.png,{}
+40073,QAIT,QAIT,qait,qait.ch,40073.png,"{""bnb"":""0x4d41A5d412f4Ef44A35b9f53b06DB65edE249493""}"
+40074,PCAT,Phenomenal Cat,phenomenal-cat,phenomenalcatglobal.com,40074.png,"{""bnb"":""0xFeD56F9Cd29F44e7C61c396DAc95cb3ed33d3546""}"
+40076,ADBEX,Adobe tokenized stock(xStock),adobe-tokenized-stock-xstock,xstocks.fi,40076.png,"{""ethereum"":""0x16e0b579be45baae54ceddd52e742b6457a7fe12""}"
+40079,SBETX,SharpLink Gaming tokenized stock(xStock),sharplink-gaming-tokenized-stock-xstock,xstocks.fi,40079.png,"{""ethereum"":""0x338791c58fded314b81eab139a1a2fb7967d90d6""}"
+40080,XLEX,Energy Select Sector SPDR Fund tokenized stock(xStock),energy-select-sector-spdr-fund-tokenized-stock-xstock,xstocks.com,40080.png,"{""ethereum"":""0x6f75ac3b1b6fbe8bb5f948e25af03620f26ae838""}"
+40082,PANWX,Palo Alto Networks tokenized stock(xStock),palo-alto-networks-tokenized-stock-xstock,xstocks.fi,40082.png,"{""ethereum"":""0xe12bb32d77be4db10ddc82088b230d35d097e9c5""}"
+40083,TSMX,TSMC tokenized stock(xStock),tsmc-tokenized-stock-xstock,xstocks.fi,40083.png,"{""ethereum"":""0x9e3bf4ecfc44eedd624f26656b6736a3f093b073"",""okb"":""0x9e3bf4Ecfc44EeDD624F26656B6736a3F093b073""}"
+40087,AMAT,Applied Materials Inc (Derivatives),applied-materials-inc-derivatives,,40087.png,{}
+40088,DELL,Dell Technologies (Derivatives),dell-technologies-derivatives,,40088.png,{}
+40089,VRT,Vertiv Holdings Co (Derivatives),vertv-holdings-co-derivatives,,40089.png,{}
+40090,RAGEGUY,RAGEGUY (rageguy.meme),rageguy,rageguy.meme,40090.png,"{""solana"":""GvV7sFu6FHJsSVXfpG7xqFnWar3c7YkcC74rqe7Bpump""}"
+40091,YLDS,YLDS,ylds,figuremarkets.com,40091.png,{}
+40092,O,o1.exchange,o1-exchange,o1.exchange,40092.png,"{""base"":""0x182fa643e5f29d5eca75e7b9cf9336a3fe4620b2"",""bnb"":""0x500A02a20B0B0A3F3efCCFc0559543F5743bd1C4""}"
+40094,QNTX,Quantinuum Inc (Derivatives),quantinuum-inc-derivatives,,40094.png,{}
+40100,GULD,GULD,adventurewurld,adventurewurld.com,40100.png,"{""ethereum"":""0x14d6c649292c5c9790c5196d1a9ea039307947a1"",""bnb"":""0x14d6c649292c5c9790c5196d1a9ea039307947a1"",""base"":""0x14d6c649292c5c9790c5196d1a9ea039307947a1""}"
+40104,NVO,Novo Nordisk (Derivatives),novo-nordisk-derivatives,,40104.png,{}
+40105,BB,BlackBerry Ltd (Derivatives),blackberry-ltd-derivatives,,40105.png,{}
+40106,RDW,Redwire Corp (Derivatives),redwire-corp-derivatives,,40106.png,{}
+40107,LUNR,Intuitive Machines Inc (Derivatives),intuitive-machikes-inc-derivatives,,40107.png,{}
+40108,ASTS,AST SpaceMobile Inc (Derivatives),ast-spacemobile-inc-derivatives,,40108.png,{}
+40110,RH,RedHorse (red-horse.net),redhorse,red-horse.net,40110.png,"{""solana"":""A3rk5gtQ2S24Fhz8Ctfhjj2bDgK1SZF7fXvbH1Jty5Bp""}"
+40111,NOW,ServiceNow Inc (Derivatives),servicenow-inc-derivatives,,40111.png,{}
+40112,HPE,Hewlett Packard Enterprise Co (Derivatives),hewlett-packard-enterprise-co-derivatives,,40112.png,{}
+40113,HIMS,Hims & Hers Health (Derivatives),hims-hers-health-derivatives,,40113.png,{}
+40115,ADBE,Adobe Inc (Derivatives),adobe-inc-derivatives,,40115.png,{}
+40116,CRM,Salesforce Inc (Derivatives),salesforce-inc-derivatives,,40116.png,{}
+40117,IREN,IREN Ltd (Derivatives),iren-ltd-derivatives,,40117.png,{}
