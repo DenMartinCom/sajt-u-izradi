@@ -1,0 +1,40 @@
+id,symbol,name,slug,web,logo,contract
+42398,POD,Dolphin,dolphin,dphn.ai,42398.png,"{""base"":""0xed664536023d8e4b1640c394777d34abaff1df8f""}"
+42399,H100,H100 Group AB (Derivatives),h100-group-ab-derivatives,,42399.png,{}
+42401,MASK,Nullmask,nullmask,nullmask.io,42401.png,"{""solana"":""HuAXPyDWDaMYFKuwQHpqL1oPnj93zdzWmtvFGzCeCUa7""}"
+42402,ORE,Hollowfall,hollowfall,hollowfall.app,42402.png,"{""robinhood-placeholder"":""0x9161cdB8bD4C21375e85c3FE7a5cE74a6ba5Da06""}"
+42403,SI,Super Ishikawa,super-ishikawa,superishikawa.com,42403.png,"{""robinhood-placeholder"":""0x21551503BcbeafA2aBEa7831DE8598eaFbEd9A79""}"
+42404,USDE,StablecoinX Inc. (Derivatives),stablecoinx-inc-derivatives,,42404.png,{}
+42405,VKTX,Viking Therapeutics Inc (Derivatives),viking-therapeutics-inc-derivatives,,42405.png,{}
+42406,MCD,McDonald's Corp (Derivatives),mcdonalds-corp-derivatives,,42406.png,{}
+42407,AKAM,Akamai Technologies Inc (Derivatives),akamai-technologies-inc-derivatives,,42407.png,{}
+42409,WHUF,Whuffie,whuffie,ethos.network,42409.png,"{""base"":""0xeeee77bc7e82c0d4166d52f58239d4c5bf41eeee""}"
+42410,SDEV,Stablecoin Development Corp (Derivatives),stablecoin-development-corp-derivatives,,42410.png,{}
+42411,UMC,United Microelectronics Corporation (Derivatives),united-microelectronics-corporation-derivatives,,42411.png,{}
+42412,NEARKAT,NEARKAT (nearkat.xyz),nearkat-xyz,nearkat.xyz,42412.png,"{""solana"":""6UtY9iTZMQQ5QZVrbzFnNaJntV7oySm9k97mvwnuZcxr""}"
+42415,LLYB,Eli Lilly Tokenized bStocks,eli-lilly-tokenized-bstocks,bstocks.finance,42415.png,"{""bnb"":""0x5407912f1aa4b9e05cbe6abeb9721547a643ec6b""}"
+42416,JPMB,JPMorgan Chase Tokenized bStocks,jpmorgan-chase-tokenized-bstocks,bstocks.finance,42416.png,"{""bnb"":""0xbd49d695ba2cc46c8c603eb62afcd7fff4698281""}"
+42417,SECZB,Securitize Tokenized bStocks,securitize-tokenized-bstocks,bstocks.finance,42417.png,"{""bnb"":""0x32c980f38907ace4fac643c3765d9b32842af60f""}"
+42418,USDEB,StablecoinX Tokenized bStocks,stablecoinx-tokenized-bstocks,bstocks.finance,42418.png,"{""bnb"":""0xdfd3ba51d4591f243481a6f26059d1a5ee95252f""}"
+42419,MRVLC,"Marvell Technology, Inc. Tokenized Stock (Coinbase)",marvell-technology-inc-tokenized-stock-coinbase,,42419.png,"{""base"":""0xB200000000000000000000eC3c4c7395Cc609813""}"
+42421,GOOGLC,Alphabet Inc. Tokenized Stock (Coinbase),alphabet-inc-tokenized-stock-coinbase,,42421.png,"{""base"":""0xb2000000000000000000002D0BA3164cc74f58B7""}"
+42424,RDDTC,"Reddit, Inc. Tokenized Stock (Coinbase)",reddit-inc-tokenized-stock-coinbase,,42424.png,"{""base"":""0xb20000000000000000000066242d4067724cB7A1""}"
+42425,AMZNC,Amazon.com Inc. Tokenized Stock (Coinbase),amazoncom-inc-tokenized-stock-coinbase,,42425.png,"{""base"":""0xb200000000000000000000d9192b6B456483C2E8""}"
+42427,AAPLC,Apple Inc. Tokenized Stock (Coinbase),apple-inc-tokenized-stock-coinbase,,42427.png,"{""base"":""0xb200000000000000000000C2e324d24d7eEcd1fb""}"
+42430,LLYC,Eli Lilly & Co Tokenized Stock (Coinbase),eli-lilly-co-tokenized-stock-coinbase,,42430.png,"{""base"":""0xB200000000000000000000f1a0F91e34892E4718""}"
+42431,MUC,Micron Technology Inc. Tokenized Stock (Coinbase),micron-technology-inc-tokenized-stock-coinbase,,42431.png,"{""base"":""0xb200000000000000000000Fd2f87532B90095211""}"
+42434,HTZC,"Hertz Global Holdings, Inc. Tokenized Stock (Coinbase)",hertz-global-holdings-inc-tokenized-stock-coinbase,,42434.png,"{""base"":""0xb2000000000000000000002601C5C94F435da168""}"
+42440,METAC,Meta Platforms Inc. Tokenized Stock (Coinbase),meta-platforms-inc-tokenized-stock-coinbase,,42440.png,"{""base"":""0xb2000000000000000000008bC8786B856E61707C""}"
+42460,GMEC,GameStop Corp. Tokenized Stock (Coinbase),gamestop-corp-tokenized-stock-coinbase,,42460.png,"{""base"":""0xb2000000000000000000007790ed6E48e06eD935""}"
+42461,NVDAC,NVIDIA Corporation Tokenized Stock (Coinbase),nvidia-corporation-tokenized-stock-coinbase,,42461.png,"{""base"":""0xb20000000000000000000078ee7ce2fE4908108C""}"
+42462,PLTRC,Palantir Technologies Inc. Tokenized Stock (Coinbase),palantir-technologies-inc-tokenized-stock-coinbase,,42462.png,"{""base"":""0xb2000000000000000000007d16372840dF4dAbbe""}"
+42467,MSTRC,Strategy Inc. Tokenized Stock (Coinbase),strategy-inc-tokenized-stock-coinbase,,42467.png,"{""base"":""0xb2000000000000000000004884b426556b92883d""}"
+42468,NFLXC,Netflix Inc Tokenized Stock (Coinbase),netflix-inc-tokenized-stock-coinbase,,42468.png,"{""base"":""0xb20000000000000000000058B8c947e44011dFE6""}"
+42473,AMDC,"Advanced Micro Devices, Inc. Tokenized Stock (Coinbase)",advanced-micro-devices-inc-tokenized-stock-coinbase,,42473.png,"{""base"":""0xB2000000000000000000000d8ce462E99ee7A47B""}"
+42478,SNDKC,Sandisk Corporation Tokenized Stock (Coinbase),sandisk-corporation-tokenized-stock-coinbase,,42478.png,"{""base"":""0xb200000000000000000000397293Cb8cda9a10c5""}"
+42486,HIMSC,"Hims & Hers Health, Inc. Tokenized Stock (Coinbase)",hims-hers-health-inc-tokenized-stock-coinbase,,42486.png,"{""base"":""0xB20000000000000000000043a599976181Bcf336""}"
+42487,SPCXC,Space Exploration Technologies Corp. Tokenized Stock (Coinbase),space-exploration-technologies-corp-tokenized-stock-coinbase,,42487.png,"{""base"":""0xb2000000000000000000007b9fcbd005511aCBd5""}"
+42490,TSLAC,Tesla Inc. Tokenized Stock (Coinbase),tesla-inc-tokenized-stock-coinbase,,42490.png,"{""base"":""0xb2000000000000000000001e800a7f5189430cD0""}"
+42494,MSFTC,Microsoft Corporation Tokenized Stock (Coinbase),microsoft-corporation-tokenized-stock-coinbase,,42494.png,"{""base"":""0xB200000000000000000000Ab99cFa739E253872B""}"
+42497,RACE,Ferrari N.V. tokenized stock (Backpack),ferrari-n-v-tokenized-stock-backpack,backpack.exchange,42497.png,"{""solana"":""RACEyWiM2ztEZcJx2AHXU2eWjhxU57x3vXn92b39dLD""}"
+42521,JEANPHIL,Jean Phil,jean-phil,jeanphilmadame.com,42521.png,"{""solana"":""GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump""}"
