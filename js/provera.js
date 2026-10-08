@@ -260,7 +260,7 @@ async function pustiKes() {
     alert('Keš već nije pauziran.');
     return;
   }
-  if (!confirm('Pustiti keš? Upareni tokeni idu u novi_koini, neupareni se brišu iz meta.')) return;
+  if (!confirm('Pustiti keš? Upareni tokeni idu u novi_koini, neupareni ostaju u meta (brišu se samo cg/cs id).')) return;
 
   try {
     const r = await fetch(`${API}/pusti-kes`);
@@ -384,7 +384,7 @@ async function pokreni() {
 
     // 2) meta (mapa po cmc_id)
     for (const [cmcId, i] of Object.entries(meta)) {
-      if (i.cmc == null || !i.simbol) continue;
+      if (i.cmc == null) continue;
       const cmcStr = String(i.cmc);
       if (upariSet.has(cmcStr)) continue;
       const jeNovi = noviKoiniSet.has(cmcStr);
