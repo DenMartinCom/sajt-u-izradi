@@ -1,0 +1,101 @@
+id,symbol,name,slug,web,logo,contract
+42272,GOOGON,Alphabet Class C Tokenized Stock (Ondo),alphabet-class-c-tokenized-stock-ondo,app.ondo.finance,42272.png,"{""ethereum"":""0x36B90aDcDC99Be31BF39A3c031288bAa0B457E10"",""bnb"":""0x817f1f6780F99BCaAc394A59CB0261962df5Da8b"",""solana"":""jcA9zXHWuTuDFDDDDYJTNhersed1B5etkuB6X9Eondo""}"
+42273,HYDBON,iShares High Yield Systematic Bond Tokenized ETF (Ondo),ishares-high-yield-systematic-bond-tokenized-etf-ondo,app.ondo.finance,42273.png,"{""ethereum"":""0xe109dFbF450eC2b9944900830b8DA22EaA59F1A3"",""bnb"":""0x97B2FD5fC2F3e0dfD72D45734e360961528B6c63"",""solana"":""71VH3YQkjqqGxzwYvGhsCsJNQYzkMo9Rg72aVxqondo""}"
+42274,HTZON,Hertz Global Holdings Tokenized Stock (Ondo),hertz-global-holdings-tokenized-stock-ondo,app.ondo.finance,42274.png,"{""ethereum"":""0x7E95779D2d7B4a654A4ac80cB6423aE8998Cf1e7"",""solana"":""QApMAZTHvfhX2dTDzM8AMyAHVyhmPVwj4oY8Jveondo"",""bnb"":""0xB18C6A83490DDDbc9A83b011173b5B2Fb5dC1272""}"
+42275,WENON,Wendy's Tokenized Stock (Ondo),wendys-tokenized-stock-ondo,app.ondo.finance,42275.png,"{""ethereum"":""0x613518b520241f90c3E023Bb6006c63A5019CA7B"",""solana"":""QwJ619MuDRvT1f29RH7tMdaqsUnaSNcvBEJAZkHondo"",""bnb"":""0x79ed7f4d9668E8e7AaadD12A711d19064840B9A5""}"
+42276,USHYON,iShares Broad USD High Yield Tokenized ETF (Ondo),ishares-broad-usd-high-yield-tokenized-etf-ondo,app.ondo.finance,42276.png,"{""ethereum"":""0x6830f7BBFD274e393a32846918DA9De210879AE4"",""bnb"":""0xc992e5f8dA1b99cB941B0a259bE9014CFfE89Ccf"",""solana"":""aau4XCAZR6p9uC4vgdHdh4ip3oW5pr5PrNs3FJ8ondo""}"
+42277,LADYBUG,LADYBUG,ladybug,ladybug.cash,42277.png,"{""solana"":""7TgfC7finEVA1QcCbn1Jb2cz4RiDL4if4ATEGHZupump""}"
+42279,FRONG,frong,frong,pools.trade,42279.png,"{""robinhood-placeholder"":""0x6245e67affa44a23077f0ea7f981a8dc743a0c47""}"
+42280,FLYBRAIN,Flybrain,flybrain,flybrain.online,42280.png,"{""robinhood-placeholder"":""0x4Eb990547BCe4a982432CA88Cf5fae7EED1A2d35""}"
+42281,DARK,DarkRoute (darkroute.exchange),darkroute,darkroute.exchange,42281.png,"{""robinhood-placeholder"":""0xebb4c5b97e4117e30ec82ce025e6f21dded05436""}"
+42283,PPOLY,Paimon Polymarket SPV Token,paimon-polymarket-spv-token,paimon.finance,42283.png,"{""bnb"":""0x1D80392D12CAAaF9E333Bb0bb7f021eaCf297Fe6""}"
+42287,CME,Commodity Market Exchange,commodity-market-exchange,commodites.market,42287.png,"{""robinhood-placeholder"":""0xe2324ff2a59f8ecba8c321c6466e59121c00e795""}"
+42288,ZZZ,ZZZ,zzz,ponsfamily.com,42288.png,"{""robinhood-placeholder"":""0x7dbf38976f6d3b9c529e7d9484a71898b409ee6a""}"
+42289,AC,Artificial Cat (artificialcat.meme),artificial-cat,artificialcat.meme,42289.png,"{""robinhood-placeholder"":""0xfad40755de679b262337f8d964d75cac51f8c643""}"
+42290,BNCB,CEA Industries Tokenized bStocks,cea-industries-tokenized-bstocks,bstocks.finance,42290.png,"{""bnb"":""0x4902c5ebc598265ed2212b559b042de8a5eeec3f""}"
+42291,DOGSHIT,Dogshit (dogshit-bnb.com),dogshit-bnb,dogshit-bnb.com,42291.png,"{""bnb"":""0x389CB330E4EaA0CCE969759F01a416448FeD6666""}"
+42292,FLAP,[COMMUNITY] FLAP,community-flap,,42292.png,"{""bnb"":""0x64a6C4C1c558BE705c66eE60cd4AD5f2cc2c7777""}"
+42293,STETH,staked ETH (steth.pro),steth-pro,steth.pro,42293.png,"{""base"":""0x000000000493a27D6c7e4a6745B1f800013e2AcA""}"
+42294,APM,apM Fashion,apm-fashion,apm.fashion,42294.png,"{""bnb"":""0x72a22fAA6a522C81A8F5d508381e18af3dA0921E""}"
+42295,OPENAIX1L,OPENAI 1x Long,openai-1x-long,app.long.xyz,42295.png,"{""robinhood-placeholder"":""0xfe09Fb328bE1c286B4f597eD34764b7472ae72c5""}"
+42296,ANTHROPICX1L,ANTHROPIC 1x Long,anthropic-1x-long,app.long.xyz,42296.png,"{""robinhood-placeholder"":""0x1937caD42b17D43bB2b347ce16d5288887C46c33""}"
+42297,XL,X Link (xl.money),x-link,xl.money,42297.png,"{""robinhood-placeholder"":""0x1cdb289befdfac8af945a288bcdccc382cb34d32""}"
+42300,RAYCAT,Raydium Cat,raydium-cat,raycatsolana.com,42300.png,"{""solana"":""CFNRDaxFcvRwRSNnA5cHrCCr6AHhk9dNkHWpRUjNupFL""}"
+42301,ABI,Artificial Baby Inu (artificialbabyinu.com),artificial-baby-inu,artificialbabyinu.com,42301.png,"{""robinhood-placeholder"":""0x657bd0541f2e8f89bdb85bcd91589695ca24b85a""}"
+42302,RDDTB,Reddit Tokenized bStocks,reddit-tokenized-bstocks,bstocks.finance,42302.png,"{""bnb"":""0x41622a9125a22767df8c1dc79fc17299bac4bd0b""}"
+42303,GPROB,GoPro Tokenized bStocks,gopro-tokenized-bstocks,bstocks.finance,42303.png,"{""bnb"":""0x1ecfda023c46ca216b5c620ef357a6d0c03951e6""}"
+42305,FLWS,1-800-Flowers.Com tokenized stock (Backpack),1-800-flowers-com-tokenized-stock-backpack,backpack.exchange,42305.png,"{""solana"":""FLWSojG1gB5VStYR3Sb4nQFRt43UBYkqih1j2CpVLqgd""}"
+42307,KNOTS,KNOTS,knots,knotsonstonk.com,42307.png,"{""solana"":""8RVBk8vxLiUHueLUW1f4izFVqN3nWippLhkohKg6EGkS""}"
+42308,ARGUS,Argus,argus-arc,argus.world,42308.png,"{""arc-token"":""0xece5ca8bf9220718e5727754026757512212cb3c""}"
+42309,BLUECHIP,BLUE CHIP (basebluechip.com),basebluechip,basebluechip.com,42309.png,"{""base"":""0xb200000000000000000000cfbdf64a8706a94a01""}"
+42311,MALA,Malachite,malachite,malachitearc.com,42311.png,"{""arc-token"":""0x4F7DC89dc44aD08c20d9680d2Ee9cfad69BFDa55""}"
+42316,MUSEBOOK,Musebook,musebook,musebook.lol,42316.png,"{""robinhood-placeholder"":""0x91a2dae9699f0b82540b5886b0d8759c22820ba3""}"
+42317,妖蝶,妖蝶,yao-die,flap.sh,42317.png,"{""bnb"":""0xf609E7C374Ee82001C3C9834C63d8c8CC6eD7777""}"
+42318,BUCKET,Bucket Shop,bucket-shop,bucketmarkets.com,42318.png,"{""robinhood-placeholder"":""0xbc9E7b1c5C0081f4aE85e71eC95703d3dEC9ffaD""}"
+42319,TREAD,Tread.fi,tread,treadfoundation.com,42319.png,"{""ethereum"":""0x31EEA0EDeb85B0cB65c1400bd2F4e487fD61B537""}"
+42320,DCA,DCA PROTOCOL,dca-protocol,dca-pro.vip,42320.png,"{""bnb"":""0x61e91Daf03a49eceC334bFfBf5008860cfB33333""}"
+42321,PATH,UiPath Inc (Derivatives),uipath-inc-derivatives,,42321.png,{}
+42322,AMC,AMC Entertainment Holdings Inc (Derivatives),amc-ntertainment-holdings-inc-derivatives,,42322.png,{}
+42323,CYPH,Cypherpunk Technologies Inc (Derivatives),cypherpunk-technologies-inc-derivatives,,42323.png,{}
+42324,ANET,Arista Networks Inc (Derivatives),arista-networks-inc-derivatives,,42324.png,{}
+42325,HUT,Hut 8 Corp (Derivatives),hut-8-corp-derivatives,,42325.png,{}
+42327,CVX,Chevron Corporation (Derivatives),chevron-corporation-derivatives,,42327.png,{}
+42328,TLT,iShares 20+ Year Treasury Bond ETF (Derivatives),ishares-20-year-treasury-bond-etf-derivatives,,42328.png,{}
+42329,MAXI,Maxi,maxi,maxi.family,42329.png,"{""robinhood-placeholder"":""0x7581ec9347669477711d146e0e43bddda474f415""}"
+42330,CZR,CZR Token,czr-token,czrex.com,42330.png,"{""ethereum"":""0xfeD863B6A995BE69c2BBc5089BcDa5414793CE24""}"
+42332,GOLDEN,Golden Kitty,golden-kitty,goldenkitty.vip,42332.png,"{""robinhood-placeholder"":""0x92e4B008161aC64a7D0C5e540F453F8e6B8Bd8D7""}"
+42333,BCH2,Bitcoin Cash II,bitcoin-cash-ii,bch2.org,42333.png,{}
+42334,TYTAN,TYTAN,tytan,tytan.cc,42334.png,"{""solana"":""BnYKTZjTf42u5G9qqsBBzYCuGZT8CvrGL3JuRcLnpump""}"
+42335,USDBRL,1 US Dollar (USD) to Brazil Real (BRL) (Derivatives),1-us-dollar-to-brazil-real-derivatives,,42335.png,{}
+42337,GSTOCK,Gstock,gstock,gstockbnb.lol,42337.png,"{""bnb"":""0xcAFdBCE93477261Db8250e42BdAe6E66733F9E20""}"
+42338,AWIN,AlphaWin,alphawin,alphawin.org,42338.png,"{""bnb"":""0x46b30Db2C2FDC8925C891aA377e9e6f3Bc5FE4f5""}"
+42339,POLYMARKET,Polymarket (Derivatives),polymarket-derivatives,,42339.png,{}
+42342,UNIVERSE,UNIVERSE,universe-meme,universe.meme,42342.png,"{""ethereum"":""0xaf3f58C4f9baAf2f10A5e39dA75b9F894F63087A""}"
+42343,NEFE,NEFE Coin,nefe-coin,nefecoin.com,42343.png,"{""bnb"":""0x8b953E1B3D563c40F688350EB859575Be0989FD7""}"
+42345,FAZE,Faze,faze,faze.fun,42345.png,"{""arc-token"":""0x394D38F807eE0027A182216f5e67a15Ae441FA2E""}"
+42346,BLKHION,High Income Powered by BlackRock Tokenized Assets (Ondo),high-income-powered-by-blackrock-tokenized-assets-ondo,app.ondo.finance,42346.png,"{""ethereum"":""0x787769d6Fc857169F5243ef66d3f0a954149d3BA"",""bnb"":""0xf78155dC15B838b7577002bc53bBe1041cA48622""}"
+42347,BLKGRWON,High Growth Powered by BlackRock Tokenized Assets (Ondo),high-growth-powered-by-blackrock-tokenized-assets-ondo,app.ondo.finance,42347.png,"{""ethereum"":""0xc90341Cb9cb8D65AF044FaB23b659b7b4279399B"",""bnb"":""0xE4Bd77247671746CaA3119E9FEAA146F8a4EE237""}"
+42348,MAG7XON,Magnificent 7 and Crypto Portfolio Tokenized Assets (Ondo),magnificent-7-and-crypto-portfolio-tokenized-assets-ondo,app.ondo.finance,42348.png,"{""ethereum"":""0xEE69f45715bfa6A4cffe2bB7e0D71093B9D58705"",""bnb"":""0x50436eC45316A98E72b03Ead5752E8543f11ec09""}"
+42349,BRAINON,AI Leaders Portfolio Tokenized Assets (Ondo),ai-leaders-portfolio-tokenized-assets-ondo,app.ondo.finance,42349.png,"{""ethereum"":""0x8D7A1FCFaf626f8db3852c12D4cdC863D9441283"",""bnb"":""0x0574e53f8214d0402C8388B4402113a74354d1b0""}"
+42350,YLD5ON,5 Targeted Income TR Portfolio Tokenized Assets (Ondo),5-targeted-income-tr-portfolio-tokenized-assets-ondo,app.ondo.finance,42350.png,"{""ethereum"":""0x3D68E46bA86ebe702B2399245730DdE2f7e4B077"",""bnb"":""0x0Cfd1030E2431E0fA15D4cc3F3E43076FE93F8f9""}"
+42351,YLD8ON,8 Targeted Income TR Portfolio Tokenized Assets (Ondo),8-targeted-income-tr-portfolio-tokenized-assets-ondo,app.ondo.finance,42351.png,"{""ethereum"":""0xA045c4477fb0a0630A50e7915a7fb4d82eDE362B"",""bnb"":""0x2f20d5dfbAFfa3e6351E06B8b18059747CD7ee72""}"
+42352,BLKDIGON,Diversified Growth Powered by BlackRock Tokenized Assets (Ondo),diversified-growth-powered-by-blackrock-tokenized-assets-ondo,app.ondo.finance,42352.png,"{""ethereum"":""0x6e17534A1Fc047907d8f422Ca166944d6469e053"",""bnb"":""0xe658C62195f32bc53226e7E2642e3D76B4382FB8""}"
+42353,AGPUB,Axe Compute Tokenized bStocks,axe-compute-tokenized-bstocks,bstocks.finance,42353.png,"{""bnb"":""0xa455ae0f04a2b86eee47adca98985e61d14cbefb""}"
+42354,CYPHB,Cypherpunk Technologies Tokenized bStocks,cypherpunk-technologies-tokenized-bstocks,bstocks.finance,42354.png,"{""bnb"":""0x0393c28065c54e48b45bdb05eff5c401cf891da1""}"
+42355,AMCB,AMC Entertainment Holdings Tokenized bStocks,amc-entertainment-holdings-tokenized-bstocks,bstocks.finance,42355.png,"{""bnb"":""0x96e7d606e229448ef817a7f35fd7394c3e15d00c""}"
+42356,MOONSHOT,Moonshot AI (Derivatives),moonshot-ai-derivatives,,42356.png,{}
+42357,GLXY,Galaxy Digital Tokenized Stock (Robinhood),galaxy-digital-inc,,42357.png,"{""robinhood-placeholder"":""0x2d427692e928fa156ec22acfabafa0447c5805b7""}"
+42358,IBM,IBM Tokenized Stock (Robinhood),ibm-tokenized-stock-robinhood,,42358.png,"{""robinhood-placeholder"":""0x980dcf6766FA79f5Cf0c4AAdb3ab477ff15a9619""}"
+42359,SNAP,Snap Tokenized Stock (Robinhood),snap-tokenized-stock-robinhood,,42359.png,"{""robinhood-placeholder"":""0xf6589f11bc40b669e584073f428b05562f568733""}"
+42360,MTX,Matrix (matrix.app),matrix-app,matrix.app,42360.png,"{""ethereum"":""0x000025b3816630ad283267d4eB3a5FC8b0200000""}"
+42361,AGRIPPA,Agrippa,agrippa,,42361.png,"{""robinhood-placeholder"":""0x83a49b808f8d5e02cb2931cd2352988f498e5ba3""}"
+42363,OURA,Oura Inc (Derivatives),oura-inc-derivatives,,42363.png,{}
+42364,LUV,Southwest Airlines Co tokenized stock (Backpack),southwest-airline-tokenized-stock-backpack,backpack.exchange,42364.png,"{""solana"":""LUV9GB51PNZNRyzzyYK3rtqFfvDvWtRiXZ34wVq2HrX""}"
+42365,CAT,Catching Absolute Tops (catchingabsolutetops.com),catching-absolute-tops,catchingabsolutetops.com,42365.png,"{""solana"":""8erE7RkkoiGYJtCyQdfwMpnNA8cAkY14Xe6RYjjHAdKP""}"
+42366,PAID,Paid,paid,usepaid.app,42366.png,"{""solana"":""98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump""}"
+42368,CCL,Carnival Corporation Ltd (Derivatives),carnival-corporation-derivatives,,42368.png,{}
+42369,CELH,Celsius Holdings Inc (Derivatives),celsius-holdings-derivatives,,42369.png,{}
+42370,OKLO,Oklo Inc. (Derivatives),oklo-inc-derivatives,,42370.png,{}
+42371,TWST,Twist Bioscience Corp (Derivatives),twist-bioscience-corp-derivatives,,42371.png,{}
+42372,CVNA,Carvana Co (Derivatives),carvana-co-derivatives,,42372.png,{}
+42373,RUM,Rum Group Inc (Derivatives),rum-group-inc-derivatives,,42373.png,{}
+42374,XOM,ExxonMobil Holdings Corporation (Derivatives),exxonmobil-holdings-corporation-derivatives,,42374.png,{}
+42375,EWY,ishares MSCI South Korea tokenized ETF (Backpack),ishares-msci-south-korea-tokenized-etf-backpack,backpack.exchange,42375.png,"{""solana"":""EWY4owSJYMpwN33qGDu5gGxpkQkpMJu8ZUsQJaNZG5dv""}"
+42376,NOK,Nokia Oyj (Backpack),nokia-oyj-backpack,backpack.exchange,42376.png,"{""solana"":""N7Q5fYX7YRnDQksfdBKnoUb3awm92n7QNAD35X3Rq1X""}"
+42377,CRML,Critical Metals Corp (Derivatives),critical-metals-corp-derivatives,,42377.png,{}
+42378,BWET,Breakwave Tanker Shipping ETF (Derivatives),breakwave-tanker-shipping-etf-derivatives,,42378.png,{}
+42379,ACN,Accenture plc Class A Ordinary Shares (Derivatives),accenture-plc-class-a-ordinary-shares-derivatives,,42379.png,{}
+42380,MP,MP Materials Corp (Derivatives),mp-materials-corp-derivatives,,42380.png,{}
+42381,SECZ,Securitize Corp (Derivatives),securitize-corp-derivatives,,42381.png,{}
+42382,NKE,Nike Inc (Derivatives),nike-inc-derivtaives,,42382.png,{}
+42383,PDDB,PDD Holdings Tokenized bStocks,pdd-holdings-tokenized-bstocks,bstocks.finance,42383.png,"{""bnb"":""0x95b0409679b55c31772daa2fb4bee7b125b77521""}"
+42384,ADBEB,Adobe Tokenized bStocks,adobe-tokenized-bstocks,bstocks.finance,42384.png,"{""bnb"":""0x65c0249d49e3231540fd0db0a1ae9259e6eaaf57""}"
+42385,HPEB,Hewlett Packard Tokenized bStocks,hewlett-packard-tokenized-bstocks,bstocks.finance,42385.png,"{""bnb"":""0xd56eb30d2ea7b5866dc0066d33bbaab36f7e8860""}"
+42386,FWDIB,Forward Industries Tokenized bStocks,forward-industries-tokenized-bstocks,bstocks.finance,42386.png,"{""bnb"":""0x83f1a739fae6517c4672c5e10c8ea918925eb584""}"
+42387,WENB,Wendy's Tokenized bStocks,wendys-tokenized-bstocks,bstocks.finance,42387.png,"{""bnb"":""0xded1c5fb38c262beb9cff1e1116eff3c5bf278cd""}"
+42388,ZMB,Zoom Tokenized bStocks,zoom-tokenized-bstocks,bstocks.finance,42388.png,"{""bnb"":""0xf4ddb292fe88e476eddd9869d386705e6bfab7a2""}"
+42389,SHAZB,SharonAI Tokenized bStocks,sharonai-tokenized-bstocks,bstocks.finance,42389.png,"{""bnb"":""0x0f31e21b7881f5583ea94ddbcb0bcaf22b1abeab""}"
+42393,ZC,zipcoin,zipcoin-cash,zipcoin.cash,42393.png,"{""ethereum"":""0x4E67DB19044549fF420860834c91b45BaD298722""}"
+42394,W0G,Wrapped 0G,wrapped-zero-gravity,0gfoundation.ai,42394.png,"{""ethereum"":""0x4C1Dab3Be86347977F3DfC4b9688224ef2272939"",""base"":""0x23cd099eB438CcA50349EE2BC809196b1ae00861"",""solana"":""gNyJyS9pQt33o4y4L3gdWZAF2XHgPrCBRQuaiCZStMe"",""robinhood-placeholder"":""0x32003CC8357938bCF615c1222a349c58f2B30698""}"
+42395,SI,Super Inu,super-inu-2,stonkfun.xyz,42395.png,"{""solana"":""DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP""}"
+42397,PORKU,HoodPork,hoodpork,porkhood.xyz,42397.png,"{""robinhood-placeholder"":""0xf4c5015bbeaa89cb6c60b0ecafea05351533f4cd""}"
