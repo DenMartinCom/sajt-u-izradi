@@ -53,3 +53,4 @@ request-network,req,Request,request-network,request.network,,"{""ethereum"": ""0
 atoshi,atos,Atoshi,atoshi,atoshi.org,,"{""ethereum"": ""0x4d0528598f916fd1d8dc80e5f54a8feedcfd4b18""}"
 orbio-so,orbio,Orbio.so,orbio-so,orbio.so,,"{""robinhood"": ""0xaa07a0e9209e16ac99708c3ec70159c6ef3128a3""}"
 loaded-lions,lion,Loaded Lions,loaded-lions,loadedlions.com,,"{""cronos"": ""0x9d8c68f185a04314ddc8b8216732455e8dbb7e45"", ""solana"": ""7kN5FQMD8ja4bzysEgc5FXmryKd6gCgjiWnhksjHCFb3"", ""arbitrum-one"": ""0x527e8d368298dea5a53be257e5300f4dbafb7a97""}"
+band-protocol,band,Band,band-protocol,bandprotocol.com,,"{""ethereum"": ""0xba11d00c5f74255f56a5e366f4f77f5a186d7f55"", ""fantom"": ""0x46e7628e8b4350b2716ab470ee0ba1fa9e76c6c5"", ""osmosis"": ""ibc/F867AE2112EFE646EC71A25CD2DFABB8927126AC1E19F1BBF0FF693A4ECA05DE"", ""energi"": ""0xb2ef65460bf71a05d59fdf5e8f114a32d445d164""}"
