@@ -76,3 +76,4 @@ gatechain-token,gt,Gate,gatetoken,gatechain.io,,"{""ethereum"": ""0xe66747a101bf
 venice-token,vvv,Venice Token,venice-token,venice.ai,,"{""base"": ""0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf""}"
 algorand,algo,Algorand,algorand,algorand.foundation,,"{"""": """"}"
 polygon-ecosystem-token,pol,POL (ex-MATIC),polygon,polygon.technology,,"{""ethereum"": ""0x455e53cbb86018ac2b8092fdcd39d8444affc3f6"", ""polygon-pos"": ""0x0000000000000000000000000000000000001010""}"
+kucoin-shares,kcs,KuCoin,kucoin-shares,kucoin.com,,"{"""": """"}"
