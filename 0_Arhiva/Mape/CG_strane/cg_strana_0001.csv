@@ -370,3 +370,4 @@ o1-exchange,o,o1.exchange,o1-exchange,o1.exchange,,"{""base"": ""0x182fa643e5f29
 theta-fuel,tfuel,Theta Fuel,theta-fuel,thetatoken.org,,"{"""": """"}"
 tesla-xstock,tslax,Tesla xStock,tesla-xstock,xstocks.com,,"{""arbitrum-one"": ""0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0"", ""mantle"": ""0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0"", ""ethereum"": ""0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0"", ""binance-smart-chain"": ""0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0"", ""solana"": ""XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB"", ""the-open-network"": ""EQB4IwqWZPUczntdry8vSN2tsJKt-9F7iIb7gEFREYYOB563""}"
 talus,us,Talus,talus-2,talus.network,,"{""sui"": ""0xee962a61432231c2ede6946515beb02290cb516ad087bb06a731e922b2a5f57a::us::US""}"
+tori-trusd,trusd,Tori trUSD,tori-trusd,tori.finance,,"{""ethereum"": ""0xd0580192e98ea6ceb9c7b6191ed2e27560911697""}"
