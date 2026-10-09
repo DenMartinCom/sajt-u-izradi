@@ -270,3 +270,4 @@ cap-4,cap,Cap,cap,cap.app,,"{""ethereum"": ""0x99991c6aabba5a096f24f250b73580f51
 gala,gala,GALA,gala,gala.com,,"{""ethereum"": ""0xd1d2eb1b1e90b638588728b4130137d262c87cae"", ""solana"": ""eEUiUs4JWYZrp72djAGF1A8PhpR6rHphGeGN7GbVLp6"", ""galachain"": ""E3bVbsc7viP1A8tn3ayChk3BAt""}"
 debridge,dbr,deBridge,debridge,debridge.com,,"{""solana"": ""DBRiDgJAMsM95moTzJs7M9LnkGErpbv9v6CUR1DXnUu5""}"
 rollbit-coin,rlb,Rollbit Coin,rollbit-coin,rollbit.com,,"{""ethereum"": ""0x046eee2cc3188071c02bfc1745a6b17c656e3f3d""}"
+astherus-usdf,usdf,Aster USDF,astherus-usdf,asterdex.com,,"{""binance-smart-chain"": ""0x5a110fc00474038f6c02e89c707d638602ea44b5""}"
