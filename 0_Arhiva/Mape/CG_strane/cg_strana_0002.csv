@@ -32,3 +32,4 @@ lombard-protocol,bard,Lombard,lombard,lombard.finance,,"{""ethereum"": ""0xf0db6
 proprietary-trading-network,sn8,Vanta Network,vanta-network-2,vantatrading.io,,"{""bittensor"": ""8""}"
 nillion,nil,Nillion,nillion,nillion.com,,"{"""": """", ""ethereum"": ""0x7cf9a80db3b29ee8efe3710aadb7b95270572d47""}"
 aleo,aleo,ALEO,aleo,aleo.org,,"{""binance-smart-chain"": ""0x6cfffa5bfd4277a04d83307feedfe2d18d944dd2""}"
+ebtc-2,ebtc,eBTC,ebtc-2,echo-protocol.xyz,,"{""monad"": ""0xd691b0afed67f96cec28ab6308cbe5b2c103b7e9"", ""starknet"": ""0x02342F9D4eB0D47cb3f9dE41FA1DBaC6d154824D63E66B363eeB256683FeA3bc""}"
