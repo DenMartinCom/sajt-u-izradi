@@ -497,3 +497,4 @@ bim-2,bim,BIM,bim,bim.finance,,"{""base"": ""0x555fff48549c1a25a723bd8e7ed10870d
 fastx-network-token,fxnw,FastX Network Token,fastx-network-token,fastxnetwork.com,,"{""arbitrum-one"": ""0xd3ea09206d4a76361e369e16b4ff37a89838623d""}"
 sygnum-fiusd-liquidity-fund,fiusd,Sygnum FIUSD Liquidity Fund,sygnum-fiusd-liquidity-fund,sygnum.com,,"{""zksync"": ""0x2ab105a3ead22731082b790ca9a00d9a3a7627f9"", ""arbitrum-one"": ""0xcded6b899edba762d793f44ed295248049440e1e""}"
 spacex-xstocks,spcxx,SpaceX xStock,spacex-xstock,xstocks.fi,,"{""ethereum"": ""0x68fa48b1c2fe52b3d776e1953e0e782b5044ce28"", ""mantle"": ""0x68fa48b1c2fe52b3d776e1953e0e782b5044ce28"", ""binance-smart-chain"": ""0x68fa48b1c2fe52b3d776e1953e0e782b5044ce28"", ""solana"": ""Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8"", ""arbitrum-one"": ""0x68fa48b1c2fe52b3d776e1953e0e782b5044ce28""}"
+siacoin,sc,Siacoin,siacoin,sia.tech,,"{"""": """"}"
