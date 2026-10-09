@@ -43,3 +43,5 @@ ATOM,,Cosmos,Cosmos-ATOM,cosmos.network,atom.png,"[""smart_contract_platforms"",
 _VVV,,Venice Token,VeniceToken-_VVV,venice.ai,_vvv.png,"[""ai"",""bots"",""privacy_coins""]","{""base"":""0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf""}",35509
 POL,,Polygon Ecosystem Token,PolygonEcosystemToken-POL,polygon.technology,pol.png,"[""smart_contract_platforms"",""governance""]","{""ethereum"":""0x455e53cbb86018ac2b8092fdcd39d8444affc3f6"",""polygon-ecosystem-token"":""0x0000000000000000000000000000000000001010""}",28321
 KCS,,KuCoin Shares,KuCoinShares-KCS,kucoin.com,kcs.png,"[""cex""]","{""ethereum"":""0xf34960d9d60be18cc1d5afc1a6f012a723a28811"",""kucoin-token"":""0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee""}",2087
+RENDER,,Render Token,RenderToken-RENDER,rendernetwork.com,render.png,"[""cloud_hosting""]","{""ethereum"":""0x6de037ef9ad2725eb40118bb1702ebb27e4aeb24"",""solana"":""rndrizKT3MK1iimdxRdWabcF7Zg7AR5T4nud4EkHBof""}",5690
+LIT,,Lighter,Lighter-LIT,lighter.xyz,lit.png,"[""dex"",""leverage"",""perpetuals""]","{""ethereum"":""0x232ce3bd40fcd6f80f3d55a522d03f25df784ee2""}",39125
