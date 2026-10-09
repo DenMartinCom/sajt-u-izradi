@@ -432,3 +432,4 @@ creditcoin-2,ctc,Creditcoin,creditcoin,creditcoin.org,,"{""ethereum"": ""0xa3ee2
 pentagon-chain,pc,Pentagon Chain,pentagon-chain,pentagon.games,,"{""ethereum"": ""0xa1aa371e450c5aee7fff259cbf5cca9384227272""}"
 nosana,nos,Nosana,nosana,nosana.io,,"{""solana"": ""nosXBVoaCTtYdLvKY6Csb4AC8JCdQKKAaWYtx2ZMoo7""}"
 threshold-network-token,t,Threshold Network,threshold-network-token,threshold.network,,"{""ethereum"": ""0xcdf7028ceab81fa0c6971208e83fa7872994bee5"", ""base"": ""0x26f3901ac8a79c50fb0d8289c74f0d09adc42e29"", ""optimistic-ethereum"": ""0x747e42eb0591547a0ab429b3627816208c734ea7"", ""solana"": ""4Njvi3928U3figEF5tf8xvjLC5GqUN33oe4XTJNe7xXC""}"
+edu-coin,edu,Open Campus,open-campus,opencampus.xyz,,"{""binance-smart-chain"": ""0xbdeae1ca48894a1759a8374d63925f21f2ee2639"", ""ethereum"": ""0xf8173a39c56a554837c4c7f104153a005d284d11"", ""arbitrum-one"": ""0xf8173a39c56a554837c4c7f104153a005d284d11""}"
