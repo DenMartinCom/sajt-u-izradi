@@ -93,3 +93,4 @@ staked-frax-usd,sfrxusd,Frax Staked frxUSD,frax-staked-frxusd,frax.com,,"{""ethe
 auki-labs,auki,Auki,auki-labs,auki.com,,"{""base"": ""0xf9569cfb8fd265e91aa478d86ae8c78b8af55df4"", ""peaq"": ""0xf67db9d00401d9e883208882f5c100d7482b083d""}"
 nkyc-token,nkyc,NKYC Token,nkyc-token,nonkyc.io,,"{""binance-smart-chain"": ""0x59769630b236398c2471eb26e6a529448030d94f""}"
 bifrost,bfc,Bifrost,bifrost,bifrostnetwork.com,,"{""ethereum"": ""0x0c7d5ae016f806603cb1782bea29ac69471cab9c"", ""fantom"": ""0x84c882a4d8eb448ce086ea19418ca0f32f106117""}"
+troll-2,troll,TROLL,troll-2,trollface.io,,"{""solana"": ""5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2""}"
