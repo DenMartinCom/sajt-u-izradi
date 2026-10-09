@@ -454,3 +454,4 @@ openeden,eden,OpenEden,openeden,openeden.com,,"{""binance-smart-chain"": ""0x235
 brz,brz,Brazilian Digital,brazilian-digital-token,transfero.com,,"{""ethereum"": ""0x01d33fd36ec67c6ada32cf36b31e88ee190b1839"", ""algorand"": ""112866019"", ""rootstock"": ""0xe355c280131dfaf18bf1c3648aee3c396db6b5fd"", ""solana"": ""BRZbFNQDcWLfcdHmAkqEVnLHCAWKTRf6eHyEaWdZp3JN"", ""polygon-pos"": ""0x4ed141110f6eeeaba9a1df36d8c26f684d2475dc"", ""binance-smart-chain"": ""0x71be881e9c5d4465b3fff61e89c6f3651e69b5bb"", ""avalanche"": ""0x491a4eb4f1fc3bff8e1d2fc856a6a46663ad556f"", ""stellar"": ""BRZ-GABMA6FPH3OJXNTGWO7PROF7I5WPQUZOB4BLTBTP4FK6QV7HWISLIEO2""}"
 pirate-chain,arrr,Pirate Chain,pirate-chain,piratechain.com,,"{"""": """"}"
 affine,sn120,affine,affine,,,"{""bittensor"": ""120"", ""base"": ""0x9470ef4e54520f0369ac850e239205bacf27008a""}"
+nusd-2,nusd,Neutrl USD,neutrl-usd,neutrl.finance,,"{""ethereum"": ""0xe556aba6fe6036275ec1f87eda296be72c811bce""}"
