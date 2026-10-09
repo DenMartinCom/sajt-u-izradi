@@ -354,3 +354,4 @@ dola-usd,dola,DOLA,dola,inverse.finance,,"{""ethereum"": ""0x865377367054516e170
 helio-protocol-hay,lisusd,Lista USD,lista-usd,helio.money,,"{""binance-smart-chain"": ""0x0782b6d8c4551b9760e74c0545a9bcd90bdc41e5""}"
 cygnus-finance-global-usd,cgusd,Cygnus Finance Global USD,cygnus-finance-global-usd,cygnus.finance,,"{""base"": ""0xca72827a3d211cfd8f6b00ac98824872b72cab49""}"
 tradable-north-america-pos-lender-sstn,pc0000019,Tradable North America PoS Lender SSTN,tradable-north-america-pos-lender-sstn,tradable.xyz,,"{""zksync"": ""0x1f179a51ab46252f469733dfcbd9115090a91f03""}"
+ecomi,omi,ECOMI,ecomi,ecomi.notion.site,,"{""ethereum"": ""0xed35af169af46a02ee13b9d79eb57d6d68c1749e"", ""base"": ""0x3792dbdd07e87413247df995e692806aa13d3299"", ""energi"": ""0x003d765f3793de38ad5ea9d5fd0021cf12c3ba68""}"
