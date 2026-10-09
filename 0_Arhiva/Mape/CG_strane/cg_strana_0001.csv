@@ -18,3 +18,4 @@ chainlink,link,Chainlink,chainlink,chain.link,,"{""ethereum"": ""0x514910771af9c
 cardano,ada,Cardano,cardano,cardano.org,,"{"""": """"}"
 leo-token,leo,LEO Token,leo-token,bitfinex.com,,"{""ethereum"": ""0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3"", ""sora"": ""0x009e199267a6a2c8ae075bb8d4c40ee8d05c1b769085ee59ce98e50c2b2d8756""}"
 rain,rain,Rain,rain,rain.one,,"{""arbitrum-one"": ""0x25118290e6a5f4139381d072181157035864099d""}"
+stellar,xlm,Stellar,stellar,stellar.org,,"{""stellar"": ""CAS3J7GYLGXMF6TDJBBYYSE3HQ6BBSMLNUQ34T6TZMYMW2EVH34XOWMA""}"
