@@ -297,3 +297,4 @@ helium,hnt,Helium,helium,helium.com,,"{""solana"": ""hntyVP6YFm1Hg25TN9WGLqM12b8
 prometeus,prom,Prom,prom,prom.io,,"{""ethereum"": ""0xfc82bb4ba86045af6f327323a46e80412b91b27d"", ""binance-smart-chain"": ""0xaf53d56ff99f1322515e54fdde93ff8b3b7dafd5""}"
 reserve-rights-token,rsr,Reserve Rights,reserve-rights,reserve.org,,"{""ethereum"": ""0x320623b8e4ff03373931769a31fc52a4e78b5d70"", ""base"": ""0xab36452dbac151be02b16ca17d8919826072f64a"", ""energi"": ""0xfce13bb63b60f6e20ed846ae73ed242d29129800"", ""arbitrum-one"": ""0xca5ca9083702c56b481d1eec86f1776fdbd2e594""}"
 bitget-wrapped-btc,bgbtc,Bitget Wrapped BTC,bitget-wrapped-btc,bitget.com,,"{""ethereum"": ""0x0520930f21b14cafac7a27b102487bee7138a017""}"
+funfair,fun,FUNToken,funtoken,funtoken.io,,"{""ethereum"": ""0x419d0d8bdd9af5e606ae2232ed285aff190e711b"", ""energi"": ""0x04cd06cf05b816f09395375f0143584b4a95ea9f""}"
