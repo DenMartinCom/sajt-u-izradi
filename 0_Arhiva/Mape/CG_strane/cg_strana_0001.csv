@@ -314,3 +314,4 @@ walrus-2,wal,Walrus,walrus-2,walrus.xyz,,"{""sui"": ""0x356a26eb9e012a6895808234
 arkham,arkm,Arkham,arkham,arkm.com,,"{""ethereum"": ""0x6e2a43be0b1d33b726f0ca3b8de60b3482b8b050""}"
 velo,velo,Velo,velo,velo.org,,"{""stellar"": ""VELO-GDM4RQUQQUVSKQA7S6EM7XBZP3FCGH4Q7CL6TABQ7B2BEJ5ERARM2M5M"", ""binance-smart-chain"": ""0xf486ad071f3bee968384d2e39e2d8af0fcf6fd46""}"
 circle-xstock,crclx,Circle xStock,circle-xstock,xstocks.com,,"{""solana"": ""XsueG8BtpquVJX9LVLLEGuViXUungE6WmK5YZ3p3bd1"", ""ethereum"": ""0xfebded1b0986a8ee107f5ab1a1c5a813491deceb"", ""binance-smart-chain"": ""0xfebded1b0986a8ee107f5ab1a1c5a813491deceb"", ""arbitrum-one"": ""0xfebded1b0986a8ee107f5ab1a1c5a813491deceb""}"
+spacex-bstocks-tokenized-stock,spcxb,SpaceX (bStocks Tokenized Stock),spacex-bstocks-tokenized-stock,binance.com,,"{""binance-smart-chain"": ""0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1""}"
