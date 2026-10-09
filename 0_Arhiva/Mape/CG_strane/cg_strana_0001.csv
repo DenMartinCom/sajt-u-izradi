@@ -83,3 +83,4 @@ blockchain-capital,bcap,Blockchain Capital,blockchain-capital,blockchaincapital.
 lighter,lit,Lighter,lighter,lighter.xyz,,"{""ethereum"": ""0x232ce3bd40fcd6f80f3d55a522d03f25df784ee2"", ""robinhood"": ""0xeeca2e7dc194a320d349122d88259bb9595a4cb0""}"
 pi-network,pi,Pi Network,pi-network,minepi.com,,"{"""": """"}"
 filecoin,fil,Filecoin,filecoin,filecoin.io,,"{"""": """"}"
+layerzero,zro,LayerZero,layerzero,layerzero.network,,"{""ethereum"": ""0x6985884c4392d348587b19cb9eaaf157f13271cd"", ""base"": ""0x6985884c4392d348587b19cb9eaaf157f13271cd"", ""polygon-pos"": ""0x6985884c4392d348587b19cb9eaaf157f13271cd"", ""binance-smart-chain"": ""0x6985884c4392d348587b19cb9eaaf157f13271cd"", ""arbitrum-one"": ""0x6985884c4392d348587b19cb9eaaf157f13271cd"", ""optimistic-ethereum"": ""0x6985884c4392d348587b19cb9eaaf157f13271cd"", ""avalanche"": ""0x6985884c4392d348587b19cb9eaaf157f13271cd""}"
