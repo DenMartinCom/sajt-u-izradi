@@ -49,3 +49,4 @@ vvs-finance,vvs,VVS Finance,vvs-finance,vvs.finance,,"{""cronos"": ""0x2d03bece6
 micron-technology-bstock,mub,Micron Technology (bStocks Tokenized Stock),micron-technology-bstocks-tokenized-stock,binance.com,,"{""binance-smart-chain"": ""0xcdf2f3e0fa43c47a6662a91c9e4a7c5f69762699""}"
 alchemist-ai,alch,Alchemist AI,alchemist-ai,alchemistai.app,,"{""solana"": ""HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump""}"
 mog-coin,mog,Mog Coin,mog-coin,mogcoin.xyz,,"{""ethereum"": ""0xaaee1a9723aadb7afa2810263653a34ba2c21c7a"", ""avalanche"": ""0xeb2729257280580694a06c499cb8c622e74215c8"", ""base"": ""0x2da56acb9ea78330f947bd57c54119debda7af71""}"
+request-network,req,Request,request-network,request.network,,"{""ethereum"": ""0x8f8221afbb33998d8584a2b05749ba73c37a938a"", ""polygon-pos"": ""0xb25e20de2f2ebb4cffd4d16a55c7b395e8a94762""}"
