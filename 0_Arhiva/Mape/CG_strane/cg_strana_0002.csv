@@ -95,3 +95,4 @@ nkyc-token,nkyc,NKYC Token,nkyc-token,nonkyc.io,,"{""binance-smart-chain"": ""0x
 bifrost,bfc,Bifrost,bifrost,bifrostnetwork.com,,"{""ethereum"": ""0x0c7d5ae016f806603cb1782bea29ac69471cab9c"", ""fantom"": ""0x84c882a4d8eb448ce086ea19418ca0f32f106117""}"
 troll-2,troll,TROLL,troll-2,trollface.io,,"{""solana"": ""5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2""}"
 main-street-yield,msy,Main Street Yield,main-street-yield,mainstreet.finance,,"{""ethereum"": ""0x890a5122aa1da30fec4286de7904ff808f0bd74a""}"
+liquity-bold-2,bold,BOLD,bold-2,liquity.org,,"{""ethereum"": ""0x6440f144b7e50d6a8439336510312d2f54beb01d"", ""base"": ""0x03569cc076654f82679c4ba2124d64774781b01d"", ""optimistic-ethereum"": ""0x03569cc076654f82679c4ba2124d64774781b01d""}"
