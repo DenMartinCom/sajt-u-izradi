@@ -51,3 +51,4 @@ alchemist-ai,alch,Alchemist AI,alchemist-ai,alchemistai.app,,"{""solana"": ""HNg
 mog-coin,mog,Mog Coin,mog-coin,mogcoin.xyz,,"{""ethereum"": ""0xaaee1a9723aadb7afa2810263653a34ba2c21c7a"", ""avalanche"": ""0xeb2729257280580694a06c499cb8c622e74215c8"", ""base"": ""0x2da56acb9ea78330f947bd57c54119debda7af71""}"
 request-network,req,Request,request-network,request.network,,"{""ethereum"": ""0x8f8221afbb33998d8584a2b05749ba73c37a938a"", ""polygon-pos"": ""0xb25e20de2f2ebb4cffd4d16a55c7b395e8a94762""}"
 atoshi,atos,Atoshi,atoshi,atoshi.org,,"{""ethereum"": ""0x4d0528598f916fd1d8dc80e5f54a8feedcfd4b18""}"
+orbio-so,orbio,Orbio.so,orbio-so,orbio.so,,"{""robinhood"": ""0xaa07a0e9209e16ac99708c3ec70159c6ef3128a3""}"
