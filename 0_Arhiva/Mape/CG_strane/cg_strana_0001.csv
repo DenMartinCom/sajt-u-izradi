@@ -163,3 +163,4 @@ ethereum-name-service,ens,Ethereum Name Service,ethereum-name-service,ens.domain
 conflux-token,cfx,Conflux,conflux,confluxnetwork.org,,"{"""": """"}"
 floki,floki,FLOKI,floki,floki.com,,"{""ethereum"": ""0xcf0c122c6b73ff809c693db761e7baebe62b6a2e"", ""binance-smart-chain"": ""0xfb5b838b6cfeedc2873ab27866079ac55363d37e""}"
 collector-crypt,cards,Collector Crypt,collector-crypt,collectorcrypt.com,,"{""solana"": ""CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp""}"
+zebec-network,zbcn,Zebec Network,zebec-network,zebec.io,,"{""solana"": ""ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU""}"
