@@ -265,3 +265,4 @@ microstrategy-xstock,mstrx,MicroStrategy xStock,microstrategy-xstock,xstocks.com
 dydx-chain,dydx,dYdX,dydx-chain,dydx.trade,,"{""cosmos"": ""ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C"", ""osmosis"": ""ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C""}"
 wormhole,w,Wormhole,wormhole,wormhole.com,,"{""solana"": ""85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ"", ""ethereum"": ""0xb0ffa8000886e57f86dd5264b9582b2ad87b2b91"", ""base"": ""0xb0ffa8000886e57f86dd5264b9582b2ad87b2b91"", ""arbitrum-one"": ""0xb0ffa8000886e57f86dd5264b9582b2ad87b2b91""}"
 tradable-singapore-fintech-ssl-2,pc0000023,Tradable Singapore Fintech SSL,tradable-singapore-fintech-ssl-2,tradable.xyz,,"{""zksync"": ""0x5c8c39e167c604b036afd3fbb65426f9fe78ce6d""}"
+alpha-bulgaria-warrants,alfw,Alpha Bulgaria Warrants,alpha-bulgaria-warrants,alpha-bulgaria.com,,"{""base"": ""0x19cf86d38ae55d1dc08f50588f11b6acc297f977""}"
