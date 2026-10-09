@@ -399,3 +399,4 @@ turbo,turbo,Turbo,turbo,turbotoken.io,,"{""ethereum"": ""0xa35923162c49cf95e6bf2
 sp500-xstock,spyx,SP500 xStock,sp500-xstock,xstocks.com,,"{""arbitrum-one"": ""0x90a2a4c76b5d8c0bc892a69ea28aa775a8f2dd48"", ""ethereum"": ""0x90a2a4c76b5d8c0bc892a69ea28aa775a8f2dd48"", ""binance-smart-chain"": ""0x90a2a4c76b5d8c0bc892a69ea28aa775a8f2dd48"", ""solana"": ""XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W"", ""hyperliquid"": ""0x29067197b3125c8b82ad0f338e4a31b2""}"
 zilliqa,zil,Zilliqa,zilliqa,zilliqa.com,,"{"""": """", ""binance-smart-chain"": ""0xb86abcb37c3a4b64f74f59301aff131a1becc787""}"
 midas-mf-one,mf-one,Midas mF-ONE,midas-mf-one,midas.app,,"{""ethereum"": ""0x238a700ed6165261cf8b2e544ba797bc11e466ba""}"
+nervos-network,ckb,Nervos Network,nervos-network,nervos.org,,"{"""": """"}"
