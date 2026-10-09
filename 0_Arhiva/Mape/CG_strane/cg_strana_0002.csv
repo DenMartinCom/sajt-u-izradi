@@ -1,2 +1,3 @@
 id,symbol,name,slug,web,logo,contract
 siacoin,sc,Siacoin,siacoin,sia.tech,,"{"""": """"}"
+velodrome-finance,velo,Velodrome Finance,velodrome-finance,velodrome.finance,,"{""optimistic-ethereum"": ""0x9560e827af36c94d2ac33a39bce1fe78631088db""}"
