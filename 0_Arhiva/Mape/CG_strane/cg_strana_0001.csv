@@ -449,3 +449,4 @@ precious-metals-usd,pmusd,Precious Metals USD,precious-metals-usd,raac.io,,"{""e
 blur,blur,Blur,blur,blur.io,,"{""ethereum"": ""0x5283d291dbcf85356a21ba090e6db59121208b44""}"
 altlayer,alt,AltLayer,altlayer,altlayer.io,,"{""ethereum"": ""0x8457ca5040ad67fdebbcc8edce889a335bc0fbfb"", ""binance-smart-chain"": ""0x8457ca5040ad67fdebbcc8edce889a335bc0fbfb""}"
 fonq,fonq,FONQ,fonq,fonq.io,,"{""ethereum"": ""0x4cff203005b24aa1083b35063d684a76b1080f22""}"
+efficientfrontier,sn53,EfficientFrontier,efficientfrontier,t.signalplus.com,,"{""bittensor"": ""53""}"
