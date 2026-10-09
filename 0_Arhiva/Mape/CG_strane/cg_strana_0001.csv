@@ -320,3 +320,4 @@ ordinals,ordi,ORDI,ordi,,,"{""ordinals"": ""b61b0172d95e266c18aea0c624db987e971a
 gas,gas,Gas,gas,neo.org,,"{""neo"": ""602c79718b16e442de58778e148d0b1084e3b2dffd5de6b7b16cee7969282de7""}"
 pharos-network,pros,Pharos,pharos,pharos.xyz,,"{"""": """"}"
 gmx,gmx,GMX,gmx,gmx.io,,"{""arbitrum-one"": ""0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a"", ""avalanche"": ""0x62edc0692bd897d2295872a9ffcac5425011c661""}"
+f-x-protocol-fxusd,fxusd,f(x) Protocol fxUSD,f-x-protocol-fxusd,fx.aladdin.club,,"{""ethereum"": ""0x085780639cc2cacd35e474e71f4d000e2405d8f6"", ""base"": ""0x55380fe7a1910dff29a47b622057ab4139da42c5""}"
