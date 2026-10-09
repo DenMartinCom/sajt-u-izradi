@@ -231,3 +231,4 @@ apecoin,ape,ApeCoin,apecoin,apechain.com,,"{"""": """", ""ethereum"": ""0x4d2244
 aioz-network,aioz,AIOZ Network,aioz-network,aioz.network,,"{""ethereum"": ""0x626e8036deb333b408be468f951bdb42433cbf18"", ""osmosis"": ""ibc/BB0AFE2AFBD6E883690DAE4B9168EAC2B306BCC9C9292DACBB4152BBB08DB25F"", ""binance-smart-chain"": ""0x33d08d8c7a168333a85285a68c0042b39fc3741d""}"
 safepal,sfp,SafePal,safepal,safepal.com,,"{""ethereum"": ""0x12e2b8033420270db2f3b328e32370cb5b2ca134"", ""energi"": ""0x12490d720747e312be64029dfd475837ed285cfe"", ""binance-smart-chain"": ""0xd41fdb03ba84762dd66a0af1a6c8540ff1ba5dfb""}"
 beam-2,beam,Beam,beam-2,onbeam.com,,"{""ethereum"": ""0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce"", ""base"": ""0x2a66d51407b84b82b5aff3dec4d49f72cbcd322a"", ""binance-smart-chain"": ""0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce"", ""avalanche"": ""0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce""}"
+celium,sn51,lium,lium,lium.io,,"{""bittensor"": ""51""}"
