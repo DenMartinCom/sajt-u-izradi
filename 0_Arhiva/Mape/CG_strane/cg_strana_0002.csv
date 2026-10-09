@@ -36,3 +36,4 @@ ebtc-2,ebtc,eBTC,ebtc-2,echo-protocol.xyz,,"{""monad"": ""0xd691b0afed67f96cec28
 aztec,aztec,Aztec,aztec,aztec.network,,"{""ethereum"": ""0xa27ec0006e59f245217ff08cd52a7e8b169e62d2"", ""hyperliquid"": ""0x32b15e526a6136d7215cbbbfa924afc7"", ""hyperevm"": ""0x5515b8079793caa680df5391a6ef4c73911a3920""}"
 catizen,cati,Catizen,catizen,linktr.ee,,"{""the-open-network"": ""EQD-cvR0Nz6XAyRBvbhz-abTrRC6sI5tvHvvpeQraV9UAAD7""}"
 novachargex-coin,ncx,NovaChargeX Coin,novachargex-coin,novachargex-ncx.com,,"{""ethereum"": ""0xf8a6f43ce478aac1db99c07661dfd3acb5890792""}"
+aurora-near,aurora,Aurora,aurora-near,aurora.dev,,"{""ethereum"": ""0xaaaaaa20d9e0e2461697782ef11675f668207961"", ""aurora"": ""0x8bec47865ade3b172a928df8f990bc7f2a3b9f79"", ""near-protocol"": ""aaaaaa20d9e0e2461697782ef11675f668207961.factory.bridge.near""}"
