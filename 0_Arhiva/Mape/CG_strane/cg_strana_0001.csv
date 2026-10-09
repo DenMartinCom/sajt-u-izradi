@@ -369,3 +369,4 @@ niu-lai,牛来,牛来 (Niu Lai),niu-lai,flap.sh,,"{""binance-smart-chain"": ""0x
 o1-exchange,o,o1.exchange,o1-exchange,o1.exchange,,"{""base"": ""0x182fa643e5f29d5eca75e7b9cf9336a3fe4620b2"", ""binance-smart-chain"": ""0x500a02a20b0b0a3f3efccfc0559543f5743bd1c4""}"
 theta-fuel,tfuel,Theta Fuel,theta-fuel,thetatoken.org,,"{"""": """"}"
 tesla-xstock,tslax,Tesla xStock,tesla-xstock,xstocks.com,,"{""arbitrum-one"": ""0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0"", ""mantle"": ""0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0"", ""ethereum"": ""0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0"", ""binance-smart-chain"": ""0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0"", ""solana"": ""XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB"", ""the-open-network"": ""EQB4IwqWZPUczntdry8vSN2tsJKt-9F7iIb7gEFREYYOB563""}"
+talus,us,Talus,talus-2,talus.network,,"{""sui"": ""0xee962a61432231c2ede6946515beb02290cb516ad087bb06a731e922b2a5f57a::us::US""}"
