@@ -222,3 +222,4 @@ railgun,rail,Railgun,railgun,railgun.org,,"{""ethereum"": ""0xe76c6c83af64e4c602
 bedrock-token,br,Bedrock,bedrock,bedrockdao.com,,"{""binance-smart-chain"": ""0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41"", ""base"": ""0xd6122ddada244913521f3d62006eaf756c157660"", ""ethereum"": ""0x9b61879e91a0b1322f3d61c23aaf936231882096"", ""berachain"": ""0xd352dc6e5f0c45e2f2b38eb5565eb286a1ea4087""}"
 gusd,gusd,GUSD,gusd,gate.com,,"{"""": """"}"
 superfarm,super,SuperVerse,superverse,superverse.co,,"{""ethereum"": ""0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55"", ""soneium"": ""0xf765356c901a064a74fa4560622f21c91048c3d7"", ""base"": ""0x391359ab0ccef572dcac78f74e47d7c06db0b982"", ""polygon-pos"": ""0xa1428174f516f527fafdd146b883bb4428682737"", ""avalanche"": ""0x09fa58228bb791ea355c90da1e4783452b9bd8c3""}"
+orca,orca,Orca,orca,orca.so,,"{""solana"": ""orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE""}"
