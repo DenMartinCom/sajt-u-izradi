@@ -155,3 +155,4 @@ bonk,bonk,Bonk,bonk,bonkcoin.com,,"{""solana"": ""DezXAZ8z7PnrnRJjz3wXBoRgixCa6x
 monad,mon,Monad,monad,monad.xyz,,"{"""": """"}"
 the-graph,grt,The Graph,the-graph,thegraph.com,,"{""ethereum"": ""0xc944e90c64b2c07662a292be6244bdf05cda44a7"", ""harmony-shard-0"": ""0x002fa662f2e09de7c306d2bab0085ee9509488ff"", ""near-protocol"": ""c944e90c64b2c07662a292be6244bdf05cda44a7.factory.bridge.near"", ""energi"": ""0x771513ba693d457df3678c951c448701f2eaaad5"", ""sora"": ""0x00d1fb79bbd1005a678fbf2de9256b3afe260e8eead49bb07bd3a566f9fe8355"", ""polygon-pos"": ""0x5fe2b58c013d7601147dcdd68c143a77499f5531"", ""arbitrum-one"": ""0x9623063377ad1b27544c965ccd7342f7ea7e88c7"", ""avalanche"": ""0x8a0cac13c7da965a312f08ea4229c37869e85cb9""}"
 optimism,op,Optimism,optimism,optimism.io,,"{""optimistic-ethereum"": ""0x4200000000000000000000000000000000000042""}"
+terra-luna,lunc,Terra Luna Classic,terra-luna-classic,terra-classic.io,,"{"""": """"}"
