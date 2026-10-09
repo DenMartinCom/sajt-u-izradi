@@ -52,3 +52,4 @@ mog-coin,mog,Mog Coin,mog-coin,mogcoin.xyz,,"{""ethereum"": ""0xaaee1a9723aadb7a
 request-network,req,Request,request-network,request.network,,"{""ethereum"": ""0x8f8221afbb33998d8584a2b05749ba73c37a938a"", ""polygon-pos"": ""0xb25e20de2f2ebb4cffd4d16a55c7b395e8a94762""}"
 atoshi,atos,Atoshi,atoshi,atoshi.org,,"{""ethereum"": ""0x4d0528598f916fd1d8dc80e5f54a8feedcfd4b18""}"
 orbio-so,orbio,Orbio.so,orbio-so,orbio.so,,"{""robinhood"": ""0xaa07a0e9209e16ac99708c3ec70159c6ef3128a3""}"
+loaded-lions,lion,Loaded Lions,loaded-lions,loadedlions.com,,"{""cronos"": ""0x9d8c68f185a04314ddc8b8216732455e8dbb7e45"", ""solana"": ""7kN5FQMD8ja4bzysEgc5FXmryKd6gCgjiWnhksjHCFb3"", ""arbitrum-one"": ""0x527e8d368298dea5a53be257e5300f4dbafb7a97""}"
