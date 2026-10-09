@@ -254,3 +254,4 @@ bc-token,bc,BCGame Coin,bc-token,bc.game,,"{""solana"": ""BCNT4t3rv5Hva8RnUtJUJL
 stp-network,awe,AWE Network,awe-network,awenetwork.ai,,"{""base"": ""0x1b4617734c43f6159f3a70b7e06d883647512778""}"
 midas-fasanara-global-open,mglo,Midas Fasanara Global Open,midas-fasanara-global-open,midas.app,,"{""ethereum"": ""0x1dd91a111606382b77a917633ed90feaf25e0f76"", ""base"": ""0xfcc9cc1209651ed8867332d6f664cf82743a2584"", ""optimistic-ethereum"": ""0x1eaf7cceaa5dc6d605760718722fbcc58579b3ff"", ""robinhood"": ""0xfed493f38c1aacb4ea4e6a11f8b9287849ee0096""}"
 stronghold-token,shx,Stronghold,stronghold,stronghold.co,,"{""stellar"": ""SHX-GDSTRSHXHGJ7ZIVRBXEYE5Q74XUVCUSEKEBR7UCHEUUEK72N7I7KJ6JH"", ""ethereum"": ""0x516d31321928700c6b4fb0db0c8c6bc5d6799787""}"
+plume,plume,Plume,plume,plume.org,,"{""ethereum"": ""0x4c1746a800d224393fe2470c70a35717ed4ea5f1"", ""binance-smart-chain"": ""0x5afadcd1e8e3ca78ee2d37100102f2aec8bc0aa8""}"
