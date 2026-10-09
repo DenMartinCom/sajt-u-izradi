@@ -34,3 +34,7 @@ _WLFI,,World Liberty Financial,WorldLibertyFinancial-_WLFI,worldlibertyfinancial
 __________SKY,,SKY Governance Token,SKYGovernanceToken-__________SKY,sky.money,__________sky.png,"[""governance"",""lending""]","{""ethereum"":""0x56072C95FAA701256059aa122697B133aDEd9279""}",33038
 ____PEPE,,Pepe,Pepe-____PEPE,pepe.vip,____pepe.png,"[""meme""]","{""ethereum"":""0x6982508145454ce325ddbe47a25d4ec3d2311933"",""solana"":""PEPEqnuuCDbBC89p1u9vpnP1KQ2oj1xTcQBsjt9X55m""}",24478
 BGB,,Bitget Token,BitgetToken-BGB,bitget.com,bgb.png,"[""cex""]","{""ethereum"":""0x54D2252757e1672EEaD234D27B1270728fF90581""}",11092
+_MORPHO,,Morpho,Morpho-_MORPHO,morpho.org,_morpho.png,"[""lending""]","{""ethereum"":""0x58D97B57BB95320F9a05dC918Aef65434969c2B2"",""arbitrum"":""0x40BD670A58238e6E230c430BBb5cE6ec0d40df48"",""base"":""0xBAa5CC21fd487B8Fcc2F632f3F4E8D37262a0842"",""solana"":""Morpho2VPeTr2E1Jx6monxCzF7mqwUnjz74RdwLXYyP""}",34104
+_JUP,,Jupiter,Jupiter-_JUP,lfg.jup.ag,_jup.png,"[""dex"",""governance""]","{""solana"":""JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN""}",29210
+ARB,,Arbitrum,Arbitrum-ARB,arbitrum.foundation,arb.png,"[""governance""]","{""ethereum"":""0xB50721BCf8d664c30412Cfbc6cf7a15145234ad1"",""arbitrum"":""0x912CE59144191C1204E64559FE8253a0e49E6548""}",11841
+JST,,JUST,JUST-JST,just.network,jst.png,"[""token_bridges"",""lending""]","{""tron"":""TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9""}",5488
