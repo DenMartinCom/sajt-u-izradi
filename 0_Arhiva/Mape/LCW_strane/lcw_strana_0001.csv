@@ -1,0 +1,301 @@
+id,symbol,name,slug,web,logo,tags,contract
+BTC,₿,Bitcoin,Bitcoin-BTC,bitcoin.org,btc.png,[],{}
+ETH,Ξ,Ethereum,Ethereum-ETH,ethereum.org,eth.png,[],{}
+USDT,,Tether,Tether-USDT,tether.to,usdt.png,"[""stablecoins"",""asset_backed_tokens""]",{}
+XRP,,XRP,XRP-XRP,ripple.com,xrp.png,"[""smart_contract_platforms""]",{}
+BNB,,BNB,BNB-BNB,binance.com,bnb.png,"[""cex"",""smart_contract_platforms""]",{}
+USDC,,USDC,USDC-USDC,circle.com,usdc.png,"[""stablecoins"",""asset_backed_tokens""]",{}
+SOL,,Solana,Solana-SOL,solana.com,sol.png,"[""smart_contract_platforms""]",{}
+TRX,,TRON,TRON-TRX,tron.network,trx.png,"[""storage"",""smart_contract_platforms""]",{}
+WBT,,WhiteBIT Coin,WhiteBITCoin-WBT,whitebit.com,wbt.png,"[""cex"",""smart_contract_platforms""]",{}
+ZEC,,Zcash,Zcash-ZEC,z.cash,zec.png,"[""privacy_coins""]",{}
+DOGE,Ɖ,Dogecoin,Dogecoin-DOGE,dogecoin.com,doge.png,"[""meme"",""wallets"",""charity""]",{}
+XMR,,Monero,Monero-XMR,getmonero.org,xmr.png,"[""privacy_coins"",""crowdfunding""]",{}
+LINK,,Chainlink,Chainlink-LINK,chain.link,link.png,"[""oracle"",""token_bridges"",""security"",""analytics"",""privacy_coins""]",{}
+ADA,,Cardano,Cardano-ADA,cardano.org,ada.png,"[""smart_contract_platforms""]",{}
+XLM,,Stellar,Stellar-XLM,stellar.org,xlm.png,"[""smart_contract_platforms""]",{}
+BCH,,Bitcoin Cash,BitcoinCash-BCH,bitcoincash.org,bch.png,"[""smart_contract_platforms""]",{}
+DAI,,Dai,Dai-DAI,makerdao.com,dai.png,"[""stablecoins""]",{}
+LTC,,Litecoin,Litecoin-LTC,litecoin.org,ltc.png,"[""privacy_coins""]",{}
+__________________CC,,Canton,Canton-__________________CC,canton.network,__________________cc.png,"[""privacy_coins"",""smart_contract_platforms""]",{}
+_SUI,,Sui,Sui-_SUI,sui.io,_sui.png,"[""smart_contract_platforms""]",{}
+UNI,,Uniswap,Uniswap-UNI,app.uniswap.org,uni.png,"[""dex"",""yield_farming"",""governance""]",{}
+AVAX,,Avalanche,Avalanche-AVAX,avax.network,avax.png,"[""smart_contract_platforms""]",{}
+TONCOIN,,Gram,Gram-TONCOIN,ton.org,toncoin.png,"[""smart_contract_platforms"",""social_media"",""governance"",""dns"",""storage""]",{}
+HBAR,,Hedera Hashgraph,HederaHashgraph-HBAR,hedera.com,hbar.png,"[""smart_contract_platforms""]",{}
+SHIB,,Shiba Inu,ShibaInu-SHIB,shibatoken.com,shib.png,"[""meme"",""metaverse"",""nfts"",""dex"",""yield_farming""]",{}
+QNT,,Quant,Quant-QNT,quant.network,qnt.png,"[""smart_contract_platforms""]",{}
+AAVE,,Aave,Aave-AAVE,aave.com,aave.png,"[""lending"",""governance"",""yield_aggregators""]",{}
+____TAO,,bittensor,bittensor-____TAO,bittensor.com,____tao.png,"[""ai""]",{}
+DOT,,Polkadot,Polkadot-DOT,polkadot.com,dot.png,"[""smart_contract_platforms""]",{}
+PYUSD,,PayPal USD,PayPalUSD-PYUSD,paypal.com,pyusd.png,"[""stablecoins"",""asset_backed_tokens"",""point_of_sale"",""ecommerce""]",{}
+__WLD,,Worldcoin,Worldcoin-__WLD,worldcoin.org,__wld.png,"[""privacy_coins"",""identity""]",{}
+______MNT,,Mantle,Mantle-______MNT,mantle.xyz,______mnt.png,"[""governance""]",{}
+ONDO,,Ondo,Ondo-ONDO,ondo.foundation,ondo.png,"[""lending""]",{}
+____PEPE,,Pepe,Pepe-____PEPE,pepe.vip,____pepe.png,"[""meme""]",{}
+CRO,,Cronos,Cronos-CRO,crypto.com,cro.png,"[""cex"",""smart_contract_platforms"",""debit_cards"",""wallets""]",{}
+JST,,JUST,JUST-JST,just.network,jst.png,"[""token_bridges"",""lending""]",{}
+ICP,,Internet Computer,InternetComputer-ICP,internetcomputer.org,icp.png,"[""smart_contract_platforms"",""cloud_hosting"",""storage"",""governance""]",{}
+ETC,,Ethereum Classic,EthereumClassic-ETC,ethereumclassic.org,etc.png,"[""smart_contract_platforms""]",{}
+GT,,Gatechain Token,GatechainToken-GT,gatechain.io,gt.png,"[""smart_contract_platforms""]",{}
+PAXG,,PAX Gold,PAXGold-PAXG,paxos.com,paxg.png,"[""asset_backed_tokens"",""commodities""]",{}
+ARB,,Arbitrum,Arbitrum-ARB,arbitrum.foundation,arb.png,"[""governance""]",{}
+FDUSD,,First Digital USD,FirstDigitalUSD-FDUSD,firstdigitallabs.com,fdusd.png,"[""stablecoins"",""asset_backed_tokens""]",{}
+POL,,Polygon Ecosystem Token,PolygonEcosystemToken-POL,polygon.technology,pol.png,"[""smart_contract_platforms"",""governance""]",{}
+KAS,,Kaspa,Kaspa-KAS,kaspa.org,kas.png,"[""smart_contract_platforms"",""wallets""]",{}
+ALGO,,Algorand,Algorand-ALGO,algorand.co,algo.png,"[""smart_contract_platforms""]",{}
+RENDER,,Render Token,RenderToken-RENDER,rendernetwork.com,render.png,"[""cloud_hosting""]",{}
+FIL,,Filecoin,Filecoin-FIL,filecoin.io,fil.png,"[""smart_contract_platforms"",""storage"",""cloud_hosting""]",{}
+___AERO,,Aerodrome,Aerodrome-___AERO,aerodrome.finance,___aero.png,"[""dex"",""yield_farming"",""governance""]",{}
+ATOM,,Cosmos,Cosmos-ATOM,cosmos.network,atom.png,"[""smart_contract_platforms"",""iot""]",{}
+CAKE,,PancakeSwap,PancakeSwap-CAKE,pancakeswap.finance,cake.png,"[""dex"",""yield_farming"",""prediction_markets"",""launchpad""]",{}
+APT,,Aptos,Aptos-APT,aptosfoundation.org,apt.png,"[""smart_contract_platforms"",""nfts""]",{}
+INJ,,Injective Protocol,InjectiveProtocol-INJ,injective.com,inj.png,"[""smart_contract_platforms"",""leverage"",""options"",""perpetuals"",""futures""]",{}
+_STX,,Stacks,Stacks-_STX,stacks.co,_stx.png,"[""smart_contract_platforms"",""dns""]",{}
+GNO,,Gnosis,Gnosis-GNO,gnosis.io,gno.png,"[""prediction_markets"",""dex""]",{}
+DASH,,Dash,Dash-DASH,dash.org,dash.png,"[""ecommerce"",""privacy_coins""]",{}
+RAY,,Raydium,Raydium-RAY,raydium.io,ray.png,"[""dex"",""yield_farming"",""launchpad"",""token_issuance_platforms"",""token_bridges""]",{}
+VET,,VeChain,VeChain-VET,vechain.org,vet.png,"[""logistics"",""ai"",""iot"",""smart_contract_platforms""]",{}
+KCS,,KuCoin Shares,KuCoinShares-KCS,kucoin.com,kcs.png,"[""cex""]",{}
+FET,,Artificial Superintelligence Alliance,ArtificialSuperintelligenceAlliance-FET,fetch.ai,fet.png,"[""ai""]",{}
+PENDLE,,Pendle,Pendle-PENDLE,pendle.finance,pendle.png,"[""dex""]",{}
+_ETHFI,,ether.fi governance token,etherfigovernancetoken-_ETHFI,ether.fi,_ethfi.png,"[""governance"",""liquid_staking"",""restaking""]",{}
+_JUP,,Jupiter,Jupiter-_JUP,lfg.jup.ag,_jup.png,"[""dex"",""governance""]",{}
+CRV,,Curve DAO Token,CurveDAOToken-CRV,curve.fi,crv.png,"[""governance"",""yield_farming""]",{}
+TUSD,,TrueUSD,TrueUSD-TUSD,tusd.io,tusd.png,"[""stablecoins"",""asset_backed_tokens""]",{}
+XDC,,XDC Network,XDCNetwork-XDC,xinfin.org,xdc.png,"[""smart_contract_platforms"",""logistics""]",{}
+NEXO,,Nexo,Nexo-NEXO,nexo.com,nexo.png,"[""cex"",""debit_cards"",""wallets"",""lending""]",{}
+VIRTUAL,,Virtual Protocol,VirtualProtocol-VIRTUAL,virtuals.io,virtual.png,"[""token_issuance_platforms"",""ai"",""launchpad"",""bots""]",{}
+_TIA,,Celestia,Celestia-_TIA,celestia.org,_tia.png,"[""smart_contract_platforms"",""governance""]",{}
+BSV,,Bitcoin SV,BitcoinSV-BSV,bsvblockchain.org,bsv.png,"[""smart_contract_platforms""]",{}
+_IMX,,Immutable X,ImmutableX-_IMX,immutable.com,_imx.png,"[""smart_contract_platforms"",""nfts"",""gaming""]",{}
+BTT,,BitTorrent,BitTorrent-BTT,bittorrent.com,btt.png,"[""storage"",""streaming"",""smart_contract_platforms""]",{}
+OHM,,Olympus,Olympus-OHM,olympusdao.finance,ohm.png,"[""asset_backed_tokens"",""lending"",""governance""]",{}
+LDO,,Lido DAO,LidoDAO-LDO,stake.lido.fi,ldo.png,"[""liquid_staking"",""governance""]",{}
+____SPX,,SPX6900,SPX6900-____SPX,spx6900.com,____spx.png,"[""meme""]",{}
+_______________________________TRUMP,,OFFICIAL TRUMP,OFFICIALTRUMP-_______________________________TRUMP,gettrumpmemes.com,_______________________________trump.png,"[""meme"",""social_tokens""]",{}
+ENS,,Ethereum Name Service,EthereumNameService-ENS,ens.domains,ens.png,"[""dns"",""nfts""]",{}
+FLR,,Flare,Flare-FLR,flare.network,flr.png,"[""smart_contract_platforms"",""governance""]",{}
+DCR,,Decred,Decred-DCR,decred.org,dcr.png,"[""privacy_coins""]",{}
+MKR,,Maker,Maker-MKR,makerdao.com,mkr.png,"[""governance"",""lending""]",{}
+OP,,Optimism,Optimism-OP,optimism.io,op.png,"[""governance""]",{}
+LUNC,,Luna Classic,LunaClassic-LUNC,terra-classic.io,lunc.png,"[""smart_contract_platforms""]",{}
+XTZ,,Tezos,Tezos-XTZ,tezos.com,xtz.png,"[""smart_contract_platforms""]",{}
+FRAX,,Frax,Frax-FRAX,frax.com,frax.png,"[""stablecoins""]",{}
+SYRUP,,Syrup Token,SyrupToken-SYRUP,syrup.fi,syrup.png,"[""lending"",""governance""]",{}
+JTO,,Jito,Jito-JTO,jito.network,jto.png,"[""liquid_staking"",""governance""]",{}
+MATIC,,Polygon,Polygon-MATIC,polygon.technology,matic.png,"[""smart_contract_platforms""]",{}
+_FLOKI,,Floki Inu,FlokiInu-_FLOKI,floki.com,_floki.png,"[""nfts"",""interest_earning"",""meme"",""gaming"",""metaverse""]",{}
+JASMY,,JasmyCoin,JasmyCoin-JASMY,jasmy.co.jp,jasmy.png,"[""iot""]",{}
+RUNE,,THORChain,THORChain-RUNE,thorchain.org,rune.png,"[""smart_contract_platforms"",""dex"",""synthetics"",""lending""]",{}
+NEO,,NEO,NEO-NEO,neo.org,neo.png,"[""smart_contract_platforms"",""dns"",""identity"",""storage"",""wallets""]",{}
+GRT,,The Graph,TheGraph-GRT,thegraph.com,grt.png,"[""analytics"",""ai"",""cloud_hosting""]",{}
+_NFT,,APENFT,APENFT-_NFT,apenft.io,_nft.png,"[""nfts"",""governance""]",{}
+COMP,,Compound,Compound-COMP,compound.finance,comp.png,"[""lending"",""governance""]",{}
+RBTC,,RSK Smart Bitcoin,RSKSmartBitcoin-RBTC,rootstock.io,rbtc.png,"[""asset_backed_tokens"",""smart_contract_platforms"",""identity"",""logistics""]",{}
+THETA,,Theta Network,ThetaNetwork-THETA,thetatoken.org,theta.png,"[""smart_contract_platforms"",""social_media"",""nfts"",""streaming""]",{}
+EOS,,EOS,EOS-EOS,eos.io,eos.png,"[""smart_contract_platforms""]",{}
+AKT,,Akash Network,AkashNetwork-AKT,akash.network,akt.png,"[""storage"",""cloud_hosting""]",{}
+AXS,,Axie Infinity,AxieInfinity-AXS,axieinfinity.com,axs.png,"[""gaming"",""nfts""]",{}
+WIF,,dogwifhat,dogwifhat-WIF,dogwifcoin.org,wif.png,"[""meme""]",{}
+MANA,,Decentraland,Decentraland-MANA,decentraland.org,mana.png,"[""metaverse"",""vr"",""gaming"",""nfts""]",{}
+BAT,,Basic Attention Token,BasicAttentionToken-BAT,basicattentiontoken.org,bat.png,"[""social_media"",""advertising""]",{}
+__BONK,,Bonk,Bonk-__BONK,bonkcoin.com,__bonk.png,"[""meme"",""nfts"",""sports"",""gambling""]",{}
+TRAC,,OriginTrail,OriginTrail-TRAC,origintrail.io,trac.png,"[""logistics""]",{}
+CVX,,Convex Finance,ConvexFinance-CVX,convexfinance.com,cvx.png,"[""yield_aggregators""]",{}
+VCNT,,ViciCoin,ViciCoin-VCNT,vicicoin.io,vcnt.png,"[""nfts"",""dex""]",{}
+TEL,,Telcoin,Telcoin-TEL,telco.in,tel.png,"[""telecom"",""wallets"",""governance""]",{}
+TRIBE,,Tribe,Tribe-TRIBE,fei.money,tribe.png,"[""governance""]",{}
+TWT,,Trust Wallet Token,TrustWalletToken-TWT,trustwallet.com,twt.png,"[""wallets"",""governance""]",{}
+AR,,Arweave,Arweave-AR,arweave.org,ar.png,"[""storage"",""cloud_hosting""]",{}
+MX,,MX Token,MXToken-MX,mxc.com,mx.png,"[""cex""]",{}
+SAND,,The Sandbox,TheSandbox-SAND,sandbox.game,sand.png,"[""metaverse"",""gaming"",""nfts"",""governance""]",{}
+FARTCOIN,,Fartcoin,Fartcoin-FARTCOIN,infinitebackrooms.com,fartcoin.png,"[""meme""]",{}
+RSR,,Reserve Rights,ReserveRights-RSR,reserve.org,rsr.png,"[""governance""]",{}
+DEXE,,DeXe,DeXe-DEXE,dexe.network,dexe.png,"[""governance""]",{}
+XCN,,Onyxcoin,Onyxcoin-XCN,onyx.org,xcn.png,"[""cloud_hosting"",""governance"",""lending"",""nfts"",""charity""]",{}
+MIMATIC,,MAI,MAI-MIMATIC,mai.finance,mimatic.png,"[""stablecoins"",""yield_farming"",""lending""]",{}
+XEC,,eCash,eCash-XEC,e.cash,xec.png,"[""smart_contract_platforms"",""governance""]",{}
+AIOZ,,AIOZ Network,AIOZNetwork-AIOZ,aioz.network,aioz.png,"[""smart_contract_platforms"",""metaverse"",""streaming"",""storage""]",{}
+_SUPER,,SuperVerse,SuperVerse-_SUPER,superverse.co,_super.png,"[""metaverse"",""gaming"",""nfts"",""yield_farming"",""launchpad""]",{}
+SEI,,Sei Network,SeiNetwork-SEI,sei.io,sei.png,"[""smart_contract_platforms""]",{}
+IOTA,,IOTA,IOTA-IOTA,iota.org,iota.png,"[""smart_contract_platforms"",""iot"",""identity"",""energy""]",{}
+1INCH,,1inch,1inch-1INCH,1inch.io,1inch.png,"[""dex"",""governance"",""wallets""]",{}
+__BEAM,,Beam,Beam-__BEAM,onbeam.com,__beam.png,"[""smart_contract_platforms"",""gaming"",""nfts"",""education"",""governance""]",{}
+EGLD,,MultiversX,MultiversX-EGLD,multiversx.com,egld.png,"[""smart_contract_platforms"",""nfts""]",{}
+CHZ,,Chiliz,Chiliz-CHZ,chiliz.com,chz.png,"[""sports"",""nfts"",""event_ticketing"",""social_tokens""]",{}
+ORCA,,Orca,Orca-ORCA,orca.so,orca.png,"[""governance"",""dex"",""yield_farming""]",{}
+PYTH,,Pyth Network,PythNetwork-PYTH,pyth.network,pyth.png,"[""oracle""]",{}
+APE,,ApeCoin,ApeCoin-APE,apecoin.com,ape.png,"[""meme"",""smart_contract_platforms"",""governance"",""nfts"",""gaming""]",{}
+GLM,,Golem,Golem-GLM,golem.network,glm.png,"[""storage""]",{}
+QUBIC,,QUBIC,QUBIC-QUBIC,qubic.org,qubic.png,"[""ai""]",{}
+ZRX,,0x,0x-ZRX,0x.org,zrx.png,"[""dex"",""governance""]",{}
+CFX,,Conflux Token,ConfluxToken-CFX,confluxnetwork.org,cfx.png,"[""smart_contract_platforms""]",{}
+ZEN,,Horizen,Horizen-ZEN,horizen.io,zen.png,"[""privacy_coins"",""smart_contract_platforms"",""governance""]",{}
+QTUM,,Qtum,Qtum-QTUM,qtum.org,qtum.png,"[""smart_contract_platforms""]",{}
+MINA,,Mina Protocol,MinaProtocol-MINA,minaprotocol.com,mina.png,"[""smart_contract_platforms""]",{}
+_______________DOG,,DOG•GO•TO•THE•MOON 🐕,DOGGOTOTHEMOON-_______________DOG,doggotothemoon.io,_______________dog.png,"[""nfts""]",{}
+PROM,,Prometeus,Prometeus-PROM,prometeus.io,prom.png,"[""social_media"",""storage""]",{}
+FUN,,FUNToken,FUNToken-FUN,funtoken.io,fun.png,"[""gambling""]",{}
+__GMX,,GMX,GMX-__GMX,app.gmx.io,__gmx.png,"[""dex"",""leverage"",""perpetuals""]",{}
+ORDI,,Ordinals,Ordinals-ORDI,ordinals.com,ordi.png,"[""token_issuance_platforms"",""inscriptions""]",{}
+RLC,,iExec RLC,iExecRLC-RLC,iex.ec,rlc.png,"[""storage"",""cloud_hosting""]",{}
+GALA,,Gala,Gala-GALA,gala.com,gala.png,"[""metaverse"",""gaming"",""nfts"",""music""]",{}
+RIF,,RSK Infrastructure Framework,RSKInfrastructureFramework-RIF,rif.technology,rif.png,"[""cloud_hosting"",""storage"",""telecom"",""ecommerce"",""dns""]",{}
+SNX,,Synthetix,Synthetix-SNX,synthetix.io,snx.png,"[""synthetics"",""asset_backed_tokens"",""governance"",""dex"",""perpetuals"",""futures""]",{}
+XPR,,XPR Network,XPRNetwork-XPR,xprnetwork.org,xpr.png,"[""smart_contract_platforms"",""wallets"",""identity"",""logistics"",""ecommerce"",""governance""]",{}
+CFG,,Centrifuge,Centrifuge-CFG,centrifuge.io,cfg.png,"[""lending"",""governance""]",{}
+YFI,,yearn.finance,yearnfinance-YFI,yearn.fi,yfi.png,"[""yield_aggregators"",""governance""]",{}
+OMI,,ECOMI,ECOMI-OMI,ecomi.com,omi.png,"[""nfts"",""wallets""]",{}
+WEMIX,,Wemix Token,WemixToken-WEMIX,wemixnetwork.com,wemix.png,"[""smart_contract_platforms""]",{}
+BABYDOGE,,Baby Doge Coin,BabyDogeCoin-BABYDOGE,babydoge.com,babydoge.png,"[""meme"",""charity"",""interest_earning""]",{}
+KAVA,,Kava,Kava-KAVA,kava.io,kava.png,"[""lending""]",{}
+TFUEL,,Theta Fuel,ThetaFuel-TFUEL,thetatoken.org,tfuel.png,"[""smart_contract_platforms"",""streaming""]",{}
+_HOT,,Holo Token,HoloToken-_HOT,holo.host,_hot.png,"[""smart_contract_platforms"",""cloud_hosting"",""energy""]",{}
+HNT,,Helium,Helium-HNT,helium.com,hnt.png,"[""telecom"",""iot""]",{}
+BOME,,BOOK OF MEME,BOOKOFMEME-BOME,deca.art,bome.png,"[""meme""]",{}
+DGB,,DigiByte,DigiByte-DGB,digibyte.org,dgb.png,"[""ai"",""smart_contract_platforms"",""iot"",""privacy_coins""]",{}
+SUSHI,,Sushi,Sushi-SUSHI,sushi.com,sushi.png,"[""dex"",""yield_farming"",""launchpad"",""lending""]",{}
+AMP,,Amp,Amp-AMP,amp.xyz,amp.png,"[""governance""]",{}
+__TURBO,,Turbo,Turbo-__TURBO,sites.google.com,__turbo.png,"[""meme"",""ai""]",{}
+ENJ,,Enjin Coin,EnjinCoin-ENJ,enjin.io,enj.png,"[""smart_contract_platforms"",""gaming"",""nfts""]",{}
+USDP,,Pax Dollar,PaxDollar-USDP,paxos.com,usdp.png,"[""stablecoins"",""asset_backed_tokens""]",{}
+ONT,,Ontology,Ontology-ONT,ont.io,ont.png,"[""iot"",""smart_contract_platforms"",""identity""]",{}
+_SNEK,,Snek,Snek-_SNEK,snek.com,_snek.png,"[""meme""]",{}
+LCX,,LCX,LCX-LCX,lcx.com,lcx.png,[],{}
+_CTC,,Creditcoin,Creditcoin-_CTC,creditcoin.org,_ctc.png,[],{}
+OGN,,Origin Protocol,OriginProtocol-OGN,originprotocol.com,ogn.png,"[""nfts"",""governance""]",{}
+BLUR,,Blur,Blur-BLUR,blur.io,blur.png,"[""nfts"",""governance""]",{}
+REQ,,Request Network,RequestNetwork-REQ,request.network,req.png,"[""ecommerce""]",{}
+ACH,,Alchemy Pay,AlchemyPay-ACH,alchemypay.org,ach.png,"[""point_of_sale"",""wallets"",""debit_cards""]",{}
+XVS,,Venus,Venus-XVS,venus.io,xvs.png,"[""lending""]",{}
+WIN,,WINkLink,WINkLink-WIN,winklink.org,win.png,"[""oracle""]",{}
+__BRETT,,Brett,Brett-__BRETT,basedbrett.com,__brett.png,"[""meme""]",{}
+UMA,,UMA,UMA-UMA,uma.xyz,uma.png,"[""synthetics"",""options"",""governance"",""oracle""]",{}
+SC,,Siacoin,Siacoin-SC,sia.tech,sc.png,"[""storage""]",{}
+TRB,,Tellor,Tellor-TRB,tellor.io,trb.png,"[""oracle""]",{}
+POLYX,,Polymesh,Polymesh-POLYX,polymesh.network,polyx.png,"[""governance"",""security"",""identity"",""wallets""]",{}
+XYO,,XYO Network,XYONetwork-XYO,xyo.network,xyo.png,"[""iot"",""oracle""]",{}
+__AXL,,Axelar,Axelar-__AXL,axelar.network,__axl.png,"[""smart_contract_platforms"",""token_bridges""]",{}
+DUSK,,Dusk Network,DuskNetwork-DUSK,dusk.network,dusk.png,"[""smart_contract_platforms""]",{}
+ASTR,,ASTAR,ASTAR-ASTR,astar.network,astr.png,"[""smart_contract_platforms"",""governance""]",{}
+NOT,,Notcoin,Notcoin-NOT,notco.in,not.png,"[""bots"",""gaming"",""launchpad""]",{}
+ROSE,,Oasis Network,OasisNetwork-ROSE,oasisprotocol.org,rose.png,"[""privacy_coins"",""smart_contract_platforms""]",{}
+_POPCAT,,Popcat,Popcat-_POPCAT,popcatsol.com,_popcat.png,"[""meme""]",{}
+XNO,,Nano,Nano-XNO,nano.org,xno.png,"[""ecommerce""]",{}
+XVG,,Verge,Verge-XVG,vergecurrency.com,xvg.png,"[""privacy_coins"",""wallets""]",{}
+CKB,,Nervos Network,NervosNetwork-CKB,nervos.org,ckb.png,"[""smart_contract_platforms"",""storage""]",{}
+HEGIC,,Hegic,Hegic-HEGIC,hegic.co,hegic.png,"[""options""]",{}
+ARK,,Ark,Ark-ARK,ark.io,ark.png,"[""smart_contract_platforms""]",{}
+VVS,,VVS Finance,VVSFinance-VVS,vvs.finance,vvs.png,"[""yield_farming"",""governance""]",{}
+__MEW,,cat in a dogs world,catinadogsworld-__MEW,mew.xyz,__mew.png,"[""meme"",""anime""]",{}
+CSPR,,Casper Network,CasperNetwork-CSPR,casper.network,cspr.png,"[""smart_contract_platforms""]",{}
+__MOG,,Mog Coin,MogCoin-__MOG,mogcoin.xyz,__mog.png,"[""meme""]",{}
+_MAGIC,,Treasure DAO,TreasureDAO-_MAGIC,treasure.lol,_magic.png,"[""nfts"",""yield_farming"",""governance""]",{}
+ZIL,,Zilliqa,Zilliqa-ZIL,zilliqa.com,zil.png,"[""smart_contract_platforms""]",{}
+SNT,,Status,Status-SNT,status.app,snt.png,"[""social_media"",""telecom"",""wallets""]",{}
+GAS,,Gas,Gas-GAS,neo.org,gas.png,[],{}
+WNXM,,Wrapped NXM,WrappedNXM-WNXM,nexusmutual.io,wnxm.png,"[""wrapped_tokens"",""insurance""]",{}
+TORN,,Tornado Cash,TornadoCash-TORN,tornado.cash,torn.png,"[""governance"",""smart_contract_platforms""]",{}
+_BFC,,Bifrost,Bifrost-_BFC,bifrostnetwork.com,_bfc.png,"[""smart_contract_platforms"",""governance""]",{}
+WAVES,,Waves,Waves-WAVES,wavesplatform.com,waves.png,"[""smart_contract_platforms""]",{}
+BNT,,Bancor,Bancor-BNT,bancor.network,bnt.png,"[""dex""]",{}
+CUSD,,Celo Dollar,CeloDollar-CUSD,celo.org,cusd.png,"[""stablecoins"",""asset_backed_tokens""]",{}
+ILV,,Illuvium,Illuvium-ILV,illuvium.io,ilv.png,"[""gaming"",""nfts""]",{}
+_MASK,,Mask Network,MaskNetwork-_MASK,mask.io,_mask.png,"[""social_media"",""storage""]",{}
+WKC,,WIKI CAT,WIKICAT-WKC,wikicatcoin.com,wkc.png,"[""meme"",""nfts""]",{}
+_STG,,Stargate Finance,StargateFinance-_STG,stargate.finance,_stg.png,"[""token_bridges"",""yield_farming""]",{}
+___________DEGEN,,Degen,Degen-___________DEGEN,degen.tips,___________degen.png,"[""smart_contract_platforms"",""social_media""]",{}
+POWR,,Power Ledger,PowerLedger-POWR,powerledger.io,powr.png,"[""energy""]",{}
+RPL,,Rocket Pool,RocketPool-RPL,rocketpool.net,rpl.png,"[""liquid_staking"",""governance""]",{}
+IOTX,,IoTeX,IoTeX-IOTX,iotex.io,iotx.png,"[""iot"",""smart_contract_platforms""]",{}
+OCEAN,,Ocean Protocol,OceanProtocol-OCEAN,oceanprotocol.com,ocean.png,"[""oracle"",""storage"",""ai"",""cloud_hosting"",""nfts""]",{}
+BUSD,,Binance USD,BinanceUSD-BUSD,binance.com,busd.png,"[""stablecoins"",""asset_backed_tokens""]",{}
+PRO,,Propy,Propy-PRO,propy.com,pro.png,"[""real_estate""]",{}
+_FLUX,,Flux,Flux-_FLUX,runonflux.io,_flux.png,"[""cloud_hosting"",""privacy_coins"",""wallets"",""storage"",""identity""]",{}
+___NEIRO,,Neiro,Neiro-___NEIRO,neiroeth.io,___neiro.png,"[""meme""]",{}
+CELO,,Celo,Celo-CELO,celo.org,celo.png,"[""smart_contract_platforms"",""wallets"",""governance""]",{}
+BIGTIME,,Big Time,BigTime-BIGTIME,bigtime.gg,bigtime.png,"[""gaming""]",{}
+SOLV,,Solv Protocol,SolvProtocol-SOLV,solv.finance,solv.png,"[""governance"",""liquid_staking"",""restaking""]",{}
+CXO,,CargoX,CargoX-CXO,cargox.io,cxo.png,"[""cloud_hosting""]",{}
+FLOW,,Flow,Flow-FLOW,flow.com,flow.png,"[""smart_contract_platforms"",""wallets"",""nfts"",""sports""]",{}
+CTSI,,Cartesi,Cartesi-CTSI,cartesi.io,ctsi.png,"[""cloud_hosting""]",{}
+MANTA,,Manta Network,MantaNetwork-MANTA,manta.network,manta.png,"[""smart_contract_platforms"",""governance""]",{}
+W,,Wormhole,Wormhole-W,wormhole.com,w.png,"[""governance"",""token_bridges""]",{}
+TPT,,Token Pocket,TokenPocket-TPT,tokenpocket.pro,tpt.png,"[""wallets""]",{}
+SFP,,SafePal,SafePal-SFP,safepal.com,sfp.png,"[""wallets"",""governance""]",{}
+USTC,,TerraClassicUSD,TerraClassicUSD-USTC,terra-classic.io,ustc.png,"[""stablecoins""]",{}
+ABT,,Arcblock,Arcblock-ABT,arcblock.io,abt.png,"[""cloud_hosting""]",{}
+ETHW,,ETHPoW,ETHPoW-ETHW,ethereumpow.org,ethw.png,"[""synthetics""]",{}
+EWT,,Energy Web Token,EnergyWebToken-EWT,energyweb.org,ewt.png,"[""energy""]",{}
+ONE,,Harmony,Harmony-ONE,harmony.one,one.png,"[""smart_contract_platforms""]",{}
+_NOS,,Nosana,Nosana-_NOS,nosana.io,_nos.png,"[""metaverse"",""governance"",""cloud_hosting""]",{}
+DEP,,DEAPCOIN,DEAPCOIN-DEP,dea.sg,dep.png,"[""gaming"",""nfts""]",{}
+PUNDIX,,Pundi X,PundiX-PUNDIX,pundix.com,pundix.png,"[""debit_cards"",""wallets"",""ecommerce"",""point_of_sale""]",{}
+SKL,,SKALE,SKALE-SKL,skale.space,skl.png,"[""smart_contract_platforms""]",{}
+LSK,,Lisk,Lisk-LSK,lisk.com,lsk.png,"[""smart_contract_platforms""]",{}
+FXS,,Frax Share,FraxShare-FXS,frax.com,fxs.png,"[""governance""]",{}
+METIS,,Metis Token,MetisToken-METIS,metis.io,metis.png,"[""smart_contract_platforms"",""governance""]",{}
+AUCTION,,Bounce,Bounce-AUCTION,bounce.finance,auction.png,"[""crowdfunding"",""prediction_markets"",""governance"",""yield_farming""]",{}
+LON,,Tokenlon,Tokenlon-LON,tokenlon.im,lon.png,"[""dex""]",{}
+_SLP,,Smooth Love Potion,SmoothLovePotion-_SLP,axieinfinity.com,_slp.png,"[""nfts"",""gaming""]",{}
+KNC,,Kyber Network Crystal,KyberNetworkCrystal-KNC,kyber.network,knc.png,"[""governance"",""dex"",""yield_farming""]",{}
+CVC,,Civic,Civic-CVC,civic.com,cvc.png,"[""identity""]",{}
+API3,,API3,API3-API3,api3.org,api3.png,"[""oracle""]",{}
+AUDIO,,Audius,Audius-AUDIO,audius.co,audio.png,"[""music"",""streaming"",""storage""]",{}
+KEEP,,Keep Network,KeepNetwork-KEEP,keep.network,keep.png,"[""smart_contract_platforms"",""privacy_coins""]",{}
+ERG,,Ergo,Ergo-ERG,ergoplatform.org,erg.png,"[""smart_contract_platforms"",""privacy_coins""]",{}
+CELR,,Celer Network,CelerNetwork-CELR,celer.network,celr.png,"[""smart_contract_platforms"",""token_bridges""]",{}
+MLK,,MiL.k,MiLk-MLK,milkalliance.io,mlk.png,"[""ecommerce"",""travel""]",{}
+POOL,,PoolTogether,PoolTogether-POOL,pooltogether.com,pool.png,"[""governance""]",{}
+IOST,,Internet of Services Token,InternetofServicesToken-IOST,iost.io,iost.png,"[""smart_contract_platforms""]",{}
+AEVO,,Aevo,Aevo-AEVO,aevo.xyz,aevo.png,"[""options"",""perpetuals"",""dex""]",{}
+WOO,,Wootrade Network,WootradeNetwork-WOO,woo.org,woo.png,"[""cex""]",{}
+__TON,,Tokamak,Tokamak-__TON,tokamak.network,__ton.png,"[""smart_contract_platforms"",""governance"",""launchpad""]",{}
+RVN,,Ravencoin,Ravencoin-RVN,ravencoin.org,rvn.png,"[""token_issuance_platforms"",""wallets""]",{}
+MOVR,,Moonriver,Moonriver-MOVR,moonbeam.network,movr.png,"[""smart_contract_platforms""]",{}
+DYDX,,dYdX,dYdX-DYDX,dydx.exchange,dydx.png,"[""governance"",""dex"",""lending"",""perpetuals""]",{}
+IQ,,IQ,IQ-IQ,iq.wiki,iq.png,"[""oracle"",""governance""]",{}
+STEEM,,Steem,Steem-STEEM,steem.com,steem.png,"[""social_media""]",{}
+OSMO,,Osmosis,Osmosis-OSMO,osmosis.zone,osmo.png,"[""dex"",""yield_farming"",""governance""]",{}
+MBL,,MovieBloc,MovieBloc-MBL,moviebloc.com,mbl.png,"[""streaming""]",{}
+LQTY,,Liquity,Liquity-LQTY,liquity.org,lqty.png,"[""lending""]",{}
+SX,,SX Network,SXNetwork-SX,sx.technology,sx.png,"[""sports"",""gambling"",""prediction_markets"",""governance""]",{}
+___QI,,BENQi,BENQi-___QI,benqi.fi,___qi.png,"[""lending"",""governance"",""yield_farming""]",{}
+CBK,,Cobak Token,CobakToken-CBK,cobak.co,cbk.png,"[""analytics""]",{}
+___________________AI,,Sleepless AI Token,SleeplessAIToken-___________________AI,sleeplessai.net,___________________ai.png,"[""governance"",""ai"",""nfts"",""gaming"",""anime""]",{}
+WAXP,,WAX,WAX-WAXP,wax.io,waxp.png,"[""smart_contract_platforms"",""dex"",""gaming"",""nfts""]",{}
+RUJI,,Rujira,Rujira-RUJI,rujira.network,ruji.png,"[""smart_contract_platforms"",""dex"",""perpetuals"",""options"",""index_funds"",""lending"",""ai"",""launchpad"",""prediction_markets""]",{}
+QKC,,QuarkChain,QuarkChain-QKC,quarkchain.io,qkc.png,"[""smart_contract_platforms""]",{}
+___CORE,,Core DAO,CoreDAO-___CORE,coredao.org,___core.png,"[""smart_contract_platforms"",""governance""]",{}
+________HONEY,,Hivemapper,Hivemapper-________HONEY,hivemapper.com,________honey.png,"[""travel"",""iot""]",{}
+_BTCP,,Bitcoin Pro,BitcoinPro-_BTCP,bitcoinpro.money,_btcp.png,[],{}
+CTK,,Shentu,Shentu-CTK,shentu.org,ctk.png,"[""oracle"",""security"",""analytics""]",{}
+AGLD,,Adventure Gold,AdventureGold-AGLD,adventuregold.org,agld.png,"[""nfts"",""metaverse"",""gaming"",""governance"",""smart_contract_platforms"",""dex"",""identity""]",{}
+MTL,,Metal,Metal-MTL,metalpay.com,mtl.png,"[""debit_cards"",""point_of_sale""]",{}
+BICO,,Biconomy,Biconomy-BICO,mee.biconomy.io,bico.png,"[""governance"",""token_bridges"",""nfts""]",{}
+ADS,,Adshares,Adshares-ADS,adshares.net,ads.png,"[""advertising""]",{}
+VTHO,,VeThor Token,VeThorToken-VTHO,vechain.org,vtho.png,"[""logistics"",""ai"",""iot""]",{}
+_JOE,,JOE,JOE-_JOE,lfj.gg,_joe.png,"[""dex"",""yield_farming"",""lending""]",{}
+DAG,,Constellation,Constellation-DAG,constellationlabs.io,dag.png,"[""smart_contract_platforms"",""iot""]",{}
+CHEEL,,CHEELEE,CHEELEE-CHEEL,cheelee.us,cheel.png,"[""nfts"",""gaming"",""governance""]",{}
+POND,,Marlin,Marlin-POND,marlin.org,pond.png,"[""telecom""]",{}
+USUAL,,USUAL,USUAL-USUAL,usual.money,usual.png,"[""governance""]",{}
+_AGI,,Delysium,Delysium-_AGI,delysium.com,_agi.png,"[""ai""]",{}
+LUNA,,Luna,Luna-LUNA,terra.money,luna.png,"[""smart_contract_platforms""]",{}
+_BNX,,BinaryX v1,BinaryXv1-_BNX,binaryx.pro,_bnx.png,"[""metaverse"",""nfts"",""gaming"",""governance""]",{}
+TNSR,,Tensor,Tensor-TNSR,tensor.trade,tnsr.png,"[""nfts""]",{}
+HT,,HTX Token,HTXToken-HT,htx.com,ht.png,"[""cex"",""smart_contract_platforms""]",{}
+RAD,,Radworks,Radworks-RAD,radworks.com,rad.png,"[""cloud_hosting"",""governance""]",{}
+_________BANANA,,Banana Gun v2,BananaGunv2-_________BANANA,bananagun.io,_________banana.png,"[""nfts""]",{}
+COREDAO,,coreDAO,coreDAO-COREDAO,corefinance.eth.limo,coredao.png,"[""yield_farming"",""governance""]",{}
+COTI,,COTI,COTI-COTI,coti.io,coti.png,"[""wallets"",""debit_cards""]",{}
+___PRIME,,Echelon Prime,EchelonPrime-___PRIME,echelon.io,___prime.png,"[""gaming"",""nfts"",""governance""]",{}
+SPELL,,Spell Token,SpellToken-SPELL,abracadabra.money,spell.png,"[""governance"",""lending"",""yield_farming""]",{}
+_BITCOIN,,HarryPotterObamaSonic10Inu (Ethereum),HarryPotterObamaSonic10InuEthereum-_BITCOIN,hpos10i.com,_bitcoin.png,"[""meme"",""nfts"",""interest_earning""]",{}
+NCT,,PolySwarm,PolySwarm-NCT,polyswarm.io,nct.png,"[""security"",""analytics""]",{}
+MNDE,,Marinade Token,MarinadeToken-MNDE,marinade.finance,mnde.png,"[""liquid_staking"",""governance"",""nfts""]",{}
+___BONE,,Bone ShibaSwap,BoneShibaSwap-___BONE,shibaswap.com,___bone.png,"[""dex"",""yield_aggregators"",""yield_farming"",""smart_contract_platforms"",""meme""]",{}
+ATONE,,Atone,Atone-ATONE,atom.one,atone.png,"[""smart_contract_platforms""]",{}
+SGB,,Songbird,Songbird-SGB,flare.network,sgb.png,"[""smart_contract_platforms""]",{}
+___RARE,,SuperRare,SuperRare-___RARE,superrare.com,___rare.png,"[""nfts"",""art""]",{}
