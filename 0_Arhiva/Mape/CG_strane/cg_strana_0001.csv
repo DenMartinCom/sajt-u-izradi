@@ -360,3 +360,4 @@ tradable-na-neobank-sstl,pc0000023,Tradable NA Neobank SSTL,tradable-na-neobank-
 felix-feusd,feusd,Felix feUSD,felix-feusd,usefelix.xyz,,"{""hyperevm"": ""0x02c6a2fa58cc01a18b8d9e00ea48d65e4df26c70"", ""hyperliquid"": ""0x88102bea0bbad5f301f6e9e4dacdf979""}"
 strategy-stretch-preferred-ondo-tokenized,strcon,Strategy Stretch Preferred (Ondo Tokenized),strategy-stretch-preferred-ondo-tokenized,app.ondo.finance,,"{""ethereum"": ""0xecabe1ff8a9e1dc55899cf58dac8497ece5ae84c"", ""binance-smart-chain"": ""0x71e9dc9debc18650bd2342b93623b88c2ad00c89"", ""solana"": ""y6kSRF4i9tfMMjZziPHtQE1PeUS6bWEHTzZMFgXondo""}"
 kava,kava,Kava,kava,kava.io,,"{"""": """", ""binance-smart-chain"": ""0x9bafc8d4b487cebff201721702507a3e2c67ad79"", ""osmosis"": ""ibc/57AA1A70A4BC9769C525EBF6386F7A21536E04A79D62E1981EFCEF9428EBB205""}"
+berachain-bera,bera,Berachain,berachain,berachain.com,,"{"""": """"}"
