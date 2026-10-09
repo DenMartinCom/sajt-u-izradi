@@ -1,0 +1,4 @@
+id,symbol,name,slug,web,logo,contract
+BTC,₿,Bitcoin,Bitcoin-BTC,bitcoin.org,64/btc.png,{}
+ETH,Ξ,Ethereum,Ethereum-ETH,ethereum.org,64/eth.png,{}
+DOGE,Ɖ,Dogecoin,Dogecoin-DOGE,dogecoin.com,64/doge.png,{}
