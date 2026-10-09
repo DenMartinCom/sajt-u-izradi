@@ -1,2 +1,3 @@
 id,symbol,name,slug,web,logo,contract
 bitcoin,btc,Bitcoin,bitcoin,bitcoin.org,,"{"""": """"}"
+ethereum,eth,Ethereum,ethereum,ethereum.org,,"{"""": """"}"
