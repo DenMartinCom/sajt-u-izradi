@@ -245,3 +245,4 @@ golem,glm,Golem,golem,golem.network,,"{""ethereum"": ""0x7dd9c5cba05e151c895fde1
 quack-ai,q,Quack AI,quack-ai,quackai.ai,,"{""ethereum"": ""0xc07e1300dc138601fa6b0b59f8d0fa477e690589"", ""binance-smart-chain"": ""0xc07e1300dc138601fa6b0b59f8d0fa477e690589""}"
 edgex,edge,edgeX,edgex,edgex.exchange,,"{""ethereum"": ""0xb0076de78dc50581770bba1d211ddc0ad4f2a241""}"
 jpysc,jpysc,JPYSC,jpysc,shinseitrust.com,,"{""ethereum"": ""0x6781d5631bfe47432b089e64e3eab3b6edd26177""}"
+sosovalue,soso,SoSoValue,sosovalue,sosovalue.com,,"{""ethereum"": ""0x76a0e27618462bdac7a29104bdcfff4e6bfcea2d"", ""base"": ""0x624e2e7fdc8903165f64891672267ab0fcb98831""}"
