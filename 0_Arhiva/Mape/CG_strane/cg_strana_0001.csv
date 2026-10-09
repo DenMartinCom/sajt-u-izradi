@@ -123,3 +123,4 @@ virtual-protocol,virtual,Virtuals Protocol,virtual-protocol,virtuals.io,,"{""eth
 a7a5,a7a5,A7A5,a7a5,a7a5.io,,"{""ethereum"": ""0x6fa0be17e4bea2fcfa22ef89bf8ac9aab0ab0fc9"", ""tron"": ""TLeVfrdym8RoJreJ23dAGyfJDygRtiWKBZ""}"
 usdtb,usdtb,USDtb,usdtb,usdtb.money,,"{""ethereum"": ""0xc139190f447e929f090edeb554d95abb8b18ac1c"", ""solana"": ""8yXrtJ54jZtE84xEBzTESKuegjcAkAuDrdAhRd8i8n3T""}"
 derive,drv,Derive,derive,derive.xyz,,"{""ethereum"": ""0xb1d1eae60eea9525032a6dcb4c1ce336a1de71be"", ""base"": ""0x9d0e8f5b25384c7310cb8c6ae32c8fbeb645d083"", ""arbitrum-one"": ""0x77b7787a09818502305c95d68a2571f090abb135"", ""optimistic-ethereum"": ""0x33800de7e817a70a694f31476313a7c572bba100"", ""hyperliquid"": ""0x0896dbb30344c65b8727f41c3fe9ef62"", ""hyperevm"": ""0x9628bba16db41ea7fe1fd84f9ce53bc27c63f59b""}"
+sei-network,sei,Sei,sei,sei.io,,"{"""": """"}"
