@@ -57,3 +57,4 @@ band-protocol,band,Band,band-protocol,bandprotocol.com,,"{""ethereum"": ""0xba11
 ong,ong,Ontology Gas,ontology-gas,ont.io,,"{""ontology"": """"}"
 space-and-time,sxt,Space and Time,space-and-time,spaceandtime.io,,"{""ethereum"": ""0xe6bfd33f52d82ccb5b37e16d3dd81f9ffdabb195"", ""base"": ""0xa2c22252cdc8b7cddee1b0b2e242818509fcf7b8""}"
 frankencoin,zchf,Frankencoin,frankencoin,frankencoin.com,,"{""ethereum"": ""0xb58e61c3098d85632df34eecfb899a1ed80921cb"", ""sonic"": ""0xd4dd9e2f021bb459d5a5f6c24c12fe09c5d45553"", ""base"": ""0xd4dd9e2f021bb459d5a5f6c24c12fe09c5d45553"", ""polygon-pos"": ""0xd4dd9e2f021bb459d5a5f6c24c12fe09c5d45553"", ""optimistic-ethereum"": ""0xd4dd9e2f021bb459d5a5f6c24c12fe09c5d45553"", ""arbitrum-one"": ""0xd4dd9e2f021bb459d5a5f6c24c12fe09c5d45553"", ""avalanche"": ""0xd4dd9e2f021bb459d5a5f6c24c12fe09c5d45553"", ""xdai"": ""0xd4dd9e2f021bb459d5a5f6c24c12fe09c5d45553""}"
+concordium,ccd,Concordium,concordium,concordium.com,,"{"""": """"}"
