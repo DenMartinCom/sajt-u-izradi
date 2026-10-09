@@ -472,3 +472,4 @@ aelf,elf,aelf,aelf,aelf.com,,"{""aelf"": ""ELF_JRmBduh4nXWi1aXgdUsj5gJrzeZb2Lxmr
 memetoon,meme,MEMETOON,memetoon,memetoon.io,,"{""binance-smart-chain"": ""0x193397bb76868c6873e733ad60d5953843ebc84e""}"
 pha,pha,PHALA,phala-network,phala.network,,"{""ethereum"": ""0x6c5ba91642f10282b576d91922ae6448c9d52f4e"", ""sora"": ""0x0033271716eec64234a5324506c4558de27b7c23c42f3e3b74801f98bdfeebf7""}"
 flow,flow,Flow,flow,flow.com,,"{"""": """"}"
+cortex-2,cx,Cortex,cortex-2,cortexprotocol.com,,"{""ethereum"": ""0x000000000000012def132e61759048be5b5c6033"", ""base"": ""0x000000000000012def132e61759048be5b5c6033"", ""binance-smart-chain"": ""0x000000000000012def132e61759048be5b5c6033"", ""avalanche"": ""0x000000000000012def132e61759048be5b5c6033"", ""solana"": ""CortexFv3fRcLKTgACr7aLqckGh5eP7TP3z9JHoKqMc6"", ""arbitrum-one"": ""0x000000000000012def132e61759048be5b5c6033"", ""optimistic-ethereum"": ""0x000000000000012def132e61759048be5b5c6033""}"
