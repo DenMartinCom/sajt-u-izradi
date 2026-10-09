@@ -13,3 +13,4 @@ tradable-latam-bnpl-sstn,pc0000027,Tradable LatAm BNPL SSTN,tradable-latam-bnpl-
 nexus-4,nex,Nexus,nexus-4,nexus.xyz,,"{""ethereum"": ""0xf57d49646621f563b0b905afc8336923ac569ec5"", ""binance-smart-chain"": ""0x365de036a1f7dccb621530d517133521debb2013""}"
 spdr-s-p-500-etf-ondo-tokenized-etf,spyon,SPDR S&P 500 ETF (Ondo Tokenized ETF),spdr-s-p-500-etf-ondo-tokenized-etf,app.ondo.finance,,"{""ethereum"": ""0xfedc5f4a6c38211c1338aa411018dfaf26612c08"", ""binance-smart-chain"": ""0x6a708ead771238919d85930b5a0f10454e1c331a"", ""hyperevm"": ""0x32ec2792aec02122edd9f28866b720db1e1c1b54"", ""solana"": ""k18WJUULWheRkSpSquYGdNNmtuE2Vbw1hpuUi92ondo""}"
 ozapay,oza,Ozapay,ozapay,ozapay.me,,"{""solana"": ""67iVSrbgQKiPjttU9uXx9CXUoS1Si3XUhrXeiNAUUZSR""}"
+popcat,popcat,Popcat,popcat,popcatsolana.xyz,,"{""solana"": ""7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr""}"
