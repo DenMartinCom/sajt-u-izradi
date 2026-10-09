@@ -305,3 +305,4 @@ iexec-rlc,rlc,iExec RLC,iexec-rlc,iex.ec,,"{""ethereum"": ""0x607f4c5bb672230e86
 wemix-token,wemix,WEMIX,wemix,wemix.com,,"{"""": """"}"
 usda-2,usda,USDa,usda,avalonfinance.xyz,,"{""ethereum"": ""0x8a60e489004ca22d775c5f2c657598278d17d9c2"", ""mantle"": ""0x075df695b8e7f4361fa7f8c1426c63f11b06e326"", ""binance-smart-chain"": ""0x9356086146be5158e98ad827e21b5cf944699894""}"
 quantum-resistant-ledger,qrl,Quantum Resistant Ledger,quantum-resistant-ledger,theqrl.org,,"{"""": """"}"
+marscoin-4,marscoin,MarsCoin,marscoin-4,marscoinbnb.com,,"{""binance-smart-chain"": ""0xfe189e97832da1573e4e4ff034f4ffc3a15c7777""}"
