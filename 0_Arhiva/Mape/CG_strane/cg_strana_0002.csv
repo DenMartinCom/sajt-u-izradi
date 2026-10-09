@@ -89,3 +89,4 @@ magma-finance,magma,Magma Finance,magma-finance,magmafinance.io,,"{""sui"": ""0x
 arcs,arx,ARCS,arcs,arcs-chain.com,,"{""ethereum"": ""0x7d8daff6d70cead12c6f077048552cf89130a2b1""}"
 status,snt,Status,status,status.im,,"{""ethereum"": ""0x744d70fdbe2ba4cf95131626614a1763df805b9e""}"
 pay-coin,pci,Paycoin,paycoin,payprotocol.io,,"{"""": """"}"
+staked-frax-usd,sfrxusd,Frax Staked frxUSD,frax-staked-frxusd,frax.com,,"{""ethereum"": ""0xcf62f905562626cfcdd2261162a51fd02fc9c5b6"", ""sei-v2"": ""0x5bff88ca1442c2496f7e475e9e7786383bc070c0"", ""x-layer"": ""0x5bff88ca1442c2496f7e475e9e7786383bc070c0"", ""sonic"": ""0x5bff88ca1442c2496f7e475e9e7786383bc070c0"", ""mode"": ""0x5bff88ca1442c2496f7e475e9e7786383bc070c0"", ""fraxtal"": ""0xfc00000000000000000000000000000000000008"", ""arbitrum-one"": ""0x5bff88ca1442c2496f7e475e9e7786383bc070c0"", ""katana"": ""0x5bff88ca1442c2496f7e475e9e7786383bc070c0""}"
