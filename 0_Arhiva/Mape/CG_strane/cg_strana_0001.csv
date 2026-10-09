@@ -358,3 +358,4 @@ ecomi,omi,ECOMI,ecomi,ecomi.notion.site,,"{""ethereum"": ""0xed35af169af46a02ee1
 kaito,kaito,KAITO,kaito,yaps.kaito.ai,,"{""base"": ""0x98d0baa52b2d063e780de12f615f963fe8537553""}"
 tradable-na-neobank-sstl,pc0000023,Tradable NA Neobank SSTL,tradable-na-neobank-sstl,tradable.xyz,,"{""zksync"": ""0xae0d8cad4ce522538ae34386c319c7ccd11fe428""}"
 felix-feusd,feusd,Felix feUSD,felix-feusd,usefelix.xyz,,"{""hyperevm"": ""0x02c6a2fa58cc01a18b8d9e00ea48d65e4df26c70"", ""hyperliquid"": ""0x88102bea0bbad5f301f6e9e4dacdf979""}"
+strategy-stretch-preferred-ondo-tokenized,strcon,Strategy Stretch Preferred (Ondo Tokenized),strategy-stretch-preferred-ondo-tokenized,app.ondo.finance,,"{""ethereum"": ""0xecabe1ff8a9e1dc55899cf58dac8497ece5ae84c"", ""binance-smart-chain"": ""0x71e9dc9debc18650bd2342b93623b88c2ad00c89"", ""solana"": ""y6kSRF4i9tfMMjZziPHtQE1PeUS6bWEHTzZMFgXondo""}"
