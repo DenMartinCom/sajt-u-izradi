@@ -223,3 +223,4 @@ bedrock-token,br,Bedrock,bedrock,bedrockdao.com,,"{""binance-smart-chain"": ""0x
 gusd,gusd,GUSD,gusd,gate.com,,"{"""": """"}"
 superfarm,super,SuperVerse,superverse,superverse.co,,"{""ethereum"": ""0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55"", ""soneium"": ""0xf765356c901a064a74fa4560622f21c91048c3d7"", ""base"": ""0x391359ab0ccef572dcac78f74e47d7c06db0b982"", ""polygon-pos"": ""0xa1428174f516f527fafdd146b883bb4428682737"", ""avalanche"": ""0x09fa58228bb791ea355c90da1e4783452b9bd8c3""}"
 orca,orca,Orca,orca,orca.so,,"{""solana"": ""orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE""}"
+build-on,b,BUILDon,build-on,buildon.online,,"{""binance-smart-chain"": ""0x6bdcce4a559076e37755a78ce0c06214e59e4444""}"
