@@ -356,3 +356,4 @@ cygnus-finance-global-usd,cgusd,Cygnus Finance Global USD,cygnus-finance-global-
 tradable-north-america-pos-lender-sstn,pc0000019,Tradable North America PoS Lender SSTN,tradable-north-america-pos-lender-sstn,tradable.xyz,,"{""zksync"": ""0x1f179a51ab46252f469733dfcbd9115090a91f03""}"
 ecomi,omi,ECOMI,ecomi,ecomi.notion.site,,"{""ethereum"": ""0xed35af169af46a02ee13b9d79eb57d6d68c1749e"", ""base"": ""0x3792dbdd07e87413247df995e692806aa13d3299"", ""energi"": ""0x003d765f3793de38ad5ea9d5fd0021cf12c3ba68""}"
 kaito,kaito,KAITO,kaito,yaps.kaito.ai,,"{""base"": ""0x98d0baa52b2d063e780de12f615f963fe8537553""}"
+tradable-na-neobank-sstl,pc0000023,Tradable NA Neobank SSTL,tradable-na-neobank-sstl,tradable.xyz,,"{""zksync"": ""0xae0d8cad4ce522538ae34386c319c7ccd11fe428""}"
