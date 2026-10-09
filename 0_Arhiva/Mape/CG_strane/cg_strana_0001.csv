@@ -37,3 +37,4 @@ tether-gold,xaut,Tether Gold,tether-gold,gold.tether.to,,"{""ethereum"": ""0x687
 shiba-inu,shib,Shiba Inu,shiba-inu,shibatoken.com,,"{""ethereum"": ""0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce""}"
 global-dollar,usdg,Global Dollar,global-dollar,globaldollar.com,,"{""solana"": ""2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH"", ""ink"": ""0xe343167631d89b6ffc58b88d6b7fb0228795491d"", ""ethereum"": ""0xe343167631d89b6ffc58b88d6b7fb0228795491d"", ""x-layer"": ""0x4ae46a509f6b1d9056937ba4500cb143933d2dc8"", ""robinhood"": ""0x5fc5360d0400a0fd4f2af552add042d716f1d168"", ""mantle"": ""0x063c1d1ef6e9099ce3e8e9ad5c6173d12c49c086"", ""arbitrum-one"": ""0x004b506865409877c9fa29bfb1eba929984b9bbc""}"
 bittensor,tao,Bittensor,bittensor,bittensor.com,,"{"""": """"}"
+crypto-com-chain,cro,Cronos,cronos,cronos.org,,"{""ethereum"": ""0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b""}"
