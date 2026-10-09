@@ -54,3 +54,4 @@ worldcoin-wld,wld,Worldcoin,worldcoin,worldcoin.org,,"{""ethereum"": ""0x163f8c2
 aster-2,aster,Aster,aster-2,asterdex.com,,"{""binance-smart-chain"": ""0x000ae314e2a2172a039b26378814c252734f556a""}"
 pax-gold,paxg,PAX Gold,pax-gold,paxg.com,,"{""ethereum"": ""0x45804880de22913dafe09f4980848ece6ecbaf78""}"
 sky,sky,Sky,sky,sky.money,,"{""ethereum"": ""0x56072c95faa701256059aa122697b133aded9279"", ""hydration"": ""asset_registry%2F1000795""}"
+mantle,mnt,Mantle,mantle,group.mantle.xyz,,"{""ethereum"": ""0x3c3a81e81dc49a522a592e7622a7e711c06bf354"", ""mantle"": ""0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000""}"
