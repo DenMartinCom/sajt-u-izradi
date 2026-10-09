@@ -207,3 +207,4 @@ immutable-x,imx,Immutable,immutable-x,imx.community,,"{""ethereum"": ""0xf57e7e7
 vaulta,a,Vaulta,vaulta,vaulta.com,,"{"""": """"}"
 chain-2,xcn,Onyxcoin,onyxcoin,onyx.org,,"{""ethereum"": ""0xa2cd3d43c775978a96bdbf12d733d5a1ed94fb18"", ""base"": ""0x9c632e6aaa3ea73f91554f8a3cb2ed2f29605e0c"", ""binance-smart-chain"": ""0x7324c7c0d95cebc73eea7e85cbaac0dbdf88a05b""}"
 apyusd,apyusd,apyUSD,apyusd,apyx.fi,,"{""ethereum"": ""0x38eeb52f0771140d10c4e9a9a72349a329fe8a6a"", ""base"": ""0x2c271ddf484ac0386d216eb7eb9ff02d4dc0f6aa"", ""binance-smart-chain"": ""0xa14556f13516c53ff035858ffd21e1625e7eadfd"", ""solana"": ""Ex8hKasfFCfj3yGuN5TyYRUjHePgVs3uYUJRT8geT7rv""}"
+sonic-3,s,Sonic,sonic,soniclabs.com,,"{"""": """"}"
