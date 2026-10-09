@@ -242,3 +242,4 @@ zksync,zk,ZKsync,zksync,zksync.io,,"{""zksync"": ""0x5a7d6b2f92c77fad6ccabd7ee06
 meta-2-2,meta,MetaDAO,meta-2,metadao.fi,,"{""solana"": ""METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta""}"
 aethir,ath,Aethir,aethir,aethir.com,,"{""ethereum"": ""0xbe0ed4138121ecfc5c0e56b40517da27e6c5226b"", ""solana"": ""Dm5BxyMetG3Aq5PaG1BrG7rBYqEMtnkjvPNMExfacVk7"", ""arbitrum-one"": ""0xc87b37a581ec3257b734886d9d3a581f5a9d056c""}"
 golem,glm,Golem,golem,golem.network,,"{""ethereum"": ""0x7dd9c5cba05e151c895fde1cf355c9a1d5da6429"", ""energi"": ""0xf3ff3bf1d1afcbebd98a304482c4099dc953e9a8""}"
+quack-ai,q,Quack AI,quack-ai,quackai.ai,,"{""ethereum"": ""0xc07e1300dc138601fa6b0b59f8d0fa477e690589"", ""binance-smart-chain"": ""0xc07e1300dc138601fa6b0b59f8d0fa477e690589""}"
