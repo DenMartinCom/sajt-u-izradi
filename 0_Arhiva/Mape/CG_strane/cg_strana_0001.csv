@@ -165,3 +165,4 @@ floki,floki,FLOKI,floki,floki.com,,"{""ethereum"": ""0xcf0c122c6b73ff809c693db76
 collector-crypt,cards,Collector Crypt,collector-crypt,collectorcrypt.com,,"{""solana"": ""CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp""}"
 zebec-network,zbcn,Zebec Network,zebec-network,zebec.io,,"{""solana"": ""ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU""}"
 pons,pons,Pons,pons,ponsfamily.com,,"{""robinhood"": ""0x39dbed3a2bd333467115de45665cc57f813c4571""}"
+iota,iota,IOTA,iota,iota.org,,"{""iota"": ""0x2::iota::IOTA""}"
