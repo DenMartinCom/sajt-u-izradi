@@ -67,3 +67,4 @@ htx-dao,htx,HTX DAO,htx-dao,htxdao.com,,"{""tron"": ""TUPM7K8REVzD2UdV4R5fe5M8Xb
 bitget-token,bgb,Bitget Token,bitget-token,partner.bitget.com,,"{""ethereum"": ""0x54d2252757e1672eead234d27b1270728ff90581"", ""morph-l2"": ""0x389c08bc23a7317000a1fd76c7c5b0cb0b4640b5""}"
 bfusd,bfusd,BFUSD,bfusd,binance.com,,"{"""": """"}"
 ethereum-classic,etc,Ethereum Classic,ethereum-classic,ethereumclassic.org,,"{"""": """"}"
+usdgo,usdgo,USDGO,usdgo,usdgo.com,,"{""solana"": ""72puLt71H93Z9CzHuBRTwFpL4TG3WZUhnoCC7p8gxigu"", ""ethereum"": ""0x4cf5920df52f5b1f246e2e38e1786ae1cf03ecf5"", ""morph-l2"": ""0x4cf5920df52f5b1f246e2e38e1786ae1cf03ecf5""}"
