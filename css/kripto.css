@@ -932,6 +932,38 @@ body {
     .kalk-polje:first-child { flex: 0 0 25%; }
 }
 
+/* ===== ZAMA STAKING GRAFIKON ===== */
+.widget-zama-graf {
+    padding: 12px;
+    gap: 10px;
+    align-items: stretch;
+}
+.zama-graf-title {
+    color: #FFD700;
+    font-size: 0.85rem;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+.zama-graf-wrap {
+    position: relative;
+    width: 100%;
+    height: 240px;
+}
+.zama-graf-wrap canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+.zama-graf-status {
+    color: #666;
+    font-size: 0.7rem;
+    text-align: center;
+    min-height: 1em;
+    letter-spacing: 0.3px;
+}
+@media (max-width: 370px) {
+    .zama-graf-wrap { height: 200px; }
+}
+
 /* Popravka blikanja slika */
 img[src*="_default.png"],
 .liste-red img,
