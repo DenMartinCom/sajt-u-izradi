@@ -492,3 +492,4 @@ pinlink,pin,PinLink,pinlink,pinlink.ai,,"{""ethereum"": ""0x2e44f3f609ff5aa4819b
 solid-x,solidx,Solid X,solid-x,solidx.win,,"{""pulsechain"": ""0x8da17db850315a34532108f0f5458fc0401525f6""}"
 lava-network,lava,Lava Network,lava-network,lavanet.xyz,,"{""arbitrum-one"": ""0x11e969e9b3f89cb16d686a03cd8508c9fc0361af"", ""osmosis"": ""IBC/1AEF145C549D4F9847C79E49710B198C294C7F4A107F4610DEE8E725FFC4B378"", ""base"": ""0x11e969e9b3f89cb16d686a03cd8508c9fc0361af""}"
 darik-coin,darik,Darik Coin,darik-coin,darikcoin.org,,"{""binance-smart-chain"": ""0x595a67d180bae10314384265d56927c8ff073426""}"
+solomon-usdv,usdv,Solomon USDv,solomon-usdv,solomonlabs.org,,"{""solana"": ""USDvUSpnhCr9yBgj3UyVrD239HRUv4RsHwH2FxsWuMk""}"
