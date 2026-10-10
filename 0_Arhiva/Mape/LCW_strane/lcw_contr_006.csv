@@ -114,3 +114,6 @@ BORGY,,Borgy,Borgy-BORGY,,borgy.png,[],"{""solana"":""BorGY4ub2Fz4RLboGxnuxWdZts
 SUSD,,sUSD,sUSD-SUSD,synthetix.io,susd.png,"[""synthetics"",""stablecoins""]","{""ethereum"":""0x57Ab1ec28D129707052df4dF418D58a2D46d5f51"",""fantom"":""0x0E1694483eBB3b74d3054E383840C6cf011e518e"",""optimism-ethereum"":""0x8c6f28f2f1a3c87f0f938b96d27520d9751ec8d9""}",2927
 STNK,,Stonks,Stonks-STNK,stonkscoin.org,stnk.png,"[""meme"",""nfts""]","{""solana"":""43VWkd99HjqkhFTZbWBpMpRhjG469nWa7x7uEsgSH7We""}",10332
 MNTX,,Minutes Network Token,MinutesNetworkToken-MNTX,minutesnetworktoken.io,mntx.png,"[""telecom"",""iot""]","{""ethereum"":""0x5C697fee285B513711A816018DBb34DC0cFC4875""}",36317
+__PBTC,,Purple Bitcoin,PurpleBitcoin-__PBTC,purplebitcoin.com,__pbtc.png,[],"{""solana"":""HfMbPyDdZH6QMaDDUokjYCkHxzjoGBMpgaUvpLWGbF5p""}",35396
+ARROW,,Arrow,Arrow-ARROW,arrowfinance.io,arrow.png,"[""asset_backed_tokens"",""token_issuance_platforms"",""commodities"",""meme""]","{""robinhood-placeholder"":""0xf2915d1e3C1B0c769d0c756Ec43F1c1f6c99cD03""}",40812
+RARI,,Rarible,Rarible-RARI,rari.foundation,rari.png,"[""governance"",""nfts""]","{""ethereum"":""0xfca59cd816ab1ead66534d82bc21e7515ce441cf"",""base"":""0xc61f9663e05fccd84d4d6c56a373093437ecb899""}",5877
