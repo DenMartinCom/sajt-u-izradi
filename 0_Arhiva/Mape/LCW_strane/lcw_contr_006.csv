@@ -117,3 +117,10 @@ MNTX,,Minutes Network Token,MinutesNetworkToken-MNTX,minutesnetworktoken.io,mntx
 __PBTC,,Purple Bitcoin,PurpleBitcoin-__PBTC,purplebitcoin.com,__pbtc.png,[],"{""solana"":""HfMbPyDdZH6QMaDDUokjYCkHxzjoGBMpgaUvpLWGbF5p""}",35396
 ARROW,,Arrow,Arrow-ARROW,arrowfinance.io,arrow.png,"[""asset_backed_tokens"",""token_issuance_platforms"",""commodities"",""meme""]","{""robinhood-placeholder"":""0xf2915d1e3C1B0c769d0c756Ec43F1c1f6c99cD03""}",40812
 RARI,,Rarible,Rarible-RARI,rari.foundation,rari.png,"[""governance"",""nfts""]","{""ethereum"":""0xfca59cd816ab1ead66534d82bc21e7515ce441cf"",""base"":""0xc61f9663e05fccd84d4d6c56a373093437ecb899""}",5877
+MATH,,MATH,MATH-MATH,mathwallet.org,math.png,"[""wallets"",""ecommerce""]","{""ethereum"":""0x08d967bb0134f2d07f7cfb6e246680c53927dd30"",""bnb"":""0xf218184af829cf2b0019f8e6f0b2423498a36983"",""solana"":""CaGa7pddFXS65Gznqwp42kBhkJQdceoFVT7AQYo8Jr8Q"",""base"":""0x9e81f6495ba29a6b4d48bddd042c0598fa8abc9f""}",5616
+_CLV,,Clover Finance,CloverFinance-_CLV,clv.org,_clv.png,"[""smart_contract_platforms"",""wallets"",""governance""]","{""ethereum"":""0x80C62FE4487E1351b47Ba49809EBD60ED085bf52"",""bnb"":""0x09E889BB4D5b474f561db0491C38702F367A4e4d""}",8384
+_MORI,,MORI COIN,MORICOIN-_MORI,,_mori.png,[],"{""solana"":""8ZHE4ow1a2jjxuoMfyExuNamQNALv5ekZhsBn5nMDf5e""}",36959
+_SKI,,SKI MASK DOG,SKIMASKDOG-_SKI,skimaskdog.com,_ski.png,"[""meme""]","{""base"":""0x768BE13e1680b5ebE0024C42c896E3dB59ec0149""}",31173
+OMIKAMI,,AMATERASU OMIKAMI,AMATERASUOMIKAMI-OMIKAMI,omikamitoken.com,omikami.png,"[""meme"",""charity""]","{""ethereum"":""0x9e18d5bab2fa94a6a95f509ecb38f8f68322abd3""}",28147
+__MAJOR,,Major,Major-__MAJOR,major.bot,__major.png,"[""bots"",""gaming""]","{""gram"":""EQCuPm01HldiduQ55xaBF_1kaW_WAUy5DHey8suqzU_MAJOR""}",33188
+__VAL,,VALIDITY,VALIDITY-__VAL,validitytech.com,__val.png,"[""governance"",""identity"",""security""]",{},1154
