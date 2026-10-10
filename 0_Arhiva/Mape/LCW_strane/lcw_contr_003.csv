@@ -20,3 +20,12 @@ DAG,,Constellation,Constellation-DAG,constellationlabs.io,dag.png,"[""smart_cont
 BICO,,Biconomy,Biconomy-BICO,mee.biconomy.io,bico.png,"[""governance"",""token_bridges"",""nfts""]","{""ethereum"":""0xF17e65822b568B3903685a7c9F496CF7656Cc6C2"",""bnb"":""0x06250a4962558F0F3E69FC07F4c67BB9c9eAc739"",""polygon-ecosystem-token"":""0x91c89A94567980f0e9723b487b0beD586eE96aa7"",""avalanche"":""0xB2a51E38893F153A5e40AF94958fe782a170a552"",""optimism-ethereum"":""0xd6909e9e702024eb93312b989ee46794c0fb1c9d"",""arbitrum"":""0xa68Ec98D7ca870cF1Dd0b00EBbb7c4bF60A8e74d"",""base"":""0xf5Dbaa3DFC5e81405c7306039fB037a3DCD57Ce2""}",9543
 UMIA,,Umia,Umia-UMIA,umia.finance,umia.png,"[""launchpad"",""governance""]","{""base"":""0x56ab53b77F07DA3af732150E8aeC4783eB5BbA7D""}",41925
 NOCK,,Nockchain,Nockchain-NOCK,nockchain.org,nock.png,[],"{""bnb"":""0xbe6ad1eb9876cf3d3f9b85feecfb400298e80143""}",32968
+TNSR,,Tensor,Tensor-TNSR,tensor.trade,tnsr.png,"[""nfts""]","{""solana"":""TNSRxcUxoT9xBG3de7PiJyTDYu7kskLqcpddxnEJAS6""}",30449
+ENSO,,Enso,Enso-ENSO,enso.build,enso.png,[],"{""ethereum"":""0x699F088b5DddcAFB7c4824db5B10B57B37cB0C66"",""bnb"":""0xfeb339236d25d3e415f280189bc7c2fbab6ae9ef"",""base"":""0xfeb339236d25d3e415f280189bc7c2fbab6ae9ef""}",38668
+XYM,,Symbol,Symbol-XYM,,xym.png,[],{},8677
+FARTBOY,,FARTBOY,FARTBOY-FARTBOY,fartboysol.com,fartboy.png,"[""meme""]","{""solana"":""y1AZt42vceCmStjW4zetK3VoNarC1VxJ5iDjpiupump""}",35426
+ONT,,Ontology,Ontology-ONT,ont.io,ont.png,"[""iot"",""smart_contract_platforms"",""identity""]","{""ethereum"":""0xf970706063b7853877f39515c96932d49d5ac9cd"",""bnb"":""0xf970706063b7853877f39515c96932d49d5ac9cd""}",35877
+CGO,,Comtech Gold,ComtechGold-CGO,comtechgold.com,cgo.png,"[""asset_backed_tokens"",""commodities""]","{""xdc-network"":""0x8f9920283470F52128bF11B0c14E798bE704fD15""}",20245
+___GIGA,,Gigachad,Gigachad-___GIGA,gigachadsolana.com,___giga.png,"[""meme""]","{""solana"":""63LfDmNb3MQ8mw9MtZ2To9bEA2M71kZUUGq5tiJxcqj9""}",30063
+SPYB,,SPY,SPY-SPYB,bstocks.finance,spyb.png,"[""asset_backed_tokens""]","{""robinhood-placeholder"":""0x117cc2133c37B721F49dE2A7a74833232B3B4C0C""}",40694
+DODO,,DODO,DODO-DODO,dodo-refuse.vercel.app,dodo.png,"[""dex"",""yield_farming"",""crowdfunding""]","{""ethereum"":""0x43dfc4159d86f3a37a5a4b3d4580b888ad7d4ddd"",""bnb"":""0x67ee3Cb086F8a16f34beE3ca72FAD36F7Db929e2"",""arbitrum"":""0x69Eb4FA4a2fbd498C257C57Ea8b7655a2559A581"",""near-protocol"":""43dfc4159d86f3a37a5a4b3d4580b888ad7d4ddd.factory.bridge.near""}",7224
