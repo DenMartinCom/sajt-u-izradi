@@ -456,3 +456,4 @@ zeus-network,zeus,Zeus Network,zeus-network,zeusnetwork.xyz,,"{""solana"": ""ZEU
 anthropic-prestocks-2,anthropic,Anthropic PreStocks,anthropic-prestocks,prestocks.com,,"{""solana"": ""Pren1FvFX6J3E4kXhJuCiAD5aDmGEb7qJRncwA8Lkhw""}"
 strkbtc,strkbtc,strkBTC,strkbtc,strkbtc.starknet.io,,"{""starknet"": ""0x0787150e306e6EaE6E3f79dEA881770E8bbFF2c1b8EB490F969669EE945b3135""}"
 buttcoin-7,buttcoin,Buttcoin,buttcoin-5,buttcoinfoundation.org,,"{""solana"": ""Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump""}"
+aia,aia,DeAgentAI,deagentai,deagent.ai,,"{""sui"": ""0x99cc0e7834326ec6ac571421e9b8e042e9eb63062771c77ac592bd194180b5da::deagent_token::DEAGENT_TOKEN"", ""binance-smart-chain"": ""0x53ec33cd4fa46b9eced9ca3f6db626c5ffcd55cc""}"
