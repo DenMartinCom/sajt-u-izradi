@@ -331,3 +331,4 @@ backed-govies-0-6-months-euro,bc3m,Backed GOVIES 0-6 months EURO,backed-govies-0
 chomolon-joff,joff,Chomolon Joff,chomolon-joff,joffonhl.xyz,,"{""hyperevm"": ""0x62d5dd0190376c444a4b2e2e860aa392ec83ed80""}"
 alibaba-bstocks-tokenized-stock,babab,Alibaba (bStocks Tokenized Stock),alibaba-bstocks-tokenized-stock,binance.com,,"{""binance-smart-chain"": ""0x4ef9d3062c7f6eba4aae4990c5036598c6eff4ec""}"
 rupiah-token,idrt,Rupiah Token,rupiah-token,rupiahtoken.com,,"{""ethereum"": ""0x998ffe1e43facffb941dc337dd0468d52ba5b48a"", ""harmony-shard-0"": ""0xcefbea899cfccdc653b171d063481b622086be3f"", ""polygon-pos"": ""0x554cd6bdd03214b10aafa3e0d4d42de0c5d2937b"", ""binance-smart-chain"": ""0x66207e39bb77e6b99aab56795c7c340c08520d83""}"
+navi,navx,NAVI Protocol,navi,naviprotocol.io,,"{""sui"": ""0xa99b8952d4f7d947ea77fe0ecdcc9e5fc0bcab2841d6e2a5aa00c3044e5544b5::navx::NAVX""}"
