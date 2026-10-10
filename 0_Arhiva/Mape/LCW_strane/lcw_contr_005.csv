@@ -1,0 +1,3 @@
+id,symbol,name,slug,web,logo,tags,contract,cmc_id
+PEPECOIN,,pepeCoin,pepeCoin-PEPECOIN,pepeco.in,pepecoin.png,"[""meme"",""nfts""]","{""ethereum"":""0xA9E8aCf069C58aEc8825542845Fd754e41a9489A""}",24835
+ORDER,,Orderly Network,OrderlyNetwork-ORDER,orderly.network,order.png,"[""smart_contract_platforms""]","{""ethereum"":""0xABD4C63d2616A5201454168269031355f4764337"",""bnb"":""0x4E200fE2f3eFb977d5fd9c430A41531FB04d97B8"",""polygon-ecosystem-token"":""0x4E200fE2f3eFb977d5fd9c430A41531FB04d97B8"",""optimism-ethereum"":""0x4E200fE2f3eFb977d5fd9c430A41531FB04d97B8"",""arbitrum"":""0x4E200fE2f3eFb977d5fd9c430A41531FB04d97B8"",""base"":""0x4E200fE2f3eFb977d5fd9c430A41531FB04d97B8""}",32809
