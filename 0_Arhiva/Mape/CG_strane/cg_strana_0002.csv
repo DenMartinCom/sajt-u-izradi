@@ -493,3 +493,4 @@ max-token,max,MAX,max-token,max.maicoin.com,,"{""ethereum"": ""0xe7976c4efc60d9f
 gaib-aid,aid,GAIB AID,gaib-aid,gaib.ai,,"{""ethereum"": ""0x18f52b3fb465118731d9e0d276d4eb3599d57596""}"
 usdpt-western-union,usdpt,USDPT | Western Union,usdpt-western-union,westernunion.com,,"{""solana"": ""HVWf8JmLoHs99Lw8Psf3fyqAtA4crWxCPkrmSdNjhNH3""}"
 openserv,serv,OpenServ,openserv,openserv.ai,,"{""ethereum"": ""0x40e3d1a4b2c47d9aa61261f5606136ef73e28042"", ""base"": ""0x5576d6ed9181f2225aff5282ac0ed29f755437ea""}"
+sk-hynix-bstocks-tokenized-stock,skhyb,SK Hynix (bStocks Tokenized Stock),sk-hynix-bstocks-tokenized-stock,binance.com,,"{""binance-smart-chain"": ""0xca750ef65f295bbecd685abf54e82caf297bdb61""}"
