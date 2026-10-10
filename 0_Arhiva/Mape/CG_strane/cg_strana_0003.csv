@@ -393,3 +393,4 @@ assemble-protocol,asm,Assemble AI,assemble-ai,ns3.ai,,"{""base"": ""0x3b53604113
 pond-coin,pndc,PondCoin,pondcoin,pond0x.com,,"{""ethereum"": ""0x423f4e6138e475d85cf7ea071ac92097ed631eea""}"
 playsout,play,PlaysOut,playsout,playsout.com,,"{""base"": ""0x853a7c99227499dba9db8c3a02aa691afdebf841"", ""binance-smart-chain"": ""0xf86089b30f30285d492b0527c37b9c2225bfcf8c""}"
 ivault,ivt,ivault,ivault,ivault.io,,"{""base"": ""0x4b12507e171970b3acd48edfeb5bd1c676e61280""}"
+peercoin,ppc,Peercoin,peercoin,peercoin.net,,"{""ethereum"": ""0x044d078f1c86508e13328842cc75ac021b272958"", ""polygon-pos"": ""0x91e7e32c710661c44ae44d10aa86135d91c3ed65""}"
