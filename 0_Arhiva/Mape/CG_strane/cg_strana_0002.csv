@@ -280,3 +280,4 @@ bucket-protocol-buck-stablecoin,buck,Bucket Protocol BUCK Stablecoin,bucket-prot
 ergo,erg,Ergo,ergo,ergoplatform.org,,"{"""": """"}"
 strikecoin,strx,StrikeX,strike-x,tradestrike.io,,"{""binance-smart-chain"": ""0xd6fdde76b8c1c45b33790cc8751d5b88984c44ec"", ""ethereum"": ""0x4ed257678fc4e76df9642a416b223729fdedbefd"", ""solana"": ""9HCRyuqrFDt1kUrwuUF7xjb2eqCgFmC5433MjqJ3STRX""}"
 utya,utya,Utya,utya,tonutya.com,,"{""the-open-network"": ""EQBaCgUwOoc6gHCNln_oJzb0mVs79YG7wYoavh-o1ItaneLA""}"
+fidelity-usd-digital-liquidity-fund-acc,filq-a,Fidelity USD Digital Liquidity Fund-Acc,fidelity-usd-digital-liquidity-fund-acc,app.rwa.xyz,,"{""ethereum"": ""0x54a4fc78431f9201824643e99bec891bb7462a1d""}"
