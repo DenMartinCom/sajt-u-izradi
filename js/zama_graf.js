@@ -1,6 +1,7 @@
 // ===== ZAMA STAKING GRAFIKON (DEBUG 2) =====
 (function () {
   const WORKER_URL = 'https://cmc-proxy.martin-denic.workers.dev';
+  const WORKER_URL = 'https://kripto-consumer.martin-denic.workers.dev';
   const CANVAS_ID = 'zama-chart';
   const STATUS_ID = 'zama-graf-status';
 
