@@ -432,3 +432,4 @@ connect-token-wct,wct,WalletConnect Token,walletconnect-token,walletconnect.netw
 fartboy,$fartboy,Fartboy,fartboy,fartboysol.com,,"{""solana"": ""y1AZt42vceCmStjW4zetK3VoNarC1VxJ5iDjpiupump""}"
 redteam,sn61,RedTeam,redteam,theredteam.io,,"{""bittensor"": ""61""}"
 nxusd,nxusd,NXUSD,nxusd,nereus.finance,,"{""avalanche"": ""0xf14f4ce569cb3679e99d5059909e23b07bd2f387""}"
+tread-fi,tread,Tread.fi,tread-fi,treadfoundation.com,,"{""ethereum"": ""0x31eea0edeb85b0cb65c1400bd2f4e487fd61b537"", ""hyperevm"": ""0xd5ee1c81fe161e985dce6b90713c965f9979cf80"", ""hyperliquid"": ""0xc03b5b39372b9daa292adc59a8568263""}"
