@@ -110,3 +110,7 @@ GRIN,,Grin,Grin-GRIN,grin.mw,grin.png,"[""privacy_coins""]",{},3709
 PUNDIAI,,Pundi AI,PundiAI-PUNDIAI,pundi.ai,pundiai.png,"[""ai"",""governance""]","{""ethereum"":""0x075f23b9cdfce2cc0ca466f4ee6cb4bd29d83bef"",""bnb"":""0x7a986ba67227acfab86385ff33436a80e2bb4cc5""}",35943
 IHC,,Inflation Hedging Coin,InflationHedgingCoin-IHC,ihcoin.io,ihc.png,"[""interest_earning"",""wallets""]","{""bnb"":""0x86a53fcd199212FEa44FA7e16EB1f28812be911D""}",14371
 ROA,,ROA CORE,ROACORE-ROA,roaland.foundation,roa.png,"[""metaverse"",""nfts""]","{""solana"":""5tB5D6DGJMxxHYmNkfJNG237x6pZGEwTzGpUUh62yQJ7""}",23799
+BORGY,,Borgy,Borgy-BORGY,,borgy.png,[],"{""solana"":""BorGY4ub2Fz4RLboGxnuxWdZts7EKhUTB624AFmfCgX""}",35693
+SUSD,,sUSD,sUSD-SUSD,synthetix.io,susd.png,"[""synthetics"",""stablecoins""]","{""ethereum"":""0x57Ab1ec28D129707052df4dF418D58a2D46d5f51"",""fantom"":""0x0E1694483eBB3b74d3054E383840C6cf011e518e"",""optimism-ethereum"":""0x8c6f28f2f1a3c87f0f938b96d27520d9751ec8d9""}",2927
+STNK,,Stonks,Stonks-STNK,stonkscoin.org,stnk.png,"[""meme"",""nfts""]","{""solana"":""43VWkd99HjqkhFTZbWBpMpRhjG469nWa7x7uEsgSH7We""}",10332
+MNTX,,Minutes Network Token,MinutesNetworkToken-MNTX,minutesnetworktoken.io,mntx.png,"[""telecom"",""iot""]","{""ethereum"":""0x5C697fee285B513711A816018DBb34DC0cFC4875""}",36317
