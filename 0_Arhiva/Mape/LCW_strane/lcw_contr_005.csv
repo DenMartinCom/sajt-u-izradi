@@ -83,3 +83,8 @@ BOBA,,Boba Network,BobaNetwork-BOBA,boba.network,boba.png,"[""smart_contract_pla
 HAEDAL,,Haedal Protocol,HaedalProtocol-HAEDAL,haedal.xyz,haedal.png,"[""governance"",""liquid_staking""]","{""bnb"":""0x3D9bE0aC1001cd81c32464276D863d2FFdCa4967"",""sui"":""0x3a304c7feba2d819ea57c3542d68439ca2c386ba02159c740f7b406e592c62ea::haedal::HAEDAL""}",36369
 GODS,,Gods Unchained,GodsUnchained-GODS,godsunchained.com,gods.png,"[""nfts"",""gaming""]","{""ethereum"":""0xccc8cb5229b0ac8069c51fd58367fd1e622afd97"",""immutable-x"":""0xE0e0981D19eF2E0a57Cc48CA60D9454eD2D53fEB""}",10631
 TKO,,Tokocrypto,Tokocrypto-TKO,tokocrypto.com,tko.png,"[""cex""]","{""bnb"":""0x9f589e3eabe42ebc94a44727b3f3531c0c877809""}",9020
+__USDB,,USDB,USDB-__USDB,blast.io,__usdb.png,"[""stablecoins""]","{""blast"":""0x4300000000000000000000000000000000000003""}",29599
+_TLM,,Alien Worlds Trilium,AlienWorldsTrilium-_TLM,alienworlds.io,_tlm.png,"[""gaming"",""nfts""]","{""ethereum"":""0x888888848B652B3E3a0f34c96E00EEC0F3a23F72"",""bnb"":""0x2222227e22102fe3322098e4cbfe18cfebd57c95""}",9119
+_____________________________BOB,,BOB (Build on Bitcoin),BOBBuildonBitcoin-_____________________________BOB,gobob.xyz,_____________________________bob.png,"[""smart_contract_platforms""]","{""ethereum"":""0xC9746F73cC33a36c2cD55b8aEFD732586946Cedd"",""bnb"":""0x52B5fB4B0F6572B8C44d0251Cc224513ac5eB7E7"",""bob-build-on-bitcoin"":""0xb0bd54846a92b214c04a63b26ad7dc5e19a60808""}",38970
+EWT,,Energy Web Token,EnergyWebToken-EWT,energyweb.org,ewt.png,"[""energy""]","{""ethereum"":""0xB66a5D30D04f076E78ffB0d045C55846Fdcde928""}",5268
+OXT,,Orchid,Orchid-OXT,orchid.com,oxt.png,"[""vpn"",""security""]","{""ethereum"":""0x4575f41308EC1483f3d399aa9a2826d74Da13Deb""}",5026
