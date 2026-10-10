@@ -31,3 +31,7 @@ JASMY,,JasmyCoin,JasmyCoin-JASMY,jasmy.co.jp,jasmy.png,"[""iot""]","{""ethereum"
 IOTA,,IOTA,IOTA-IOTA,iota.org,iota.png,"[""smart_contract_platforms"",""iot"",""identity"",""energy""]","{""iota"":""0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee""}",1720
 PONS,,Pons,Pons-PONS,ponsfamily.com,pons.png,"[""launchpad""]","{""robinhood-placeholder"":""0x39dbed3a2bd333467115de45665cc57f813c4571""}",40938
 ____________MET,,Meteora,Meteora-____________MET,,____________met.png,[],"{""solana"":""METvsvVRapdj9cFLzq4Tr43xK4tAjQfwX76z3n6mWQL""}",38353
+ZBCN,,Zebec Network,ZebecNetwork-ZBCN,zebec.io,zbcn.png,"[""asset_backed_tokens"",""governance"",""debit_cards"",""ecommerce""]","{""solana"":""ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU""}",30636
+RUNE,,THORChain,THORChain-RUNE,thorchain.org,rune.png,"[""smart_contract_platforms"",""dex"",""synthetics"",""lending""]","{""thorchain"":""THOR.RUNE""}",4157
+THETA,,Theta Network,ThetaNetwork-THETA,thetatoken.org,theta.png,"[""smart_contract_platforms"",""social_media"",""nfts"",""streaming""]",{},2416
+AKT,,Akash Network,AkashNetwork-AKT,akash.network,akt.png,"[""storage"",""cloud_hosting""]","{""osmosis"":""ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4""}",7431
