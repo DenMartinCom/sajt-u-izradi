@@ -419,3 +419,4 @@ kyrgyz-som-stablecoin,kgst,Kyrgyz Som Stablecoin,kyrgyz-som-stablecoin,kgstoken.
 wrapped-hypertensor,tensor,Wrapped Hypertensor,wrapped-hypertensor,hypertensor.org,,"{""ethereum"": ""0x16a3543fa6b32cac3b0a755f64a729e84f89a75c""}"
 crob-mob,crob,Crob Mob,crob-mob,crobcoin.com,,"{""cronos"": ""0x63ed0a82cac237667c89cd6ac5bfa2317186fdaa""}"
 hopr,hopr,HOPR,hopr,hoprnet.org,,"{""ethereum"": ""0xf5581dfefd8fb0e4aec526be659cfab1f8c781da"", ""xdai"": ""0xd057604a14982fe8d88c5fc25aac3267ea142a08""}"
+tokenfi,token,TokenFi,tokenfi,tokenfi.com,,"{""ethereum"": ""0x4507cef57c46789ef8d1a19ea45f4216bae2b528"", ""binance-smart-chain"": ""0x4507cef57c46789ef8d1a19ea45f4216bae2b528""}"
