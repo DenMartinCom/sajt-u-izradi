@@ -269,3 +269,4 @@ obligate-trade-finance-yield,otfy,Obligate Trade Finance Yield,obligate-trade-fi
 midas-m1-usd-market-neutral,mm1-usd,Midas M1 USD Market Neutral,midas-m1-usd-market-neutral,midas.app,,"{""ethereum"": ""0xcc5c22c7a6bcc25e66726aef011dde74289ed203""}"
 liquity-usd,lusd,Liquity USD,liquity-usd,liquity.org,,"{""ethereum"": ""0x5f98805a4e8be255a32880fdec7f6728c6568ba0"", ""base"": ""0x368181499736d0c0cc614dbb145e2ec1ac86b8c6"", ""polygon-pos"": ""0x23001f892c0c82b79303edc9b9033cd190bb21c7"", ""arbitrum-one"": ""0x93b346b6bc2548da6a1e7d98e9a421b42541425b"", ""optimistic-ethereum"": ""0xc40f949f8a4e094d1b49a23ea9241d289b7b2819"", ""zksync"": ""0x503234f203fc7eb888eec8513210612a43cf6115""}"
 grvt,grvt,GRVT Token,grvt,grvt.io,,"{""ethereum"": ""0xad29f2723fcdbcf665f210f25e06f97477e417cf"", ""binance-smart-chain"": ""0x46f2564e0fa8248d15125e7e54173cfbdef91be7""}"
+ao-computer,ao,ao Computer,ao-computer,ao.arweave.net,,"{"""": """"}"
