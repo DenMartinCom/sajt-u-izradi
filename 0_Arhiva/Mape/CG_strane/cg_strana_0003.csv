@@ -485,3 +485,4 @@ shmonad,shmon,ShMonad,shmonad,shmonad.xyz,,"{""monad"": ""0x1b68626dca36c7fe922f
 kleros,pnk,Kleros,kleros,kleros.io,,"{""ethereum"": ""0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d"", ""arbitrum-one"": ""0x330bd769382cfc6d50175903434ccc8d206dcae5"", ""xdai"": ""0x37b60f4e9a31a64ccc0024dce7d0fd07eaa0f7b3""}"
 lukso-token-2,lyx,LUKSO,lukso-token,lukso.network,,"{"""": """", ""ethereum"": ""0xc210b2cb65ed3484892167f5e05f7ab496ab0598""}"
 ditgold,ditau,DITGOLD,ditgold,ditgold.com,,"{""ethereum"": ""0xe866c6222bf253d1da2cc6a0520c96fdca2e5b5e""}"
+ishares-msci-emerging-markets-etf-ondo-tokenized-etf,eemon,iShares MSCI Emerging Markets ETF (Ondo Tokenized ETF),ishares-msci-emerging-markets-etf-ondo-tokenized-etf,app.ondo.finance,,"{""ethereum"": ""0x77a1a02e4a888ada8620b93c30de8a41e621126c"", ""binance-smart-chain"": ""0x00c81d35eddf44c75d4db9e07bdcdc236eb0ebcf"", ""solana"": ""916SDKz7y5ZcEZC9CtnQ5Djs1Y8Yv3UAPb6bak8ondo""}"
