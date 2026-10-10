@@ -458,3 +458,4 @@ public-meme-token,pmt,Public Masterpiece Token,public-masterpiece-token,publicma
 sophon,soph,Sophon,sophon,sophon.xyz,,"{""ethereum"": ""0x6b7774cb12ed7573a7586e7d0e62a2a563ddd3f0"", ""polygon-pos"": ""0xeb971fd26783f32694dbb392dd7289de23109148"", ""sophon"": ""0x000000000000000000000000000000000000800a"", ""arbitrum-one"": ""0x31dba3c96481fde3cd81c2aaf51f2d8bf618c742"", ""binance-smart-chain"": ""0x31dba3c96481fde3cd81c2aaf51f2d8bf618c742"", ""base"": ""0x31dba3c96481fde3cd81c2aaf51f2d8bf618c742""}"
 my-paqman-coin,mpc,My Paqman Coin,my-paqman-coin,mpcoin.org,,"{""polkadot"": ""50000103""}"
 polyswarm,nct,PolySwarm,polyswarm,polyswarm.io,,"{""ethereum"": ""0x9e46a38f5daabe8683e10793b06749eef7d733d1"", ""polygon-pos"": ""0x4985e0b13554fb521840e893574d3848c10fcc6f""}"
+naoris,naoris,NaoX Protocol,naox-protocol,naorisprotocol.com,,"{""ethereum"": ""0x1b379a79c91a540b2bcd612b4d713f31de1b80cc"", ""binance-smart-chain"": ""0x1b379a79c91a540b2bcd612b4d713f31de1b80cc""}"
