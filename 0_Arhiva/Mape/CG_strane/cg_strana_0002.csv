@@ -121,3 +121,4 @@ opcode,opcode,Opcode,opcode,opcode.fi,,"{""ethereum"": ""0x000c0dee51a14997adc2c
 orbs,orbs,Orbs,orbs,orbs.com,,"{""ethereum"": ""0xff56cc6b1e6ded347aa0b7676c85ab0b3d08b0fa"", ""fantom"": ""0x43a8cab15d06d3a5fe5854d714c37e7e9246f170"", ""harmony-shard-0"": ""0xaad96d04f00b718b9ed43e39db8e73de61cef8b7"", ""binance-smart-chain"": ""0x43a8cab15d06d3a5fe5854d714c37e7e9246f170"", ""polygon-pos"": ""0x614389eaae0a6821dc49062d56bda3d9d45fa2ff"", ""arbitrum-one"": ""0xf3c091ed43de9c270593445163a41a876a0bb3dd"", ""avalanche"": ""0x3ab1c9adb065f3fca0059652cd7a52b05c98f9a9""}"
 memecoin-2,meme,Memecoin,meme,memecoin.org,,"{""ethereum"": ""0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74""}"
 xpin-network,xpin,XPIN Network,xpin-network,xpin.network,,"{""binance-smart-chain"": ""0xd955c9ba56fb1ab30e34766e252a97ccce3d31a6""}"
+wiki-cat,wkc,Wiki Cat,wiki-cat,wikicatcoin.com,,"{""binance-smart-chain"": ""0x6ec90334d89dbdc89e08a133271be3d104128edb""}"
