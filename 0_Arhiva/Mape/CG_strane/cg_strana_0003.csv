@@ -33,3 +33,4 @@ hegic,hegic,Hegic,hegic,hegic.co,,"{""ethereum"": ""0x584bc13c7d411c00c01a62e801
 coin98,c98,Coin98,coin98,coin98.com,,"{""binance-smart-chain"": ""0xaec945e04baf28b135fa7c640f624f8d90f1c3a6"", ""tomochain"": ""0x0fd0288aaae91eaf935e2ec14b23486f86516c8c"", ""ethereum"": ""0xae12c5930881c53715b369cec7606b70d8eb229f"", ""solana"": ""C98A4nkJXhpVZNAZdHUA95RpTF3T4whtQubL3YobiUX9"", ""polygon-pos"": ""0x77f56cf9365955486b12c4816992388ee8606f0e""}"
 openkaito,sn5,OpenKaito,openkaito,wandb.ai,,"{""bittensor"": ""5""}"
 epic-chain,epic,Epic Chain,epic-chain,epicchain.io,,"{""ethereum"": ""0x94314a14df63779c99c0764a30e0cd22fa78fc0e""}"
+based-one,based,Based,based-one,based.one,,"{""ethereum"": ""0x4f2b33840227ddd0e28da8d4185d6fa07adfed87"", ""binance-smart-chain"": ""0x1d28d989f9e3ccb8b15d0cec601734514f958e4d"", ""hyperliquid"": ""0xbe946bd7862245615d6729ec5b67cc7e"", ""hyperevm"": ""0x053f6755320d06b8fd6675581b0475b2e32399b1""}"
