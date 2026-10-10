@@ -126,3 +126,4 @@ degen-base,degen,Degen,degen-base,degen.tips,,"{""base"": ""0x4ed4e862860bed51a9
 apex-token-2,apex,APEX,apex-token,apex.exchange,,"{""ethereum"": ""0x52a8845df664d76c69d2eea607cd793565af42b8"", ""arbitrum-one"": ""0x61a1ff55c5216b636a294a07d77c6f4df10d3b56""}"
 steakhouse-confidential-prime-usdc,steakcusdc,Steakhouse Confidential Prime USDC,steakhouse-confidential-prime-usdc,app.zama.org,,"{""ethereum"": ""0xbeef00a59b577423653a1526c7009bde103f542b""}"
 clearpool,cpool,Clearpool,clearpool,clearpool.finance,,"{""ethereum"": ""0x66761fa41377003622aee3c7675fc7b5c1c2fac5"", ""solana"": ""AeXrLftu8chuY4ctc6oDeG4dUx6Yr4aqeakUMFNvACdg""}"
+power-ledger,powr,Powerledger,power-ledger,powerledger.io,,"{""ethereum"": ""0x595832f8fc6bf59c85c527fec3740a1b7a361269"", ""energi"": ""0xd1bbc2a68b97a8ae4b423bbf534e767ef6275a30""}"
