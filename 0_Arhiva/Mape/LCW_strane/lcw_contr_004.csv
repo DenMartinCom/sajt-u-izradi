@@ -1,0 +1,3 @@
+id,symbol,name,slug,web,logo,tags,contract,cmc_id
+_SERV,,OpenServ,OpenServ-_SERV,openserv.ai,_serv.png,"[""ai"",""bots""]","{""ethereum"":""0x40e3d1A4B2C47d9AA61261F5606136ef73E28042"",""base"":""0x5576D6ed9181F2225afF5282Ac0ED29f755437Ea""}",33964
+ALICE,,My Neighbor Alice,MyNeighborAlice-ALICE,myneighboralice.com,alice.png,"[""nfts"",""gaming""]","{""ethereum"":""0xAC51066d7bEC65Dc4589368da368b212745d63E8"",""bnb"":""0xac51066d7bec65dc4589368da368b212745d63e8"",""solana"":""9ARQsBfAn65q522cEqSJuse3cLhA31jgWDBGQHeiq7Mg""}",8766
