@@ -467,3 +467,4 @@ swarms,swarms,Swarms,swarms,swarms.world,,"{""solana"": ""74SBV4zDXxTRgv1pEMoECs
 flamewire,sn97,FlameWire,flamewire,flamewire.io,,"{""bittensor"": ""97""}"
 spdr-gold-shares-robinhood-token,gld,SPDR Gold Shares • Robinhood Token,spdr-gold-shares-robinhood-token,docs.robinhood.com,,"{""robinhood"": ""0xc9a981fee1f9dec688bb123ccdecc63d0debfc4e""}"
 yei-finance,clo,Yei Finance,yei-finance,yei.finance,,"{""sei-v2"": ""0x81d3a238b02827f62b9f390f947d36d4a5bf89d2"", ""binance-smart-chain"": ""0x81d3a238b02827f62b9f390f947d36d4a5bf89d2""}"
+particle-network,parti,Particle Network,particle-network,particle.network,,"{""binance-smart-chain"": ""0x59264f02d301281f3393e1385c0aefd446eb0f00"", ""base"": ""0x59264f02d301281f3393e1385c0aefd446eb0f00""}"
