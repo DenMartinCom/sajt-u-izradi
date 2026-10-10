@@ -43,3 +43,8 @@ JASMY,,JasmyCoin,JasmyCoin-JASMY,jasmy.co.jp,jasmy.png,"[""iot""]","{""ethereum"
 ____________MET,,Meteora,Meteora-____________MET,,____________met.png,[],"{""solana"":""METvsvVRapdj9cFLzq4Tr43xK4tAjQfwX76z3n6mWQL""}",38353
 ZBCN,,Zebec Network,ZebecNetwork-ZBCN,zebec.io,zbcn.png,"[""asset_backed_tokens"",""governance"",""debit_cards"",""ecommerce""]","{""solana"":""ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU""}",30636
 THETA,,Theta Network,ThetaNetwork-THETA,thetatoken.org,theta.png,"[""smart_contract_platforms"",""social_media"",""nfts"",""streaming""]",{},2416
+EIGEN,,Eigen,Eigen-EIGEN,eigenlayer.xyz,eigen.png,"[""restaking"",""oracle"",""ai"",""governance""]","{""ethereum"":""0xec53bF9167f50cDEB3Ae105f56099aaaB9061F83""}",30494
+AXS,,Axie Infinity,AxieInfinity-AXS,axieinfinity.com,axs.png,"[""gaming"",""nfts""]","{""ethereum"":""0xbb0e17ef65f82ab018d8edd776e8dd940327b28b"",""bnb"":""0x715d400f88c167884bbcc41c5fea407ed4d2f8a0"",""solana"":""HysWcbHiYY9888pHbaqhwLYZQeZrcQMXKQWRqS7zcPK5"",""harmony"":""0x14a7b318fed66ffdcc80c1517c172c13852865de"",""ronin"":""0x97a9107c1793bc407d6f527b77e7fff4d812bece""}",6783
+WIF,,dogwifhat,dogwifhat-WIF,dogwifcoin.org,wif.png,"[""meme""]","{""solana"":""EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm""}",28752
+CVX,,Convex Finance,ConvexFinance-CVX,convexfinance.com,cvx.png,"[""yield_aggregators""]","{""ethereum"":""0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"",""solana"":""BLvmrccP4g1B6SpiVvmQrLUDya1nZ4B2D1nm9jzKF7sz""}",9903
+TRAC,,OriginTrail,OriginTrail-TRAC,origintrail.io,trac.png,"[""logistics""]","{""ethereum"":""0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f"",""gnosis-gno"":""0xeddd81e0792e764501aae206eb432399a0268db5"",""base"":""0xA81a52B4dda010896cDd386C7fBdc5CDc835ba23""}",2467
