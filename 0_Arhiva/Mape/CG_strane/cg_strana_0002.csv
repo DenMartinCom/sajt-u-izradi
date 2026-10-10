@@ -358,3 +358,4 @@ ferrum-network,frm,Ferrum Network,ferrum-network,ferrum.network,,"{""ethereum"":
 codatta,xny,Codatta,codatta,codatta.io,,"{""binance-smart-chain"": ""0xe3225e11cab122f1a126a28997788e5230838ab9""}"
 hippius,sn75,Hippius,hippius,hippius.com,,"{""bittensor"": ""75""}"
 lorenzo-protocol,bank,Lorenzo Protocol,lorenzo-protocol,lorenzo-protocol.xyz,,"{""binance-smart-chain"": ""0x3aee7602b612de36088f3ffed8c8f10e86ebf2bf""}"
+stable-coin-2,sbc,Stable Coin,stable-coin-2,stablecoin.xyz,,"{""ethereum"": ""0xf9fb20b8e097904f0ab7d12e9dbee88f2dcd0f16"", ""solana"": ""DBAzBUXaLj1qANCseUPZz4sp9F8d2sc78C4vKjhbTGMA"", ""base"": ""0xfdcc3dd6671eab0709a4c0f3f53de9a333d80798"", ""polygon-pos"": ""0xfdcc3dd6671eab0709a4c0f3f53de9a333d80798"", ""avalanche"": ""0xf9fb20b8e097904f0ab7d12e9dbee88f2dcd0f16""}"
