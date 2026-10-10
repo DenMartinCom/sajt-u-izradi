@@ -244,3 +244,7 @@ CKB,,Nervos Network,NervosNetwork-CKB,nervos.org,ckb.png,"[""smart_contract_plat
 ___SPK,,Spark,Spark-___SPK,spark.fi,___spk.png,"[""governance"",""lending"",""yield_farming""]","{""ethereum"":""0xc20059e0317DE91738d13af027DfC4a50781b066"",""bnb"":""0xAfF2e841851700D1Fc101995Ee6b81Ae21Bb87D7""}",36569
 _________BABY,,Babylon,Babylon-_________BABY,babylonlabs.io,_________baby.png,"[""smart_contract_platforms"",""governance"",""liquid_staking""]",{},32198
 _SNEK,,Snek,Snek-_SNEK,snek.com,_snek.png,"[""meme""]","{""cardano"":""279c909f348e533da5808898f87f9a14bb2c3dfbbacccd631d927a3f534e454b""}",25264
+LINEA,,Linea,Linea-LINEA,linea.build,linea.png,"[""smart_contract_platforms"",""dns""]","{""linea"":""0x1789e0043623282d5dcc7f213d703c6d8bafbb04""}",27657
+FIDD,,Fidelity Digital Dollar,FidelityDigitalDollar-FIDD,,fidd.png,[],"{""ethereum"":""0x7C135549504245B5eAe64fc0E99Fa5ebabb8e35D""}",39549
+_______________ARC,,AI Rig Complex,AIRigComplex-_______________ARC,arc.fun,_______________arc.png,"[""ai""]","{""solana"":""61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump""}",34926
+_IO,,io.net,ionet-_IO,io.net,_io.png,"[""cloud_hosting"",""governance""]","{""solana"":""BZLbGTNCSFfoth2GYDtwr7e4imWzpR5jqcUuGEwr646K""}",29835
