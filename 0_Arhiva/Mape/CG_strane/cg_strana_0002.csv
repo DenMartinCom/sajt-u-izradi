@@ -103,3 +103,4 @@ ethgas-2,gwei,ETHGas,ethgas,ethgas.com,,"{""ethereum"": ""0x2798b1cc5a993085e8a9
 gemini-dollar,gusd,Gemini Dollar,gemini-dollar,gemini.com,,"{""ethereum"": ""0x056fd409e1d7a124bd7017459dfea2f387b6d5cd"", ""near-protocol"": ""056fd409e1d7a124bd7017459dfea2f387b6d5cd.factory.bridge.near""}"
 latam-residential-sstl,pc0000089,Tradable LatAm Residential SSTL,tradable-latam-residential-sstl,tradable.xyz,,"{""zksync"": ""0xfb3fccdd38a96c3f769c62e578323f22c3bfcbec""}"
 metamask-usd,musd,MetaMask USD,metamask-usd,metamask.io,,"{""ethereum"": ""0xaca92e438df0b2401ff60da7e4337b687a2435da"", ""monad"": ""0xaca92e438df0b2401ff60da7e4337b687a2435da"", ""linea"": ""0xaca92e438df0b2401ff60da7e4337b687a2435da""}"
+hermez-network-token,hez,Hermez Network,hermez-network,hermez.io,,"{""ethereum"": ""0xeef9f339514298c6a857efcfc1a762af84438dee""}"
