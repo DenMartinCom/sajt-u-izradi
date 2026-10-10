@@ -362,3 +362,4 @@ sonic-svm,sonic,Sonic SVM,sonic-svm,sonic.game,,"{""solana"": ""SonicxvLud67Ecea
 ambire-wallet,wallet,Ambire Wallet,ambire-wallet,ambire.com,,"{""ethereum"": ""0x88800092ff476844f74dc2fc427974bbee2794ae"", ""base"": ""0x0bbbead62f7647ae8323d2cb243a0db74b7c2b80"", ""polygon-pos"": ""0x564906ec1df8399f00e4ad32c0ecac0404a27a1c""}"
 coq-inu,coq,Coq Inu,coq-inu,coqinu.com,,"{""avalanche"": ""0x420fca0121dc28039145009570975747295f2329""}"
 superwalk,grnd,SuperWalk GRND,superwalk-grnd,superwalk.io,,"{""klay-token"": ""0x84f8c3c8d6ee30a559d73ec570d574f671e82647"", ""arbitrum-one"": ""0x3b58a4c865b568a2f6a957c264f6b50cba35d8ce""}"
+mango-network,mgo,Mango Network,mango-network,mangonet.io,,"{""binance-smart-chain"": ""0x5e0d6791edbeeba6a14d1d38e2b8233257118eb1""}"
