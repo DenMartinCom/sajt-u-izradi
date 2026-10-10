@@ -135,3 +135,4 @@ ocean-protocol,ocean,Ocean Protocol,ocean-protocol,oceanprotocol.com,,"{""ethere
 invesco-qqq-etf-ondo-tokenized-etf,qqqon,Invesco QQQ ETF (Ondo Tokenized ETF),invesco-qqq-etf-ondo-tokenized-etf,app.ondo.finance,,"{""ethereum"": ""0x0e397938c1aa0680954093495b70a9f5e2249aba"", ""binance-smart-chain"": ""0x0cde6936d305d5b34667fc46425e852efd73559a"", ""hyperevm"": ""0x911e2dcd2b70f44231f3f0f1c6ec9af75068fd85"", ""solana"": ""HrYNm6jTQ71LoFphjVKBTdAE4uja7WsmLG8VxB8ondo""}"
 elexium,ex,Elexium,elexium,elexium.finance,,"{""alephium"": ""28LgMeQGdvtXfsvWhpNNVx1DoSiz7TzrATv9qxMQP5is9""}"
 iota-2,sn9,iota,iota-2,iota.macrocosmos.ai,,"{""bittensor"": ""9""}"
+renzo,rez,Renzo,renzo,renzofinance.com,,"{""ethereum"": ""0x3b50805453023a91a8bf641e279401a0b23fa6f9"", ""base"": ""0xf757c9804cf2ee8d8ed64e0a8936293fe43a7252"", ""solana"": ""3DK98MXPz8TRuim7rfQnebSLpA7VSoc79Bgiee1m4Zw5""}"
