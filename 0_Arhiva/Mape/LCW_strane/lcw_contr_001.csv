@@ -171,3 +171,10 @@ W,,Wormhole,Wormhole-W,wormhole.com,w.png,"[""governance"",""token_bridges""]","
 ____GENIUS,,Genius Terminal,GeniusTerminal-____GENIUS,tradegenius.com,____genius.png,"[""analytics""]","{""bnb"":""0x1F12B85aAC097E43Aa1555b2881E98a51090e9A6""}",39841
 CASHCAT,,Cash Cat,CashCat-CASHCAT,,cashcat.png,[],"{""robinhood-placeholder"":""0x020bfc650a365f8bb26819deaabf3e21291018b4""}",40809
 MINA,,Mina Protocol,MinaProtocol-MINA,minaprotocol.com,mina.png,"[""smart_contract_platforms""]",{},8646
+PEAQ,,peaq,peaq-PEAQ,peaq.xyz,peaq.png,"[""smart_contract_platforms"",""governance"",""ai"",""iot""]","{""ethereum"":""0x1eef208926667594e5136e89d0e9dd6907959197"",""bnb"":""0x8b9Ee39195eA99d6ddD68030F44131116bc218F6"",""solana"":""PEAQjk7SRS6rXHVFFmpRr7zrC4g5ZuEebpwTxvaLr3b"",""base"":""0x9B56B112BbD6343a8961a093315A9A60b8cB1F36"",""peaq"":""0x0000000000000000000000000000000000000809""}",14588
+__FORM,,Four,Four-__FORM,official.four.meme,__form.png,"[""meme"",""gaming"",""token_issuance_platforms"",""launchpad""]","{""bnb"":""0x5b73A93b4E5e4f1FD27D8b3F8C97D69908b5E284""}",23635
+______CHIP,,USD.AI,USDAI-______CHIP,usd.ai,______chip.png,"[""ai"",""governance"",""lending"",""asset_backed_tokens"",""interest_earning""]","{""arbitrum"":""0x0C1c1C109FE34733fca54b82d7B46B75CFb71F6e"",""ethereum"":""0x0c1c1c109fe34733fca54b82d7b46b75cfb71f6e"",""base"":""0x0c1c1c109fe34733fca54b82d7b46b75cfb71f6e"",""solana"":""chipCAT7vi5CZtbZsn9z7iMPXvFwyAnKz3QFu8XVuHm""}",39870
+QTUM,,Qtum,Qtum-QTUM,qtum.org,qtum.png,"[""smart_contract_platforms""]",{},1684
+NMR,,Numeraire,Numeraire-NMR,numer.ai,nmr.png,"[""ai""]","{""ethereum"":""0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671""}",1732
+RSR,,Reserve Rights,ReserveRights-RSR,reserve.org,rsr.png,"[""governance""]","{""ethereum"":""0x320623b8e4ff03373931769a31fc52a4e78b5d70"",""base"":""0xab36452dbac151be02b16ca17d8919826072f64a""}",3964
+__WAL,,Walrus,Walrus-__WAL,walrus.xyz,__wal.png,"[""storage"",""governance""]","{""sui"":""0x356a26eb9e012a68958082340d4c4116e7f55615cf27affcff209cf0ae544f59::wal::WAL""}",36119
