@@ -233,3 +233,9 @@ HGPT,,HYPERGPT,HYPERGPT-HGPT,hypergpt.ai,hgpt.png,"[""ai""]","{""bnb"":""0x529C7
 UOS,,Ultra,Ultra-UOS,ultra.io,uos.png,"[""gaming""]","{""ethereum"":""0xd13c7342e1ef687c5ad21b27c2b65d772cab5c8c""}",4189
 RVF,,RocketX exchange,RocketXexchange-RVF,rocketx.exchange,rvf.png,"[""dex""]","{""ethereum"":""0x2fb652314C3d850E9049057bBE9813F1eEe882d3""}",9176
 0X0,,0x0.ai: AI Smart Contract Auditor,0x0aiAISmartContractAuditor-0X0,0x0.ai,0x0.png,"[""ai""]","{""ethereum"":""0x5a3e6a77ba2f983ec0d371ea3b475f8bc0811ad5""}",23355
+SRM,,Serum,Serum-SRM,portal.projectserum.com,srm.png,"[""dex"",""governance""]","{""ethereum"":""0x476c5e26a75bd202a9683ffd34359c0cc15be0ff"",""solana"":""SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt"",""bnb"":""0xd63CDf02853D759831550fAe7dF8FFfE0B317b39"",""terra-luna"":""terra1dkam9wd5yvaswv4yq3n2aqd4wm5j8n82qc0c7c""}",6187
+QUICK,,QuickSwap (OLD),QuickSwapOLD-QUICK,quickswap.exchange,quick.png,"[""dex"",""yield_farming"",""yield_aggregators"",""prediction_markets"",""gaming""]","{""ethereum"":""0xaffbe9a60f1f45e057fd9b6dc70004bb0ccc8b99"",""base"":""0x0b2558bdbc7ffec0f327fb3579c23dabd1699706""}",39074
+GMEE,,GAMEE,GAMEE-GMEE,arc8.com,gmee.png,"[""gaming"",""nfts"",""metaverse""]","{""ethereum"":""0xd9016a907dc0ecfa3ca425ab20b6b785b42f2373"",""bnb"":""0x84e9a6f9d240fdd33801f7135908bfa16866939a"",""gram"":""EQCqnhZndBGbwjPpV8K_8WOK58ZkQPXlS_bshau9DKWnAF-p""}",9103
+A47,,AGENDA 47,AGENDA47-A47,agenda47coin.com,a47.png,"[""meme""]","{""solana"":""CN162nCPpq3DxPCyKLbAvEJeB1aCxsnVTEG4ZU8vpump""}",35757
+VOW,,Vow,Vow-VOW,vowcurrency.com,vow.png,"[""ecommerce""]","{""ethereum"":""0x915424Ac489433130d92B04096F3b96c82e92a9D"",""bnb"":""0x915424Ac489433130d92B04096F3b96c82e92a9D"",""base"":""0x915424Ac489433130d92B04096F3b96c82e92a9D""}",8255
+SPYB,,SPY,SPY-SPYB,bstocks.finance,spyb.png,"[""asset_backed_tokens""]","{""arbitrum"":""0x9a0fda21276f245b89d2b7f1120f42e4466b1cb5""}",40625
