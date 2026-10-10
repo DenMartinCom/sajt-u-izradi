@@ -164,3 +164,4 @@ usd-coinvertible,usdcv,USD CoinVertible,usd-coinvertible,sgforge.com,,"{""ethere
 hyperlink-hlhype,hlhype,HyperLink hlHYPE,hyperlink-hlhype,hyperlink.xyz,,"{""hyperevm"": ""0xbee62d1b61af920098873bd0336b46a5efdc0e83""}"
 esui-dollar,suiusde,eSui Dollar,esui-dollar,blog.sui.io,,"{""sui"": ""0x41d587e5336f1c86cad50d38a7136db99333bb9bda91cea4ba69115defeb1402::sui_usde::SUI_USDE""}"
 moonbeam,glmr,Moonbeam,moonbeam,moonbeam.network,,"{""base"": ""0xb3846fd356c2149ee8d30b0449088dc74e265459""}"
+doodles,dood,Doodles,doodles,doodles.app,,"{""solana"": ""DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV"", ""binance-smart-chain"": ""0x722294f6c97102fb0ddb5b907c8d16bdeab3f6d9""}"
