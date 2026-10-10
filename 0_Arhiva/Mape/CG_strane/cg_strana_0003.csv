@@ -410,3 +410,4 @@ coinbase-ondo-tokenized-stock,coinon,Coinbase (Ondo Tokenized Stock),coinbase-on
 wecan,wecan,Wecan,wecan,wecangroup.ch,,"{""ethereum"": ""0xea60cd69f2b9fd6eb067bddbbf86a5bdeffbbc55""}"
 saffron-finance,sfi,saffron.finance,saffron-finance,saffron.finance,,"{""ethereum"": ""0xb753428af26e81097e7fd17f40c88aaa3e04902c"", ""arbitrum-one"": ""0xff0490bf1a58a4151d4d6ec6cb3d2959a561874c"", ""polygon-pos"": ""0x35b937583f04a24963eb685f728a542240f28dd8"", ""robinhood"": ""0xe77d354898a44808ff3999947002785cd727bed5""}"
 bullbit,bubi,Bullbit,bullbit,bullbit.ai,,"{""base"": ""0xc5e4a819113074b5c3b48f1f873cf51ab19fced2""}"
+codec-flow,codec,Codec Flow,codec-flow,codecflow.ai,,"{""solana"": ""69LjZUUzxj3Cb3Fxeo1X4QpYEQTboApkhXTysPpbpump"", ""peaq"": ""0xee311e67825c22e5c7238546431651686ce91421""}"
