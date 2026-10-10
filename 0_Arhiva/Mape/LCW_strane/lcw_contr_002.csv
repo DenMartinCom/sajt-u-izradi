@@ -79,3 +79,12 @@ RIVER,,River,River-RIVER,river.inc,river.png,"[""token_bridges"",""yield_aggrega
 KTA,,Keeta,Keeta-KTA,keeta.com,kta.png,"[""token_issuance_platforms""]","{""base"":""0xc0634090F2Fe6c6d75e61Be2b949464aBB498973""}",36066
 REQ,,Request Network,RequestNetwork-REQ,request.network,req.png,"[""ecommerce""]","{""ethereum"":""0x8f8221afbb33998d8584a2b05749ba73c37a938a"",""polygon-ecosystem-token"":""0xb25e20de2f2ebb4cffd4d16a55c7b395e8a94762""}",2071
 RPL,,Rocket Pool,RocketPool-RPL,rocketpool.net,rpl.png,"[""liquid_staking"",""governance""]","{""ethereum"":""0xd33526068d116ce69f19a9ee46f0bd304f21a51f""}",2943
+BAND,,Band Protocol,BandProtocol-BAND,bandprotocol.com,band.png,"[""ecommerce"",""oracle""]","{""ethereum"":""0xba11d00c5f74255f56a5e366f4f77f5a186d7f55"",""bnb"":""0xad6caeb32cd2c308980a548bd0bc5aa4306c6c18"",""gnosis-gno"":""0xe154A435408211AC89757B76C4FbE4Dc9ED2Ef27"",""fantom"":""0x46E7628E8b4350b2716ab470eE0bA1fa9e76c6C5""}",4679
+__MOG,,Mog Coin,MogCoin-__MOG,mogcoin.xyz,__mog.png,"[""meme""]","{""ethereum"":""0xaaeE1A9723aaDB7afA2810263653A34bA2C21C7a"",""base"":""0x2Da56AcB9Ea78330f947bD57C54119Debda7AF71"",""solana"":""26VfKb7jjtdEdvfovoBijScoZmJbWWasFZkgfUD5w7cy"",""bnb"":""0x1D0A4821FDEf156b0d051D08A166DE5DF2788Cf7""}",27659
+MUB,,Micron Technology Tokenized bStocks,MicronTechnologyTokenizedbStocks-MUB,bstocks.finance,mub.png,"[""asset_backed_tokens""]","{""bnb"":""0xcdf2f3e0fa43c47a6662a91c9e4a7c5f69762699""}",40212
+CCD,,Concordium,Concordium-CCD,concordium.com,ccd.png,"[""smart_contract_platforms""]",{},18031
+ME,,Magic Eden,MagicEden-ME,mefoundation.com,me.png,"[""governance"",""nfts"",""wallets"",""dex""]","{""solana"":""MEFNBXixkEbait3xn9bkm8WsJzXtVsaJEn4c8Sam21u""}",32197
+________LION,,Loaded Lions,LoadedLions-________LION,loadedlions.com,________lion.png,"[""nfts"",""gaming"",""ai""]","{""solana"":""7kN5FQMD8ja4bzysEgc5FXmryKd6gCgjiWnhksjHCFb3"",""arbitrum"":""0x527e8D368298deA5a53be257e5300F4DBafb7a97"",""cronos"":""0x9D8c68F185A04314DDC8B8216732455e8dbb7E45""}",35954
+CSPR,,Casper Network,CasperNetwork-CSPR,casper.network,cspr.png,"[""smart_contract_platforms""]",{},5899
+___FB,,Fractal Bitcoin,FractalBitcoin-___FB,fractalbitcoin.io,___fb.png,"[""inscriptions""]",{},32941
+__MEW,,cat in a dogs world,catinadogsworld-__MEW,mew.xyz,__mew.png,"[""meme"",""anime""]","{""solana"":""MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5""}",30126
