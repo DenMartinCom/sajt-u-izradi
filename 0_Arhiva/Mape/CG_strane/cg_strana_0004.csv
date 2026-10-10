@@ -58,3 +58,4 @@ amazon-ondo-tokenized-stock,amznon,Amazon (Ondo Tokenized Stock),amazon-ondo-tok
 midas-mapollo,mapollo,Midas mAPOLLO,midas-mapollo,midas.app,,"{""ethereum"": ""0x7cf9dec92ca9fd46f8d86e7798b72624bc116c05""}"
 soulpeg-usd,spusd,SoulPeg USD,soulpeg-usd,soulpeg.io,,"{""binance-smart-chain"": ""0x40ff3dea2eec93a7b71879874dc4407918da77a6""}"
 vertek,xrs,Xauras,xauras,xauras.io,,"{""polygon-pos"": ""0x570a42849ac23e3fdc45d8c31ddf7c09283e702d""}"
+circle-internet-group-robinhood-tokenized-stock,crcl,Circle Internet Group • Robinhood Token,circle-internet-group-robinhood-token,robinhood.com,,"{""robinhood"": ""0xdf0992e440dd0be65bd8439b609d6d4366bf1cb5""}"
