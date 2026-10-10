@@ -461,3 +461,4 @@ paris-saint-germain-fan-token,psg,Paris Saint-Germain Fan Token,paris-saint-germ
 yield-optimizer-usd,yousd,Yield Optimizer USD,yield-optimizer-usd,yo.xyz,,"{""base"": ""0x0000000f2eb9f69274678c76222b35eec7588a65""}"
 marcopolo,mapo,MAP Protocol,map-protocol,mapprotocol.io,,"{""map-protocol"": ""mapo"", ""ethereum"": ""0x7046933234A82AF77F14625e8d0fA9Bcc5044a7E"", ""binance-smart-chain"": ""0x7046933234A82AF77F14625e8d0fA9Bcc5044a7E""}"
 telos,tlos,Telos,telos,telos.net,,"{"""": """", ""ethereum"": ""0x193f4a4a6ea24102f49b931deeeb931f6e32405d"", ""base"": ""0x7252c865c05378ffc15120f428dd65804dd0ce63"", ""binance-smart-chain"": ""0x193f4a4a6ea24102f49b931deeeb931f6e32405d"", ""polygon-pos"": ""0x193f4a4a6ea24102f49b931deeeb931f6e32405d"", ""arbitrum-one"": ""0x193f4a4a6ea24102f49b931deeeb931f6e32405d"", ""avalanche"": ""0x193f4a4a6ea24102f49b931deeeb931f6e32405d""}"
+monacoin,mona,MonaCoin,monacoin,monacoin.org,,"{"""": """"}"
