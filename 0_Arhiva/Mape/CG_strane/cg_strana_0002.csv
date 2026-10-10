@@ -229,3 +229,4 @@ sideshift-token,xai,SideShift,sideshift-token,sideshift.ai,,"{""ethereum"": ""0x
 carv,carv,CARV,carv,carv.io,,"{""base"": ""0xc08cd26474722ce93f4d0c34d16201461c10aa8c"", ""ethereum"": ""0xc08cd26474722ce93f4d0c34d16201461c10aa8c"", ""binance-smart-chain"": ""0xc08cd26474722ce93f4d0c34d16201461c10aa8c"", ""solana"": ""AFJtnuqGMaj5jAo6Pwxo28r1f7XAXXTSA8q3rG3q8b4A"", ""arbitrum-one"": ""0xc08cd26474722ce93f4d0c34d16201461c10aa8c""}"
 matrix-6,mtx,Matrix,matrix-5,matrix.app,,"{""ethereum"": ""0x000025b3816630ad283267d4eb3a5fc8b0200000""}"
 ethereum-pow-iou,ethw,EthereumPoW,ethereumpow,ethereumpow.org,,"{"""": """"}"
+kgen,kgen,KGeN,kgen,kgen.io,,"{""aptos"": ""0x2a8227993a4e38537a57caefe5e7e9a51327bf6cd732c1f56648f26f68304ebc"", ""binance-smart-chain"": ""0xf3d5b4c34ed623478cc5141861776e6cf7ae3a1e""}"
