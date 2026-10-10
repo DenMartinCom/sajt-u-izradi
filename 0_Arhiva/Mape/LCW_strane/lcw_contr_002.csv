@@ -146,3 +146,11 @@ BUSD,,Binance USD,BinanceUSD-BUSD,binance.com,busd.png,"[""stablecoins"",""asset
 STEEM,,Steem,Steem-STEEM,steem.com,steem.png,"[""social_media""]",{},1230
 LUNA,,Luna,Luna-LUNA,terra.money,luna.png,"[""smart_contract_platforms""]","{""osmosis"":""ibc/785AFEC6B3741100D15E7AF01374E3C4C36F24888E96479B1C33F5C71F364EF9""}",20314
 __ASSET,,REAL,REAL-__ASSET,,__asset.png,[],"{""ethereum"":""0x99E980265Bf36516C442be982df1772a6cCb3233""}",39922
+_B3,,B3,B3-_B3,b3.fun,_b3.png,"[""gaming""]","{""base"":""0xB3B32F9f8827D4634fE7d973Fa1034Ec9fdDB3B3""}",35690
+DEBIT,,Teller,Teller-DEBIT,debitai.xyz,debit.png,"[""ai"",""lending"",""real_estate"",""asset_backed_tokens"",""nfts""]","{""bnb"":""0x66661c7229901f568f16bd1551b3ba826f83ce49""}",41911
+BNT,,Bancor,Bancor-BNT,bancor.network,bnt.png,"[""dex""]","{""ethereum"":""0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c"",""solana"":""EDVVEYW4fPJ6vKw5LZXRGUSPzxoHrv6eWvTqhCr8oShs"",""gnosis-gno"":""0x9a495a281D959192343B0e007284bf130bd05F86""}",1727
+_ZORA,,Zora,Zora-_ZORA,zora.co,_zora.png,"[""social_media"",""token_issuance_platforms"",""nfts""]","{""base"":""0x1111111111166b7fe7bd91427724b487980afc69""}",35931
+HSK,,HashKey Platform Token,HashKeyPlatformToken-HSK,group.hashkey.com,hsk.png,"[""smart_contract_platforms"",""governance"",""cex""]","{""ethereum"":""0xE7C6BF469e97eEB0bFB74C8dbFF5BD47D4C1C98a"",""hashkey-platform-token"":""0xB210D2120d57b758EE163cFfb43e73728c471Cf1""}",33849
+NOW,,ChangeNOW,ChangeNOW-NOW,changenow.io,now.png,[],"{""ethereum"":""0xe9a95d175a5f4c9369f3b74222402eb1b837693b"",""bnb"":""NOW-E68""}",3893
+HIVE,,Hive,Hive-HIVE,hive.io,hive.png,"[""smart_contract_platforms"",""social_media"",""storage""]",{},5370
+_JCT,,JANCTION,JANCTION-_JCT,,_jct.png,[],"{""ethereum"":""0xC477B6dfd26EC2460b3b92de18837Fd476Ea7549"",""bnb"":""0xea37a8de1de2d9d10772eeb569e28bfa5cb17707""}",38909
