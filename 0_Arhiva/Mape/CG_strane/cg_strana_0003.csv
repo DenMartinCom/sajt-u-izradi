@@ -405,3 +405,4 @@ stader,sd,Stader,stader,staderlabs.com,,"{""ethereum"": ""0x30d20208d987713f46df
 statics-protocol,statics,Statics Protocol,statics-protocol,staticsprotocol.com,,"{""robinhood"": ""0x2d8d6f4a93acd7a916a5a654ec8b690ba3b3eadd""}"
 yu,yu,Yala Stablecoin,yala-stablecoin,yala.org,,"{""ethereum"": ""0xe868084cf08f3c3db11f4b73a95473762d9463f7"", ""base"": ""0xe868084cf08f3c3db11f4b73a95473762d9463f7"", ""binance-smart-chain"": ""0xe868084cf08f3c3db11f4b73a95473762d9463f7"", ""solana"": ""YUYAiJo8KVbnc6Fb6h3MnH2VGND4uGWDH4iLnw7DLEu""}"
 riv-coin,riv,RIV Coin,riv-coin,riv-coin.com,,"{""solana"": ""2bpT3ksMdwdZ6DuHyq3FDUr7HDwvZ5DRZoT1fUPALJaH""}"
+marblex,mbx,MARBLEX,marblex,marblex.io,,"{""binance-smart-chain"": ""0xf95a5532d67c944dfa7eddd2f8c358fe0dc7fac2"", ""klay-token"": ""0xd068c52d81f4409b9502da926ace3301cc41f623"", ""aptos"": ""0x665d06fcd9c94430099f82973f2a5e5f13142e42fa172e72ce14f51a64bd8ad9::coin_mbx::MBX""}"
