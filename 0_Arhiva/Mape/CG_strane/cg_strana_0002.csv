@@ -313,3 +313,4 @@ moonriver,movr,Moonriver,moonriver,moonbeam.network,,"{""moonriver"": ""0x98878b
 tokenlon,lon,Tokenlon,tokenlon,tokenlon.im,,"{""ethereum"": ""0x0000000000095413afc295d19edeb1ad7b71c952"", ""arbitrum-one"": ""0x55678cd083fcdc2947a0df635c93c838c89454a3""}"
 hyperlane,hyper,Hyperlane,hyperlane,hyperlane.xyz,,"{""arbitrum-one"": ""0xc9d23ed2adb0f551369946bd377f8644ce1ca5c4"", ""ethereum"": ""0x93a2db22b7c736b341c32ff666307f4a9ed910f5"", ""binance-smart-chain"": ""0xc9d23ed2adb0f551369946bd377f8644ce1ca5c4"", ""base"": ""0xc9d23ed2adb0f551369946bd377f8644ce1ca5c4"", ""optimistic-ethereum"": ""0x9923db8d7fbacc2e69e87fad19b886c81cd74979""}"
 big-time,bigtime,Big Time,big-time,bigtime.gg,,"{""ethereum"": ""0x64bc2ca1be492be7185faa2c8835d9b824c8a194""}"
+stratis,strax,Xertra,xertra,xertra.com,,"{"""": """"}"
