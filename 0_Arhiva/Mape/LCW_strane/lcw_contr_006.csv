@@ -160,3 +160,11 @@ DRGN,,Dragonchain,Dragonchain-DRGN,dragonchain.com,drgn.png,"[""smart_contract_p
 NVDAB,,NVIDIA Tokenized bStocks,NVIDIATokenizedbStocks-NVDAB,bstocks.finance,nvdab.png,"[""asset_backed_tokens""]","{""arbitrum"":""0x0a85b6ebe3c150a1979a65656e304033d62b1e12""}",40605
 BZZ,,Swarm,Swarm-BZZ,ethswarm.org,bzz.png,"[""storage"",""cloud_hosting""]","{""ethereum"":""0x19062190b1925b5b6689d7073fdfc8c2976ef8cb"",""gnosis-gno"":""0xdbf3ea6f5bee45c02255b2c26a16f300502f68da""}",10293
 WHALE,,WHALE,WHALE-WHALE,whale.me,whale.png,"[""nfts""]","{""ethereum"":""0x9355372396e3F6daF13359B7b607a3374cc638e0""}",6679
+__SLOTH,,Slothana,Slothana-__SLOTH,slothana.com,__sloth.png,"[""meme""]","{""solana"":""HQ7DaoiUxzC2K1Dr7KXRHccNtXvEYgNvoUextXe8dmBh""}",31163
+KYVE,,KYVE Network,KYVENetwork-KYVE,kyve.network,kyve.png,"[""governance""]","{""osmosis"":""ibc/613BF0BF2F2146AE9941E923725745E931676B2C14E9768CD609FA0849B2AE13"",""base"":""0xad13bce42394add02e6c215a40e582309b7975c7""}",27766
+_BUCKET,,Bucket Shop,BucketShop-_BUCKET,,_bucket.png,[],"{""solana"":""9Pfync3ejPC9eHqVzq3nYQJAhyhjqpnB9UsaSfLxpump""}",40909
+__TRADE,,Polytrade,Polytrade-__TRADE,polytrade.finance,__trade.png,"[""asset_backed_tokens""]","{""ethereum"":""0x6e5970DBd6fc7eb1f29C6D2eDF2bC4c36124C0C1"",""bnb"":""0xb75ba7ef520a5bd0a5d01108060be269642c4601"",""polygon-ecosystem-token"":""0x692AC1e363ae34b6B489148152b12e2785a3d8d6"",""arbitrum"":""0xE22c452bd2AdE15DfC8ad98286bc6bDF0c9219b7"",""base"":""0x72e1868f8eb8f9fb86455c10e72aa4b24774a5a3""}",10465
+__JESUS,,Jesus Coin,JesusCoin-__JESUS,jesus.toys,__jesus.png,"[""charity"",""meme""]","{""ethereum"":""0xba386A4Ca26B85FD057ab1Ef86e3DC7BdeB5ce70"",""solana"":""FQddEUoqKPnAsc4UTkAdAUV3LnCXoZEJMazguC1N11kC""}",24747
+_BUCKET,,Bucket Shop,BucketShop-_BUCKET,,_bucket.png,[],"{""robinhood-placeholder"":""0x8Ff92566f2e81BDd68EDfAa8cde73942A723796b""}",40837
+_BRN,,BRN Metaverse,BRNMetaverse-_BRN,brnmetaverse.net,_brn.png,"[""metaverse"",""nfts"",""gaming""]","{""bnb"":""0x926ecC7687fCFB296E97a2b4501F41A6f5F8C214""}",19519
+SDT,,Stake DAO,StakeDAO-SDT,stakedao.org,sdt.png,"[""dex"",""governance"",""liquid_staking""]","{""ethereum"":""0x73968b9a57c6e53d41345fd57a6e6ae27d6cdb2f""}",8299
