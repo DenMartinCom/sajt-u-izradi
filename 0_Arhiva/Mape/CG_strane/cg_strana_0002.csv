@@ -151,3 +151,4 @@ mbg-by-multibank-group,mbg,MBG By Multibank Group,mbg-by-multibank-group,multiba
 tornado-cash,torn,Tornado Cash,tornado-cash,tornadocash.eth.limo,,"{""ethereum"": ""0x77777feddddffc19ff86db637967013e6c6a116c"", ""binance-smart-chain"": ""0x1ba8d3c4c219b124d351f603060663bd1bcd9bbf""}"
 lista,lista,Lista DAO,lista-dao,lista.org,,"{""binance-smart-chain"": ""0xfceb31a79f71ac9cbdcf853519c1b12d379edc46""}"
 sai,sai,Sai,sai,makerdao.com,,"{""ethereum"": ""0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359""}"
+velvet,velvet,Velvet,velvet,velvet.capital,,"{""binance-smart-chain"": ""0x8b194370825e37b33373e74a41009161808c1488"", ""base"": ""0xbf927b841994731c573bdf09ceb0c6b0aa887cdd""}"
