@@ -494,3 +494,4 @@ gaib-aid,aid,GAIB AID,gaib-aid,gaib.ai,,"{""ethereum"": ""0x18f52b3fb465118731d9
 usdpt-western-union,usdpt,USDPT | Western Union,usdpt-western-union,westernunion.com,,"{""solana"": ""HVWf8JmLoHs99Lw8Psf3fyqAtA4crWxCPkrmSdNjhNH3""}"
 openserv,serv,OpenServ,openserv,openserv.ai,,"{""ethereum"": ""0x40e3d1a4b2c47d9aa61261f5606136ef73e28042"", ""base"": ""0x5576d6ed9181f2225aff5282ac0ed29f755437ea""}"
 sk-hynix-bstocks-tokenized-stock,skhyb,SK Hynix (bStocks Tokenized Stock),sk-hynix-bstocks-tokenized-stock,binance.com,,"{""binance-smart-chain"": ""0xca750ef65f295bbecd685abf54e82caf297bdb61""}"
+verified-emeralds,verem,Verified Emeralds,verified-emeralds,veremrwa.com,,"{""binance-smart-chain"": ""0x862829e8dcf0fd939d61d1b0d4a3aaf983ee4f73""}"
