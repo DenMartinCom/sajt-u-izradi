@@ -33,3 +33,4 @@ quickswap,quick,Quickswap,quickswap,quickswap.exchange,,"{""ethereum"": ""0xd2ba
 ubik,ubik,ubik,ubik,ponsfamily.com,,"{""robinhood"": ""0x812486eaea648819853f8e372dc9f1516c7868bd""}"
 broadcom-xstock,avgox,Broadcom xStock,broadcom-xstock,xstocks.com,,"{""arbitrum-one"": ""0x38bac69cbbd28156796e4163b2b6dcb81e336565"", ""mantle"": ""0x38bac69cbbd28156796e4163b2b6dcb81e336565"", ""ethereum"": ""0x38bac69cbbd28156796e4163b2b6dcb81e336565"", ""binance-smart-chain"": ""0x38bac69cbbd28156796e4163b2b6dcb81e336565"", ""solana"": ""XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo"", ""the-open-network"": ""EQDs4k7PSAH3nuXw3bXPEZ7aFatcejkKrf_Mi4Cv3-yLAmuG""}"
 bitcoin-limited-edition,btcle,Bitcoin Limited Edition,bitcoin-limited-edition,bitcoin-limitededition.com,,"{""binance-smart-chain"": ""0x9d2144328e1d618f54cd38540f5ee50671f6a208""}"
+synth-2,sn50,Synth,synth-2,,,"{""bittensor"": ""50""}"
