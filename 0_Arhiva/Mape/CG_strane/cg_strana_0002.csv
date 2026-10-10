@@ -330,3 +330,4 @@ metaplex,mplx,Metaplex,metaplex,metaplex.com,,"{""solana"": ""METAewgxyPbgwsseH8
 block-street,bsb,Block Street,block-street,blockstreet.money,,"{""ethereum"": ""0xdb6ba5d510f114f9b2ea08bea7d30e32eee33411"", ""mantle"": ""0xe5c330addf7aa9c7838da836436142c56a15aa95"", ""base"": ""0x0dc28efba8c6e0c14fa7391636b8bec86c4c83d6"", ""binance-smart-chain"": ""0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc""}"
 ai-companions,aic,AI Companions,ai-companions,aivcompanions.com,,"{""binance-smart-chain"": ""0xbe6ad1eb9876cf3d3f9b85feecfb400298e80143""}"
 everipedia,iq,IQ,iq,iqindustries.com,,"{""ethereum"": ""0x579cea1889991f68acc35ff5c3dd0621ff29b0c9"", ""polygon-pos"": ""0xb9638272ad6998708de56bbc0a290a1de534a578"", ""binance-smart-chain"": ""0x0e37d70b51ffa2b98b4d34a5712c5291115464e3""}"
+bitcast,sn93,Bitcast,bitcast,bitcast.network,,"{""bittensor"": ""93""}"
