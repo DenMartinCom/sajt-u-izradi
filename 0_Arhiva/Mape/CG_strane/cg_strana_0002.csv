@@ -206,3 +206,4 @@ apriori,apr,Capricorn,capricorn-3,capricorn.tech,,"{""ethereum"": ""0x5a9610919f
 hims-hers-health-ondo-tokenized-stock,himson,Hims & Hers Health (Ondo Tokenized Stock),hims-hers-health-ondo-tokenized-stock,app.ondo.finance,,"{""ethereum"": ""0xca468554e5c0423ee858fe3942c9568c51fcaa79"", ""binance-smart-chain"": ""0x4693f6f5ef257381a28afd0673e64d8b32d5c6ad"", ""solana"": ""bdh3njeo19d2TBLAKTGvCWdSoArfVw8uZBAJHY4ondo""}"
 hive,hive,Hive,hive,hive.io,,"{"""": """"}"
 cea-industries-bstocks-tokenized-stock,bncb,CEA Industries (bStocks Tokenized Stock),cea-industries-bstocks-tokenized-stock,bstocks.finance,,"{""binance-smart-chain"": ""0x4902c5ebc598265ed2212b559b042de8a5eeec3f""}"
+skale,skl,SKALE,skale,skale.space,,"{""ethereum"": ""0x00c83aecc790e8a4453e5dd3b0b4b3680501a7a7"", ""skale"": ""0xe0595a049d02b7674572b0d59cd4880db60edc50"", ""base"": ""0xb9caa63e09c646c1ec79acb2158d173e64a5fed3""}"
