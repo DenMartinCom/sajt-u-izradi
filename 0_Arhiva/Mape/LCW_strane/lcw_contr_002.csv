@@ -1,0 +1,6 @@
+id,symbol,name,slug,web,logo,tags,contract,cmc_id
+CKB,,Nervos Network,NervosNetwork-CKB,nervos.org,ckb.png,"[""smart_contract_platforms"",""storage""]","{""nervos-network"":""0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee""}",4948
+BABYDOGE,,Baby Doge Coin,BabyDogeCoin-BABYDOGE,babydoge.com,babydoge.png,"[""meme"",""charity"",""interest_earning""]","{""ethereum"":""0xac57de9c1a09fec648e93eb98875b212db0d460b"",""bnb"":""0xc748673057861a797275cd8a068abb95a902e8de"",""solana"":""7dUKUopcNWW6CcU4eRxCHh1uiMh32zDrmGf6ufqhxann"",""gram"":""EQCWDj49HFInSwSk49eAo476E1YBywLoFuSZ6OO3x7jmP2jn"",""base"":""0x58ecef26335af7b04a998105a6603b0dc475af33""}",10407
+___TAG,,Tagger,Tagger-___TAG,,___tag.png,[],"{""bnb"":""0x208bf3e7da9639f1eaefa2de78c23396b0682025""}",34958
+__TURBO,,Turbo,Turbo-__TURBO,sites.google.com,__turbo.png,"[""meme"",""ai""]","{""ethereum"":""0xa35923162c49cf95e6bf26623385eb431ad920d3"",""solana"":""2Dyzu65QA9zdX1UeE7Gx71k7fiwyUK6sZdrvJ7auq5wm"",""robinhood-placeholder"":""0x134A73B9B3DC68B716298e0934E8c449B7B3967F""}",24911
+NXPC,,NEXPACE,NEXPACE-NXPC,msu.io,nxpc.png,"[""smart_contract_platforms"",""governance"",""metaverse"",""gaming"",""nfts""]","{""avalanche"":""0x5E0E90E268BC247Cc850c789A0DB0d5c7621fb59"",""bnb"":""0xf2b51cc1850fed939658317a22d73d3482767591""}",36044
