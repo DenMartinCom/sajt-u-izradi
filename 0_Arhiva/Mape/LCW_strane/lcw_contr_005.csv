@@ -169,3 +169,8 @@ _QUICK,,QuickSwap (NEW),QuickSwapNEW-_QUICK,quickswap.exchange,_quick.png,"[""de
 MIN,,Minswap,Minswap-MIN,minswap.org,min.png,"[""dex"",""yield_farming"",""governance""]","{""cardano"":""29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e""}",12787
 ALCX,,Alchemix,Alchemix-ALCX,alchemix.fi,alcx.png,"[""lending"",""yield_farming""]","{""ethereum"":""0xdbdb4d16eda451d0503b854cf79d55697f90c8df""}",8613
 BTCLE,,Bitcoin Limited Edition,BitcoinLimitedEdition-BTCLE,bitcoin-limitededition.com,btcle.png,"[""debit_cards"",""asset_backed_tokens"",""governance""]","{""bnb"":""0x9d2144328e1d618f54cd38540f5ee50671f6a208""}",32374
+__ACN,,AITECH Cloud Network,AITECHCloudNetwork-__ACN,aitech.io,__acn.png,"[""ai"",""metaverse"",""iot"",""security"",""governance"",""charity"",""environmental""]","{""ethereum"":""0x3e76dd57E649A263a532cC9bcC58b32A065fB2a4""}",19055
+_WILD,,Wilder World,WilderWorld-_WILD,wilderworld.com,_wild.png,"[""metaverse"",""gaming"",""vr""]","{""ethereum"":""0x2a3bff78b79a009976eea096a51a948a3dc00e34"",""bnb"":""0x6685906b75c61c57772c335402f594f855c1b0e3"",""solana"":""FVvd3s9dZYzsgitkJyWbmycSc8MkYZjyF7oqAEvmSxTZ"",""avalanche"":""0x153374c6d6786b6ca2c4bc96f9c3a471428f2bc7""}",9674
+AMO,,AMO Coin,AMOCoin-AMO,amo.foundation,amo.png,"[""iot""]","{""kaia"":""0x6e6c55ac20c41669261969089fad7f7fcd9ba690""}",3260
+MCDULL,,McDull,McDull-MCDULL,,mcdull.png,[],"{""solana"":""Buoj8HCZMnLRwzDmjzaswhkVhLZD58PG4pZ7rnYp6pCr""}",32866
+PPT,,Populous,Populous-PPT,populous.co,ppt.png,"[""ecommerce""]","{""ethereum"":""0xd4fa1460f537bb9085d22c7bccb5dd450ef28e3a""}",1789
