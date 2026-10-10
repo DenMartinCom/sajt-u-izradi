@@ -110,3 +110,4 @@ fuzzybear,fuzzy,Fuzzybear,fuzzybear,fuzzyxrp.com,,"{""xrp"": ""46555A5A590000000
 bitlayer-bitvm,btr,Bitlayer,bitlayer,bitlayer.org,,"{""bitlayer"": ""0x0e4cf4affdb72b39ea91fa726d291781cbd020bf"", ""ethereum"": ""0x6c76de483f1752ac8473e2b4983a873991e70da7"", ""binance-smart-chain"": ""0xfed13d0c40790220fbde712987079eda1ed75c51""}"
 unit-00-rei,rei,Rei,unit-00-rei,reilabs.org,,"{""base"": ""0x6b2504a03ca4d43d0d73776f6ad46dab2f2a4cfd""}"
 debox,box,DeBox,debox,debox.pro,,"{""ethereum"": ""0x32b77729cd87f1ef2bea4c650c16f89f08472c69"", ""base"": ""0x37d2adc008118d04f259fc0c16ff66bf5a637d20"", ""mantle"": ""0x3d142cdb27b537af57a55ee8f54ada953b4b9ecd"", ""binance-smart-chain"": ""0x6386adc4bc9c21984e34fd916bb349dd861742af""}"
+celo-dollar,usdm,Mento Dollar,celo-dollar,app.mento.org,,"{""celo"": ""0x765de816845861e75a25fca122bb6898b8b1282a"", ""near-protocol"": ""cusd.token.a11bd.near""}"
