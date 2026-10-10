@@ -142,3 +142,4 @@ propy,pro,Propy,propy,propy.com,,"{""ethereum"": ""0x226bb599a12c826476e3a771454
 binance-usd,busd,BUSD,busd,paxos.com,,"{""ethereum"": ""0x4fabb145d64652a948d72533023f6e7a623c7c53""}"
 yfsx,yfsx,YFSX,yfsx,yfsx.vin,,"{""binance-smart-chain"": ""0xb7ec60cf8ef96ed48b119277bc7a954a87f27388""}"
 palladium-network,plldv3,Palladium Network,palladium-network,plld.net,,"{""ethereum"": ""0x396382f6048ceb0407e5b8f0b6fefeebd244c6f7""}"
+subsquid,sqd,SQD,sqd-2,sqd.dev,,"{""arbitrum-one"": ""0x1337420ded5adb9980cfc35f8f2b054ea86f8ab1"", ""base"": ""0xd4554bea546efa83c1e6b389ecac40ea999b3e78"", ""binance-smart-chain"": ""0xe50e3d1a46070444f44df911359033f2937fcc13""}"
