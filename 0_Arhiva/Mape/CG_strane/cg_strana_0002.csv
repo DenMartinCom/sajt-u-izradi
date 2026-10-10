@@ -129,3 +129,4 @@ clearpool,cpool,Clearpool,clearpool,clearpool.finance,,"{""ethereum"": ""0x66761
 power-ledger,powr,Powerledger,power-ledger,powerledger.io,,"{""ethereum"": ""0x595832f8fc6bf59c85c527fec3740a1b7a361269"", ""energi"": ""0xd1bbc2a68b97a8ae4b423bbf534e767ef6275a30""}"
 ai-powered-finance,aipf,AI Powered Finance,ai-powered-finance,aip.finance,,"{""polygon-pos"": ""0x2c72d25530191ebd244eb6325e1892480b0e6e28""}"
 jackpotter,$jpt,Jackpotter,jackpotter,jackpotter.com,,"{""ethereum"": ""0xd3ddb098a529a14d920203ed5015482c9226f9b9""}"
+neiro-3,neiro,Neiro,neiro-3,neiroeth.io,,"{""ethereum"": ""0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee"", ""base"": ""0x5ca35ebc4f25b042d2cae75914c7e882e631fa9a"", ""hyperevm"": ""0x226702c0ca528c29eb9252b773c4f06492510f4c"", ""binance-smart-chain"": ""0x94162acc63812d53ac2bcf1f4aef65863273e63b""}"
