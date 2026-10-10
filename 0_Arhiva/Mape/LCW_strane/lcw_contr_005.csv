@@ -1,3 +1,7 @@
 id,symbol,name,slug,web,logo,tags,contract,cmc_id
 PEPECOIN,,pepeCoin,pepeCoin-PEPECOIN,pepeco.in,pepecoin.png,"[""meme"",""nfts""]","{""ethereum"":""0xA9E8aCf069C58aEc8825542845Fd754e41a9489A""}",24835
 ORDER,,Orderly Network,OrderlyNetwork-ORDER,orderly.network,order.png,"[""smart_contract_platforms""]","{""ethereum"":""0xABD4C63d2616A5201454168269031355f4764337"",""bnb"":""0x4E200fE2f3eFb977d5fd9c430A41531FB04d97B8"",""polygon-ecosystem-token"":""0x4E200fE2f3eFb977d5fd9c430A41531FB04d97B8"",""optimism-ethereum"":""0x4E200fE2f3eFb977d5fd9c430A41531FB04d97B8"",""arbitrum"":""0x4E200fE2f3eFb977d5fd9c430A41531FB04d97B8"",""base"":""0x4E200fE2f3eFb977d5fd9c430A41531FB04d97B8""}",32809
+_BERT,,Bertram The Pomeranian,BertramThePomeranian-_BERT,bertcto.com,_bert.png,"[""meme""]","{""solana"":""HgBRWfYxEfvPhtqkaeymCQtHCrKE46qQ43pKe8HCpump""}",33854
+_AGI,,Delysium,Delysium-_AGI,delysium.com,_agi.png,"[""ai""]","{""ethereum"":""0x7dA2641000Cbb407C329310C461b2cB9c70C3046"",""bnb"":""0x818835503f55283cd51a4399f595e295a9338753"",""solana"":""8bUbe1ujsM1G3JEbBWVVCXa2widmuPdKUB2rGKMYFw7R""}",24007
+YNG,,Young,Young-YNG,,yng.png,[],"{""ethereum"":""0xA26Cbb76156090f4B40A1799A220fc4C946aFB3c""}",37393
+_DIMO,,Dimo,Dimo-_DIMO,,_dimo.png,[],"{""ethereum"":""0x5fab9761d60419c9eeebe3915a8fa1ed7e8d2e1b"",""solana"":""ERQXNXuWfpaGMh9Cs19zxcQTtzCVNZerdKXJ7BQKXVhd"",""polygon-ecosystem-token"":""0xE261D618a959aFfFd53168Cd07D12E37B26761db"",""base"":""0x5eAA326fB2fc97fAcCe6A79A304876daD0F2e96c""}",22837
