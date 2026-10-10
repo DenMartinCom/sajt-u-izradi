@@ -113,3 +113,4 @@ debox,box,DeBox,debox,debox.pro,,"{""ethereum"": ""0x32b77729cd87f1ef2bea4c650c1
 celo-dollar,usdm,Mento Dollar,celo-dollar,app.mento.org,,"{""celo"": ""0x765de816845861e75a25fca122bb6898b8b1282a"", ""near-protocol"": ""cusd.token.a11bd.near""}"
 circle-rstock-2,rcrcl,Circle Internet Group Tokenized Stock (Reality),circle-rstock-2,realityfinance.xyz,,"{""arbitrum-one"": ""0x861a85a78c371bc0a02675bbe00a4cbc0826b421"", ""morph-l2"": ""0x4413dc75387e63a46a0a77307e884164427797c3""}"
 hydrated-dollar,hollar,Hydrated Dollar,hydrated-dollar,app.hydration.net,,"{""hydration"": ""0x531a654d1696ed52e7275a8cede955e82620f99a""}"
+chili-coin,chi,Chili Coin,chili-coin,chilicoin.io,,"{""ethereum"": ""0x83e8fb8d8176224fcc828edc73e152ec1818a2da""}"
