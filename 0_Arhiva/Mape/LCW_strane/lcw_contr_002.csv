@@ -184,3 +184,6 @@ DEP,,DEAPCOIN,DEAPCOIN-DEP,dea.sg,dep.png,"[""gaming"",""nfts""]","{""ethereum""
 ZEREBRO,,zerebro,zerebro-ZEREBRO,zerebro.org,zerebro.png,"[""token_issuance_platforms"",""ai"",""nfts"",""meme""]","{""solana"":""8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn""}",34083
 USDK,,USDK,USDK-USDK,oklink.com,usdk.png,"[""stablecoins""]","{""ethereum"":""0x1c48f86ae57291f7686349f12601910bd8d470bb"",""okt"":""0xdcac52e001f5bd413aa6ea83956438f29098166b"",""solana"":""43m2ewFV5nDepieFjT9EmAQnc1HRtAF247RBpLGFem5F""}",4064
 XAN,,Anoma,Anoma-XAN,anoma.net,xan.png,"[""governance""]","{""ethereum"":""0xcedbea37c8872c4171259cdfd5255cb8923cf8e7"",""bnb"":""0x7427bd9542e64d1ac207a540cfce194b7390a07f""}",38481
+UQC,,Uquid Coin,UquidCoin-UQC,uquidcoin.com,uqc.png,"[""governance"",""ecommerce"",""debit_cards"",""nfts""]","{""ethereum"":""0x8806926ab68eb5a7b909dcaf6fdbe5d93271d6e2""}",2273
+ERG,,Ergo,Ergo-ERG,ergoplatform.org,erg.png,"[""smart_contract_platforms"",""privacy_coins""]",{},1762
+___________TRUTH,,Swarm Network,SwarmNetwork-___________TRUTH,swarmnetwork.ai,___________truth.png,"[""privacy_coins"",""oracle"",""ai"",""asset_backed_tokens"",""token_issuance_platforms""]","{""sui"":""0x0a48f85a3905cfa49a652bdb074d9e9fabad27892d54afaa5c9e0adeb7ac3cdf::swarm_network_token::SWARM_NETWORK_TOKEN""}",38178
