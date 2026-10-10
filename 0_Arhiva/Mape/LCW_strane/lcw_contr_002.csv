@@ -208,3 +208,10 @@ AUCTION,,Bounce,Bounce-AUCTION,bounce.finance,auction.png,"[""crowdfunding"",""p
 _CETUS,,Cetus Token,CetusToken-_CETUS,cetus.zone,_cetus.png,"[""dex"",""governance""]","{""sui"":""0x06864a6f921804860930db6ddbe2e16acdf8504495ea7481637a1c8b9a8fe54b::cetus::CETUS""}",25114
 CVC,,Civic,Civic-CVC,civic.com,cvc.png,"[""identity""]","{""ethereum"":""0x41e5560054824ea6b0732e656e3ad64e20e94e45""}",1816
 AIOT,,OKZOO,OKZOO-AIOT,okzoo.app,aiot.png,"[""gaming"",""ai"",""iot"",""nfts"",""governance""]","{""bnb"":""0x55ad16bd573b3365f43a9daeb0cc66a73821b4a5""}",36319
+____HOME,,Defi App,DefiApp-____HOME,,____home.png,[],"{""bnb"":""0x4bfaa776991e85e5f8b1255461cbbd216cfc714f"",""solana"":""J3umBWqhSjd13sag1E1aUojViWvPYA5dFNyqpKuX3WXj"",""base"":""0x4bfaa776991e85e5f8b1255461cbbd216cfc714f""}",36133
+VR,,Victoria VR,VictoriaVR-VR,victoriavr.com,vr.png,"[""vr"",""metaverse"",""nfts"",""governance"",""gaming""]","{""ethereum"":""0x7d5121505149065b562c789a0145ed750e6e8cdd""}",14822
+USDP,,Pax Dollar,PaxDollar-USDP,paxos.com,usdp.png,"[""stablecoins"",""asset_backed_tokens""]","{""ethereum"":""0x8e870d67f660d95d5be530380d0ec0bd388289e1"",""solana"":""HVbpJAQGNpkgBaYBZQBR1t7yFdvaYVp2vCQQfKKEN4tM""}",3330
+LQTY,,Liquity,Liquity-LQTY,liquity.org,lqty.png,"[""lending""]","{""bnb"":""0xEcf99aB23C11ddc6520252105308C251001AEfBB"",""solana"":""9V4iZc2VcbbbLAwK8Do9YQXRK5ZJ3DEz4EEgaN4nDuns""}",23081
+USUAL,,USUAL,USUAL-USUAL,usual.money,usual.png,"[""governance""]","{""ethereum"":""0xC4441c2BE5d8fA8126822B9929CA0b81Ea0DE38E"",""bnb"":""0x4ACD4D03af6F9cc0fB7C5f0868B7b6287D7969c5"",""base"":""0x4ACD4D03af6F9cc0fB7C5f0868B7b6287D7969c5""}",33979
+AOP,,Ark Of Panda,ArkOfPanda-AOP,,aop.png,[],"{""bnb"":""0xd5dF4d260D7a0145F655bcBf3B398076F21016C7""}",38433
+BIGTIME,,Big Time,BigTime-BIGTIME,bigtime.gg,bigtime.png,"[""gaming""]","{""ethereum"":""0x64Bc2cA1Be492bE7185FAA2c8835d9b824c8a194""}",28230
