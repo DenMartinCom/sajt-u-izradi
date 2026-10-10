@@ -143,3 +143,10 @@ ASR,,AS Roma Fan Token,ASRomaFanToken-ASR,fantoken.com,asr.png,[],"{""solana"":"
 ALPINE,,Alpine F1 Team Fan Token,AlpineF1TeamFanToken-ALPINE,alpinecars.com,alpine.png,"[""sports""]","{""bnb"":""0x287880Ea252b52b63Cc5f40a2d3E5A44aa665a76""}",18112
 PNG,,Pangolin,Pangolin-PNG,pangolin.exchange,png.png,"[""dex"",""yield_farming"",""governance""]","{""avalanche"":""0x60781c2586d68229fde47564546784ab3faca982""}",8422
 _SPECTRE,,SPECTRE AI,SPECTREAI-_SPECTRE,spectreai.io,_spectre.png,"[""ai"",""bots""]","{""ethereum"":""0x9Cf0ED013e67DB12cA3AF8e7506fE401aA14dAd6""}",28446
+APTM,,Apertum,Apertum-APTM,apertum.io,aptm.png,"[""smart_contract_platforms"",""governance""]",{},36215
+MAVIA,,Heroes of Mavia,HeroesofMavia-MAVIA,mavia.com,mavia.png,"[""governance"",""gaming"",""nfts"",""art""]","{""ethereum"":""0x24fcFC492C1393274B6bcd568ac9e225BEc93584"",""base"":""0x24fcFC492C1393274B6bcd568ac9e225BEc93584"",""bnb"":""0x24fcfc492c1393274b6bcd568ac9e225bec93584""}",28829
+_REAL,,RealLink,RealLink-_REAL,reallink.vip,_real.png,"[""social_media"",""analytics""]","{""bnb"":""0x65e7a112dB1142EAE919201b1232f7aA488Ed83c"",""tron"":""TGBfBt6Y2Dm3RHdNpZAdqywBsvfdysf834""}",14721
+____FUEL,,Fuel Network,FuelNetwork-____FUEL,fuel.network,____fuel.png,"[""smart_contract_platforms""]","{""ethereum"":""0x675B68AA4d9c2d3BB3F0397048e62E6B7192079c"",""bnb"":""0x5c8daEabc57E9249606D3bD6d1E097eF492eA3C5"",""fuel-network"":""0x1d5d97005e41cae2187a895fd8eab0506111e0e2f3331cd3912c15c24e3c1d82""}",24087
+_WSPP,,WolfSafePoorPeople (BSC),WolfSafePoorPeopleBSC-_WSPP,wolfsafepoorpeople.com,_wspp.png,"[""yield_farming"",""charity""]","{""bnb"":""0x46d502fac9aea7c5bc7b13c8ec9d02378c33d36f""}",10841
+TOWNS,,Towns,Towns-TOWNS,towns.com,towns.png,"[""social_media"",""governance""]","{""ethereum"":""0x000000Fa00b200406de700041CFc6b19BbFB4d13"",""bnb"":""0x00000000bcA93b25a6694ca3d2109d545988b13B"",""base"":""0x00000000A22C618fd6b4D7E9A335C4B96B189a38""}",37571
+NAKA,,Nakamoto Games,NakamotoGames-NAKA,nakamoto.games,naka.png,"[""gaming""]","{""ethereum"":""0x9fc65df3997073b8551ffd617154b5102facbb88"",""texitcoin"":""native""}",32744
