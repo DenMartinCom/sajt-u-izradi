@@ -43,3 +43,6 @@ ARB,,Arbitrum,Arbitrum-ARB,arbitrum.foundation,arb.png,"[""governance""]","{""et
 _JUP,,Jupiter,Jupiter-_JUP,lfg.jup.ag,_jup.png,"[""dex"",""governance""]","{""solana"":""JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN""}",29210
 KAS,,Kaspa,Kaspa-KAS,kaspa.org,kas.png,"[""smart_contract_platforms"",""wallets""]",{},20396
 JST,,JUST,JUST-JST,just.network,jst.png,"[""token_bridges"",""lending""]","{""tron"":""TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9""}",5488
+GT,,Gatechain Token,GatechainToken-GT,gatechain.io,gt.png,"[""smart_contract_platforms""]","{""ethereum"":""0xe66747a101bff2dba3697199dcce5b743b454759"",""solana"":""ABAq2R9gSpDDGguQxBk4u13s4ZYW6zbwKVBx15mCMG8""}",4269
+POL,,Polygon Ecosystem Token,PolygonEcosystemToken-POL,polygon.technology,pol.png,"[""smart_contract_platforms"",""governance""]","{""ethereum"":""0x455e53cbb86018ac2b8092fdcd39d8444affc3f6"",""polygon-ecosystem-token"":""0x0000000000000000000000000000000000001010""}",28321
+KCS,,KuCoin Shares,KuCoinShares-KCS,kucoin.com,kcs.png,"[""cex""]","{""ethereum"":""0xf34960d9d60be18cc1d5afc1a6f012a723a28811"",""kucoin-token"":""0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee""}",2087
