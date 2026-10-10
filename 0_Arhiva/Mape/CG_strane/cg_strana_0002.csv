@@ -207,3 +207,4 @@ hims-hers-health-ondo-tokenized-stock,himson,Hims & Hers Health (Ondo Tokenized 
 hive,hive,Hive,hive,hive.io,,"{"""": """"}"
 cea-industries-bstocks-tokenized-stock,bncb,CEA Industries (bStocks Tokenized Stock),cea-industries-bstocks-tokenized-stock,bstocks.finance,,"{""binance-smart-chain"": ""0x4902c5ebc598265ed2212b559b042de8a5eeec3f""}"
 skale,skl,SKALE,skale,skale.space,,"{""ethereum"": ""0x00c83aecc790e8a4453e5dd3b0b4b3680501a7a7"", ""skale"": ""0xe0595a049d02b7674572b0d59cd4880db60edc50"", ""base"": ""0xb9caa63e09c646c1ec79acb2158d173e64a5fed3""}"
+terrausd,ustc,TerraClassicUSD,terraclassicusd,terra-classic.io,,"{""terra"": ""uusd"", ""osmosis"": ""ibc/BE1BB42D4BE3C30D50B68D7C41DB4DFCE9678E8EF8C539F6E6A9345048894FCC""}"
