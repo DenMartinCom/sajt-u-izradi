@@ -177,3 +177,4 @@ tg-casino,tgc,TG.Casino,tg-casino,tg.casino,,"{""ethereum"": ""0x25b4f5d4c314bcd
 compounding-open-dollar,cusdo,Compounding OpenDollar,compounding-open-dollar,openeden.com,,"{""ethereum"": ""0xad55aebc9b8c03fc43cd9f62260391c13c23e7c0"", ""binance-smart-chain"": ""0x64748ea3e31d0b7916f0ff91b017b9f404ded8ef"", ""base"": ""0x83db73ef5192de4b6a4c92bd0141ba1a0dc87c65""}"
 argus-2,argus,Argus,argus,argus.world,,"{""arc"": ""0xece5ca8bf9220718e5727754026757512212cb3c""}"
 puffer-finance,puffer,Puffer,puffer,puffer.fi,,"{""ethereum"": ""0x4d1c297d39c5c1277964d0e3f8aa901493664530"", ""binance-smart-chain"": ""0x87d00066cf131ff54b72b134a217d5401e5392b6""}"
+midas-re7-ethereum,mre7eth,Midas Re7 Ethereum,midas-re7-ethereum,midas.app,,"{""optimistic-ethereum"": ""0xe7ba07519dfa06e60059563f484d6090dedf21b3""}"
