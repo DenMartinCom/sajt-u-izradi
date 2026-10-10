@@ -1,0 +1,5 @@
+id,symbol,name,slug,web,logo,tags,contract,cmc_id
+__NMT,,NetMind Token,NetMindToken-__NMT,netmind.ai,__nmt.png,"[""smart_contract_platforms"",""ai""]","{""ethereum"":""0x03AA6298F1370642642415EDC0db8b957783e8D6"",""bnb"":""0x03AA6298F1370642642415EDC0db8b957783e8D6""}",29447
+DQUICK,,Dragon's Quick,DragonsQuick-DQUICK,quickswap.exchange,dquick.png,"[""dex"",""yield_farming""]","{""ethereum"":""0xa50ad3a559A10f384a5bB2e27516f63E0B937b1A"",""solana"":""8AUxdPqYU4FBy5rZDhMJxTniPs7gtEfdHjP3UKM71m6G"",""base"":""0x9b61660Cb1a6920E9c912570cD210020B956F34E""}",8282
+__BETA,,BETA FINANCE,BETAFINANCE-__BETA,betafinance.org,__beta.png,"[""lending""]","{""ethereum"":""0xbe1a001fe942f96eea22ba08783140b9dcc09d28"",""bnb"":""0xbe1a001fe942f96eea22ba08783140b9dcc09d28""}",11307
+__CHAT,,OpenChat,OpenChat-__CHAT,oc.app,__chat.png,"[""social_media""]","{""internet-computer"":""2ouva-viaaa-aaaaq-aaamq-cai""}",24137
