@@ -235,3 +235,8 @@ FTT,,FTX Token,FTXToken-FTT,claims.ftx.com,ftt.png,"[""cex""]","{""bnb"":""FTT-F
 OMI,,ECOMI,ECOMI-OMI,ecomi.com,omi.png,"[""nfts"",""wallets""]","{""ethereum"":""0xeD35af169aF46a02eE13b9d79Eb57d6D68C1749e"",""base"":""0x3792DBDD07e87413247DF995e692806aa13D3299""}",19075
 ________RED,,Redstone,Redstone-________RED,redstone.finance,________red.png,"[""oracle"",""ai""]","{""ethereum"":""0xc43c6bfeda065fe2c4c11765bf838789bd0bb5de"",""solana"":""RED7iNewvwjeu9rdcugDqkPUm4fhGT7Dt9sYosFr6e7"",""base"":""0x4eB92702bA4cfbF80561BAd64D89C706Ac824960""}",21707
 TRX,,TRON,TRON-TRX,tron.network,trx.png,"[""storage"",""smart_contract_platforms""]","{""bnb"":""0x3e5d4f8aee0d9b3082d5f6da5d6e225d17ba9ea0""}",38841
+_ADI,,ADI,ADI-_ADI,,_adi.png,[],"{""ethereum"":""0x8b1484d57abbe239bb280661377363b03c89caea""}",38185
+LBT,,Law Blocks,LawBlocks-LBT,lawblocks.io,lbt.png,"[""analytics""]","{""xdc-network"":""0x05940b2df33d6371201e7ae099ced4c363855dfe""}",20964
+_ZETA,,ZetaChain,ZetaChain-_ZETA,zetachain.com,_zeta.png,"[""smart_contract_platforms""]","{""ethereum"":""0xf091867ec603a6628ed83d274e835539d82e9cc8"",""bnb"":""0x0000028a2eB8346cd5c0267856aB7594B7a55308"",""zetachain"":""0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee""}",21259
+_BERA,,Berachain,Berachain-_BERA,berachain.com,_bera.png,"[""smart_contract_platforms"",""dex""]","{""berachain"":""0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee""}",24647
+KAITO,,KAITO,KAITO-KAITO,kaito.ai,kaito.png,"[""ai"",""analytics"",""social_media"",""nfts"",""governance""]","{""base"":""0x98d0baa52b2D063E780DE12F615f963Fe8537553""}",35763
