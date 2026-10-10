@@ -468,3 +468,4 @@ nvidia-robinhood-tokenized-stock,nvda,NVIDIA • Robinhood Token,nvidia-robinhoo
 intel-ondo-tokenized-stock,intcon,Intel (Ondo Tokenized Stock),intel-ondo-tokenized-stock,app.ondo.finance,,"{""ethereum"": ""0xfda09936dbd717368de0835ba441d9e62069d36f"", ""binance-smart-chain"": ""0xa528caaa2f96090e379d43f90834c75df54d6e74"", ""hyperevm"": ""0x7bf529bb5db370d679f33f4fe5420f48ee234bb7"", ""solana"": ""cJpUMp5R7rZ6fGeLHbHhrRuJzK9mkyKDjZqNpT3ondo""}"
 osk,osk,OSK,osk,pgglobal.io,,"{""tron"": ""TDk91SWz2GvwfZwMTGX21d4ngUUH8YZZAv""}"
 radicle,rad,Radworks,radworks,radworks.org,,"{""ethereum"": ""0x31c8eacbffdd875c74b94b077895bd78cf1e64a3""}"
+griffain,griffain,GRIFFAIN,griffain,griffain.com,,"{""solana"": ""KENJSUYLASHUMfHyy5o4Hp2FdNqZg1AsUPhfH2kYvEP""}"
