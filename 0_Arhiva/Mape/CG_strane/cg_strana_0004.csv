@@ -46,3 +46,4 @@ dialectic-eth-vault,deth,Dialectic ETH Vault,dialectic-eth-vault,makina.finance,
 kora,sn71,Leadpoet,leadpoet,leadpoet.com,,"{""bittensor"": ""71""}"
 blue-chip-4,bluechip,BLUE CHIP,blue-chip-4,basebluechip.com,,"{""base"": ""0xb200000000000000000000cfbdf64a8706a94a01""}"
 blockv,vee,BLOCKv,blockv,blockv.io,,"{""ethereum"": ""0x340d2bde5eb28c1eed91b2f790723e3b160613b7"", ""base"": ""0xefc2689d3e79252fba37e889a1b5ad92cedc6e4f"", ""polygon-pos"": ""0xf1c1a3c2481a3a8a3f173a9ab5ade275292a6fa3"", ""optimistic-ethereum"": ""0xe3c332a5dce0e1d9bc2cc72a68437790570c28a4""}"
+liqwid-finance,lq,Liqwid Finance,liqwid-finance,liqwid.finance,,"{""cardano"": ""da8c30857834c6ae7203935b89278c532b3995245295456f993e1d244c51""}"
