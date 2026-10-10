@@ -204,3 +204,4 @@ wise-token11,wise,Wise,wise,app.wisetoken.com,,"{""ethereum"": ""0x66a0f676479ce
 ponke,ponke,PONKE,ponke,ponke.xyz,,"{""solana"": ""5z3EqYQo9HiCEs3R84RCDMu2n7anpDMxRhdK8PSWmrRC"", ""base"": ""0x4a0c64af541439898448659aedcec8e8e819fc53""}"
 stbl,stbl,STBL,stbl,stbl.com,,"{""binance-smart-chain"": ""0x8dedf84656fa932157e27c060d8613824e7979e3""}"
 eurocoinpay,ecte,EurocoinToken,eurocointoken,eurocoinpay.io,,"{""ethereum"": ""0xe9fa21e671bcfb04e6868784b89c19d5aa2424ea""}"
+forta,fort,Forta,forta,forta.org,,"{""ethereum"": ""0x41545f8b9472d758bb669ed8eaeeecd7a9c4ec29"", ""base"": ""0x7588310a7abf34dc608ac98a1c4432f85e194df5"", ""polygon-pos"": ""0x9ff62d1fc52a907b6dcba8077c2ddca6e6a9d3e1"", ""arbitrum-one"": ""0x3a1429d50e0cbbc45c997af600541fe1cc3d2923""}"
