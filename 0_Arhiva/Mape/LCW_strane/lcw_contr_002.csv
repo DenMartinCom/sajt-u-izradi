@@ -163,3 +163,9 @@ ORBS,,Orbs,Orbs-ORBS,orbs.com,orbs.png,"[""cloud_hosting""]","{""ethereum"":""0x
 CPOOL,,Clearpool,Clearpool-CPOOL,clearpool.finance,cpool.png,"[""governance"",""lending"",""interest_earning""]","{""ethereum"":""0x66761fa41377003622aee3c7675fc7b5c1c2fac5"",""solana"":""AeXrLftu8chuY4ctc6oDeG4dUx6Yr4aqeakUMFNvACdg""}",12573
 __NEET,,NotInEmploymentEducationTraining,NotInEmploymentEducationTraining-__NEET,neetcoin.xyz,__neet.png,"[""meme""]","{""solana"":""Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump""}",39856
 IOST,,Internet of Services Token,InternetofServicesToken-IOST,iost.io,iost.png,"[""smart_contract_platforms""]","{""iostoken"":""token.iost"",""bnb"":""0xAf48B7e315a52518CfBF7d96C455D9dFAD94cB48""}",2405
+SKL,,SKALE,SKALE-SKL,skale.space,skl.png,"[""smart_contract_platforms""]","{""ethereum"":""0x00c83aecc790e8a4453e5dd3b0b4b3680501a7a7""}",5691
+__EDGE,,Definitive,Definitive-__EDGE,definitive.fi,__edge.png,"[""liquid_staking"",""yield_aggregators""]","{""base"":""0xED6E000dEF95780fb89734c07EE2ce9F6dcAf110""}",36288
+ONE,,Harmony,Harmony-ONE,harmony.one,one.png,"[""smart_contract_platforms""]","{""harmony"":""0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee""}",3945
+____SIGN,,Sign,Sign-____SIGN,sign.global,____sign.png,"[""identity""]","{""ethereum"":""0x868FCEd65edBF0056c4163515dD840e9f287A4c3"",""bnb"":""0x868fced65edbf0056c4163515dd840e9f287a4c3"",""base"":""0x868fced65edbf0056c4163515dd840e9f287a4c3""}",35600
+TPT,,Token Pocket,TokenPocket-TPT,tokenpocket.pro,tpt.png,"[""wallets""]","{""bnb"":""0xeca41281c24451168a37211f0bc2b8645af45092""}",5947
+BORA,,BORA,BORA-BORA,boraecosystem.com,bora.png,[],"{""kaia"":""0x02cbe46fb8a1f579254a9b485788f2d86cad51aa""}",3801
