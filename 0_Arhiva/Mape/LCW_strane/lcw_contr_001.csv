@@ -1,0 +1,6 @@
+id,symbol,name,slug,web,logo,tags,contract,cmc_id
+DASH,,Dash,Dash-DASH,dash.org,dash.png,"[""ecommerce"",""privacy_coins""]","{""near-protocol"":""dash.omft.near""}",131
+_ETHFI,,ether.fi governance token,etherfigovernancetoken-_ETHFI,ether.fi,_ethfi.png,"[""governance"",""liquid_staking"",""restaking""]","{""ethereum"":""0xFe0c30065B384F05761f15d0CC899D4F9F9Cc0eB"",""optimism-ethereum"":""0xe0080d2F853ecDdbd81A643dC10DA075Df26fD3f"",""arbitrum"":""0x7189fb5B6504bbfF6a852B13B7B82a3c118fDc27"",""base"":""0x6C240DDA6b5c336DF09A4D011139beAAa1eA2Aa2""}",29814
+RAY,,Raydium,Raydium-RAY,raydium.io,ray.png,"[""dex"",""yield_farming"",""launchpad"",""token_issuance_platforms"",""token_bridges""]","{""solana"":""4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R"",""bnb"":""0x13b6A55662f6591f8B8408Af1C73B017E32eEdB8""}",8526
+PYTH,,Pyth Network,PythNetwork-PYTH,pyth.network,pyth.png,"[""oracle""]","{""solana"":""HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3""}",28177
+FLR,,Flare,Flare-FLR,flare.network,flr.png,"[""smart_contract_platforms"",""governance""]",{},7950
