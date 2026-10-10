@@ -114,3 +114,4 @@ celo-dollar,usdm,Mento Dollar,celo-dollar,app.mento.org,,"{""celo"": ""0x765de81
 circle-rstock-2,rcrcl,Circle Internet Group Tokenized Stock (Reality),circle-rstock-2,realityfinance.xyz,,"{""arbitrum-one"": ""0x861a85a78c371bc0a02675bbe00a4cbc0826b421"", ""morph-l2"": ""0x4413dc75387e63a46a0a77307e884164427797c3""}"
 hydrated-dollar,hollar,Hydrated Dollar,hydrated-dollar,app.hydration.net,,"{""hydration"": ""0x531a654d1696ed52e7275a8cede955e82620f99a""}"
 chili-coin,chi,Chili Coin,chili-coin,chilicoin.io,,"{""ethereum"": ""0x83e8fb8d8176224fcc828edc73e152ec1818a2da""}"
+seda-2,seda,SEDA,seda,seda.xyz,,"{""osmosis"": ""ibc/956AEF1DA92F70584266E87978C3F30A43B91EE6ABC62F03D097E79F6B99C4D8"", ""base"": ""0x306acd0c07c430abbbb2e74ef7bde94f32a898c0"", ""hyperevm"": ""0x4f96b683714377c38123631f2d17cdf18b3f46a7"", ""ethereum"": ""0x14862c03a0caccc1ab328b062e64e31b2a1afcd7"", ""hyperliquid"": ""0x83a0bf54708a0236a49f7301677ffdc2""}"
