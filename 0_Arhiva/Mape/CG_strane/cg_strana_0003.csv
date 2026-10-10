@@ -304,3 +304,4 @@ magic-internet-money-runes,mim,MAGIC•INTERNET•MONEY (Bitcoin),magic-internet
 eusd-2,eusd,eUSD,eusd,bank.telco.in,,"{""ethereum"": ""0x14913815bcfde78baead2111f463d038ac9c2949"", ""polygon-pos"": ""0x14913815bcfde78baead2111f463d038ac9c2949"", ""base"": ""0x14913815bcfde78baead2111f463d038ac9c2949"", ""solana"": ""HQMYCZTDq9g3oZejDRUeQsFtLKgyfvBpD3yHaTnain3L""}"
 xion-2,xion,Xion,xion,xion.burnt.com,,"{"""": """", ""osmosis"": ""ibc/2E3784772E70F7B3A638BA88F65C8BE125D3CDB6E28C6AABC51098C94F5E16A5"", ""ethereum"": ""0x24d7ad9402717f429a81925fe7643b78918eda8b"", ""base"": ""0xe4c3461a20f50dad7b9e88ca0222a255c4126fc0""}"
 defi-money,money,Defi.money,defi-money,defi.money,,"{""optimistic-ethereum"": ""0x69420f9e38a4e60a62224c489be4bf7a94402496"", ""arbitrum-one"": ""0x69420f9e38a4e60a62224c489be4bf7a94402496""}"
+usda-4,usda,USDA,usda-4,brale.xyz,,"{""canton-network"": ""3574b536-cad1-4074-9b64-859398713ba0""}"
