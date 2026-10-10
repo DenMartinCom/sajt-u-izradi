@@ -237,3 +237,10 @@ FARM,,Harvest Finance,HarvestFinance-FARM,harvest.finance,farm.png,"[""yield_agg
 SPCXB,,SpaceX Tokenized bStocks,SpaceXTokenizedbStocks-SPCXB,bstocks.finance,spcxb.png,"[""asset_backed_tokens""]","{""bnb"":""0xe81c6bb0266cd68b4f17278531dd03ea1f12da4e""}",40791
 GAIB,,GAIB,GAIB-GAIB,,gaib.png,[],"{""ethereum"":""0xC19D38925F9F645337B1D1f37bAf3C0647A48E50"",""bnb"":""0xc19d38925f9f645337b1d1f37baf3c0647a48e50""}",38946
 OL,,OPENLOOT,OPENLOOT-OL,openloot.com,ol.png,"[""gaming"",""nfts"",""governance""]","{""ethereum"":""0x1F57da732A77636D913C9a75d685B26CC85DCC3A"",""bnb"":""0x3f160760535eb715d5809a26cf55408a2d9844c1""}",34034
+__ASP,,ASPECTA,ASPECTA-__ASP,,__asp.png,[],"{""bnb"":""0xad8c787992428cD158E451aAb109f724B6bc36de"",""solana"":""DJ7vji2BU7RjNgktPAKN4L42CiXTFHEt4Eeeyr5FiTmy""}",37453
+SHDW,,GenesysGo Shadow,GenesysGoShadow-SHDW,shdwdrive.com,shdw.png,"[""cloud_hosting"",""storage""]","{""solana"":""SHDWyBxihqiCj6YekG2GUr7wqKLeLAMK1gHZck9pL6y""}",16868
+REP,,Augur,Augur-REP,augur.net,rep.png,"[""prediction_markets"",""oracle""]","{""ethereum"":""0x1985365e9f78359a9B6AD760e32412f4a445E862""}",1104
+REPPO,,REPPO,REPPO-REPPO,,reppo.png,[],"{""base"":""0xFf8104251E7761163faC3211eF5583FB3F8583d6""}",38996
+PAYAI,,PayAI Network,PayAINetwork-PAYAI,payai.network,payai.png,"[""ai"",""bots"",""advertising""]",{},17072
+_________________MAX,,Giggle Mascot,GiggleMascot-_________________MAX,,_________________max.png,[],"{""bnb"":""0xe9Bc5C6A86caA44fD7b469bf3cc7c563E4F77777""}",42248
+NKN,,New Kind of Network,NewKindofNetwork-NKN,nkn.org,nkn.png,"[""iot"",""telecom""]",{},2780
