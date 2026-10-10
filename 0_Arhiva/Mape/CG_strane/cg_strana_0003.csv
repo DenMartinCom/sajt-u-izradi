@@ -310,3 +310,4 @@ oraichain-token,orai,Oraichain,oraichain-token,orai.io,,"{""ethereum"": ""0x4c11
 boba-network,boba,Boba Network,boba-network,boba.network,,"{""ethereum"": ""0x42bbfa2e77757c645eeaad1655e0911a7553efbc"", ""boba"": ""0xa18bf3994c0cc6e3b63ac420308e5383f53120d7""}"
 edexa,edx,edeXa,edexa,edexa.com,,"{""polygon-pos"": ""0xc114678c6e4654d041b2006c90f08478b444c4e2"", ""ethereum"": ""0xc114678c6e4654d041b2006c90f08478b444c4e2"", ""binance-smart-chain"": ""0xc114678c6e4654d041b2006c90f08478b444c4e2""}"
 chainnova-network,chnet,CHAINNOVA NETWORK,chainnova-network,chainnova.org,,"{"""": """", ""binance-smart-chain"": ""0x8e4b46e86aa626034a30f6511fe258fccad894c0""}"
+alephium,alph,Alephium,alephium,alephium.org,,"{""ethereum"": ""0x590f820444fa3638e022776752c5eef34e2f89a6"", ""binance-smart-chain"": ""0x8683ba2f8b0f69b2105f26f488bade1d3ab4dec8""}"
