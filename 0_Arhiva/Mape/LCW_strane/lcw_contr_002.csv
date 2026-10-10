@@ -239,3 +239,9 @@ TSLAB,,Tesla Tokenized bStocks,TeslaTokenizedbStocks-TSLAB,bstocks.finance,tslab
 CGPT,,ChainGPT,ChainGPT-CGPT,chaingpt.org,cgpt.png,"[""ai""]","{""ethereum"":""0x25931894a86d47441213199621f1f2994e1c39aa"",""bnb"":""0x9840652DC04fb9db2C43853633f0F62BE6f00f98"",""solana"":""CCDfDXZxzZtkZLuhY48gyKdXc5KywqpR8xEVHHh8ck1G""}",23756
 SOLV,,Solv Protocol,SolvProtocol-SOLV,solv.finance,solv.png,"[""governance"",""liquid_staking"",""restaking""]","{""bnb"":""0xabe8e5cabe24cb36df9540088fd7ce1175b9bc52"",""ethereum"":""0x169E36F327cAA83d004f5c2668AC25A1424C940d""}",12165
 MOVR,,Moonriver,Moonriver-MOVR,moonbeam.network,movr.png,"[""smart_contract_platforms""]",{},9285
+___UPC,,UPCX,UPCX-___UPC,upcx.io,___upc.png,[],"{""ethereum"":""0x487d62468282Bd04ddf976631C23128A425555EE""}",28654
+BREV,,Brevis Token,BrevisToken-BREV,brevis.network,brev.png,"[""privacy_coins"",""ai""]","{""ethereum"":""0x086F405146Ce90135750Bbec9A063a8B20A8bfFb"",""bnb"":""0x086f405146ce90135750bbec9a063a8b20a8bffb"",""base"":""0x086f405146ce90135750bbec9a063a8b20a8bffb""}",39159
+___________BURN,,BurnedFi,BurnedFi-___________BURN,burnedfi.com,___________burn.png,[],"{""bnb"":""0x19c018e13cff682e729cc7b5fb68c8a641bf98a4""}",30460
+XCH,,Chia,Chia-XCH,chia.net,xch.png,"[""smart_contract_platforms""]",{},9258
+DIA,,DIA,DIA-DIA,diadata.org,dia.png,"[""oracle"",""governance""]","{""ethereum"":""0x84ca8bc7997272c7cfb4d0cd3d55cd942b3c9419"",""bnb"":""0x99956d38059cf7beda96ec91aa7bb2477e0901dd""}",6138
+CTK,,Shentu,Shentu-CTK,shentu.org,ctk.png,"[""oracle"",""security"",""analytics""]","{""bnb"":""0xa8c2b8eec3d368c0253ad3dae65a5f2bbb89c929""}",4807
