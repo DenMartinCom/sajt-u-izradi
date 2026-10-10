@@ -395,3 +395,4 @@ playsout,play,PlaysOut,playsout,playsout.com,,"{""base"": ""0x853a7c99227499dba9
 ivault,ivt,ivault,ivault,ivault.io,,"{""base"": ""0x4b12507e171970b3acd48edfeb5bd1c676e61280""}"
 peercoin,ppc,Peercoin,peercoin,peercoin.net,,"{""ethereum"": ""0x044d078f1c86508e13328842cc75ac021b272958"", ""polygon-pos"": ""0x91e7e32c710661c44ae44d10aa86135d91c3ed65""}"
 stakestone,sto,StakeStone,stakestone,stakestone.io,,"{""ethereum"": ""0x1d88713b483a8e45cff0e5cd7c2e15e5fab4534d"", ""binance-smart-chain"": ""0xdaf1695c41327b61b9b9965ac6a5843a3198cf07""}"
+ref-finance,ref,Ref Finance,ref-finance,ref.finance,,"{""near-protocol"": ""token.v2.ref-finance.near""}"
