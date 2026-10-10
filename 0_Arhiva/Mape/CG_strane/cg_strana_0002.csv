@@ -182,3 +182,4 @@ bancor,bnt,Bancor Network,bancor-network,bancor.network,,"{""ethereum"": ""0x1f5
 zora,zora,Zora,zora,zora.co,,"{""base"": ""0x1111111111166b7fe7bd91427724b487980afc69""}"
 apro,at,Apro,apro,apro.com,,"{""binance-smart-chain"": ""0x9be61a38725b265bc3eb7bfdf17afdfc9d26c130"", ""ethereum"": ""0x0581ccdf2d9bca21baeff8b32b2551fd49cf70aa""}"
 definitive,edge,Definitive,definitive,definitive.fi,,"{""base"": ""0xed6e000def95780fb89734c07ee2ce9f6dcaf110""}"
+vana,vana,Vana,vana,vana.org,,"{""ethereum"": ""0x7ff7fa94b8b66ef313f7970d4eebd2cb3103a2c0"", ""base"": ""0x7ff7fa94b8b66ef313f7970d4eebd2cb3103a2c0"", ""binance-smart-chain"": ""0x7ff7fa94b8b66ef313f7970d4eebd2cb3103a2c0"", ""polygon-pos"": ""0x7ff7fa94b8b66ef313f7970d4eebd2cb3103a2c0"", ""arbitrum-one"": ""0x7ff7fa94b8b66ef313f7970d4eebd2cb3103a2c0"", ""optimistic-ethereum"": ""0x7ff7fa94b8b66ef313f7970d4eebd2cb3103a2c0""}"
