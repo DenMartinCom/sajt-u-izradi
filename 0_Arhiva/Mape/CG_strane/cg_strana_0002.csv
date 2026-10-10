@@ -430,3 +430,4 @@ spdr-s-p-500-etf-trust-robinhood-tokenized-stock,spy,SPDR S&P 500 ETF Trust • 
 ryze,ryze,Ryze,ryze,aryze.io,,"{""ethereum"": ""0x44e3ae622c1570dc6e492adb8de92d01ca923d26"", ""linea"": ""0x34b5c2936dae6698e54781edb8b1e69a2c2873f8"", ""polygon-pos"": ""0x44e3ae622c1570dc6e492adb8de92d01ca923d26"", ""binance-smart-chain"": ""0x7712da72127d5dd213b621497d6e4899d5989e5c"", ""arbitrum-one"": ""0x7712da72127d5dd213b621497d6e4899d5989e5c""}"
 connect-token-wct,wct,WalletConnect Token,walletconnect-token,walletconnect.network,,"{""optimistic-ethereum"": ""0xef4461891dfb3ac8572ccf7c794664a8dd927945"", ""base"": ""0xef4461891dfb3ac8572ccf7c794664a8dd927945"", ""ethereum"": ""0xef4461891dfb3ac8572ccf7c794664a8dd927945"", ""solana"": ""WCTk5xWdn5SYg56twGj32sUF3W4WFQ48ogezLBuYTBY""}"
 fartboy,$fartboy,Fartboy,fartboy,fartboysol.com,,"{""solana"": ""y1AZt42vceCmStjW4zetK3VoNarC1VxJ5iDjpiupump""}"
+redteam,sn61,RedTeam,redteam,theredteam.io,,"{""bittensor"": ""61""}"
