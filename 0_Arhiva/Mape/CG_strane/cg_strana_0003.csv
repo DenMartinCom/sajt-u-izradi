@@ -306,3 +306,4 @@ xion-2,xion,Xion,xion,xion.burnt.com,,"{"""": """", ""osmosis"": ""ibc/2E3784772
 defi-money,money,Defi.money,defi-money,defi.money,,"{""optimistic-ethereum"": ""0x69420f9e38a4e60a62224c489be4bf7a94402496"", ""arbitrum-one"": ""0x69420f9e38a4e60a62224c489be4bf7a94402496""}"
 usda-4,usda,USDA,usda-4,brale.xyz,,"{""canton-network"": ""3574b536-cad1-4074-9b64-859398713ba0""}"
 heima,hei,Heima,heima,heima.network,,"{""ethereum"": ""0xf8f173e20e15f3b6cb686fb64724d370689de083"", ""binance-smart-chain"": ""0xf8f173e20e15f3b6cb686fb64724d370689de083""}"
+oraichain-token,orai,Oraichain,oraichain-token,orai.io,,"{""ethereum"": ""0x4c11249814f11b9346808179cf06e71ac328c1b5"", ""osmosis"": ""ibc/161D7D62BAB3B9C39003334F1671208F43C06B643CC9EDBBE82B64793C857F1D"", ""solana"": ""oraiyuR7hz6h7ApC56mb52CJjPZBB34USTjzaELoaPk"", ""binance-smart-chain"": ""0xa325ad6d9c92b55a3fc5ad7e412b1518f96441c0""}"
