@@ -201,3 +201,10 @@ SCRT,,Secret,Secret-SCRT,scrt.network,scrt.png,"[""smart_contract_platforms"",""
 MOBILE,,Helium Mobile,HeliumMobile-MOBILE,v2.helium.com,mobile.png,"[""telecom"",""iot"",""streaming""]","{""solana"":""mb1eu7TzEc71KxDpsmsKoucSSuuoGLv1drys1oP2jh6""}",24600
 WAXP,,WAX,WAX-WAXP,wax.io,waxp.png,"[""smart_contract_platforms"",""dex"",""gaming"",""nfts""]","{""osmosis"":""ibc/95C9B5870F95E21A242E6AF9ADCB1F212EE4A8855087226C36FBE43FC41A77B8""}",22359
 ESE,,eesee,eesee-ESE,eesee.io,ese.png,"[""nfts"",""launchpad""]","{""ethereum"":""0x908dDb096BFb3AcB19e2280aAD858186ea4935C4"",""bnb"":""0x491e6DE43b55c8EAE702EDC263E32339da42f58c"",""blast"":""0x491e6DE43b55c8EAE702EDC263E32339da42f58c""}",29454
+LNQ,,LinqAI,LinqAI-LNQ,linqai.com,lnq.png,"[""ai"",""advertising"",""ecommerce"",""governance""]","{""ethereum"":""0xD4F4D0a10BcaE123bB6655E8Fe93a30d01eEbD04""}",30177
+_LINGO,,Lingo,Lingo-_LINGO,mylingo.io,_lingo.png,"[""asset_backed_tokens"",""real_estate"",""travel"",""ecommerce""]","{""solana"":""GWZGj6AM4pkWxQW6bifE6JChSRf2hEQFWFkYC4REaL7H"",""base"":""0xfb42Da273158B0F642F59F2Ba7cc1d5457481677""}",34717
+NEXA,,NEXA,NEXA-NEXA,nexa.org,nexa.png,"[""wallets""]",{},23380
+__JOE,,Joe Coin,JoeCoin-__JOE,thejoecoin.com,__joe.png,"[""meme""]","{""ethereum"":""0x76e222b07c53d28b89b0bac18602810fc22b49a8""}",28504
+_______ZEUS,,Zeus Network,ZeusNetwork-_______ZEUS,zeusnetwork.xyz,_______zeus.png,[],"{""bnb"":""0xa2be3e48170a60119b5f0400c65f65f3158fbeee"",""solana"":""ZEUS1aR7aX8DFFJf5QjWj2ftDDdNTroMNGo8YoQm3Gq""}",30391
+__TART,,TartSwap,TartSwap-__TART,tartswap.com,__tart.png,"[""dex"",""yield_farming"",""gaming"",""governance""]","{""bnb"":""0x7AB8d02CBb51Ff7223fDe700eAaa2a91Bf750314""}",41965
+BGSC,,BugsCoin,BugsCoin-BGSC,bugscoin.com,bgsc.png,"[""ecommerce"",""nfts"",""gaming"",""streaming""]","{""bnb"":""0xa4B68D48D7bc6f04420e8077E6F74bdeF809dEa3""}",34830
