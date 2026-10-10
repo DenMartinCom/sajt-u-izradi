@@ -932,18 +932,39 @@ body {
     .kalk-polje:first-child { flex: 0 0 25%; }
 }
 
+
+
 /* ===== ZAMA STAKING GRAFIKON ===== */
 .widget-zama-graf {
     padding: 12px;
     gap: 10px;
     align-items: stretch;
 }
+.zama-graf-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    width: 100%;
+}
 .zama-graf-title {
     color: #FFD700;
     font-size: 0.85rem;
-    text-align: center;
     letter-spacing: 0.5px;
+    flex: 1;
 }
+.zama-graf-period {
+    background: #2a2a2a;
+    color: #e0e0e0;
+    border: 1px solid #383838;
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 0.75rem;
+    cursor: pointer;
+    outline: none;
+    font-family: inherit;
+}
+.zama-graf-period:focus { border-color: #FFD700; }
 .zama-graf-wrap {
     position: relative;
     width: 100%;
@@ -963,6 +984,7 @@ body {
 @media (max-width: 370px) {
     .zama-graf-wrap { height: 200px; }
 }
+
 
 /* Popravka blikanja slika */
 img[src*="_default.png"],
