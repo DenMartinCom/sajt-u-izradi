@@ -324,3 +324,4 @@ impossible-cloud-network-token,icnt,Impossible Cloud Network Token,impossible-cl
 usual,usual,Usual,usual,usual.money,,"{""ethereum"": ""0xc4441c2be5d8fa8126822b9929ca0b81ea0de38e"", ""binance-smart-chain"": ""0x4acd4d03af6f9cc0fb7c5f0868b7b6287d7969c5"", ""base"": ""0x4acd4d03af6f9cc0fb7c5f0868b7b6287d7969c5""}"
 initia,init,Initia,initia,initia.xyz,,"{""initia"": ""uinit"", ""osmosis"": ""ibc/DD7EA9AF1E58E9FDD7F9810976817E203D5B87BAEF7AEA592FA34DF73310620B""}"
 czs-dog,broccoli,CZ's Dog,czs-dog,broccoli714.site,,"{""binance-smart-chain"": ""0x6d5ad1592ed9d6d1df9b93c793ab759573ed6714""}"
+electronic-usd,eusd,Electronic USD,electronic-usd,register.app,,"{""ethereum"": ""0xa0d69e286b938e21cbf7e51d71f6a4c8918f482f"", ""base"": ""0xcfa3ef56d303ae4faaba0592388f19d7c3399fb4"", ""arbitrum-one"": ""0x12275dcb9048680c4be40942ea4d92c74c63b844""}"
