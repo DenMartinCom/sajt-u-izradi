@@ -293,14 +293,22 @@
             </div>
 
             <!-- ZAMA STAKING GRAFIKON -->
-            <div class="widget widget-zama-graf">
-                <div class="zama-graf-title">ZAMA staking kroz vreme</div>
-                <div class="zama-graf-wrap">
-                    <canvas id="zama-chart"></canvas>
-                </div>
-                <div class="zama-graf-status" id="zama-graf-status"></div>
-            </div>
-        </section>
+<div class="widget widget-zama-graf">
+    <div class="zama-graf-header">
+        <div class="zama-graf-title">ZAMA staking</div>
+        <select id="zama-graf-period" class="zama-graf-period">
+            <option value="30">30d</option>
+            <option value="90">90d</option>
+            <option value="180">180d</option>
+            <option value="365">1g</option>
+            <option value="400" selected>sve</option>
+        </select>
+    </div>
+    <div class="zama-graf-wrap">
+        <canvas id="zama-chart"></canvas>
+    </div>
+    <div class="zama-graf-status" id="zama-graf-status"></div>
+</div>
 
         <!-- TAB 5 — VESTI -->
         <section class="tab-content" id="t5">
