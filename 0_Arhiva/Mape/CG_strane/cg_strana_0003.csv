@@ -135,3 +135,4 @@ fluent-network,blend,Fluent,fluent,fluent.xyz,,"{""ethereum"": ""0xd8a271974e8ed
 maverick-protocol,mav,Maverick Protocol,maverick-protocol,mav.xyz,,"{""ethereum"": ""0x7448c7456a97769f6cd04f1e83a4a23ccdc46abd"", ""base"": ""0x64b88c73a5dfa78d1713fe1b4c69a22d7e0faaa7"", ""binance-smart-chain"": ""0xd691d9a68c887bdf34da8c36f63487333acfd103"", ""zksync"": ""0x787c09494ec8bcb24dcaf8659e7d5d69979ee508""}"
 crypgpt,crypgpt,CrypGPT,crypgpt,crypgpt.ai,,"{""binance-smart-chain"": ""0xe0ae52e75b38b605e9c879a570ee1e7bcc66254b""}"
 bitcastle-token,bce,bitcastle Token,bitcastle-token,bitcastle.io,,"{""sui"": ""0x34d12f761847a05dfa33a1692440588f4b5f7f24be619334e29d74e083f5e64e::bce::BCE""}"
+elysia,el,ELYSIA,elysia,elysia.land,,"{""ethereum"": ""0x2781246fe707bb15cee3e5ea354e2154a2877b16""}"
