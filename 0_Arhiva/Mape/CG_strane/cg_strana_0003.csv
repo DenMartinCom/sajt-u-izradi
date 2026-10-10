@@ -162,3 +162,4 @@ stonkbroker,stonkbroker,StonkBroker,stonkbroker,stonkbrokers.cash,,"{""robinhood
 nest-alpha-vault,nalpha,Nest Alpha Vault,nest-alpha-vault,app.nest.credit,,"{""ethereum"": ""0x593ccca4c4bf58b7526a4c164ceef4003c6388db"", ""plume-network"": ""0x593ccca4c4bf58b7526a4c164ceef4003c6388db""}"
 usd-coinvertible,usdcv,USD CoinVertible,usd-coinvertible,sgforge.com,,"{""ethereum"": ""0x5422374b27757da72d5265cc745ea906e0446634"", ""solana"": ""8smindLdDuySY6i2bStQX9o8DVhALCXCMbNxD98unx35""}"
 hyperlink-hlhype,hlhype,HyperLink hlHYPE,hyperlink-hlhype,hyperlink.xyz,,"{""hyperevm"": ""0xbee62d1b61af920098873bd0336b46a5efdc0e83""}"
+esui-dollar,suiusde,eSui Dollar,esui-dollar,blog.sui.io,,"{""sui"": ""0x41d587e5336f1c86cad50d38a7136db99333bb9bda91cea4ba69115defeb1402::sui_usde::SUI_USDE""}"
