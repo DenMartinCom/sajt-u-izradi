@@ -202,3 +202,9 @@ TONIC,,Tectonic,Tectonic-TONIC,tectonic.finance,tonic.png,"[""lending"",""intere
 _CXT,,Covalent X Token,CovalentXToken-_CXT,covalenthq.com,_cxt.png,"[""analytics"",""ai"",""governance""]","{""ethereum"":""0x7abc8a5768e6be61a6c693a6e4eacb5b60602c4d"",""base"":""0xb1e1f3cc2b6fe4420c1ac82022b457018eb628ff""}",32526
 CYBERLEEK,,CyberLeek,CyberLeek-CYBERLEEK,,cyberleek.png,"[""meme""]","{""bnb"":""0x0510101Ec6c49D24ED911F0011E22A0D697Ee776""}",37610
 _BSAI,,BitcoinSilverAi,BitcoinSilverAi-_BSAI,bitcoinsilver.ai,_bsai.png,"[""ai""]","{""bnb"":""0xfe020130EA312be3efE53ED11E9D4D254B165f49""}",35967
+XTER,,Xterio,Xterio-XTER,xter.io,xter.png,"[""ai"",""gaming"",""restaking"",""governance"",""launchpad""]","{""bnb"":""0x103071Da56e7cD95b415320760D6a0dDC4DA1ca5""}",27582
+IMU,,Immunefi,Immunefi-IMU,immunefi.foundation,imu.png,"[""security""]","{""ethereum"":""0xb48c6b24f36307c7a1f2a9281e978a9ef2902ba5""}",39429
+TSLAB,,Tesla Tokenized bStocks,TeslaTokenizedbStocks-TSLAB,bstocks.finance,tslab.png,"[""asset_backed_tokens""]","{""solana"":""XsssYEQjzxBCFgvYFFNuhJFBeHNdLWYeUSP8F45cDr9"",""arbitrum"":""0xbd730e618bcd88c82ddee52e10275cf2f88a4777"",""bnb"":""0xbd730e618bcd88c82ddee52e10275cf2f88a4777"",""ethereum"":""0xbd730e618bcd88c82ddee52e10275cf2f88a4777"",""gram"":""EQB7ik3-_oRQ0FEIJYYu8NG-ANIaMd-KNLXSvfbmSMCB1mpq"",""ink-token"":""0xbd730e618bcd88c82ddee52e10275cf2f88a4777""}",37047
+WAXE,,WAXE,WAXE-WAXE,wax.io,waxe.png,"[""gaming""]","{""ethereum"":""0xEE69f45715bfa6A4cffe2bB7e0D71093B9D58705"",""bnb"":""0x50436eC45316A98E72b03Ead5752E8543f11ec09""}",42348
+_P,,PoP Planet,PoPPlanet-_P,,_p.png,[],"{""polygon-ecosystem-token"":""0x0566C506477cD2d8dF4e0123512dBc344bD9D111"",""solana"":""8Up6R3g6qdpsApu8DUCtajSAWANxSty2eQmSjCSGSHH6"",""bnb"":""0xe8Db8733c5baDF634F86D6EF894fFdBF0e85B7c2""}",32035
+____67,,The Official 67 Coin,TheOfficial67Coin-____67,67coin.com,____67.png,"[""meme""]","{""solana"":""9AvytnUKsLxPxFHFqS6VLxaxt5p6BhYNr53SD2Chpump""}",38918
