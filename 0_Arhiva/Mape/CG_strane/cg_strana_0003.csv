@@ -179,3 +179,4 @@ argus-2,argus,Argus,argus,argus.world,,"{""arc"": ""0xece5ca8bf9220718e572775402
 puffer-finance,puffer,Puffer,puffer,puffer.fi,,"{""ethereum"": ""0x4d1c297d39c5c1277964d0e3f8aa901493664530"", ""binance-smart-chain"": ""0x87d00066cf131ff54b72b134a217d5401e5392b6""}"
 midas-re7-ethereum,mre7eth,Midas Re7 Ethereum,midas-re7-ethereum,midas.app,,"{""optimistic-ethereum"": ""0xe7ba07519dfa06e60059563f484d6090dedf21b3""}"
 jean-phil,jeanphil,Jean Phil,jean-phil,jeanphilmadame.com,,"{""solana"": ""GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump""}"
+elsa,elsa,Elsa,elsa,heyelsa.ai,,"{""base"": ""0x29cc30f9d113b356ce408667aa6433589cecbdca"", ""mantle"": ""0x29cc30f9d113b356ce408667aa6433589cecbdca""}"
