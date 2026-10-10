@@ -103,3 +103,12 @@ COMP,,Compound,Compound-COMP,compound.finance,comp.png,"[""lending"",""governanc
 JASMY,,JasmyCoin,JasmyCoin-JASMY,jasmy.co.jp,jasmy.png,"[""iot""]","{""ethereum"":""0x7420B4b9a0110cdC71fB720908340C03F9Bc03EC""}",8425
 PONS,,Pons,Pons-PONS,ponsfamily.com,pons.png,"[""launchpad""]","{""robinhood-placeholder"":""0x39dbed3a2bd333467115de45665cc57f813c4571""}",40938
 IOTA,,IOTA,IOTA-IOTA,iota.org,iota.png,"[""smart_contract_platforms"",""iot"",""identity"",""energy""]","{""iota"":""0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee""}",1720
+ZBCN,,Zebec Network,ZebecNetwork-ZBCN,zebec.io,zbcn.png,"[""asset_backed_tokens"",""governance"",""debit_cards"",""ecommerce""]","{""solana"":""ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU""}",30636
+RUNE,,THORChain,THORChain-RUNE,thorchain.org,rune.png,"[""smart_contract_platforms"",""dex"",""synthetics"",""lending""]","{""thorchain"":""THOR.RUNE""}",4157
+THETA,,Theta Network,ThetaNetwork-THETA,thetatoken.org,theta.png,"[""smart_contract_platforms"",""social_media"",""nfts"",""streaming""]",{},2416
+EIGEN,,Eigen,Eigen-EIGEN,eigenlayer.xyz,eigen.png,"[""restaking"",""oracle"",""ai"",""governance""]","{""ethereum"":""0xec53bF9167f50cDEB3Ae105f56099aaaB9061F83""}",30494
+AKT,,Akash Network,AkashNetwork-AKT,akash.network,akt.png,"[""storage"",""cloud_hosting""]","{""osmosis"":""ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4""}",7431
+AXS,,Axie Infinity,AxieInfinity-AXS,axieinfinity.com,axs.png,"[""gaming"",""nfts""]","{""ethereum"":""0xbb0e17ef65f82ab018d8edd776e8dd940327b28b"",""bnb"":""0x715d400f88c167884bbcc41c5fea407ed4d2f8a0"",""solana"":""HysWcbHiYY9888pHbaqhwLYZQeZrcQMXKQWRqS7zcPK5"",""harmony"":""0x14a7b318fed66ffdcc80c1517c172c13852865de"",""ronin"":""0x97a9107c1793bc407d6f527b77e7fff4d812bece""}",6783
+WIF,,dogwifhat,dogwifhat-WIF,dogwifcoin.org,wif.png,"[""meme""]","{""solana"":""EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm""}",28752
+CVX,,Convex Finance,ConvexFinance-CVX,convexfinance.com,cvx.png,"[""yield_aggregators""]","{""ethereum"":""0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"",""solana"":""BLvmrccP4g1B6SpiVvmQrLUDya1nZ4B2D1nm9jzKF7sz""}",9903
+TRAC,,OriginTrail,OriginTrail-TRAC,origintrail.io,trac.png,"[""logistics""]","{""ethereum"":""0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f"",""gnosis-gno"":""0xeddd81e0792e764501aae206eb432399a0268db5"",""base"":""0xA81a52B4dda010896cDd386C7fBdc5CDc835ba23""}",2467
