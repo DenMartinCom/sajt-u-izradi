@@ -94,3 +94,8 @@ GHST,,Aavegotchi,Aavegotchi-GHST,aavegotchi.com,ghst.png,"[""governance"",""smar
 ____LAVA,,Lava Network,LavaNetwork-____LAVA,lavanet.xyz,____lava.png,[],"{""bnb"":""0xFfeB8287dE7DC756067e171e9919c730f0636680"",""arbitrum"":""0x11e969e9B3f89cB16D686a03Cd8508C9fC0361AF"",""osmosis"":""ibc/1AEF145C549D4F9847C79E49710B198C294C7F4A107F4610DEE8E725FFC4B378"",""base"":""0x11e969e9B3f89cB16D686a03Cd8508C9fC0361AF""}",32722
 _NEON,,Neon EVM Token,NeonEVMToken-_NEON,neonevm.org,_neon.png,"[""smart_contract_platforms"",""governance""]","{""solana"":""NeonTjSjsuo3rexg9o6vHuMXw62f9V7zvmu8M8Zut44"",""neon"":""0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee""}",23015
 DJED,,Djed,Djed-DJED,djed.xyz,djed.png,"[""stablecoins"",""asset_backed_tokens""]","{""cardano"":""8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd61446a65644d6963726f555344""}",21639
+VTC,,Vertcoin,Vertcoin-VTC,vertcoin.org,vtc.png,[],{},99
+_CULT,,Cult DAO,CultDAO-_CULT,cultdao.io,_cult.png,"[""governance""]","{""ethereum"":""0xf0f9d895aca5c8678f706fb8216fa22957685a13""}",17742
+WNCG,,Wrapped NCG,WrappedNCG-WNCG,nine-chronicles.com,wncg.png,"[""gaming"",""wrapped_tokens""]","{""ethereum"":""0xf203Ca1769ca8e9e8FE1DA9D147DB68B6c919817"",""bnb"":""0x52242cbAb41e290E9E17CCC50Cc437bB60020a9d""}",11222
+AVICI,,Avici,Avici-AVICI,,avici.png,[],"{""solana"":""BANKJmvhT8tiJRsBSS1n2HryMBPvT5Ze4HU95DUAmeta""}",38881
+KDA,,Kadena,Kadena-KDA,kda-chain.org,kda.png,"[""smart_contract_platforms""]","{""kadena"":""coin""}",5647
