@@ -1,3 +1,11 @@
 id,symbol,name,slug,web,logo,tags,contract,cmc_id
 LADYS,,Milady,Milady-LADYS,milady.gg,ladys.png,"[""meme"",""art"",""nfts""]","{""ethereum"":""0x12970e6868f88f6557b76120662c1b3e50a646bf"",""arbitrum"":""0x3b60ff35d3f7f62d636b067dd0dc0dfdad670e4e""}",25023
 _RNBW,,Rainbow,Rainbow-_RNBW,rainbow.me,_rnbw.png,"[""wallets""]","{""base"":""0xa53887f7e7c1bf5010b8627f1c1ba94fe7a5d6e0""}",39539
+_ASTEROID,,Asteroid Shiba,AsteroidShiba-_ASTEROID,,_asteroid.png,[],"{""ethereum"":""0xf280b16ef293d8e534e370794ef26bf312694126""}",39880
+_REACT,,Reactive Network,ReactiveNetwork-_REACT,reactive.network,_react.png,"[""smart_contract_platforms"",""security""]","{""ethereum"":""0x817162975186d4d53dbf5a7377dd45376e2d2fc5"",""base"":""0xeDAcC73AE9f73235934f72a43388404E4a2C4A24""}",35934
+_____ASTRA,,AstraAI,AstraAI-_____ASTRA,chatastra.ai,_____astra.png,"[""ai""]","{""ethereum"":""0x0aA8A7D1fB4c64B3b1DcEa9A7ADe81C59C25b95b""}",29593
+BNB,,BNB,BNB-BNB,binance.com,bnb.png,"[""cex"",""smart_contract_platforms""]","{""robinhood-placeholder"":""0xD5f3879160bc7c32ebb4dC785F8a4F505888de68""}",40686
+MONA,,MonaCoin,MonaCoin-MONA,monacoin.org,mona.png,[],{},213
+____SCR,,Scroll,Scroll-____SCR,scroll.io,____scr.png,"[""smart_contract_platforms"",""governance""]","{""scroll"":""0xd29687c813d741e2f938f4ac377128810e217b1b""}",26998
+_BLZ,,Bluzelle,Bluzelle-_BLZ,bluzelle.com,_blz.png,"[""storage"",""oracle"",""gaming"",""nfts""]","{""ethereum"":""0x5732046a883704404f284ce41ffadd5b007fd668"",""bnb"":""0x935a544bf5816e3a7c13db2efe3009ffda0acda2""}",2505
+NAP,,Napoli Fan Token,NapoliFanToken-NAP,socios.com,nap.png,"[""sports"",""social_tokens""]","{""robinhood-placeholder"":""0x57c0e45cb534413d1c20a4240955d6bb250bb4f1""}",41976
