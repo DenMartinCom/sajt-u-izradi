@@ -341,3 +341,4 @@ melon,mln,Enzyme,enzyme,enzyme.finance,,"{""ethereum"": ""0xec67005c4e498ec7f55e
 perpetual-bitcoin,pb,Perpetual Bitcoin,perpetual-bitcoin,perpetualbitcoin.io,,"{""pulsechain"": ""0xb47fa3fda09e61a68a8089e1f4d0f44bd993e6b9""}"
 pixels,pixel,Pixels,pixels,pixels.xyz,,"{""ethereum"": ""0x3429d03c6f7521aec737a0bbf2e5ddcef2c3ae31"", ""ronin"": ""0x7eae20d11ef8c779433eb24503def900b9d28ad7""}"
 monbasecoin,mbc,MonbaseCoin,monbasecoin,monbase.com,,"{""binance-smart-chain"": ""0x551faab1027cc50efaea5bed092e330475c3cd99""}"
+amd-xstock,amdx,AMD xStock,amd-xstock,xstocks.fi,,"{""ethereum"": ""0x3522513e5f146a2006e2901b05f16b2821485e19"", ""solana"": ""XsXcJ6GZ9kVnjqGsjBnktRcuwMBmvKWh8S93RefZ1rF""}"
