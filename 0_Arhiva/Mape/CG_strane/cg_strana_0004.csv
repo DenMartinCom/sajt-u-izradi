@@ -271,3 +271,4 @@ solcasino-token,scs,Solcasino Token,solcasino-token,solcasino.io,,"{""solana"": 
 open-loot,ol,OPENLOOT,open-loot,openloot.com,,"{""ethereum"": ""0x1f57da732a77636d913c9a75d685b26cc85dcc3a"", ""binance-smart-chain"": ""0x3f160760535eb715d5809a26cf55408a2d9844c1""}"
 usp-yield-optimized-stablecoin,usp,USP Yield Optimized Stablecoin,usp-yield-optimized-stablecoin,piku.co,,"{""ethereum"": ""0x098697ba3fee4ea76294c5d6a466a4e3b3e95fe6""}"
 cumulus-encrypted-storage-system,cess,CESS Network,cumulus-encrypted-storage-system,cess.network,,"{""binance-smart-chain"": ""0x0c78d4605c2972e5f989de9019de1fb00c5d3462""}"
+cf-large-cap-index,lcap,CF Large Cap Index,cf-large-cap-index,app.reserve.org,,"{""base"": ""0x4da9a0f397db1397902070f93a4d6ddbc0e0e6e8"", ""ink"": ""0xe8245188db1efc91aef32e7aa4cf346b9a5830cf""}"
