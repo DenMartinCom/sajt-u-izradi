@@ -199,3 +199,10 @@ ANTHROPICX1L,,ANTHROPIC 1x Long,ANTHROPIC1xLong-ANTHROPICX1L,,anthropicx1l.png,[
 ZNX,,ZENEX Coin,ZENEXCoin-ZNX,zenex-coin.com,znx.png,"[""point_of_sale"",""gambling"",""gaming"",""nfts"",""metaverse""]","{""ethereum"":""0x9471d30d78a3c9f076ce206d14867a8d8be1efde"",""bnb"":""0xC2EB046621B59f604C7abdB1600D01636AdC4fED"",""solana"":""ZenexEqqyiYCjykxYZr2cW6g3xVwQ5RggHmo245q5J5""}",24230
 ____ROCK,,RockDao,RockDao-____ROCK,gala.com,____rock.png,"[""gaming"",""music""]","{""tron"":""TZ3c6bmoqVeq9YEEBMSNrBLq2rHJ1vR8Nc""}",24437
 _______TCC,,TCryptochicks,TCryptochicks-_______TCC,,_______tcc.png,[],"{""bnb"":""0xa4390B901a63641c92327E5793b45FCB46954444""}",40801
+WCHI,,Multichain: WCHI Token,MultichainWCHIToken-WCHI,multichain.org,wchi.png,"[""wrapped_tokens""]","{""bnb"":""0x4F36319C1e35c5b8e20c1D20879980d17d908507""}",37308
+JACKSON,,JACKSON,JACKSON-JACKSON,,jackson.png,[],"{""sui"":""0x5ffe80c90a653e3ca056fd3926987bf3e8068ca21528bb4fdbc4d487cc152dad::jackson::JACKSON""}",39392
+TRENCHER,,trencher,trencher-TRENCHER,trenchersol.com,trencher.png,"[""meme""]","{""solana"":""8ncucXv6U6epZKHPbgaEBcEK399TpHGKCquSt4RnmX4f""}",36357
+MAXXING,,maxxing,maxxing-MAXXING,,maxxing.png,[],"{""solana"":""32CdQdBUxbCsLy5AUHWmyidfwhgGUr9N573NBUrDpump""}",39835
+HORD,,Hord,Hord-HORD,hord.fi,hord.png,"[""governance"",""liquid_staking""]","{""bnb"":""0x9212cF1f9f4A9c69Bb010146Ba5b0725169D4444""}",39051
+WRX,,WazirX,WazirX-WRX,maintenance.wazirx.com,wrx.png,"[""cex""]","{""ethereum"":""0xd1e0e39bd1758abe0865d5289895a9197c6cd549"",""bnb"":""0xd1e0e39bd1758abe0865d5289895a9197c6cd549"",""tron"":""TK4zHRAU1WrRPivksia3BMs2JvSLT63opb""}",31625
+BCOQ,,BLACK COQINU,BLACKCOQINU-BCOQ,bcoqinu.com,bcoq.png,"[""meme""]","{""solana"":""coqRkaaKeUygDPhuS3mrmrj6DiHjeQJc2rFbT2YfxWn""}",29972
