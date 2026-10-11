@@ -90,3 +90,7 @@ XIN,,Mixin,Mixin-XIN,mixin.one,xin.png,"[""smart_contract_platforms""]","{""ethe
 MIH,,MINE COIN,MINECOIN-MIH,,mih.png,[],"{""bnb"":""0x27fC525dc7393A3219bBE8c93b6226e448f52FdF""}",36559
 ASSDAQ,,ASSDAQ,ASSDAQ-ASSDAQ,,assdaq.png,[],"{""solana"":""7Tx8qTXSakpfaSFjdztPGQ9n2uyT1eUkYz7gYxxopump""}",37523
 ___HASH,,Provenance Blockchain,ProvenanceBlockchain-___HASH,provenance.io,___hash.png,"[""smart_contract_platforms""]","{""osmosis"":""ibc/CE5BFF1D9BADA03BB5CCA5F56939392A761B53A10FBD03B37506669C3218D3B2""}",19960
+_FBX,,FireBot,FireBot-_FBX,firebot.gg,_fbx.png,"[""nfts"",""ai""]","{""polygon-ecosystem-token"":""0xd125443f38a69d776177c2b9c041f462936f8218""}",16219
+LADYBUG,,LADYBUG,LADYBUG-LADYBUG,,ladybug.png,[],"{""solana"":""7TgfC7finEVA1QcCbn1Jb2cz4RiDL4if4ATEGHZupump""}",42277
+____ORI,,Orizon,Orizon-____ORI,,____ori.png,[],"{""bnb"":""0xDA033999bB6165e64DB01Bd9be14B40f5653092E""}",37649
+WRT,,WingRiders Governance Token,WingRidersGovernanceToken-WRT,wingriders.com,wrt.png,"[""governance"",""dex"",""yield_farming"",""yield_aggregators"",""nfts""]","{""cardano"":""c0ee29a85b13209423b10447d3c2e6a50641a15c57770e27cb9d507357696e67526964657273""}",20894
