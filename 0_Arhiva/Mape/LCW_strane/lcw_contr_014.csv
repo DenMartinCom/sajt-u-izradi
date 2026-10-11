@@ -70,3 +70,7 @@ CMDX,,Comdex,Comdex-CMDX,comdex.one,cmdx.png,"[""synthetics"",""lending"",""gove
 ___SPIN,,Spintop,Spintop-___SPIN,spintop.network,___spin.png,"[""gaming"",""nfts"",""yield_farming""]","{""bnb"":""0x6AA217312960A21aDbde1478DC8cBCf828110A67""}",14843
 _CENX,,Centcex,Centcex-_CENX,centcex.com,_cenx.png,"[""cex""]","{""bnb"":""0x739e81bcd49854d7bdf526302989f14a2e7994b2""}",14849
 _TAG,,Tag Protocol,TagProtocol-_TAG,tagcoin.io,_tag.png,"[""nfts"",""governance"",""dex"",""oracle"",""social_media"",""yield_farming""]","{""bnb"":""0x717fb7B6d0c3d7f1421Cc60260412558283A6ae5""}",14896
+GENOME,,GenomesDAO,GenomesDAO-GENOME,genomes.io,genome.png,"[""healthcare"",""identity"",""nfts""]","{""base"":""0x1db0c569ebb4a8b57ac01833b9792f526305e062""}",15169
+PEX,,Pexcoin,Pexcoin-PEX,pexcoin.io,pex.png,"[""nfts"",""social_tokens""]","{""bnb"":""0x2963dcc52549573bbfbe355674724528532c0867""}",15193
+FITFI,,Step App,StepApp-FITFI,web.step.app,fitfi.png,"[""fitness"",""metaverse"",""nfts"",""social_media"",""smart_contract_platforms"",""dex""]","{""bnb"":""0xe061618F0d3Df5Cb05fBF91455018f2D64074C85""}",15284
+TEM,,Templar DAO,TemplarDAO-TEM,templar.finance,tem.png,"[""asset_backed_tokens"",""governance"",""lending""]","{""bnb"":""0x19e6BfC1A6e4B042Fb20531244D47E252445df01"",""harmony"":""0xd754ae7bb55feb0c4ba6bc037b4a140f14ebe018"",""moonriver"":""0xd86e3f7b2ff4e803f90c799d702955003bca9875""}",15288
