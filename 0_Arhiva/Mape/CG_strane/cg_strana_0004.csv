@@ -238,3 +238,4 @@ palm-ai,palm,PaLM AI,palm-ai,palmai.tech,,"{""ethereum"": ""0xf1df7305e4bab3885c
 goldzip-gold,xgz,GoldZip Gold,goldzip-gold,goldzip.info,,"{""ethereum"": ""0x69af64f409c08e9076bf7f3ed9db3a7409717161""}"
 luna-by-virtuals,luna,Luna by Virtuals,luna-by-virtuals,app.virtuals.io,,"{""base"": ""0x55cd6469f597452b5a7536e2cd98fde4c1247ee4"", ""solana"": ""9se6kma7LeGcQWyRBNcYzyxZPE3r9t9qWZ8SnjnN3jJ7""}"
 quantoz-eurq,eurq,Quantoz EURQ,quantoz-eurq,quantozpay.com,,"{""ethereum"": ""0x8df723295214ea6f21026eeeb4382d475f146f9f"", ""polygon-pos"": ""0xd571edb2ef29df10fcd6200fd6d0ed2389983db3"", ""xrp"": ""EURQ.rDk1xiArDMjDqnrR2yWypwQAKg4mKnQYvs"", ""algorand"": ""2768422954""}"
+bitcoin-usd-btcfi,btcusd,Bitcoin USD (BTCFi),bitcoin-usd-btcfi,btcfi.one,,"{""bifrost-network"": ""0x6906ccda405926fc3f04240187dd4fad5df6d555"", ""base"": ""0xe4b20925d9e9a62f1e492e15a81dc0de62804dd4""}"
