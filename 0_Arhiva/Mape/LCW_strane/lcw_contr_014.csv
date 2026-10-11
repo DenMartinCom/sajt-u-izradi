@@ -74,3 +74,7 @@ GENOME,,GenomesDAO,GenomesDAO-GENOME,genomes.io,genome.png,"[""healthcare"",""id
 PEX,,Pexcoin,Pexcoin-PEX,pexcoin.io,pex.png,"[""nfts"",""social_tokens""]","{""bnb"":""0x2963dcc52549573bbfbe355674724528532c0867""}",15193
 FITFI,,Step App,StepApp-FITFI,web.step.app,fitfi.png,"[""fitness"",""metaverse"",""nfts"",""social_media"",""smart_contract_platforms"",""dex""]","{""bnb"":""0xe061618F0d3Df5Cb05fBF91455018f2D64074C85""}",15284
 TEM,,Templar DAO,TemplarDAO-TEM,templar.finance,tem.png,"[""asset_backed_tokens"",""governance"",""lending""]","{""bnb"":""0x19e6BfC1A6e4B042Fb20531244D47E252445df01"",""harmony"":""0xd754ae7bb55feb0c4ba6bc037b4a140f14ebe018"",""moonriver"":""0xd86e3f7b2ff4e803f90c799d702955003bca9875""}",15288
+DFH,,DeFiHorse,DeFiHorse-DFH,defihorse.com,dfh.png,"[""metaverse"",""sports"",""gaming"",""nfts""]","{""bnb"":""0x5fdAb5BDbad5277B383B3482D085f4bFef68828C""}",15501
+KNG,,Kanga Exchange,KangaExchange-KNG,kanga.exchange,kng.png,"[""debit_cards"",""cex""]","{""ethereum"":""0x471d113059324321749e097705197a2b44a070fc"",""polygon-ecosystem-token"":""0x17d342b29f054030a455b4191f977c3b0aa62fd9""}",15518
+UMY,,KaraStar UMY,KaraStarUMY-UMY,karastar.com,umy.png,"[""nfts"",""gaming"",""metaverse""]","{""bnb"":""0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00""}",15574
+METAMUSK,,Musk Metaverse,MuskMetaverse-METAMUSK,ww25.muskmetaverse.io,metamusk.png,"[""metaverse"",""nfts"",""gaming""]","{""bnb"":""0x734c5F3f8F6ad9697b26eCC6388678aaFd3dB3B2""}",15683
