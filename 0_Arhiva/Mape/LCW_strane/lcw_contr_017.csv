@@ -145,3 +145,10 @@ _CBDOGE,,Coinbase Wrapped DOGE,CoinbaseWrappedDOGE-_CBDOGE,coinbase.com,_cbdoge.
 S,,Sonic,Sonic-S,soniclabs.com,s.png,"[""smart_contract_platforms"",""governance""]","{""sonic"":""0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38""}",34753
 __SSOL,,Solayer SOL,SolayerSOL-__SSOL,,__ssol.png,[],"{""solana"":""sSo14endRuUbvQaJS3dq36Q829a3A6BEfoeeRGJywEh""}",32591
 CBZEC,,Coinbase Wrapped ZEC,CoinbaseWrappedZEC-CBZEC,coinbase.com,cbzec.png,"[""wrapped_tokens"",""asset_backed_tokens""]","{""base"":""0xB2000000000000000000008501b13360000cb2EC""}",41932
+FXS,,Frax Share,FraxShare-FXS,frax.com,fxs.png,"[""governance""]","{""ethereum"":""0x04ACaF8D2865c0714F79da09645C13FD2888977f"",""bnb"":""0x64445f0aecC51E94aD52d8AC56b7190e764E561a"",""solana"":""zZbQjiRg8uSxZaPu996XuviuZeSY6nsaMuutKZQBJga"",""arbitrum"":""0x64445f0aecC51E94aD52d8AC56b7190e764E561a"",""linea"":""0x5217Ab28ECE654Aab2C68efedb6A22739df6C3D5"",""base"":""0x0CEAC003B0d2479BebeC9f4b2EBAd0a803759bbf"",""sonic"":""0x64445f0aecC51E94aD52d8AC56b7190e764E561a"",""frax-share"":""0xFc00000000000000000000000000000000000002"",""uniswap"":""0x64445f0aecC51E94aD52d8AC56b7190e764E561a""}",37362
+WQUIL,,Wrapped QUIL,WrappedQUIL-WQUIL,quilibrium.com,wquil.png,"[""wrapped_tokens""]","{""ethereum"":""0x8143182a775c54578c8b7b3ef77982498866945d""}",34076
+SEI,,Sei Network,SeiNetwork-SEI,sei.io,sei.png,"[""smart_contract_platforms""]","{""sei"":""0xe30fedd158a2e3b13e9badaeabafc5516e95e8c7""}",31773
+CMC20,,CoinMarketCap 20 Index DTF,CoinMarketCap20IndexDTF-CMC20,,cmc20.png,[],"{""bnb"":""0x2f8A339B5889FfaC4c5A956787cdA593b3c36867"",""base"":""0xa0A8481fc246Cd12f75227aBB96220fF5360fad3""}",38442
+CBLTC,,Coinbase Wrapped LTC,CoinbaseWrappedLTC-CBLTC,coinbase.com,cbltc.png,"[""wrapped_tokens"",""asset_backed_tokens""]","{""base"":""0xcb17C9Db87B595717C857a08468793f5bAb6445F""}",36865
+OKB,,OKB,OKB-OKB,okx.com,okb.png,"[""cex"",""smart_contract_platforms""]","{""okb"":""0xe538905cf8410324e03a5a23c1c177a474d59b2b""}",30907
+CBBTC,,Coinbase Wrapped BTC,CoinbaseWrappedBTC-CBBTC,coinbase.com,cbbtc.png,"[""asset_backed_tokens"",""wrapped_tokens""]","{""okb"":""0xb7c00000bcdeef966b20b3d884b98e64d2b06b4f""}",39577
