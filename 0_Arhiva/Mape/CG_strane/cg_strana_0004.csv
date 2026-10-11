@@ -184,3 +184,4 @@ tsmc-bstocks-tokenized-stock,tsmb,TSMC (bStocks Tokenized Stock),tsmc-bstocks-to
 kryll,krl,KRYLL,kryll,kryll.io,,"{""ethereum"": ""0x464ebe77c293e473b48cfe96ddcf88fcf7bfdac0"", ""base"": ""0xdae49c25fad3a62a8e8bfb6da12c46be611f9f7a"", ""arbitrum-one"": ""0xf75ee6d319741057a82a88eeff1dbafab7307b69"", ""optimistic-ethereum"": ""0x2ed6222cb75e353b8789bec7bb443b7ec9022021""}"
 xpla,conx,CONX,conx,xpla.io,,"{""osmosis"": ""ibc/95C9B5870F95E21A242E6AF9ADCB1F212EE4A8855087226C36FBE43FC41A77B8""}"
 radio-caca,raca,Radio Caca,radio-caca,raca3.com,,"{""binance-smart-chain"": ""0x12bb890508c125661e03b09ec06e404bc9289040"", ""ethereum"": ""0x12bb890508c125661e03b09ec06e404bc9289040"", ""okex-chain"": ""0x12bb890508c125661e03b09ec06e404bc9289040""}"
+leverup,lv,LeverUp,leverup,leverup.xyz,,"{""monad"": ""0x1001ff13bf368aa4fa85f21043648079f00e1001""}"
