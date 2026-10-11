@@ -192,3 +192,8 @@ MTLX,,Mettalex,Mettalex-MTLX,mettalex.com,mtlx.png,"[""dex"",""yield_farming"","
 FIRE,,FIRE PROTOCOL,FIREPROTOCOL-FIRE,,fire.png,[],"{""ethereum"":""0xF921ae2DAC5fa128DC0F6168Bf153ea0943d2D43""}",8129
 ALUSD,,Alchemix USD,AlchemixUSD-ALUSD,alchemix.fi,alusd.png,"[""synthetics"",""asset_backed_tokens"",""stablecoins"",""lending""]","{""ethereum"":""0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9""}",8614
 ALPACA,,Alpaca Finance,AlpacaFinance-ALPACA,alpacafinance.org,alpaca.png,"[""yield_farming"",""lending""]","{""bnb"":""0x8f0528ce5ef7b51152a59745befdd91d97091d2f"",""fantom"":""0xad996a45fd2373ed0b10efa4a8ecb9de445a4302""}",8707
+TRIBE,,Tribe,Tribe-TRIBE,fei.money,tribe.png,"[""governance""]","{""ethereum"":""0xc7283b66Eb1EB5FB86327f08e1B5816b0720212B"",""solana"":""DPgNKZJAG2w1S6vfYHDBT62R4qrWWH5f45CnxtbQduZE""}",9025
+SYA,,Save Your Assets,SaveYourAssets-SYA,sya.today,sya.png,[],"{""bnb"":""0x83a86adf1a7c56e77d36d585b808052e0a2aad0e""}",9635
+_FISH,,Polycat Finance,PolycatFinance-_FISH,polycat.finance,_fish.png,"[""dex"",""yield_farming"",""yield_aggregators""]","{""polygon-ecosystem-token"":""0x3a3Df212b7AA91Aa0402B9035b098891d276572B""}",10134
+RABBIT,,Rabbit Finance,RabbitFinance-RABBIT,rabbitfinance.io,rabbit.png,[],"{""bnb"":""0x95a1199EBA84ac5f19546519e287d43D2F0E1b41""}",10178
+_DRIP,,Drip Network,DripNetwork-_DRIP,drip.community,_drip.png,"[""interest_earning""]","{""bnb"":""0x20f663cea80face82acdfa3aae6862d246ce0333""}",11093
