@@ -209,3 +209,4 @@ symmio,symm,SYMMIO,symmio,symm.io,,"{""base"": ""0x800822d361335b4d5f352dac293ca
 clash-of-lilliput,col,Clash of Lilliput,clash-of-lilliput,lilliput.games,,"{""binance-smart-chain"": ""0x9ce116224459296abc7858627abd5879514bc629""}"
 earthmeta-2,emt,EarthMeta,earthmeta,earthmeta.ai,,"{""ethereum"": ""0xeb7a9ad524ca0bcad732e971339990d112c2002c""}"
 iron-fish,iron,Iron Fish,iron-fish,ironfish.network,,"{"""": """"}"
+layer3,l3,Layer3,layer3,layer3.xyz,,"{""ethereum"": ""0x88909d489678dd17aa6d9609f89b0419bf78fd9a"", ""binance-smart-chain"": ""0x46777c76dbbe40fabb2aab99e33ce20058e76c59"", ""arbitrum-one"": ""0x46777c76dbbe40fabb2aab99e33ce20058e76c59"", ""optimistic-ethereum"": ""0x46777c76dbbe40fabb2aab99e33ce20058e76c59"", ""solana"": ""5k84VjAKoGPXa7ias1BNgKUrX7e61eMPWhZDqsiD4Bpe"", ""base"": ""0x46777c76dbbe40fabb2aab99e33ce20058e76c59"", ""polygon-pos"": ""0x46777c76dbbe40fabb2aab99e33ce20058e76c59""}"
