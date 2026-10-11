@@ -205,3 +205,10 @@ ELEPHANT,,Elephant Money,ElephantMoney-ELEPHANT,elephant.money,elephant.png,"[""
 _VAI,,Vai,Vai-_VAI,venus.io,_vai.png,"[""stablecoins""]","{""bnb"":""0xbb0fa2fbe9b37444f5d1dbd22e0e5bdd2afbbe85""}",10029
 XMS,,Mars Ecosystem Token,MarsEcosystemToken-XMS,marsecosystem.com,xms.png,"[""dex"",""yield_farming"",""nfts"",""governance""]","{""bnb"":""0x7859b01bbf675d67da8cd128a50d155cd881b576""}",10030
 AUC,,Auctus,Auctus-AUC,auctus.org,auc.png,[],"{""bnb"":""0xd15c444f1199ae72795eba15e8c1db44e47abf62""}",10031
+ELK,,Elk Finance,ElkFinance-ELK,elk.finance,elk.png,"[""dex"",""yield_farming"",""nfts"",""governance""]","{""ethereum"":""0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE"",""bnb"":""0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE"",""gnosis-gno"":""0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE"",""fantom"":""0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE"",""polygon-ecosystem-token"":""0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE"",""avalanche"":""0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE"",""optimism-ethereum"":""0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE"",""arbitrum"":""0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE"",""base"":""0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE""}",10095
+_BSL,,Banksocial,Banksocial-_BSL,banksocial.io,_bsl.png,"[""wallets"",""debit_cards"",""token_bridges"",""lending"",""social_media"",""governance""]","{""hedera"":""0.0.4431990""}",10102
+PERRY,,Swaperry,Swaperry-PERRY,swaperry.com,perry.png,"[""dex"",""nfts""]","{""bnb"":""0x9452D45d33490234B8C96f42342F1Be28c0FE097""}",10160
+__SAT,,Saturna,Saturna-__SAT,saturna.co,__sat.png,[],"{""bnb"":""0x1e446cbea52badeb614fbe4ab7610f737995fb44""}",10176
+SMILEK,,Smilek,Smilek-SMILEK,smilektothebank.online,smilek.png,"[""governance"",""lending""]","{""bnb"":""0x4f9d3AdbfAF4579518b1Ca7E06468A363897B997"",""arbitrum"":""0x4f9d3AdbfAF4579518b1Ca7E06468A363897B997""}",10186
+_BBT,,BitBook,BitBook-_BBT,bitbook.net,_bbt.png,[],"{""bnb"":""0xd48474e7444727bf500a32d5abe01943f3a59a64""}",10201
+__QI,,Qi Dao,QiDao-__QI,app.mai.finance,__qi.png,"[""governance""]","{""polygon-ecosystem-token"":""0x580a84c73811e1839f75d86d75d88cca0c241ff4""}",10237
