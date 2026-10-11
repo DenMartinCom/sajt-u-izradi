@@ -123,3 +123,4 @@ eth-strategy,strat,ETH Strategy,eth-strategy,ethstrat.xyz,,"{""ethereum"": ""0x1
 vitadao,vita,VitaDAO,vitadao,vitadao.com,,"{""ethereum"": ""0x81f8f0bb1cb2a06649e51913a151f0e7ef6fa321"", ""base"": ""0x490a4b510d0ea9f835d2df29eb73b4fca5071937"", ""solana"": ""vita3LfgKErA37DWA7W8RBks3c7Rym2hPFgizNRshBi""}"
 stablr-usd,usdr,StablR USD,stablr-usd,stablr.com,,"{""ethereum"": ""0x7b43e3875440b44613dc3bc08e7763e6da63c8f8""}"
 grove-2,grove,Grove,grove,grove.finance,,"{""ethereum"": ""0xb30fe1cf884b48a22a50d22a9282004f2c5e9406""}"
+crepe-2,crepe,CREPE,crepe-2,crepe.fun,,"{""binance-smart-chain"": ""0xeb2b7d5691878627eff20492ca7c9a71228d931d""}"
