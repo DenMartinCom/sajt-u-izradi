@@ -135,3 +135,7 @@ AUR,,Auroracoin,Auroracoin-AUR,auroracoin.is,aur.png,[],{},148
 EFL,,e-Gulden,eGulden-EFL,electronic-gulden-foundation.gitlab.io,efl.png,"[""wallets""]",{},234
 CREDI,,Credefi,Credefi-CREDI,credefi.finance,credi.png,"[""lending""]",{},263
 UTHX,,Utherverse,Utherverse-UTHX,utherverse.io,uthx.png,"[""metaverse"",""gaming"",""nfts"",""ai"",""governance""]",{},278
+BITB,,Bean Cash,BeanCash-BITB,beancash.org,bitb.png,"[""wallets""]","{""bnb"":""0xbea2576f400b070c7cdf11d1cbb49de0c84e3bcf""}",405
+BNT,,Bancor,Bancor-BNT,bancor.network,bnt.png,"[""dex""]",{},460
+LUCIC,,Lucidum Coin,LucidumCoin-LUCIC,,lucic.png,[],{},470
+NEXM,,Nexum,Nexum-NEXM,nexum.ai,nexm.png,"[""logistics""]",{},572
