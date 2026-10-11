@@ -139,3 +139,5 @@ BITB,,Bean Cash,BeanCash-BITB,beancash.org,bitb.png,"[""wallets""]","{""bnb"":""
 BNT,,Bancor,Bancor-BNT,bancor.network,bnt.png,"[""dex""]",{},460
 LUCIC,,Lucidum Coin,LucidumCoin-LUCIC,,lucic.png,[],{},470
 NEXM,,Nexum,Nexum-NEXM,nexum.ai,nexm.png,"[""logistics""]",{},572
+_DEUS,,DEUS Finance,DEUSFinance-_DEUS,deus.finance,_deus.png,"[""dex"",""governance"",""options"",""synthetics""]",{},644
+BLOCK,,Blocknet,Blocknet-BLOCK,blocknet.org,block.png,[],{},707
