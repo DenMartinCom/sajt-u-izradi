@@ -125,3 +125,4 @@ stablr-usd,usdr,StablR USD,stablr-usd,stablr.com,,"{""ethereum"": ""0x7b43e38754
 grove-2,grove,Grove,grove,grove.finance,,"{""ethereum"": ""0xb30fe1cf884b48a22a50d22a9282004f2c5e9406""}"
 crepe-2,crepe,CREPE,crepe-2,crepe.fun,,"{""binance-smart-chain"": ""0xeb2b7d5691878627eff20492ca7c9a71228d931d""}"
 origin-dollar,ousd,Origin Dollar,origin-dollar,originprotocol.com,,"{""ethereum"": ""0x2a8e1e676ec238d8a992307b495b45b3feaa5e86""}"
+nvidia-coinbase-tokenized-stock,nvdac,NVIDIA (Coinbase Tokenized Stock),nvidia-coinbase-tokenized-stock,coinbase.com,,"{""base"": ""0xb20000000000000000000078ee7ce2fe4908108c""}"
