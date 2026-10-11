@@ -1,0 +1,7 @@
+id,symbol,name,slug,web,logo,tags,contract,cmc_id
+WYAC,,WOMAN YELLING AT CAT,WOMANYELLINGATCAT-WYAC,wyac.world,wyac.png,"[""meme"",""social_tokens""]","{""solana"":""BEgBsVSKJSxreiCE1XmWWq8arnwit7xDqQXSWYgay9xP""}",35282
+EBULL,,ETHEREUM IS GOOD,ETHEREUMISGOOD-EBULL,ethereumbull.com,ebull.png,"[""meme""]","{""ethereum"":""0x71297312753ea7a2570a5a3278ed70d9a75f4f44""}",32790
+BASEDAI,,basedAI,basedAI-BASEDAI,getbased.ai,basedai.png,"[""ai""]","{""ethereum"":""0x44971ABF0251958492FeE97dA3e5C5adA88B9185""}",30584
+GSWAP,,Gameswap,Gameswap-GSWAP,gameswap.org,gswap.png,"[""dex"",""yield_farming"",""gaming"",""nfts""]","{""ethereum"":""0xaac41ec512808d64625576eddd580e7ea40ef8b2""}",7588
+CHEEMS,,Cheems,Cheems-CHEEMS,cheems.co,cheems.png,"[""nfts"",""meme""]","{""solana"":""3FoUAsGDbvTD6YZ4wVKJgTB76onJUKz7GPEBNiR5b8wc""}",10269
+YAI,,Ÿ,-YAI,yoracle.ai,yai.png,"[""oracle"",""ai""]","{""ethereum"":""0x477a3d269266994F15E9C43A8D9C0561C4928088""}",30278
