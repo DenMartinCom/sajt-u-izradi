@@ -119,3 +119,10 @@ _BOOT,,Bostrom,Bostrom-_BOOT,cyb.ai,_boot.png,"[""ai"",""oracle"",""analytics"",
 GYMNET,,Gym Network,GymNetwork-GYMNET,affility.ai,gymnet.png,"[""metaverse"",""gaming"",""yield_farming"",""nfts""]","{""bnb"":""0x0012365F0a1E5F30a5046c680DCB21D07b15FcF7""}",19154
 _HERA,,Hera Finance,HeraFinance-_HERA,hera.finance,_hera.png,"[""yield_aggregators"",""governance""]","{""ethereum"":""0xA2c2C937333165d4c5f2dC5f31a43E1239FeCfeB"",""metisdao"":""0x6F05709bc91Bad933346F9E159f0D3FdBc2c9DCE""}",19225
 _LOLCAT,,Lolcat,Lolcat-_LOLCAT,,_lolcat.png,"[""meme""]","{""solana"":""Dt6vESocrRixuFz2taZunygpKcNQwxAjUMgYUxvNpump""}",19259
+CZUSD,,CZUSD,CZUSD-CZUSD,app.czodiac.com,czusd.png,"[""nfts"",""gaming"",""yield_farming"",""stablecoins""]","{""bnb"":""0xe68b79e51bf826534ff37aa9cee71a3842ee9c70""}",19366
+RADIO,,RadioShack Token,RadioShackToken-RADIO,radioshack.org,radio.png,"[""dex"",""yield_farming""]","{""bnb"":""0xfae8e64cdde73550e7d7f0469557a33a417b2868"",""cronos"":""0xC4a174cCb5fb54a6721e11e0Ca961e42715023F9""}",19393
+FPIS,,Frax Price Index Share,FraxPriceIndexShare-FPIS,app.frax.finance,fpis.png,"[""governance""]","{""ethereum"":""0xc2544a32872a91f4a553b404c6950e89de901fdb"",""bnb"":""0xD1738eB733A636d1b8665f48bC8a24dA889c2562"",""optimism-ethereum"":""0x8368Dca5CE2a4Db530c0F6e535d90B6826428Dee"",""arbitrum"":""0x3405E88af759992937b84E58F2Fe691EF0EeA320"",""frax-share"":""0xfc00000000000000000000000000000000000004""}",19424
+_WOOP,,WOOP,WOOP-_WOOP,bohemia.gallery,_woop.png,"[""nfts"",""metaverse"",""art""]","{""solana"":""A3HyGZqe451CBesNqieNPfJ4A9Mu332ui8ni6dobVSLB""}",19427
+CKC,,ChikinCoin,ChikinCoin-CKC,chikin.run,ckc.png,"[""nfts"",""yield_farming""]","{""solana"":""8s9FCz99Wcr3dHpiauFRi6bLXzshXfcGTfgQE7UEopVx""}",19470
+__TOTEM,,DragonMaster,DragonMaster-__TOTEM,dragonmaster.co,__totem.png,"[""nfts"",""gaming""]","{""polygon-ecosystem-token"":""0x1aDCef5c780d8895AC77E6Ee9239B4b3eCb76DA2""}",19518
+MEFAI,,META FINANCIAL AI,METAFINANCIALAI-MEFAI,,mefai.png,[],"{""bnb"":""0x746760ecf1d8088c1014ef3d43dc45d5af8febf3""}",19526
