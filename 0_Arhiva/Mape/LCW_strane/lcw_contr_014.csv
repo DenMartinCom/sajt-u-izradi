@@ -83,3 +83,9 @@ QANX,,QANX Token v1,QANXTokenv1-QANX,qanplatform.com,qanx.png,[],"{""bnb"":""0x9
 _ROCK,,Bedrock,Bedrock-_ROCK,bedrockswap.finance,_rock.png,[],"{""bnb"":""0xC3387E4285e9F80A7cFDf02B4ac6cdF2476A528A""}",15842
 _XSP,,XSwap Protocol,XSwapProtocol-_XSP,xspswap.finance,_xsp.png,"[""dex"",""yield_farming"",""governance"",""wallets""]","{""bnb"":""0xbcbdecf8e76a5c32dba69de16985882ace1678c6""}",16007
 _OHM,,Olympus V1,OlympusV1-_OHM,olympusdao.finance,_ohm.png,"[""governance"",""asset_backed_tokens"",""lending"",""interest_earning""]","{""ethereum"":""0x383518188c0c6d7730d91b2c03a03c837814a899""}",16209
+GOHM,,Governance OHM,GovernanceOHM-GOHM,app.olympusdao.finance,gohm.png,"[""governance"",""asset_backed_tokens""]","{""ethereum"":""0x0ab87046fBb341D058F17CBC4c1133F25a20a52f"",""solana"":""FUGsN8H74WjRBBMfQWcf9Kk32gebA9VnNaGxqwcVvUW7"",""terra-luna"":""terra1fpfn2kkr8mv390wx4dtpfk3vkjx9ch3thvykl3"",""arbitrum"":""0x8d9ba570d6cb60c7e3e0f31343efe75ab8e65fb1""}",16388
+VPND,,VaporNodes,VaporNodes-VPND,vapornodes.finance,vpnd.png,"[""yield_farming""]","{""avalanche"":""0x83a283641C6B4DF383BCDDf807193284C84c5342""}",16517
+NMBTC,,NanoMeter Bitcoin,NanoMeterBitcoin-NMBTC,nmbtc.finance,nmbtc.png,[],"{""bnb"":""0x5ddb331c3ba48a1d68cbf50dd3bc7aac407dc115""}",16526
+TAUM,,Orbitau Taureum,OrbitauTaureum-TAUM,orbitau.io,taum.png,"[""gaming"",""nfts"",""governance""]","{""bnb"":""0x02e22eb7f6e73ef313dd71248cd164b1bdc5aadd""}",16875
+VDR,,Vodra,Vodra-VDR,vodra.io,vdr.png,"[""governance"",""crowdfunding"",""social_tokens""]","{""bnb"":""0xdf677713a2c661ecd0b2bd4d7485170aa8c1eceb""}",16946
+GUARD,,Guardian,Guardian-GUARD,wolfdencrypto.com,guard.png,"[""nfts"",""education""]","{""ethereum"":""0x1F36FB2D91d9951Cf58aE4c1956C0b77e224F1E9"",""bnb"":""0x1F36FB2D91d9951Cf58aE4c1956C0b77e224F1E9""}",17017
