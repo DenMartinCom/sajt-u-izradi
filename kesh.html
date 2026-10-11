@@ -87,7 +87,7 @@
   .red-glava .logo {
     width: 22px; height: 22px; object-fit: contain;
   }
-  .red-glava .simbol { font-weight: 700; color: #f5c542; }
+  .red-glava .simbol { font-weight: 700; color: #f5c542; padding-left: 6px; }
   .red-glava .naziv { color: #b8c0cc; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .red-glava .cena { text-align: right; font-variant-numeric: tabular-nums; }
   .red-glava .proc { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
@@ -361,7 +361,7 @@
         <div class="red-glava">
           <img class="logo" src="${esc(logo)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
           <span class="simbol">${esc(r.simbol)}</span>
-          <span class="naziv">&nbsp;&nbsp;${esc(r.naziv || '')}</span>
+          <span class="naziv">${esc(r.naziv || '')}</span>
           <span class="cena">${cenaT}</span>
           <span class="proc ${klasaProc(p1)}">${fProc(p1)}</span>
           <span class="proc ${klasaProc(p24)}">${fProc(p24)}</span>
