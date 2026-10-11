@@ -80,3 +80,8 @@ _DFT,,DigiFinexToken,DigiFinexToken-_DFT,digifinex.com,_dft.png,[],"{""ethereum"
 SEDA,,SEDA,SEDA-SEDA,seda.xyz,seda.png,"[""smart_contract_platforms"",""oracle""]","{""ethereum"":""0x14862c03A0cACcC1aB328B062E64e31B2a1afcd7"",""base"":""0x306aCd0c07c430AbBBb2e74Ef7bdE94F32A898c0"",""osmosis"":""ibc/956AEF1DA92F70584266E87978C3F30A43B91EE6ABC62F03D097E79F6B99C4D8""}",23305
 LOCKIN,,LOCK IN,LOCKIN-LOCKIN,lockin.wtf,lockin.png,"[""meme""]","{""solana"":""8Ki8DpuWNxu9VsS3kQbarsCWMcFGWkzzA8pUPto9zBd5""}",36814
 AVDO,,AvocadoCoin,AvocadoCoin-AVDO,avocadocoin.com,avdo.png,"[""commodities"",""iot""]","{""solana"":""BP34pngxUAUGEYyWVQvwWhL7dx211otnegS5WeTQHLFd""}",18218
+CES,,WhaleBit,WhaleBit-CES,meta-whale.com,ces.png,"[""metaverse"",""gaming"",""nfts"",""dex"",""launchpad"",""governance""]","{""polygon-ecosystem-token"":""0x1Bdf71EDe1a4777dB1EebE7232BcdA20d6FC1610""}",36465
+XAUH,,Herculis Gold Coin,HerculisGoldCoin-XAUH,xauh.gold,xauh.png,"[""commodities"",""asset_backed_tokens""]","{""ethereum"":""0xa9b17f572341219703Bc951725Bdb3CA756B1A65"",""tron"":""TJ9x3d4v8Cot4zFLYj8rkH3ZVSaEiXtjyC"",""gram"":""EQCMk4_OujCnk46jApHnIRbmTtYTkSmfujV9X8Ye0qvsHVKh""}",39434
+OZO,,Ozone Chain,OzoneChain-OZO,ozonechain.io,ozo.png,"[""smart_contract_platforms""]",{},28076
+___MSC,,MetaSwap,MetaSwap-___MSC,metaswap.cx,___msc.png,"[""nfts"",""dex"",""launchpad""]","{""bnb"":""0xeacAd6c99965cDE0f31513dd72DE79FA24610767""}",18275
+POOL,,PoolTogether,PoolTogether-POOL,pooltogether.com,pool.png,"[""governance""]","{""bnb"":""0x97C729DE1819AF24bf7CB236AdE3Ad38A0775930""}",38960
