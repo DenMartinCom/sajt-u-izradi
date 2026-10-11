@@ -114,3 +114,8 @@ _LOOP,,Loop Network,LoopNetwork-_LOOP,theloopnetwork.org,_loop.png,"[""smart_con
 GLINK,,Gemlink,Gemlink-GLINK,gemlink.org,glink.png,"[""wallets"",""privacy_coins""]",{},18770
 LSWAP,,LoopSwap,LoopSwap-LSWAP,loopswap.app,lswap.png,"[""dex"",""yield_farming"",""governance""]","{""bnb"":""0x3f8a14f5a3ee2f4a3ed61ccf5eea3c9535c090c8""}",18818
 SHIBKILLER,,ShibKiller,ShibKiller-SHIBKILLER,ww12.shibkiller.io,shibkiller.png,"[""meme"",""dex"",""yield_farming""]","{""bnb"":""0x9f5e3c8e95336cea51481f8cb02027b3c5a523a9""}",19026
+DOS,,DOS Network,DOSNetwork-DOS,dos.network,dos.png,[],"{""bnb"":""0xaf3287cae99c982586c07401c0d911bf7de6cd82""}",19091
+_BOOT,,Bostrom,Bostrom-_BOOT,cyb.ai,_boot.png,"[""ai"",""oracle"",""analytics"",""smart_contract_platforms"",""iot""]","{""osmosis"":""ibc/FE2CD1E6828EC0FAB8AF39BAC45BC25B965BA67CCBC50C13A14BD610B0D1E2C4""}",19111
+GYMNET,,Gym Network,GymNetwork-GYMNET,affility.ai,gymnet.png,"[""metaverse"",""gaming"",""yield_farming"",""nfts""]","{""bnb"":""0x0012365F0a1E5F30a5046c680DCB21D07b15FcF7""}",19154
+_HERA,,Hera Finance,HeraFinance-_HERA,hera.finance,_hera.png,"[""yield_aggregators"",""governance""]","{""ethereum"":""0xA2c2C937333165d4c5f2dC5f31a43E1239FeCfeB"",""metisdao"":""0x6F05709bc91Bad933346F9E159f0D3FdBc2c9DCE""}",19225
+_LOLCAT,,Lolcat,Lolcat-_LOLCAT,,_lolcat.png,"[""meme""]","{""solana"":""Dt6vESocrRixuFz2taZunygpKcNQwxAjUMgYUxvNpump""}",19259
