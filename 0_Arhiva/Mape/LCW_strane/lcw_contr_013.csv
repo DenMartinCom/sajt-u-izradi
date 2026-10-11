@@ -151,3 +151,7 @@ LCC,,Litecoin Cash,LitecoinCash-LCC,litecoinca.sh,lcc.png,"[""wallets""]",{},254
 EURS,,STASIS EURS,STASISEURS-EURS,stasis.net,eurs.png,"[""stablecoins"",""asset_backed_tokens""]","{""ethereum"":""0xdb25f211ab05b1c97d595516f45794528a807ad8"",""xdc-network"":""0x1ebb2c8a71a9ec59bf558886a8adf8f4a565814f""}",2989
 DEI,,DEI Token,DEIToken-DEI,deus.finance,dei.png,"[""stablecoins"",""dex"",""yield_farming""]",{},3432
 XNV,,Nerva,Nerva-XNV,nerva.one,xnv.png,"[""privacy_coins"",""governance""]",{},3596
+LANA,,LanaCoin,LanaCoin-LANA,lanacoin.com,lana.png,[],"{""bnb"":""0xCbd787129d6e36225D93E46fA08556cC7F3a2458""}",3621
+UCASH,,U.CASH,UCASH-UCASH,u.cash,ucash.png,[],"{""tron"":""1002000"",""bnb"":""0x8595f9da7b868b1822194faed312235e43007b49""}",3718
+RAVEN,,Raven Protocol,RavenProtocol-RAVEN,ravenprotocol.com,raven.png,"[""ai""]","{""bnb"":""RAVEN-F66""}",4024
+NBOT,,Naka Bodhi Token,NakaBodhiToken-NBOT,nakachain.org,nbot.png,"[""smart_contract_platforms""]","{""ethereum"":""0x09Ccd2DA5dCDd0510268d4979e792381337138b8""}",4047
