@@ -245,3 +245,7 @@ UFI,,PureFi,PureFi-UFI,purefi.io,ufi.png,"[""oracle"",""smart_contract_platforms
 SLICE,,Tranche Finance,TrancheFinance-SLICE,tranche.finance,slice.png,[],"{""ethereum"":""0x0aee8703d34dd9ae107386d3eff22ae75dd616d1""}",8637
 CATGIRL,,Catgirl,Catgirl-CATGIRL,catgirl.io,catgirl.png,"[""nfts"",""yield_farming"",""gaming""]","{""bnb"":""0x79ebc9a2ce02277a4b5b3a768b1c0a4ed75bd936""}",10275
 BRIC,,Redbrick,Redbrick-BRIC,redbrick.land,bric.png,"[""gaming"",""nfts"",""metaverse"",""ai""]","{""bnb"":""0xb40f2e5291c3Db45AbB0Ca8DF76F1C21E9f112a9""}",36826
+EXPERT,,EXPERT_MONEY,EXPERTMONEY-EXPERT,,expert.png,[],"{""solana"":""H7VfCzzPJvnqfs1b8uA9uUuVjXiYfzAUDw5gmyV9pump""}",35629
+_DOGGY,,DOGGY,DOGGY-_DOGGY,bakeryswap.org,_doggy.png,[],"{""bnb"":""0x74926b3d118a63f6958922d3dc05eb9c6e6e00c6""}",9693
+_HAMI,,HAMI,HAMI-_HAMI,hamicoin.com,_hami.png,"[""meme""]","{""solana"":""4sp2EUDrQf46rZun6sYAWzjrXwUpx2T3njuoKmV766RJ""}",30550
+_DIO,,Decimated,Decimated-_DIO,decimated.net,_dio.png,"[""gaming""]","{""solana"":""BiDB55p4G3n1fGhwKFpxsokBMqgctL4qnZpDH1bVQxMD""}",3908
