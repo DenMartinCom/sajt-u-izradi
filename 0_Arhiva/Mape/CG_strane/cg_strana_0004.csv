@@ -403,3 +403,4 @@ rch-token,rch,RCH Token,rch-token,sofa.org,,"{""ethereum"": ""0x57b96d4af6986055
 shapeshift-fox-token,fox,ShapeShift FOX,shapeshift-fox-token,shapeshift.com,,"{""ethereum"": ""0xc770eefad204b5180df6a14ee197d99d808ee52d"", ""polygon-pos"": ""0x65a05db8322701724c197af82c9cae41195b0aa8"", ""arbitrum-one"": ""0xf929de51d91c77e42f5090069e0ad7a09e513c73"", ""optimistic-ethereum"": ""0xf1a0da3367bc7aa04f8d94ba57b862ff37ced174"", ""xdai"": ""0x21a42669643f45bc0e086b8fc2ed70c23d67509d""}"
 rainbow-3-2,rnbw,Rainbow,rainbow-3,rainbow.me,,"{"""": """", ""base"": ""0xa53887f7e7c1bf5010b8627f1c1ba94fe7a5d6e0""}"
 apple-robinhood-tokenized-stock,aapl,Apple • Robinhood Token,apple-robinhood-token,robinhood.com,,"{""robinhood"": ""0xaf3d76f1834a1d425780943c99ea8a608f8a93f9""}"
+aergo-2,hpp,House Party Protocol,house-party-protocol,hpp.io,,"{""ethereum"": ""0xe33fbe7584eb79e2673abe576b7ac8c0de62565c""}"
