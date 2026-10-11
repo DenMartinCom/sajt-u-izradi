@@ -49,3 +49,9 @@ ___FLIP,,Chainflip,Chainflip-___FLIP,chainflip.io,___flip.png,"[""dex"",""liquid
 USDGLO,,Glo Dollar,GloDollar-USDGLO,glodollar.org,usdglo.png,"[""charity"",""stablecoins"",""asset_backed_tokens""]","{""ethereum"":""0x4F604735c1cF31399C6E711D5962b2B3E0225AD3"",""polygon-ecosystem-token"":""0x4F604735c1cF31399C6E711D5962b2B3E0225AD3"",""celo"":""0x4F604735c1cF31399C6E711D5962b2B3E0225AD3"",""optimism-ethereum"":""0x4F604735c1cF31399C6E711D5962b2B3E0225AD3"",""arbitrum"":""0x4F604735c1cF31399C6E711D5962b2B3E0225AD3"",""base"":""0x4F604735c1cF31399C6E711D5962b2B3E0225AD3""}",23888
 CREAM,,Cream,Cream-CREAM,cream.finance,cream.png,"[""lending"",""governance""]","{""bittensor"":""47""}",36909
 SNDK,,Sandisk - Backpack Securities,SandiskBackpackSecurities-SNDK,backpack.exchange,sndk.png,"[""asset_backed_tokens""]","{""okb"":""0x75e82E2884Ea10f72FCA777449B73377f4646219""}",41493
+____________________________WOLF,,Wolf,Wolf-____________________________WOLF,,____________________________wolf.png,[],"{""solana"":""BTr5SwWSKPBrdUzboi2SVr1QvSjmh1caCYUkxsxLpump""}",38203
+CLAWNCH,,CLAWNCH,CLAWNCH-CLAWNCH,clawn.ch,clawnch.png,"[""token_issuance_platforms"",""ai"",""launchpad""]","{""base"":""0xa1f72459dfa10bad200ac160ecd78c6b77a747be""}",39547
+_LKY,,Luckycoin,Luckycoin-_LKY,,_lky.png,[],"{""bnb"":""0x565D40e2ef60f0B4e5bD0136Bb2C58ACe83fDaA5""}",31785
+HLN,,Helion,Helion-HLN,enosys.global,hln.png,"[""dex"",""lending"",""yield_farming"",""token_bridges"",""governance""]","{""flare"":""0x140D8d3649Ec605CF69018C627fB44cCC76eC89f""}",30769
+5PT,,Five Pillars Token,FivePillarsToken-5PT,,5pt.png,[],"{""bnb"":""0xe6cae4094352a670c3eb0fcbDa17c898b71c7F2A""}",38429
+CORGIAI,,CorgiAI,CorgiAI-CORGIAI,corgiai.xyz,corgiai.png,"[""meme"",""ai""]","{""cronos"":""0x6b431B8a964BFcf28191b07c91189fF4403957D0"",""ethereum"":""0x6b431b8a964bfcf28191b07c91189ff4403957d0"",""solana"":""79F32BvHBE49gPsvypYTGzcpWGvt66mgvenQow3mJjXu""}",26873
