@@ -406,3 +406,4 @@ apple-robinhood-tokenized-stock,aapl,Apple • Robinhood Token,apple-robinhood-t
 aergo-2,hpp,House Party Protocol,house-party-protocol,hpp.io,,"{""ethereum"": ""0xe33fbe7584eb79e2673abe576b7ac8c0de62565c""}"
 afreum,afr,Afreum,afreum,afreum.com,,"{""stellar"": ""AFR-GBX6YI45VU7WNAAKA3RBFDR3I3UKNFHTJPQ5F6KOOKSGYIAM4TRQN54W""}"
 rune-pups,pups,Pups (Bitcoin),pups-world-peace,pupstoken.com,,"{""ordinals"": ""840000:41"", ""solana"": ""2oGLxYuNBJRcepT1mEV6KnETaLD7Bf6qq3CM6skasBfe""}"
+priors-agent,priors,Priors Agents,priors-agent,priors.trade,,"{""robinhood"": ""0xedbf91223639800bcd5756815caf908df3b890be""}"
