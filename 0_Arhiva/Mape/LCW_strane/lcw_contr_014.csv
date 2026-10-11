@@ -89,3 +89,8 @@ NMBTC,,NanoMeter Bitcoin,NanoMeterBitcoin-NMBTC,nmbtc.finance,nmbtc.png,[],"{""b
 TAUM,,Orbitau Taureum,OrbitauTaureum-TAUM,orbitau.io,taum.png,"[""gaming"",""nfts"",""governance""]","{""bnb"":""0x02e22eb7f6e73ef313dd71248cd164b1bdc5aadd""}",16875
 VDR,,Vodra,Vodra-VDR,vodra.io,vdr.png,"[""governance"",""crowdfunding"",""social_tokens""]","{""bnb"":""0xdf677713a2c661ecd0b2bd4d7485170aa8c1eceb""}",16946
 GUARD,,Guardian,Guardian-GUARD,wolfdencrypto.com,guard.png,"[""nfts"",""education""]","{""ethereum"":""0x1F36FB2D91d9951Cf58aE4c1956C0b77e224F1E9"",""bnb"":""0x1F36FB2D91d9951Cf58aE4c1956C0b77e224F1E9""}",17017
+WMEMO,,Wrapped Memory,WrappedMemory-WMEMO,wonderland.money,wmemo.png,"[""wrapped_tokens"",""lending""]","{""avalanche"":""0x0da67235dd5787d67955420c84ca1cecd4e5bb3b"",""fantom"":""0xddc0385169797937066bbd8ef409b5b3c0dfeb52"",""arbitrum"":""0xecf2adaff1de8a512f6e8bfe67a2c836edb25da3"",""ethereum"":""0x3b79a28264fC52c7b4CEA90558AA0B162f7Faf57""}",17076
+__FEED,,chikn feed,chiknfeed-__FEED,chikn.farm,__feed.png,"[""nfts"",""governance"",""yield_farming""]","{""avalanche"":""0xab592d197acc575d16c3346f4eb70c703f308d1e""}",17088
+_LUM,,Lum Network,LumNetwork-_LUM,lum.network,_lum.png,"[""ecommerce"",""wallets""]","{""osmosis"":""ibc/8A34AF0C1943FD0DFCDE9ADBF0B2C9959C45E87E6088EA2FC6ADACD59261B8A2""}",17183
+LSR,,LaserEyes,LaserEyes-LSR,lsr.finance,lsr.png,"[""analytics""]","{""bnb"":""0x1cb9ca00538265a22e56b758026948608ba5d86f""}",17306
+__CATS,,Catcoin,Catcoin-__CATS,catcoin.io,__cats.png,"[""meme"",""charity"",""interest_earning""]","{""ethereum"":""0xd4b92b1700615afae333b9d16d28eb55e8e689b8"",""bnb"":""0x2f0c6e147974BfbF7Da557b88643D74C324053A2""}",17318
