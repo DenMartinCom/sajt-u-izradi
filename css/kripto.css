@@ -752,9 +752,10 @@ body {
 }
 .kurs-vise:hover { color: #FFD700; }
 
-/* KALKULATOR */
+/* ===== KALKULATOR ===== */
 .kalkulator {
     display: flex;
+    flex-wrap: wrap;              /* toolbar ide u svoj red */
     align-items: flex-end;
     gap: 6px;
     padding: 10px;
@@ -764,13 +765,89 @@ body {
     margin-top: 6px;
     width: 100%;
 }
+
+/* Toolbar red iznad kalkulatora: dropdown + okrugli 1% checkbox */
+.kalk-toolbar {
+    flex: 0 0 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin-bottom: 4px;
+}
+.kalk-toolbar select {
+    background: #1a1a1a;
+    color: #FFD700;
+    border: 1px solid #444;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-family: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+.kalk-toolbar select:focus { border-color: #FFD700; }
+
+/* Okrugli 1% checkbox */
+.kalk-provizija {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    cursor: pointer;
+    user-select: none;
+    padding: 2px 4px;
+}
+.kalk-provizija input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    border: 2px solid #FFD700;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    flex: 0 0 auto;
+    transition: background 0.2s ease, box-shadow 0.2s ease;
+}
+.kalk-provizija input[type="checkbox"]:hover {
+    box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.15);
+}
+.kalk-provizija input[type="checkbox"]:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.35);
+}
+.kalk-provizija input[type="checkbox"]:checked {
+    background: #FFD700;
+}
+.kalk-provizija input[type="checkbox"]:checked::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    background: #1a1a1a;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+.kalk-provizija-tekst {
+    color: #FFD700;
+    font-weight: 700;
+    font-size: 0.8rem;
+    letter-spacing: 0.3px;
+}
+
 .kalk-polje {
     display: flex;
     flex-direction: column;
     gap: 4px;
     min-width: 0;
 }
-.kalk-polje:first-child {
+.kalk-polje:first-of-type {
     flex: 0 0 20%;
 }
 .kalk-polje-desno {
@@ -783,7 +860,9 @@ body {
     border-radius: 2px;
     align-self: flex-start;
 }
-.kalkulator input {
+
+/* Number input — ne diraj checkbox */
+.kalk-polje input[type="number"] {
     width: 100%;
     min-width: 0;
     background: #1a1a1a;
@@ -797,19 +876,8 @@ body {
     text-align: right;
     font-variant-numeric: tabular-nums;
 }
-.kalkulator input:focus { border-color: #FFD700; }
-.kalkulator select {
-    background: #1a1a1a;
-    color: #FFD700;
-    border: 1px solid #444;
-    padding: 8px 6px;
-    border-radius: 6px;
-    font-size: 0.85rem;
-    font-family: inherit;
-    cursor: pointer;
-    outline: none;
-    align-self: flex-end;
-}
+.kalk-polje input[type="number"]:focus { border-color: #FFD700; }
+
 .kalkulator .kalk-rezultat {
     width: 100%;
     min-width: 0;
@@ -826,6 +894,7 @@ body {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
 #kalk-smer {
     background: #1a1a1a;
     color: #FFD700;
@@ -929,10 +998,9 @@ body {
     .kurs-grid { grid-template-columns: 1fr; }
     .liste-red .lr-promena { min-width: 62px; }
     .liste-red .lr-cena { padding-right: 16px; }
-    .kalk-polje:first-child { flex: 0 0 25%; }
+    .kalk-polje:first-of-type { flex: 0 0 25%; }
+    .kalk-provizija input[type="checkbox"] { width: 18px; height: 18px; }
 }
-
-
 
 /* ===== ZAMA STAKING GRAFIKON ===== */
 .widget-zama-graf {
@@ -984,7 +1052,6 @@ body {
 @media (max-width: 370px) {
     .zama-graf-wrap { height: 200px; }
 }
-
 
 /* Popravka blikanja slika */
 img[src*="_default.png"],
@@ -1059,6 +1126,7 @@ img[src*="_default.png"],
 .cd-token { width: auto; min-width: 130px; max-width: 55%; }
 .cd-token .cd-menu { min-width: 100%; max-height: 156px; }
 .cd-token .cd-toggle { padding: 4px 8px; font-size: 0.75rem; }
+
 /* ===== NOVI GAS WIDGET ===== */
 .widget-gas-full {
     padding: 14px 12px;
