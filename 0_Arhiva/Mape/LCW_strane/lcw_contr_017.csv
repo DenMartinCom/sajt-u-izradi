@@ -180,3 +180,6 @@ TFUEL,,Theta Fuel,ThetaFuel-TFUEL,thetatoken.org,tfuel.png,"[""smart_contract_pl
 THETA,,Theta Network,ThetaNetwork-THETA,thetatoken.org,theta.png,"[""smart_contract_platforms"",""social_media"",""nfts"",""streaming""]","{""theta-network"":""0xaf537fb7e4c77c97403de94ce141b7edb9f7fcf0""}",27077
 WBCOIN,,Wrapped Backed Coinbase Global,WrappedBackedCoinbaseGlobal-WBCOIN,backed.fi,wbcoin.png,"[""asset_backed_tokens""]","{""base"":""0xdec933e2392ad908263e70a386fbf34e703ffe8f"",""ethereum"":""0xdec933e2392ad908263e70a386fbf34e703ffe8f"",""gnosis-gno"":""0xdec933e2392ad908263e70a386fbf34e703ffe8f"",""polygon-ecosystem-token"":""0xdec933e2392ad908263e70a386fbf34e703ffe8f"",""avalanche"":""0xdec933e2392ad908263e70a386fbf34e703ffe8f""}",37066
 MVI,,Metaverse Index,MetaverseIndex-MVI,tokensets.com,mvi.png,[],"{""ethereum"":""0x72e364f2abdc788b7e918bc238b21f109cd634d7""}",9207
+WDOGE,,Wrapped DogeCoin,WrappedDogeCoin-WDOGE,yobit.net,wdoge.png,"[""wrapped_tokens""]","{""plasma-xpl"":""0x6100E367285b01F48D07953803A2d8dCA5D19873""}",38514
+FRAX,,Frax,Frax-FRAX,frax.com,frax.png,"[""stablecoins""]","{""near-protocol"":""eth-0xdac17f958d2ee523a2206206994597c13d831ec7.omft.near""}",39520
+FLETH,,flETH,flETH-FLETH,,fleth.png,[],"{""base"":""0x000000000d564d5be76f7f0d28fe52605afc7cf8""}",39905
