@@ -2,3 +2,10 @@ id,symbol,name,slug,web,logo,tags,contract,cmc_id
 TAONU,,TAO Inu,TAOInu-TAONU,taonu.vip,taonu.png,"[""meme""]","{""ethereum"":""0x4e9fcD48Af4738e3bF1382009dC1e93eBFCE698F""}",29554
 BICS,,Biceps,Biceps-BICS,,bics.png,[],"{""bnb"":""0x8E5Cb7626DD949dfF56fe2c130b75A8B6f1A05f8""}",29563
 PUMP,,Pump.fun,Pumpfun-PUMP,pump.fun,pump.png,"[""dex"",""token_issuance_platforms"",""launchpad""]","{""gram"":""EQBng_Ux8DLKeaLZ4kN4eec-U-SJ1fMtYvqQANtL0oxKRQh_""}",30115
+TRUNK,,Elephant Money Stable,ElephantMoneyStable-TRUNK,elephant.money,trunk.png,"[""stablecoins""]","{""bnb"":""0xdd325C38b12903B727D16961e61333f4871A70E0"",""solana"":""9mV4WUukVsva5wYcYW4veo34CNDiF44sh3Ji65JNdvh5""}",30329
+__HAROLD,,harold,harold-__HAROLD,haroldtheduck.com,__harold.png,"[""meme""]","{""solana"":""EjmDTt8G3T725eFSV7oWmGD8J848guo3LZ1EB3RfwGSw""}",30439
+COST,,Costco Hot Dog,CostcoHotDog-COST,costcodogsol.xyz,cost.png,"[""meme""]","{""solana"":""Av6qVigkb7USQyPXJkUvAEm4f599WTRvd75PUWBA9eNm""}",30513
+ENA,,Ethena Labs,EthenaLabs-ENA,ethena.fi,ena.png,"[""synthetics""]","{""arbitrum"":""0x6bcc14b02cd624ebe1a8a665cb6d4067aa097230"",""sonic"":""0x261dfa2528dfa19011f10b168c856e02baaf0eb6""}",30602
+___WIFE,,wifejak,wifejak-___WIFE,,___wife.png,[],"{""solana"":""4y3oUrsJfSp431R3wJrWiaLxRPsnYtpkVJmoV2bYpBiy""}",30868
+POPDOG,,PopDog,PopDog-POPDOG,popdog-coin.com,popdog.png,"[""meme""]","{""solana"":""EATGZHJViJsk7nEKkrdJicwNbfpkJfAtmrEmrjXR8NBj""}",31019
+__BOOMER,,Boomer,Boomer-__BOOMER,baseboomer.com,__boomer.png,"[""meme""]","{""base"":""0xcdE172dc5ffC46D228838446c57C1227e0B82049""}",31082
