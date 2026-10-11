@@ -187,3 +187,8 @@ USDK,,USDK,USDK-USDK,oklink.com,usdk.png,"[""stablecoins""]","{""arc-token"":""0
 PRO,,Propy,Propy-PRO,propy.com,pro.png,"[""real_estate""]","{""ethereum"":""0x226bb599a12c826476e3a771454697ea52e9e220"",""base"":""0x18dD5B087bCA9920562aFf7A0199b96B9230438b""}",1974
 _STX,,Stacks,Stacks-_STX,stacks.co,_stx.png,"[""smart_contract_platforms"",""dns""]",{},2370
 CRO,,Cronos,Cronos-CRO,crypto.com,cro.png,"[""cex"",""smart_contract_platforms"",""debit_cards"",""wallets""]","{""optimism-ethereum"":""0x03cc5feF38896537c10Fcb30A53A1B12be101da6"",""robinhood-placeholder"":""0x10B5Ca68a5509B93E6c8f62Ed76a7086164F1F11""}",2892
+HEX,,HEX,HEX-HEX,hex.com,hex.png,[],"{""ethereum"":""0x2b591e99afe9f32eaa6214f7b7629768c40eeb39"",""polygon-ecosystem-token"":""0x23D29D30e35C5e8D321e1dc9A8a61BFD846D4C5C""}",5015
+MTLX,,Mettalex,Mettalex-MTLX,mettalex.com,mtlx.png,"[""dex"",""yield_farming"",""options"",""commodities""]","{""ethereum"":""0x2e1e15c44ffe4df6a0cb7371cd00d5028e571d14""}",7256
+FIRE,,FIRE PROTOCOL,FIREPROTOCOL-FIRE,,fire.png,[],"{""ethereum"":""0xF921ae2DAC5fa128DC0F6168Bf153ea0943d2D43""}",8129
+ALUSD,,Alchemix USD,AlchemixUSD-ALUSD,alchemix.fi,alusd.png,"[""synthetics"",""asset_backed_tokens"",""stablecoins"",""lending""]","{""ethereum"":""0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9""}",8614
+ALPACA,,Alpaca Finance,AlpacaFinance-ALPACA,alpacafinance.org,alpaca.png,"[""yield_farming"",""lending""]","{""bnb"":""0x8f0528ce5ef7b51152a59745befdd91d97091d2f"",""fantom"":""0xad996a45fd2373ed0b10efa4a8ecb9de445a4302""}",8707
