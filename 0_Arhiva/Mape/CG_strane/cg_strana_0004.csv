@@ -241,3 +241,4 @@ quantoz-eurq,eurq,Quantoz EURQ,quantoz-eurq,quantozpay.com,,"{""ethereum"": ""0x
 bitcoin-usd-btcfi,btcusd,Bitcoin USD (BTCFi),bitcoin-usd-btcfi,btcfi.one,,"{""bifrost-network"": ""0x6906ccda405926fc3f04240187dd4fad5df6d555"", ""base"": ""0xe4b20925d9e9a62f1e492e15a81dc0de62804dd4""}"
 galaxia,gxa,Galaxia,galaxia,galaxiacoin.io,,"{""klay-token"": ""0xa80e96cceb1419f9bd9f1c67f7978f51b534a11b""}"
 prologue,prologue,Prologue,prologue,fables.fi,,"{""robinhood"": ""0xb9972ca7188e511174947e3936a5315ac7073277""}"
+apple-bstocks-tokenized-stock,aaplb,Apple (bStocks Tokenized Stock),apple-bstocks-tokenized-stock,bstocks.finance,,"{""binance-smart-chain"": ""0x431a3bee82e2ca41e49895cbece5bb0f76a89b7a""}"
