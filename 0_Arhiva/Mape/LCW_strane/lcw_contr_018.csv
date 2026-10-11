@@ -1,0 +1,4 @@
+id,symbol,name,slug,web,logo,tags,contract,cmc_id
+TAONU,,TAO Inu,TAOInu-TAONU,taonu.vip,taonu.png,"[""meme""]","{""ethereum"":""0x4e9fcD48Af4738e3bF1382009dC1e93eBFCE698F""}",29554
+BICS,,Biceps,Biceps-BICS,,bics.png,[],"{""bnb"":""0x8E5Cb7626DD949dfF56fe2c130b75A8B6f1A05f8""}",29563
+PUMP,,Pump.fun,Pumpfun-PUMP,pump.fun,pump.png,"[""dex"",""token_issuance_platforms"",""launchpad""]","{""gram"":""EQBng_Ux8DLKeaLZ4kN4eec-U-SJ1fMtYvqQANtL0oxKRQh_""}",30115
