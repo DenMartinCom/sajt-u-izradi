@@ -165,3 +165,7 @@ ORN,,Orion Protocol,OrionProtocol-ORN,orion.xyz,orn.png,"[""dex"",""governance""
 MUSD,,mStable USD,mStableUSD-MUSD,mstable.org,musd.png,"[""stablecoins""]","{""ethereum"":""0xe2f2a5c287993345a840db3b0845fbc70f5935a5""}",5747
 CBP,,CashBackPro,CashBackPro-CBP,cbp.finance,cbp.png,"[""interest_earning""]","{""bnb"":""0x15d1dafBcC97F606bd02120d170fdAc33B1a4a86""}",5781
 TRCL,,Treecle,Treecle-TRCL,treecle.io,trcl.png,"[""gaming"",""nfts"",""commodities"",""energy"",""wallets""]","{""bnb"":""0x774a53c2be994299bd07cb4d74fc7c0271916713""}",5800
+ITAM,,ITAM Games,ITAMGames-ITAM,itam.games,itam.png,"[""gaming"",""nfts""]","{""bnb"":""0x04C747b40Be4D535fC83D09939fb0f626F32800B""}",6490
+_ANG,,Aureus Nummus Gold,AureusNummusGold-_ANG,,_ang.png,[],"{""ethereum"":""0x130914E1B240a7F4c5D460B7d3a2Fd3846b576fa""}",6598
+RPD,,Rapids,Rapids-RPD,rapidsnetwork.io,rpd.png,"[""wallets""]",{},6759
+TON,,TONToken,TONToken-TON,toncommunity.org,ton.png,"[""smart_contract_platforms"",""wallets""]","{""ethereum"":""0x6a6c2ada3ce053561c2fbc3ee211f23d9b8c520a""}",6890
