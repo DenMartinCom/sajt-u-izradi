@@ -193,3 +193,7 @@ KILO,,KiloEx Token,KiloExToken-KILO,kiloex.io,kilo.png,"[""dex"",""perpetuals""]
 _SERAPH,,SERAPH,SERAPH-_SERAPH,seraph.game,_seraph.png,"[""gaming"",""nfts"",""governance""]","{""ethereum"":""0xd6B48CCF41a62EB3891e58D0F006B19B01d50cCa"",""bnb"":""0xd6B48CCF41a62EB3891e58D0F006B19B01d50cCa""}",34377
 __________PIGGY,,Piggycell,Piggycell-__________PIGGY,piggycell.io,__________piggy.png,"[""energy"",""nfts"",""iot"",""governance""]","{""bnb"":""0x46345336E7C5C89bd15D557203040f2c1aB4dd18""}",38711
 BNBHOLDER,,币安Holder,Holder-BNBHOLDER,,bnbholder.png,[],"{""bnb"":""0x44440f83419DE123d7d411187aDb9962db017d03""}",38637
+SEVILLA,,Sevilla FC,SevillaFC-SEVILLA,chiliz.com,sevilla.png,"[""sports"",""social_tokens""]","{""solana"":""GDNoEjfSAUAvManoEaT3vStGcvwKkcUcSTvUwfvwhqXf"",""base"":""0xbc338400bbcfb75c671c048b4fb9ea5fb2447b76"",""chiliz"":""0xd699ACD21011c20381E5138A430bb0d7b6E9BC7F""}",28286
+_ICHI,,ICHI,ICHI-_ICHI,,_ichi.png,[],"{""ethereum"":""0x111111517e4929d3dcbdfa7cce55d30d4b6bc4d6"",""polygon-ecosystem-token"":""0x111111517e4929d3dcbdfa7cce55d30d4b6bc4d6"",""arbitrum"":""0xadf5DD3E51bF28aB4F07e684eCF5d00691818790""}",7726
+VON,,Vameon,Vameon-VON,vameon.com,von.png,"[""gaming"",""nfts""]","{""bnb"":""0xa4c3497b57c8b6d510f3707a1e9694fd791f45fb""}",33725
+NTX,,Nunet,Nunet-NTX,nunet.io,ntx.png,"[""storage"",""yield_farming""]","{""ethereum"":""0xf0d33beda4d734c72684b5f9abbebf715d0a7935"",""bnb"":""0x5C4Bcc4DbaEAbc7659f6435bCE4E659314ebad87"",""cardano"":""edfd7a1d77bcb8b884c474bdc92a16002d1fb720e454fa6e993444794e5458""}",13198
