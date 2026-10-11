@@ -239,3 +239,4 @@ goldzip-gold,xgz,GoldZip Gold,goldzip-gold,goldzip.info,,"{""ethereum"": ""0x69a
 luna-by-virtuals,luna,Luna by Virtuals,luna-by-virtuals,app.virtuals.io,,"{""base"": ""0x55cd6469f597452b5a7536e2cd98fde4c1247ee4"", ""solana"": ""9se6kma7LeGcQWyRBNcYzyxZPE3r9t9qWZ8SnjnN3jJ7""}"
 quantoz-eurq,eurq,Quantoz EURQ,quantoz-eurq,quantozpay.com,,"{""ethereum"": ""0x8df723295214ea6f21026eeeb4382d475f146f9f"", ""polygon-pos"": ""0xd571edb2ef29df10fcd6200fd6d0ed2389983db3"", ""xrp"": ""EURQ.rDk1xiArDMjDqnrR2yWypwQAKg4mKnQYvs"", ""algorand"": ""2768422954""}"
 bitcoin-usd-btcfi,btcusd,Bitcoin USD (BTCFi),bitcoin-usd-btcfi,btcfi.one,,"{""bifrost-network"": ""0x6906ccda405926fc3f04240187dd4fad5df6d555"", ""base"": ""0xe4b20925d9e9a62f1e492e15a81dc0de62804dd4""}"
+galaxia,gxa,Galaxia,galaxia,galaxiacoin.io,,"{""klay-token"": ""0xa80e96cceb1419f9bd9f1c67f7978f51b534a11b""}"
