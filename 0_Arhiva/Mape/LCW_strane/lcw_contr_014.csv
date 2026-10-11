@@ -1,0 +1,6 @@
+id,symbol,name,slug,web,logo,tags,contract,cmc_id
+POCO,,Pocoland,Pocoland-POCO,pocoland.com,poco.png,"[""gaming"",""nfts""]","{""bnb"":""0x394bBA8F309f3462b31238B3fd04b83F71A98848""}",11672
+BSTS,,Magic Beasties,MagicBeasties-BSTS,beasties.online,bsts.png,"[""nfts"",""gaming""]","{""bnb"":""0xc77dd3ade7b717583e0924466e4e474a5673332c""}",11690
+COPYCAT,,Copycat Finance,CopycatFinance-COPYCAT,copycat.finance,copycat.png,"[""yield_farming"",""analytics""]","{""bnb"":""0xd635b32688f36ee4a7fe117b4c91dd811277acb6""}",11701
+BALA,,Shambala,Shambala-BALA,shambala.finance,bala.png,"[""nfts"",""gaming""]","{""bnb"":""0x34ba3af693d6c776d73c7fa67e2b2e79be8ef4ed""}",11713
+BIGSB,,BigShortBets,BigShortBets-BIGSB,bigshortbets.com,bigsb.png,"[""social_media""]","{""ethereum"":""0x131157c6760f78f7ddf877c0019eba175ba4b6f6""}",11765
