@@ -188,3 +188,8 @@ NRG,,Energi,Energi-NRG,energi.world,nrg.png,"[""smart_contract_platforms"",""dex
 HYPC,,HyperCycle Token,HyperCycleToken-HYPC,hypercycle.ai,hypc.png,"[""ai"",""launchpad""]","{""ethereum"":""0xeA7B7DC089c9a4A916B5a7a37617f59fD54e37E4"",""bnb"":""0x7881cD2B5724431372F57C50E91611352557A606""}",24698
 AEROBUD,,AEROBUD,AEROBUD-AEROBUD,aerobud.org,aerobud.png,"[""meme"",""charity"",""nfts""]","{""base"":""0xFad8CB754230dbFd249Db0E8ECCb5142DD675a0d""}",31854
 NATIX,,NATIX Network,NATIXNetwork-NATIX,natix.network,natix.png,"[""iot"",""ai"",""identity"",""governance""]","{""ethereum"":""0x31e4efe290973ebe91b3a875a7994f650942d28f"",""bnb"":""0x31e4efe290973ebe91b3a875a7994f650942d28f"",""avalanche"":""0xd402298a793948698b9a63311404FBBEe944eAfD""}",28363
+YFII,,DFI.money,DFImoney-YFII,dfi.money,yfii.png,"[""governance"",""yield_farming"",""yield_aggregators""]","{""solana"":""b8UDyp3Yx19rcdaBUNegoojyUdhPpiPQ46bFrtQQQon"",""ethereum"":""0x0e05BA0756C504B69AAA642f7379CD1AF7C63969"",""bnb"":""0xC43Ae29aFE58bf90dA6Fe3Edd570C2E735fb2850""}",40409
+KILO,,KiloEx Token,KiloExToken-KILO,kiloex.io,kilo.png,"[""dex"",""perpetuals""]","{""bnb"":""0x503Fa24B7972677F00C4618e5FBe237780C1df53""}",36053
+_SERAPH,,SERAPH,SERAPH-_SERAPH,seraph.game,_seraph.png,"[""gaming"",""nfts"",""governance""]","{""ethereum"":""0xd6B48CCF41a62EB3891e58D0F006B19B01d50cCa"",""bnb"":""0xd6B48CCF41a62EB3891e58D0F006B19B01d50cCa""}",34377
+__________PIGGY,,Piggycell,Piggycell-__________PIGGY,piggycell.io,__________piggy.png,"[""energy"",""nfts"",""iot"",""governance""]","{""bnb"":""0x46345336E7C5C89bd15D557203040f2c1aB4dd18""}",38711
+BNBHOLDER,,币安Holder,Holder-BNBHOLDER,,bnbholder.png,[],"{""bnb"":""0x44440f83419DE123d7d411187aDb9962db017d03""}",38637
