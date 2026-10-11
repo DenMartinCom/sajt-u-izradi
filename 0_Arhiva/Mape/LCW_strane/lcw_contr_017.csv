@@ -1,3 +1,6 @@
 id,symbol,name,slug,web,logo,tags,contract,cmc_id
 HARIKO,,Inu Hariko,InuHariko-HARIKO,,hariko.png,[],"{""ethereum"":""0x949c255362e21042b26Cf6a6B54CBB218B50090c""}",38604
 BELG,,Belgian Malinois,BelgianMalinois-BELG,,belg.png,[],"{""bnb"":""0x7e4DAB87cBD6307E8833Cc5C540ee151C6db4F42""}",38615
+_LSCAT,,Light Speed Cat v2,LightSpeedCatv2-_LSCAT,,_lscat.png,[],"{""bnb"":""0x391d9DDA8E3d0418D323EA6BcC194300d1b76eDC""}",38649
+ZIB,,ZIBA,ZIBA-ZIB,,zib.png,[],"{""bnb"":""0x1d62584d38d26519Ea509ee0668E4df25D164444""}",38661
+ANIMUS,,Animus,Animus-ANIMUS,,animus.png,[],"{""bnb"":""0x06E08A9BFB83e0e791Cd1f24535aDA4fA4094444""}",38663
