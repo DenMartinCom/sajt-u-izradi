@@ -242,3 +242,5 @@ HOOKR,,Hookr.fun,Hookrfun-HOOKR,hookr.fun,hookr.png,"[""token_issuance_platforms
 ABEL,,ABEL Finance,ABELFinance-ABEL,abelfinance.xyz,abel.png,"[""lending"",""governance""]","{""aptos"":""0x70322595a73b3fc53bb166f5783470afeb1ed9f46d1176db62139991505dc61::abel_coin::AbelCoin""}",22959
 X33,,Shadow Liquid Staking Token,ShadowLiquidStakingToken-X33,shadow.so,x33.png,"[""liquid_staking"",""dex""]","{""bittensor"":""34""}",36914
 ______PINU,,piinu,piinu-______PINU,,______pinu.png,[],"{""bnb"":""0xf03e02acbc5eb22de027ea4f59235966f5810d4f""}",15516
+_ACX,,Across Protocol Token,AcrossProtocolToken-_ACX,across.to,_acx.png,"[""token_bridges"",""yield_farming"",""yield_aggregators"",""governance""]","{""polygon-ecosystem-token"":""0xdA7cdEa482B4e5F3d5B41Aa286811d111f066B6B""}",19787
+XSPA,,XSPA,XSPA-XSPA,,xspa.png,[],"{""solana"":""8Hg96R1AGDe5vKABwniVPT2LHdhZHmCTFijZAXXZpump""}",37516
