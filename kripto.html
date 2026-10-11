@@ -155,19 +155,29 @@
 
                 <!-- KALKULATOR -->
                 <div class="kalkulator">
+                    <div class="kalk-toolbar">
+                        <select id="kalk-valuta">
+                            <option value="EUR">EUR</option>
+                            <option value="USD">USD</option>
+                            <option value="CHF">CHF</option>
+                            <option value="GBP">GBP</option>
+                            <option value="RUB">RUB</option>
+                            <option value="BAM">BAM</option>
+                        </select>
+
+                        <label class="kalk-provizija" for="kalk-provizija-cb" title="Uračunaj proviziju 1%">
+                            <input type="checkbox" id="kalk-provizija-cb">
+                            <span class="kalk-provizija-tekst">1%</span>
+                        </label>
+                    </div>
+
                     <div class="kalk-polje">
                         <img id="kalk-flag-levo" class="kalk-zastava" src="Slike/zastavice/EUR.png" alt="EUR">
                         <input type="number" id="kalk-iznos" placeholder="Količina" step="any">
                     </div>
-                    <select id="kalk-valuta">
-                        <option value="EUR">EUR</option>
-                        <option value="USD">USD</option>
-                        <option value="CHF">CHF</option>
-                        <option value="GBP">GBP</option>
-                        <option value="RUB">RUB</option>
-                        <option value="BAM">BAM</option>
-                    </select>
+
                     <button id="kalk-smer" type="button" title="Promeni smer">⇄</button>
+
                     <div class="kalk-polje kalk-polje-desno">
                         <img id="kalk-flag-desno" class="kalk-zastava" src="Slike/zastavice/RSD.png" alt="RSD">
                         <div class="kalk-rezultat" id="kalk-rezultat">—</div>
