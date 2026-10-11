@@ -155,3 +155,7 @@ LANA,,LanaCoin,LanaCoin-LANA,lanacoin.com,lana.png,[],"{""bnb"":""0xCbd787129d6e
 UCASH,,U.CASH,UCASH-UCASH,u.cash,ucash.png,[],"{""tron"":""1002000"",""bnb"":""0x8595f9da7b868b1822194faed312235e43007b49""}",3718
 RAVEN,,Raven Protocol,RavenProtocol-RAVEN,ravenprotocol.com,raven.png,"[""ai""]","{""bnb"":""RAVEN-F66""}",4024
 NBOT,,Naka Bodhi Token,NakaBodhiToken-NBOT,nakachain.org,nbot.png,"[""smart_contract_platforms""]","{""ethereum"":""0x09Ccd2DA5dCDd0510268d4979e792381337138b8""}",4047
+NU,,NuCypher,NuCypher-NU,nucypher.com,nu.png,"[""privacy_coins"",""security""]","{""ethereum"":""0x4fe83213d56308330ec302a8bd641f1d0113a4cc""}",4761
+BCNT,,Bincentive Token,BincentiveToken-BCNT,bincentive.com,bcnt.png,"[""ai"",""analytics""]","{""ethereum"":""0x9669890e48f330acd88b78d63e1a6b3482652cd9""}",4808
+_BTCP,,Bitcoin Pro,BitcoinPro-_BTCP,bitcoinpro.money,_btcp.png,[],"{""ethereum"":""0x723cbfc05e2cfcc71d3d89e770d32801a5eef5ab"",""bnb"":""0x5de820707adc87b4581f8e7914a65341e68216db"",""polygon-ecosystem-token"":""0x939dbA50a98A0a4dA1BE61FF0C32Fd51c8c81627""}",5184
+CDAI,,Compound Dai,CompoundDai-CDAI,compound.finance,cdai.png,"[""lending"",""interest_earning"",""asset_backed_tokens""]","{""ethereum"":""0x5d3a536e4d6dbd6114cc1ead35777bab948e3643""}",5263
