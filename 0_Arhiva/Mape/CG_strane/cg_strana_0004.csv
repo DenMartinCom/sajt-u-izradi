@@ -140,3 +140,4 @@ coinmarketcap-20-index-dtf,cmc20,CoinMarketCap 20 Index DTF,coinmarketcap-20-ind
 alpha-trader-exchange-atx,sn63,Quantum Innovate,quantum-innovate,qbittensorlabs.com,,"{""bittensor"": ""63""}"
 klever,klv,Klever,klever,klever.org,,"{""klever-blockchain"": ""KLV""}"
 true,true,True,true,trueo.com,,"{""base"": ""0x21cfcfc3d8f98fc728f48341d10ad8283f6eb7ab""}"
+vnx-gold,vnxau,VNX Gold,vnx-gold,vnx.li,,"{""ethereum"": ""0x6d57b2e05f26c26b549231c866bdd39779e4a488"", ""etherlink"": ""0x93f5475da60143c50e8be3fed10c143b0cf8b9e9"", ""tezos"": ""KT1LSH97386CURN9FgRNqdQJoHaHY6e1vxUv"", ""base"": ""0xac3fe22294beaed9d1fd752323a6d06d12ff3098"", ""solana"": ""9TPL8droGJ7jThsq4momaoz6uhTcvX2SeMqipoPmNa8R"", ""polygon-pos"": ""0xc8bb8eda94931ca2f20ef43ea7dbd58e68400400""}"
