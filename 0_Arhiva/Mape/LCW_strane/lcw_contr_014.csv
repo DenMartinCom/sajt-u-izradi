@@ -136,3 +136,7 @@ MVX,,Metavault Trade,MetavaultTrade-MVX,metavault.org,mvx.png,"[""dex""]","{""po
 __FORGE,,Blocksmith Labs Forge,BlocksmithLabsForge-__FORGE,blocksmithlabs.io,__forge.png,"[""nfts""]","{""solana"":""FoRGERiW7odcCBGU1bztZi16osPBHjxharvDathL5eds""}",19976
 LSWAP,,LoopSwap,LoopSwap-LSWAP,loopswap.app,lswap.png,"[""dex"",""yield_farming"",""governance""]","{""bnb"":""0x3f8a14f5a3ee2f4a3ed61ccf5eea3c9535c090c8""}",18818
 SHIBKILLER,,ShibKiller,ShibKiller-SHIBKILLER,ww12.shibkiller.io,shibkiller.png,"[""meme"",""dex"",""yield_farming""]","{""bnb"":""0x9f5e3c8e95336cea51481f8cb02027b3c5a523a9""}",19026
+_BOOT,,Bostrom,Bostrom-_BOOT,cyb.ai,_boot.png,"[""ai"",""oracle"",""analytics"",""smart_contract_platforms"",""iot""]","{""osmosis"":""ibc/FE2CD1E6828EC0FAB8AF39BAC45BC25B965BA67CCBC50C13A14BD610B0D1E2C4""}",19111
+GYMNET,,Gym Network,GymNetwork-GYMNET,affility.ai,gymnet.png,"[""metaverse"",""gaming"",""yield_farming"",""nfts""]","{""bnb"":""0x0012365F0a1E5F30a5046c680DCB21D07b15FcF7""}",19154
+CZUSD,,CZUSD,CZUSD-CZUSD,app.czodiac.com,czusd.png,"[""nfts"",""gaming"",""yield_farming"",""stablecoins""]","{""bnb"":""0xe68b79e51bf826534ff37aa9cee71a3842ee9c70""}",19366
+KEL,,KelVpn,KelVpn-KEL,kelvpn.com,kel.png,"[""vpn""]","{""bnb"":""0xfae8e64cdde73550e7d7f0469557a33a417b2868"",""cronos"":""0xC4a174cCb5fb54a6721e11e0Ca961e42715023F9""}",19393
