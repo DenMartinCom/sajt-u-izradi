@@ -34,7 +34,7 @@
         ESP: { naziv: 'pezeta' },
         FIM: { naziv: 'marka' },
         FRF: { naziv: 'franak' },
-        GRD: { naziv: 'drahmi' },
+        GRD: { naziv: 'drahma' },
         IEP: { naziv: 'funta' },
         ITL: { naziv: 'lira' },
         LUF: { naziv: 'franak' },
@@ -42,6 +42,9 @@
     };
 
     const PRIKAZ = ['EUR', 'USD', 'CHF', 'GBP', 'RUB', 'BAM'];
+
+    // Fiksna provizija od 1%
+    const PROVIZIJA = 0.01;
 
     const gridEl = document.getElementById('kurs-grid');
     const viseEl = document.getElementById('kurs-vise');
@@ -51,12 +54,17 @@
     const rezultatEl = document.getElementById('kalk-rezultat');
     const flagLevo = document.getElementById('kalk-flag-levo');
     const flagDesno = document.getElementById('kalk-flag-desno');
+    const provizijaEl = document.getElementById('kalk-provizija-cb');
 
     if (!gridEl) return;
 
     let kurs = null;
     let prikazSve = false;
     let smer = 'valuta_u_rsd';
+
+    function provizijaAktivna() {
+        return !!(provizijaEl && provizijaEl.checked);
+    }
 
     function nazivZa(kod) {
         return (VALUTE_META[kod] && VALUTE_META[kod].naziv) ? VALUTE_META[kod].naziv : kod;
@@ -151,11 +159,18 @@
             rezultatEl.textContent = 'nema kursa za ' + kod;
             return;
         }
+
+        const prov = provizijaAktivna();
+
         if (smer === 'valuta_u_rsd') {
-            const rsd = iznos * k;
+            // Desna strana = RSD → povećava se za 1% kada je provizija aktivna
+            let rsd = iznos * k;
+            if (prov) rsd *= (1 + PROVIZIJA);
             rezultatEl.textContent = formatRsd(rsd);
         } else {
-            const valuta = iznos / k;
+            // Desna strana = strana valuta (nije RSD) → smanjuje se za 1%
+            let valuta = iznos / k;
+            if (prov) valuta *= (1 - PROVIZIJA);
             rezultatEl.textContent = formatValuta(valuta) + ' ' + kod;
         }
     }
@@ -206,6 +221,11 @@
             azurirajZastavice();
             izracunaj();
         });
+    }
+
+    // Checkbox „1%"
+    if (provizijaEl) {
+        provizijaEl.addEventListener('change', izracunaj);
     }
 
     azurirajPlaceholder();
