@@ -144,3 +144,8 @@ NAVX,,Navi Protocol,NaviProtocol-NAVX,naviprotocol.io,navx.png,"[""governance"",
 _VPR,,VaporFund,VaporFund-_VPR,vaporfund.com,_vpr.png,"[""ai"",""bots""]","{""bnb"":""0xB96D0f29a0aC9AF4a32835e90EC6531389765089""}",28756
 _FRAX,,Multichain: FRAX Token,MultichainFRAXToken-_FRAX,multichain.org,_frax.png,"[""wrapped_tokens""]",{},39542
 JUPUSD,,Jupiter USD,JupiterUSD-JUPUSD,,jupusd.png,[],"{""solana"":""JuprjznTrTSp2UFa3ZBUFgwdAmtZCq4MQCwysN55USD""}",39582
+CVXCRV,,Convex CRV,ConvexCRV-CVXCRV,convexfinance.com,cvxcrv.png,[],"{""ethereum"":""0x62b9c7356a2dc64a1969e19c23e4f579f9810aa7""}",10291
+MXNA,,Machina,Machina-MXNA,darkmachinegame.com,mxna.png,"[""gaming"",""nfts""]","{""ethereum"":""0x0a2A015A15A8E019aBc386FEE88B8A6d7A0D90df""}",35439
+MXSOL,,Mexc Staked SOL,MexcStakedSOL-MXSOL,,mxsol.png,[],"{""solana"":""7cBuurYDdaqxnem7KyMTci6SWhjJKroZ6NUjqH2ewEPB""}",40979
+NLS,,Nolus,Nolus-NLS,nolus.io,nls.png,"[""governance"",""lending""]","{""osmosis"":""ibc/D9AFCECDD361D38302AA66EB3BAC23B95234832C51D12489DC451FA2B7C72782""}",28485
+_BTY,,BitYuan,BitYuan-_BTY,bityuan.com,_bty.png,"[""smart_contract_platforms"",""governance""]",{},6224
