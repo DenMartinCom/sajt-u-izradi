@@ -31,3 +31,7 @@ _OETH,,Origin Ether,OriginEther-_OETH,,_oeth.png,[],"{""ethereum"":""0x856c4Efb7
 _RYO,,RYO Token,RYOToken-_RYO,ryocoin.com,_ryo.png,"[""ecommerce"",""wallets"",""point_of_sale""]","{""ethereum"":""0x4c7fe8f97db97cbccc76989ab742afc66ca6e75c""}",32531
 ICHI,,ICHI,ICHI-ICHI,ww7.ichi.farm,ichi.png,"[""yield_farming""]",{},40890
 _________EVA,,EverValueCoin,EverValueCoin-_________EVA,,_________eva.png,[],"{""arbitrum"":""0x45d9831d8751b2325f3dbf48db748723726e1c8c""}",33342
+_WELL,,Moonwell,Moonwell-_WELL,moonwell.fi,_well.png,"[""lending"",""governance""]","{""moonbeam"":""0x511ab53f793683763e5a8829738301368a2411e3"",""base"":""0xa88594d404727625a9437c3f886c7643872296ae""}",20734
+WOMBAT,,Wombat,Wombat-WOMBAT,wombat.app,wombat.png,"[""gaming"",""nfts"",""governance""]","{""bnb"":""0x30C0ef9361645ec56a7e640CD05ce6aBdFce8422""}",39879
+BTG,,Bitcoin Gold,BitcoinGold-BTG,bitcoingold.org,btg.png,[],"{""ethereum"":""0xedbf98724a86f92baefac101082c366e96f1e9d9"",""bnb"":""0xb99f69b7e6A128Dd4D1891e59e7e7556b313ed0D""}",36380
+__AGX,,AEGIS X,AEGISX-__AGX,,__agx.png,[],"{""bnb"":""0xe766023f5a0fa6ce91b9f98D327771437DfcA077""}",42254
