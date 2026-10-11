@@ -174,3 +174,6 @@ XTP,,Tap,Tap-XTP,withtap.com,xtp.png,"[""debit_cards""]","{""ethereum"":""0x6368
 SKEY,,SmartKey,SmartKey-SKEY,skey.network,skey.png,"[""iot""]","{""ethereum"":""0x06a01a4d579479dd5d884ebf61a31727a3d8d442""}",8133
 _UNIBOT,,Unibot v2,Unibotv2-_UNIBOT,unibot.app,_unibot.png,"[""bots""]","{""ethereum"":""0xf819d9cb1c2a819fd991781a822de3ca8607c3c9""}",27009
 ___HOUSE,,Housecoin,Housecoin-___HOUSE,webuyhousecoins.com,___house.png,"[""meme""]","{""solana"":""DitHyRMQiSDhn5cnKMJV2CDDt6sVct96YrECiM49pump""}",36356
+___OPUS,,Opus Genesis,OpusGenesis-___OPUS,opusgenesis.ai,___opus.png,"[""ai"",""meme""]","{""solana"":""Dxg9cLvssqb1WEMpyynjf17kGRc4UTNyUqjzNj99opus"",""base"":""0xFe0E104477431129d215d3992Af7F1D5961FfC50""}",35052
+DTEC,,DTEC,DTEC-DTEC,,dtec.png,[],"{""polygon-ecosystem-token"":""0xd87af7b418d64ff2cde48d890285ba64fc6e115f""}",29456
+OM,,MANTRA,MANTRA-OM,mantrachain.io,om.png,"[""smart_contract_platforms"",""governance""]","{""bnb"":""0x4d41A5d412f4Ef44A35b9f53b06DB65edE249493""}",40073
