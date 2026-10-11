@@ -184,3 +184,6 @@ WDOGE,,Wrapped DogeCoin,WrappedDogeCoin-WDOGE,yobit.net,wdoge.png,"[""wrapped_to
 FRAX,,Frax,Frax-FRAX,frax.com,frax.png,"[""stablecoins""]","{""near-protocol"":""eth-0xdac17f958d2ee523a2206206994597c13d831ec7.omft.near""}",39520
 FLETH,,flETH,flETH-FLETH,,fleth.png,[],"{""base"":""0x000000000d564d5be76f7f0d28fe52605afc7cf8""}",39905
 USDK,,USDK,USDK-USDK,oklink.com,usdk.png,"[""stablecoins""]","{""arc-token"":""0x3600000000000000000000000000000000000000""}",41948
+PRO,,Propy,Propy-PRO,propy.com,pro.png,"[""real_estate""]","{""ethereum"":""0x226bb599a12c826476e3a771454697ea52e9e220"",""base"":""0x18dD5B087bCA9920562aFf7A0199b96B9230438b""}",1974
+_STX,,Stacks,Stacks-_STX,stacks.co,_stx.png,"[""smart_contract_platforms"",""dns""]",{},2370
+CRO,,Cronos,Cronos-CRO,crypto.com,cro.png,"[""cex"",""smart_contract_platforms"",""debit_cards"",""wallets""]","{""optimism-ethereum"":""0x03cc5feF38896537c10Fcb30A53A1B12be101da6"",""robinhood-placeholder"":""0x10B5Ca68a5509B93E6c8f62Ed76a7086164F1F11""}",2892
