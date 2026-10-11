@@ -55,3 +55,5 @@ ___BLM,,BLM coin,BLMcoin-___BLM,,___blm.png,[],"{""bnb"":""0xd6e14208e929a38db47
 OPIUM,,Opium,Opium-OPIUM,opium.network,opium.png,"[""options"",""governance""]","{""bnb"":""0xbc0d5cbcf51d37ed7da33a83314d9ff02d4152e8""}",39849
 KUVI,,Kuvi,Kuvi-KUVI,,kuvi.png,[],"{""bnb"":""0xCCd6b38FffEeAb9c0Ac2413bCcf8b0ACed748881""}",39878
 _WARS,,Peso Argentino,PesoArgentino-_WARS,ripio.com,_wars.png,"[""stablecoins"",""asset_backed_tokens""]","{""ethereum"":""0x0dc4f92879b7670e5f4e4e6e3c801d229129d90d"",""base"":""0x0dc4f92879b7670e5f4e4e6e3c801d229129d90d"",""gnosis-gno"":""0x0dc4f92879b7670e5f4e4e6e3c801d229129d90d"",""worldcoin-org"":""0x0dc4f92879b7670e5f4e4e6e3c801d229129d90d""}",39901
+ZCX,,Unizen,Unizen-ZCX,unizen.io,zcx.png,"[""yield_aggregators""]","{""ethereum"":""0xB3A0F70c913Aa04404BD177BE9E20B47613830B6""}",39935
+GNOD,,Gnodi,Gnodi-GNOD,gnodi.info,gnod.png,"[""smart_contract_platforms"",""governance"",""privacy_coins"",""ai"",""oracle""]","{""osmosis"":""ibc/9005151AB92A888293B05E8D0C679032F86639EC2251430565FA38CF3BB6226B""}",39938
