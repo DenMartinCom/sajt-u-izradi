@@ -220,3 +220,11 @@ KNDX,,Kondux,Kondux-KNDX,kondux.info,kndx.png,"[""metaverse"",""nfts"",""art""]"
 DOLZ,,Dolz (PoS),DolzPoS-DOLZ,dolz.io,dolz.png,"[""gaming"",""nfts"",""metaverse""]","{""ethereum"":""0xe939F011a3d8fC0AA874c97e8156053a903D7176"",""polygon-ecosystem-token"":""0x6ab4e20f36ca48b61ecd66c0450fdf665fa130be"",""base"":""0x8102b2864Eade51A1c36497747132aF689824b59""}",22458
 TRUU,,Truth,Truth-TRUU,,truu.png,[],"{""cronos"":""0x06C04B0AD236e7Ca3B3189b1d049FE80109C7977""}",22794
 _IUSD,,iUSD,iUSD-_IUSD,indigoprotocol.io,_iusd.png,"[""asset_backed_tokens"",""synthetics"",""stablecoins""]","{""cardano"":""f66d78b4a3cb3d37afa0ec36461e51ecbde00f26c8f0a68f94b6988069555344""}",22989
+___PEPE,,PepeSol,PepeSol-___PEPE,pepesol.io,___pepe.png,"[""meme"",""gaming"",""gambling"",""dex""]","{""solana"":""F9CpWoyeBJfoRB8f2pBe2ZNPbPsEE76mWZWme3StsvHK""}",23450
+CPS,,Cryptostone,Cryptostone-CPS,crypto-stone.io,cps.png,"[""cex"",""launchpad"",""wallets"",""ecommerce""]","{""solana"":""8D1nUMJQam54o34Kj2knFhSTaWoehEr4mBc7LfiDdCqq"",""base"":""0x5a75a61032143575067dE2B38eF38d601976091E""}",23523
+TROVE,,Arbitrove,Arbitrove-TROVE,nitrocartel.finance,trove.png,"[""governance"",""index_funds"",""yield_aggregators""]","{""arbitrum"":""0x982239d38af50b0168da33346d85fb12929c4c07""}",23580
+GBK,,GBANK APY,GBANKAPY-GBK,gamebank.fun,gbk.png,"[""interest_earning"",""gaming"",""nfts""]","{""bnb"":""0xdA0638EA374c4c5bF2914E6F4D5B2335dEb8D80D""}",24210
+TKC,,The Kingdom Coin,TheKingdomCoin-TKC,thekingdomcoin.io,tkc.png,"[""charity"",""wallets"",""launchpad"",""governance""]","{""bnb"":""0x06dc293c250e2fb2416a4276d291803fc74fb9b5""}",24840
+GUAC,,Guacamole,Guacamole-GUAC,guac.gg,guac.png,"[""meme"",""nfts""]","{""solana"":""AZsHEMXd36Bj1EMNXhowJajpUXzrKcK57wW4ZGXVa7yR""}",24935
+WASSIE,,WASSIE,WASSIE-WASSIE,ask-wassie.com,wassie.png,"[""meme"",""ai""]","{""ethereum"":""0x2c95d751da37a5c1d9c5a7fd465c1d50f3d96160"",""solana"":""2erZCPbQBobsFV23Z18J8aSfrV3QJ1RB8Ge9jhKjTL9m"",""base"":""0xa067436db77ab18b1a315095e4b816791609897c""}",24974
+SUIP,,SuiPad,SuiPad-SUIP,suipad.xyz,suip.png,"[""launchpad""]","{""sui"":""0xe4239cd951f6c53d9c41e25270d80d31f925ad1655e5ba5b543843d4a66975ee::SUIP::SUIP""}",25100
