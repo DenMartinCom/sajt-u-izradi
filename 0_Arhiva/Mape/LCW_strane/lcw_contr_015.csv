@@ -1,3 +1,10 @@
 id,symbol,name,slug,web,logo,tags,contract,cmc_id
 TOSHE,,TOSHE,TOSHE-TOSHE,toshethecat.com,toshe.png,"[""meme""]","{""base"":""0x00E57Ec29EF2bA7dF07Ad10573011647B2366f6D""}",26160
 __SELF,,SelfToken,SelfToken-__SELF,selftoken.io,__self.png,"[""wallets""]","{""bnb"":""0xC45c56Bf1aaF119a3c266f97BB28BF19646d0B1D""}",26267
+_________LOVE,,Love,Love-_________LOVE,love.game,_________love.png,"[""gaming"",""ai"",""governance""]","{""ethereum"":""0xB22C05CeDbF879a661fcc566B5a759d005Cf7b4C""}",26337
+LIZD,,Dancing Lizard,DancingLizard-LIZD,dancinglizard.io,lizd.png,"[""meme""]","{""bnb"":""0xfb0E9a8F741c09128810cD5e2fac498Bc0848b59""}",26417
+BBTF,,Blockbusters,Blockbusters-BBTF,bbtftoken.com,bbtf.png,"[""interest_earning"",""nfts""]","{""bnb"":""0xe7057B10E2B59F46D151588d9C8694B4b8328F44""}",26540
+__DAO,,Distributed Autonomous Organization,DistributedAutonomousOrganization-__DAO,daoswap.financial,__dao.png,"[""dex"",""governance""]","{""bnb"":""0x037b202ca88d2028d82936d5615ee5088cb9fd78""}",26640
+LAVITA,,Lavita,Lavita-LAVITA,lavita.ai,lavita.png,"[""ai"",""healthcare""]","{""theta-network"":""0x46fBF4487fA1B9C70d35BD761c51c360dF9459ed""}",26650
+_HOW,,HowInu,HowInu-_HOW,howinu.com,_how.png,"[""meme""]","{""bnb"":""0xdAa64420e769fae36CCaA78e26024FE9f583e9D8""}",26713
+_USDC,,USD Coin from Ethereum (PulseChain),USDCoinfromEthereumPulseChain-_USDC,pulsex.com,_usdc.png,"[""wrapped_tokens"",""stablecoins""]","{""arbitrum"":""0x4CFA50B7Ce747e2D61724fcAc57f24B748FF2b2A""}",26744
