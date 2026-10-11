@@ -129,3 +129,4 @@ nvidia-coinbase-tokenized-stock,nvdac,NVIDIA (Coinbase Tokenized Stock),nvidia-c
 tethereum-3,t99,Tethereum,tethereum,tethereum.org,,"{""binance-smart-chain"": ""0xf5f53af4595bab806e2522ca7a8bbcb70a9b3da8""}"
 zeus-5,sn18,Zeus,zeus-5,zeussubnet.com,,"{""bittensor"": ""18""}"
 everybody,hold,Everybody,everybody,everybodyhold.com,,"{""ethereum"": ""0x68b36248477277865c64dfc78884ef80577078f3""}"
+insure,sure,inSure DeFi,insure-defi,insuretoken.net,,"{""ethereum"": ""0xcb86c6a22cb56b6cf40cafedb06ba0df188a416e"", ""polygon-pos"": ""0xf88332547c680f755481bf489d890426248bb275"", ""binance-smart-chain"": ""0x9b17baadf0f21f03e35249e0e59723f34994f806"", ""avalanche"": ""0x5fc17416925789e0852fbfcd81c490ca4abc51f9""}"
