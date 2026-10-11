@@ -1,0 +1,3 @@
+id,symbol,name,slug,web,logo,tags,contract,cmc_id
+TOSHE,,TOSHE,TOSHE-TOSHE,toshethecat.com,toshe.png,"[""meme""]","{""base"":""0x00E57Ec29EF2bA7dF07Ad10573011647B2366f6D""}",26160
+__SELF,,SelfToken,SelfToken-__SELF,selftoken.io,__self.png,"[""wallets""]","{""bnb"":""0xC45c56Bf1aaF119a3c266f97BB28BF19646d0B1D""}",26267
