@@ -247,3 +247,5 @@ _XSWAP,,XSwap,XSwap-_XSWAP,xswap.link,_xswap.png,"[""token_bridges""]","{""bnb""
 YAK,,Yield Yak,YieldYak-YAK,yieldyak.com,yak.png,"[""yield_farming"",""liquid_staking""]","{""avalanche"":""0x59414b3089ce2AF0010e7523Dea7E2b35d776ec7"",""arbitrum"":""0x7f4dB37D7bEb31F445307782Bc3Da0F18dF13696""}",11415
 _CATO,,CATO,CATO-_CATO,catocrypto.com,_cato.png,"[""dex"",""nfts"",""prediction_markets""]","{""solana"":""5p2zjqCd1WJzAVgcEnjhb9zWDU7b9XVhFhx4usiyN7jB""}",11465
 _AMT,,Amateras,Amateras-_AMT,amateras.io,_amt.png,"[""nfts"",""dex"",""governance"",""anime""]","{""bnb"":""0x4ce5f6Bf8e996Ae54709C75865709ACA5127Dd54""}",11499
+_ASH,,Burn,Burn-_ASH,burn.art,_ash.png,"[""nfts"",""art""]","{""ethereum"":""0x64d91f12ece7362f91a6f8e7940cd55f05060b92""}",11566
+REGEN,,Regen,Regen-REGEN,regen.network,regen.png,"[""energy"",""governance"",""charity""]","{""ethereum"":""0xeee10b3736d5978924f392ed67497cfae795128b"",""osmosis"":""ibc/1DCC8A6CB5689018431323953344A9F6CC4D0BFB261E88C9F7777372C10CD076"",""polygon-ecosystem-token"":""0xEc482De9569a5EA3Dd9779039b79e53F15791fDE""}",11646
