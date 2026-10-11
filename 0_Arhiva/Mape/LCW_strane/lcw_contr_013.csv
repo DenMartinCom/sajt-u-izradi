@@ -198,3 +198,10 @@ AGVE,,Agave Token,AgaveToken-AGVE,1hive.org,agve.png,"[""governance"",""lending"
 MEDIA,,Media Network,MediaNetwork-MEDIA,media.network,media.png,"[""governance"",""storage"",""cloud_hosting""]","{""solana"":""ETAtLmCmsoiEEKfNrHKJ2kYy3MoABhU6NQvpSfij5tDs""}",9524
 GNT,,GreenTrust,GreenTrust-GNT,greentrusttoken.com,gnt.png,[],"{""bnb"":""0xf750a26eb0acf95556e8529e72ed530f3b60f348""}",9533
 __OBOT,,OBORTECH,OBORTECH-__OBOT,,__obot.png,[],"{""base"":""0xf83759099dc88f75fc83de854c41e0d9e83ada9b""}",9590
+WSB,,WSB DApp,WSBDApp-WSB,wsbdapp.com,wsb.png,[],"{""bnb"":""0x22168882276e5d5e1da694343b41dd7726eeb288"",""ethereum"":""0xe1590A6FA0CFf9C960181cb77d8a873601772f64""}",9749
+ETH2XFLI,,ETH 2x Flexible Leverage Index,ETH2xFlexibleLeverageIndex-ETH2XFLI,tokensets.com,eth2xfli.png,"[""index_funds""]","{""ethereum"":""0xaa6e8127831c9de45ae56bb1b0d4d4da6e5665bd""}",9789
+_BNX,,BinaryX v1,BinaryXv1-_BNX,binaryx.pro,_bnx.png,"[""metaverse"",""nfts"",""gaming"",""governance""]","{""bnb"":""0x8C851d1a123Ff703BD1f9dabe631b69902Df5f97""}",9891
+ELEPHANT,,Elephant Money,ElephantMoney-ELEPHANT,elephant.money,elephant.png,"[""gaming""]","{""bnb"":""0xE283D0e3B8c102BAdF5E8166B73E02D96d92F688""}",9936
+_VAI,,Vai,Vai-_VAI,venus.io,_vai.png,"[""stablecoins""]","{""bnb"":""0xbb0fa2fbe9b37444f5d1dbd22e0e5bdd2afbbe85""}",10029
+XMS,,Mars Ecosystem Token,MarsEcosystemToken-XMS,marsecosystem.com,xms.png,"[""dex"",""yield_farming"",""nfts"",""governance""]","{""bnb"":""0x7859b01bbf675d67da8cd128a50d155cd881b576""}",10030
+AUC,,Auctus,Auctus-AUC,auctus.org,auc.png,[],"{""bnb"":""0xd15c444f1199ae72795eba15e8c1db44e47abf62""}",10031
