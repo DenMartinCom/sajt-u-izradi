@@ -171,3 +171,7 @@ EGLD,,MultiversX,MultiversX-EGLD,multiversx.com,egld.png,"[""smart_contract_plat
 STMATIC,,Lido Staked MATIC,LidoStakedMATIC-STMATIC,lido.fi,stmatic.png,"[""liquid_staking"",""asset_backed_tokens"",""interest_earning""]","{""ethereum"":""0x9ee91F9f426fA633d227f7a9b000E28b9dfd8599"",""polygon-ecosystem-token"":""0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4""}",18688
 STOSMO,,Stride Staked OSMO,StrideStakedOSMO-STOSMO,app.stride.zone,stosmo.png,"[""liquid_staking"",""asset_backed_tokens"",""interest_earning""]","{""osmosis"":""ibc/D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC""}",29429
 POKT,,Pocket Network,PocketNetwork-POKT,pokt.network,pokt.png,"[""governance""]","{""ethereum"":""0x67f4c72a50f8df6487720261e188f2abe83f57d7""}",27993
+___SFI,,Singularity Finance,SingularityFinance-___SFI,,___sfi.png,[],"{""ethereum"":""0x7636d8722fdf7cd34232a915e48e96aa3eb386bf"",""bnb"":""0x7636d8722fdf7cd34232a915e48e96aa3eb386bf"",""base"":""0x863B7364a29daA23C9FCBD02e27D129A8B185891""}",35732
+ANKRBNB,,Ankr Staked BNB,AnkrStakedBNB-ANKRBNB,ankr.com,ankrbnb.png,"[""liquid_staking"",""asset_backed_tokens"",""interest_earning""]","{""bnb"":""0x52F24a5e03aee338Da5fd9Df68D2b6FAe1178827""}",22944
+KAVA,,Kava,Kava-KAVA,kava.io,kava.png,"[""lending""]","{""kava"":""0xc86c7c0efbd6a49b35e8714c5f59d99de09a225b""}",24165
+CBMEGA,,Coinbase Wrapped MEGA,CoinbaseWrappedMEGA-CBMEGA,coinbase.com,cbmega.png,"[""wrapped_tokens"",""asset_backed_tokens""]","{""base"":""0xcb111E6A2a3bde90856D299d61341ac302167D23""}",39921
