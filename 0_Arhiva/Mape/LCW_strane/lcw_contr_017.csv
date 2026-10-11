@@ -139,3 +139,9 @@ UNIETH,,Universal ETH,UniversalETH-UNIETH,,unieth.png,[],"{""ethereum"":""0xF137
 RBTC,,RSK Smart Bitcoin,RSKSmartBitcoin-RBTC,rootstock.io,rbtc.png,"[""asset_backed_tokens"",""smart_contract_platforms"",""identity"",""logistics""]","{""rsk-smart-bitcoin"":""0x542fDA317318eBF1d3DEAf76E0b632741A7e677d""}",32702
 _BERA,,Berachain,Berachain-_BERA,berachain.com,_bera.png,"[""smart_contract_platforms"",""dex""]","{""berachain"":""0x6969696969696969696969696969696969696969""}",35608
 HBAR,,Hedera Hashgraph,HederaHashgraph-HBAR,hedera.com,hbar.png,"[""smart_contract_platforms""]","{""hedera"":""0.0.1456986""}",24399
+USDTE,,USDT.e,USDTe-USDTE,tether.to,usdte.png,"[""stablecoins"",""asset_backed_tokens"",""wrapped_tokens""]","{""avalanche"":""0xc7198437980c041c805a1edcba50c1ce5db95118""}",21763
+SCRVUSD,,Savings crvUSD,SavingscrvUSD-SCRVUSD,,scrvusd.png,[],"{""ethereum"":""0x0655977FEb2f289A4aB78af67BAB0d17aAb84367""}",34024
+_CBDOGE,,Coinbase Wrapped DOGE,CoinbaseWrappedDOGE-_CBDOGE,coinbase.com,_cbdoge.png,"[""wrapped_tokens"",""asset_backed_tokens"",""meme""]","{""base"":""0xcbD06E5A2B0C65597161de254AA074E489dEb510""}",36708
+S,,Sonic,Sonic-S,soniclabs.com,s.png,"[""smart_contract_platforms"",""governance""]","{""sonic"":""0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38""}",34753
+__SSOL,,Solayer SOL,SolayerSOL-__SSOL,,__ssol.png,[],"{""solana"":""sSo14endRuUbvQaJS3dq36Q829a3A6BEfoeeRGJywEh""}",32591
+CBZEC,,Coinbase Wrapped ZEC,CoinbaseWrappedZEC-CBZEC,coinbase.com,cbzec.png,"[""wrapped_tokens"",""asset_backed_tokens""]","{""base"":""0xB2000000000000000000008501b13360000cb2EC""}",41932
