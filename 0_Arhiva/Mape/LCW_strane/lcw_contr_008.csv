@@ -141,3 +141,9 @@ _MRNA,,Moderna - Backpack Securities,ModernaBackpackSecurities-_MRNA,backpack.ex
 _JAM,,Tune.Fm,TuneFm-_JAM,tune.fm,_jam.png,"[""music""]","{""hedera"":""0.0.127877""}",11420
 MEZO,,MEZO,MEZO-MEZO,mezo.org,mezo.png,"[""smart_contract_platforms""]","{""ethereum"":""0x8e4cbbcc33db6c0a18561fde1f6ba35906d4848b"",""base"":""0x8e4cbBcc33dB6c0a18561fDE1F6bA35906d4848b"",""mezo"":""0x7B7c000000000000000000000000000000000001""}",39727
 EXRD,,E-Radix,ERadix-EXRD,radixdlt.com,exrd.png,"[""smart_contract_platforms"",""lending"",""options""]","{""ethereum"":""0x6468e79A80C0eaB0F9A2B574c8d5bC374Af59414""}",7692
+_OVL,,Overlay,Overlay-_OVL,,_ovl.png,[],"{""bnb"":""0x1F34c87ded863Fe3A3Cd76FAc8adA9608137C8c3""}",23009
+WLKN,,Walken,Walken-WLKN,walken.io,wlkn.png,"[""gaming"",""sports"",""nfts""]","{""solana"":""EcQCUYv57C4V6RoPxkVUiDwtX1SP8y8FP5AEToYL8Az"",""bnb"":""0x657ef7af0fffc7ac913a0492150060935b668f2c""}",18775
+NCDT,,Nuco.cloud,Nucocloud-NCDT,nuco.cloud,ncdt.png,"[""cloud_hosting""]","{""ethereum"":""0xe0c8b298db4cffe05d1bea0bb1ba414522b33c1b""}",6933
+HNS,,Handshake,Handshake-HNS,handshake.org,hns.png,"[""identity"",""security""]","{""bnb"":""0xaab09b5cd1694d12c8c980306f5e2f5d65b00e1c""}",9200
+0xBTC,,0xBitcoin,0xBitcoin-0xBTC,0xbitcoin.org,0xbtc.png,"[""yield_farming""]","{""ethereum"":""0xb6ed7644c69416d67b522e20bc294a9a9b405b31"",""polygon-ecosystem-token"":""0x71b821aa52a49f32eed535fca6eb5aa130085978""}",2837
+MASQ,,MASQ,MASQ-MASQ,masqbrowser.com,masq.png,"[""smart_contract_platforms""]","{""ethereum"":""0x06f3c323f0238c72bf35011071f2b5b7f43a054c"",""polygon-ecosystem-token"":""0xee9a352f6aac4af1a5b9f467f6a93e0ffbe9dd35"",""base"":""0x45D9C101a3870Ca5024582fd788F4E1e8F7971c3""}",8376
