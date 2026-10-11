@@ -159,3 +159,9 @@ NU,,NuCypher,NuCypher-NU,nucypher.com,nu.png,"[""privacy_coins"",""security""]",
 BCNT,,Bincentive Token,BincentiveToken-BCNT,bincentive.com,bcnt.png,"[""ai"",""analytics""]","{""ethereum"":""0x9669890e48f330acd88b78d63e1a6b3482652cd9""}",4808
 _BTCP,,Bitcoin Pro,BitcoinPro-_BTCP,bitcoinpro.money,_btcp.png,[],"{""ethereum"":""0x723cbfc05e2cfcc71d3d89e770d32801a5eef5ab"",""bnb"":""0x5de820707adc87b4581f8e7914a65341e68216db"",""polygon-ecosystem-token"":""0x939dbA50a98A0a4dA1BE61FF0C32Fd51c8c81627""}",5184
 CDAI,,Compound Dai,CompoundDai-CDAI,compound.finance,cdai.png,"[""lending"",""interest_earning"",""asset_backed_tokens""]","{""ethereum"":""0x5d3a536e4d6dbd6114cc1ead35777bab948e3643""}",5263
+SCOP,,Scopuly Token,ScopulyToken-SCOP,scopuly.com,scop.png,"[""dex"",""wallets"",""launchpad"",""token_issuance_platforms""]","{""stellar"":""SCOP-GC6OYQJIZF3HFXCYPFCBXYXNGIBQ4TNSFUBUXQJOZWIP6F3YZK4QH3VQ""}",5392
+CLT,,CoinLoan,CoinLoan-CLT,coinloan.io,clt.png,[],"{""ethereum"":""0x2001f2a0cf801ecfda622f6c28fb6e10d803d969""}",5401
+ORN,,Orion Protocol,OrionProtocol-ORN,orion.xyz,orn.png,"[""dex"",""governance"",""yield_aggregators"",""launchpad""]","{""ethereum"":""0x0258F474786DdFd37ABCE6df6BBb1Dd5dfC4434a"",""bnb"":""0xe4ca1f75eca6214393fce1c1b316c237664eaa8e""}",5631
+MUSD,,mStable USD,mStableUSD-MUSD,mstable.org,musd.png,"[""stablecoins""]","{""ethereum"":""0xe2f2a5c287993345a840db3b0845fbc70f5935a5""}",5747
+CBP,,CashBackPro,CashBackPro-CBP,cbp.finance,cbp.png,"[""interest_earning""]","{""bnb"":""0x15d1dafBcC97F606bd02120d170fdAc33B1a4a86""}",5781
+TRCL,,Treecle,Treecle-TRCL,treecle.io,trcl.png,"[""gaming"",""nfts"",""commodities"",""energy"",""wallets""]","{""bnb"":""0x774a53c2be994299bd07cb4d74fc7c0271916713""}",5800
