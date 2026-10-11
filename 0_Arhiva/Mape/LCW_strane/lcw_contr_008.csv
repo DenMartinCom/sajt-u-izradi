@@ -1,0 +1,6 @@
+id,symbol,name,slug,web,logo,tags,contract,cmc_id
+_____________________HODL,,HODL,HODL-_____________________HODL,,_____________________hodl.png,[],"{""bnb"":""0x32B407ee915432Be6D3F168bc1EfF2a6F8b2034C""}",9900
+IDEX,,IDEX,IDEX-IDEX,kuma.bid,idex.png,"[""dex""]","{""ethereum"":""0xb705268213d593b8fd88d3fdeff93aff5cbdcfae""}",3928
+ASE,,Asentum,Asentum-ASE,,ase.png,[],"{""ethereum"":""0x041Ff0E49F6F774E7DC7bD10Ee4A14c00B1D80B2""}",39920
+_RZR,,Rezerve.money,Rezervemoney-_RZR,rezerve.money,_rzr.png,"[""yield_farming"",""lending"",""nfts""]","{""ethereum"":""0xb4444468e444f89e1c2cac2f1d3ee7e336cbd1f5"",""arbitrum"":""0xb4444468e444f89e1c2cac2f1d3ee7e336cbd1f5"",""base"":""0xb4444468e444f89e1c2cac2f1d3ee7e336cbd1f5"",""hyperliquid"":""0x6492582d90449b9f8913fcbf85104cce"",""sonic"":""0xb4444468e444f89e1c2cac2f1d3ee7e336cbd1f5""}",37291
+NIBI,,Nibiru,Nibiru-NIBI,nibiru.fi,nibi.png,"[""smart_contract_platforms""]","{""ethereum"":""0x8a47e412a865198b9d5f10ff2e54f788f1696195"",""base"":""0x3ade6652f203d919697f8577f75eebb989a5c586""}",28508
