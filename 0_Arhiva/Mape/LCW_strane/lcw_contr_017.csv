@@ -134,3 +134,8 @@ DPI,,DeFiPulse Index,DeFiPulseIndex-DPI,tokensets.com,dpi.png,"[""index_funds"",
 WTAO,,Wrapped TAO,WrappedTAO-WTAO,bittensor.com,wtao.png,"[""ai""]","{""ethereum"":""0x77E06c9eCCf2E797fd462A92B6D7642EF85b0A44""}",23528
 CDCETH,,Crypto.com Wrapped Staked ETH,CryptocomWrappedStakedETH-CDCETH,crypto.com,cdceth.png,"[""wrapped_tokens""]","{""ethereum"":""0xfe18ae03741a5b84e39c295ac9c856ed7991c38e"",""cronos"":""0x7a7c9db510aB29A2FC362a4c34260BEcB5cE3446""}",30923
 SWETH,,Swell Staked Ether,SwellStakedEther-SWETH,swellnetwork.io,sweth.png,"[""asset_backed_tokens"",""liquid_staking"",""restaking"",""interest_earning""]","{""ethereum"":""0xf951E335afb289353dc249e82926178EaC7DEd78""}",25147
+PUFETH,,pufETH,pufETH-PUFETH,puffer.fi,pufeth.png,"[""asset_backed_tokens"",""liquid_staking"",""restaking""]","{""ethereum"":""0xD9A442856C234a39a81a089C06451EBAa4306a72""}",29325
+UNIETH,,Universal ETH,UniversalETH-UNIETH,,unieth.png,[],"{""ethereum"":""0xF1376bceF0f78459C0Ed0ba5ddce976F1ddF51F4""}",23773
+RBTC,,RSK Smart Bitcoin,RSKSmartBitcoin-RBTC,rootstock.io,rbtc.png,"[""asset_backed_tokens"",""smart_contract_platforms"",""identity"",""logistics""]","{""rsk-smart-bitcoin"":""0x542fDA317318eBF1d3DEAf76E0b632741A7e677d""}",32702
+_BERA,,Berachain,Berachain-_BERA,berachain.com,_bera.png,"[""smart_contract_platforms"",""dex""]","{""berachain"":""0x6969696969696969696969696969696969696969""}",35608
+HBAR,,Hedera Hashgraph,HederaHashgraph-HBAR,hedera.com,hbar.png,"[""smart_contract_platforms""]","{""hedera"":""0.0.1456986""}",24399
