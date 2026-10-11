@@ -366,3 +366,4 @@ astraai,astra,AstraAI,astraai,chatastra.ai,,"{""ethereum"": ""0x0aa8a7d1fb4c64b3
 metronome,met,Metronome,metronome,metronome.io,,"{""ethereum"": ""0x2ebd53d035150f328bd754d6dc66b99b0edb89aa""}"
 fxn-token,fxn,f(x) Protocol,f-x-protocol,fx.aladdin.club,,"{""ethereum"": ""0x365accfca291e7d3914637abf1f7635db165bb09""}"
 nest-treasury-vault,ntbill,Nest Treasury Vault,nest-treasury-vault,app.nest.credit,,"{""ethereum"": ""0xe72fe64840f4ef80e3ec73a1c749491b5c938cb9"", ""plume-network"": ""0xe72fe64840f4ef80e3ec73a1c749491b5c938cb9"", ""arbitrum-one"": ""0xe72fe64840f4ef80e3ec73a1c749491b5c938cb9""}"
+zarp-stablecoin,zarp,ZARP Stablecoin,zarp-stablecoin,zarp.cash,,"{""ethereum"": ""0xb755506531786c8ac63b756bab1ac387bacb0c04"", ""base"": ""0xb755506531786c8ac63b756bab1ac387bacb0c04"", ""solana"": ""dngKhBQM3BGvsDHKhrLnjvRKfY5Q7gEnYGToj9Lk8rk"", ""polygon-pos"": ""0xb755506531786c8ac63b756bab1ac387bacb0c04""}"
