@@ -343,3 +343,4 @@ pixels,pixel,Pixels,pixels,pixels.xyz,,"{""ethereum"": ""0x3429d03c6f7521aec737a
 monbasecoin,mbc,MonbaseCoin,monbasecoin,monbase.com,,"{""binance-smart-chain"": ""0x551faab1027cc50efaea5bed092e330475c3cd99""}"
 amd-xstock,amdx,AMD xStock,amd-xstock,xstocks.fi,,"{""ethereum"": ""0x3522513e5f146a2006e2901b05f16b2821485e19"", ""solana"": ""XsXcJ6GZ9kVnjqGsjBnktRcuwMBmvKWh8S93RefZ1rF""}"
 minotaur-2,sn112,minotaur,minotaur,minotaursubnet.com,,"{""bittensor"": ""112""}"
+itsai,sn32,ItsAI,itsai,its-ai.org,,"{""bittensor"": ""32""}"
