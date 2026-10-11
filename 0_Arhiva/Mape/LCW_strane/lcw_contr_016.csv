@@ -246,3 +246,6 @@ _MERC,,Liquid Mercury,LiquidMercury-_MERC,merc.liquidmercury.com,_merc.png,"[""a
 TIMELESS,,Timeless,Timeless-TIMELESS,,timeless.png,[],"{""bnb"":""0x0ACE816a5336D8Bdf8DEce69cf084A03e36c4444""}",38510
 BABY4,,Baby 4,Baby4-BABY4,,baby4.png,[],"{""bnb"":""0xE815f6941d19D1e20b0e1f92471c6143809F4444""}",38563
 ________1,,1,1-________1,,________1.png,[],"{""bnb"":""0xE77223430bfb8e497a3c8E126cb5Ad5275934444""}",38565
+_____CRP,,CryptoPeso,CryptoPeso-_____CRP,,_____crp.png,[],"{""bnb"":""0x86333e34c8804532Ae34207c46e741cBc3Ff3FE3""}",38575
+TSAT,,Satoshi a BTC Stablecoin,SatoshiaBTCStablecoin-TSAT,satoshi15.com,tsat.png,"[""asset_backed_tokens"",""stablecoins""]","{""solana"":""tSATdGGSLYBVCrm3pXiib8NmzKcB1iUdjRRseNGssxu""}",38598
+_DEW,,DewDAO,DewDAO-_DEW,moonex.io,_dew.png,"[""governance"",""dex"",""meme""]","{""bnb"":""0xA9550C2112a277b03CCfF6aa1BaaacD74c754444""}",38603
