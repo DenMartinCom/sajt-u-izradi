@@ -1,0 +1,6 @@
+id,symbol,name,slug,web,logo,tags,contract,cmc_id
+XT,,XT Token,XTToken-XT,xt.com,xt.png,"[""cex"",""smart_contract_platforms""]","{""ethereum"":""0x4be10da47a07716af28ad199fbe020501bddd7af""}",5999
+BOND,,BarnBridge,BarnBridge-BOND,barnbridge.com,bond.png,"[""governance"",""yield_aggregators"",""yield_farming""]","{""ethereum"":""0x4E67DB19044549fF420860834c91b45BaD298722""}",42393
+JEANPHIL,,Jean Phil,JeanPhil-JEANPHIL,jeanphilmadame.com,jeanphil.png,"[""meme""]","{""solana"":""GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump""}",42521
+_WBS,,WebSea,WebSea-_WBS,websea.com,_wbs.png,[],"{""polygon-ecosystem-token"":""0xee5bb31fdf28b5d64f5a5605085cc4e3649aa624""}",28546
+P2PS,,P2P Solutions Foundation,P2PSolutionsFoundation-P2PS,p2psf.org,p2ps.png,"[""telecom"",""logistics"",""storage""]","{""ethereum"":""0x4527a3b4a8a150403090a99b87effc96f2195047""}",13887
