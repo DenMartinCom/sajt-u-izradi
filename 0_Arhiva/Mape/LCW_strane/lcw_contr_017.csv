@@ -42,3 +42,6 @@ VKHYPE,,Kinetiq Earn Vault,KinetiqEarnVault-VKHYPE,kinetiq.xyz,vkhype.png,[],{},
 _GCOW,,GameCow,GameCow-_GCOW,cow.cm,_gcow.png,"[""vpn"",""governance""]",{},39490
 _TTC,,Tao Te Ching,TaoTeChing-_TTC,ttcswap.finance,_ttc.png,"[""dex"",""nfts""]",{},39514
 BNB,,BNB,BNB-BNB,binance.com,bnb.png,"[""cex"",""smart_contract_platforms""]",{},39517
+MONSTRO,,Monstro DeFi,MonstroDeFi-MONSTRO,,monstro.png,[],"{""base"":""0x1d3bE1CC80cA89DDbabe5b5C254AF63200e708f7""}",39578
+AVLT,,Altura Vault Tokens,AlturaVaultTokens-AVLT,altura.trade,avlt.png,"[""asset_backed_tokens"",""commodities"",""lending""]","{""hyperliquid"":""0xd0Ee0CF300DFB598270cd7F4D0c6E0D8F6e13f29""}",39589
+NANANA,,ナナナ Banana Republic,BananaRepublic-NANANA,hexoacoin.com,nanana.png,"[""meme""]","{""bnb"":""0x797ef3B1b38F91dd20d3Ad1D57Fb88C03Ad82107""}",39605
