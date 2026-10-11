@@ -85,3 +85,4 @@ tokenize-everything,everything,Tokenize Everything,tokenize-everything,everythin
 bitrise-token,brise,Bitgert,bitgert,bitgert.com,,"{""binance-smart-chain"": ""0x8fff93e810a2edaafc326edee51071da9d398e83"", ""ethereum"": ""0xf2b2f7b47715256ce4ea43363a867fdce9353e3a"", ""solana"": ""ErSZNwsamWjR9Hj2o18GLwVyTkooyGbdptjMjuv72X8A""}"
 minswap,min,Minswap,minswap,minswap.org,,"{""cardano"": ""29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e""}"
 compute-horde,sn12,Compute Horde,compute-horde,computehorde.io,,"{""bittensor"": ""12""}"
+alchemix,alcx,Alchemix,alchemix,alchemix.fi,,"{""ethereum"": ""0xdbdb4d16eda451d0503b854cf79d55697f90c8df""}"
