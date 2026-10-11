@@ -1,3 +1,10 @@
 id,symbol,name,slug,web,logo,tags,contract,cmc_id
 _________________GM,,GM Everyday,GMEveryday-_________________GM,saygmeveryday.io,_________________gm.png,"[""ai"",""bots"",""meme""]","{""base"":""0x5D9c2457a10d455e0AD8e28e40CC28EACF27A06a""}",34213
 _DIGI,,Digicoin,Digicoin-_DIGI,,_digi.png,[],"{""solana"":""AUdUEc98MGfEHJiJfCgMaW8gKdcfNDio8BFzGKBwjztC""}",36152
+EFB,,ETHFan Burn,ETHFanBurn-EFB,ethfan.club,efb.png,"[""interest_earning""]","{""bnb"":""0x45b695F2594713c96B52468ED168A691986b858A""}",39117
+FRM,,Ferrum Network,FerrumNetwork-FRM,ferrum.network,frm.png,"[""yield_aggregators"",""cloud_hosting""]","{""polygon-ecosystem-token"":""0xbF7970D56a150cD0b60BD08388A4A75a27777777""}",31229
+FAIR3,,Fair and Free,FairandFree-FAIR3,,fair3.png,"[""ai"",""streaming""]","{""ethereum"":""0x17CDB2a01e7a34CbB3DD4b83260B05d0274C8dab"",""bnb"":""0xa8AEA66B361a8d53e8865c62D142167Af28Af058"",""solana"":""3jiqwBQVRC5zRwHyqvnkQurebJ5RNxg3F5fXMwaxgkv8"",""polygon-ecosystem-token"":""0x52828daa48C1a9A06F37500882b42daf0bE04C3B"",""base"":""0x46C85152bFe9f96829aA94755D9f915F9B10EF5F""}",29207
+PANDO,,Pando,Pando-PANDO,pandobrowser.com,pando.png,"[""vpn"",""advertising""]","{""ethereum"":""0x252b9F56359901a0BDE52d0675b1f1130d86F471""}",8711
+D2T,,Dash 2 Trade,Dash2Trade-D2T,dash2trade.com,d2t.png,"[""analytics""]","{""ethereum"":""0x4Dd942bAa75810a3C1E876e79d5cD35E09C97A76""}",23210
+TAUM,,Orbitau Taureum,OrbitauTaureum-TAUM,orbitau.io,taum.png,"[""gaming"",""nfts"",""governance""]","{""bnb"":""0x02e22eb7f6e73ef313dd71248cd164b1bdc5aadd""}",16875
+_MRNA,,Moderna - Backpack Securities,ModernaBackpackSecurities-_MRNA,backpack.exchange,_mrna.png,"[""healthcare""]","{""okb"":""0xCe0FBc16E820AB7fd6d2936F1533c2654AD49aE9""}",41483
