@@ -223,3 +223,10 @@ _HUNNY,,HUNNY FINANCE,HUNNYFINANCE-_HUNNY,hunny.finance,_hunny.png,"[""interest_
 TFI,,TrustFi Network Token,TrustFiNetworkToken-TFI,trustfi.org,tfi.png,[],"{""bnb"":""0x7565ab68d3f9dadff127f864103c8c706cf28235""}",10585
 SAFEBULL,,SafeBull,SafeBull-SAFEBULL,safe-bull.com,safebull.png,[],"{""bnb"":""0xfa344c08c93066a4d6266063c6ebc63925a18467""}",10644
 EIFI,,EIFI FINANCE,EIFIFINANCE-EIFI,brandbucket.com,eifi.png,"[""dex"",""yield_farming""]","{""bnb"":""0xbbf33a3c83cf86d0965a66e108669d272dfe4214""}",10648
+KOGECOIN,,KogeCoin,KogeCoin-KOGECOIN,kogecoin.io,kogecoin.png,"[""yield_farming"",""yield_aggregators""]","{""polygon-ecosystem-token"":""0x13748d548d95d78a3c83fe3f32604b4796cffa23""}",10665
+KOJI,,Koji,Koji-KOJI,koji.earth,koji.png,[],"{""bnb"":""0x7eb567F5c781EE8e47C7100DC5046955503fc26A""}",10680
+OLIVE,,OliveCash Token,OliveCashToken-OLIVE,olive.cash,olive.png,"[""dex"",""yield_farming""]","{""bnb"":""0x617724974218A18769020A70162165A539c07E8a"",""avalanche"":""0x617724974218A18769020A70162165A539c07E8a""}",10685
+MOONED,,MoonEdge,MoonEdge-MOONED,moonedge.finance,mooned.png,[],"{""polygon-ecosystem-token"":""0x7e4c577ca35913af564ee2a24d882a4946ec492b"",""base"":""0x599899dBaA0b4d3110b53d1A4d05fCdCb1C81945""}",10695
+BABI,,Babylons,Babylons-BABI,babylons.io,babi.png,"[""nfts"",""gaming"",""art""]","{""bnb"":""0xec15a508a187e8ddfe572a5423faa82bbdd65120""}",10714
+NT,,NEXTYPE Finance,NEXTYPEFinance-NT,nextype.finance,nt.png,"[""nfts"",""gaming""]","{""htx-token"":""0x8b70512b5248e7c1f0f6996e2fde2e952708c4c9"",""bnb"":""0xfbcf80ed90856af0d6d9655f746331763efdb22c""}",10742
+PEFI,,Penguin Finance,PenguinFinance-PEFI,ww12.penguinfinance.io,pefi.png,[],"{""avalanche"":""0xe896CDeaAC9615145c0cA09C8Cd5C25bced6384c""}",10818
