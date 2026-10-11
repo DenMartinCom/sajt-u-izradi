@@ -73,3 +73,4 @@ taiwan-semiconductor-manufacturing-ondo-tokenized-stock,tsmon,Taiwan Semiconduct
 sandisk-ondo-tokenized,sndkon,SanDisk (Ondo Tokenized),sandisk-ondo-tokenized,app.ondo.finance,,"{""ethereum"": ""0x71e2400cf1cb83204f33794ed326636a71a9aafc"", ""binance-smart-chain"": ""0x4fd67cb8cfedc718bac984b5936abe3330d0a2a4"", ""solana"": ""EJmUVvDqAdfH5zEohkdS4234bi3c6iunqEMobjmondo"", ""hyperevm"": ""0xb8927cff399e23328eec0e457e75c709dcfcf382""}"
 wrapped-itry,witry,Wrapped iTRY,wrapped-itry,brix.money,,"{""ethereum"": ""0xe346c29b5b60ef870b9724c57ccfbbc631e47dee"", ""megaeth"": ""0x15b271d9012b5820fc42b1c495b4c1e206547de5"", ""robinhood"": ""0x15b271d9012b5820fc42b1c495b4c1e206547de5""}"
 ycash,yec,Ycash,ycash,y.cash,,"{"""": """"}"
+ald,ald,ALD,ald,aldrwa.com,,"{""binance-smart-chain"": ""0x3cbd513239d9e5538a4caed8ed53ef77009df473""}"
