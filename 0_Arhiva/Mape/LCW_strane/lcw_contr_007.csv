@@ -217,3 +217,9 @@ TSLAB,,Tesla Tokenized bStocks,TeslaTokenizedbStocks-TSLAB,bstocks.finance,tslab
 SPCXB,,SpaceX Tokenized bStocks,SpaceXTokenizedbStocks-SPCXB,bstocks.finance,spcxb.png,"[""asset_backed_tokens""]","{""bnb"":""0x41622a9125a22767df8c1dc79fc17299bac4bd0b""}",42302
 XNA,,Neurai,Neurai-XNA,neurai.org,xna.png,"[""iot"",""ai"",""nfts""]",{},27195
 FRIC,,FRIC,FRIC-FRIC,,fric.png,"[""meme"",""nfts""]","{""solana"":""EsP4kJfKUDLfX274WoBSiiEy74Sh4tZKUCDjfULHpump""}",34406
+_EAI,,Eternal AI,EternalAI-_EAI,eternalai.org,_eai.png,"[""ai"",""governance""]","{""ethereum"":""0xa84f95eb3DaBdc1bbD613709ef5F2fD42CE5bE8d"",""base"":""0x4B6bF1d365ea1A8d916Da37FaFd4ae8C86d061D7""}",31401
+_GPU,,NodeAI,NodeAI-_GPU,nodeai.app,_gpu.png,"[""ai""]","{""ethereum"":""0x1258d60b224c0c5cd888d37bbf31aa5fcfb7e870"",""base"":""0x16A3832E690278D4979fd072FA4913BD1E8cbfD8""}",29513
+____LC,,LC SHIB,LCSHIB-____LC,,____lc.png,[],"{""solana"":""43YakhC3TcSuTgSXnxFgw8uKL8VkuLuFa4M6Bninpump""}",35560
+____MAT,,Matchain,Matchain-____MAT,,____mat.png,[],"{""bnb"":""0xFE2DD2d57a05F89438F3AEC94EaFA4070396bab0"",""matchain"":""0x44a83a012B926853DFc1BBE2ec5BEf37126067e8"",""base"":""0xAb5061BebE14630a768D361BB43E7ca714C634E4""}",36397
+ABYSS,,ABYSS,ABYSS-ABYSS,theabyss.com,abyss.png,"[""gaming""]","{""bnb"":""0x85375D3e9c4a39350f1140280a8b0De6890A40e7""}",38742
+PIRATE,,PirateCash,PirateCash-PIRATE,piratecash.net,pirate.png,[],"{""bnb"":""0xaFCC12e4040615E7Afe9fb4330eB3D9120acAC05""}",4460
