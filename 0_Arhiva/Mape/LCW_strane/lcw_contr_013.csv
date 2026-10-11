@@ -148,3 +148,4 @@ VEE,,BLOCKv,BLOCKv-VEE,blockv.io,vee.png,"[""vr""]","{""ethereum"":""0x340d2bde5
 POLY,,Polymath Network,PolymathNetwork-POLY,polymath.network,poly.png,"[""identity"",""wallets""]","{""ethereum"":""0x9992ec3cf6a55b00978cddf2b27bc6882d88d1ec""}",2496
 _EDGE,,Edge,Edge-_EDGE,edge.network,_edge.png,"[""storage""]","{""ethereum"":""0x4ec1b60b96193a64acae44778e51f7bff2007831""}",2535
 LCC,,Litecoin Cash,LitecoinCash-LCC,litecoinca.sh,lcc.png,"[""wallets""]",{},2540
+EURS,,STASIS EURS,STASISEURS-EURS,stasis.net,eurs.png,"[""stablecoins"",""asset_backed_tokens""]","{""ethereum"":""0xdb25f211ab05b1c97d595516f45794528a807ad8"",""xdc-network"":""0x1ebb2c8a71a9ec59bf558886a8adf8f4a565814f""}",2989
