@@ -183,3 +183,4 @@ MVI,,Metaverse Index,MetaverseIndex-MVI,tokensets.com,mvi.png,[],"{""ethereum"":
 WDOGE,,Wrapped DogeCoin,WrappedDogeCoin-WDOGE,yobit.net,wdoge.png,"[""wrapped_tokens""]","{""plasma-xpl"":""0x6100E367285b01F48D07953803A2d8dCA5D19873""}",38514
 FRAX,,Frax,Frax-FRAX,frax.com,frax.png,"[""stablecoins""]","{""near-protocol"":""eth-0xdac17f958d2ee523a2206206994597c13d831ec7.omft.near""}",39520
 FLETH,,flETH,flETH-FLETH,,fleth.png,[],"{""base"":""0x000000000d564d5be76f7f0d28fe52605afc7cf8""}",39905
+USDK,,USDK,USDK-USDK,oklink.com,usdk.png,"[""stablecoins""]","{""arc-token"":""0x3600000000000000000000000000000000000000""}",41948
