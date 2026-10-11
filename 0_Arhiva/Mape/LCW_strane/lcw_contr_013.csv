@@ -181,3 +181,6 @@ DYP,,Dypius,Dypius-DYP,dypius.com,dyp.png,"[""yield_farming""]","{""ethereum"":"
 WAXE,,WAXE,WAXE-WAXE,wax.io,waxe.png,"[""gaming""]","{""ethereum"":""0x7a2bc711e19ba6aff6ce8246c546e8c4b4944dfd""}",8136
 WISE,,Wise Token,WiseToken-WISE,wisetoken.net,wise.png,[],"{""ethereum"":""0x66a0f676479cee1d7373f3dc2e2952778bff5bd6""}",8167
 3CRV,,LP 3pool Curve,LP3poolCurve-3CRV,curve.fi,3crv.png,"[""stablecoins"",""lending"",""yield_farming""]","{""ethereum"":""0x6c3f90f043a72fa612cbac8115ee7e52bde6e490"",""avalanche"":""0x1337bedc9d22ecbe766df105c9623922a27963ec""}",8249
+XFUND,,xFund,xFund-XFUND,unification.com,xfund.png,"[""oracle""]","{""ethereum"":""0x892a6f9df0147e5f079b0993f486f9aca3c87881"",""sora"":""0x007e908e399cc73f3dad9f02f9c5c83a7adcd07e78dd91676ff3c002e245d8e9""}",8339
+_BAMBOO,,BambooDeFi,BambooDeFi-_BAMBOO,bamboodefi.com,_bamboo.png,[],"{""ethereum"":""0xf56842Af3B56Fd72d17cB103f92d027bBa912e89"",""bnb"":""0x198abb2d13faa2e52e577d59209b5c23c20cd6b3""}",8389
+WILC,,Wrapped ILCOIN,WrappedILCOIN-WILC,wilc.finance,wilc.png,"[""wrapped_tokens""]","{""ethereum"":""0xc98a910ede52e7d5308525845f19e17470dbccf7""}",8447
