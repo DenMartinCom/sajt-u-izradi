@@ -766,13 +766,13 @@ body {
     width: 100%;
 }
 
-/* Toolbar red iznad kalkulatora: dropdown + okrugli 1% checkbox */
+/* Toolbar red iznad kalkulatora: dropdown + okrugli 1% checkbox — levo ravnanje */
 .kalk-toolbar {
     flex: 0 0 100%;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;   /* LEVO ravnanje */
     gap: 14px;
     margin-bottom: 4px;
 }
@@ -841,17 +841,16 @@ body {
     letter-spacing: 0.3px;
 }
 
+/* Levo i desno polje — ISTA ŠIRINA */
 .kalk-polje {
     display: flex;
     flex-direction: column;
     gap: 4px;
     min-width: 0;
-}
-.kalk-polje:first-of-type {
-    flex: 0 0 20%;
+    flex: 1 1 0;                 /* oba polja iste širine */
 }
 .kalk-polje-desno {
-    flex: 1;
+    flex: 1 1 0;                 /* ista širina kao levo */
 }
 .kalk-zastava {
     width: 22px;
@@ -998,7 +997,7 @@ body {
     .kurs-grid { grid-template-columns: 1fr; }
     .liste-red .lr-promena { min-width: 62px; }
     .liste-red .lr-cena { padding-right: 16px; }
-    .kalk-polje:first-of-type { flex: 0 0 25%; }
+    /* .kalk-polje:first-of-type — OBRISATI, ne treba više jer su oba ista */
     .kalk-provizija input[type="checkbox"] { width: 18px; height: 18px; }
 }
 
