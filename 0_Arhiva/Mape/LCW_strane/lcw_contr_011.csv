@@ -94,3 +94,7 @@ PLPA,,PALAPA,PALAPA-PLPA,palapatoken.id,plpa.png,"[""governance""]","{""ethereum
 CGN,,CYGNUS,CYGNUS-CGN,,cgn.png,[],"{""base"":""0x2e6C4BD1C947e195645d2B920b827498cfAa6766""}",38718
 _CLAN,,clan.tech,clantech-_CLAN,clan.tech,_clan.png,[],"{""robinhood-placeholder"":""0xcebc0cfbc5dd0893a9e3b9d0f75b211ddf5934a0""}",42010
 _MRNA,,Moderna - Backpack Securities,ModernaBackpackSecurities-_MRNA,backpack.exchange,_mrna.png,"[""healthcare""]",{},38153
+__MTC,,Metacoin,Metacoin-__MTC,metacoin.network,__mtc.png,[],{},6498
+FRXETH,,Frax Ether,FraxEther-FRXETH,app.frax.finance,frxeth.png,"[""asset_backed_tokens""]","{""ethereum"":""0x5E8422345238F34275888049021821E8E08CAa1f"",""bnb"":""0x64048A7eEcF3a2F1BA9e144aAc3D7dB6e58F555e"",""fantom"":""0x9E73F99EE061C8807F69f9c6CCc44ea3d8c373ee"",""polygon-ecosystem-token"":""0xEe327F889d5947c1dc1934Bb208a1E792F953E96"",""optimism-ethereum"":""0x6806411765Af15Bddd26f8f544A34cC40cb9838B"",""moonbeam"":""0x82bbd1b6f6De2B7bb63D3e1546e6b1553508BE99"",""arbitrum"":""0x178412e79c25968a32e89b11f63B33F733770c2A"",""polygon"":""0xcf7ecee185f19e2e970a301ee37f93536ed66179"",""frax-share"":""0xFC00000000000000000000000000000000000006"",""sonic"":""0x43edd7f3831b08fe70b7555ddd373c8bf65a9050""}",23225
+ARKIE,,Arkie,Arkie-ARKIE,,arkie.png,[],"{""bnb"":""0x6cd3025F851F36e74937D4e652f6AE9D4b2E88cF""}",41784
+QRL,,Quantum Resistant Ledger,QuantumResistantLedger-QRL,theqrl.org,qrl.png,"[""security""]",{},1712
