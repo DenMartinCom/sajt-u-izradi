@@ -488,3 +488,4 @@ openai-prestocks-2,openai,OpenAI PreStocks,openai-prestocks,prestocks.com,,"{""s
 propbase,props,Propbase,propbase,propbase.app,,"{""aptos"": ""0xe50684a338db732d8fb8a3ac71c4b8633878bd0193bca5de2ebc852a83b35099::propbase_coin::PROPS"", ""ethereum"": ""0xad05253a381feade280ca50bf875dc8113e8a746"", ""base"": ""0xd6aaf4d477999fa50c5a1aa35f708862113a73cc""}"
 star-atlas,atlas,Star Atlas,star-atlas,staratlas.com,,"{""solana"": ""ATLASXmbPQxBUYbxPsV97usA3fPQYEqzQBUHgiFCUsXx""}"
 microsoft-bstocks-tokenized-stock,msftb,Microsoft (bStocks Tokenized Stock),microsoft-bstocks-tokenized-stock,bstocks.finance,,"{""binance-smart-chain"": ""0x80106cb3ead06659a5ad19df39d9b4733863b9b0""}"
+soli-coin-2,soli,SOLI coin,soli-coin,solicoin.ai,,"{""ethereum"": ""0x0eaddcbe240d7eeb1ba21f1eed48e58293969c6e""}"
