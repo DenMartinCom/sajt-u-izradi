@@ -20,3 +20,4 @@ amazon-robinhood-tokenized-stock,amzn,Amazon • Robinhood Token,amazon-robinhoo
 alphabet-coinbase-tokenized-stock,googlc,Alphabet (Coinbase Tokenized Stock),alphabet-coinbase-tokenized-stock,coinbase.com,,"{""base"": ""0xb2000000000000000000002d0ba3164cc74f58b7""}"
 taler-2,tlo,TAU Lending Optimizer on Taler,taler-2,taler.finance,,"{""ethereum"": ""0x0f38f1ce62776d4a0038bc6cac66877a5687383b""}"
 suku,suku,SUKU,suku,suku.world,,"{""ethereum"": ""0x0763fdccf1ae541a5961815c0872a8c5bc6de4d7"", ""solana"": ""4DxUsKzkzPEsPd2QFrba4VYK5wQFKTEQia6TxpkFnubm"", ""polygon-pos"": ""0x60ea918fc64360269da4efbda11d8fc6514617c6""}"
+gmcoin-2,gmcoin,GMCoin,gmcoin,gmc.gm-informatics.com,,"{""tron"": ""1002357""}"
