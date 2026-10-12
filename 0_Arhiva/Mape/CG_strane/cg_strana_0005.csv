@@ -28,3 +28,4 @@ real-4,real,Real,real-3,realyn.gold,,"{""solana"": ""8Aq4fWMgPqJbF3w8w8PnLDRVUAF
 dora-factory-2,dora,Dora Factory,dora-factory,dorafactory.org,,"{""ethereum"": ""0x4957805230831401caad5b690aa138143b711358""}"
 koinos,koin,Koinos,koinos,koinos.io,,"{"""": """"}"
 memory-cow-moo,moo,Memory cow Moo,memory-cow-moo,,,"{""robinhood"": ""0xd9db30bb0d2b8d2eae3826a1372117e058791e18""}"
+agoric,bld,Agoric,agoric,agoric.com,,"{""osmosis"": ""ibc/2DA9C149E9AD2BD27FEFA635458FB37093C256C1A940392634A16BEA45262604"", ""secret"": ""secret1uxvpq889uxjcpj656yjjexsqa3zqm6ntkyjsjq"", ""archway"": ""ibc/8CB56C813A5C2387140BBEAABCCE797AFA0960C8D07B171F71A5188726CFED2C""}"
