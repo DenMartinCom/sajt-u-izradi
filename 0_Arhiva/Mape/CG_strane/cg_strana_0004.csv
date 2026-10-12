@@ -464,3 +464,4 @@ tangent-usg,usg,Tangent USG,tangent-usg,app.tangent.finance,,"{""ethereum"": ""0
 pundi-aifx,pundiai,Pundi AI,pundi-ai,pundi.ai,,"{""ethereum"": ""0x075f23b9cdfce2cc0ca466f4ee6cb4bd29d83bef"", ""binance-smart-chain"": ""0x7a986ba67227acfab86385ff33436a80e2bb4cc5""}"
 wigl,wigl,Wigl,wigl,wigl.fr,,"{""ethereum"": ""0xf8206a19fca5999425358de4e4cdefc7f5c5d4ca""}"
 nimiq-2,nim,Nimiq,nimiq,nimiq.com,,"{"""": """"}"
+suins-token,ns,SuiNS Token,suins-token,suins.io,,"{""sui"": ""0x5145494a5f5100e645e4b0aa950fa6b68f614e8c59e17bc5ded3495123a79178::ns::NS""}"
