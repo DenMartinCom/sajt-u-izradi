@@ -1,3 +1,4 @@
 id,symbol,name,slug,web,logo,contract
 polyhedra-network,zkj,Polyhedra Network,polyhedra-network,polyhedra.network,,"{""ethereum"": ""0xc71b5f631354be6853efe9c3ab6b9590f8302e81"", ""binance-smart-chain"": ""0xc71b5f631354be6853efe9c3ab6b9590f8302e81""}"
 sentinel,p2p,Sentinel,sentinel,sentinel.co,,"{"""": """", ""osmosis"": ""ibc/9712DBB13B9631EDFA9BF61B55F1B2D290B2ADB67E3A4EB3A875F3B6081B3B84""}"
+infinitehash,sn89,InfiniteHash,infinitehash,infinitehash.xyz,,"{""bittensor"": ""89""}"
