@@ -9,3 +9,4 @@ citrea-usd,ctusd,Citrea USD,citrea-usd,citrea.xyz,,"{""citrea"": ""0x8d82c4e3c93
 agave-token,agve,Agave,agave-token,agave.finance,,"{""xdai"": ""0x3a97704a1b25f08aa230ae53b352e2e72ef52843"", ""arbitrum-one"": ""0x848e0ba28b637e8490d88bae51fa99c87116409b""}"
 zar-universal,zaru,ZAR Universal,zar-universal,zaru.network,,"{""solana"": ""2WvREMqcoxtGuKTyyuzVMH7xDkeH8mY6phduvUofPRXN"", ""ethereum"": ""0xe205b4e7ac03e3f7b2060c3edf2171aa7126c0d5"", ""base"": ""0xe205b4e7ac03e3f7b2060c3edf2171aa7126c0d5"", ""arc"": ""0xe205b4e7ac03e3f7b2060c3edf2171aa7126c0d5""}"
 usd-somnia,usdso,USD Somnia,usd-somnia,somnia.network,,"{""somnia"": ""0x00000022da000002656c64d9ea6011ea952d008a""}"
+dextf,dextf,Memento,memento,mementoblockchain.com,,"{""ethereum"": ""0x5f64ab1544d28732f0a24f4713c2c8ec0da089f0"", ""base"": ""0xb69bbb15095c0949489fbb43951d2b750fa7fa89"", ""avalanche"": ""0x03e8d118a1864c7dc53bf91e007ab7d91f5a06fa"", ""zksync"": ""0x9929bcac4417a21d7e6fc86f6dae1cc7f27a2e41""}"
