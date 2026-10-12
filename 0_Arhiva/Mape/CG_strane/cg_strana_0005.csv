@@ -41,3 +41,4 @@ asml-holding-nv-ondo-tokenized-stock,asmlon,ASML Holding NV (Ondo Tokenized Stoc
 rocket-lab-bstocks-tokenized-stock,rklbb,Rocket Lab (bStocks Tokenized Stock),rocket-lab-bstocks-tokenized-stock,binance.com,,"{""binance-smart-chain"": ""0xc8da12cbcce7c45180692a6420b0076e03a5179a""}"
 pibble,pib,Pibble,pibble,pibble.io,,"{""ethereum"": ""0x1864ce27e9f7517047933caae530674e8c70b8a7"", ""klay-token"": ""0xafde910130c335fa5bd5fe991053e3e0a49dce7b""}"
 world3,wai,World3,world3,world3.ai,,"{""binance-smart-chain"": ""0x1e3dbc0aad9671fdd31e58b2fcc6cf1ca9947994""}"
+byteleap,sn128,ByteLeap,byteleap,byteleap.ai,,"{""bittensor"": ""128""}"
