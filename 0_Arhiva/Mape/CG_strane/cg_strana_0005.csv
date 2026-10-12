@@ -85,3 +85,4 @@ dollar-on-chain,doc,Dollar On Chain,dollar-on-chain,moneyonchain.com,,"{""rootst
 nexora,nex,Nexora,nexora,nexoracrypto.com,,"{""ethereum"": ""0x58412ae274f2764b71c66315d97662d47d930d94""}"
 teddy-bear,bear,TEDDY BEAR,teddy-bear,teddybearpulse.com,,"{""pulsechain"": ""0xd6c31ba0754c4383a41c0e9df042c62b5e918f6d""}"
 ishares-russell-2000-etf-ondo-tokenized-etf,iwmon,iShares Russell 2000 ETF (Ondo Tokenized ETF),ishares-russell-2000-etf-ondo-tokenized-etf,app.ondo.finance,,"{""ethereum"": ""0x070d79021dd7e841123cb0cf554993bf683c511d"", ""binance-smart-chain"": ""0x500eafc69b68acd6f27064f9b75f1c7d91cc4d9f"", ""solana"": ""dvj2kKFSyjpnyYSYppgFdAEVfgjMEoQGi9VaV23ondo""}"
+brain,sn90,Brain,brain,,,"{""bittensor"": ""90""}"
