@@ -447,3 +447,4 @@ galaxy-weth-quality,eth:gwethq,Galaxy WETH Quality,galaxy-weth-quality,etherscan
 lienfi,lfi,LienFi,lienfi,lienfi.com,,"{""base"": ""0x3722264ab15a1dfce5a5af89e6547f7949a8aba3""}"
 forte-aud,audf,Forte AUD,forte-aud,forteaud.com,,"{""ethereum"": ""0xd2a530170d71a9cfe1651fb468e2b98f7ed7456b"", ""base"": ""0xd2a530170d71a9cfe1651fb468e2b98f7ed7456b"", ""polygon-pos"": ""0xd2a530170d71a9cfe1651fb468e2b98f7ed7456b"", ""avalanche"": ""0xd2a530170d71a9cfe1651fb468e2b98f7ed7456b""}"
 arrow-air,arrow,Arrow Air,arrow-air,arrowair.com,,"{""ethereum"": ""0x736609d310b5f925531b5ad895925cb0586f6241""}"
+luxxcoin,lux,Luxxcoin,luxxcoin,luxxcoin.io,,"{""solana"": ""3bSGpKYPut6RXDxp41nvb2GM7eR4kEmJExFFHoYkW3w2""}"
