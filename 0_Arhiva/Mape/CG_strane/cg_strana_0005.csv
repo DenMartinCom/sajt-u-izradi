@@ -42,3 +42,4 @@ rocket-lab-bstocks-tokenized-stock,rklbb,Rocket Lab (bStocks Tokenized Stock),ro
 pibble,pib,Pibble,pibble,pibble.io,,"{""ethereum"": ""0x1864ce27e9f7517047933caae530674e8c70b8a7"", ""klay-token"": ""0xafde910130c335fa5bd5fe991053e3e0a49dce7b""}"
 world3,wai,World3,world3,world3.ai,,"{""binance-smart-chain"": ""0x1e3dbc0aad9671fdd31e58b2fcc6cf1ca9947994""}"
 byteleap,sn128,ByteLeap,byteleap,byteleap.ai,,"{""bittensor"": ""128""}"
+boson-protocol,boson,Boson,boson,bosonprotocol.io,,"{""ethereum"": ""0xc477d038d5420c6a9e0b031712f61c5120090de9"", ""base"": ""0x2192607c3cba9ec3d490206d10d831e68e5f3c97"", ""polygon-pos"": ""0x9b3b0703d392321ad24338ff1f846650437a43c9"", ""arbitrum-one"": ""0x54b334d68cf5382fee7fbbe496fcf1e76d9ba000"", ""optimistic-ethereum"": ""0x647fe0cca3df596ba414c8c600d441bb3d10d616""}"
