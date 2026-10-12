@@ -81,3 +81,4 @@ coherent-bstocks-tokenized-stock,cohrb,Coherent (bStocks Tokenized Stock),cohere
 aavegotchi,ghst,Aavegotchi,aavegotchi,aavegotchi.com,,"{""ethereum"": ""0x3f382dbd960e3a9bbceae22651e88158d2791550"", ""base"": ""0xcd2f22236dd9dfe2356d7c543161d4d260fd9bcb"", ""energi"": ""0x4bd75f8c7e067ea9b6e2dfbecd99d805396bc5ff"", ""polygon-pos"": ""0x385eeac5cb85a38a9a07a70c73e0a3271cfb54a7""}"
 resupply,rsup,Resupply,resupply,resupply.fi,,"{""ethereum"": ""0x419905009e4656fdc02418c7df35b1e61ed5f726""}"
 wingbits,wings,Wingbits,wingbits,wingbits.com,,"{""solana"": ""WingsAYbfs4qnEgcw8jpSvetqp8XHM3GkKvow54WLcd""}"
+dollar-on-chain,doc,Dollar On Chain,dollar-on-chain,moneyonchain.com,,"{""rootstock"": ""0xe700691da7b9851f2f35f8b8182c69c53ccad9db"", ""arbitrum-one"": ""0x2ad62eb9744c720364f6ac856360a43e8a2229b5""}"
