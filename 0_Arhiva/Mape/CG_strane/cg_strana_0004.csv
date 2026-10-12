@@ -486,3 +486,4 @@ spdr-gold-shares-ondo-tokenized,gldon,SPDR Gold Shares (Ondo Tokenized),spdr-gol
 nest-2,nest,NEST,nest,usenest.xyz,,"{""hyperevm"": ""0x07c57e32a3c29d5659bda1d3efc2e7bf004e3035""}"
 openai-prestocks-2,openai,OpenAI PreStocks,openai-prestocks,prestocks.com,,"{""solana"": ""PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF""}"
 propbase,props,Propbase,propbase,propbase.app,,"{""aptos"": ""0xe50684a338db732d8fb8a3ac71c4b8633878bd0193bca5de2ebc852a83b35099::propbase_coin::PROPS"", ""ethereum"": ""0xad05253a381feade280ca50bf875dc8113e8a746"", ""base"": ""0xd6aaf4d477999fa50c5a1aa35f708862113a73cc""}"
+star-atlas,atlas,Star Atlas,star-atlas,staratlas.com,,"{""solana"": ""ATLASXmbPQxBUYbxPsV97usA3fPQYEqzQBUHgiFCUsXx""}"
