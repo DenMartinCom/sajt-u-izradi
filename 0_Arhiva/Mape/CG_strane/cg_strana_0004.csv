@@ -469,3 +469,4 @@ minutes-network-token,mntx,Minutes Network Token,minutes-network-token,minutesne
 arm-holdings-plc-ondo-tokenized-stock,armon,Arm Holdings plc (Ondo Tokenized Stock),arm-holdings-plc-ondo-tokenized-stock,app.ondo.finance,,"{""ethereum"": ""0x5bf1b2a808598c0ef4af1673a5457d86fe6d7b3d"", ""binance-smart-chain"": ""0x527c6436e1eaa4f2065cde4090f798cb5d031dd6"", ""solana"": ""15SsCZqCsM9fZGhTmP4rdJTPT9WGZKazDSsgeQ8ondo""}"
 umbra,umbra,Umbra,umbra,,,"{""solana"": ""PRVT6TB7uss3FrUd2D9xs2zqDBsa3GbMJMwCQsgmeta""}"
 world-of-dypians,wod,World of Dypians,world-of-dypians,worldofdypians.com,,"{""binance-smart-chain"": ""0xb994882a1b9bd98a71dd6ea5f61577c42848b0e8""}"
+lockheed-ondo-tokenized-stock,lmton,Lockheed (Ondo Tokenized Stock),lockheed-ondo-tokenized-stock,app.ondo.finance,,"{""ethereum"": ""0x691b126cf619707ed5d16cab1b27c000aa8de300"", ""binance-smart-chain"": ""0xd09f7b75b9659b864c6f82bb00ff096f9d277998"", ""solana"": ""EoReHwUnGGekbXFHLj5rbCVKiwWqu32GrETMfw4ondo""}"
