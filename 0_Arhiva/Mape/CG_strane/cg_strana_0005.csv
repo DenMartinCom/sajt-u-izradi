@@ -121,3 +121,4 @@ ai-network,ain,AI Network,ai-network,ainetwork.ai,,"{""ethereum"": ""0x3a810ff72
 gemhub,ghub,GemHUB,gemhub,gemhub.io,,"{""klay-token"": ""0x4836cc1f355bb2a61c210eaa0cd3f729160cd95e""}"
 nomu,nomu,Nomu,nomu,nomu.dev,,"{""solana"": ""NomuBwKJEvJ8d4dsaq7NZoHaXWXzKcfke1c7Y8ruFYL""}"
 feg-token-2,feg,FEED EVERY GORILLA,feg-token,feg.io,,"{""binance-smart-chain"": ""0xf3c7cecf8cbc3066f9a87b310cebe198d00479ac""}"
+pnetwork,pnt,pNetwork,pnetwork,p.network,,"{""ethereum"": ""0x89ab32156e46f46d02ade3fecbe5fc4243b9aaed"", ""binance-smart-chain"": ""0xdaacb0ab6fb34d24e8a67bfa14bf4d95d4c7af92""}"
