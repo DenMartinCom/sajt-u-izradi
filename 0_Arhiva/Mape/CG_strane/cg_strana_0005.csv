@@ -266,3 +266,4 @@ edge,edge,Edge,edge,edge.network,,"{""ethereum"": ""0x4ec1b60b96193a64acae44778e
 sleepless-ai,ai,Sleepless AI,sleepless-ai,sleeplessai.net,,"{""binance-smart-chain"": ""0xbda011d7f8ec00f66c1923b049b94c67d148d8b2""}"
 better-therapy,sn102,BetterTherapy,better-therapy,bettertherapy.ai,,"{""bittensor"": ""102""}"
 stau,stau,STAU,stau,stauweb.com,,"{""polygon-pos"": ""0x37c5ebfae4e4da225e9d8042b05063c4a2c94bb6""}"
+midas-mmev,mmev,Midas mMEV,midas-mmev,midas.app,,"{""ethereum"": ""0x030b69280892c888670edcdcd8b69fd8026a0bf3"", ""plume-network"": ""0x7d611dc23267f508de90724731dc88ca28ef7473"", ""etherlink"": ""0x5542f82389b76c23f5848268893234d8a63fd5c8""}"
