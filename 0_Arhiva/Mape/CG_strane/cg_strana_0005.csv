@@ -405,3 +405,4 @@ myro,myro,MYRO,myro,myrothedog.com,,"{""solana"": ""Bm3dgkZrjH7eaz1GBH1R2ZHkp7nZ
 rif-us-dollar,usdrif,RIF US Dollar,rif-us-dollar,rif.technology,,"{""rootstock"": ""0x3a15461d8ae0f0fb5fa2629e9da7d66a794a6e37"", ""arbitrum-one"": ""0x8eef5ed361c6823156d936209e23a8e0349e5c61""}"
 eastworld,sn94,Bitsota,bitsota,,,"{""bittensor"": ""94""}"
 cofinex-2,cnx,Cofinex,cofinex-2,cofinex.io,,"{""binance-smart-chain"": ""0xdea0b8ad5806d8be6ea38ba4e5fc36118808eb04""}"
+spectra-finance,spectra,Spectra,spectra-finance,spectra.finance,,"{""base"": ""0x64fcc3a02eeeba05ef701b7eed066c6ebd5d4e51"", ""arbitrum-one"": ""0x64fcc3a02eeeba05ef701b7eed066c6ebd5d4e51"", ""optimistic-ethereum"": ""0x248f43b622ce2f35a14db3fc528284730b619cd5"", ""ethereum"": ""0x6a89228055c7c28430692e342f149f37462b478b""}"
