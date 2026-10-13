@@ -133,3 +133,4 @@ monetrix-usd,usdm,Monetrix USD,monetrix-usd,monetrix.xyz,,"{""hyperevm"": ""0xe2
 sat-rush,rush,Sat Rush,sat-rush,satrush.io,,"{""solana"": ""SATqS9DYpLQsM2z51P4QCoqJRHa5wboV4qjJerJRUSH""}"
 yieldfi-vyusd,vyusd,YieldFi vyUSD,yieldfi-vyusd,yield.fi,,"{""ethereum"": ""0x2e3c5e514eef46727de1fe44618027a9b70d92fc"", ""sonic"": ""0xf4f447e6afa04c9d11ef0e2fc0d7f19c24ee55de"", ""base"": ""0xf4f447e6afa04c9d11ef0e2fc0d7f19c24ee55de"", ""optimistic-ethereum"": ""0xf4f447e6afa04c9d11ef0e2fc0d7f19c24ee55de"", ""arbitrum-one"": ""0xf4f447e6afa04c9d11ef0e2fc0d7f19c24ee55de""}"
 scor,scor,Scor,scor,scor.io,,"{""base"": ""0xd67ec255100ef200a439d09ff865fbaa2ad9c730"", ""mantle"": ""0x8ddb986b11c039a6cc1dbcabd62bae911b348f33""}"
+swisscheese,swch,SwissCheese,swisscheese,swisscheese.finance,,"{""polygon-pos"": ""0x3ce1327867077b551ae9a6987bf10c9fd08edce1""}"
