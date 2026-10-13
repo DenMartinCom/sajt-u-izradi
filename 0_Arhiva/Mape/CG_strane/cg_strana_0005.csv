@@ -306,3 +306,4 @@ lifeform,lft,Lifeform,lifeform,lifeform.cc,,"{""binance-smart-chain"": ""0xa9f97
 ishares-china-large-cap-etf-ondo-tokenized,fxion,iShares China Large-Cap ETF (Ondo Tokenized),ishares-china-large-cap-etf-ondo-tokenized,app.ondo.finance,,"{""ethereum"": ""0x2dd57b497c777d9825a5902114be81df98ede958"", ""binance-smart-chain"": ""0x9b8e987e6fec8cf1380c4dca7071e2c7853aeea1"", ""solana"": ""CeFbGYXDmkyfo1TXXzzZ512mtnCCewNohu6V15vondo""}"
 vanar-chain-2,vanry,Vanar,vanar-chain,onvanar.com,,"{""base"": ""0x07848a7b542a9cd856122c6c4ab9ec87c44f8b63""}"
 geom,geom,GEOM,geom,geom.org,,"{""solana"": ""6dX5M8DY6VTFtVRX5yzWn9RE4MkJTyoAVbAodk6cpump""}"
+maiar-dex,mex,xExchange,xexchange,xexchange.com,,"{""elrond"": ""mex-455c57""}"
