@@ -142,3 +142,4 @@ thetanuts-finance,nuts,Thetanuts Finance,thetanuts-finance,thetanuts.finance,,"{
 gamestop-robinhood-tokenized-stock,gme,GameStop • Robinhood Token,gamestop-robinhood-token,robinhood.com,,"{""robinhood"": ""0x1b0e319c6a659f002271b69db8a7df2f911c153e""}"
 fxarbusdtry,fxarbusdtry,FXArbUSDTRY,fxarbusdtry,balsafinance.com,,"{""ethereum"": ""0x633748335ee5b33dea9fc25c9ecc6f92270c713f""}"
 ishares-core-s-p-midcap-etf-ondo-tokenized-etf,ijhon,iShares Core S&P MidCap ETF (Ondo Tokenized ETF),ishares-core-s-p-midcap-etf-ondo-tokenized-etf,app.ondo.finance,,"{""ethereum"": ""0xfd50fc4e3686a8da814c5c3d6121d8ab98a537f0"", ""binance-smart-chain"": ""0x167e93a849a0cc479769132552b99aa1cfa0948c"", ""solana"": ""cfPLN9WXD2BTkbZhRZMVXPmVSiRo44hJWRtnaC8ondo""}"
+tao-private-network,sn65,True Performance Network,tao-private-network,trueperformancenetwork.com,,"{""bittensor"": ""65""}"
