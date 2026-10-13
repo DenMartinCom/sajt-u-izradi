@@ -123,3 +123,4 @@ nomu,nomu,Nomu,nomu,nomu.dev,,"{""solana"": ""NomuBwKJEvJ8d4dsaq7NZoHaXWXzKcfke1
 feg-token-2,feg,FEED EVERY GORILLA,feg-token,feg.io,,"{""binance-smart-chain"": ""0xf3c7cecf8cbc3066f9a87b310cebe198d00479ac""}"
 pnetwork,pnt,pNetwork,pnetwork,p.network,,"{""ethereum"": ""0x89ab32156e46f46d02ade3fecbe5fc4243b9aaed"", ""binance-smart-chain"": ""0xdaacb0ab6fb34d24e8a67bfa14bf4d95d4c7af92""}"
 zen-ai,zai,Zen AI,zen-ai,zencoin.ai,,"{""solana"": ""8vwqxHGz1H4XxyKajr99Yxm65HjYNVtqtCNoM2yWb13e""}"
+ni-compute,sn27,NI Compute,ni-compute,neuralinternet.ai,,"{""bittensor"": ""27""}"
