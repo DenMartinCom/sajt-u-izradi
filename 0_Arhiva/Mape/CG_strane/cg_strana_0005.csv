@@ -415,3 +415,4 @@ handl-pay,handl,HandlPay,handlpay,handlpay.com,,"{""base"": ""0x3bbcb624cb9a1f73
 pocketcoin,pkoin,Pocketcoin,pocketcoin,pocketnet.app,,"{"""": """"}"
 tensorprox,sn91,tensorprox,tensorprox,shugo.io,,"{""bittensor"": ""91""}"
 xiiid,xiiid,XIIID,xiiid,xiiid.ai,,"{""solana"": ""AtNfXEt9vSZtHovxVYKXrfFwATfddmeMvApugZzcdWiQ""}"
+macropod,audm,Macropod,macropod,macropod.com,,"{""ethereum"": ""0x081599e4936d12c46bd48913b2329115cd26cbdd"", ""solana"": ""CiYXBwHPrdNkMtxR8YEWKv78K6bQjFoEWhPQrZqEmubi"", ""redbelly-network"": ""0x081599e4936d12c46bd48913b2329115cd26cbdd"", ""base"": ""0xeded6ae915b129b67a4ad49901518f2736427063""}"
