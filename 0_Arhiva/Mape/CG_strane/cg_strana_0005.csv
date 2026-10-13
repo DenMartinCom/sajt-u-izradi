@@ -219,3 +219,4 @@ compliant-naira,cngn,Compliant Naira,compliant-naira,cngn.co,,"{""base"": ""0xc9
 8-bit-coin,coin,8-Bit Coin,8-bit-coin,8bit.so,,"{""solana"": ""3xvLSHrLcM7246X1vu34cM9gNX741kQrzqj6T2HhLvXp""}"
 frax-price-index-share,fpis,Frax Price Index Share,frax-price-index-share,app.frax.finance,,"{""ethereum"": ""0xc2544a32872a91f4a553b404c6950e89de901fdb"", ""fraxtal"": ""0xfc00000000000000000000000000000000000004"", ""binance-smart-chain"": ""0xd1738eb733a636d1b8665f48bc8a24da889c2562"", ""arbitrum-one"": ""0x3405e88af759992937b84e58f2fe691ef0eea320""}"
 iren-ondo-tokenized-stock,irenon,IREN (Ondo Tokenized Stock),iren-ondo-tokenized-stock,app.ondo.finance,,"{""ethereum"": ""0x0b59fdb1a233a7477ea14061004b9dd776e73cb3"", ""binance-smart-chain"": ""0x8fd70ee385f470c8d6fda2d93a4e49c849bac6a6"", ""solana"": ""13QHuepdhtJ3urNsV9i1hdL8nQoca2G7ZaLzb5FYondo""}"
+aeternity,ae,Aeternity,aeternity,aeternity.com,,"{"""": """"}"
