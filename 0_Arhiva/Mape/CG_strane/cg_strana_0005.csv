@@ -325,3 +325,4 @@ wrapped-fragsol,wfragsol,Wrapped fragSOL,wrapped-fragsol,fragmetric.xyz,,"{""sol
 unipeg,upeg,Unipeg,unipeg,unipeg.art,,"{""ethereum"": ""0x44b28991b167582f18ba0259e0173176ca125505""}"
 gold-11,gold,GOLD,gold-11,oro.finance,,"{""solana"": ""GoLDppdjB1vDTPSGxyMJFqdnj134yH6Prg9eqsGDiw6A""}"
 pundu,pundu,Pundu,pundu,pundu.io,,"{""solana"": ""WskzsKqEW3ZsmrhPAevfVZb6PuuLzWov9mJWZsfDePC""}"
+evausdc,evausdc,evaUSDC,evausdc,eva.markets,,"{""ethereum"": ""0x741bd193b6b40f8703d2e116fd1965421f290f58"", ""avalanche"": ""0x741bd193b6b40f8703d2e116fd1965421f290f58"", ""sonic"": ""0x741bd193b6b40f8703d2e116fd1965421f290f58"", ""base"": ""0x741bd193b6b40f8703d2e116fd1965421f290f58"", ""linea"": ""0x741bd193b6b40f8703d2e116fd1965421f290f58""}"
