@@ -197,3 +197,4 @@ swarm-bzz,bzz,Swarm,swarm,ethswarm.org,,"{""ethereum"": ""0x19062190b1925b5b6689
 mxnb,mxnb,MXNB,mxnb,mxnb.mx,,"{""ethereum"": ""0xf197ffc28c23e0309b5559e7a166f2c6164c80aa"", ""arbitrum-one"": ""0xf197ffc28c23e0309b5559e7a166f2c6164c80aa"", ""avalanche"": ""0xf197ffc28c23e0309b5559e7a166f2c6164c80aa"", ""base"": ""0xf197ffc28c23e0309b5559e7a166f2c6164c80aa"", ""polygon-pos"": ""0xf197ffc28c23e0309b5559e7a166f2c6164c80aa""}"
 mystandard,myst,MyStandard,mystandard,mystandard.io,,"{""avalanche"": ""0x0256b279d973c8d687264ac3eb36be09232d4474""}"
 chevron-ondo-tokenized-stock,cvxon,Chevron (Ondo Tokenized Stock),chevron-ondo-tokenized-stock,app.ondo.finance,,"{""ethereum"": ""0x8f3e41b378ae010c46d255f36bfc1d303b52dceb"", ""binance-smart-chain"": ""0xd3113a0ad20a46f6a662c63fe8e637f7713e59c7"", ""solana"": ""7tgKziACteG26VjV5xKufojKxwTgCFyTwmWUmz5ondo""}"
+streetvision-by-natix,sn72,StreetVision by NATIX,streetvision-by-natix,natix.network,,"{""bittensor"": ""72""}"
