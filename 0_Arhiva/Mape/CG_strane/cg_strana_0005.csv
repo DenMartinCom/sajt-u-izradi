@@ -247,3 +247,4 @@ bloom-energy-bstocks-tokenized-stock,beb,Bloom Energy (bStocks Tokenized Stock),
 win-jie,win界,WIN界,win-jie,flap.sh,,"{""binance-smart-chain"": ""0x3f15b50f4631ca33ebf06bef7b6f9ad2448d7777""}"
 veno-usd,vusd,Veno USD,veno-usd,veno.finance,,"{""cronos-zkevm"": ""0x5b91e29ae5a71d9052620acb813d5ac25ec7a4a2""}"
 allindoge,allindoge,ALLINDOGE,allindoge,allindoge.net,,"{""solana"": ""HyDKNdnhZNVYQMruBevbNsUWruA9STmAQrS4srXApump""}"
+ramp,ramp,RAMP [OLD],ramp-old,rampdefi.com,,"{""ethereum"": ""0x33d0568941c0c64ff7e0fb4fba0b11bd37deed9f"", ""polygon-pos"": ""0xaecebfcf604ad245eaf0d5bd68459c3a7a6399c2"", ""binance-smart-chain"": ""0x8519ea49c997f50ceffa444d240fb655e89248aa""}"
