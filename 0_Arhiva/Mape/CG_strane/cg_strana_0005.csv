@@ -195,3 +195,4 @@ oklo-inc-rstock,roklo,Oklo Tokenized Stock (Reality),oklo-inc-rstock,realityfina
 pmint,pmint,pMINT,pmint,pmint.win,,"{""pulsechain"": ""0xff640cbd35a618df1348d861b5e47f7eab05b422""}"
 swarm-bzz,bzz,Swarm,swarm,ethswarm.org,,"{""ethereum"": ""0x19062190b1925b5b6689d7073fdfc8c2976ef8cb"", ""xdai"": ""0xdbf3ea6f5bee45c02255b2c26a16f300502f68da""}"
 mxnb,mxnb,MXNB,mxnb,mxnb.mx,,"{""ethereum"": ""0xf197ffc28c23e0309b5559e7a166f2c6164c80aa"", ""arbitrum-one"": ""0xf197ffc28c23e0309b5559e7a166f2c6164c80aa"", ""avalanche"": ""0xf197ffc28c23e0309b5559e7a166f2c6164c80aa"", ""base"": ""0xf197ffc28c23e0309b5559e7a166f2c6164c80aa"", ""polygon-pos"": ""0xf197ffc28c23e0309b5559e7a166f2c6164c80aa""}"
+mystandard,myst,MyStandard,mystandard,mystandard.io,,"{""avalanche"": ""0x0256b279d973c8d687264ac3eb36be09232d4474""}"
