@@ -376,3 +376,4 @@ xen-crypto,xen,XEN Crypto,xen-crypto,xen.network,,"{""ethereum"": ""0x06450dee7f
 multi-asset-investment-vehicle,maiv,Multi Asset Investment Vehicle,multi-asset-investment-vehicle,maiv.io,,"{""ethereum"": ""0x39903a1a6f289a67e0de94096915c4ccd506ab2a""}"
 creator-2,sn98,ForeverMoney,forevermoney,forevermoney.ai,,"{""bittensor"": ""98""}"
 lmao,lmao!,LMAO!,lmao,pump.fun,,"{""solana"": ""H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump""}"
+kyve-network,kyve,KYVE Network,kyve-network,app.kyve.network,,"{""osmosis"": ""ibc/613BF0BF2F2146AE9941E923725745E931676B2C14E9768CD609FA0849B2AE13"", ""base"": ""0xad13bce42394add02e6c215a40e582309b7975c7""}"
