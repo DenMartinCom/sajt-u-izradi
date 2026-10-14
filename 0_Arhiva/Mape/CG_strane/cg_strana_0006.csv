@@ -65,3 +65,4 @@ gems-vip,gems,Gems VIP,gems-vip,gems.vip,,"{""ethereum"": ""0x3010ccb5419f1ef26d
 beethoven-x,beets-legacy,Beethoven X (Legacy),beethoven-x,ftm.beets.fi,,"{""fantom"": ""0xf24bcf4d1e507740041c9cfd2dddb29585adce1e"", ""optimistic-ethereum"": ""0xb4bc46bc6cb217b59ea8f4530bae26bf69f677f0""}"
 kiboshib,kibshi,KiboShib,kiboshib,kiboshib.com,,"{""ethereum"": ""0x02e7f808990638e9e67e1f00313037ede2362361"", ""base"": ""0xc7dcca0a3e69bd762c8db257f868f76be36c8514"", ""solana"": ""BxBkTCHsrcYChcwB459CAGPX9x4fWSVnmzqh5efgUN1R"", ""arbitrum-one"": ""0xf525e73bdeb4ac1b0e741af3ed8a8cbb43ab0756""}"
 karencoin,karen,KarenCoin,karencoin,karencointoken.com,,"{""binance-smart-chain"": ""0xfd42728b76772a82ccad527e298dd15a55f4ddd6""}"
+solmev,sn116,SolMev,solmev,solanamev.io,,"{""bittensor"": ""116""}"
