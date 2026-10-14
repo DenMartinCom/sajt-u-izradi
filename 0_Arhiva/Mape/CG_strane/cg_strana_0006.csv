@@ -60,3 +60,4 @@ solpump,solpump,SOLPUMP,solpump,spump.io,,"{""solana"": ""3VW31dwix6k2EdzhDgZ2zB
 robinhood-rstock,rhood,Robinhood Markets Tokenized Stock (Reality),robinhood-rstock,realityfinance.xyz,,"{""arbitrum-one"": ""0x485cb1ed5662a911eba7f8547eb9e253cf43b8ae"", ""morph-l2"": ""0x47d1fba4f6cc82028382d66bc8155fa68a07b286""}"
 refund,rfd,Refund,refund,refundcoin.org,,"{""ethereum"": ""0x955d5c14c8d4944da1ea7836bd44d54a8ec35ba1""}"
 hyperswap,swap,HyperSwap,hyperswap,hyperswap.exchange,,"{""hyperevm"": ""0x03832767bdf9a8ef007449942125ad605acfadb8""}"
+route-2,route,Route,route,route.fun,,"{""robinhood"": ""0x4a72b9702f991b790788f8afa9e7112541f4e8f8""}"
