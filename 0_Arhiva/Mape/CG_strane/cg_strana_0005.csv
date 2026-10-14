@@ -456,3 +456,4 @@ tesla-coinbase-tokenized-stocks,tslac,Tesla (Coinbase Tokenized Stocks),tesla-co
 dolz-io,dolz,DOLZ.io,dolz-io,dolz.io,,"{""ethereum"": ""0xe939f011a3d8fc0aa874c97e8156053a903d7176"", ""base"": ""0x8102b2864eade51a1c36497747132af689824b59"", ""polygon-pos"": ""0x6ab4e20f36ca48b61ecd66c0450fdf665fa130be""}"
 daddy-doge,daddydoge,Daddy Doge,daddy-doge,daddydoge.finance,,"{""binance-smart-chain"": ""0x7cce94c0b2c8ae7661f02544e62178377fe8cf92""}"
 billion-dollar-cat-runes,billy,Billy (Bitcoin),billion-dollar-cat-runes,billiondollarcat.com,,"{""ordinals"": ""845764:84"", ""solana"": ""BDCs2xEqzXyRpp9P6uPDnAvERpLKBfzHPEzbe3BfCxDY""}"
+fluence-2,flt,Fluence,fluence,fluence.network,,"{""ethereum"": ""0x236501327e701692a281934230af0b6be8df3353""}"
