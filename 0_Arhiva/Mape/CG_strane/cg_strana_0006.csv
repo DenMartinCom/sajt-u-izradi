@@ -62,3 +62,4 @@ refund,rfd,Refund,refund,refundcoin.org,,"{""ethereum"": ""0x955d5c14c8d4944da1e
 hyperswap,swap,HyperSwap,hyperswap,hyperswap.exchange,,"{""hyperevm"": ""0x03832767bdf9a8ef007449942125ad605acfadb8""}"
 route-2,route,Route,route,route.fun,,"{""robinhood"": ""0x4a72b9702f991b790788f8afa9e7112541f4e8f8""}"
 gems-vip,gems,Gems VIP,gems-vip,gems.vip,,"{""ethereum"": ""0x3010ccb5419f1ef26d40a7cd3f0d707a0fa127dc""}"
+beethoven-x,beets-legacy,Beethoven X (Legacy),beethoven-x,ftm.beets.fi,,"{""fantom"": ""0xf24bcf4d1e507740041c9cfd2dddb29585adce1e"", ""optimistic-ethereum"": ""0xb4bc46bc6cb217b59ea8f4530bae26bf69f677f0""}"
