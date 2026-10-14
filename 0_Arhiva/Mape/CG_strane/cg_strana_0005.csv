@@ -491,3 +491,4 @@ xterio,xter,Xterio,xterio,xter.io,,"{""binance-smart-chain"": ""0x103071da56e7cd
 microstrategy-coinbase-tokenized-stock,mstrc,MicroStrategy (Coinbase Tokenized Stock),microstrategy-coinbase-tokenized-stock,coinbase.com,,"{""base"": ""0xb2000000000000000000004884b426556b92883d""}"
 wrapped-gonka,wgnk,Wrapped Gonka,wrapped-gonka,gonka.ai,,"{""ethereum"": ""0x972a7a92d92796a98801a8818bcf91f1648f2f68""}"
 spinedao-token,spine,SpineDAO Token,spinedao-token,spinedao.com,,"{""solana"": ""spinezMPKxkBpf4Q9xET2587fehM3LuKe4xoAoXtSjR""}"
+canto,canto,CANTO,canto,canto.io,,"{""canto"": ""0x826551890dc65655a0aceca109ab11abdbd7a07b"", ""osmosis"": ""ibc/47CAF2DB8C016FAC960F33BC492FD8E454593B65CC59D70FA9D9F30424F9C32F"", ""ethereum"": ""0x56c03b8c4fa80ba37f5a7b60caaaef749bb5b220""}"
