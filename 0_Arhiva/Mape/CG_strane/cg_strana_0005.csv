@@ -445,3 +445,4 @@ novo-nordisk-ondo-tokenized-stock,nvoon,Novo Nordisk (Ondo Tokenized Stock),novo
 pluton,plu,Pluton,pluton,plutus.it,,"{""ethereum"": ""0xd8912c10681d8b21fd3742244f44658dba12264e""}"
 karat-galaxy,karat,KARAT Galaxy,karat-galaxy,karatgalaxy.io,,"{""binance-smart-chain"": ""0x57f2be3e97e7653a2e6d6bddda40160d202d5305""}"
 pepsico-ondo-tokenized-stock,pepon,PepsiCo (Ondo Tokenized Stock),pepsico-ondo-tokenized-stock,app.ondo.finance,,"{""ethereum"": ""0x3ce219d498d807317f840f4cb0f03fa27dd65046"", ""binance-smart-chain"": ""0xf99f8f3a95257d82006183bd524efa7aacc9ef7a"", ""solana"": ""gud6b3fYekjhMG5F818BALwbg2vt4JKoow59Md9ondo""}"
+amd-robinhood-tokenized-stock,amd,AMD • Robinhood Token,amd-robinhood-token,robinhood.com,,"{""robinhood"": ""0x86923f96303d656e4aa86d9d42d1e57ad2023fdc""}"
