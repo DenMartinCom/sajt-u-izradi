@@ -492,3 +492,4 @@ microstrategy-coinbase-tokenized-stock,mstrc,MicroStrategy (Coinbase Tokenized S
 wrapped-gonka,wgnk,Wrapped Gonka,wrapped-gonka,gonka.ai,,"{""ethereum"": ""0x972a7a92d92796a98801a8818bcf91f1648f2f68""}"
 spinedao-token,spine,SpineDAO Token,spinedao-token,spinedao.com,,"{""solana"": ""spinezMPKxkBpf4Q9xET2587fehM3LuKe4xoAoXtSjR""}"
 canto,canto,CANTO,canto,canto.io,,"{""canto"": ""0x826551890dc65655a0aceca109ab11abdbd7a07b"", ""osmosis"": ""ibc/47CAF2DB8C016FAC960F33BC492FD8E454593B65CC59D70FA9D9F30424F9C32F"", ""ethereum"": ""0x56c03b8c4fa80ba37f5a7b60caaaef749bb5b220""}"
+flurry,flurry,Flurry Finance,flurry-finance,flurry.finance,,"{""ethereum"": ""0x60f63b76e2fc1649e57a3489162732a90acf59fe"", ""binance-smart-chain"": ""0x47c9bcef4fe2dbcdf3abf508f147f1bbe8d4fef2""}"
