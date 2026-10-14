@@ -124,3 +124,4 @@ spdr-s-p-500-etf-rstock,rspy,SPDR S&P 500 ETF Trust Tokenized Stock (Reality),sp
 palantir-technologies-bstocks-tokenized-stock,pltrb,Palantir Technologies (bStocks Tokenized Stock),palantir-technologies-bstocks-tokenized-stock,bstocks.finance,,"{""binance-smart-chain"": ""0x0ca5d51d0277bd006fd9607d3e560785ebad8222""}"
 stablecorp-qcad,qcad,Stablecorp QCAD,stablecorp-qcad,stablecorp.ca,,"{""ethereum"": ""0x3fa142dd3f384414e05e71ad0939274edc82ec0a"", ""base"": ""0xa15705e6fc8b3e08e7253f3758de1a754baa0761"", ""arc"": ""0xd70c2fa4232e054b373efaea98e4138511c2a309""}"
 chog,chog,Chog,chog,chog.xyz,,"{""monad"": ""0x350035555e10d9afaf1566aaebfced5ba6c27777""}"
+hypergpt,hgpt,HyperGPT,hypergpt,hypergpt.ai,,"{""binance-smart-chain"": ""0x529c79f6918665ebe250f32eeeaa1d410a0798c6"", ""the-open-network"": ""EQAuw01klxL8qKe9cBioTfjst0d6Gdagg51_c73z8X2-zJmj""}"
