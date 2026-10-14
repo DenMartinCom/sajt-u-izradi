@@ -479,3 +479,4 @@ vapi-network,vapi,vAPI Network,vapi-network,vapinetwork.ai,,"{""base"": ""0x1ea8
 aeon-2,aeon,aeon,aeon-2,aeon.fun,,"{""base"": ""0xbf8e8f0e8866a7052f948c16508644347c57aba3""}"
 curve-fi-frax-usdc,crvfrax,Curve.fi FRAX/USDC,curve-fi-frax-usdc,curve.finance,,"{""ethereum"": ""0x3175df0976dfa876431c2e9ee6bc45b65d3473cc""}"
 qup-coin,qup,QUP Coin,qup-coin,drinqup.com,,"{""solana"": ""2xaPstY4XqJ2gUA1mpph3XmvmPZGuTuJ658AeqX3gJ6F""}"
+dither,dith,Dither,dither,dith.ai,,"{""solana"": ""E1kvzJNxShvvWTrudokpzuc789vRiDXfXG3duCuY6ooE""}"
