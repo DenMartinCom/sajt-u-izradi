@@ -2,3 +2,4 @@ id,symbol,name,slug,web,logo,contract
 orbiter-finance,obt,Orbiter Finance,orbiter-finance,orbiter.finance,,"{""arbitrum-one"": ""0x1cd9a56c8c2ea913c70319a44da75e99255aa46f"", ""ethereum"": ""0x4af322ff4a6f2858f6b51e546b9ec499654493c5"", ""base"": ""0x514d8e8099286a13486ef6c525c120f51c239b52"", ""binance-smart-chain"": ""0xcef5b397051fc92026249670e918c0ad7b8585e4""}"
 electra-protocol,xep,Electra Protocol,electra-protocol,electraprotocol.com,,"{""binance-smart-chain"": ""0xb897d0a0f68800f8be7d69ffdd1c24b69f57bf3e"", ""solana"": ""2HmJ717Smn26MRn4PzmbGf29Z5d2nU6Jqre7HyELNsX3""}"
 solcex,solcex,SolCex,solcex,solcex.cc,,"{""solana"": ""AMjzRn1TBQwQfNAjHFeBb7uGbbqbJB7FzXAnGgdFPk6K""}"
+ondo-high-income-powered-by-blackrock,blkhion,Ondo High Income Powered by BlackRock,ondo-high-income-powered-by-blackrock,app.ondo.finance,,"{""ethereum"": ""0x787769d6fc857169f5243ef66d3f0a954149d3ba"", ""binance-smart-chain"": ""0xf78155dc15b838b7577002bc53bbe1041ca48622""}"
