@@ -448,3 +448,4 @@ pepsico-ondo-tokenized-stock,pepon,PepsiCo (Ondo Tokenized Stock),pepsico-ondo-t
 amd-robinhood-tokenized-stock,amd,AMD • Robinhood Token,amd-robinhood-token,robinhood.com,,"{""robinhood"": ""0x86923f96303d656e4aa86d9d42d1e57ad2023fdc""}"
 acet-token,act,Acet,acet,acet.finance,,"{""binance-smart-chain"": ""0x9f3bcbe48e8b754f331dfc694a894e8e686ac31d""}"
 soex,soex,SOEX,soex,shelterofexiles.com,,"{""the-open-network"": ""EQCPrad8ocDuIp4bAbGbxdA7BWdWE2Gs4OiAL7Yrrtu6BQMI""}"
+my-lovely-coin,mlc,My Lovely Coin,my-lovely-coin,mylovelyplanet.org,,"{""polygon-pos"": ""0x0566c506477cd2d8df4e0123512dbc344bd9d111"", ""solana"": ""8Up6R3g6qdpsApu8DUCtajSAWANxSty2eQmSjCSGSHH6"", ""binance-smart-chain"": ""0xe8db8733c5badf634f86d6ef894ffdbf0e85b7c2""}"
