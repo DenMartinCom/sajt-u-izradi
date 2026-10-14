@@ -63,3 +63,4 @@ hyperswap,swap,HyperSwap,hyperswap,hyperswap.exchange,,"{""hyperevm"": ""0x03832
 route-2,route,Route,route,route.fun,,"{""robinhood"": ""0x4a72b9702f991b790788f8afa9e7112541f4e8f8""}"
 gems-vip,gems,Gems VIP,gems-vip,gems.vip,,"{""ethereum"": ""0x3010ccb5419f1ef26d40a7cd3f0d707a0fa127dc""}"
 beethoven-x,beets-legacy,Beethoven X (Legacy),beethoven-x,ftm.beets.fi,,"{""fantom"": ""0xf24bcf4d1e507740041c9cfd2dddb29585adce1e"", ""optimistic-ethereum"": ""0xb4bc46bc6cb217b59ea8f4530bae26bf69f677f0""}"
+kiboshib,kibshi,KiboShib,kiboshib,kiboshib.com,,"{""ethereum"": ""0x02e7f808990638e9e67e1f00313037ede2362361"", ""base"": ""0xc7dcca0a3e69bd762c8db257f868f76be36c8514"", ""solana"": ""BxBkTCHsrcYChcwB459CAGPX9x4fWSVnmzqh5efgUN1R"", ""arbitrum-one"": ""0xf525e73bdeb4ac1b0e741af3ed8a8cbb43ab0756""}"
