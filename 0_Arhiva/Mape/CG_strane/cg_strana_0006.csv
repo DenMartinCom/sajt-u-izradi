@@ -184,3 +184,4 @@ cere-network,cere,Cere Network,cere-network,cere.network,,"{""ethereum"": ""0x2d
 aura-finance,aura,Aura Finance,aura-finance,aura.finance,,"{""ethereum"": ""0xc0c293ce456ff0ed870add98a0828dd4d2903dbf"", ""base"": ""0x1509706a6c66ca549ff0cb464de88231ddbe213b"", ""xdai"": ""0x1509706a6c66ca549ff0cb464de88231ddbe213b""}"
 arc,arc,ARC,arc,arc.ai,,"{""ethereum"": ""0x672fdba7055bddfa8fd6bd45b1455ce5eb97f499""}"
 usd-2,usd+,USD+,usd,usd-plus.com,,"{""solana"": ""usdsfJbX78ktZUnoRC7dwvvQz7xH3WdkpGne76gdUia""}"
+lotos,lts,Lotos,lotos,lotos.io,,"{""binance-smart-chain"": ""0x0d2a63e9a769cad5d881e182546c47743f400cce""}"
