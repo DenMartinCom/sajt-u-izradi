@@ -476,3 +476,4 @@ tontoken,ton,TON Community,ton-community,toncommunity.org,,"{""ethereum"": ""0x6
 unitedhealth-ondo-tokenized-stock,unhon,UnitedHealth (Ondo Tokenized Stock),unitedhealth-ondo-tokenized-stock,app.ondo.finance,,"{""ethereum"": ""0x075756f3b6381a79633438faa8964946bf40163d"", ""binance-smart-chain"": ""0x3385cb29cca0ac66f5d2354d13ef977b49a2510f"", ""solana"": ""kPBGL8vAwKN3UGmr9cjkM2dU79SC3nzTC9yu7F8ondo""}"
 zreal-super-coin,zreal,Z李REAL SUPER COIN,zreal-super-coin,x.com,,"{""solana"": ""GnFMf6JVRhAqPbA9r8yW16xycynKNkXfbaYbusLEpump""}"
 orcib,palmo,ORCIB,orcib,orcib.com,,"{""solana"": ""4WtkHh1Gwgd5dc9cfqSY54U2fUZHbNzVLbrmrbvFMGhq""}"
+microsoft-rstock,rmsft,Microsoft Tokenized Stock (Reality),microsoft-rstock,realityfinance.xyz,,"{""arbitrum-one"": ""0xda7c9549e87d4f96585701970acdcc90e8d35024"", ""morph-l2"": ""0x11a4d42b7af39c7ba1f11ded8b64b93bc2ed5297""}"
