@@ -312,3 +312,4 @@ finvesta,finvesta,Finvesta,finvesta,finvesta.eco,,"{""pulsechain"": ""0x1c81b435
 auditchain,audt,Auditchain,auditchain,auditchain.com,,"{""ethereum"": ""0xb90cb79b72eb10c39cbdf86e50b1c89f6a235f2e"", ""polygon-pos"": ""0x91c5a5488c0decde1eacd8a4f10e0942fb925067"", ""robinhood"": ""0xbf7eb6679d1c833e6a58ac9a122c993c4e691b31""}"
 bearxrpl,bear,BEARXRPL,bearxrpl,bearableguy.xyz,,"{""xrp"": ""4245415200000000000000000000000000000000.rBEARGUAsyu7tUw53rufQzFdWmJHpJEqFW""}"
 cognify,sn115,Cognify,cognify,,,"{""bittensor"": ""115""}"
+palu,palu,Palu,palu,,,"{""binance-smart-chain"": ""0x02e75d28a8aa2a0033b8cf866fcf0bb0e1ee4444""}"
