@@ -298,3 +298,4 @@ superfluid,sup,Superfluid,superfluid,superfluid.org,,"{"""": """", ""base"": ""0
 lrt-squared,king,King Protocol,king-protocol,kingprotocol.org,,"{""ethereum"": ""0x8f08b70456eb22f6109f57b8fafe862ed28e6040"", ""base"": ""0xe22c243c7559c667a1eb94b593369d192c5fbac0"", ""swellchain"": ""0xc2606aade4bdd978a4fa5a6edb3b66657acee6f8"", ""arbitrum-one"": ""0x2e412435928efe43b156caa8f4b1068729fee275""}"
 moby-ai,moby,Moby AI,moby-ai,pump.fun,,"{""solana"": ""Cy1GS2FqefgaMbi45UunrUzin1rfEmTUYnomddzBpump""}"
 starlink,starl,StarLink,starlink,starlproject.com,,"{""ethereum"": ""0x8e6cd950ad6ba651f6dd608dc70e5886b1aa6b24""}"
+dill,dl,Dill,dill,dill.xyz,,"{""binance-smart-chain"": ""0xcd806d0eb9465020994c9e977cbe34fe430172ae""}"
