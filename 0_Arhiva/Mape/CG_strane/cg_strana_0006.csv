@@ -426,3 +426,4 @@ signal-2,signal,Signal,signal-2,signal.family,,"{""hyperevm"": ""0xf09703969cf55
 ishares-silver-trust-robinhood-tokenized-stock,slv,iShares Silver Trust • Robinhood Token,ishares-silver-trust-robinhood-token,robinhood.com,,"{""robinhood"": ""0x411efb0e7f985935daec3d4c3ebaea0d0ad7d89f""}"
 dar-open-network,d,Dar Open Network,dar-open-network,dalarnia.com,,"{""ethereum"": ""0x33b481cbbf3c24f2b3184ee7cb02daad1c4f49a8"", ""binance-smart-chain"": ""0x8fb238058e71f828f505582e65b1d14f8cf52067""}"
 wells-fargo-ondo-tokenized-stock,wfcon,Wells Fargo (Ondo Tokenized Stock),wells-fargo-ondo-tokenized-stock,app.ondo.finance,,"{""ethereum"": ""0x4ad2118da8a65eaa81402a3d583fef6ee76bdf3f"", ""binance-smart-chain"": ""0x629520dee1620def11596f84e85de9f1ff653012"", ""solana"": ""L6ZE5qCpVVSqLePz64CrwkgyWoPF9M7tB8BeFH4ondo""}"
+bombcrypto-coin,bcoin,Bomb Crypto (POL),bombcrypto-coin,bombcrypto.io,,"{""polygon-pos"": ""0xb2c63830d4478cb331142fac075a39671a5541dc""}"
