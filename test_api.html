@@ -312,6 +312,9 @@ function onServisChange() {
   }
   if (eps.length && !document.getElementById('endpoint').value) {
     document.getElementById('endpoint').value = eps[0].e;
+    if (!document.getElementById('base').value) {
+      document.getElementById('base').value = eps[0].p || '';
+    }
     if (eps[0].m) document.getElementById('metod').value = eps[0].m === 'POST' ? 'POST' : 'GET';
     if (eps[0].b) document.getElementById('body').value = eps[0].b;
     onMetodChange();
@@ -328,9 +331,16 @@ function onEndpointChange() {
   const val = document.getElementById('endpoint').value;
   const ep = eps.find(x => x.e === val);
   const opis = document.getElementById('epOpis');
-  if (ep && ep.o) {
-    opis.textContent = ep.o;
-    opis.style.display = 'block';
+  if (ep) {
+    if (ep.p && !document.getElementById('base').value) {
+      document.getElementById('base').value = ep.p;
+    }
+    if (ep.o) {
+      opis.textContent = ep.o;
+      opis.style.display = 'block';
+    } else {
+      opis.style.display = 'none';
+    }
   } else {
     opis.style.display = 'none';
   }
