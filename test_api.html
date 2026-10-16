@@ -27,7 +27,7 @@ button.sec{background:transparent}
 button.sec:hover{background:var(--panel2)}
 .presets{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
 .presets button{font-size:11px;padding:4px 9px;font-weight:400}
-.status-bar{padding:9px 12px;border-radius:5px;margin-bottom:10px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;font-size:12px;font-weight:600}
+.status-bar{padding:9px 12px;border-radius:5px;margin-bottom:10px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:12px;font-weight:600}
 .status-bar.s2xx{background:rgba(63,185,80,.15);border:1px solid var(--ok);color:var(--ok)}
 .status-bar.s3xx{background:rgba(88,166,255,.15);border:1px solid var(--accent);color:var(--accent)}
 .status-bar.s4xx{background:rgba(210,153,34,.15);border:1px solid var(--warn);color:var(--warn)}
@@ -40,11 +40,8 @@ button.sec:hover{background:var(--panel2)}
 pre{background:#0a0d11;border:1px solid var(--border);border-radius:4px;padding:10px;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11px;overflow:auto;max-height:60vh;white-space:pre;line-height:1.5}
 pre.wrap{white-space:pre-wrap;word-break:break-all;overflow-x:hidden}
 .jk{color:#7ee787}.js{color:#a5d6ff}.jn{color:#79c0ff}.jb{color:#ff7b72}.jnul{color:#8b949e}
-.search-bar{display:flex;gap:6px;margin-bottom:8px;flex-wrap:wrap;align-items:center}
-.search-bar input{flex:1;min-width:150px}
-.match-count{font-size:11px;color:var(--mut)}
-mark{background:rgba(255,196,0,.35);color:var(--txt);padding:0 1px;border-radius:2px}
-mark.cur{background:var(--warn);color:#000}
+mark{background:rgba(255,196,0,.4);color:var(--txt);padding:0 1px;border-radius:2px}
+mark.cur{background:var(--warn);color:#000;font-weight:600}
 table.h{width:100%;border-collapse:collapse;font-size:11px;font-family:ui-monospace,Menlo,Consolas,monospace}
 table.h td{padding:4px 8px;border-bottom:1px solid var(--border);vertical-align:top;word-break:break-all}
 table.h td:first-child{color:var(--accent);width:35%;font-weight:600}
@@ -55,7 +52,7 @@ table.h td:first-child{color:var(--accent);width:35%;font-weight:600}
 .badge{display:inline-block;font-size:10px;padding:2px 7px;border-radius:9px;font-weight:600}
 .badge.puno{background:rgba(63,185,80,.2);color:var(--ok)}
 .badge.skraceno{background:rgba(210,153,34,.2);color:var(--warn)}
-.ep-opis{font-size:11px;color:var(--mut);margin-top:4px;padding:6px 8px;background:var(--panel2);border-radius:4px;border-left:2px solid var(--accent)}
+.ep-opis{font-size:11px;color:var(--mut);margin-top:4px;padding:6px 8px;background:var(--panel2);border-radius:4px;border-left:2px solid var(--accent);margin-bottom:8px}
 .hist-section{margin-top:16px}
 .hist-section h2{font-size:12px;color:var(--mut);text-transform:uppercase;margin-bottom:8px;letter-spacing:.5px}
 .hist-grid{display:flex;flex-direction:column;gap:4px;max-height:300px;overflow-y:auto}
@@ -64,13 +61,20 @@ table.h td:first-child{color:var(--accent);width:35%;font-weight:600}
 .hist-item .hm{color:var(--accent);font-weight:600}
 .hist-item .hs{font-size:10px;color:var(--mut);margin-top:2px;word-break:break-all}
 .hist-item.s2xx .hs{color:var(--ok)}.hist-item.s4xx .hs{color:var(--warn)}.hist-item.s5xx .hs{color:var(--err)}
+
+/* ===== SEARCH BAR ===== */
+.search-bar{margin-bottom:8px}
+.search-bar input[type=text]{width:100%;padding:8px 10px;font-size:13px;min-width:0;margin-bottom:6px}
+.search-controls{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.search-controls button{padding:5px 11px;font-size:12px;min-width:36px;font-weight:500}
+.match-count{font-size:11px;color:var(--mut);min-width:60px;text-align:center}
+
 @media(max-width:600px){
   .row{flex-direction:column;align-items:stretch}
   label.f{min-width:auto}
   input[type=text]{min-width:auto}
   .status-bar{flex-direction:column;align-items:flex-start;gap:4px}
-  .search-bar{flex-direction:column}
-  .search-bar input{min-width:auto;width:100%}
+  .tabs button{padding:8px 10px;font-size:12px}
 }
 </style>
 </head>
@@ -139,25 +143,30 @@ table.h td:first-child{color:var(--accent);width:35%;font-weight:600}
     <div class="tab-panel active" id="tab-body">
       <div class="search-bar">
         <input type="text" id="search" placeholder="Traži u odgovoru...">
-        <button class="sec" onclick="searchPrev()">◀</button>
-        <button class="sec" onclick="searchNext()">▶</button>
-        <span class="match-count" id="matchCount"></span>
-        <label><input type="checkbox" id="caseS"> Aa</label>
-        <label><input type="checkbox" id="onlyBody" checked> samo body</label>
-        <button class="copy-btn" onclick="copyBody()">Kopiraj</button>
-        <span class="badge" id="bodyBadge" style="display:none"></span>
+        <div class="search-controls">
+          <button class="sec" onclick="searchPrev()">◀</button>
+          <span class="match-count" id="matchCount"></span>
+          <button class="sec" onclick="searchNext()">▶</button>
+          <button class="copy-btn" onclick="copyBody()">📋 Kopiraj</button>
+          <span class="badge" id="bodyBadge" style="display:none"></span>
+        </div>
       </div>
       <pre id="bodyPre"></pre>
     </div>
 
     <div class="tab-panel" id="tab-headers">
-      <div class="search-bar"><input type="text" id="hSearch" placeholder="Filter headera..."><button class="copy-btn" onclick="copyHeaders()">Kopiraj</button></div>
+      <div class="search-bar">
+        <input type="text" id="hSearch" placeholder="Filter headera...">
+        <div class="search-controls">
+          <button class="copy-btn" onclick="copyHeaders()">📋 Kopiraj</button>
+        </div>
+      </div>
       <table class="h"><tbody id="headersBody"></tbody></table>
     </div>
 
     <div class="tab-panel" id="tab-meta">
       <div id="metaContent"></div>
-      <div style="margin-top:10px"><button class="copy-btn" onclick="copyMeta()">Kopiraj meta</button></div>
+      <div style="margin-top:10px"><button class="copy-btn" onclick="copyMeta()">📋 Kopiraj meta</button></div>
     </div>
   </section>
 
@@ -169,7 +178,6 @@ table.h td:first-child{color:var(--accent);width:35%;font-weight:600}
 </main>
 
 <script>
-// ===== ENDPOINTI — free plan, sa opisima =====
 const ENDPOINTI = {
   'cmc': [
     { p:'/v1/cryptocurrency/', e:'listings/latest?limit=10&convert=USD', m:'GET', o:'Lista svih aktivnih kriptovaluta sa tržišnim podacima' },
@@ -182,7 +190,7 @@ const ENDPOINTI = {
     { p:'/api/v3/', e:'ping', m:'GET', o:'Provera statusa API-ja' },
     { p:'/api/v3/', e:'simple/price?ids=bitcoin&vs_currencies=usd', m:'GET', o:'Trenutne cene za određene koinove' },
     { p:'/api/v3/', e:'coins/list', m:'GET', o:'Lista svih podržanih koinova' },
-    { p:'/api/v3/', e:'coins/markets?vs_currency=usd&per_page=10', m:'GET', o:'Tržišni podaci za sve koinove (cena, market cap, volumen)' },
+    { p:'/api/v3/', e:'coins/markets?vs_currency=usd&per_page=10', m:'GET', o:'Tržišni podaci za sve koinove' },
     { p:'/api/v3/', e:'coins/bitcoin', m:'GET', o:'Detaljni podaci o konkretnom koinu' },
     { p:'/api/v3/', e:'coins/bitcoin/market_chart?vs_currency=usd&days=7', m:'GET', o:'Istorijski podaci o ceni i volumenu' },
     { p:'/api/v3/', e:'coins/bitcoin/ohlc?vs_currency=usd&days=7', m:'GET', o:'OHLC svećice za koin' },
@@ -195,41 +203,41 @@ const ENDPOINTI = {
     { p:'', e:'/coins/bitcoin/charts', m:'GET', o:'Istorijski podaci o ceni' },
     { p:'', e:'/markets', m:'GET', o:'Lista svih berzi' },
     { p:'', e:'/news', m:'GET', o:'Najnovije kripto vesti' },
-    { p:'', e:'/usage/credits', m:'GET', o:'Provera preostalih kredita (ne troši kredite)' }
+    { p:'', e:'/usage/credits', m:'GET', o:'Provera preostalih kredita' }
   ],
   'etherscan': [
-    { p:'/v2/api?chainid=1&', e:'module=gastracker&action=gasoracle', m:'GET', o:'Trenutne cene gasa (slow/standard/fast)' },
+    { p:'/v2/api?chainid=1&', e:'module=gastracker&action=gasoracle', m:'GET', o:'Trenutne cene gasa' },
     { p:'/v2/api?chainid=1&', e:'module=stats&action=ethsupply', m:'GET', o:'Ukupna ponuda ETH' },
     { p:'/v2/api?chainid=1&', e:'module=stats&action=ethprice', m:'GET', o:'Trenutna cena ETH' },
     { p:'/v2/api?chainid=1&', e:'module=account&action=balance&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045', m:'GET', o:'Balans adrese (u wei)' }
   ],
   'blockscout': [
-    { p:'/api/v2/', e:'stats', m:'GET', o:'Statistika mreže (ukupan broj blokova, transakcija)' },
+    { p:'/api/v2/', e:'stats', m:'GET', o:'Statistika mreže' },
     { p:'/api/v2/', e:'blocks', m:'GET', o:'Lista blokova' },
     { p:'/api/v2/', e:'blocks/12345678', m:'GET', o:'Detalji o bloku' },
     { p:'/api/v2/', e:'transactions', m:'GET', o:'Lista transakcija' },
-    { p:'/api/v2/', e:'addresses/0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045', m:'GET', o:'Detalji o adresi (balans, transakcije)' }
+    { p:'/api/v2/', e:'addresses/0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045', m:'GET', o:'Detalji o adresi' }
   ],
   'coinpaprika': [
-    { p:'/v1/', e:'tickers?limit=10', m:'GET', o:'Lista svih aktivnih koinova sa trenutnim podacima' },
+    { p:'/v1/', e:'tickers?limit=10', m:'GET', o:'Lista svih aktivnih koinova' },
     { p:'/v1/', e:'tickers/btc-bitcoin', m:'GET', o:'Podaci za konkretan koin' },
     { p:'/v1/', e:'coins', m:'GET', o:'Lista svih koinova' },
     { p:'/v1/', e:'global', m:'GET', o:'Globalni tržišni podaci' },
-    { p:'/v1/', e:'tickers/btc-bitcoin/historical?start=2025-07-10&interval=1d', m:'GET', o:'Istorijski podaci o ceni (1 godina unazad)' }
+    { p:'/v1/', e:'tickers/btc-bitcoin/historical?start=2025-07-10&interval=1d', m:'GET', o:'Istorijski podaci' }
   ],
   'cryptocompare': [
-    { p:'/data/', e:'price?fsym=BTC&tsyms=USD', m:'GET', o:'Trenutna cena za određeni simbol' },
-    { p:'/data/', e:'pricemultifull?fsyms=BTC,ETH&tsyms=USD', m:'GET', o:'Detaljni podaci o ceni za više koinova' },
-    { p:'/data/', e:'top/totalvolfull?limit=10&tsym=USD', m:'GET', o:'Top koinovi po ukupnom volumenu' },
+    { p:'/data/', e:'price?fsym=BTC&tsyms=USD', m:'GET', o:'Trenutna cena za simbol' },
+    { p:'/data/', e:'pricemultifull?fsyms=BTC,ETH&tsyms=USD', m:'GET', o:'Detaljni podaci za više koinova' },
+    { p:'/data/', e:'top/totalvolfull?limit=10&tsym=USD', m:'GET', o:'Top koinovi po volumenu' },
     { p:'/data/v2/', e:'histoday?fsym=BTC&tsym=USD&limit=30', m:'GET', o:'Dnevni istorijski podaci' },
     { p:'/data/', e:'exchanges/general', m:'GET', o:'Lista berzi' }
   ],
   'cryptorank': [
-    { p:'/v3/', e:'currencies/list?limit=10', m:'GET', o:'Lista kriptovaluta sa tržišnim podacima' },
-    { p:'/v3/', e:'currencies/map', m:'GET', o:'Mapiranje ID-jeva na simbole' },
+    { p:'/v3/', e:'currencies/list?limit=10', m:'GET', o:'Lista kriptovaluta' },
+    { p:'/v3/', e:'currencies/map', m:'GET', o:'Mapiranje ID-jeva' },
     { p:'/v3/', e:'currencies/1', m:'GET', o:'Detalji o konkretnoj kriptovaluti' },
     { p:'/v3/', e:'global/market', m:'GET', o:'Globalni tržišni podaci' },
-    { p:'/v3/', e:'status', m:'GET', o:'Status plana i iskorišćenost kredita' }
+    { p:'/v3/', e:'status', m:'GET', o:'Status plana i kredita' }
   ],
   'livecoinwatch': [
     { p:'', e:'/status', m:'POST', b:'{}', o:'Status API-ja' },
@@ -247,7 +255,7 @@ const ENDPOINTI = {
     { p:'/v2/', e:'', m:'POST', b:'{"jsonrpc":"2.0","id":1,"method":"eth_blockNumber","params":[]}', o:'Trenutna visina bloka' },
     { p:'/v2/', e:'', m:'POST', b:'{"jsonrpc":"2.0","id":1,"method":"eth_getBalance","params":["0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045","latest"]}', o:'Balans adrese' },
     { p:'/v2/', e:'', m:'POST', b:'{"jsonrpc":"2.0","id":1,"method":"eth_call","params":[{"to":"0x...","data":"0x..."},"latest"]}', o:'Read-only poziv ka ugovoru' },
-    { p:'/v2/', e:'', m:'POST', b:'{"jsonrpc":"2.0","id":1,"method":"eth_getLogs","params":[{"fromBlock":"0x...","toBlock":"latest","address":"0x...","topics":[]}]}', o:'Pretraga logova događaja' },
+    { p:'/v2/', e:'', m:'POST', b:'{"jsonrpc":"2.0","id":1,"method":"eth_getLogs","params":[{"fromBlock":"0x...","toBlock":"latest","address":"0x...","topics":[]}]}', o:'Pretraga logova' },
     { p:'/v2/', e:'', m:'POST', b:'{"jsonrpc":"2.0","id":1,"method":"eth_getTransactionByHash","params":["0x..."]}', o:'Detalji o transakciji' },
     { p:'/v2/', e:'', m:'POST', b:'{"jsonrpc":"2.0","id":1,"method":"eth_getTransactionReceipt","params":["0x..."]}', o:'Status transakcije' }
   ],
@@ -257,9 +265,8 @@ const ENDPOINTI = {
 };
 
 const WORKERS_KEY='apitest_worker', BASE_KEY='apitest_base_', HIST_KEY='apitest_hist', PRES_KEY='apitest_presets';
-let SERVICES = [], currentRez = null, matchIdx = 0, matches = [];
+let SERVICES = [], currentRez = null, currentBodyHtml = '', matchIdx = 0, matches = [];
 
-// ===== INICIJALIZACIJA =====
 async function init() {
   await ucitajServise();
   renderPresets();
@@ -270,7 +277,6 @@ async function init() {
   document.getElementById('servis').addEventListener('change', onServisChange);
   document.getElementById('endpoint').addEventListener('input', onEndpointChange);
   document.getElementById('metod').addEventListener('change', onMetodChange);
-  document.getElementById('pun').addEventListener('change', updateSearch);
   document.getElementById('search').addEventListener('input', updateSearch);
   document.getElementById('hSearch').addEventListener('input', renderHeaders);
   document.querySelectorAll('.tabs button').forEach(b => b.addEventListener('click', () => aktivTab(b.dataset.tab)));
@@ -278,9 +284,8 @@ async function init() {
 }
 
 async function ucitajServise() {
-  const workerUrl = 'https://cmc-proxy.martin-denic.workers.dev';
   try {
-    const r = await fetch(workerUrl + '/gard-daj-api-servise');
+    const r = await fetch('https://cmc-proxy.martin-denic.workers.dev/gard-daj-api-servise');
     const d = await r.json();
     if (d.ok) SERVICES = d.servisi || [];
   } catch (e) { console.error(e); }
@@ -299,9 +304,17 @@ function onServisChange() {
   const sel = document.getElementById('servis');
   const opt = sel.options[sel.selectedIndex];
   const servis = opt.dataset.servis;
-  if (!servis) { document.getElementById('base').value = ''; document.getElementById('endpointList').innerHTML = ''; document.getElementById('epOpis').style.display = 'none'; return; }
-  const saved = localStorage.getItem(BASE_KEY + servis);
-  document.getElementById('base').value = saved || '';
+  const epOpis = document.getElementById('epOpis');
+
+  if (!servis) {
+    document.getElementById('base').value = '';
+    document.getElementById('endpoint').value = '';
+    document.getElementById('endpointList').innerHTML = '';
+    document.getElementById('body').value = '';
+    epOpis.style.display = 'none';
+    return;
+  }
+
   const eps = ENDPOINTI[servis] || [];
   const dl = document.getElementById('endpointList');
   dl.innerHTML = '';
@@ -310,17 +323,23 @@ function onServisChange() {
     o.value = ep.e;
     dl.appendChild(o);
   }
-  if (eps.length && !document.getElementById('endpoint').value) {
-    document.getElementById('endpoint').value = eps[0].e;
-    if (!document.getElementById('base').value) {
-      document.getElementById('base').value = eps[0].p || '';
-    }
-    if (eps[0].m) document.getElementById('metod').value = eps[0].m === 'POST' ? 'POST' : 'GET';
-    if (eps[0].b) document.getElementById('body').value = eps[0].b;
+
+  // UVEK resetuj na prvi endpoint novog servisa
+  if (eps.length) {
+    const prvi = eps[0];
+    document.getElementById('endpoint').value = prvi.e;
+    document.getElementById('base').value = prvi.p || '';
+    document.getElementById('metod').value = prvi.m || '';
+    document.getElementById('body').value = prvi.b || '';
+    if (prvi.o) { epOpis.textContent = prvi.o; epOpis.style.display = 'block'; }
+    else { epOpis.style.display = 'none'; }
     onMetodChange();
-    onEndpointChange();
+  } else {
+    document.getElementById('endpoint').value = '';
+    document.getElementById('base').value = '';
+    document.getElementById('body').value = '';
+    epOpis.style.display = 'none';
   }
-  document.getElementById('base').onchange = () => localStorage.setItem(BASE_KEY + servis, document.getElementById('base').value);
 }
 
 function onEndpointChange() {
@@ -331,16 +350,17 @@ function onEndpointChange() {
   const val = document.getElementById('endpoint').value;
   const ep = eps.find(x => x.e === val);
   const opis = document.getElementById('epOpis');
+
   if (ep) {
+    // popuni base i body ako polja nisu već popunjena
     if (ep.p && !document.getElementById('base').value) {
       document.getElementById('base').value = ep.p;
     }
-    if (ep.o) {
-      opis.textContent = ep.o;
-      opis.style.display = 'block';
-    } else {
-      opis.style.display = 'none';
+    if (ep.b && !document.getElementById('body').value) {
+      document.getElementById('body').value = ep.b;
     }
+    if (ep.o) { opis.textContent = ep.o; opis.style.display = 'block'; }
+    else { opis.style.display = 'none'; }
   } else {
     opis.style.display = 'none';
   }
@@ -421,16 +441,14 @@ function renderRezultat(rez, trajanje) {
   sb.className = 'status-bar ' + cls;
   sb.innerHTML = `<span>${icon} ${rez.status || 'ERR'}</span><span>${rez.trajanje_ms || trajanje} ms</span><span>${rez.servis || ''}</span><span>cu: ${rez.cu ?? '-'}</span><span>tip: ${rez.tip || ''}</span>` + (rez.greska ? `<span>${rez.greska}: ${rez.razlog || rez.detalj || ''}</span>` : '');
 
-  const bodyPre = document.getElementById('bodyPre');
   const bodyText = rez.body || '';
   let pretty = bodyText, isJson = false;
   try { const parsed = JSON.parse(bodyText); pretty = JSON.stringify(parsed, null, 2); isJson = true; } catch (e) {}
-  bodyPre.innerHTML = isJson ? highlightJson(pretty) : escapeHtml(pretty);
-  if (rez.skraceno) {
-    bodyPre.classList.add('wrap');
-  } else {
-    bodyPre.classList.remove('wrap');
-  }
+  currentBodyHtml = isJson ? highlightJson(pretty) : escapeHtml(pretty);
+  const bodyPre = document.getElementById('bodyPre');
+  bodyPre.innerHTML = currentBodyHtml;
+  if (rez.skraceno) bodyPre.classList.add('wrap');
+  else bodyPre.classList.remove('wrap');
 
   const badge = document.getElementById('bodyBadge');
   badge.style.display = 'inline-block';
@@ -439,7 +457,10 @@ function renderRezultat(rez, trajanje) {
 
   renderHeaders();
   renderMeta();
-  updateSearch();
+  // reset pretrage
+  document.getElementById('search').value = '';
+  document.getElementById('matchCount').textContent = '';
+  matches = [];
 }
 
 function highlightJson(txt) {
@@ -452,6 +473,8 @@ function highlightJson(txt) {
 }
 
 function escapeHtml(s) { return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+function escapeRegex(s) { return String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
 
 function renderHeaders() {
   if (!currentRez || !currentRez.headers) return;
@@ -486,43 +509,57 @@ function renderMeta() {
   ).join('');
 }
 
-// ===== PRETRAGA =====
+// ===== PRETRAGA — uvek case-insensitive, selekcija prvog nalaza =====
 function updateSearch() {
-  clearMarks();
-  const q = document.getElementById('search').value;
-  if (!q) { document.getElementById('matchCount').textContent = ''; return; }
-  const caseS = document.getElementById('caseS').checked;
-  const onlyBody = document.getElementById('onlyBody').checked;
-  const flags = 'g' + (caseS ? '' : 'i');
-  const re = new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), flags);
   const pre = document.getElementById('bodyPre');
-  if (pre.dataset.orig == null) pre.dataset.orig = pre.innerHTML;
-  const html = pre.dataset.orig;
-  let count = 0;
-  const newHtml = html.replace(/>([^<]+)</g, (match, txt) => {
-    if (match.includes('<mark')) return match;
-    const replaced = txt.replace(re, (mm) => { count++; return `\u0001MARK${count}\u0001${mm}\u0002`; });
-    return '>' + replaced + '<';
-  });
-  pre.innerHTML = newHtml;
-  let out = pre.innerHTML;
-  out = out.replace(/\u0001MARK(\d+)\u0001([^\u0002]*)\u0002/g, (_, n, txt) => `<mark data-i="${n}">${txt}</mark>`);
-  pre.innerHTML = out;
-  matches = Array.from(pre.querySelectorAll('mark'));
-  document.getElementById('matchCount').textContent = matches.length ? `1 od ${matches.length}` : 'nema';
-  matchIdx = 0;
-  if (matches.length) { matches[0].classList.add('cur'); matches[0].scrollIntoView({block:'center'}); }
-  if (!onlyBody) { renderHeaders(); }
-}
-function clearMarks() {
-  const pre = document.getElementById('bodyPre');
-  if (pre.dataset.orig) pre.innerHTML = pre.dataset.orig;
-  matches = [];
-}
-function searchNext() { if (!matches.length) return; matches[matchIdx]?.classList.remove('cur'); matchIdx = (matchIdx + 1) % matches.length; matches[matchIdx].classList.add('cur'); matches[matchIdx].scrollIntoView({block:'center'}); document.getElementById('matchCount').textContent = `${matchIdx+1} od ${matches.length}`; }
-function searchPrev() { if (!matches.length) return; matches[matchIdx]?.classList.remove('cur'); matchIdx = (matchIdx - 1 + matches.length) % matches.length; matches[matchIdx].classList.add('cur'); matches[matchIdx].scrollIntoView({block:'center'}); document.getElementById('matchCount').textContent = `${matchIdx+1} od ${matches.length}`; }
+  if (!currentBodyHtml) return;
 
-// ===== TABS =====
+  const q = document.getElementById('search').value.trim();
+  matches = [];
+  matchIdx = 0;
+
+  if (!q) {
+    pre.innerHTML = currentBodyHtml;
+    document.getElementById('matchCount').textContent = '';
+    return;
+  }
+
+  const re = new RegExp(escapeRegex(q), 'gi');
+  let count = 0;
+  const novi = currentBodyHtml.replace(/>([^<]+)</g, (m, txt) => {
+    return '>' + txt.replace(re, (mm) => {
+      count++;
+      return `<mark data-i="${count}">${mm}</mark>`;
+    }) + '<';
+  });
+  pre.innerHTML = novi;
+  matches = Array.from(pre.querySelectorAll('mark'));
+
+  if (matches.length) {
+    matches[0].classList.add('cur');
+    matches[0].scrollIntoView({ block: 'center' });
+    document.getElementById('matchCount').textContent = `1/${matches.length}`;
+  } else {
+    document.getElementById('matchCount').textContent = 'nema';
+  }
+}
+function searchNext() {
+  if (!matches.length) return;
+  matches[matchIdx].classList.remove('cur');
+  matchIdx = (matchIdx + 1) % matches.length;
+  matches[matchIdx].classList.add('cur');
+  matches[matchIdx].scrollIntoView({ block: 'center' });
+  document.getElementById('matchCount').textContent = `${matchIdx+1}/${matches.length}`;
+}
+function searchPrev() {
+  if (!matches.length) return;
+  matches[matchIdx].classList.remove('cur');
+  matchIdx = (matchIdx - 1 + matches.length) % matches.length;
+  matches[matchIdx].classList.add('cur');
+  matches[matchIdx].scrollIntoView({ block: 'center' });
+  document.getElementById('matchCount').textContent = `${matchIdx+1}/${matches.length}`;
+}
+
 function aktivTab(name) {
   document.querySelectorAll('.tabs button').forEach(b => b.classList.toggle('active', b.dataset.tab === name));
   document.querySelectorAll('.tab-panel').forEach(p => p.classList.toggle('active', p.id === 'tab-' + name));
@@ -561,7 +598,19 @@ function popuniIzIstorije(x) {
     for (const o of sel.options) {
       if (o.value && x.url.startsWith('https://' + o.value)) { sel.value = o.value; break; }
     }
-    onServisChange();
+    // NE pozivaj onServisChange ovde (resetovao bi na prvi endpoint) — ručno postavi
+    const opt = sel.options[sel.selectedIndex];
+    const servis = opt.dataset.servis;
+    if (servis) {
+      const eps = ENDPOINTI[servis] || [];
+      const dl = document.getElementById('endpointList');
+      dl.innerHTML = '';
+      for (const ep of eps) {
+        const o = document.createElement('option');
+        o.value = ep.e;
+        dl.appendChild(o);
+      }
+    }
     const rest = x.url.slice('https://'.length).split('/').slice(1).join('/');
     const base = document.getElementById('base').value || '';
     if (base && rest.startsWith(base.replace(/^\//, ''))) {
@@ -599,7 +648,15 @@ function renderPresets() {
 function primeniPreset(b) {
   const sel = document.getElementById('servis');
   sel.value = b.s;
-  onServisChange();
+  // ručno postavi bez onServisChange (da ne resetuje na prvi)
+  const eps = ENDPOINTI[sel.options[sel.selectedIndex]?.dataset.servis] || [];
+  const dl = document.getElementById('endpointList');
+  dl.innerHTML = '';
+  for (const ep of eps) {
+    const o = document.createElement('option');
+    o.value = ep.e;
+    dl.appendChild(o);
+  }
   document.getElementById('base').value = b.b || '';
   document.getElementById('endpoint').value = b.e || '';
   document.getElementById('metod').value = b.m || '';
