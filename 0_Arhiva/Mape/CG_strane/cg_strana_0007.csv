@@ -63,3 +63,4 @@ convertible-jpy-token,cjpy,Convertible JPY Token,convertible-jpy-token,app.yamat
 carrot-by-puffer,carrot,Carrot by Puffer,carrot-by-puffer,puffer.fi,,"{""ethereum"": ""0x282a69142bac47855c3fbe1693fcc4ba3b4d5ed6""}"
 skey-network,skey,Skey Network,skey-network,skey.network,,"{""ethereum"": ""0x06a01a4d579479dd5d884ebf61a31727a3d8d442""}"
 nokia-ondo-tokenized,nokon,Nokia (Ondo Tokenized),nokia-ondo-tokenized,app.ondo.finance,,"{""ethereum"": ""0x01e7eaf05be1d0c2d1834fc65080188376026d07"", ""binance-smart-chain"": ""0xe9518cb0010c717db69001f1418eff9e97330137"", ""solana"": ""amE2ANm5dyG6RTkJHdtzvWcuR8ChBZCEm5Jiqwdondo""}"
+panther,zkp,Panther Protocol,panther-protocol,pantherprotocol.io,,"{""ethereum"": ""0x909e34d3f6124c324ac83dcca84b74398a6fa173"", ""base"": ""0x0a776c1c22b8b8e7eab346744daa33722b80fda4"", ""polygon-pos"": ""0x9a06db14d639796b25a6cec6a1bf614fd98815ec""}"
