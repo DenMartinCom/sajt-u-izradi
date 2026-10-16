@@ -12,15 +12,7 @@ header{background:var(--panel);border-bottom:1px solid var(--border);padding:10p
 header h1{font-size:15px;color:var(--accent)}
 .workers{display:flex;gap:10px}
 .workers label{display:flex;align-items:center;gap:5px;cursor:pointer;font-size:12px}
-main{display:grid;grid-template-columns:240px 1fr;gap:14px;padding:14px;max-width:1600px;margin:0 auto}
-@media(max-width:860px){main{grid-template-columns:1fr}}
-aside{background:var(--panel);border:1px solid var(--border);border-radius:6px;padding:10px;height:fit-content;max-height:calc(100vh - 90px);overflow-y:auto;position:sticky;top:70px}
-aside h2{font-size:11px;color:var(--mut);text-transform:uppercase;margin-bottom:8px;letter-spacing:.5px}
-.hist-item{padding:5px 7px;border-radius:4px;cursor:pointer;font-size:11px;border-bottom:1px solid var(--border)}
-.hist-item:hover{background:var(--panel2)}
-.hist-item .hm{color:var(--accent);font-weight:600}
-.hist-item .hs{font-size:10px;color:var(--mut);margin-top:2px;word-break:break-all}
-.hist-item.s2xx .hs{color:var(--ok)}.hist-item.s4xx .hs{color:var(--warn)}.hist-item.s5xx .hs{color:var(--err)}
+main{max-width:1200px;margin:0 auto;padding:14px}
 section.panel{background:var(--panel);border:1px solid var(--border);border-radius:6px;padding:12px;margin-bottom:12px}
 .row{display:flex;gap:8px;margin-bottom:8px;flex-wrap:wrap;align-items:center}
 label.f{font-size:11px;color:var(--mut);min-width:60px}
@@ -46,6 +38,7 @@ button.sec:hover{background:var(--panel2)}
 .tabs button.active{color:var(--accent);border-bottom-color:var(--accent)}
 .tab-panel{display:none}.tab-panel.active{display:block}
 pre{background:#0a0d11;border:1px solid var(--border);border-radius:4px;padding:10px;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11px;overflow:auto;max-height:60vh;white-space:pre;line-height:1.5}
+pre.wrap{white-space:pre-wrap;word-break:break-all;overflow-x:hidden}
 .jk{color:#7ee787}.js{color:#a5d6ff}.jn{color:#79c0ff}.jb{color:#ff7b72}.jnul{color:#8b949e}
 .search-bar{display:flex;gap:6px;margin-bottom:8px;flex-wrap:wrap;align-items:center}
 .search-bar input{flex:1;min-width:150px}
@@ -62,6 +55,23 @@ table.h td:first-child{color:var(--accent);width:35%;font-weight:600}
 .badge{display:inline-block;font-size:10px;padding:2px 7px;border-radius:9px;font-weight:600}
 .badge.puno{background:rgba(63,185,80,.2);color:var(--ok)}
 .badge.skraceno{background:rgba(210,153,34,.2);color:var(--warn)}
+.ep-opis{font-size:11px;color:var(--mut);margin-top:4px;padding:6px 8px;background:var(--panel2);border-radius:4px;border-left:2px solid var(--accent)}
+.hist-section{margin-top:16px}
+.hist-section h2{font-size:12px;color:var(--mut);text-transform:uppercase;margin-bottom:8px;letter-spacing:.5px}
+.hist-grid{display:flex;flex-direction:column;gap:4px;max-height:300px;overflow-y:auto}
+.hist-item{padding:5px 8px;border-radius:4px;cursor:pointer;font-size:11px;border-bottom:1px solid var(--border)}
+.hist-item:hover{background:var(--panel2)}
+.hist-item .hm{color:var(--accent);font-weight:600}
+.hist-item .hs{font-size:10px;color:var(--mut);margin-top:2px;word-break:break-all}
+.hist-item.s2xx .hs{color:var(--ok)}.hist-item.s4xx .hs{color:var(--warn)}.hist-item.s5xx .hs{color:var(--err)}
+@media(max-width:600px){
+  .row{flex-direction:column;align-items:stretch}
+  label.f{min-width:auto}
+  input[type=text]{min-width:auto}
+  .status-bar{flex-direction:column;align-items:flex-start;gap:4px}
+  .search-bar{flex-direction:column}
+  .search-bar input{min-width:auto;width:100%}
+}
 </style>
 </head>
 <body>
@@ -75,160 +85,174 @@ table.h td:first-child{color:var(--accent);width:35%;font-weight:600}
 </header>
 
 <main>
-  <aside>
+  <section class="panel">
+    <div class="presets" id="presets"></div>
+
+    <div class="row">
+      <label class="f">Servis</label>
+      <select id="servis" style="flex:1;min-width:200px"><option value="">— izaberi —</option></select>
+    </div>
+
+    <div class="row">
+      <label class="f">Base</label>
+      <input type="text" id="base" placeholder="/v1/cryptocurrency/">
+    </div>
+
+    <div class="row">
+      <label class="f">Endpoint</label>
+      <input type="text" id="endpoint" list="endpointList" placeholder="listings/latest?limit=10">
+      <datalist id="endpointList"></datalist>
+    </div>
+    <div class="ep-opis" id="epOpis" style="display:none"></div>
+
+    <div class="row">
+      <label class="f">Metod</label>
+      <select id="metod"><option value="">AUTO</option><option>GET</option><option>POST</option></select>
+      <label class="f">pun</label>
+      <select id="pun"><option value="1" selected>1 (puno)</option><option value="0">0 (skraćeno)</option></select>
+      <label class="f">tip</label>
+      <select id="tip"><option>pojedinacni</option><option>bulk</option><option>listing</option></select>
+      <label class="f">cu</label>
+      <input type="number" id="cu" style="width:70px;min-width:70px" placeholder="auto">
+    </div>
+
+    <div class="row" id="bodyRow" style="display:none">
+      <label class="f">Body</label>
+      <textarea id="body" placeholder='{"currency":"USD","limit":5}'></textarea>
+    </div>
+
+    <div class="row" style="margin-top:10px">
+      <button class="primary" id="sendBtn" onclick="posalji()">Pošalji</button>
+      <button class="sec" onclick="sacuvajPreset()">Sačuvaj preset</button>
+    </div>
+  </section>
+
+  <section class="panel" id="result" style="display:none">
+    <div class="status-bar" id="statusBar"></div>
+
+    <div class="tabs">
+      <button class="active" data-tab="body">Body</button>
+      <button data-tab="headers">Headers</button>
+      <button data-tab="meta">Meta</button>
+    </div>
+
+    <div class="tab-panel active" id="tab-body">
+      <div class="search-bar">
+        <input type="text" id="search" placeholder="Traži u odgovoru...">
+        <button class="sec" onclick="searchPrev()">◀</button>
+        <button class="sec" onclick="searchNext()">▶</button>
+        <span class="match-count" id="matchCount"></span>
+        <label><input type="checkbox" id="caseS"> Aa</label>
+        <label><input type="checkbox" id="onlyBody" checked> samo body</label>
+        <button class="copy-btn" onclick="copyBody()">Kopiraj</button>
+        <span class="badge" id="bodyBadge" style="display:none"></span>
+      </div>
+      <pre id="bodyPre"></pre>
+    </div>
+
+    <div class="tab-panel" id="tab-headers">
+      <div class="search-bar"><input type="text" id="hSearch" placeholder="Filter headera..."><button class="copy-btn" onclick="copyHeaders()">Kopiraj</button></div>
+      <table class="h"><tbody id="headersBody"></tbody></table>
+    </div>
+
+    <div class="tab-panel" id="tab-meta">
+      <div id="metaContent"></div>
+      <div style="margin-top:10px"><button class="copy-btn" onclick="copyMeta()">Kopiraj meta</button></div>
+    </div>
+  </section>
+
+  <section class="panel hist-section">
     <h2>Istorija (50)</h2>
-    <div id="hist"></div>
+    <div class="hist-grid" id="hist"></div>
     <div style="margin-top:10px"><button class="copy-btn" onclick="clearHist()">Obriši istoriju</button></div>
-  </aside>
-
-  <div>
-    <section class="panel">
-      <div class="presets" id="presets"></div>
-
-      <div class="row">
-        <label class="f">Servis</label>
-        <select id="servis" style="flex:1;min-width:200px"><option value="">— izaberi —</option></select>
-      </div>
-
-      <div class="row">
-        <label class="f">Base</label>
-        <input type="text" id="base" placeholder="/v1/cryptocurrency/">
-      </div>
-
-      <div class="row">
-        <label class="f">Endpoint</label>
-        <input type="text" id="endpoint" list="endpointList" placeholder="listings/latest?limit=10">
-        <datalist id="endpointList"></datalist>
-      </div>
-
-      <div class="row">
-        <label class="f">Metod</label>
-        <select id="metod"><option value="">AUTO</option><option>GET</option><option>POST</option></select>
-        <label class="f">pun</label>
-        <select id="pun"><option value="1" selected>1 (puno)</option><option value="0">0 (skraćeno)</option></select>
-        <label class="f">tip</label>
-        <select id="tip"><option>pojedinacni</option><option>bulk</option><option>listing</option></select>
-        <label class="f">cu</label>
-        <input type="number" id="cu" style="width:70px;min-width:70px" placeholder="auto">
-      </div>
-
-      <div class="row" id="bodyRow" style="display:none">
-        <label class="f">Body</label>
-        <textarea id="body" placeholder='{"currency":"USD","limit":5}'></textarea>
-      </div>
-
-      <div class="row" style="margin-top:10px">
-        <button class="primary" id="sendBtn" onclick="posalji()">Pošalji</button>
-        <button class="sec" onclick="sacuvajPreset()">Sačuvaj preset</button>
-      </div>
-    </section>
-
-    <section class="panel" id="result" style="display:none">
-      <div class="status-bar" id="statusBar"></div>
-
-      <div class="tabs">
-        <button class="active" data-tab="body">Body</button>
-        <button data-tab="headers">Headers</button>
-        <button data-tab="meta">Meta</button>
-      </div>
-
-      <div class="tab-panel active" id="tab-body">
-        <div class="search-bar">
-          <input type="text" id="search" placeholder="Traži u odgovoru...">
-          <button class="sec" onclick="searchPrev()">◀</button>
-          <button class="sec" onclick="searchNext()">▶</button>
-          <span class="match-count" id="matchCount"></span>
-          <label><input type="checkbox" id="caseS"> Aa</label>
-          <label><input type="checkbox" id="onlyBody" checked> samo body</label>
-          <button class="copy-btn" onclick="copyBody()">Kopiraj</button>
-          <span class="badge" id="bodyBadge" style="display:none"></span>
-        </div>
-        <pre id="bodyPre"></pre>
-      </div>
-
-      <div class="tab-panel" id="tab-headers">
-        <div class="search-bar"><input type="text" id="hSearch" placeholder="Filter headera..."><button class="copy-btn" onclick="copyHeaders()">Kopiraj</button></div>
-        <table class="h"><tbody id="headersBody"></tbody></table>
-      </div>
-
-      <div class="tab-panel" id="tab-meta">
-        <div id="metaContent"></div>
-        <div style="margin-top:10px"><button class="copy-btn" onclick="copyMeta()">Kopiraj meta</button></div>
-      </div>
-    </section>
-  </div>
+  </section>
 </main>
 
 <script>
-// ===== ENDPOINTI — free plan, po servisu =====
+// ===== ENDPOINTI — free plan, sa opisima =====
 const ENDPOINTI = {
   'cmc': [
-    { p:'/v1/cryptocurrency/', e:'listings/latest?limit=10&convert=USD', m:'GET' },
-    { p:'/v1/cryptocurrency/', e:'quotes/latest?id=1,1027&convert=USD', m:'GET' },
-    { p:'/v1/cryptocurrency/', e:'info?id=1,1027', m:'GET' },
-    { p:'/v1/cryptocurrency/', e:'map?limit=10', m:'GET' },
-    { p:'/v1/global-metrics/', e:'quotes/latest?convert=USD', m:'GET' }
+    { p:'/v1/cryptocurrency/', e:'listings/latest?limit=10&convert=USD', m:'GET', o:'Lista svih aktivnih kriptovaluta sa tržišnim podacima' },
+    { p:'/v1/cryptocurrency/', e:'quotes/latest?id=1,1027&convert=USD', m:'GET', o:'Najnovije kotacije za određene kriptovalute' },
+    { p:'/v1/cryptocurrency/', e:'info?id=1,1027', m:'GET', o:'Metapodaci o kriptovalutama (opis, logo, linkovi)' },
+    { p:'/v1/cryptocurrency/', e:'map?limit=10', m:'GET', o:'Mapiranje CMC ID-jeva na simbole i slugove' },
+    { p:'/v1/global-metrics/', e:'quotes/latest?convert=USD', m:'GET', o:'Globalni tržišni podaci (ukupna kapitalizacija, dominacija)' }
   ],
   'coingecko': [
-    { p:'/api/v3/', e:'ping', m:'GET' },
-    { p:'/api/v3/', e:'simple/price?ids=bitcoin&vs_currencies=usd', m:'GET' },
-    { p:'/api/v3/', e:'coins/list', m:'GET' },
-    { p:'/api/v3/', e:'coins/markets?vs_currency=usd&per_page=10', m:'GET' },
-    { p:'/api/v3/', e:'coins/bitcoin', m:'GET' },
-    { p:'/api/v3/', e:'coins/bitcoin/market_chart?vs_currency=usd&days=7', m:'GET' },
-    { p:'/api/v3/', e:'search/trending', m:'GET' }
+    { p:'/api/v3/', e:'ping', m:'GET', o:'Provera statusa API-ja' },
+    { p:'/api/v3/', e:'simple/price?ids=bitcoin&vs_currencies=usd', m:'GET', o:'Trenutne cene za određene koinove' },
+    { p:'/api/v3/', e:'coins/list', m:'GET', o:'Lista svih podržanih koinova' },
+    { p:'/api/v3/', e:'coins/markets?vs_currency=usd&per_page=10', m:'GET', o:'Tržišni podaci za sve koinove (cena, market cap, volumen)' },
+    { p:'/api/v3/', e:'coins/bitcoin', m:'GET', o:'Detaljni podaci o konkretnom koinu' },
+    { p:'/api/v3/', e:'coins/bitcoin/market_chart?vs_currency=usd&days=7', m:'GET', o:'Istorijski podaci o ceni i volumenu' },
+    { p:'/api/v3/', e:'coins/bitcoin/ohlc?vs_currency=usd&days=7', m:'GET', o:'OHLC svećice za koin' },
+    { p:'/api/v3/', e:'search/trending', m:'GET', o:'Trenutno popularni koinovi' },
+    { p:'/api/v3/', e:'global', m:'GET', o:'Globalna statistika kripto tržišta' }
   ],
   'coinstats': [
-    { p:'', e:'/coins?limit=10', m:'GET' },
-    { p:'', e:'/coins/bitcoin', m:'GET' },
-    { p:'', e:'/coins/bitcoin/charts', m:'GET' },
-    { p:'', e:'/markets', m:'GET' },
-    { p:'', e:'/news', m:'GET' }
+    { p:'', e:'/coins?limit=10', m:'GET', o:'Lista svih koinova' },
+    { p:'', e:'/coins/bitcoin', m:'GET', o:'Detalji o konkretnom koinu' },
+    { p:'', e:'/coins/bitcoin/charts', m:'GET', o:'Istorijski podaci o ceni' },
+    { p:'', e:'/markets', m:'GET', o:'Lista svih berzi' },
+    { p:'', e:'/news', m:'GET', o:'Najnovije kripto vesti' },
+    { p:'', e:'/usage/credits', m:'GET', o:'Provera preostalih kredita (ne troši kredite)' }
   ],
   'etherscan': [
-    { p:'/v2/api?chainid=1&', e:'module=gastracker&action=gasoracle', m:'GET' },
-    { p:'/v2/api?chainid=1&', e:'module=stats&action=ethsupply', m:'GET' },
-    { p:'/v2/api?chainid=1&', e:'module=stats&action=ethprice', m:'GET' }
+    { p:'/v2/api?chainid=1&', e:'module=gastracker&action=gasoracle', m:'GET', o:'Trenutne cene gasa (slow/standard/fast)' },
+    { p:'/v2/api?chainid=1&', e:'module=stats&action=ethsupply', m:'GET', o:'Ukupna ponuda ETH' },
+    { p:'/v2/api?chainid=1&', e:'module=stats&action=ethprice', m:'GET', o:'Trenutna cena ETH' },
+    { p:'/v2/api?chainid=1&', e:'module=account&action=balance&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045', m:'GET', o:'Balans adrese (u wei)' }
   ],
   'blockscout': [
-    { p:'/api/v2/', e:'stats', m:'GET' },
-    { p:'/api/v2/', e:'blocks', m:'GET' }
+    { p:'/api/v2/', e:'stats', m:'GET', o:'Statistika mreže (ukupan broj blokova, transakcija)' },
+    { p:'/api/v2/', e:'blocks', m:'GET', o:'Lista blokova' },
+    { p:'/api/v2/', e:'blocks/12345678', m:'GET', o:'Detalji o bloku' },
+    { p:'/api/v2/', e:'transactions', m:'GET', o:'Lista transakcija' },
+    { p:'/api/v2/', e:'addresses/0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045', m:'GET', o:'Detalji o adresi (balans, transakcije)' }
   ],
   'coinpaprika': [
-    { p:'/v1/', e:'tickers?limit=10', m:'GET' },
-    { p:'/v1/', e:'tickers/btc-bitcoin', m:'GET' },
-    { p:'/v1/', e:'coins', m:'GET' },
-    { p:'/v1/', e:'global', m:'GET' }
+    { p:'/v1/', e:'tickers?limit=10', m:'GET', o:'Lista svih aktivnih koinova sa trenutnim podacima' },
+    { p:'/v1/', e:'tickers/btc-bitcoin', m:'GET', o:'Podaci za konkretan koin' },
+    { p:'/v1/', e:'coins', m:'GET', o:'Lista svih koinova' },
+    { p:'/v1/', e:'global', m:'GET', o:'Globalni tržišni podaci' },
+    { p:'/v1/', e:'tickers/btc-bitcoin/historical?start=2025-07-10&interval=1d', m:'GET', o:'Istorijski podaci o ceni (1 godina unazad)' }
   ],
   'cryptocompare': [
-    { p:'/data/', e:'price?fsym=BTC&tsyms=USD', m:'GET' },
-    { p:'/data/', e:'pricemultifull?fsyms=BTC,ETH&tsyms=USD', m:'GET' },
-    { p:'/data/', e:'top/totalvolfull?limit=10&tsym=USD', m:'GET' },
-    { p:'/data/v2/', e:'histoday?fsym=BTC&tsym=USD&limit=30', m:'GET' }
+    { p:'/data/', e:'price?fsym=BTC&tsyms=USD', m:'GET', o:'Trenutna cena za određeni simbol' },
+    { p:'/data/', e:'pricemultifull?fsyms=BTC,ETH&tsyms=USD', m:'GET', o:'Detaljni podaci o ceni za više koinova' },
+    { p:'/data/', e:'top/totalvolfull?limit=10&tsym=USD', m:'GET', o:'Top koinovi po ukupnom volumenu' },
+    { p:'/data/v2/', e:'histoday?fsym=BTC&tsym=USD&limit=30', m:'GET', o:'Dnevni istorijski podaci' },
+    { p:'/data/', e:'exchanges/general', m:'GET', o:'Lista berzi' }
   ],
   'cryptorank': [
-    { p:'/v3/', e:'currencies/list?limit=10', m:'GET' },
-    { p:'/v3/', e:'currencies/map', m:'GET' },
-    { p:'/v3/', e:'currencies/1', m:'GET' },
-    { p:'/v3/', e:'global/market', m:'GET' },
-    { p:'/v3/', e:'status', m:'GET' }
+    { p:'/v3/', e:'currencies/list?limit=10', m:'GET', o:'Lista kriptovaluta sa tržišnim podacima' },
+    { p:'/v3/', e:'currencies/map', m:'GET', o:'Mapiranje ID-jeva na simbole' },
+    { p:'/v3/', e:'currencies/1', m:'GET', o:'Detalji o konkretnoj kriptovaluti' },
+    { p:'/v3/', e:'global/market', m:'GET', o:'Globalni tržišni podaci' },
+    { p:'/v3/', e:'status', m:'GET', o:'Status plana i iskorišćenost kredita' }
   ],
   'livecoinwatch': [
-    { p:'', e:'/status', m:'POST', b:'{}' },
-    { p:'', e:'/credits', m:'POST', b:'{}' },
-    { p:'', e:'/overview', m:'POST', b:'{"currency":"USD"}' },
-    { p:'', e:'/coins/list', m:'POST', b:'{"currency":"USD","sort":"rank","order":"ascending","offset":0,"limit":5,"meta":false}' },
-    { p:'', e:'/coins/single', m:'POST', b:'{"currency":"USD","code":"BTC","meta":true}' },
-    { p:'', e:'/fiats', m:'POST', b:'{}' },
-    { p:'', e:'/exchanges/list', m:'POST', b:'{"currency":"USD","sort":"volume","order":"descending","offset":0,"limit":10}' }
+    { p:'', e:'/status', m:'POST', b:'{}', o:'Status API-ja' },
+    { p:'', e:'/credits', m:'POST', b:'{}', o:'Preostali krediti' },
+    { p:'', e:'/overview', m:'POST', b:'{"currency":"USD"}', o:'Globalni tržišni podaci' },
+    { p:'', e:'/overview/history', m:'POST', b:'{"currency":"USD","start":1700000000000,"end":1700086400000}', o:'Istorijski globalni podaci' },
+    { p:'', e:'/coins/list', m:'POST', b:'{"currency":"USD","sort":"rank","order":"ascending","offset":0,"limit":5,"meta":false}', o:'Lista koinova' },
+    { p:'', e:'/coins/single', m:'POST', b:'{"currency":"USD","code":"BTC","meta":true}', o:'Podaci o jednom koinu' },
+    { p:'', e:'/coins/history', m:'POST', b:'{"currency":"USD","code":"BTC","start":1700000000000,"end":1700086400000}', o:'Istorijski podaci o koinu' },
+    { p:'', e:'/fiats', m:'POST', b:'{}', o:'Lista fiat valuta' },
+    { p:'', e:'/exchanges/list', m:'POST', b:'{"currency":"USD","sort":"volume","order":"descending","offset":0,"limit":10}', o:'Lista berzi' },
+    { p:'', e:'/exchanges/single', m:'POST', b:'{"currency":"USD","code":"binance","meta":true}', o:'Podaci o jednoj berzi' }
   ],
   'alchemy': [
-    { p:'/v2/', e:'', m:'POST', b:'{"jsonrpc":"2.0","id":1,"method":"eth_blockNumber","params":[]}' },
-    { p:'/v2/', e:'', m:'POST', b:'{"jsonrpc":"2.0","id":1,"method":"eth_getBalance","params":["0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045","latest"]}' },
-    { p:'/v2/', e:'', m:'POST', b:'{"jsonrpc":"2.0","id":1,"method":"eth_getTransactionByHash","params":["0x0"]}' }
+    { p:'/v2/', e:'', m:'POST', b:'{"jsonrpc":"2.0","id":1,"method":"eth_blockNumber","params":[]}', o:'Trenutna visina bloka' },
+    { p:'/v2/', e:'', m:'POST', b:'{"jsonrpc":"2.0","id":1,"method":"eth_getBalance","params":["0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045","latest"]}', o:'Balans adrese' },
+    { p:'/v2/', e:'', m:'POST', b:'{"jsonrpc":"2.0","id":1,"method":"eth_call","params":[{"to":"0x...","data":"0x..."},"latest"]}', o:'Read-only poziv ka ugovoru' },
+    { p:'/v2/', e:'', m:'POST', b:'{"jsonrpc":"2.0","id":1,"method":"eth_getLogs","params":[{"fromBlock":"0x...","toBlock":"latest","address":"0x...","topics":[]}]}', o:'Pretraga logova događaja' },
+    { p:'/v2/', e:'', m:'POST', b:'{"jsonrpc":"2.0","id":1,"method":"eth_getTransactionByHash","params":["0x..."]}', o:'Detalji o transakciji' },
+    { p:'/v2/', e:'', m:'POST', b:'{"jsonrpc":"2.0","id":1,"method":"eth_getTransactionReceipt","params":["0x..."]}', o:'Status transakcije' }
   ],
   'nbs': [
-    { p:'', e:'/api/open/central-bank/nbs', m:'GET' }
+    { p:'', e:'/api/open/central-bank/nbs', m:'GET', o:'NBS kursna lista (EUR, USD, CHF...)' }
   ]
 };
 
@@ -244,13 +268,12 @@ async function init() {
   if (savedWorker) document.querySelector(`input[name=worker][value="${savedWorker}"]`).checked = true;
   document.querySelectorAll('input[name=worker]').forEach(r => r.addEventListener('change', e => localStorage.setItem(WORKERS_KEY, e.target.value)));
   document.getElementById('servis').addEventListener('change', onServisChange);
-  document.getElementById('endpoint').addEventListener('input', updateSearch);
+  document.getElementById('endpoint').addEventListener('input', onEndpointChange);
   document.getElementById('metod').addEventListener('change', onMetodChange);
   document.getElementById('pun').addEventListener('change', updateSearch);
   document.getElementById('search').addEventListener('input', updateSearch);
   document.getElementById('hSearch').addEventListener('input', renderHeaders);
   document.querySelectorAll('.tabs button').forEach(b => b.addEventListener('click', () => aktivTab(b.dataset.tab)));
-  document.querySelectorAll('.tab-panel').forEach(p => p.id = 'tab-' + p.dataset.tab || p.id);
   document.getElementById('endpoint').addEventListener('keydown', e => { if (e.key === 'Enter') posalji(); });
 }
 
@@ -267,7 +290,7 @@ async function ucitajServise() {
     const o = document.createElement('option');
     o.value = s.domen;
     o.dataset.servis = s.servis;
-    o.textContent = s.servis + ' — ' + s.domen;
+    o.textContent = s.servis;
     sel.appendChild(o);
   }
 }
@@ -276,7 +299,7 @@ function onServisChange() {
   const sel = document.getElementById('servis');
   const opt = sel.options[sel.selectedIndex];
   const servis = opt.dataset.servis;
-  if (!servis) { document.getElementById('base').value = ''; document.getElementById('endpointList').innerHTML = ''; return; }
+  if (!servis) { document.getElementById('base').value = ''; document.getElementById('endpointList').innerHTML = ''; document.getElementById('epOpis').style.display = 'none'; return; }
   const saved = localStorage.getItem(BASE_KEY + servis);
   document.getElementById('base').value = saved || '';
   const eps = ENDPOINTI[servis] || [];
@@ -292,14 +315,33 @@ function onServisChange() {
     if (eps[0].m) document.getElementById('metod').value = eps[0].m === 'POST' ? 'POST' : 'GET';
     if (eps[0].b) document.getElementById('body').value = eps[0].b;
     onMetodChange();
+    onEndpointChange();
   }
-  // sačuvaj base pri promeni
   document.getElementById('base').onchange = () => localStorage.setItem(BASE_KEY + servis, document.getElementById('base').value);
+}
+
+function onEndpointChange() {
+  const sel = document.getElementById('servis');
+  const servis = sel.options[sel.selectedIndex]?.dataset.servis;
+  if (!servis) return;
+  const eps = ENDPOINTI[servis] || [];
+  const val = document.getElementById('endpoint').value;
+  const ep = eps.find(x => x.e === val);
+  const opis = document.getElementById('epOpis');
+  if (ep && ep.o) {
+    opis.textContent = ep.o;
+    opis.style.display = 'block';
+  } else {
+    opis.style.display = 'none';
+  }
 }
 
 function onMetodChange() {
   const m = document.getElementById('metod').value;
-  const showBody = m === 'POST' || (m === '' && document.getElementById('servis').value && SERVICES.find(s => s.domen === document.getElementById('servis').value)?.metod === 'POST');
+  const sel = document.getElementById('servis');
+  const servis = sel.options[sel.selectedIndex]?.dataset.servis;
+  const autoPost = !m && servis && SERVICES.find(s => s.domen === sel.value)?.metod === 'POST';
+  const showBody = m === 'POST' || autoPost;
   document.getElementById('bodyRow').style.display = showBody ? 'flex' : 'none';
 }
 
@@ -369,12 +411,17 @@ function renderRezultat(rez, trajanje) {
   sb.className = 'status-bar ' + cls;
   sb.innerHTML = `<span>${icon} ${rez.status || 'ERR'}</span><span>${rez.trajanje_ms || trajanje} ms</span><span>${rez.servis || ''}</span><span>cu: ${rez.cu ?? '-'}</span><span>tip: ${rez.tip || ''}</span>` + (rez.greska ? `<span>${rez.greska}: ${rez.razlog || rez.detalj || ''}</span>` : '');
 
-  // Body
   const bodyPre = document.getElementById('bodyPre');
   const bodyText = rez.body || '';
   let pretty = bodyText, isJson = false;
   try { const parsed = JSON.parse(bodyText); pretty = JSON.stringify(parsed, null, 2); isJson = true; } catch (e) {}
   bodyPre.innerHTML = isJson ? highlightJson(pretty) : escapeHtml(pretty);
+  if (rez.skraceno) {
+    bodyPre.classList.add('wrap');
+  } else {
+    bodyPre.classList.remove('wrap');
+  }
+
   const badge = document.getElementById('bodyBadge');
   badge.style.display = 'inline-block';
   if (rez.skraceno) { badge.className = 'badge skraceno'; badge.textContent = `skraćeno (${rez.body.length}/${rez.original_duzina})`; }
@@ -448,16 +495,13 @@ function updateSearch() {
     return '>' + replaced + '<';
   });
   pre.innerHTML = newHtml;
-  // konvertuj markere u <mark>
   let out = pre.innerHTML;
-  let idx = 0;
   out = out.replace(/\u0001MARK(\d+)\u0001([^\u0002]*)\u0002/g, (_, n, txt) => `<mark data-i="${n}">${txt}</mark>`);
   pre.innerHTML = out;
   matches = Array.from(pre.querySelectorAll('mark'));
   document.getElementById('matchCount').textContent = matches.length ? `1 od ${matches.length}` : 'nema';
   matchIdx = 0;
   if (matches.length) { matches[0].classList.add('cur'); matches[0].scrollIntoView({block:'center'}); }
-  // pretraga u headerima
   if (!onlyBody) { renderHeaders(); }
 }
 function clearMarks() {
@@ -508,7 +552,6 @@ function popuniIzIstorije(x) {
       if (o.value && x.url.startsWith('https://' + o.value)) { sel.value = o.value; break; }
     }
     onServisChange();
-    // base + endpoint
     const rest = x.url.slice('https://'.length).split('/').slice(1).join('/');
     const base = document.getElementById('base').value || '';
     if (base && rest.startsWith(base.replace(/^\//, ''))) {
@@ -518,6 +561,7 @@ function popuniIzIstorije(x) {
     }
     document.getElementById('metod').value = x.metod === 'AUTO' ? '' : x.metod;
     onMetodChange();
+    onEndpointChange();
   } catch (e) {}
 }
 function clearHist() { if (confirm('Obriši istoriju?')) { localStorage.removeItem(HIST_KEY); renderHist(); } }
@@ -551,6 +595,7 @@ function primeniPreset(b) {
   document.getElementById('metod').value = b.m || '';
   document.getElementById('body').value = b.bd || '';
   onMetodChange();
+  onEndpointChange();
 }
 function sacuvajPreset() {
   const n = prompt('Naziv preseta:');
