@@ -2,3 +2,4 @@ id,symbol,name,slug,web,logo,contract
 take-two-interactive-software-robinhood-tokenized-stock,ttwo,Take-Two Interactive Software • Robinhood Token,take-two-interactive-software-robinhood-token,robinhood.com,,"{""robinhood"": ""0x5e81213613b6b86eab4c6c50d718d34359459786""}"
 myria,myria,Myria,myria,myria.com,,"{""ethereum"": ""0xa0ef786bf476fe0810408caba05e536ac800ff86""}"
 boeing-ondo-tokenized-stock,baon,Boeing (Ondo Tokenized Stock),boeing-ondo-tokenized-stock,app.ondo.finance,,"{""ethereum"": ""0x57270d35a840bc5c094da6fbeca033fb71ea6ab0"", ""binance-smart-chain"": ""0xf21132a811ad1a878e21af60f64d4e690c9daa42"", ""solana"": ""1YVZ4LGpq8CAhpdpm3mgy7GgPb83gJczCpxLUQ3ondo""}"
+levva-protocol,lvva,Levva Protocol,levva-protocol,levva.fi,,"{""ethereum"": ""0x6243558a24cc6116abe751f27e6d7ede50abfc76""}"
