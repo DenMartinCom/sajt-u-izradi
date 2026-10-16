@@ -177,3 +177,4 @@ meeds-dao,meed,Meeds DAO,meeds-dao,meeds.io,,"{""ethereum"": ""0x8503a7b00b4b526
 shina-inu,shi,Shina Inu,shina-inu,shinatoken.com,,"{""ethereum"": ""0x243cacb4d5ff6814ad668c3e225246efa886ad5a""}"
 lock-in,lockin,LOCK IN,lock-in,lockinsol.com,,"{""solana"": ""8Ki8DpuWNxu9VsS3kQbarsCWMcFGWkzzA8pUPto9zBd5""}"
 prism,prism,Prism,prism,prism.ag,,"{""solana"": ""PRSMNsEPqhGVCH1TtWiJqPjJyh2cKrLostPZTNy1o5x""}"
+kardiachain,kai,KardiaChain,kardiachain,kardiachain.io,,"{""kardiachain"": ""0xaf984e23eaa3e7967f3c5e007fbe397d8566d23d"", ""binance-smart-chain"": ""0x39ae8eefb05138f418bb27659c21632dc1ddab10"", ""arbitrum-one"": ""0xa891b374942cde9061e044c1d19c5b5de06a68e1""}"
