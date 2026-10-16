@@ -61,3 +61,4 @@ oracle-rstock,rorcl,Oracle Tokenized Stock (Reality),oracle-rstock,realityfinanc
 coca-cola-xstock,kox,Coca-Cola xStock,coca-cola-xstock,xstocks.com,,"{""arbitrum-one"": ""0xdcc1a2699441079da889b1f49e12b69cc791129b"", ""ethereum"": ""0xdcc1a2699441079da889b1f49e12b69cc791129b"", ""binance-smart-chain"": ""0xdcc1a2699441079da889b1f49e12b69cc791129b"", ""mantle"": ""0xdcc1a2699441079da889b1f49e12b69cc791129b"", ""solana"": ""XsaBXg8dU5cPM6ehmVctMkVqoiRG2ZjMo1cyBJ3AykQ"", ""the-open-network"": ""EQAD-iVmVKW8frDDYPd80N-7dy8m2LfU8nK_85TeHkXWEw-C""}"
 convertible-jpy-token,cjpy,Convertible JPY Token,convertible-jpy-token,app.yamato.fi,,"{""ethereum"": ""0x1cfa5641c01406ab8ac350ded7d735ec41298372""}"
 carrot-by-puffer,carrot,Carrot by Puffer,carrot-by-puffer,puffer.fi,,"{""ethereum"": ""0x282a69142bac47855c3fbe1693fcc4ba3b4d5ed6""}"
+skey-network,skey,Skey Network,skey-network,skey.network,,"{""ethereum"": ""0x06a01a4d579479dd5d884ebf61a31727a3d8d442""}"
