@@ -249,3 +249,4 @@ gammaswap,gs,GammaSwap,gammaswap,gammaswap.com,,"{""arbitrum-one"": ""0xb08d8bec
 netflix-ondo-tokenized-stock,nflxon,Netflix (Ondo Tokenized Stock),netflix-ondo-tokenized-stock,app.ondo.finance,,"{""ethereum"": ""0x032dec3372f25c41ea8054b4987a7c4832cdb338"", ""binance-smart-chain"": ""0x7048f5227b032326cc8dbc53cf3fddd947a2c757"", ""hyperevm"": ""0x81ebb420a81855f1bf1b0ff95eca9d3bd736ea89"", ""solana"": ""g4KnPrxPLeeKkwvDmZFMtYQPM64eHeShbD55vK6ondo""}"
 stake-dao-fxn,sdfxn,Stake DAO FXN,stake-dao-fxn,stakedao.org,,"{""ethereum"": ""0xe19d1c837b8a1c83a56cd9165b2c0256d39653ad""}"
 usdfi-stable,stable,Stable,usdfi-stable,usdfi.com,,"{""binance-smart-chain"": ""0x8bf75bc68fd337dfd8186d731df8b3c2cb14b9e6"", ""ethereum"": ""0x60b9c41d99fe3eb64ecc1344bad31d87f1bced6d"", ""arbitrum-one"": ""0x666966ef3925b1c92fa355fda9722899f3e73451""}"
+eggle-energy,eng,Eggle Energy,eggle-energy,eggle.xyz,,"{""base"": ""0x8a0e751e5d7a2861ca7cf16d9720337e40604982""}"
