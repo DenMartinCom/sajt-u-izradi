@@ -384,3 +384,4 @@ bloom-energy-robinhood-tokenized-stock,be,Bloom Energy • Robinhood Token,bloom
 pepons-2,pepons,Pepons,pepons-2,pepons.family,,"{""robinhood"": ""0xfde368debe9e80f80785064a65719cec1f809dec""}"
 node-2,node,NodeOps,node-2,nodeops.network,,"{""ethereum"": ""0x2f714d7b9a035d4ce24af8d9b6091c07e37f43fb"", ""binance-smart-chain"": ""0x2f714d7b9a035d4ce24af8d9b6091c07e37f43fb""}"
 seagate-bstocks-tokenized-stock,stxb,Seagate (bStocks Tokenized Stock),seagate-bstocks-tokenized-stock,bstocks.finance,,"{""binance-smart-chain"": ""0x2e065f65f1699964f4092de1d39a8efe6c8d6f32""}"
+singularity-finance,sfi,Singularity Finance,singularity-finance,singularityfinance.ai,,"{""ethereum"": ""0x7636d8722fdf7cd34232a915e48e96aa3eb386bf"", ""base"": ""0x863b7364a29daa23c9fcbd02e27d129a8b185891"", ""binance-smart-chain"": ""0x7636d8722fdf7cd34232a915e48e96aa3eb386bf""}"
