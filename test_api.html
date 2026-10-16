@@ -62,7 +62,6 @@ table.h td:first-child{color:var(--accent);width:35%;font-weight:600}
 .hist-item .hs{font-size:10px;color:var(--mut);margin-top:2px;word-break:break-all}
 .hist-item.s2xx .hs{color:var(--ok)}.hist-item.s4xx .hs{color:var(--warn)}.hist-item.s5xx .hs{color:var(--err)}
 
-/* ===== SEARCH BAR ===== */
 .search-bar{margin-bottom:8px}
 .search-bar input[type=text]{width:100%;padding:8px 10px;font-size:13px;min-width:0;margin-bottom:6px}
 .search-controls{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
@@ -104,8 +103,11 @@ table.h td:first-child{color:var(--accent);width:35%;font-weight:600}
 
     <div class="row">
       <label class="f">Endpoint</label>
-      <input type="text" id="endpoint" list="endpointList" placeholder="listings/latest?limit=10">
-      <datalist id="endpointList"></datalist>
+      <select id="endpointSelect" style="flex:1;min-width:220px"><option value="">— izaberi —</option></select>
+    </div>
+    <div class="row">
+      <label class="f">Putanja</label>
+      <input type="text" id="endpoint" placeholder="listings/latest?limit=10">
     </div>
     <div class="ep-opis" id="epOpis" style="display:none"></div>
 
@@ -300,6 +302,32 @@ async function ucitajServise() {
   }
 }
 
+function popuniEndpointSelect(servis, selectedIdx) {
+  const epSel = document.getElementById('endpointSelect');
+  epSel.innerHTML = '<option value="">— izaberi —</option>';
+  const eps = ENDPOINTI[servis] || [];
+  for (let i = 0; i < eps.length; i++) {
+    const o = document.createElement('option');
+    o.value = String(i);
+    o.textContent = eps[i].e || '(prazan endpoint)';
+    epSel.appendChild(o);
+  }
+  if (selectedIdx != null && selectedIdx >= 0) epSel.value = String(selectedIdx);
+  return eps;
+}
+
+function primeniEndpoint(ep) {
+  if (!ep) return;
+  document.getElementById('endpoint').value = ep.e || '';
+  document.getElementById('base').value = ep.p || '';
+  document.getElementById('metod').value = ep.m || '';
+  document.getElementById('body').value = ep.b || '';
+  const epOpis = document.getElementById('epOpis');
+  if (ep.o) { epOpis.textContent = ep.o; epOpis.style.display = 'block'; }
+  else { epOpis.style.display = 'none'; }
+  onMetodChange();
+}
+
 function onServisChange() {
   const sel = document.getElementById('servis');
   const opt = sel.options[sel.selectedIndex];
@@ -309,31 +337,22 @@ function onServisChange() {
   if (!servis) {
     document.getElementById('base').value = '';
     document.getElementById('endpoint').value = '';
-    document.getElementById('endpointList').innerHTML = '';
+    document.getElementById('endpointSelect').innerHTML = '<option value="">— izaberi —</option>';
     document.getElementById('body').value = '';
     epOpis.style.display = 'none';
     return;
   }
 
-  const eps = ENDPOINTI[servis] || [];
-  const dl = document.getElementById('endpointList');
-  dl.innerHTML = '';
-  for (const ep of eps) {
-    const o = document.createElement('option');
-    o.value = ep.e;
-    dl.appendChild(o);
-  }
+  const eps = popuniEndpointSelect(servis, 0);
+  const epSel = document.getElementById('endpointSelect');
+  epSel.onchange = () => {
+    const idx = parseInt(epSel.value, 10);
+    if (isNaN(idx)) return;
+    primeniEndpoint(eps[idx]);
+  };
 
-  // UVEK resetuj na prvi endpoint novog servisa
   if (eps.length) {
-    const prvi = eps[0];
-    document.getElementById('endpoint').value = prvi.e;
-    document.getElementById('base').value = prvi.p || '';
-    document.getElementById('metod').value = prvi.m || '';
-    document.getElementById('body').value = prvi.b || '';
-    if (prvi.o) { epOpis.textContent = prvi.o; epOpis.style.display = 'block'; }
-    else { epOpis.style.display = 'none'; }
-    onMetodChange();
+    primeniEndpoint(eps[0]);
   } else {
     document.getElementById('endpoint').value = '';
     document.getElementById('base').value = '';
@@ -350,20 +369,8 @@ function onEndpointChange() {
   const val = document.getElementById('endpoint').value;
   const ep = eps.find(x => x.e === val);
   const opis = document.getElementById('epOpis');
-
-  if (ep) {
-    // popuni base i body ako polja nisu već popunjena
-    if (ep.p && !document.getElementById('base').value) {
-      document.getElementById('base').value = ep.p;
-    }
-    if (ep.b && !document.getElementById('body').value) {
-      document.getElementById('body').value = ep.b;
-    }
-    if (ep.o) { opis.textContent = ep.o; opis.style.display = 'block'; }
-    else { opis.style.display = 'none'; }
-  } else {
-    opis.style.display = 'none';
-  }
+  if (ep && ep.o) { opis.textContent = ep.o; opis.style.display = 'block'; }
+  else { opis.style.display = 'none'; }
 }
 
 function onMetodChange() {
@@ -444,7 +451,7 @@ function renderRezultat(rez, trajanje) {
   const bodyText = rez.body || '';
   let pretty = bodyText, isJson = false;
   try { const parsed = JSON.parse(bodyText); pretty = JSON.stringify(parsed, null, 2); isJson = true; } catch (e) {}
-  currentBodyHtml = isJson ? highlightJson(pretty) : escapeHtml(pretty);
+  currentBodyHtml = isJson ? highlightJson(pretty) : '<span>' + escapeHtml(pretty) + '</span>';
   const bodyPre = document.getElementById('bodyPre');
   bodyPre.innerHTML = currentBodyHtml;
   if (rez.skraceno) bodyPre.classList.add('wrap');
@@ -457,7 +464,6 @@ function renderRezultat(rez, trajanje) {
 
   renderHeaders();
   renderMeta();
-  // reset pretrage
   document.getElementById('search').value = '';
   document.getElementById('matchCount').textContent = '';
   matches = [];
@@ -509,7 +515,6 @@ function renderMeta() {
   ).join('');
 }
 
-// ===== PRETRAGA — uvek case-insensitive, selekcija prvog nalaza =====
 function updateSearch() {
   const pre = document.getElementById('bodyPre');
   if (!currentBodyHtml) return;
@@ -565,7 +570,6 @@ function aktivTab(name) {
   document.querySelectorAll('.tab-panel').forEach(p => p.classList.toggle('active', p.id === 'tab-' + name));
 }
 
-// ===== ISTORIJA =====
 function addHist(url, metod, status, trajanje) {
   const h = JSON.parse(localStorage.getItem(HIST_KEY) || '[]');
   h.unshift({ url, metod, status, trajanje, t: Date.now() });
@@ -593,31 +597,28 @@ function renderHist() {
 }
 function popuniIzIstorije(x) {
   try {
-    const u = new URL(x.url);
     const sel = document.getElementById('servis');
     for (const o of sel.options) {
       if (o.value && x.url.startsWith('https://' + o.value)) { sel.value = o.value; break; }
     }
-    // NE pozivaj onServisChange ovde (resetovao bi na prvi endpoint) — ručno postavi
     const opt = sel.options[sel.selectedIndex];
     const servis = opt.dataset.servis;
-    if (servis) {
-      const eps = ENDPOINTI[servis] || [];
-      const dl = document.getElementById('endpointList');
-      dl.innerHTML = '';
-      for (const ep of eps) {
-        const o = document.createElement('option');
-        o.value = ep.e;
-        dl.appendChild(o);
-      }
-    }
+    if (!servis) return;
+    const eps = popuniEndpointSelect(servis, -1);
+    document.getElementById('endpointSelect').onchange = () => {
+      const idx = parseInt(document.getElementById('endpointSelect').value, 10);
+      if (isNaN(idx)) return;
+      primeniEndpoint(eps[idx]);
+    };
+
     const rest = x.url.slice('https://'.length).split('/').slice(1).join('/');
-    const base = document.getElementById('base').value || '';
-    if (base && rest.startsWith(base.replace(/^\//, ''))) {
-      document.getElementById('endpoint').value = rest.slice(base.replace(/^\//, '').length);
-    } else {
-      document.getElementById('endpoint').value = rest;
+    // probaj da nađeš base iz liste endpointa
+    let base = '';
+    for (const ep of eps) {
+      if (ep.p && rest.startsWith(ep.p.replace(/^\//, ''))) { base = ep.p; break; }
     }
+    document.getElementById('base').value = base;
+    document.getElementById('endpoint').value = base ? rest.slice(base.replace(/^\//, '').length) : rest;
     document.getElementById('metod').value = x.metod === 'AUTO' ? '' : x.metod;
     onMetodChange();
     onEndpointChange();
@@ -625,7 +626,6 @@ function popuniIzIstorije(x) {
 }
 function clearHist() { if (confirm('Obriši istoriju?')) { localStorage.removeItem(HIST_KEY); renderHist(); } }
 
-// ===== PRESETS =====
 function renderPresets() {
   const p = JSON.parse(localStorage.getItem(PRES_KEY) || '[]');
   const el = document.getElementById('presets');
@@ -648,15 +648,17 @@ function renderPresets() {
 function primeniPreset(b) {
   const sel = document.getElementById('servis');
   sel.value = b.s;
-  // ručno postavi bez onServisChange (da ne resetuje na prvi)
-  const eps = ENDPOINTI[sel.options[sel.selectedIndex]?.dataset.servis] || [];
-  const dl = document.getElementById('endpointList');
-  dl.innerHTML = '';
-  for (const ep of eps) {
-    const o = document.createElement('option');
-    o.value = ep.e;
-    dl.appendChild(o);
-  }
+  const opt = sel.options[sel.selectedIndex];
+  const servis = opt.dataset.servis;
+  if (!servis) return;
+  const eps = popuniEndpointSelect(servis, -1);
+  document.getElementById('endpointSelect').onchange = () => {
+    const idx = parseInt(document.getElementById('endpointSelect').value, 10);
+    if (isNaN(idx)) return;
+    primeniEndpoint(eps[idx]);
+  };
+  const idx = eps.findIndex(x => x.e === b.e);
+  if (idx >= 0) document.getElementById('endpointSelect').value = String(idx);
   document.getElementById('base').value = b.b || '';
   document.getElementById('endpoint').value = b.e || '';
   document.getElementById('metod').value = b.m || '';
@@ -680,7 +682,6 @@ function sacuvajPreset() {
   renderPresets();
 }
 
-// ===== COPY =====
 function copyBody() { navigator.clipboard.writeText(currentRez?.body || ''); }
 function copyHeaders() { navigator.clipboard.writeText(JSON.stringify(currentRez?.headers || {}, null, 2)); }
 function copyMeta() { navigator.clipboard.writeText(JSON.stringify(currentRez || {}, null, 2)); }
