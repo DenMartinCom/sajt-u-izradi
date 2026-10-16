@@ -338,3 +338,4 @@ costco-robinhood-tokenized-stock,cost,Costco • Robinhood Token,costco-robinhoo
 reddcoin,rdd,ReddCoin,reddcoin,reddcoin.com,,"{"""": """"}"
 world-is-flat,wif,World is Flat,world-is-flat,worldisflat.fun,,"{""robinhood"": ""0x5173b8ea6923c2d40267890d45c46a3480954773""}"
 cetes,cetes,Etherfuse CETES,etherfuse-cetes,etherfuse.com,,"{""solana"": ""CETES7CKqqKQizuSN6iWQwmTeFRjbJR6Vw2XRKfEDR8f"", ""base"": ""0x834df4c1d8f51be24322e39e4766697be015512f"", ""monad"": ""0x834df4c1d8f51be24322e39e4766697be015512f"", ""polygon-pos"": ""0x834df4c1d8f51be24322e39e4766697be015512f"", ""stellar"": ""CETES-GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC""}"
+oracle-robinhood-tokenized-stock,orcl,Oracle • Robinhood Token,oracle-robinhood-token,robinhood.com,,"{""robinhood"": ""0xb0992820e760d836549ba69bc7598b4af75dee03""}"
