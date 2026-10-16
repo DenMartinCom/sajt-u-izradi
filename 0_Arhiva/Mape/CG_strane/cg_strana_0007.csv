@@ -317,3 +317,4 @@ spdr-bloomberg-1-3-month-t-bill-etf-anchored-tokenized-etf,abil,SPDR Bloomberg 1
 hakka-finance,hakka,Hakka Finance,hakka-finance,hakka.finance,,"{""ethereum"": ""0x0e29e5abbb5fd88e28b2d355774e73bd47de3bcd""}"
 coin-capsule,caps,Ternoa,ternoa,ternoa.com,,"{""ethereum"": ""0x03be5c903c727ee2c8c4e9bc0acc860cca4715e2"", ""binance-smart-chain"": ""0xffba7529ac181c2ee1844548e6d7061c9a597df4""}"
 aurora-dao,idex,IDEX,idex,idex.io,,"{""ethereum"": ""0xb705268213d593b8fd88d3fdeff93aff5cbdcfae"", ""polygon-pos"": ""0x9cb74c8032b007466865f060ad2c46145d45553d""}"
+adobe-ondo-tokenized-stock,adbeon,Adobe (Ondo Tokenized Stock),adobe-ondo-tokenized-stock,app.ondo.finance,,"{""ethereum"": ""0x7042a8ffc7c7049684bfbc2fcb41b72380755a43"", ""binance-smart-chain"": ""0xcb22db0ecb6fe58b7b47db443dcfdfdfbf729cef"", ""solana"": ""12Rh6JhfW4X5fKP16bbUdb4pcVCKDHFB48x8GG33ondo""}"
