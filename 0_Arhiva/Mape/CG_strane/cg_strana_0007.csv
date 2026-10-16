@@ -119,3 +119,4 @@ hello-labs,hello,HELLO,hello,hello.one,,"{""ethereum"": ""0x411099c0b413f4feddb1
 president-platy,eop,EXCELLENCE,president-platy,platigoland.org,,"{""cronos"": ""0x13c0ff45d019a5888db92631f18556211001883d""}"
 nvidia-dinari-tokenized-stock,nvda,NVIDIA (Dinari Tokenized Stock),nvidia-dinari-tokenized-stock,dinari.com,,"{""ethereum"": ""0x62ec03c917face0e6841afdafc166bf571e55e4f"", ""base"": ""0x92ecf64fdb76e60b76d78a29ad4bf9d38b7b1b97"", ""arbitrum-one"": ""0x4dafffddea93ddf1e0e7b61e844331455053ce5c"", ""avalanche"": ""0x4b16f5251cd4c853f28998809dca61cccbcb898b"", ""hyperevm"": ""0x4b16f5251cd4c853f28998809dca61cccbcb898b""}"
 qbx,qbx,QBX,qbx,qiibeefoundation.org,,"{""ethereum"": ""0x72fdc31f4a9a1edf6b6132d3c1754f1cdcf5d9b1""}"
+usdm1,usdm1,USDM1,usdm1,usdm1.com,,"{""ethereum"": ""0x90a1717e0dabe37693f79afe43ae236dc3b65957"", ""solana"": ""BNgsQdjfWmjoy3cw8T3VXWswHfgCzEMyQzUno8gmzmRC"", ""stellar"": ""CAC743NYRBMS76L2DCPAXZTOEF6EJPKPVEC5OX2SXY7HOWNXISSLUE2C""}"
