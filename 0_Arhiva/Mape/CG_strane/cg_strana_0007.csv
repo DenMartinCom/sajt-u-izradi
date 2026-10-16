@@ -261,3 +261,4 @@ arteris-ondo-tokenized,aipon,Arteris (Ondo Tokenized),arteris-ondo-tokenized,app
 mode,mode,Mode,mode,mode.network,,"{""mode"": ""0xdfc7c877a950e49d2610114102175a06c2e3167a"", ""ethereum"": ""0x084382d1cc4f4dfd1769b1cc1ac2a9b1f8365e90"", ""base"": ""0x084382d1cc4f4dfd1769b1cc1ac2a9b1f8365e90"", ""optimistic-ethereum"": ""0x084382d1cc4f4dfd1769b1cc1ac2a9b1f8365e90""}"
 xfee,xfee,XFee,xfee,xfee.fun,,"{""solana"": ""96egraTCizRpzNx4WvMMhPJf7TKS7W5kUHeenmd1XfuN""}"
 store-of-value,val,Store of Value,store-of-value,valmeme.com,,"{""solana"": ""DtwN3PHiKEpK1MSekViVC8QifdRJCkML6HG16sXHpump""}"
+x2y2,x2y2,X2Y2,x2y2,x2y2.io,,"{""ethereum"": ""0x1e4ede388cbc9f4b5c79681b7f94d36a11abebc9""}"
