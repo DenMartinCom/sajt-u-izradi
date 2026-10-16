@@ -175,3 +175,4 @@ camelot-token,grail,Camelot Token,camelot-token,camelot.exchange,,"{""arbitrum-o
 the-abyss,abyss,Abyss,abyss,abyss.finance,,"{""ethereum"": ""0x0e8d6b471e332f140e7d9dbb99e5e3822f728da6"", ""harmony-shard-0"": ""0xa52d0c7943cc1020a926b23dd1c64fc60b4fadde""}"
 meeds-dao,meed,Meeds DAO,meeds-dao,meeds.io,,"{""ethereum"": ""0x8503a7b00b4b52692cc6c14e5b96f142e30547b7"", ""base"": ""0xd9df947d2a8f9c28c37af7cb7c526022fb14efa2"", ""arbitrum-one"": ""0xe4db3652ac7f88c5712717fd774676bf4aa56769"", ""polygon-pos"": ""0x6aca77cf3bab0c4e8210a09b57b07854a995289a"", ""optimistic-ethereum"": ""0xdd462e9399624dfcf73018793bd50a7ef47940b9""}"
 shina-inu,shi,Shina Inu,shina-inu,shinatoken.com,,"{""ethereum"": ""0x243cacb4d5ff6814ad668c3e225246efa886ad5a""}"
+lock-in,lockin,LOCK IN,lock-in,lockinsol.com,,"{""solana"": ""8Ki8DpuWNxu9VsS3kQbarsCWMcFGWkzzA8pUPto9zBd5""}"
