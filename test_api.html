@@ -1,0 +1,579 @@
+﻿<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>API Test — Kripto</title>
+<style>
+:root{--bg:#0e1116;--panel:#161b22;--panel2:#1c232c;--border:#2a313a;--txt:#c9d1d9;--mut:#8b949e;--accent:#58a6ff;--ok:#3fb950;--warn:#d29922;--err:#f85149;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--txt);font:13px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;min-height:100vh}
+header{background:var(--panel);border-bottom:1px solid var(--border);padding:10px 14px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:100}
+header h1{font-size:15px;color:var(--accent)}
+.workers{display:flex;gap:10px}
+.workers label{display:flex;align-items:center;gap:5px;cursor:pointer;font-size:12px}
+main{display:grid;grid-template-columns:240px 1fr;gap:14px;padding:14px;max-width:1600px;margin:0 auto}
+@media(max-width:860px){main{grid-template-columns:1fr}}
+aside{background:var(--panel);border:1px solid var(--border);border-radius:6px;padding:10px;height:fit-content;max-height:calc(100vh - 90px);overflow-y:auto;position:sticky;top:70px}
+aside h2{font-size:11px;color:var(--mut);text-transform:uppercase;margin-bottom:8px;letter-spacing:.5px}
+.hist-item{padding:5px 7px;border-radius:4px;cursor:pointer;font-size:11px;border-bottom:1px solid var(--border)}
+.hist-item:hover{background:var(--panel2)}
+.hist-item .hm{color:var(--accent);font-weight:600}
+.hist-item .hs{font-size:10px;color:var(--mut);margin-top:2px;word-break:break-all}
+.hist-item.s2xx .hs{color:var(--ok)}.hist-item.s4xx .hs{color:var(--warn)}.hist-item.s5xx .hs{color:var(--err)}
+section.panel{background:var(--panel);border:1px solid var(--border);border-radius:6px;padding:12px;margin-bottom:12px}
+.row{display:flex;gap:8px;margin-bottom:8px;flex-wrap:wrap;align-items:center}
+label.f{font-size:11px;color:var(--mut);min-width:60px}
+input,select,textarea,button{background:var(--panel2);color:var(--txt);border:1px solid var(--border);border-radius:4px;padding:6px 8px;font:inherit;font-size:12px}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent)}
+input[type=text]{flex:1;min-width:180px}
+textarea{width:100%;min-height:80px;font-family:ui-monospace,Menlo,Consolas,monospace;resize:vertical}
+button{cursor:pointer;padding:7px 14px;font-weight:600}
+button.primary{background:var(--accent);color:#000;border-color:var(--accent)}
+button.primary:disabled{opacity:.5;cursor:not-allowed}
+button.sec{background:transparent}
+button.sec:hover{background:var(--panel2)}
+.presets{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
+.presets button{font-size:11px;padding:4px 9px;font-weight:400}
+.status-bar{padding:9px 12px;border-radius:5px;margin-bottom:10px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;font-size:12px;font-weight:600}
+.status-bar.s2xx{background:rgba(63,185,80,.15);border:1px solid var(--ok);color:var(--ok)}
+.status-bar.s3xx{background:rgba(88,166,255,.15);border:1px solid var(--accent);color:var(--accent)}
+.status-bar.s4xx{background:rgba(210,153,34,.15);border:1px solid var(--warn);color:var(--warn)}
+.status-bar.s5xx{background:rgba(248,81,73,.15);border:1px solid var(--err);color:var(--err)}
+.status-bar.pending{background:var(--panel2);border:1px solid var(--border);color:var(--mut)}
+.tabs{display:flex;gap:2px;border-bottom:1px solid var(--border);margin-bottom:10px}
+.tabs button{background:transparent;border:none;border-bottom:2px solid transparent;border-radius:0;padding:8px 14px;font-weight:500;color:var(--mut)}
+.tabs button.active{color:var(--accent);border-bottom-color:var(--accent)}
+.tab-panel{display:none}.tab-panel.active{display:block}
+pre{background:#0a0d11;border:1px solid var(--border);border-radius:4px;padding:10px;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11px;overflow:auto;max-height:60vh;white-space:pre;line-height:1.5}
+.jk{color:#7ee787}.js{color:#a5d6ff}.jn{color:#79c0ff}.jb{color:#ff7b72}.jnul{color:#8b949e}
+.search-bar{display:flex;gap:6px;margin-bottom:8px;flex-wrap:wrap;align-items:center}
+.search-bar input{flex:1;min-width:150px}
+.match-count{font-size:11px;color:var(--mut)}
+mark{background:rgba(255,196,0,.35);color:var(--txt);padding:0 1px;border-radius:2px}
+mark.cur{background:var(--warn);color:#000}
+table.h{width:100%;border-collapse:collapse;font-size:11px;font-family:ui-monospace,Menlo,Consolas,monospace}
+table.h td{padding:4px 8px;border-bottom:1px solid var(--border);vertical-align:top;word-break:break-all}
+table.h td:first-child{color:var(--accent);width:35%;font-weight:600}
+.meta-k{color:var(--mut);display:inline-block;min-width:130px}
+.meta-row{padding:3px 0;border-bottom:1px solid var(--border);font-size:12px}
+.copy-btn{font-size:10px;padding:3px 8px;background:transparent;border:1px solid var(--border)}
+.copy-btn:hover{background:var(--panel2)}
+.badge{display:inline-block;font-size:10px;padding:2px 7px;border-radius:9px;font-weight:600}
+.badge.puno{background:rgba(63,185,80,.2);color:var(--ok)}
+.badge.skraceno{background:rgba(210,153,34,.2);color:var(--warn)}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>API Test</h1>
+  <div class="workers">
+    <label><input type="radio" name="worker" value="https://cmc-proxy.martin-denic.workers.dev" checked>cmc-proxy</label>
+    <label><input type="radio" name="worker" value="https://kripto-consumer.martin-denic.workers.dev">kripto-consumer</label>
+  </div>
+</header>
+
+<main>
+  <aside>
+    <h2>Istorija (50)</h2>
+    <div id="hist"></div>
+    <div style="margin-top:10px"><button class="copy-btn" onclick="clearHist()">Obriši istoriju</button></div>
+  </aside>
+
+  <div>
+    <section class="panel">
+      <div class="presets" id="presets"></div>
+
+      <div class="row">
+        <label class="f">Servis</label>
+        <select id="servis" style="flex:1;min-width:200px"><option value="">— izaberi —</option></select>
+      </div>
+
+      <div class="row">
+        <label class="f">Base</label>
+        <input type="text" id="base" placeholder="/v1/cryptocurrency/">
+      </div>
+
+      <div class="row">
+        <label class="f">Endpoint</label>
+        <input type="text" id="endpoint" list="endpointList" placeholder="listings/latest?limit=10">
+        <datalist id="endpointList"></datalist>
+      </div>
+
+      <div class="row">
+        <label class="f">Metod</label>
+        <select id="metod"><option value="">AUTO</option><option>GET</option><option>POST</option></select>
+        <label class="f">pun</label>
+        <select id="pun"><option value="1" selected>1 (puno)</option><option value="0">0 (skraćeno)</option></select>
+        <label class="f">tip</label>
+        <select id="tip"><option>pojedinacni</option><option>bulk</option><option>listing</option></select>
+        <label class="f">cu</label>
+        <input type="number" id="cu" style="width:70px;min-width:70px" placeholder="auto">
+      </div>
+
+      <div class="row" id="bodyRow" style="display:none">
+        <label class="f">Body</label>
+        <textarea id="body" placeholder='{"currency":"USD","limit":5}'></textarea>
+      </div>
+
+      <div class="row" style="margin-top:10px">
+        <button class="primary" id="sendBtn" onclick="posalji()">Pošalji</button>
+        <button class="sec" onclick="sacuvajPreset()">Sačuvaj preset</button>
+      </div>
+    </section>
+
+    <section class="panel" id="result" style="display:none">
+      <div class="status-bar" id="statusBar"></div>
+
+      <div class="tabs">
+        <button class="active" data-tab="body">Body</button>
+        <button data-tab="headers">Headers</button>
+        <button data-tab="meta">Meta</button>
+      </div>
+
+      <div class="tab-panel active" id="tab-body">
+        <div class="search-bar">
+          <input type="text" id="search" placeholder="Traži u odgovoru...">
+          <button class="sec" onclick="searchPrev()">◀</button>
+          <button class="sec" onclick="searchNext()">▶</button>
+          <span class="match-count" id="matchCount"></span>
+          <label><input type="checkbox" id="caseS"> Aa</label>
+          <label><input type="checkbox" id="onlyBody" checked> samo body</label>
+          <button class="copy-btn" onclick="copyBody()">Kopiraj</button>
+          <span class="badge" id="bodyBadge" style="display:none"></span>
+        </div>
+        <pre id="bodyPre"></pre>
+      </div>
+
+      <div class="tab-panel" id="tab-headers">
+        <div class="search-bar"><input type="text" id="hSearch" placeholder="Filter headera..."><button class="copy-btn" onclick="copyHeaders()">Kopiraj</button></div>
+        <table class="h"><tbody id="headersBody"></tbody></table>
+      </div>
+
+      <div class="tab-panel" id="tab-meta">
+        <div id="metaContent"></div>
+        <div style="margin-top:10px"><button class="copy-btn" onclick="copyMeta()">Kopiraj meta</button></div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<script>
+// ===== ENDPOINTI — free plan, po servisu =====
+const ENDPOINTI = {
+  'cmc': [
+    { p:'/v1/cryptocurrency/', e:'listings/latest?limit=10&convert=USD', m:'GET' },
+    { p:'/v1/cryptocurrency/', e:'quotes/latest?id=1,1027&convert=USD', m:'GET' },
+    { p:'/v1/cryptocurrency/', e:'info?id=1,1027', m:'GET' },
+    { p:'/v1/cryptocurrency/', e:'map?limit=10', m:'GET' },
+    { p:'/v1/global-metrics/', e:'quotes/latest?convert=USD', m:'GET' }
+  ],
+  'coingecko': [
+    { p:'/api/v3/', e:'ping', m:'GET' },
+    { p:'/api/v3/', e:'simple/price?ids=bitcoin&vs_currencies=usd', m:'GET' },
+    { p:'/api/v3/', e:'coins/list', m:'GET' },
+    { p:'/api/v3/', e:'coins/markets?vs_currency=usd&per_page=10', m:'GET' },
+    { p:'/api/v3/', e:'coins/bitcoin', m:'GET' },
+    { p:'/api/v3/', e:'coins/bitcoin/market_chart?vs_currency=usd&days=7', m:'GET' },
+    { p:'/api/v3/', e:'search/trending', m:'GET' }
+  ],
+  'coinstats': [
+    { p:'', e:'/coins?limit=10', m:'GET' },
+    { p:'', e:'/coins/bitcoin', m:'GET' },
+    { p:'', e:'/coins/bitcoin/charts', m:'GET' },
+    { p:'', e:'/markets', m:'GET' },
+    { p:'', e:'/news', m:'GET' }
+  ],
+  'etherscan': [
+    { p:'/v2/api?chainid=1&', e:'module=gastracker&action=gasoracle', m:'GET' },
+    { p:'/v2/api?chainid=1&', e:'module=stats&action=ethsupply', m:'GET' },
+    { p:'/v2/api?chainid=1&', e:'module=stats&action=ethprice', m:'GET' }
+  ],
+  'blockscout': [
+    { p:'/api/v2/', e:'stats', m:'GET' },
+    { p:'/api/v2/', e:'blocks', m:'GET' }
+  ],
+  'coinpaprika': [
+    { p:'/v1/', e:'tickers?limit=10', m:'GET' },
+    { p:'/v1/', e:'tickers/btc-bitcoin', m:'GET' },
+    { p:'/v1/', e:'coins', m:'GET' },
+    { p:'/v1/', e:'global', m:'GET' }
+  ],
+  'cryptocompare': [
+    { p:'/data/', e:'price?fsym=BTC&tsyms=USD', m:'GET' },
+    { p:'/data/', e:'pricemultifull?fsyms=BTC,ETH&tsyms=USD', m:'GET' },
+    { p:'/data/', e:'top/totalvolfull?limit=10&tsym=USD', m:'GET' },
+    { p:'/data/v2/', e:'histoday?fsym=BTC&tsym=USD&limit=30', m:'GET' }
+  ],
+  'cryptorank': [
+    { p:'/v3/', e:'currencies/list?limit=10', m:'GET' },
+    { p:'/v3/', e:'currencies/map', m:'GET' },
+    { p:'/v3/', e:'currencies/1', m:'GET' },
+    { p:'/v3/', e:'global/market', m:'GET' },
+    { p:'/v3/', e:'status', m:'GET' }
+  ],
+  'livecoinwatch': [
+    { p:'', e:'/status', m:'POST', b:'{}' },
+    { p:'', e:'/credits', m:'POST', b:'{}' },
+    { p:'', e:'/overview', m:'POST', b:'{"currency":"USD"}' },
+    { p:'', e:'/coins/list', m:'POST', b:'{"currency":"USD","sort":"rank","order":"ascending","offset":0,"limit":5,"meta":false}' },
+    { p:'', e:'/coins/single', m:'POST', b:'{"currency":"USD","code":"BTC","meta":true}' },
+    { p:'', e:'/fiats', m:'POST', b:'{}' },
+    { p:'', e:'/exchanges/list', m:'POST', b:'{"currency":"USD","sort":"volume","order":"descending","offset":0,"limit":10}' }
+  ],
+  'alchemy': [
+    { p:'/v2/', e:'', m:'POST', b:'{"jsonrpc":"2.0","id":1,"method":"eth_blockNumber","params":[]}' },
+    { p:'/v2/', e:'', m:'POST', b:'{"jsonrpc":"2.0","id":1,"method":"eth_getBalance","params":["0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045","latest"]}' },
+    { p:'/v2/', e:'', m:'POST', b:'{"jsonrpc":"2.0","id":1,"method":"eth_getTransactionByHash","params":["0x0"]}' }
+  ],
+  'nbs': [
+    { p:'', e:'/api/open/central-bank/nbs', m:'GET' }
+  ]
+};
+
+const WORKERS_KEY='apitest_worker', BASE_KEY='apitest_base_', HIST_KEY='apitest_hist', PRES_KEY='apitest_presets';
+let SERVICES = [], currentRez = null, matchIdx = 0, matches = [];
+
+// ===== INICIJALIZACIJA =====
+async function init() {
+  await ucitajServise();
+  renderPresets();
+  renderHist();
+  const savedWorker = localStorage.getItem(WORKERS_KEY);
+  if (savedWorker) document.querySelector(`input[name=worker][value="${savedWorker}"]`).checked = true;
+  document.querySelectorAll('input[name=worker]').forEach(r => r.addEventListener('change', e => localStorage.setItem(WORKERS_KEY, e.target.value)));
+  document.getElementById('servis').addEventListener('change', onServisChange);
+  document.getElementById('endpoint').addEventListener('input', updateSearch);
+  document.getElementById('metod').addEventListener('change', onMetodChange);
+  document.getElementById('pun').addEventListener('change', updateSearch);
+  document.getElementById('search').addEventListener('input', updateSearch);
+  document.getElementById('hSearch').addEventListener('input', renderHeaders);
+  document.querySelectorAll('.tabs button').forEach(b => b.addEventListener('click', () => aktivTab(b.dataset.tab)));
+  document.querySelectorAll('.tab-panel').forEach(p => p.id = 'tab-' + p.dataset.tab || p.id);
+  document.getElementById('endpoint').addEventListener('keydown', e => { if (e.key === 'Enter') posalji(); });
+}
+
+async function ucitajServise() {
+  const workerUrl = 'https://cmc-proxy.martin-denic.workers.dev';
+  try {
+    const r = await fetch(workerUrl + '/gard-daj-api-servise');
+    const d = await r.json();
+    if (d.ok) SERVICES = d.servisi || [];
+  } catch (e) { console.error(e); }
+  const sel = document.getElementById('servis');
+  sel.innerHTML = '<option value="">— izaberi —</option>';
+  for (const s of SERVICES) {
+    const o = document.createElement('option');
+    o.value = s.domen;
+    o.dataset.servis = s.servis;
+    o.textContent = s.servis + ' — ' + s.domen;
+    sel.appendChild(o);
+  }
+}
+
+function onServisChange() {
+  const sel = document.getElementById('servis');
+  const opt = sel.options[sel.selectedIndex];
+  const servis = opt.dataset.servis;
+  if (!servis) { document.getElementById('base').value = ''; document.getElementById('endpointList').innerHTML = ''; return; }
+  const saved = localStorage.getItem(BASE_KEY + servis);
+  document.getElementById('base').value = saved || '';
+  const eps = ENDPOINTI[servis] || [];
+  const dl = document.getElementById('endpointList');
+  dl.innerHTML = '';
+  for (const ep of eps) {
+    const o = document.createElement('option');
+    o.value = ep.e;
+    dl.appendChild(o);
+  }
+  if (eps.length && !document.getElementById('endpoint').value) {
+    document.getElementById('endpoint').value = eps[0].e;
+    if (eps[0].m) document.getElementById('metod').value = eps[0].m === 'POST' ? 'POST' : 'GET';
+    if (eps[0].b) document.getElementById('body').value = eps[0].b;
+    onMetodChange();
+  }
+  // sačuvaj base pri promeni
+  document.getElementById('base').onchange = () => localStorage.setItem(BASE_KEY + servis, document.getElementById('base').value);
+}
+
+function onMetodChange() {
+  const m = document.getElementById('metod').value;
+  const showBody = m === 'POST' || (m === '' && document.getElementById('servis').value && SERVICES.find(s => s.domen === document.getElementById('servis').value)?.metod === 'POST');
+  document.getElementById('bodyRow').style.display = showBody ? 'flex' : 'none';
+}
+
+function finalUrl() {
+  const sel = document.getElementById('servis');
+  const servis = sel.options[sel.selectedIndex]?.dataset.servis;
+  if (!servis) return null;
+  const domen = sel.value;
+  const base = document.getElementById('base').value || '';
+  const ep = document.getElementById('endpoint').value || '';
+  return 'https://' + domen + base + ep;
+}
+
+async function posalji() {
+  const targetUrl = finalUrl();
+  if (!targetUrl) { alert('Izaberi servis i endpoint'); return; }
+  const workerUrl = document.querySelector('input[name=worker]:checked').value;
+  const pun = document.getElementById('pun').value === '1' ? 1 : 0;
+  const tip = document.getElementById('tip').value;
+  const cuStr = document.getElementById('cu').value;
+  const cu = cuStr ? parseInt(cuStr, 10) : null;
+  const metod = document.getElementById('metod').value;
+  const bodyTxt = document.getElementById('body').value || null;
+
+  const sendBtn = document.getElementById('sendBtn');
+  sendBtn.disabled = true;
+  sendBtn.textContent = 'Šaljem...';
+  document.getElementById('statusBar').className = 'status-bar pending';
+  document.getElementById('statusBar').textContent = '⏳ Šaljem upit...';
+  document.getElementById('result').style.display = 'block';
+
+  const t0 = Date.now();
+  let rez, err = null;
+  try {
+    const payload = { url: targetUrl, pun, tip, cu };
+    if (metod) payload.method = metod;
+    if (bodyTxt) payload.body = bodyTxt;
+    const r = await fetch(workerUrl + '/api-test', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    rez = await r.json();
+  } catch (e) { err = e.message; }
+
+  const trajanje = Date.now() - t0;
+  sendBtn.disabled = false;
+  sendBtn.textContent = 'Pošalji';
+
+  if (err) {
+    document.getElementById('statusBar').className = 'status-bar s5xx';
+    document.getElementById('statusBar').textContent = '❌ Mrežna greška: ' + err;
+    return;
+  }
+
+  currentRez = rez;
+  renderRezultat(rez, trajanje);
+  addHist(targetUrl, metod || 'AUTO', rez.status, trajanje);
+}
+
+function renderRezultat(rez, trajanje) {
+  const sb = document.getElementById('statusBar');
+  let cls = 's5xx', icon = '❌';
+  if (rez.ok && rez.status < 300) { cls = 's2xx'; icon = '✅'; }
+  else if (rez.status < 400) { cls = 's3xx'; icon = '↪'; }
+  else if (rez.status < 500) { cls = 's4xx'; icon = '⚠️'; }
+  sb.className = 'status-bar ' + cls;
+  sb.innerHTML = `<span>${icon} ${rez.status || 'ERR'}</span><span>${rez.trajanje_ms || trajanje} ms</span><span>${rez.servis || ''}</span><span>cu: ${rez.cu ?? '-'}</span><span>tip: ${rez.tip || ''}</span>` + (rez.greska ? `<span>${rez.greska}: ${rez.razlog || rez.detalj || ''}</span>` : '');
+
+  // Body
+  const bodyPre = document.getElementById('bodyPre');
+  const bodyText = rez.body || '';
+  let pretty = bodyText, isJson = false;
+  try { const parsed = JSON.parse(bodyText); pretty = JSON.stringify(parsed, null, 2); isJson = true; } catch (e) {}
+  bodyPre.innerHTML = isJson ? highlightJson(pretty) : escapeHtml(pretty);
+  const badge = document.getElementById('bodyBadge');
+  badge.style.display = 'inline-block';
+  if (rez.skraceno) { badge.className = 'badge skraceno'; badge.textContent = `skraćeno (${rez.body.length}/${rez.original_duzina})`; }
+  else { badge.className = 'badge puno'; badge.textContent = `puno (${rez.original_duzina || bodyText.length})`; }
+
+  renderHeaders();
+  renderMeta();
+  updateSearch();
+}
+
+function highlightJson(txt) {
+  return escapeHtml(txt)
+    .replace(/&quot;([^&]*?)&quot;(\s*:)/g, '<span class="jk">&quot;$1&quot;</span>$2')
+    .replace(/:\s*&quot;([^&]*?)&quot;/g, ': <span class="js">&quot;$1&quot;</span>')
+    .replace(/:\s*(-?\d+\.?\d*(?:e[+-]?\d+)?)/gi, ': <span class="jn">$1</span>')
+    .replace(/:\s*(true|false)/g, ': <span class="jb">$1</span>')
+    .replace(/:\s*(null)/g, ': <span class="jnul">$1</span>');
+}
+
+function escapeHtml(s) { return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+function renderHeaders() {
+  if (!currentRez || !currentRez.headers) return;
+  const filter = document.getElementById('hSearch').value.toLowerCase();
+  const tb = document.getElementById('headersBody');
+  tb.innerHTML = '';
+  for (const [k, v] of Object.entries(currentRez.headers)) {
+    if (filter && !k.toLowerCase().includes(filter) && !String(v).toLowerCase().includes(filter)) continue;
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td>${escapeHtml(k)}</td><td>${escapeHtml(v)}</td>`;
+    tb.appendChild(tr);
+  }
+}
+
+function renderMeta() {
+  if (!currentRez) return;
+  const m = currentRez;
+  const rows = [
+    ['Servis', m.servis],
+    ['Status', m.status],
+    ['Trajanje (ms)', m.trajanje_ms],
+    ['URL (maskiran)', m.url_masked || '—'],
+    ['Original dužina', m.original_duzina],
+    ['Skraćeno', m.skraceno ? 'da' : 'ne'],
+    ['cu', m.cu],
+    ['tip', m.tip],
+    ['greska', m.greska || '—'],
+    ['razlog', m.razlog || m.detalj || '—']
+  ];
+  document.getElementById('metaContent').innerHTML = rows.map(([k, v]) =>
+    `<div class="meta-row"><span class="meta-k">${escapeHtml(k)}</span> ${escapeHtml(v ?? '—')}</div>`
+  ).join('');
+}
+
+// ===== PRETRAGA =====
+function updateSearch() {
+  clearMarks();
+  const q = document.getElementById('search').value;
+  if (!q) { document.getElementById('matchCount').textContent = ''; return; }
+  const caseS = document.getElementById('caseS').checked;
+  const onlyBody = document.getElementById('onlyBody').checked;
+  const flags = 'g' + (caseS ? '' : 'i');
+  const re = new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), flags);
+  const pre = document.getElementById('bodyPre');
+  if (pre.dataset.orig == null) pre.dataset.orig = pre.innerHTML;
+  const html = pre.dataset.orig;
+  let count = 0;
+  const newHtml = html.replace(/>([^<]+)</g, (match, txt) => {
+    if (match.includes('<mark')) return match;
+    const replaced = txt.replace(re, (mm) => { count++; return `\u0001MARK${count}\u0001${mm}\u0002`; });
+    return '>' + replaced + '<';
+  });
+  pre.innerHTML = newHtml;
+  // konvertuj markere u <mark>
+  let out = pre.innerHTML;
+  let idx = 0;
+  out = out.replace(/\u0001MARK(\d+)\u0001([^\u0002]*)\u0002/g, (_, n, txt) => `<mark data-i="${n}">${txt}</mark>`);
+  pre.innerHTML = out;
+  matches = Array.from(pre.querySelectorAll('mark'));
+  document.getElementById('matchCount').textContent = matches.length ? `1 od ${matches.length}` : 'nema';
+  matchIdx = 0;
+  if (matches.length) { matches[0].classList.add('cur'); matches[0].scrollIntoView({block:'center'}); }
+  // pretraga u headerima
+  if (!onlyBody) { renderHeaders(); }
+}
+function clearMarks() {
+  const pre = document.getElementById('bodyPre');
+  if (pre.dataset.orig) pre.innerHTML = pre.dataset.orig;
+  matches = [];
+}
+function searchNext() { if (!matches.length) return; matches[matchIdx]?.classList.remove('cur'); matchIdx = (matchIdx + 1) % matches.length; matches[matchIdx].classList.add('cur'); matches[matchIdx].scrollIntoView({block:'center'}); document.getElementById('matchCount').textContent = `${matchIdx+1} od ${matches.length}`; }
+function searchPrev() { if (!matches.length) return; matches[matchIdx]?.classList.remove('cur'); matchIdx = (matchIdx - 1 + matches.length) % matches.length; matches[matchIdx].classList.add('cur'); matches[matchIdx].scrollIntoView({block:'center'}); document.getElementById('matchCount').textContent = `${matchIdx+1} od ${matches.length}`; }
+
+// ===== TABS =====
+function aktivTab(name) {
+  document.querySelectorAll('.tabs button').forEach(b => b.classList.toggle('active', b.dataset.tab === name));
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.toggle('active', p.id === 'tab-' + name));
+}
+
+// ===== ISTORIJA =====
+function addHist(url, metod, status, trajanje) {
+  const h = JSON.parse(localStorage.getItem(HIST_KEY) || '[]');
+  h.unshift({ url, metod, status, trajanje, t: Date.now() });
+  if (h.length > 50) h.length = 50;
+  localStorage.setItem(HIST_KEY, JSON.stringify(h));
+  renderHist();
+}
+function renderHist() {
+  const h = JSON.parse(localStorage.getItem(HIST_KEY) || '[]');
+  const el = document.getElementById('hist');
+  if (!h.length) { el.innerHTML = '<div style="color:var(--mut);font-size:11px">nema istorije</div>'; return; }
+  el.innerHTML = '';
+  for (const x of h) {
+    const div = document.createElement('div');
+    let cls = 'hist-item';
+    if (x.status >= 200 && x.status < 300) cls += ' s2xx';
+    else if (x.status >= 400 && x.status < 500) cls += ' s4xx';
+    else if (x.status >= 500) cls += ' s5xx';
+    div.className = cls;
+    const t = new Date(x.t).toLocaleTimeString('sr-RS', {hour:'2-digit',minute:'2-digit'});
+    div.innerHTML = `<div><span class="hm">${x.metod}</span> ${x.status} · ${x.trajanje}ms · ${t}</div><div class="hs">${escapeHtml(x.url)}</div>`;
+    div.onclick = () => popuniIzIstorije(x);
+    el.appendChild(div);
+  }
+}
+function popuniIzIstorije(x) {
+  try {
+    const u = new URL(x.url);
+    const sel = document.getElementById('servis');
+    for (const o of sel.options) {
+      if (o.value && x.url.startsWith('https://' + o.value)) { sel.value = o.value; break; }
+    }
+    onServisChange();
+    // base + endpoint
+    const rest = x.url.slice('https://'.length).split('/').slice(1).join('/');
+    const base = document.getElementById('base').value || '';
+    if (base && rest.startsWith(base.replace(/^\//, ''))) {
+      document.getElementById('endpoint').value = rest.slice(base.replace(/^\//, '').length);
+    } else {
+      document.getElementById('endpoint').value = rest;
+    }
+    document.getElementById('metod').value = x.metod === 'AUTO' ? '' : x.metod;
+    onMetodChange();
+  } catch (e) {}
+}
+function clearHist() { if (confirm('Obriši istoriju?')) { localStorage.removeItem(HIST_KEY); renderHist(); } }
+
+// ===== PRESETS =====
+function renderPresets() {
+  const p = JSON.parse(localStorage.getItem(PRES_KEY) || '[]');
+  const el = document.getElementById('presets');
+  el.innerHTML = '';
+  const builtin = [
+    { n:'CG ping', s:'api.coingecko.com', b:'/api/v3/', e:'ping', m:'GET' },
+    { n:'CMC listings', s:'pro-api.coinmarketcap.com', b:'/v1/cryptocurrency/', e:'listings/latest?limit=10&convert=USD', m:'GET' },
+    { n:'LCW status', s:'api.livecoinwatch.com', b:'', e:'/status', m:'POST', bd:'{}' },
+    { n:'LCW coins', s:'api.livecoinwatch.com', b:'', e:'/coins/list', m:'POST', bd:'{"currency":"USD","limit":5}' },
+    { n:'Alchemy blok', s:'eth-mainnet.g.alchemy.com', b:'/v2/', e:'', m:'POST', bd:'{"jsonrpc":"2.0","id":1,"method":"eth_blockNumber","params":[]}' }
+  ];
+  for (const b of builtin.concat(p)) {
+    const btn = document.createElement('button');
+    btn.className = 'sec';
+    btn.textContent = b.n;
+    btn.onclick = () => primeniPreset(b);
+    el.appendChild(btn);
+  }
+}
+function primeniPreset(b) {
+  const sel = document.getElementById('servis');
+  sel.value = b.s;
+  onServisChange();
+  document.getElementById('base').value = b.b || '';
+  document.getElementById('endpoint').value = b.e || '';
+  document.getElementById('metod').value = b.m || '';
+  document.getElementById('body').value = b.bd || '';
+  onMetodChange();
+}
+function sacuvajPreset() {
+  const n = prompt('Naziv preseta:');
+  if (!n) return;
+  const p = JSON.parse(localStorage.getItem(PRES_KEY) || '[]');
+  p.push({
+    n,
+    s: document.getElementById('servis').value,
+    b: document.getElementById('base').value,
+    e: document.getElementById('endpoint').value,
+    m: document.getElementById('metod').value,
+    bd: document.getElementById('body').value
+  });
+  localStorage.setItem(PRES_KEY, JSON.stringify(p));
+  renderPresets();
+}
+
+// ===== COPY =====
+function copyBody() { navigator.clipboard.writeText(currentRez?.body || ''); }
+function copyHeaders() { navigator.clipboard.writeText(JSON.stringify(currentRez?.headers || {}, null, 2)); }
+function copyMeta() { navigator.clipboard.writeText(JSON.stringify(currentRez || {}, null, 2)); }
+
+init();
+</script>
+</body>
+</html>
