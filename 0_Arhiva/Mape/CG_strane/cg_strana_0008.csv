@@ -168,3 +168,4 @@ reservoir-srusd,srusd,Reservoir srUSD,reservoir-srusd,reservoir.xyz,,"{""ethereu
 etherisc,dip,Etherisc DIP,etherisc,etherisc.com,,"{""ethereum"": ""0xc719d010b63e5bbf2c0551872cd5316ed26acd83"", ""base"": ""0xac86f3556cbd2b4d800d17adc3a266b500fcb9f5"", ""xdai"": ""0x48b1b0d077b4919b65b4e4114806dd803901e1d9""}"
 shardeum-2,shm,Shardeum,shardeum,shardeum.org,,"{"""": """"}"
 russell-2000-xstock,iwmx,Russell 2000 xStock,russell-2000-xstock,xstocks.fi,,"{""ethereum"": ""0xdadfb355c6110eda0908740d52c834d6c2bcddc7"", ""solana"": ""XsbELVbLGBkn7xfMfyYuUipKGt1iRUc2B7pYRvFTFu3""}"
+sentio,st,Sentio Token,sentio-token,sentio.xyz,,"{""binance-smart-chain"": ""0x70be40667385500c5da7f108a022e21b606045dd"", ""ethereum"": ""0x70be40667385500c5da7f108a022e21b606045dd""}"
