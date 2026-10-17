@@ -249,3 +249,4 @@ newmont-ondo-tokenized,nemon,Newmont (Ondo Tokenized),newmont-ondo-tokenized,app
 juno-network,juno,JUNO,juno-network,junonetwork.io,,"{""cosmos"": ""ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED"", ""evmos"": ""0x3452e23f9c4cc62c70b7adad699b264af3549c19"", ""osmosis"": ""ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED"", ""secret"": ""secret1z6e4skg5g9w65u5sqznrmagu05xq8u6zjcdg4a""}"
 kitsu-2,kitsu,Kitsu,kitsu-2,kitsucoin.xyz,,"{""robinhood"": ""0x8d4dfaaa4198b6486e0293fec914c2b6a821d4dc""}"
 gopulse,go,GoPulse,gopulse,gopulse.com,,"{""pulsechain"": ""0x000000000002625d361571e3771d402e10cf7ddb""}"
+sigmadotmoney,sigma,SigmaDotMoney,sigmadotmoney,sigma.money,,"{""binance-smart-chain"": ""0x85375d3e9c4a39350f1140280a8b0de6890a40e7""}"
