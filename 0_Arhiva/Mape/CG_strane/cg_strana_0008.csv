@@ -146,3 +146,4 @@ eaton-ondo-tokenized,etnon,Eaton (Ondo Tokenized),eaton-ondo-tokenized,app.ondo.
 palantir-coinbase-tokenized-stock,pltrc,Palantir (Coinbase Tokenized Stock),palantir-coinbase-tokenized-stock,coinbase.com,,"{""base"": ""0xb2000000000000000000007d16372840df4dabbe""}"
 cronos-id,croid,Cronos ID,cronos-id,cronosid.xyz,,"{""cronos"": ""0xcbf0adea24fd5f32c6e7f0474f0d1b94ace4e2e7""}"
 aura-bal,aurabal,Aura BAL,aura-bal,aura.finance,,"{""ethereum"": ""0x616e8bfa43f920657b3497dbf40d6b1a02d4608d""}"
+golden-kitty,golden,Golden Kitty,golden-kitty,goldenkitty.vip,,"{""robinhood"": ""0x92e4b008161ac64a7d0c5e540f453f8e6b8bd8d7""}"
