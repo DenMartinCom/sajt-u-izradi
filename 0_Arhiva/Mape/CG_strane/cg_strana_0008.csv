@@ -335,3 +335,4 @@ bitboard,bb,BitBoard,bitboard,bitboard.top,,"{""polygon-pos"": ""0x4f7cc8ef14f3d
 talos-2,t,Talos,talos,talos.is,,"{""arbitrum-one"": ""0x30a538effd91acefb1b12ce9bc0074ed18c9dfc9""}"
 moola-celo-dollars,mcusd,Moola Celo Dollars,moola-celo-dollars,moola.market,,"{""celo"": ""0x918146359264c492bd6934071c6bd31c854edbc3""}"
 ge-vernova-ondo-tokenized,gevon,GE Vernova (Ondo Tokenized),ge-vernova-ondo-tokenized,app.ondo.finance,,"{""ethereum"": ""0xa043fdc5a6e2e381e3532d5a97404b82fb7a0af8"", ""binance-smart-chain"": ""0x2aea1d415d45ccf3eabe565d45dcaf4ea2035b9c"", ""solana"": ""CgZSv89BL58ybWfWobANKEU8nV9jYfFw23G2DZEondo""}"
+meme-ssi,meme.ssi,MEME.ssi,meme-ssi,ssi.sosovalue.com,,"{""base"": ""0xdd3acdbdc7b358df453a6cb6bca56c92aa5743aa""}"
