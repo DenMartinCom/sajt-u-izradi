@@ -96,3 +96,4 @@ automata,ata,Automata,automata,ata.network,,"{""ethereum"": ""0xa2120b9e674d3fc3
 polkaswap,pswap,Polkaswap,polkaswap,polkaswap.io,,"{""ethereum"": ""0x519c1001d550c0a1dae7d1fc220f7d14c2a521bb"", ""sora"": ""0x0200050000000000000000000000000000000000000000000000000000000000""}"
 hydro-protocol-2,hdro,Hydro Protocol,hydro-protocol,hydroprotocol.finance,,"{""injective"": ""factory/inj1etz0laas6h7vemg3qtd67jpr6lh8v7xz7gfzqw/hdro""}"
 elastic-finance-token,eefi,Elastic Finance Token,elastic-finance-token,eefi.finance,,"{""ethereum"": ""0x857ffc55b1aa61a7ff847c82072790cae73cd883""}"
+uber-xstock,uberx,Uber xStock,uber-xstock,xstocks.fi,,"{""ethereum"": ""0xdb9783ca04bbd64fe2c6d7b9503a979b3de30729"", ""solana"": ""XsAsZLF4MmsvS1sDxRMrUz7REjHfwbC9UAMXSRBqgEB""}"
