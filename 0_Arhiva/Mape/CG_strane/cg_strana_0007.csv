@@ -461,3 +461,4 @@ mercadolibre-ondo-tokenized-stock,melion,MercadoLibre (Ondo Tokenized Stock),mer
 reddit-ondo-tokenized-stock,rddton,Reddit (Ondo Tokenized Stock),reddit-ondo-tokenized-stock,app.ondo.finance,,"{""ethereum"": ""0xa9431d354cfad3c6b76e50f0e73b43d48be80cd0"", ""binance-smart-chain"": ""0x4da12f47578ef89c76179b760c778e70b668f80b"", ""solana"": ""HXFrTf9v9NdjGUTnx4sojR3Cf92hoBsQFUxKTN7ondo""}"
 san-chan,san,San Chan,san-chan,sanchanproject.org,,"{""solana"": ""GQz5ThKHNcuAvMKA8rCPSdoFUoApk9Fi8qB9m3Gqpump""}"
 swash,swash,Swash,swash,swashapp.io,,"{""ethereum"": ""0xa130e3a33a4d84b04c3918c4e5762223ae252f80"", ""polygon-pos"": ""0xba3cb8329d442e6f9eb70fafe1e214251df3d275"", ""xdai"": ""0x84e2c67cbefae6b5148fca7d02b341b12ff4b5bb"", ""binance-smart-chain"": ""0x41065e3428188ba6eb27fbdde8526ae3af8e3830""}"
+pongo-3,pongo,PONGO,pongo-3,pongothedog.com,,"{""robinhood"": ""0xedaee44320107caa714baaec486261a87f27022d""}"
