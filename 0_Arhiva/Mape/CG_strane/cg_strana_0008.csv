@@ -240,3 +240,4 @@ print,print,Print,print,print.rest,,"{""solana"": ""28a2oQVCPrJB7SLZo4DVMVdHchSX
 gaimin,gmrx,GAIMIN,gaimin,gaimin.io,,"{""binance-smart-chain"": ""0x998305efdc264b9674178899fffbb44a47134a76""}"
 small-thing,st,Small Thing,small-thing,small-thing.com,,"{""base"": ""0x214419f6fdd2b23bf6a32f33cf95186d188b784b""}"
 nodeai,gpu,NodeAI,nodeai,nodes.ai,,"{""ethereum"": ""0x1258d60b224c0c5cd888d37bbf31aa5fcfb7e870"", ""base"": ""0x16a3832e690278d4979fd072fa4913bd1e8cbfd8""}"
+fjord-foundry,fjo,Fjord Foundry,fjord-foundry,fjordfoundry.com,,"{""ethereum"": ""0x69457a1c9ec492419344da01daf0df0e0369d5d0""}"
