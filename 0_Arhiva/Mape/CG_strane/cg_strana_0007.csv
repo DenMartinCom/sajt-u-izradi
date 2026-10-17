@@ -487,3 +487,4 @@ pudgystrategy,pudgystr,PudgyStrategy,pudgystrategy,nftstrategy.fun,,"{""ethereum
 attention,attn,Attention,attention,attntoken.com,,"{""sui"": ""0x0ef38abcdaaafedd1e2d88929068a3f65b59bf7ee07d7e8f573c71df02d27522::attn::ATTN""}"
 goldman-sachs-bstocks-tokenized-stock,gsb,Goldman Sachs (bStocks Tokenized Stock),goldman-sachs-bstocks-tokenized-stock,bstocks.finance,,"{""binance-smart-chain"": ""0x20cce6656e5f7f79f280e2d0f5db55b401bdbfce""}"
 housecoin-2,house,Housecoin,housecoin-2,,,"{""solana"": ""DitHyRMQiSDhn5cnKMJV2CDDt6sVct96YrECiM49pump""}"
+paws-of-sherwood,paws,Paws of Sherwood,paws-of-sherwood,pawsofsherwood.com,,"{""robinhood"": ""0x3183d125610725e1b507fc78ae5a16376609495f""}"
