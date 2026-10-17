@@ -367,3 +367,4 @@ edom,edom,EDOM,edom,edom.cc,,"{""polygon-pos"": ""0x954aec663b893d81b4c8dbe1a054
 crowdstrike-bstocks-tokenized-stock,crwdb,CrowdStrike (bStocks Tokenized Stock),crowdstrike-bstocks-tokenized-stock,bstocks.finance,,"{""binance-smart-chain"": ""0x814981cf5df4a14d4d7328f9abf0d02e9ed54cd1""}"
 yardkeeper,yard,Yardkeeper,yardkeeper,tickeryard.com,,"{""robinhood"": ""0xe3fa12da7fa026b21817f16622e8ae48fa785166""}"
 jack-2,jack,JACK,jack-2,app.stablejack.xyz,,"{""sonic"": ""0x9d549c39e5e1a0e7ef41d4b7d74c49f976102e36"", ""avalanche"": ""0x3fe4902b275caf603c46c81f3d921bb8515b5bc0""}"
+yield-yak,yak,Yield Yak,yield-yak,yieldyak.com,,"{""avalanche"": ""0x59414b3089ce2af0010e7523dea7e2b35d776ec7"", ""mantle"": ""0x7f4db37d7beb31f445307782bc3da0f18df13696"", ""arbitrum-one"": ""0x7f4db37d7beb31f445307782bc3da0f18df13696""}"
