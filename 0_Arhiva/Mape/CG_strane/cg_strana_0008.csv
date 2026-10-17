@@ -250,3 +250,4 @@ juno-network,juno,JUNO,juno-network,junonetwork.io,,"{""cosmos"": ""ibc/46B44899
 kitsu-2,kitsu,Kitsu,kitsu-2,kitsucoin.xyz,,"{""robinhood"": ""0x8d4dfaaa4198b6486e0293fec914c2b6a821d4dc""}"
 gopulse,go,GoPulse,gopulse,gopulse.com,,"{""pulsechain"": ""0x000000000002625d361571e3771d402e10cf7ddb""}"
 sigmadotmoney,sigma,SigmaDotMoney,sigmadotmoney,sigma.money,,"{""binance-smart-chain"": ""0x85375d3e9c4a39350f1140280a8b0de6890a40e7""}"
+otc-sol,otc,OTC Sol,otc-sol,otcsol.com,,"{""solana"": ""AUc7hszwXTyRXAkHjjrytyT7sB7r85sc3FxPW5tepump""}"
