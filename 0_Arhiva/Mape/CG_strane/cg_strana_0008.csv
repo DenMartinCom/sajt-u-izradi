@@ -86,3 +86,4 @@ pdd-holdings-rstock,rpdd,PDD Holdings Tokenized Stock (Reality),pdd-holdings-rst
 bloom-energy-rstock,rbe,Bloom Energy Tokenized Stock (Reality),bloom-energy-rstock,realityfinance.xyz,,"{""arbitrum-one"": ""0x1a0279b9da7cabfff39bf978f3a6608c14a712c0"", ""morph-l2"": ""0x8cb2db52cfcb03d822e91d9cfb52c51ba6ab1519""}"
 warden-2,ward,Warden,warden,wardenprotocol.org,,"{""binance-smart-chain"": ""0x6dc200b21894af4660b549b678ea8df22bf7cfac"", ""base"": ""0xf09e4c8193f16019f0573f370f9a997b11f56638""}"
 stonks-9,stonks,Stonks,stonks-8,stonksbnb.com,,"{""binance-smart-chain"": ""0xc9d825e83aada475bd4d38c8ca984ed746277777""}"
+decentralized-runes,dec,DECENTRALIZED (Runes),decentralized-runes,,,"{""ordinals"": ""840000:2""}"
