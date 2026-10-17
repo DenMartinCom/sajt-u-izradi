@@ -248,3 +248,4 @@ ondo-5-targeted-income-tr-portfolio,yld5on,Ondo 5 Targeted Income TR Portfolio,o
 newmont-ondo-tokenized,nemon,Newmont (Ondo Tokenized),newmont-ondo-tokenized,app.ondo.finance,,"{""ethereum"": ""0x0c802acb21cb2aadb2eb5e5090868e1361b26b69"", ""binance-smart-chain"": ""0x5e63232993789601ce362e0240a299c1dfcbfbec"", ""solana"": ""Dig28Tf1ufhCBAsjTmFkXCgcNgMqDMYj5A2rDQmondo""}"
 juno-network,juno,JUNO,juno-network,junonetwork.io,,"{""cosmos"": ""ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED"", ""evmos"": ""0x3452e23f9c4cc62c70b7adad699b264af3549c19"", ""osmosis"": ""ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED"", ""secret"": ""secret1z6e4skg5g9w65u5sqznrmagu05xq8u6zjcdg4a""}"
 kitsu-2,kitsu,Kitsu,kitsu-2,kitsucoin.xyz,,"{""robinhood"": ""0x8d4dfaaa4198b6486e0293fec914c2b6a821d4dc""}"
+gopulse,go,GoPulse,gopulse,gopulse.com,,"{""pulsechain"": ""0x000000000002625d361571e3771d402e10cf7ddb""}"
