@@ -145,3 +145,4 @@ arcadia,aaa,Arcadia,arcadia,arcadia.finance,,"{""base"": ""0xaaa843fb2916c0b5745
 eaton-ondo-tokenized,etnon,Eaton (Ondo Tokenized),eaton-ondo-tokenized,app.ondo.finance,,"{""ethereum"": ""0x9b56f5ed5a94ae3266b7ff21953e6626f94008f1"", ""binance-smart-chain"": ""0x4697b2a050f7b5a8e1ebc27c325f9d78d094f041"", ""solana"": ""BpYiU1dBXU1fdB64jbR93wHEw3Y47QeRLZvUyLQondo""}"
 palantir-coinbase-tokenized-stock,pltrc,Palantir (Coinbase Tokenized Stock),palantir-coinbase-tokenized-stock,coinbase.com,,"{""base"": ""0xb2000000000000000000007d16372840df4dabbe""}"
 cronos-id,croid,Cronos ID,cronos-id,cronosid.xyz,,"{""cronos"": ""0xcbf0adea24fd5f32c6e7f0474f0d1b94ace4e2e7""}"
+aura-bal,aurabal,Aura BAL,aura-bal,aura.finance,,"{""ethereum"": ""0x616e8bfa43f920657b3497dbf40d6b1a02d4608d""}"
