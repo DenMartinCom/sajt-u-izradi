@@ -264,3 +264,4 @@ get-token,get,GET Protocol,get-protocol,get-protocol.io,,"{""ethereum"": ""0x8a8
 baby-4,baby4,Baby 4,baby-4,baby4.ai,,"{""binance-smart-chain"": ""0xe815f6941d19d1e20b0e1f92471c6143809f4444""}"
 wrestler,wrestler,Wrestler,wrestler,,,"{""robinhood"": ""0xab528169dcc80d68837a33b1e2b866bb7d7ee301""}"
 stockify-2,stfy,Stockify,stockify,stockify.finance,,"{""base"": ""0xc6405d7a226e1c18e559be2f335f74c01ad07bf5""}"
+gm-ai,gm,GM.AI,gm-ai,gm.ai,,"{""solana"": ""GMai1NvHreNe135cvxya1gHaUJZiT1NAvbJkF4hPHQJ9""}"
