@@ -93,3 +93,4 @@ quantinuum-bstocks-tokenized-stock,qntb,Quantinuum (bStocks Tokenized Stock),qua
 polymarket-prestocks,polymarket,Polymarket PreStocks,polymarket-prestocks,prestocks.com,,"{""solana"": ""Pre8AREmFPtoJFT8mQSXQLh56cwJmM7CFDRuoGBZiUP""}"
 xiuxian,修仙,修仙 (XiuXian),xiuxian,four.meme,,"{""binance-smart-chain"": ""0x44443dd87ec4d1bea3425acc118adb023f07f91b""}"
 automata,ata,Automata,automata,ata.network,,"{""ethereum"": ""0xa2120b9e674d3fc3875f415a7df52e382f141225"", ""polygon-pos"": ""0x0df0f72ee0e5c9b7ca761ecec42754992b2da5bf"", ""binance-smart-chain"": ""0xa2120b9e674d3fc3875f415a7df52e382f141225""}"
+polkaswap,pswap,Polkaswap,polkaswap,polkaswap.io,,"{""ethereum"": ""0x519c1001d550c0a1dae7d1fc220f7d14c2a521bb"", ""sora"": ""0x0200050000000000000000000000000000000000000000000000000000000000""}"
