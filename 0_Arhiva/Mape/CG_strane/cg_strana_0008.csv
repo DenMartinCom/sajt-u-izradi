@@ -134,3 +134,4 @@ resolv-usr,usr,Resolv USR,resolv-usr,resolv.xyz,,"{""ethereum"": ""0x66a1e37c9b0
 beta-finance,beta,Beta Finance,beta-finance,betafinance.org,,"{""ethereum"": ""0xbe1a001fe942f96eea22ba08783140b9dcc09d28"", ""binance-smart-chain"": ""0xbe1a001fe942f96eea22ba08783140b9dcc09d28"", ""avalanche"": ""0x511d35c52a3c244e7b8bd92c0c297755fbd89212""}"
 onecow, 1cow,OneCOW,onecow,1cow.io,,"{""binance-smart-chain"": ""0xf52d96b9d62a2ab312c4db0d04bd8c871c408a88""}"
 regent-2,regent,Regent,regent-2,regents.sh,,"{""base"": ""0x6f89bca4ea5931edfcb09786267b251dee752b07""}"
+defituna,tuna,DefiTuna,defituna,defituna.com,,"{""solana"": ""TUNAfXDZEdQizTMTh3uEvNvYqJmqFHZbEJt8joP4cyx""}"
