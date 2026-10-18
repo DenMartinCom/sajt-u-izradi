@@ -455,3 +455,4 @@ forward-industries-bstocks-tokenized-stock,fwdib,Forward Industries (bStocks Tok
 agentos,agentos,AgentOS,agentos,useagentos.dev,,"{""robinhood"": ""0x6eda83fc299c10d474068a7e69771c809bcbbba3""}"
 fish-n-chips,chippy,Fish N Chips,fish-n-chips,fishnchipssol.com,,"{""solana"": ""Bz7Nx1F3Mti1BVS7ZAVDLSKGEaejufxvX2DPdjpf8PqT""}"
 backed-niu-technologies,bniu,Backed NIU Technologies,backed-niu-technologies,backed.fi,,"{""polygon-pos"": ""0x2f11eeee0bf21e7661a22dbbbb9068f4ad191b86"", ""ethereum"": ""0x2f11eeee0bf21e7661a22dbbbb9068f4ad191b86"", ""base"": ""0x2f11eeee0bf21e7661a22dbbbb9068f4ad191b86"", ""binance-smart-chain"": ""0x2f11eeee0bf21e7661a22dbbbb9068f4ad191b86"", ""arbitrum-one"": ""0x2f11eeee0bf21e7661a22dbbbb9068f4ad191b86"", ""avalanche"": ""0x2f11eeee0bf21e7661a22dbbbb9068f4ad191b86"", ""xdai"": ""0x2f11eeee0bf21e7661a22dbbbb9068f4ad191b86""}"
+kuvi,kuvi,Kuvi,kuvi,kuvi.ai,,"{""binance-smart-chain"": ""0xccd6b38fffeeab9c0ac2413bccf8b0aced748881""}"
