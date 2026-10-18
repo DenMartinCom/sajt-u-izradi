@@ -2,3 +2,4 @@ id,symbol,name,slug,web,logo,contract
 copper-rstock,cperr,Copper rStock,copper-rstock,remoramarkets.xyz,,"{""solana"": ""C3VLBJB2FhEb47s1WEgroyn3BnSYXaezqtBuu5WNmUGw""}"
 turbousd-unstablecoin,₸usd,TurboUSD Unstablecoin,turbousd-unstablecoin,turbousd.com,,"{""base"": ""0x3d5e487b21e0569048c4d1a60e98c36e1b09db07""}"
 fartgirl,fartgirl,FARTGIRL,fartgirl,fartgirlcto.com,,"{""solana"": ""Cjrrc595e9R47EZ3gkbUmL6ZZpLSxiXg16v2Y3Aapump""}"
+ice,ice,Ice Open Network,ice-network,ice.io,,"{""binance-smart-chain"": ""0xc335df7c25b72eec661d5aa32a7c2b7b2a1d1874"", ""ethereum"": ""0x79f05c263055ba20ee0e814acd117c20caa10e0c""}"
