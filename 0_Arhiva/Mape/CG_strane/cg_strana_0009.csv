@@ -268,3 +268,4 @@ lululemon-robinhood-tokenized-stock,lulu,Lululemon • Robinhood Token,lululemon
 arth,arth,ARTH,arth,arthcoin.com,,"{""ethereum"": ""0x8cc0f052fff7ead7f2edcccac895502e884a8a71"", ""binance-smart-chain"": ""0x85dab10c3ba20148ca60c2eb955e1f8ffe9eaa79"", ""arbitrum-one"": ""0x5441695f4445e40900b4c4b0fb3ed2b9e51601a6""}"
 spectral,spec,Spectral,spectral,spectrallabs.xyz,,"{""ethereum"": ""0xadf7c35560035944e805d98ff17d58cde2449389"", ""base"": ""0x96419929d7949d6a801a6909c145c8eef6a40431""}"
 not-in-labor-force,nilf,Not In Labor Force,not-in-labor-force,nilflife.com,,"{""robinhood"": ""0xdb97b2aefd6816485a757ae49280d598a5c9c848""}"
+zaro-coin,zaro,ZARO Coin,zaro-coin,zarocoin.xyz,,"{""ethereum"": ""0xc311fd6da9686507f33991543d8158ef5fadd5e7"", ""binance-smart-chain"": ""0xa9d72f6c1490647df20e8fad3c136ca6ac42c2fc"", ""solana"": ""AbzXS6NfGvCtg5B1rqZ1JSfoDHkwTAeEYJkWkHhCe38W"", ""base"": ""0x1d4cea73e212829d06b9a774d2e06be9dee5aab0""}"
