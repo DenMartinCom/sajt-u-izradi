@@ -1,2 +1,3 @@
 id,symbol,name,slug,web,logo,contract
 copper-rstock,cperr,Copper rStock,copper-rstock,remoramarkets.xyz,,"{""solana"": ""C3VLBJB2FhEb47s1WEgroyn3BnSYXaezqtBuu5WNmUGw""}"
+turbousd-unstablecoin,₸usd,TurboUSD Unstablecoin,turbousd-unstablecoin,turbousd.com,,"{""base"": ""0x3d5e487b21e0569048c4d1a60e98c36e1b09db07""}"
