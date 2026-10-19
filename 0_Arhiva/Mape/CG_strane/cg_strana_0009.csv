@@ -465,3 +465,4 @@ doomer-on-base-cto,doomer,DOOMER,doomer-on-base-cto,doomer.info,,"{""base"": ""0
 qora-2,q,QORA,qora-2,qora.to,,"{""polygon-pos"": ""0xb39ec11468f689c7984bc35171ed50247131e809""}"
 echo-protocol,echo,Echo Protocol,echo-protocol,echo-protocol.xyz,,"{""aptos"": ""0xb2c7780f0a255a6137e5b39733f5a4c85fe093c549de5c359c1232deef57d1b7"", ""binance-smart-chain"": ""0x06238c1b8e618abedf17669228dc95fb2d2e210b""}"
 sharpe-ai,sai,Sharpe AI,sharpe-ai,sharpe.ai,,"{""ethereum"": ""0x3567aa22cd3ab9aef23d7e18ee0d7cf16974d7e6""}"
+plutus,plutus,Plutus,plutus,plutus.fi,,"{""arbitrum-one"": ""0x8c1ea32448e09a59f36595abec6207c9ebd590a2"", ""berachain"": ""0x6698ede14709a9dd8379744cc2d28f276e3d2eac""}"
