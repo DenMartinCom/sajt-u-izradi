@@ -438,3 +438,4 @@ ouroboros-2,orx,Ouroboros,ouroboros-2,ouroboros.foundation,,"{""ethereum"": ""0x
 streamr,data,Streamr,streamr,streamr.network,,"{""ethereum"": ""0x8f693ca8d21b157107184d29d398a8d082b38b76"", ""polygon-pos"": ""0x3a9a81d576d83ff21f26f325066054540720fc34"", ""binance-smart-chain"": ""0x0864c156b3c5f69824564dec60c629ae6401bf2a"", ""xdai"": ""0x256eb8a51f382650b2a1e946b8811953640ee47d""}"
 pup-token,pup,PUP Token,pup-token,upheaval.fi,,"{""hyperevm"": ""0x876e7f2f30935118a654fc0e1f807afc49efe500""}"
 catgpt,catgpt,CatGPT,catgpt,fairlaunch.me,,"{""solana"": ""FGf1Us3kqu9AXu2x1yWKfiKE8uSx42ACvRiUrbuAodzq""}"
+botcoin-2,botcoin,BOTCOIN,botcoin-2,agentmoney.net,,"{""base"": ""0x25c448101c36d7306ed8053b96b090bb56a87b07""}"
