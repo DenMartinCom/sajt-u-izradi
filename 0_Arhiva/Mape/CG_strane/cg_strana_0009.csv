@@ -458,3 +458,4 @@ unifi-protocol-dao,unfi,Unifi Protocol DAO,unifi-protocol-dao,unifiprotocol.com,
 masterdex,mdex,MasterDEX,masterdex,masterdex.xyz,,"{""ethereum"": ""0xf0610eb7d8ee12d59412da32625d5e273e78ff0b"", ""base"": ""0xabc5915cad6b54f48b2a8cd516055f378861c237""}"
 bitrecs,sn122,Bitrecs,bitrecs,bitrecs.ai,,"{""bittensor"": ""122""}"
 oro-2,oro,ORO,oro-2,home.worldoro.com,,"{""world-chain"": ""0xcd1e32b86953d79a6ac58e813d2ea7a1790cab63""}"
+derace,zerc,zkRace,zkrace,zkrace.com,,"{""ethereum"": ""0xf8428a5a99cb452ea50b6ea70b052daa3df4934f"", ""base"": ""0xa3a2cdd230f9b3ff6e01a01534a3ed3cbf049815"", ""polygon-pos"": ""0xe1b3eb06806601828976e491914e3de18b5d6b28"", ""binance-smart-chain"": ""0x9c47e503b2f497e9ad9f1c0dfa6bd9fd5456aa4e""}"
