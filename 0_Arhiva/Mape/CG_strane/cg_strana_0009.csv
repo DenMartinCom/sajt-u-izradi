@@ -442,3 +442,4 @@ botcoin-2,botcoin,BOTCOIN,botcoin-2,agentmoney.net,,"{""base"": ""0x25c448101c36
 mantra-usd,mantrausd,MANTRA USD,mantra-usd,mantrausd.com,,"{""mantra-evm"": ""0xd2b95283011e47257917770d28bb3ee44c849f6f""}"
 crowdstrike-ondo-tokenized-stocks,crwdon,CrowdStrike (Ondo Tokenized Stock),crowdstrike-ondo-tokenized-stock,app.ondo.finance,,"{""ethereum"": ""0xcac9aafb2cf51645ae1ab4fb1f35f07d42437f80"", ""binance-smart-chain"": ""0xe6837794fbc6dd024733a1a31f86061296fa2752"", ""solana"": ""cdKfoNjbXgnSuxvoajhtH3uixfZhq1YXhQsS1Rwondo""}"
 tacz,tacz,TACZ,tacz,,,"{""solana"": ""3nqHijNUExsnjNBb15WJsJ2xisyMVGN6FK4aUgZk1Rwj""}"
+exosama-network,sama,Moonsama,moonsama,moonsama.com,,"{""beam"": ""0x0650c20d8b536da43818578071d43cddd8ffe854"", ""exosama"": ""0x8c992cba48189a79204223d106fcb1d797a5f87a"", ""ethereum"": ""0xe04f47ff45576249bc5083dfdf987e03d0550113"", ""base"": ""0x63228048121877a9e0f52020834a135074e8207c""}"
