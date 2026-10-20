@@ -80,3 +80,4 @@ simmi-token,simmi,Simmi Token,simmi-token,simulacrum.network,,"{""base"": ""0x16
 alpie,pie,Alpie,alpie,169pi.ai,,"{""solana"": ""aqQRs3UJmHs7ktoLo46HZAzvG9P3oCoZ41nENqFbory""}"
 catgpt-3,catgpt,CATGPT,catgpt-3,bankr.bot,,"{""robinhood"": ""0xd6fde6a3fc6ab2d83b2be58383944ca1bade1e18""}"
 rubic,rbc,Rubic,rubic,app.rubic.exchange,,"{""ethereum"": ""0x3330bfb7332ca23cd071631837dc289b09c33333"", ""arbitrum-one"": ""0x10aaed289a7b1b0155bf4b86c862f297e84465e0""}"
+celo-british-pound,gbpm,Mento British Pound,mento-british-pound,app.mento.org,,"{""celo"": ""0xccf663b1ff11028f0b19058d0f7b674004a40746""}"
