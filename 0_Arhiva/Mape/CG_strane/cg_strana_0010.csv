@@ -79,3 +79,4 @@ overlay-protocol,ovl,Overlay Protocol,overlay-protocol,overlay.market,,"{""binan
 simmi-token,simmi,Simmi Token,simmi-token,simulacrum.network,,"{""base"": ""0x161e113b8e9bbaefb846f73f31624f6f9607bd44"", ""solana"": ""6Nf3nFbyQ1p1CVQYtEZXfeM89XyvkFPyF2JosxdriH7S""}"
 alpie,pie,Alpie,alpie,169pi.ai,,"{""solana"": ""aqQRs3UJmHs7ktoLo46HZAzvG9P3oCoZ41nENqFbory""}"
 catgpt-3,catgpt,CATGPT,catgpt-3,bankr.bot,,"{""robinhood"": ""0xd6fde6a3fc6ab2d83b2be58383944ca1bade1e18""}"
+rubic,rbc,Rubic,rubic,app.rubic.exchange,,"{""ethereum"": ""0x3330bfb7332ca23cd071631837dc289b09c33333"", ""arbitrum-one"": ""0x10aaed289a7b1b0155bf4b86c862f297e84465e0""}"
