@@ -256,3 +256,4 @@ weatherxm-network,wxm,WeatherXM,weatherxm,weatherxm.network,,"{""ethereum"": ""0
 switcheo,dmx,Demex,carbon-protocol,app.dem.exchange,,"{""ethereum"": ""0xb4371da53140417cbb3362055374b10d97e420bb"", ""zilliqa"": ""zil1yk93f957fanapf0yszgm84p62xrxxfytj4d2tl"", ""neo"": ""ab38352559b8b203bde5fddfa0b07d8b2525e132"", ""osmosis"": ""ibc/8FEFAE6AECF6E2A255585617F781F35A8D5709A545A804482A261C0C9548A9D3""}"
 stobox-token,stbu,Stobox Token,stobox,stobox.io,,"{""base"": ""0xe0c0f44a84cc4a60206360006eba237a5e8fc2dd""}"
 enfineo,enf,enfineo,enfineo,enfineo.com,,"{""binance-smart-chain"": ""0x418f9e4976f467efdb31b2009ac69a7e30ef58b7""}"
+nebius-group-robinhood-tokenized-stock,nbis,Nebius Group • Robinhood Token,nebius-group-robinhood-token,robinhood.com,,"{""robinhood"": ""0x9d9c6684f596f66a64c030b93a886d51fd4d7931""}"
