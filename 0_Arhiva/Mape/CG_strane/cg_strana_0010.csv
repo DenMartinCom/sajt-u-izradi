@@ -485,3 +485,4 @@ invesco-db-commodity-index-tracking-fund-ondo-tokenized-etf,dbcon,Invesco DB Com
 baanx,bxx,Baanx,baanx,withcl.com,,"{""ethereum"": ""0x6b1a8f210ec6b7b6643cea3583fb0c079f367898""}"
 orbofi-ai,obi,Orbofi AI,orbofi-ai,orbofi.com,,"{""ethereum"": ""0xbb3a8fd6ec4bf0fdc6cd2739b1e41192d12b1873"", ""binance-smart-chain"": ""0x69a87c8788d4a48c1362b3b357d0e6b59c11d93f""}"
 exchange-request-for-bitbon,erbb,Exchange Request for Bitbon,exchange-request-for-bitbon,bitbon.space,,"{""ethereum"": ""0x5702a4487da07c827cde512e2d5969cb430cd839""}"
+hoodlock,lock,HoodLock,hoodlock,hoodlock.tech,,"{""robinhood"": ""0xd5bf43f29bf7aa5bb42ae9e217b84b86eb7a4b94""}"
