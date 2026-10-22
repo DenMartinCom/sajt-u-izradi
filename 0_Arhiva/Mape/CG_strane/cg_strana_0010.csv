@@ -404,3 +404,4 @@ painstrategy,painstr,PainStrategy,painstrategy,nftstrategy.fun,,"{""ethereum"": 
 nobiko-coin,long,Nobiko Coin,nobiko-coin,nobikocoin.com,,"{""solana"": ""AYABiqKuTh9Va5Aqc6AujFevHwDGmECGQiFmKW5g3K4Z""}"
 potcoin,pot,Potcoin,potcoin,potcoin.com,,"{""solana"": ""PotzPaFGzK3cbu1u3g5HtoZbyTUkyhka8T2aBy8LMEq""}"
 edu3labs,nfe,Edu3Labs,edu3labs,edu3labs.com,,"{""binance-smart-chain"": ""0xf03ca04dd56d695a410f46f14fef4028b22fb79a""}"
+hummingbot,hbot,Hummingbot,hummingbot,hummingbot.org,,"{""ethereum"": ""0xe5097d9baeafb89f9bcb78c9290d545db5f9e9cb""}"
