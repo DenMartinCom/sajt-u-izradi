@@ -85,6 +85,7 @@ table.h td:first-child{color:var(--accent);width:35%;font-weight:600}
     <label><input type="radio" name="worker" value="https://cmc-proxy.martin-denic.workers.dev" checked>cmc-proxy</label>
     <label><input type="radio" name="worker" value="https://kripto-consumer.martin-denic.workers.dev">kripto-consumer</label>
   </div>
+  <input type="password" id="token" placeholder="Admin token" autocomplete="off" spellcheck="false" style="margin-left:auto;min-width:240px;font-family:ui-monospace,Menlo,Consolas,monospace">
 </header>
 
 <main>
@@ -266,10 +267,18 @@ const ENDPOINTI = {
   ]
 };
 
-const WORKERS_KEY='apitest_worker', BASE_KEY='apitest_base_', HIST_KEY='apitest_hist', PRES_KEY='apitest_presets';
+const WORKERS_KEY='apitest_worker', HIST_KEY='apitest_hist', PRES_KEY='apitest_presets', TOKEN_KEY='apitest_token';
 let SERVICES = [], currentRez = null, currentBodyHtml = '', matchIdx = 0, matches = [];
+let TOKEN = localStorage.getItem(TOKEN_KEY) || '';
 
 async function init() {
+  const tokenEl = document.getElementById('token');
+  tokenEl.value = TOKEN;
+  tokenEl.addEventListener('input', () => {
+    TOKEN = tokenEl.value.trim();
+    localStorage.setItem(TOKEN_KEY, TOKEN);
+  });
+
   await ucitajServise();
   renderPresets();
   renderHist();
@@ -286,11 +295,30 @@ async function init() {
 }
 
 async function ucitajServise() {
+  const sb = document.getElementById('statusBar');
+  if (!TOKEN) {
+    SERVICES = [];
+    popuniServisSelect();
+    sb.className = 'status-bar pending';
+    sb.textContent = '⚠️ Nema admin tokena — nalepi ga u polje gore desno';
+    document.getElementById('result').style.display = 'block';
+    return;
+  }
   try {
-    const r = await fetch('https://cmc-proxy.martin-denic.workers.dev/gard-daj-api-servise');
+    const r = await fetch('https://cmc-proxy.martin-denic.workers.dev/gard-daj-api-servise?token=' + encodeURIComponent(TOKEN));
     const d = await r.json();
     if (d.ok) SERVICES = d.servisi || [];
+    else if (d.greska === 'Neovlašćen pristup') {
+      SERVICES = [];
+      sb.className = 'status-bar s4xx';
+      sb.textContent = '❌ Token nije ispravan';
+      document.getElementById('result').style.display = 'block';
+    }
   } catch (e) { console.error(e); }
+  popuniServisSelect();
+}
+
+function popuniServisSelect() {
   const sel = document.getElementById('servis');
   sel.innerHTML = '<option value="">— izaberi —</option>';
   for (const s of SERVICES) {
@@ -393,6 +421,7 @@ function finalUrl() {
 }
 
 async function posalji() {
+  if (!TOKEN) { alert('Nalepi admin token u polje gore desno'); return; }
   const targetUrl = finalUrl();
   if (!targetUrl) { alert('Izaberi servis i endpoint'); return; }
   const workerUrl = document.querySelector('input[name=worker]:checked').value;
@@ -416,7 +445,7 @@ async function posalji() {
     const payload = { url: targetUrl, pun, tip, cu };
     if (metod) payload.method = metod;
     if (bodyTxt) payload.body = bodyTxt;
-    const r = await fetch(workerUrl + '/api-test', {
+    const r = await fetch(workerUrl + '/api-test?token=' + encodeURIComponent(TOKEN), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload)
@@ -612,7 +641,6 @@ function popuniIzIstorije(x) {
     };
 
     const rest = x.url.slice('https://'.length).split('/').slice(1).join('/');
-    // probaj da nađeš base iz liste endpointa
     let base = '';
     for (const ep of eps) {
       if (ep.p && rest.startsWith(ep.p.replace(/^\//, ''))) { base = ep.p; break; }
