@@ -144,3 +144,4 @@ neutron-3,ntrn,Neutron,neutron,neutron.org,,"{""osmosis"": ""ibc/126DA09104B71B1
 lnfi-network,ln,Lnfi Network,lnfi-network,lnfi.network,,"{""binance-smart-chain"": ""0x6d2ebdf6d551d8408e7d896e9a1ec6f84806e193""}"
 usual-eur,eur0,Usual EUR,usual-eur,usual.money,,"{""ethereum"": ""0x3c89cd1884e7bef73ca3ef08d2ef6ec338fd8e49""}"
 wemix-dollar,wemix$,WEMIX Dollar,wemix-dollar,wemix.com,,"{""wemix-network"": ""0x8e81fcc2d4a3baa0ee9044e0d7e36f59c9bba9c1""}"
+autobahn-network,txl,Autobahn Network,autobahn-network,autobahn.network,,"{""ethereum"": ""0x8eef5a82e6aa222a60f009ac18c24ee12dbf4b41"", ""polygon-pos"": ""0x8eef5a82e6aa222a60f009ac18c24ee12dbf4b41"", ""binance-smart-chain"": ""0x1ffd0b47127fdd4097e54521c9e2c7f0d66aafc5""}"
