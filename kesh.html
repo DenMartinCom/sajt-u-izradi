@@ -333,6 +333,7 @@
       polje('cmc_id', r.cmc_id),
       polje('coingecko_id', r.coingecko_id),
       polje('coinstats_id', r.coinstats_id),
+      polje('livecoinwatch_id', r.livecoinwatch_id),
       polje('coinpaprika_id', r.coinpaprika_id),
       polje('cryptorank_id', r.cryptorank_id),
       polje('cmc_slug', r.cmc_slug)
@@ -343,7 +344,9 @@
       polje('rank', r.rank),
       polje('volumen_24h', r.volumen_24h),
       polje('market_cap', r.market_cap),
-      polje('decimals', r.decimals),
+      polje('circ_supply', r.circ_supply),
+      polje('total_supply', r.total_supply),
+      polje('max_supply', r.max_supply),
       polje('stablecoin', r.je_stablecoin ? 'da' : 'ne'),
       polje('vreme', fVreme(r.vreme))
     ];
