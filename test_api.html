@@ -202,6 +202,7 @@ const ENDPOINTI = {
   ],
   'coinstats': [
     { p:'', e:'/coins?limit=10', m:'GET', o:'Lista svih koinova' },
+    { p:'', e:'/coins?coinIds=bitcoin,ethereum,tether,binancecoin,solana,usd-coin,ripple,staked-ether,cardano,dogecoin,tron,avalanche-2,chainlink,polkadot,bitcoin-cash&limit=15', m:'GET', o:'Bulk info za više koinova po ID-ju' },
     { p:'', e:'/coins/bitcoin', m:'GET', o:'Detalji o konkretnom koinu' },
     { p:'', e:'/coins/bitcoin/charts', m:'GET', o:'Istorijski podaci o ceni' },
     { p:'', e:'/markets', m:'GET', o:'Lista svih berzi' },
