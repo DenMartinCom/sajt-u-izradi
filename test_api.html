@@ -248,8 +248,10 @@ const ENDPOINTI = {
     { p:'', e:'/credits', m:'POST', b:'{}', o:'Preostali krediti' },
     { p:'', e:'/overview', m:'POST', b:'{"currency":"USD"}', o:'Globalni tržišni podaci' },
     { p:'', e:'/overview/history', m:'POST', b:'{"currency":"USD","start":1700000000000,"end":1700086400000}', o:'Istorijski globalni podaci' },
-    { p:'', e:'/coins/list', m:'POST', b:'{"currency":"USD","sort":"rank","order":"ascending","offset":0,"limit":5,"meta":false}', o:'Lista koinova' },
+    { p:'', e:'/coins/list', m:'POST', b:'{"currency":"USD","sort":"rank","order":"ascending","offset":0,"limit":100,"meta":true}', o:'F1 ulaz za mapu: 100 koina po rangu, meta:true (web+contract)' },
+    { p:'', e:'/coins/list', m:'POST', b:'{"currency":"USD","sort":"rank","order":"ascending","offset":0,"limit":5,"meta":false}', o:'Test bez meta — provera koja polja fale' },
     { p:'', e:'/coins/single', m:'POST', b:'{"currency":"USD","code":"BTC","meta":true}', o:'Podaci o jednom koinu' },
+    { p:'', e:'/coins/contract', m:'POST', b:'{"currency":"USD","platform":"ETH","address":"0xdac17f958d2ee523a2206206994597c13d831ec7","meta":true}', o:'Fallback: traži koin po contract adresi (USDT ETH)' },
     { p:'', e:'/coins/history', m:'POST', b:'{"currency":"USD","code":"BTC","start":1700000000000,"end":1700086400000}', o:'Istorijski podaci o koinu' },
     { p:'', e:'/fiats', m:'POST', b:'{}', o:'Lista fiat valuta' },
     { p:'', e:'/exchanges/list', m:'POST', b:'{"currency":"USD","sort":"volume","order":"descending","offset":0,"limit":10}', o:'Lista berzi' },
@@ -663,7 +665,8 @@ function renderPresets() {
     { n:'CG ping', s:'api.coingecko.com', b:'/api/v3/', e:'ping', m:'GET' },
     { n:'CMC listings', s:'pro-api.coinmarketcap.com', b:'/v1/cryptocurrency/', e:'listings/latest?limit=10&convert=USD', m:'GET' },
     { n:'LCW status', s:'api.livecoinwatch.com', b:'', e:'/status', m:'POST', bd:'{}' },
-    { n:'LCW coins', s:'api.livecoinwatch.com', b:'', e:'/coins/list', m:'POST', bd:'{"currency":"USD","limit":5}' },
+    { n:'LCW coins', s:'api.livecoinwatch.com', b:'', e:'/coins/list', m:'POST', bd:'{"currency":"USD","sort":"rank","order":"ascending","offset":0,"limit":100,"meta":true}' },
+    { n:'LCW contract', s:'api.livecoinwatch.com', b:'', e:'/coins/contract', m:'POST', bd:'{"currency":"USD","platform":"ETH","address":"0xdAC17F958D2ee523a2206206994597C13D831ec7","meta":true}' },
     { n:'Alchemy blok', s:'eth-mainnet.g.alchemy.com', b:'/v2/', e:'', m:'POST', bd:'{"jsonrpc":"2.0","id":1,"method":"eth_blockNumber","params":[]}' }
   ];
   for (const b of builtin.concat(p)) {
