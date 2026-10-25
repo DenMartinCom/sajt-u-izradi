@@ -221,21 +221,35 @@ body {
     border-radius: 14px; background: #F5F5F5;
 }
 
-/* FEAR INDEX */
+/* ===== FEAR & GREED + MARKETS ===== */
 .widget-fear-full {
-    padding: 20px 16px;
+    padding: 14px 12px;
 }
-.widget-fear-full .fear-box {
-    flex: none;
+
+/* Novi raspored: gauge levo, statistike desno */
+.fear-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
     width: 100%;
 }
+
 .fear-box {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 8px;
+    flex-shrink: 0;
+    width: 130px;
 }
+
+.widget-fear-full .fear-box {
+    flex-shrink: 0;
+    width: 130px;
+}
+
 .fear-gauge {
     position: relative;
     width: 130px;
@@ -257,6 +271,46 @@ body {
     letter-spacing: 0.5px;
     text-transform: uppercase;
     text-align: center;
+}
+
+/* Desna strana — tržišne statistike */
+.market-stats-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+    font-size: 13px;
+    min-width: 0;
+}
+
+.ms-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding-bottom: 4px;
+}
+
+.ms-row:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.ms-label {
+    color: #888;
+    white-space: nowrap;
+    font-size: 0.78rem;
+}
+
+.ms-value {
+    color: #FFD700;
+    font-weight: 600;
+    text-align: right;
+    margin-left: 10px;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
 }
 
 /* KRIPTO VALUTE */
@@ -989,7 +1043,10 @@ body {
     .gas-item .gas-usd { font-size: 0.7rem; }
     .zama-value { font-size: 1.8rem; }
     .fear-gauge { width: 110px; height: 110px; }
+    .widget-fear-full .fear-box { width: 110px; }
     .fear-value { font-size: 1.7rem; }
+    .market-stats-box { font-size: 12px; gap: 4px; }
+    .ms-label { font-size: 0.72rem; }
     .grafikon-wrap { height: 180px; }
     .grafikon-coin-wrap { height: 180px; }
     .adresa-input-row { flex-wrap: wrap; }
