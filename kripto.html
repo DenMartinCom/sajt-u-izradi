@@ -73,23 +73,31 @@
                 <div class="grafikon-coin-status" id="grafikon-coin-status"></div>
             </div>
 
-            <!-- FEAR & GREED -->
+            <!-- FEAR & GREED + MARKETS -->
             <div class="widget widget-fear-full">
-                <div class="fear-box">
-                    <div class="fear-gauge">
-                        <svg viewBox="0 0 100 100">
-                            <circle cx="50" cy="50" r="42" fill="none" stroke="#2a2a2a" stroke-width="8"/>
-                            <circle id="fear-arc" cx="50" cy="50" r="42"
-                                fill="none" stroke="#FFD700" stroke-width="8"
-                                stroke-linecap="round"
-                                stroke-dasharray="264"
-                                stroke-dashoffset="264"
-                                transform="rotate(-90 50 50)"
-                                style="transition: stroke-dashoffset 0.8s ease, stroke 0.4s;"/>
-                        </svg>
-                        <div class="fear-value" id="fear-value">—</div>
+                <div class="fear-container">
+                    <div class="fear-box">
+                        <div class="fear-gauge">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="42" fill="none" stroke="#2a2a2a" stroke-width="8"/>
+                                <circle id="fear-arc" cx="50" cy="50" r="42"
+                                    fill="none" stroke="#FFD700" stroke-width="8"
+                                    stroke-linecap="round"
+                                    stroke-dasharray="264"
+                                    stroke-dashoffset="264"
+                                    transform="rotate(-90 50 50)"
+                                    style="transition: stroke-dashoffset 0.8s ease, stroke 0.4s;"/>
+                            </svg>
+                            <div class="fear-value" id="fear-value">—</div>
+                        </div>
+                        <div class="fear-label" id="fear-label">Fear &amp; Greed</div>
                     </div>
-                    <div class="fear-label" id="fear-label">Fear &amp; Greed</div>
+
+                    <div class="market-stats-box">
+                        <div class="ms-row"><span class="ms-label">BTC Dominantnost:</span> <span class="ms-value" id="ms-btc-dom">—</span></div>
+                        <div class="ms-row"><span class="ms-label">Tržišna kap.:</span> <span class="ms-value" id="ms-mcap">—</span></div>
+                        <div class="ms-row"><span class="ms-label">Promet:</span> <span class="ms-value" id="ms-vol">—</span></div>
+                    </div>
                 </div>
             </div>
 
