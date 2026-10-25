@@ -3,7 +3,7 @@ const WORKER_URL = 'https://cmc-proxy.martin-denic.workers.dev';
 const CONSUMER_URL = 'https://kripto-consumer.martin-denic.workers.dev';
 const GAS_UNITS = 95000;
 const GWEI_TO_ETH = 1e-9;
-const ZAMA_MULTIPLIER = 218;
+const ZAMA_MULTIPLIER = 219;
 
 // GAS_INTERVAL se čita iz /parametri-javni (gas_eth_osvezava_sek).
 // Default fallback: 20s. Keš u localStorage da ne čeka pri svakom učitavanju.
@@ -221,16 +221,13 @@ async function getPricesPrekoOdrzivost(cgIds) {
     }
 }
 
-// ===== FEAR & GREED =====
+// ===== FEAR & GREED + MARKETS =====
 async function getFearGreed() {
     try {
         const res = await fetchRateLimited(`${WORKER_URL}/fear`);
         const data = await res.json();
-        if (data && data.data && typeof data.data.value !== 'undefined') {
-            return {
-                value: parseInt(data.data.value, 10),
-                label: data.data.value_classification
-            };
+        if (data && data.data) {
+            return data;
         }
     } catch (e) {
         console.warn('Fear&Greed greška:', e);
@@ -253,22 +250,49 @@ async function loadFearGreed() {
     const labEl = document.getElementById('fear-label');
     if (!valEl || !arcEl || !labEl) return;
 
-    if (!fg) {
+    if (fg && fg.data) {
+        const v = Math.max(0, Math.min(100, parseInt(fg.data.value, 10) || 0));
+        const circumference = 264;
+        const offset = circumference - (circumference * v / 100);
+
+        valEl.textContent = v;
+        valEl.style.color = fearColor(v);
+        arcEl.style.stroke = fearColor(v);
+        arcEl.style.strokeDashoffset = offset;
+        labEl.textContent = fg.data.value_classification || 'Fear & Greed';
+    } else {
         valEl.textContent = '—';
         labEl.textContent = 'Fear & Greed';
         arcEl.style.strokeDashoffset = 264;
-        return;
     }
 
-    const v = Math.max(0, Math.min(100, fg.value));
-    const circumference = 264;
-    const offset = circumference - (circumference * v / 100);
+    // Prikaz novih podataka (Markets)
+    if (fg && fg.markets) {
+        const m = fg.markets;
 
-    valEl.textContent = v;
-    valEl.style.color = fearColor(v);
-    arcEl.style.stroke = fearColor(v);
-    arcEl.style.strokeDashoffset = offset;
-    labEl.textContent = fg.label || 'Fear & Greed';
+        // Pomoćna funkcija za formatiranje velikih brojeva
+        const formatVeliki = (n) => {
+            if (typeof n !== 'number' || !isFinite(n)) return '—';
+            if (n >= 1e12) return (n / 1e12).toFixed(2) + ' T$';
+            if (n >= 1e9) return (n / 1e9).toFixed(2) + ' B$';
+            if (n >= 1e6) return (n / 1e6).toFixed(2) + ' M$';
+            return n.toFixed(2) + ' $';
+        };
+
+        const btcEl = document.getElementById('ms-btc-dom');
+        const mcapEl = document.getElementById('ms-mcap');
+        const volEl = document.getElementById('ms-vol');
+
+        if (btcEl && m.btcDominance != null) {
+            btcEl.textContent = Number(m.btcDominance).toFixed(2) + '%';
+        }
+        if (mcapEl && m.marketCap != null) {
+            mcapEl.textContent = formatVeliki(m.marketCap);
+        }
+        if (volEl && m.volume != null) {
+            volEl.textContent = formatVeliki(m.volume);
+        }
+    }
 }
 
 // ===== NOVI GAS WIDGET =====
