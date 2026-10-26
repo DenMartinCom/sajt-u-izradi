@@ -401,3 +401,4 @@ packed,packd,Packed,packed,packd.cc,,"{""robinhood"": ""0x853e1a36876cc4538be636
 nakamotostrategy,nakastr,NakamotoStrategy,nakamotostrategy,nftstrategy.fun,,"{""ethereum"": ""0xd3d3f901b2d9c587988333f00b154d57fce9dd07""}"
 tetsuo-coin,tetsuo,Tetsuo Coin,tetsuo-coin,c-asm.com,,"{""solana"": ""8i51XNNpGaKaj4G4nDdmQh95v4FKAxw8mhtaRoKd9tE8""}"
 melega,marco,MELEGA,melega,marco.melega.ai,,"{""binance-smart-chain"": ""0x963556de0eb8138e97a85f0a86ee0acd159d210b"", ""polygon-pos"": ""0xf31a621a0e75d90fda320eee52956d718fa34615"", ""arc"": ""0x30eb6f2878f60ba0ed6418bfe7cadcd0f475a265"", ""robinhood"": ""0x803925daceccc32343cdac0c731db07a1a384bfb"", ""solana"": ""6SWgjmuTyPAcYYU77Mzf1gE6QA7ZcZsbsfiThz2cW1VF""}"
+absolute-goat,goat,Absolute Goat,absolute-goat,pools.trade,,"{""robinhood"": ""0x6e9acbfbdd8b57649ffeacea4d26a81ae1395367""}"
