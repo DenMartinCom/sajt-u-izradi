@@ -332,3 +332,4 @@ x-money,xmoney,X Money,x-money,xmoneyeth.com,,"{""ethereum"": ""0x21cd589a989615
 exmo-coin,exm,EXMO Coin,exmo-coin,exmo-coin.exmo.com,,"{""ethereum"": ""0x83869de76b9ad8125e22b857f519f001588c0f62""}"
 playzap,pzp,PlayZap,playzap,playzap.games,,"{""binance-smart-chain"": ""0xdce40c14d5956f8b8ba912402ba73b4d4d599612"", ""core"": ""0xf6f46bd1f85ebf00c6d7490678ad020bc73969a7"", ""solana"": ""ADVgDMbbn6LZTdo84UDAgCUew2JMMHe6BnH3KNN3qiLb""}"
 kasper,kasper,Kasper,kasper,kaspercoin.net,,"{""kasplex"": ""kaspa:qppklkx2zyr2g2djg3uy2y2tsufwsqjk36pt27vt2xfu8uqm24pskk4p7tq5n""}"
+shibaken-finance,shibaken,Shibaken Finance,shibaken-finance,shibaken.io,,"{""ethereum"": ""0xa4cf2afd3b165975afffbf7e487cdd40c894ab6b"", ""polygon-pos"": ""0xa0cb0ce7c6d93a7ebd72952feb4407dddee8a194"", ""binance-smart-chain"": ""0xa0cb0ce7c6d93a7ebd72952feb4407dddee8a194""}"
