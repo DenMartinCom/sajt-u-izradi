@@ -1,0 +1,40 @@
+======================================================================
+AUTO-UPARI UPARENOST | Modus: sveMape  | Vreme: 2026-10-27T12:40:52.642Z
+======================================================================
+
+[CMC ID: 38283] Symbol: CARDS, Cena (API): 0.3005642559119116
+  CMC Mapa: web=collectorcrypt.com/marketplace/cards, supply=2000000000, slug=collector-crypt, contract={"sol":"CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp"}
+  --- SERVIS: CG ---
+  Kandidat: collector-crypt
+    Skor: contract(sol:cardsccumfkoprzxt5vt3ksubxefecnz3h2pd3dkxyjp)
+    - Web:    collectorcrypt.com/ | CMC: collectorcrypt.com/marketplace/cards | NEMA
+    - Supply: 2000000000 | CMC: 2000000000 | POKLAPANJE (+1)
+    - Symbol: cards | CMC: CARDS | POKLAPANJE (+1)
+    - Name:   Collector Crypt | CMC: Collector Crypt | POKLAPANJE (+1)
+    - Slug:   collector-crypt | CMC: collector-crypt | POKLAPANJE (+1)
+    Cena: API vratio 0.300668 | CMC: 0.3005642559119116 | Razlika: 0.03%
+    VOLUMEN 0.97 cmc: 6430592.23252592 ciljna: 6598850
+    ISHOD: UPAREN
+  --- SERVIS: CS ---
+  Kandidat: CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp_solana
+    Skor: contract(sol:cardsccumfkoprzxt5vt3ksubxefecnz3h2pd3dkxyjp)
+    - Web:    collectorcrypt.com/ | CMC: collectorcrypt.com/marketplace/cards | NEMA
+    - Supply: 1974157734 | CMC: 2000000000 | POKLAPANJE (+1)
+    - Symbol: CARDS | CMC: CARDS | POKLAPANJE (+1)
+    - Name:   Collector Crypt | CMC: Collector Crypt | POKLAPANJE (+1)
+    - Slug:   collector-crypt | CMC: collector-crypt | POKLAPANJE (+1)
+    Cena: API vratio 0.2996098283709681 | CMC: 0.3005642559119116 | Razlika: 0.32%
+    VOLUMEN 0.98 cmc: 6430592.23252592 ciljna: 6552679
+    ISHOD: UPAREN
+  --- SERVIS: LCW ---
+  Kandidat: __CARDS
+    Skor: skoring(supply=1,name=1)
+    - Web:    NEMA | CMC: collectorcrypt.com/marketplace/cards | NEMA
+    - Supply: 1999999999.999999 | CMC: 2000000000 | POKLAPANJE (+1)
+    - Symbol: __CARDS | CMC: CARDS | NEMA
+    - Name:   Collector Crypt | CMC: Collector Crypt | POKLAPANJE (+1)
+    - Slug:   Collector Crypt-__CARDS | CMC: collector-crypt | NEMA
+    Cena: API vratio 0.3002251056448527 | CMC: 0.3005642559119116 | Razlika: 0.11%
+    VOLUMEN 1.15 cmc: 6430592.23252592 ciljna: 5589292
+    ISHOD: UPAREN
+
