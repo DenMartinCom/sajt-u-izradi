@@ -1,0 +1,33 @@
+======================================================================
+AUTO-UPARI UPARENOST | Modus: sveMape  | Vreme: 2026-10-27T22:00:13.651Z
+======================================================================
+
+[CMC ID: 38337] Symbol: 0G, Cena (API): 0.2019441048174244
+  CMC Mapa: web=0gfoundation.ai/, supply=1090000000, slug=zero-gravity, contract={"eth":"0x4B948d64dE1F71fCd12fB586f4c776421a35b3eE","bsc":"0x4B948d64dE1F71fCd12fB586f4c776421a35b3eE"}
+  --- SERVIS: LCW ---
+  Kandidat: 0G | Kriterijum: lcw_contract(eth:0x4B948d64dE1F71fCd12fB586f4c776421a35b3eE) | Cena: 0.20197143761649464 | Razlika: 0.01%
+    VOLUMEN 2.18 cmc: 14561146.347535 ciljna: 6664698
+    ISHOD: UPAREN
+  --- SERVIS: CG ---
+  Kandidat: zero-gravity
+    Skor: contract(eth:0x4b948d64de1f71fcd12fb586f4c776421a35b3ee)
+    - Web:    0gfoundation.ai/ | CMC: 0gfoundation.ai/ | POKLAPANJE (+2)
+    - Supply: 1000000000 | CMC: 1090000000 | NEMA
+    - Symbol: 0g | CMC: 0G | POKLAPANJE (+1)
+    - Name:   0G | CMC: 0G | POKLAPANJE (+1)
+    - Slug:   0g | CMC: zero-gravity | NEMA
+    Cena: API vratio 0.201747 | CMC: 0.2019441048174244 | Razlika: 0.10%
+    VOLUMEN 2.49 cmc: 14561146.347535 ciljna: 5847132
+    ISHOD: UPAREN
+  --- SERVIS: CS ---
+  Kandidat: zero-gravity
+    Skor: contract(eth:0x4b948d64de1f71fcd12fb586f4c776421a35b3ee)
+    - Web:    0gfoundation.ai/ | CMC: 0gfoundation.ai/ | POKLAPANJE (+2)
+    - Supply: 1000000000 | CMC: 1090000000 | NEMA
+    - Symbol: 0G | CMC: 0G | POKLAPANJE (+1)
+    - Name:   0G | CMC: 0G | POKLAPANJE (+1)
+    - Slug:   zero-gravity | CMC: zero-gravity | POKLAPANJE (+1)
+    Cena: API vratio 0.20205849833771683 | CMC: 0.2019441048174244 | Razlika: 0.06%
+    VOLUMEN 2.49 cmc: 14561146.347535 ciljna: 5856515
+    ISHOD: UPAREN
+
