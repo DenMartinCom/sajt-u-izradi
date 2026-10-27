@@ -1,0 +1,40 @@
+======================================================================
+AUTO-UPARI UPARENOST | Modus: sveMape  | Vreme: 2026-10-27T13:15:40.279Z
+======================================================================
+
+[CMC ID: 1732] Symbol: NMR, Cena (API): 9.817488783466754
+  CMC Mapa: web=numer.ai/, supply=11000000, slug=numeraire, contract={"eth":"0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671"}
+  --- SERVIS: CG ---
+  Kandidat: numeraire
+    Skor: contract(eth:0x1776e1f26f98b1a5df9cd347953a26dd3cb46671)
+    - Web:    numer.ai/ | CMC: numer.ai/ | POKLAPANJE (+2)
+    - Supply: 11000000 | CMC: 11000000 | POKLAPANJE (+1)
+    - Symbol: nmr | CMC: NMR | POKLAPANJE (+1)
+    - Name:   Numeraire | CMC: Numeraire | POKLAPANJE (+1)
+    - Slug:   numeraire | CMC: numeraire | POKLAPANJE (+1)
+    Cena: API vratio 9.83 | CMC: 9.817488783466754 | Razlika: 0.13%
+    VOLUMEN 1.20 cmc: 12055058.5776497 ciljna: 10010587
+    ISHOD: UPAREN
+  --- SERVIS: CS ---
+  Kandidat: numeraire
+    Skor: contract(eth:0x1776e1f26f98b1a5df9cd347953a26dd3cb46671)
+    - Web:    numer.ai/ | CMC: numer.ai/ | POKLAPANJE (+2)
+    - Supply: 10596312 | CMC: 11000000 | NEMA
+    - Symbol: NMR | CMC: NMR | POKLAPANJE (+1)
+    - Name:   Numeraire | CMC: Numeraire | POKLAPANJE (+1)
+    - Slug:   numeraire | CMC: numeraire | POKLAPANJE (+1)
+    Cena: API vratio 9.851181255611893 | CMC: 9.817488783466754 | Razlika: 0.34%
+    VOLUMEN 0.96 cmc: 12055058.5776497 ciljna: 12522449.814827962
+    ISHOD: UPAREN
+  --- SERVIS: LCW ---
+  Kandidat: NMR
+    Skor: skoring(web=2,supply=1,symbol=1,name=1)
+    - Web:    numer.ai | CMC: numer.ai/ | POKLAPANJE (+2)
+    - Supply: 11000000 | CMC: 11000000 | POKLAPANJE (+1)
+    - Symbol: NMR | CMC: NMR | POKLAPANJE (+1)
+    - Name:   Numeraire | CMC: Numeraire | POKLAPANJE (+1)
+    - Slug:   Numeraire-NMR | CMC: numeraire | NEMA
+    Cena: API vratio 9.839745345332213 | CMC: 9.817488783466754 | Razlika: 0.23%
+    VOLUMEN 2.25 cmc: 12055058.5776497 ciljna: 5360388
+    ISHOD: UPAREN
+
