@@ -1,0 +1,25 @@
+======================================================================
+AUTO-UPARI UPARENOST | Modus: sveMape  | Vreme: 2026-10-27T15:28:03.317Z
+======================================================================
+
+[CMC ID: 9868] Symbol: XCAD, Cena (API): 0.000053875992171101
+  CMC Mapa: web=xcadnetwork.com/, supply=200000000, slug=xcad-network, contract={"eth":"0x7659ce147d0e714454073a5dd7003544234b6aa0","bsc":"0xaf9fe3b5ccdae78188b1f8b9a49da7ae9510f151","polygon-ecosystem-token":"0xa55870278d6389ec5b524553d03c04f5677c061e","zilliqa":"zil1z5l74hwy3pc3pr3gdh3nqju4jlyp0dzkhq2f5y","metisdao":"0x66673f0a3b5d99524bA76A558B93A9ca1386f4Cd","base":"0x750cF88d9E0c2BCedEEC31d5FaAd6eD6E3F1abC6","sol":"AHcxvCP5se2DiqfcXwBz8i7WygwWJdd8f9S9t6nd4YsQ"}
+  --- SERVIS: LCW ---
+  Kandidat: XCAD | Kriterijum: lcw_contract(eth:0x7659ce147d0e714454073a5dd7003544234b6aa0) | Cena: 0.00005432813881834834 | Razlika: 0.84%
+    VOLUMEN 0.00 cmc: 0 ciljna: 98
+    ISHOD: UPAREN
+  --- SERVIS: CG ---
+  ISHOD: NEMA_POBEDNIKA
+  --- SERVIS: CS ---
+  Kandidat: xcad-network
+    Skor: contract(eth:0x7659ce147d0e714454073a5dd7003544234b6aa0)
+    - Web:    xcadnetwork.com/ | CMC: xcadnetwork.com/ | POKLAPANJE (+2)
+    - Supply: 194817991 | CMC: 200000000 | POKLAPANJE (+1)
+    - Symbol: XCAD | CMC: XCAD | POKLAPANJE (+1)
+    - Name:   XCAD Network | CMC: XCAD Network | POKLAPANJE (+1)
+    - Slug:   xcad-network | CMC: xcad-network | POKLAPANJE (+1)
+    Cena: API vratio 0.00040152513330860565 | CMC: 0.000053875992171101 | Razlika: 645.28%
+    VOLUMEN 0.00 cmc: 0 ciljna: 0
+    ISHOD: RAZLIKA_CENE
+  ISHOD: NEMA_POBEDNIKA
+
