@@ -1,2 +1,3 @@
 id,symbol,name,slug,web,logo,contract
 cra-agent,cra,Cra Agent,cra-agent,cra-agent.tech,,"{""arc"": ""0x70857041fef0ced97f9e01e7ccc21889afe3f6f4""}"
+abrdn-physical-palladium-shares-xstock,pallx,abrdn Physical Palladium Shares xStock,abrdn-physical-palladium-shares-xstock,xstocks.fi,,"{""ethereum"": ""0x05473cea3774d898c7b6dda21e1876d6bca7277b"", ""solana"": ""XsTTtPA5V19YwHKDv4xeVXNM6kdsQNJvg3MyWkRUckt"", ""the-open-network"": ""EQAukbVQBoFo1HBWYXAR0bOLIMmztKczGfB9ypTSV45emzw3""}"
