@@ -1,0 +1,40 @@
+======================================================================
+AUTO-UPARI UPARENOST | Modus: sveMape  | Vreme: 2026-10-27T16:04:30.835Z
+======================================================================
+
+[CMC ID: 41876] Symbol: PEARL, Cena (API): 1.725653548726266
+  CMC Mapa: web=pearlresearch.ai/, supply=2100000000, slug=pearlresearch, contract={}
+  --- SERVIS: LCW ---
+  Kandidat: _____PRL
+    Skor: skoring(web=2)
+    - Web:    pearlresearch.ai | CMC: pearlresearch.ai/ | POKLAPANJE (+2)
+    - Supply: NEMA | CMC: 2100000000 | NEMA
+    - Symbol: _____PRL | CMC: PEARL | NEMA
+    - Name:   Pearl Research | CMC: Pearl (pearlresearch.ai) | NEMA
+    - Slug:   Pearl Research-_____PRL | CMC: pearlresearch | NEMA
+    Cena: API vratio 1.7409976187901863 | CMC: 1.725653548726266 | Razlika: 0.89%
+    VOLUMEN 33.67 cmc: 6555139.57889847 ciljna: 194681
+    ISHOD: UPAREN
+  --- SERVIS: CG ---
+  Kandidat: pearl-2
+    Skor: skoring(web=2,supply=1,symbol=1)
+    - Web:    pearlresearch.ai/ | CMC: pearlresearch.ai/ | POKLAPANJE (+2)
+    - Supply: 2100000000 | CMC: 2100000000 | POKLAPANJE (+1)
+    - Symbol: pearl | CMC: PEARL | POKLAPANJE (+1)
+    - Name:   Pearl | CMC: Pearl (pearlresearch.ai) | NEMA
+    - Slug:   pearl-research | CMC: pearlresearch | NEMA
+    Cena: API vratio 1.72 | CMC: 1.725653548726266 | Razlika: 0.33%
+    VOLUMEN 0.97 cmc: 6555139.57889847 ciljna: 6781115
+    ISHOD: UPAREN
+  --- SERVIS: CS ---
+  Kandidat: pearl-2
+    Skor: skoring(web=2,supply=1,symbol=1)
+    - Web:    pearlresearch.ai/ | CMC: pearlresearch.ai/ | POKLAPANJE (+2)
+    - Supply: 2100000000 | CMC: 2100000000 | POKLAPANJE (+1)
+    - Symbol: PEARL | CMC: PEARL | POKLAPANJE (+1)
+    - Name:   Pearl | CMC: Pearl (pearlresearch.ai) | NEMA
+    - Slug:   pearl-2 | CMC: pearlresearch | NEMA
+    Cena: API vratio 1.7238099154673643 | CMC: 1.725653548726266 | Razlika: 0.11%
+    VOLUMEN 0.96 cmc: 6555139.57889847 ciljna: 6814665
+    ISHOD: UPAREN
+
