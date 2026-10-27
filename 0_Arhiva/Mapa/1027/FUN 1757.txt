@@ -1,0 +1,44 @@
+======================================================================
+AUTO-UPARI UPARENOST | Modus: sveMape  | Vreme: 2026-10-27T16:31:43.458Z
+======================================================================
+
+[CMC ID: 1757] Symbol: FUN, Cena (API): 0.008701374320402872
+  CMC Mapa: web=funtoken.io/, supply=10806201658.398026, slug=funtoken, contract={"eth":"0x419d0d8bdd9af5e606ae2232ed285aff190e711b"}
+  --- SERVIS: LCW ---
+  Kandidat: FUN | Kriterijum: lcw_contract(eth:0x419d0d8bdd9af5e606ae2232ed285aff190e711b) | Cena: 0.014149450908539163 | Razlika: 62.61%
+    VOLUMEN 16.51 cmc: 1175427.8953404 ciljna: 71205
+    ISHOD: RAZLIKA_CENE
+  Kandidat: FUN
+    Skor: skoring(supply=1,symbol=1,name=1)
+    - Web:     https://funtoken.io | CMC: funtoken.io/ | NEMA
+    - Supply: 10806201658 | CMC: 10806201658.398026 | POKLAPANJE (+1)
+    - Symbol: FUN | CMC: FUN | POKLAPANJE (+1)
+    - Name:   FUNToken | CMC: FUNToken | POKLAPANJE (+1)
+    - Slug:   FUNToken-FUN | CMC: funtoken | NEMA
+    Cena: API vratio 0.014149450908539163 | CMC: 0.008701374320402872 | Razlika: 62.61%
+    VOLUMEN 16.51 cmc: 1175427.8953404 ciljna: 71205
+    ISHOD: RAZLIKA_CENE
+  ISHOD: NEMA_POBEDNIKA
+  --- SERVIS: CG ---
+  Kandidat: funfair
+    Skor: contract(eth:0x419d0d8bdd9af5e606ae2232ed285aff190e711b)
+    - Web:    funtoken.io/ | CMC: funtoken.io/ | POKLAPANJE (+2)
+    - Supply: 10999873621 | CMC: 10806201658.398026 | POKLAPANJE (+1)
+    - Symbol: fun | CMC: FUN | POKLAPANJE (+1)
+    - Name:   FUNToken | CMC: FUNToken | POKLAPANJE (+1)
+    - Slug:   funtoken | CMC: funtoken | POKLAPANJE (+1)
+    Cena: API vratio 0.00870056 | CMC: 0.008701374320402872 | Razlika: 0.01%
+    VOLUMEN 1.03 cmc: 1175427.8953404 ciljna: 1139572
+    ISHOD: UPAREN
+  --- SERVIS: CS ---
+  Kandidat: funfair
+    Skor: contract(eth:0x419d0d8bdd9af5e606ae2232ed285aff190e711b)
+    - Web:    funtoken.io/ | CMC: funtoken.io/ | POKLAPANJE (+2)
+    - Supply: 10999873621 | CMC: 10806201658.398026 | POKLAPANJE (+1)
+    - Symbol: FUN | CMC: FUN | POKLAPANJE (+1)
+    - Name:   FUNToken | CMC: FUNToken | POKLAPANJE (+1)
+    - Slug:   funfair | CMC: funtoken | NEMA
+    Cena: API vratio 0.008706174126518633 | CMC: 0.008701374320402872 | Razlika: 0.06%
+    VOLUMEN 1.03 cmc: 1175427.8953404 ciljna: 1142594
+    ISHOD: UPAREN
+
