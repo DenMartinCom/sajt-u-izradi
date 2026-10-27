@@ -1,0 +1,23 @@
+======================================================================
+AUTO-UPARI UPARENOST | Modus: sveMape  | Vreme: 2026-10-27T15:59:01.106Z
+======================================================================
+
+[CMC ID: 29862] Symbol: GROW, Cena (API): 0.012500238106422845
+  CMC Mapa: web=growunited.com/, supply=50000000000, slug=grow, contract={"eth":"0x1223334444A7466fBf985B14E1F4EdAf3883bCa6","bsc":"0x1223334444A7466fBf985B14E1F4EdAf3883bCa6"}
+  --- SERVIS: LCW ---
+  ISHOD: NEMA_POBEDNIKA
+  --- SERVIS: CG ---
+  ISHOD: NEMA_POBEDNIKA
+  --- SERVIS: CS ---
+  Kandidat: grow
+    Skor: contract(eth:0x1223334444a7466fbf985b14e1f4edaf3883bca6)
+    - Web:    growunited.com/ | CMC: growunited.com/ | POKLAPANJE (+2)
+    - Supply: 30993152000 | CMC: 50000000000 | NEMA
+    - Symbol: GROW | CMC: GROW | POKLAPANJE (+1)
+    - Name:   Grow | CMC: Grow | POKLAPANJE (+1)
+    - Slug:   grow | CMC: grow | POKLAPANJE (+1)
+    Cena: API vratio 0.0005052763018957314 | CMC: 0.012500238106422845 | Razlika: 95.96%
+    VOLUMEN 52.27 cmc: 397547.77504271 ciljna: 7606
+    ISHOD: RAZLIKA_CENE
+  ISHOD: NEMA_POBEDNIKA
+
