@@ -1,8 +1,8 @@
 ======================================================================
-AUTO-UPARI UPARENOST | Modus: sveMape  | Vreme: 2026-10-27T14:28:40.173Z
+AUTO-UPARI UPARENOST | Modus: sveMape  | Vreme: 2026-10-27T15:28:44.592Z
 ======================================================================
 
-[CMC ID: 20279] Symbol: DHN, Cena (API): 484.60875537150827
+[CMC ID: 20279] Symbol: DHN, Cena (API): 486.92990294315223
   CMC Mapa: web=dohrnii.io/, supply=372000000, slug=dohrnii, contract={"eth":"0x3A54E9B53f32FD3441a87E1A95C853E595c8326f"}
   --- SERVIS: LCW ---
   Kandidat: DHN
@@ -12,8 +12,8 @@ AUTO-UPARI UPARENOST | Modus: sveMape  | Vreme: 2026-10-27T14:28:40.173Z
     - Symbol: DHN | CMC: DHN | POKLAPANJE (+1)
     - Name:   Dohrnii | CMC: Dohrnii | POKLAPANJE (+1)
     - Slug:   Dohrnii-DHN | CMC: dohrnii | NEMA
-    Cena: API vratio 484.4606308454999 | CMC: 484.60875537150827 | Razlika: 0.03%
-    VOLUMEN 12.99 cmc: 7736085.62356795 ciljna: 595545
+    Cena: API vratio 486.8157451693629 | CMC: 486.92990294315223 | Razlika: 0.02%
+    VOLUMEN 13.56 cmc: 8114781.58745814 ciljna: 598440
     ISHOD: UPAREN
   --- SERVIS: CG ---
   ISHOD: NEMA_POBEDNIKA
@@ -25,7 +25,7 @@ AUTO-UPARI UPARENOST | Modus: sveMape  | Vreme: 2026-10-27T14:28:40.173Z
     - Symbol: DHN | CMC: DHN | POKLAPANJE (+1)
     - Name:   Dohrnii | CMC: Dohrnii | POKLAPANJE (+1)
     - Slug:   dohrnii-2 | CMC: dohrnii | NEMA
-    Cena: API vratio 484.30734319078 | CMC: 484.60875537150827 | Razlika: 0.06%
-    VOLUMEN 5.91 cmc: 7736085.62356795 ciljna: 1309986
+    Cena: API vratio 486.91534033361313 | CMC: 486.92990294315223 | Razlika: 0.00%
+    VOLUMEN 6.00 cmc: 8114781.58745814 ciljna: 1352047
     ISHOD: UPAREN
 
