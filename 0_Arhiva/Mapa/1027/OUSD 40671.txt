@@ -1,8 +1,8 @@
 ======================================================================
-AUTO-UPARI UPARENOST | Modus: sveMape  | Vreme: 2026-10-27T16:04:21.052Z
+AUTO-UPARI UPARENOST | Modus: sveMape  | Vreme: 2026-10-27T16:32:18.393Z
 ======================================================================
 
-[CMC ID: 40671] Symbol: OUSD, Cena (API): 0.999319802673971
+[CMC ID: 40671] Symbol: OUSD, Cena (API): 0.9990563808655067
   CMC Mapa: web=joinopenstandard.com/, supply=837621120.80664, slug=open-usd, contract={"sol":"ousd2mJsPEckLHcSCDxyKD7NDGARZcfLbDZkKiatYHB","base":"0xB2000000000000000000002fEb517dFeC7415344","eth":"0x9f6F3991D525015a6F8CaF062C83b62fD3AC4436"}
   --- SERVIS: LCW ---
   ISHOD: NEMA_POBEDNIKA
@@ -14,8 +14,8 @@ AUTO-UPARI UPARENOST | Modus: sveMape  | Vreme: 2026-10-27T16:04:21.052Z
     - Symbol: ousd | CMC: OUSD | POKLAPANJE (+1)
     - Name:   Open USD | CMC: Open USD | POKLAPANJE (+1)
     - Slug:   open-usd | CMC: open-usd | POKLAPANJE (+1)
-    Cena: API vratio 0.99967 | CMC: 0.999319802673971 | Razlika: 0.04%
-    VOLUMEN 0.72 cmc: 47131.96991184 ciljna: 65305
+    Cena: API vratio 0.998752 | CMC: 0.9990563808655067 | Razlika: 0.03%
+    VOLUMEN 0.93 cmc: 247443.69732006 ciljna: 265308
     ISHOD: UPAREN
   --- SERVIS: CS ---
   Kandidat: open-usd
@@ -25,7 +25,7 @@ AUTO-UPARI UPARENOST | Modus: sveMape  | Vreme: 2026-10-27T16:04:21.052Z
     - Symbol: OUSD | CMC: OUSD | POKLAPANJE (+1)
     - Name:   Open USD | CMC: Open USD | POKLAPANJE (+1)
     - Slug:   open-usd | CMC: open-usd | POKLAPANJE (+1)
-    Cena: API vratio 1.0003433085805604 | CMC: 0.999319802673971 | Razlika: 0.10%
-    VOLUMEN 0.72 cmc: 47131.96991184 ciljna: 65356
+    Cena: API vratio 0.9987519614012101 | CMC: 0.9990563808655067 | Razlika: 0.03%
+    VOLUMEN 0.94 cmc: 247443.69732006 ciljna: 264048
     ISHOD: UPAREN
 
