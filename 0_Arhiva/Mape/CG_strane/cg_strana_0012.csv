@@ -71,3 +71,4 @@ long-3,long,Long,long-fun,long.fun,,"{""zksync"": ""0x5165ec33b491d7b67260b3143f
 anzen-finance,anz,Anzen Finance,anzen-finance,anzen.finance,,"{""base"": ""0xeec468333ccc16d4bf1cef497a56cf8c0aae4ca3""}"
 biaocoin,biao,Biaocoin,biaocoin,biaocoin.xyz,,"{""ethereum"": ""0x00282fd551d03dc033256c4bf119532e8c735d8a""}"
 hedera-swiss-franc,hchf,Hedera Swiss Franc,hedera-swiss-franc,hliquity.org,,"{""hedera-hashgraph"": ""0.0.6070123""}"
+ishares-gold-trust-dinari-tokenized-etf,iau,iShares Gold Trust (Dinari Tokenized ETF),ishares-gold-trust-dinari-tokenized-etf,dinari.com,,"{""ethereum"": ""0x4be7aeda82870609cd934babc3a11b886b8cdb02"", ""base"": ""0xe6cf0d54079bfb0e441c1ef37e69a234e9e4e4c0"", ""arbitrum-one"": ""0x39bce681d72720f80424914800a78c63fdfaf645"", ""avalanche"": ""0xb7b378265c9e271659c87f513eba2e5f215b7eb2""}"
