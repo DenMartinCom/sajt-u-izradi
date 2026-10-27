@@ -1,0 +1,41 @@
+======================================================================
+AUTO-UPARI UPARENOST | Modus: sveMape  | Vreme: 2026-10-27T15:58:05.226Z
+======================================================================
+
+[CMC ID: 2941] Symbol: CET, Cena (API): 0.19050528885616608
+  CMC Mapa: web=coinex.org/, supply=10000000000, slug=coinex-token, contract={"eth":"0x081f67afa0ccf8c7b17540767bbe95df2ba8d97f"}
+  --- SERVIS: LCW ---
+  Kandidat: CET
+    Skor: skoring(supply=1,symbol=1,name=1)
+    - Web:    coinex.com/token | CMC: coinex.org/ | NEMA
+    - Supply: 10000000000 | CMC: 10000000000 | POKLAPANJE (+1)
+    - Symbol: CET | CMC: CET | POKLAPANJE (+1)
+    - Name:   CoinEx Token | CMC: CoinEx Token | POKLAPANJE (+1)
+    - Slug:   CoinEx Token-CET | CMC: coinex-token | NEMA
+    Cena: Greska (nema_podatka) - LCW nema rate
+  ISHOD: NEMA_POBEDNIKA
+  --- SERVIS: CG ---
+  Kandidat: coinex-token
+    Skor: contract(eth:0x081f67afa0ccf8c7b17540767bbe95df2ba8d97f)
+    - Web:    coinex.org/ | CMC: coinex.org/ | POKLAPANJE (+2)
+    - Supply: 10000000000 | CMC: 10000000000 | POKLAPANJE (+1)
+    - Symbol: cet | CMC: CET | POKLAPANJE (+1)
+    - Name:   CoinEx | CMC: CoinEx Token | NEMA
+    - Slug:   coinex-token | CMC: coinex-token | POKLAPANJE (+1)
+    Cena: API vratio 0.00499918 | CMC: 0.19050528885616608 | Razlika: 97.38%
+    VOLUMEN 0.00 cmc: 0 ciljna: 0
+    ISHOD: RAZLIKA_CENE
+  ISHOD: NEMA_POBEDNIKA
+  --- SERVIS: CS ---
+  Kandidat: coinex-token
+    Skor: contract(eth:0x081f67afa0ccf8c7b17540767bbe95df2ba8d97f)
+    - Web:    coinex.org/ | CMC: coinex.org/ | POKLAPANJE (+2)
+    - Supply: 2440203423 | CMC: 10000000000 | NEMA
+    - Symbol: CET | CMC: CET | POKLAPANJE (+1)
+    - Name:   CoinEx | CMC: CoinEx Token | NEMA
+    - Slug:   coinex-token | CMC: coinex-token | POKLAPANJE (+1)
+    Cena: API vratio 0.005001 | CMC: 0.19050528885616608 | Razlika: 97.37%
+    VOLUMEN 0.00 cmc: 0 ciljna: 0.2775555
+    ISHOD: RAZLIKA_CENE
+  ISHOD: NEMA_POBEDNIKA
+
