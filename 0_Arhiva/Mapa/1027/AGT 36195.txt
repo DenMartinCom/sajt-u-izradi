@@ -1,12 +1,12 @@
 ======================================================================
-AUTO-UPARI UPARENOST | Modus: sveMape  | Vreme: 2026-10-27T16:03:15.531Z
+AUTO-UPARI UPARENOST | Modus: sveMape  | Vreme: 2026-10-27T16:33:15.411Z
 ======================================================================
 
-[CMC ID: 36195] Symbol: AGT, Cena (API): 0.047241101756112
+[CMC ID: 36195] Symbol: AGT, Cena (API): 0.04794755837582642
   CMC Mapa: web=aialaya.io/#/, supply=5000000000, slug=alaya-ai, contract={"bsc":"0x5dBde81fcE337FF4bcaaEe4Ca3466C00aeCaE274"}
   --- SERVIS: LCW ---
-  Kandidat: _____AGT | Kriterijum: lcw_contract(bsc:0x5dBde81fcE337FF4bcaaEe4Ca3466C00aeCaE274) | Cena: 0.047172316082518435 | Razlika: 0.15%
-    VOLUMEN 0.97 cmc: 31192954.34701559 ciljna: 32021298
+  Kandidat: _____AGT | Kriterijum: lcw_contract(bsc:0x5dBde81fcE337FF4bcaaEe4Ca3466C00aeCaE274) | Cena: 0.04761538197750115 | Razlika: 0.69%
+    VOLUMEN 0.97 cmc: 31307187.79852032 ciljna: 32211892
     ISHOD: UPAREN
   --- SERVIS: CG ---
   ISHOD: NEMA_POBEDNIKA
@@ -18,7 +18,7 @@ AUTO-UPARI UPARENOST | Modus: sveMape  | Vreme: 2026-10-27T16:03:15.531Z
     - Symbol: AGT | CMC: AGT | POKLAPANJE (+1)
     - Name:   Alaya AI | CMC: Alaya Governance Token | NEMA
     - Slug:   alaya-ai | CMC: alaya-ai | POKLAPANJE (+1)
-    Cena: API vratio 0.047391239650959205 | CMC: 0.047241101756112 | Razlika: 0.32%
-    VOLUMEN 2.15 cmc: 31192954.34701559 ciljna: 14492470
+    Cena: API vratio 0.04796759561778106 | CMC: 0.04794755837582642 | Razlika: 0.04%
+    VOLUMEN 2.13 cmc: 31307187.79852032 ciljna: 14670804
     ISHOD: UPAREN
 
