@@ -1,0 +1,33 @@
+======================================================================
+AUTO-UPARI UPARENOST | Modus: sveMape  | Vreme: 2026-10-27T22:00:35.216Z
+======================================================================
+
+[CMC ID: 40531] Symbol: CAP, Cena (API): 0.09790336967481918
+  CMC Mapa: web=cap.app/, supply=10000000000, slug=cap-app, contract={"eth":"0x99991c6AAbba5a096f24f250b73580F5179b9999","bsc":"0x99991c6AAbba5a096f24f250b73580F5179b9999"}
+  --- SERVIS: LCW ---
+  Kandidat: ___________CAP | Kriterijum: lcw_contract(eth:0x99991c6AAbba5a096f24f250b73580F5179b9999) | Cena: 0.09781802309402134 | Razlika: 0.09%
+    VOLUMEN 2.87 cmc: 53505346.26966792 ciljna: 18632858
+    ISHOD: UPAREN
+  --- SERVIS: CG ---
+  Kandidat: cap-4
+    Skor: contract(eth:0x99991c6aabba5a096f24f250b73580f5179b9999)
+    - Web:    cap.app/ | CMC: cap.app/ | POKLAPANJE (+2)
+    - Supply: 10000000000 | CMC: 10000000000 | POKLAPANJE (+1)
+    - Symbol: cap | CMC: CAP | POKLAPANJE (+1)
+    - Name:   Cap | CMC: Cap | POKLAPANJE (+1)
+    - Slug:   cap | CMC: cap-app | NEMA
+    Cena: API vratio 0.097925 | CMC: 0.09790336967481918 | Razlika: 0.02%
+    VOLUMEN 1.03 cmc: 53505346.26966792 ciljna: 51730690
+    ISHOD: UPAREN
+  --- SERVIS: CS ---
+  Kandidat: cap-4
+    Skor: contract(eth:0x99991c6aabba5a096f24f250b73580f5179b9999)
+    - Web:    cap.app/ | CMC: cap.app/ | POKLAPANJE (+2)
+    - Supply: 10000000000 | CMC: 10000000000 | POKLAPANJE (+1)
+    - Symbol: CAP | CMC: CAP | POKLAPANJE (+1)
+    - Name:   Cap | CMC: Cap | POKLAPANJE (+1)
+    - Slug:   cap-4 | CMC: cap-app | NEMA
+    Cena: API vratio 0.0980995651282597 | CMC: 0.09790336967481918 | Razlika: 0.20%
+    VOLUMEN 0.96 cmc: 53505346.26966792 ciljna: 55630757
+    ISHOD: UPAREN
+
