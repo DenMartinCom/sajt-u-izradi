@@ -1,0 +1,40 @@
+======================================================================
+AUTO-UPARI UPARENOST | Modus: sveMape  | Vreme: 2026-10-27T14:28:02.756Z
+======================================================================
+
+[CMC ID: 11857] Symbol: GMX, Cena (API): 8.19766356092795
+  CMC Mapa: web=gmx.io/, supply=13250000, slug=gmx, contract={"sol":"9wX6Qz1Y5YQe71dfnFYFfZYXZhKqjYKQwdqfrRkmYUSX","avax":"0x62edc0692BD897D2295872a9FFCac5425011c661","arb":"0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a"}
+  --- SERVIS: LCW ---
+  Kandidat: __GMX
+    Skor: skoring(supply=1,name=1)
+    - Web:    app.gmx.io/#/trade/?ref=Livecoinwatch | CMC: gmx.io/ | NEMA
+    - Supply: 13250000 | CMC: 13250000 | POKLAPANJE (+1)
+    - Symbol: __GMX | CMC: GMX | NEMA
+    - Name:   GMX | CMC: GMX | POKLAPANJE (+1)
+    - Slug:   GMX-__GMX | CMC: gmx | NEMA
+    Cena: API vratio 8.208843695607296 | CMC: 8.19766356092795 | Razlika: 0.14%
+    VOLUMEN 1.14 cmc: 2923400.37412369 ciljna: 2564446
+    ISHOD: UPAREN
+  --- SERVIS: CG ---
+  Kandidat: gmx
+    Skor: skoring(web=2,supply=1,symbol=1,name=1,slug=1)
+    - Web:    gmx.io/#/?ref=coingecko | CMC: gmx.io/ | POKLAPANJE (+2)
+    - Supply: 13250000 | CMC: 13250000 | POKLAPANJE (+1)
+    - Symbol: gmx | CMC: GMX | POKLAPANJE (+1)
+    - Name:   GMX | CMC: GMX | POKLAPANJE (+1)
+    - Slug:   gmx | CMC: gmx | POKLAPANJE (+1)
+    Cena: API vratio 8.21 | CMC: 8.19766356092795 | Razlika: 0.15%
+    VOLUMEN 1.02 cmc: 2923400.37412369 ciljna: 2878893
+    ISHOD: UPAREN
+  --- SERVIS: CS ---
+  Kandidat: gmx
+    Skor: skoring(web=2,symbol=1,name=1,slug=1)
+    - Web:    gmx.io/#/?ref=coingecko | CMC: gmx.io/ | POKLAPANJE (+2)
+    - Supply: 10687756 | CMC: 13250000 | NEMA
+    - Symbol: GMX | CMC: GMX | POKLAPANJE (+1)
+    - Name:   GMX | CMC: GMX | POKLAPANJE (+1)
+    - Slug:   gmx | CMC: gmx | POKLAPANJE (+1)
+    Cena: API vratio 8.209978740563237 | CMC: 8.19766356092795 | Razlika: 0.15%
+    VOLUMEN 1.02 cmc: 2923400.37412369 ciljna: 2872579
+    ISHOD: UPAREN
+
