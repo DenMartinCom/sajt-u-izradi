@@ -99,3 +99,4 @@ exxon-mobil-ondo-tokenized-stocks,xomon,Exxon Mobil (Ondo Tokenized Stock),exxon
 mummy-finance,navi,Navigator Exchange,navi-2,navigator.exchange,,"{""sonic"": ""0x6881b80ea7c858e4aeef63893e18a8a36f3682f3"", ""optimistic-ethereum"": ""0x47536f17f4ff30e64a96a7555826b8f9e66ec468""}"
 coinage,coinage,coinage,coinage,coinage.media,,"{""base"": ""0xf4d7fd100b5b03e51261a2e6a673632ef2c68896""}"
 figma-inc-robinhood-token,fig,"Figma, Inc. • Robinhood Token",figma-inc-robinhood-token,docs.robinhood.com,,"{""robinhood"": ""0x41f4267525a8aff329540ef24fd83d9044758b33""}"
+tardi,tardi,Tardi,tardi,tardi.org,,"{""sui"": ""0x4cf08813756dfa7519cb480a1a1a3472b5b4ec067592a8bee0f826808d218158::tardi::TARDI""}"
