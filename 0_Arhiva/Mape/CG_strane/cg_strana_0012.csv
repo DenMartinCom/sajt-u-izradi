@@ -95,3 +95,4 @@ rocky-on-base,$rocky,ROCKY,rocky-on-base,rockycoinbase.com,,"{""base"": ""0x3636
 worm,worm,WORM,worm,worm.cx,,"{""ethereum"": ""0xfc9d98cdb3529f32cd7fb02d175547641e145b29""}"
 aurigami,ply,Aurigami,aurigami,aurigami.finance,,"{""aurora"": ""0x09c9d464b58d96837f8d8b6f4d9fe4ad408d3a4f"", ""ethereum"": ""0x1ab43204a195a0fd37edec621482afd3792ef90b"", ""near-protocol"": ""1ab43204a195a0fd37edec621482afd3792ef90b.factory.bridge.near""}"
 xraders,xr,Xraders,xraders,xraders.xyz,,"{""binance-smart-chain"": ""0x5f78f4bfcb2b43bc174fe16a69a13945cefa2978""}"
+exxon-mobil-ondo-tokenized-stocks,xomon,Exxon Mobil (Ondo Tokenized Stock),exxon-mobil-ondo-tokenized-stock,app.ondo.finance,,"{""ethereum"": ""0xf05ad9840924ea6f977ebccb3b1da87e31dcd0b4"", ""binance-smart-chain"": ""0x4d209d275e3492ac08497a7a42915899c4dd5e86"", ""solana"": ""qCYD74QnXzd9pzv6pGHQKJVwoibL6sNcPQDnpDiondo""}"
