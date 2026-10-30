@@ -241,3 +241,4 @@ supergemma4-26b-multimodal,supergemma,Supergemma4-26b-multimodal,supergemma4-26b
 rektstrategy,rektstr,RektStrategy,rektstrategy,nftstrategy.fun,,"{""ethereum"": ""0xb40ede070d9d9f37e32a106b04b29e20ef6ee26e""}"
 gen-z-quant,quant,Gen Z Quant,gen-z-quant,quant.trading,,"{""solana"": ""3an8rhdepsLCya22af7qDBKPbdomw8K4iCHXaA2Gpump""}"
 pnp-exchange,pnp,PNP Exchange,pnp-exchange,pnp.exchange,,"{""solana"": ""UVcu7kbVKW6Rs5PKzuwVSbm8ukvrWByS3hBXqHapump""}"
+armor,armor,ARMOR,armor,armor.fi,,"{""ethereum"": ""0x1337def16f9b486faed0293eb623dc8395dfe46a""}"
