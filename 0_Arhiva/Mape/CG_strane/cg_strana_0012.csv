@@ -348,3 +348,4 @@ aquabank-btether,busdt,Aquabank bTether,aquabank-btether,aquabank.io,,"{""avalan
 unagi-token,una,Unagi Token,unagi-token,unagi.games,,"{""ethereum"": ""0x0b6f3ea2814f3fff804ba5d5c237aebbc364fba9"", ""base"": ""0x24569d33653c404f90af10a2b98d6e0030d3d267"", ""polygon-pos"": ""0x0b6f3ea2814f3fff804ba5d5c237aebbc364fba9"", ""binance-smart-chain"": ""0x0b6f3ea2814f3fff804ba5d5c237aebbc364fba9""}"
 ourolayer,ouro,OuroLayer,ourolayer,ourolayer.com,,"{""robinhood"": ""0x8ea0eb3505f5b3bd2bbea0febae0ce850cc73ecc""}"
 dog-food-token,oishii,Dog Food Token,dog-food-token,oishiicto.com,,"{""ethereum"": ""0xa1b014878d47c0836ed79163ddec55985adb7023""}"
+donkey-2,donkey,Donkey,donkey-2,,,"{""binance-smart-chain"": ""0xa49fa5e8106e2d6d6a69e78df9b6a20aab9c4444""}"
