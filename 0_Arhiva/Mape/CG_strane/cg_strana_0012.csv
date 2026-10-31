@@ -344,3 +344,4 @@ crypsi-coin,crypsi,Crypsi Coin,crypsi-coin,crypsicoin.com,,"{""solana"": ""5e6Y8
 ixo,ixo,IXO,ixo,ixo.world,,"{""cosmos"": ""ibc/F3FF7A84A73B62921538642F9797C423D2B4C4ACB3C7FCFFCE7F12AA69909C4B"", ""osmosis"": ""ibc/F3FF7A84A73B62921538642F9797C423D2B4C4ACB3C7FCFFCE7F12AA69909C4B""}"
 fusefi,volt,Voltage Finance,voltage-finance,voltage.finance,,"{""fuse"": ""0x34ef2cc892a88415e9f02b91bfa9c91fc0be6bd4""}"
 numogram,gnon,Numogram,numogram,dgnon.ai,,"{""solana"": ""HeJUFDxfJSzYFUuHLxkMqCgytU31G6mjP4wKviwqpump""}"
+aquabank-btether,busdt,Aquabank bTether,aquabank-btether,aquabank.io,,"{""avalanche"": ""0x3c594084dc7ab1864ac69dfd01ab77e8f65b83b7""}"
